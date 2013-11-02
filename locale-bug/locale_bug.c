@@ -15,16 +15,16 @@ int main(void)
 {
     show();
     
-    setlocale(LC_ALL, "es_US");
+    setlocale(LC_ALL, "es_US.UTF-8");
     show();
   
     setlocale(LC_ALL, "de_DE.UTF-8");
     show();
   
-    setlocale(LC_ALL, "es_ES");
+    setlocale(LC_ALL, "es_ES.UTF-8");
     show();
 
-    setlocale(LC_ALL, "ca_ES");
+    setlocale(LC_ALL, "ca_ES.UTF-8");
     show();
 
     return 0;
