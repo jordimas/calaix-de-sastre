@@ -6185,22 +6185,18 @@ msgid "Green blind (deuteranopia)"
 msgstr "Deuteranopia (insensible al verd)"
 
 #: ../src/extension/internal/filter/color.h:263
-#, fuzzy
 msgid "Red weak (protanomaly)"
-msgstr "Protanomalia (vermell-verd)"
+msgstr "Protanomalia (vermell feble)"
 
 #: ../src/extension/internal/filter/color.h:264
-#, fuzzy
 msgid "Red blind (protanopia)"
 msgstr "Protanopia (insensible al vermell)"
 
 #: ../src/extension/internal/filter/color.h:265
-#, fuzzy
 msgid "Blue weak (tritanomaly)"
-msgstr "Tritanomalia (blau-groc)"
+msgstr "Tritanomalia (blau feble)"
 
 #: ../src/extension/internal/filter/color.h:266
-#, fuzzy
 msgid "Blue blind (tritanopia)"
 msgstr "Tritanopia (insensible al blau)"
 
@@ -7739,7 +7735,7 @@ msgstr "Format de gràfics vectorials utilitzat pel Corel WordPerfect"
 
 #: ../src/extension/prefdialog.cpp:276
 msgid "Live preview"
-msgstr "Previsualitza al moment"
+msgstr "Previsualització en viu"
 
 #: ../src/extension/prefdialog.cpp:276
 msgid "Is the effect previewed live on canvas?"
@@ -24730,7 +24726,7 @@ msgstr "Suprimeix l'espaiat _manual"
 #. roughly speaking, how a character looks. A font is a set of glyphs.
 #: ../src/verbs.cpp:2575
 msgid "Remove all manual kerns and glyph rotations from a text object"
-msgstr "Suprimeix els espaiats manuals i les rotacions dels caràcters dels objectes de text"
+msgstr "Suprimeix els espaiats manuals i les rotacions dels glifs dels objectes de text"
 
 #: ../src/verbs.cpp:2577
 msgid "_Union"
@@ -28449,11 +28445,11 @@ msgstr ""
 
 #: ../src/widgets/spray-toolbar.cpp:502 ../src/widgets/spray-toolbar.cpp:503
 msgid "Pick from center instead average area."
-msgstr ""
+msgstr "Tria des del centre en comptes de l'àrea mitjana."
 
 #: ../src/widgets/spray-toolbar.cpp:515 ../src/widgets/spray-toolbar.cpp:516
 msgid "Inverted pick value, retaining color in advanced trace mode"
-msgstr ""
+msgstr "Valor triat invertit, reté el color en el mode de traça"
 
 #: ../src/widgets/spray-toolbar.cpp:528 ../src/widgets/spray-toolbar.cpp:529
 msgid "Apply picked color to fill"
@@ -28497,7 +28493,7 @@ msgstr "Desplaçament %:"
 
 #: ../src/widgets/spray-toolbar.cpp:609
 msgid "Increase to segregate objects more (value in percent)"
-msgstr ""
+msgstr "Incrementa per segregar més els objectes (valor en percentatge)"
 
 #: ../src/widgets/star-toolbar.cpp:103
 msgid "Star: Change number of corners"
@@ -28914,24 +28910,20 @@ msgid "Horizontal"
 msgstr "Horitzontal"
 
 #: ../src/widgets/text-toolbar.cpp:1757
-#, fuzzy
 msgid "Vertical — RL"
-msgstr "U~RL"
+msgstr "Vertical — DE"
 
 #: ../src/widgets/text-toolbar.cpp:1758
-#, fuzzy
 msgid "Vertical text — lines: right to left"
-msgstr "Pleca doble esquerra i dreta"
+msgstr "Text vertical —  línies: dreta a esquerra"
 
 #: ../src/widgets/text-toolbar.cpp:1764
-#, fuzzy
 msgid "Vertical — LR"
-msgstr "d'esquerra a dreta, de dalt a baix"
+msgstr "Vertical  — ED"
 
 #: ../src/widgets/text-toolbar.cpp:1765
-#, fuzzy
 msgid "Vertical text — lines: left to right"
-msgstr "Pleca doble esquerra i dreta"
+msgstr "Text vertical —  línies: esquerra a dreta"
 
 #. Name
 #: ../src/widgets/text-toolbar.cpp:1770
@@ -28957,12 +28949,11 @@ msgstr "Orientació vertical del glif"
 
 #: ../src/widgets/text-toolbar.cpp:1815
 msgid "Sideways"
-msgstr ""
+msgstr "De costat"
 
 #: ../src/widgets/text-toolbar.cpp:1816
-#, fuzzy
 msgid "Sideways glyph orientation"
-msgstr "Orientació"
+msgstr "Orienta el glif de costat"
 
 #. Name
 #: ../src/widgets/text-toolbar.cpp:1822
@@ -28971,9 +28962,8 @@ msgstr "Orientació del text"
 
 #. Label
 #: ../src/widgets/text-toolbar.cpp:1823
-#, fuzzy
 msgid "Text (glyph) orientation in vertical text."
-msgstr "Títol vertical i text vertical"
+msgstr "Orientació del text (glif) en text vertical."
 
 #. Drop down menu
 #: ../src/widgets/text-toolbar.cpp:1856
@@ -29820,9 +29810,8 @@ msgid "Movements"
 msgstr "Moviments"
 
 #: ../share/extensions/hpgl_decoder.py:43
-#, fuzzy
 msgid "Pen "
-msgstr "Ploma #"
+msgstr "Ploma "
 
 #. issue error if no hpgl data found
 #: ../share/extensions/hpgl_input.py:56
@@ -33085,13 +33074,12 @@ msgid "Interpolate style"
 msgstr "Estil d'interpolació"
 
 #: ../share/extensions/interp.inx.h:7 ../share/extensions/interp_att_g.inx.h:10
-#, fuzzy
 msgid "Use Z-order"
-msgstr "Ordenació en Z"
+msgstr "Usa ordenació en Z"
 
 #: ../share/extensions/interp.inx.h:8 ../share/extensions/interp_att_g.inx.h:11
 msgid "Workaround for reversed selection order in Live Preview cycles"
-msgstr ""
+msgstr "Solució temporal per l'ordre de selecció invers en els cicles de previsualització en viu"
 
 #: ../share/extensions/interp_att_g.inx.h:1
 msgid "Interpolate Attribute in a group"
@@ -33646,29 +33634,24 @@ msgid "Shift node handles"
 msgstr "Canvia els punts de control de nodes"
 
 #: ../share/extensions/jitternodes.inx.h:7
-#, fuzzy
 msgid "Distribution of the displacements:"
-msgstr "Distribució"
+msgstr "Distribució dels desplaçaments:"
 
 #: ../share/extensions/jitternodes.inx.h:8
-#, fuzzy
 msgid "Uniform"
-msgstr "Uniforma"
+msgstr "Uniforme"
 
 #: ../share/extensions/jitternodes.inx.h:9
-#, fuzzy
 msgid "Pareto"
 msgstr "Pareto"
 
 #: ../share/extensions/jitternodes.inx.h:10
-#, fuzzy
 msgid "Gaussian"
-msgstr "Gaussià"
+msgstr "Gaussiana"
 
 #: ../share/extensions/jitternodes.inx.h:11
-#, fuzzy
 msgid "Log-normal"
-msgstr "El valor de la mitjana de la distribució log normal."
+msgstr "Log-normal"
 
 #: ../share/extensions/jitternodes.inx.h:13
 msgid "This effect randomly shifts the nodes (and optionally node handles) of the selected path."
@@ -33951,36 +33934,29 @@ msgid "Measurement Type: "
 msgstr "Tipus de mesura: "
 
 #: ../share/extensions/measure.inx.h:4
-#, fuzzy
 msgid "Text Presets"
-msgstr "Cap predefinició"
+msgstr "Predefinicions del text"
 
 #: ../share/extensions/measure.inx.h:6
-#, fuzzy
 msgid "Text on Path"
 msgstr "Text al camí"
 
 #: ../share/extensions/measure.inx.h:8
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Offset (%)"
-msgstr "Desplaçament..."
+msgstr "Desplaçament (%)"
 
 #: ../share/extensions/measure.inx.h:9
-#, fuzzy
 msgid "Text anchor:"
-msgstr "àncora del text"
+msgstr "Àncora del text:"
 
 #: ../share/extensions/measure.inx.h:10
-#, fuzzy
 msgid "Fixed Text"
-msgstr ""
-"Seguiu seleccionant i inserint camps de la base de dades si voleu que l'etiqueta contingui més camps. Podeu prémer "
-"Retorn per inserir una línia nova i podeu escriure qualsevol caràcter per inserir text fix."
+msgstr "Text fix"
 
 #: ../share/extensions/measure.inx.h:11
-#, fuzzy
 msgid "Angle (°):"
-msgstr "&Angle (a):"
+msgstr "Angle (°):"
 
 #: ../share/extensions/measure.inx.h:12
 msgid "Font size (px):"
@@ -34009,54 +33985,42 @@ msgid "Center of Mass"
 msgstr "Centre de masses"
 
 #: ../share/extensions/measure.inx.h:21
-#, fuzzy
 msgid "Text on Path, Start"
-msgstr "Camí per unir el començament del camí"
+msgstr "Text al camí, inici"
 
 #: ../share/extensions/measure.inx.h:22
-#, fuzzy
 msgid "Text on Path, Middle"
-msgstr "Text alineat al mig"
+msgstr "Text al camí, al mig"
 
 #: ../share/extensions/measure.inx.h:23
-#, fuzzy
 msgid "Text on Path, End"
-msgstr "Camí del final del final de la corba:"
+msgstr "Text al camí, al final"
 
 #: ../share/extensions/measure.inx.h:24
-#, fuzzy
 msgid "Fixed Text, Start of Path"
-msgstr "Camí d'inici:"
+msgstr "Text fix, inici del camí"
 
 #: ../share/extensions/measure.inx.h:25
-#, fuzzy
 msgid "Fixed Text, Center of BBox"
-msgstr "Redimensiona mantenint el centre fix"
+msgstr "Text fix, centre de la capsa"
 
 #: ../share/extensions/measure.inx.h:26
-#, fuzzy
 msgid "Fixed Text, Center of Mass"
-msgstr "Posició del centre de massa"
+msgstr "Text fix, centre de masses"
 
 #: ../share/extensions/measure.inx.h:28
-#, fuzzy
 msgid "Center"
-msgstr "Central"
+msgstr "Centre"
 
 #: ../share/extensions/measure.inx.h:30
-#, fuzzy
 msgid "Start of Path"
-msgstr ""
-"<b>Cliqueu</b> o <b>cliqueu i arrossegueu</b> per començar un camí; amb <b>Maj</b> ho afegiu al camí seleccionat. <b>Ctrl"
-"+clic</b> per crear punts dispersos (per al mode de línies rectes només)."
+msgstr "Inici del camí"
 
 #: ../share/extensions/measure.inx.h:31
-#, fuzzy
 msgid "Center of BBox"
 msgstr "Centre de la capsa"
 
 #: ../share/extensions/measure.inx.h:32
-#, fuzzy
 msgid "Center of Mass"
 msgstr "Centre de masses"
 
@@ -34131,177 +34095,140 @@ msgid "NiceCharts"
 msgstr ""
 
 #: ../share/extensions/nicechart.inx.h:2
-#, fuzzy
 msgid "Data"
-msgstr "DADES"
+msgstr "Dades"
 
 #: ../share/extensions/nicechart.inx.h:3
-#, fuzzy
 msgid "Data from file"
-msgstr "Importa dades CSV des d'un fitxer"
+msgstr "Dades des d'un fitxer"
 
 #: ../share/extensions/nicechart.inx.h:5
-#, fuzzy
 msgid "Delimiter:"
 msgstr "Delimitador:"
 
 #: ../share/extensions/nicechart.inx.h:6
-#, fuzzy
 msgid "Column that contains the keys:"
-msgstr "La primera columna té encapçalaments"
+msgstr "Columna que conté les claus:"
 
 #: ../share/extensions/nicechart.inx.h:7
-#, fuzzy
 msgid "Column that contains the values:"
-msgstr ""
-"La columna A conté diversos valors X1; la columna B, diversos valors X2, i la columna C, els valors Y. Ja heu introduït "
-"els valors en el full de càlcul. Heu configurat E2:G6 en el full de càlcul i heu activat l'<emph>Auxiliar de funcions</"
-"emph>. Perquè la funció ESTLIN funcioni, heu d'haver activat la casella de selecció <emph>Matriu</emph> a "
-"l'<emph>Auxiliar de funcions</emph>. Tot seguit, seleccioneu els valors següents en el full de càlcul (o introduïu-los "
-"mitjançant el teclat):"
+msgstr "Columna que conté els valors:"
 
 #: ../share/extensions/nicechart.inx.h:8
-#, fuzzy
 msgid "File encoding (e.g. utf-8):"
-msgstr "L'arxiu ha de estar codificat en UTF-8"
+msgstr "Codificació del fitxer (p. ex. utf-8):"
 
 #: ../share/extensions/nicechart.inx.h:9
-#, fuzzy
 msgid "First line contains headings"
-msgstr "La primera línia conté el codi de les preguntes:"
+msgstr "La primera línia conté el codi encapçalaments"
 
 #: ../share/extensions/nicechart.inx.h:10
-#, fuzzy
 msgid "Direct input"
 msgstr "Entrada directa"
 
 #: ../share/extensions/nicechart.inx.h:11
-#, fuzzy
 msgid "Data:"
 msgstr "Dades:"
 
 #: ../share/extensions/nicechart.inx.h:12
-#, fuzzy
 msgid "Enter the full path to a CSV file:"
-msgstr "Camí complet al fitxer de registre:"
+msgstr "Introduïu el camí complet al fitxer CSV:"
 
 #: ../share/extensions/nicechart.inx.h:13
-#, fuzzy
 msgid "Type in comma separated values:"
-msgstr "Valors Separats per Comes (*.csv)"
+msgstr "Introduïu els valors separats per comes:"
 
 #: ../share/extensions/nicechart.inx.h:14
 msgid "(format like this: apples:3,bananas:5)"
-msgstr ""
+msgstr "(format com ara: pomes:3,plàtans:5)"
 
 #: ../share/extensions/nicechart.inx.h:15
-#, fuzzy
 msgid "Labels"
 msgstr "Etiquetes"
 
 #: ../share/extensions/nicechart.inx.h:16
-#, fuzzy
 msgid "Font:"
 msgstr "Tipus de lletra:"
 
 #: ../share/extensions/nicechart.inx.h:18
-#, fuzzy
 msgid "Font color:"
 msgstr "Color de la lletra:"
 
 #: ../share/extensions/nicechart.inx.h:19
-#, fuzzy
 msgid "Charts"
 msgstr "Diagrames"
 
 #: ../share/extensions/nicechart.inx.h:20
-#, fuzzy
 msgid "Draw horizontally"
-msgstr "Horitzontalment"
+msgstr "Dibuixa horitzontalment"
 
 #: ../share/extensions/nicechart.inx.h:21
-#, fuzzy
 msgid "Bar length:"
-msgstr "Longitud mínima de les barres (%):"
+msgstr "Longitud de la barra:"
 
 #: ../share/extensions/nicechart.inx.h:22
-#, fuzzy
 msgid "Bar width:"
-msgstr "Amplada de la barra"
+msgstr "Amplada de la barra:"
 
 #: ../share/extensions/nicechart.inx.h:23
-#, fuzzy
 msgid "Pie radius:"
-msgstr "Amb aquest radi"
+msgstr "Radi del pastís:"
 
 #: ../share/extensions/nicechart.inx.h:24
-#, fuzzy
 msgid "Bar offset:"
-msgstr "Desplaçament..."
+msgstr "Desplaçament de la barra:"
 
 #: ../share/extensions/nicechart.inx.h:26
-#, fuzzy
 msgid "Offset between chart and labels:"
-msgstr "Anima les _transicions entre etiquetes"
+msgstr "Desplaçament entre diagrama i etiquetes:"
 
 #: ../share/extensions/nicechart.inx.h:27
-#, fuzzy
 msgid "Offset between chart and chart title:"
-msgstr "Modifica l'alineació del títol del diagrama."
+msgstr "Desplaçament entre diagrama i els títols:"
 
 #: ../share/extensions/nicechart.inx.h:28
 msgid "Work around aliasing effects (creates overlapping segments)"
 msgstr ""
 
 #: ../share/extensions/nicechart.inx.h:29
-#, fuzzy
 msgid "Color scheme:"
 msgstr "Esquema de colors:"
 
 #: ../share/extensions/nicechart.inx.h:30
-#, fuzzy
 msgid "Custom colors:"
-msgstr "&Colors Personalitzats"
+msgstr "Colors Personalitzats:"
 
 #: ../share/extensions/nicechart.inx.h:31
-#, fuzzy
 msgid "Reverse color scheme"
-msgstr "Sense esquema de color"
+msgstr "Inverteix l'esquema de color"
 
 #: ../share/extensions/nicechart.inx.h:32
-#, fuzzy
 msgid "Drop shadow"
-msgstr "Ombra"
+msgstr "Descarta l'ombra"
 
 #: ../share/extensions/nicechart.inx.h:37
-#, fuzzy
 msgid "SAP"
 msgstr "SAP"
 
 #: ../share/extensions/nicechart.inx.h:38
-#, fuzzy
 msgid "Values"
 msgstr "Valors"
 
 #: ../share/extensions/nicechart.inx.h:39
-#, fuzzy
 msgid "Show values"
-msgstr "Mo&stra els valors"
+msgstr "Mostra els valors"
 
 #: ../share/extensions/nicechart.inx.h:40
-#, fuzzy
 msgid "Chart type:"
-msgstr "Tipus de gràfic:"
+msgstr "Tipus de diagrama:"
 
 #: ../share/extensions/nicechart.inx.h:41
-#, fuzzy
 msgid "Bar chart"
 msgstr "Diagrama de barres"
 
 #: ../share/extensions/nicechart.inx.h:42
-#, fuzzy
 msgid "Pie chart"
-msgstr "Gràfic circular"
+msgstr "Diagrama de pastís"
 
 #: ../share/extensions/nicechart.inx.h:43
 #, fuzzy
@@ -35334,9 +35261,8 @@ msgid ""
 msgstr ""
 
 #: ../share/extensions/scour.inx.h:15
-#, fuzzy
 msgid "Keep unreferenced definitions"
-msgstr "node sense referenciar `%s'"
+msgstr "Mantén les definicions sense referenciar"
 
 #: ../share/extensions/scour.inx.h:16
 msgid "Keep element definitions that are not currently used in the SVG"
@@ -35351,9 +35277,8 @@ msgid "Works around some common renderer bugs (mainly libRSVG) at the cost of a 
 msgstr ""
 
 #: ../share/extensions/scour.inx.h:20
-#, fuzzy
 msgid "Remove the XML declaration"
-msgstr "Suprimeix la declaració xml"
+msgstr "Suprimeix la declaració XML"
 
 #: ../share/extensions/scour.inx.h:21
 msgid ""
