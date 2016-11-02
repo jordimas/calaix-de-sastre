@@ -8,6 +8,7 @@
 # Xavier Conde Rueda <xavi.conde@gmail.com>, 2004-2008.
 # Joaquim Perez i Noguer <noguer@gmail.com>, 2008-2010.
 # Jordi Mas i Hernàndez, <jmas@softcatala.org>, 2015-2016
+# Jordi Serratosa Quintana, <jordis@softcatala.cat>, 2015-2016
 # Eulàlia Pagès, <eulaliapages@gmail.com>, 2015
 # Xavier Beà, <xavier.bea@gmail.com>, 2015
 # Carles Ferrando, <carles.ferrando@gmail.com>, 2015
@@ -1148,7 +1149,7 @@ msgstr "Transparència pastosa"
 
 #: ../share/filters/filters.svg.h:460
 msgid "Paint objects with a transparent turbulence which turns around color edges"
-msgstr "Pinta els objectes amb una turbulència transparent que gira al voltant  de les vores colorejades"
+msgstr "Pinta els objectes amb una turbulència transparent que gira al voltant de les vores acolorides"
 
 #: ../share/filters/filters.svg.h:462
 msgid "Thick Paint"
@@ -1507,7 +1508,7 @@ msgstr "Remolí"
 
 #: ../share/filters/filters.svg.h:636
 msgid "Paint objects with a transparent turbulence which wraps around color edges"
-msgstr "Pinta els objectes amb una turbulència transparent que gira al voltant de les vores colorejades"
+msgstr "Pinta els objectes amb una turbulència transparent que gira al voltant de les vores acolorides"
 
 #: ../share/filters/filters.svg.h:638
 msgid "Pointillism"
@@ -1696,7 +1697,7 @@ msgstr "Pintura semblant als dibuixos de còmic amb descoloriment a les vores"
 
 #: ../share/filters/filters.svg.h:742
 msgid "Brushed Metal"
-msgstr "Metall erosionat"
+msgstr "Metall polit"
 
 #: ../share/filters/filters.svg.h:744
 msgid "Satiny metal surface effect"
@@ -2028,7 +2029,7 @@ msgstr "Verd (#008000)"
 #: ../share/palettes/palettes.h:21
 msgctxt "Palette"
 msgid "Lime (#00FF00)"
-msgstr "Lima (#00FF00)"
+msgstr "Llima (#00FF00)"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:22
@@ -2670,7 +2671,7 @@ msgstr "Blau acer (#4682B4)"
 #: ../share/palettes/palettes.h:128
 msgctxt "Palette"
 msgid "aliceblue (#F0F8FF)"
-msgstr "Blau alicia (#F0F8FF)"
+msgstr "Blau Alícia (#F0F8FF)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:129
@@ -4568,15 +4569,15 @@ msgstr "Intersecció de camins"
 
 #: ../src/display/snap-indicator.cpp:121
 msgid "guide-path intersection"
-msgstr "Intersecció de guies"
+msgstr "Intersecció de camins guia"
 
 #: ../src/display/snap-indicator.cpp:124
 msgid "clip-path"
-msgstr "Retalla-camí"
+msgstr "camí de retall"
 
 #: ../src/display/snap-indicator.cpp:127
 msgid "mask-path"
-msgstr "Amaga-camí"
+msgstr "camí de màscara"
 
 #: ../src/display/snap-indicator.cpp:130
 msgid "bounding box corner"
@@ -4800,12 +4801,12 @@ msgid ""
 "  This is caused by an improper .inx file for this extension.  An improper .inx file could have been caused by a faulty "
 "installation of Inkscape."
 msgstr ""
-" S'ha produït degut a un fiter .inx inadequat per a aquesta extensió. Un fitxer .inx inadequat pot ser degut a una "
-"instal·lació amb errors de l'Inkscape."
+" S'ha produït a causa d'un fitxer .inx inadequat per a aquesta extensió. Un fitxer .inx inadequat pot ser a causa d'una "
+"instal·lació incorrecta de l'Inkscape."
 
 #: ../src/extension/extension.cpp:277
 msgid "the extension is designed for Windows only."
-msgstr "l'extensió està dissenyada sols per Windows."
+msgstr "l'extensió està dissenyada només per al Windows."
 
 #: ../src/extension/extension.cpp:282
 msgid "an ID was not defined for it."
@@ -5766,7 +5767,7 @@ msgstr "Difuminat vertical"
 
 #: ../src/extension/internal/filter/blurs.h:58
 msgid "Blur content only"
-msgstr "Difumina sols l'interior"
+msgstr "Difumina només l'interior"
 
 #: ../src/extension/internal/filter/blurs.h:66
 msgid "Simple vertical and horizontal blur effect"
@@ -5957,7 +5958,7 @@ msgstr "Difosa"
 #: ../src/libgdl/gdl-dock-placeholder.c:175 ../src/libgdl/gdl-dock.c:199 ../src/ui/widget/page-sizer.cpp:250
 #: ../src/widgets/rect-toolbar.cpp:334 ../share/extensions/interp_att_g.inx.h:13
 msgid "Height"
-msgstr "Alta"
+msgstr "Alçada"
 
 #: ../src/extension/internal/filter/bumps.h:99 ../src/extension/internal/filter/bumps.h:330
 #: ../src/extension/internal/filter/color.h:77 ../src/extension/internal/filter/color.h:899
@@ -6210,7 +6211,7 @@ msgstr "Canvi de color"
 
 #: ../src/extension/internal/filter/color.h:331
 msgid "Shift (°)"
-msgstr "Maj (°)"
+msgstr "Desplaçament (°)"
 
 #: ../src/extension/internal/filter/color.h:340
 msgid "Rotate and desaturate hue"
@@ -6313,7 +6314,7 @@ msgstr "Canvia els valors de la luminància a una paleta bicrom"
 
 #: ../src/extension/internal/filter/color.h:709
 msgid "Extract Channel"
-msgstr "Extreure un canal"
+msgstr "Extreu un canal"
 
 #: ../src/extension/internal/filter/color.h:715 ../src/ui/widget/color-icc-selector.cpp:190
 #: ../src/ui/widget/color-icc-selector.cpp:195 ../src/ui/widget/color-scales.cpp:439 ../src/ui/widget/color-scales.cpp:440
@@ -6480,11 +6481,11 @@ msgstr "Desplaçament del blau"
 
 #: ../src/extension/internal/filter/color.h:1290
 msgid "Nudge RGB channels separately and blend them to different types of backgrounds"
-msgstr "Ajusta els canals de l'RGB separats i barreja'ls amb diferents tipus de fons"
+msgstr "Ajusta els canals RGB separats i barreja'ls amb diferents tipus de fons"
 
 #: ../src/extension/internal/filter/color.h:1377
 msgid "Nudge CMY"
-msgstr "Ajusta l'CMY"
+msgstr "Ajusta el CMY"
 
 #: ../src/extension/internal/filter/color.h:1381
 msgid "Cyan offset"
@@ -6500,7 +6501,7 @@ msgstr "Desplaçament del groc"
 
 #: ../src/extension/internal/filter/color.h:1402
 msgid "Nudge CMY channels separately and blend them to different types of backgrounds"
-msgstr "Ajusta els canals de l'CMY separats i barreja'ls amb diferents tipus de fons"
+msgstr "Ajusta els canals CMY separats i barreja'ls amb diferents tipus de fons"
 
 #: ../src/extension/internal/filter/color.h:1483
 msgid "Quadritone fantasy"
@@ -6544,7 +6545,7 @@ msgstr "Fosforescència"
 
 #: ../src/extension/internal/filter/color.h:1664
 msgid "Colored nights"
-msgstr "Nits colorejades"
+msgstr "Nits acolorides"
 
 #: ../src/extension/internal/filter/color.h:1665
 msgid "Hue to background"
@@ -6871,11 +6872,11 @@ msgstr "Textura bàsica de transparència del soroll"
 
 #: ../src/extension/internal/filter/paint.h:71
 msgid "Chromolitho"
-msgstr "Cromolit"
+msgstr "Cromolitografia"
 
 #: ../src/extension/internal/filter/paint.h:75 ../share/extensions/jessyInk_keyBindings.inx.h:16
 msgid "Drawing mode"
-msgstr "Mode dibuix"
+msgstr "Mode de dibuix"
 
 #: ../src/extension/internal/filter/paint.h:76
 msgid "Drawing blend:"
@@ -6968,7 +6969,7 @@ msgstr "Converteix les imatges en dibuixos bicroms"
 
 #: ../src/extension/internal/filter/paint.h:494
 msgid "Electrize"
-msgstr "Electritzar"
+msgstr "Electritza"
 
 #: ../src/extension/internal/filter/paint.h:497 ../src/extension/internal/filter/paint.h:852
 msgid "Effect type:"
@@ -7250,7 +7251,7 @@ msgstr "Retalla"
 
 #: ../src/extension/internal/filter/transparency.h:353
 msgid "Repaint anything visible monochrome"
-msgstr "Repintar l'objecte visible en monocrom"
+msgstr "Repinta tot allò visible en monocrom"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:188
 #, c-format
@@ -7514,7 +7515,7 @@ msgstr "aspre"
 #. Font option
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:159
 msgid "Replace PDF fonts by closest-named installed fonts"
-msgstr "Substitueix les tipografies del PDF amb les que més s'hi assemblin"
+msgstr "Substitueix les tipografies del PDF per les que més s'hi assemblin"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:161
 msgid "Embed images"
@@ -7764,7 +7765,7 @@ msgstr "No s'ha desat el document. És irreversible."
 
 #: ../src/file.cpp:381
 msgid "Changes will be lost! Are you sure you want to reload document %1?"
-msgstr "Es perdran els canvis. Esteu segur que voleu tornar a carregar el document %s?"
+msgstr "Es perdran els canvis. Esteu segur que voleu tornar a carregar el document %1?"
 
 #: ../src/file.cpp:407
 msgid "Document reverted."
@@ -7978,7 +7979,7 @@ msgstr "De luminància a transparència"
 #: ../share/extensions/jessyInk_transitions.inx.h:7 ../share/extensions/measure.inx.h:20
 #: ../share/extensions/nicechart.inx.h:33
 msgid "Default"
-msgstr "Predeterminat"
+msgstr "Per defecte"
 
 #. New CSS
 #: ../src/filter-enums.cpp:95
@@ -8023,7 +8024,7 @@ msgstr "Duplica"
 
 #: ../src/filter-enums.cpp:121
 msgid "Wrap"
-msgstr "Envoltar"
+msgstr "Ajusta"
 
 #: ../src/filter-enums.cpp:122
 msgctxt "Convolve matrix, edge mode"
@@ -8064,7 +8065,7 @@ msgstr "Degradat invertit"
 
 #: ../src/gradient-chemistry.cpp:1627 ../src/widgets/gradient-selector.cpp:222
 msgid "Delete swatch"
-msgstr "Eliminar la mostra"
+msgstr "Elimina la mostra"
 
 #: ../src/gradient-drag.cpp:95 ../src/ui/tools/gradient-tool.cpp:90
 msgid "Linear gradient <b>start</b>"
@@ -8361,11 +8362,11 @@ msgstr "S'ha intentat acoblar un element deslligat %p"
 
 #: ../src/libgdl/gdl-dock-master.c:141 ../src/libgdl/gdl-dock.c:184
 msgid "Default title"
-msgstr "Títol predeterminat"
+msgstr "Títol per defecte"
 
 #: ../src/libgdl/gdl-dock-master.c:142
 msgid "Default title for newly created floating docks"
-msgstr "Títol predeterminat per als nous acobladors flotants"
+msgstr "Títol per defecte per als nous acobladors flotants"
 
 #: ../src/libgdl/gdl-dock-master.c:149
 msgid ""
@@ -8617,7 +8618,7 @@ msgstr "Traç dinàmic"
 
 #: ../src/live_effects/effect.cpp:105 ../share/extensions/extrude.inx.h:1
 msgid "Extrude"
-msgstr "Extrudir"
+msgstr "Extrudeix"
 
 #: ../src/live_effects/effect.cpp:106
 msgid "Lattice Deformation"
@@ -8963,7 +8964,7 @@ msgstr "Canvieu el percentatge de pes de l'efecte"
 
 #: ../src/live_effects/lpe-bspline.cpp:99
 msgid "Default weight"
-msgstr "Pes predeterminat"
+msgstr "Pes per defecte"
 
 #: ../src/live_effects/lpe-bspline.cpp:104
 msgid "Make cusp"
@@ -8971,7 +8972,7 @@ msgstr "Fes una cúspide"
 
 #: ../src/live_effects/lpe-bspline.cpp:148
 msgid "Change to default weight"
-msgstr "Canvia al pes predeterminat"
+msgstr "Canvia al pes per defecte"
 
 #: ../src/live_effects/lpe-bspline.cpp:154
 msgid "Change to 0 weight"
@@ -9092,7 +9093,7 @@ msgstr "Variabilitat _final de la vora:"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:45
 msgid "The amount of randomness that moves the end points of the stitches inside & outside the guide path"
-msgstr "La quantitat d'aleatorietat amb què s'acabaran movent-se els punts finals del camí cap endins i cap enfora"
+msgstr "La quantitat d'aleatorietat amb què es mouran els punts finals del camí cap endins i cap enfora"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:46
 msgid "End spa_cing variance:"
@@ -9489,7 +9490,7 @@ msgstr "En unitats d'amplada del traç"
 
 #: ../src/live_effects/lpe-knot.cpp:351
 msgid "Consider 'Interruption width' as a ratio of stroke width"
-msgstr "Considerar l'amplada de la interrupció en relació al gruix del traç"
+msgstr "Considera l'amplada de la interrupció en relació a l'amplada del traç"
 
 #: ../src/live_effects/lpe-knot.cpp:352
 msgid "St_roke width"
@@ -10783,7 +10784,7 @@ msgstr "Seleccioneu l'original"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:90 ../src/widgets/gradient-toolbar.cpp:1205
 msgid "Reverse"
-msgstr "Invertir"
+msgstr "Inverteix"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:130 ../src/live_effects/parameter/originalpatharray.cpp:315
 #: ../src/live_effects/parameter/path.cpp:508
@@ -11042,7 +11043,7 @@ msgstr "Exporta el document en un fitxer Windows Metafile (WMF)"
 
 #: ../src/main.cpp:444
 msgid "Convert text object to paths on export (PS, EPS, PDF, SVG)"
-msgstr "Converteix els objectes-text en camins per exportar (PS, EPS, PDF, SVG)"
+msgstr "Converteix els objectes de text en camins en exportar (PS, EPS, PDF, SVG)"
 
 #: ../src/main.cpp:449
 msgid "Render filtered objects without filters, instead of rasterizing (PS, EPS, PDF)"
@@ -11264,7 +11265,7 @@ msgstr "Seleccioneu els <b>objectes</b> per convertir en camí."
 
 #: ../src/path-chemistry.cpp:301
 msgid "Converting objects to paths..."
-msgstr "Convertint els objectes en camins..."
+msgstr "S'estan convertint els objectes en camins..."
 
 #: ../src/path-chemistry.cpp:320
 msgid "Object to path"
@@ -11324,7 +11325,7 @@ msgstr "Traçat"
 
 #: ../src/preferences.cpp:136
 msgid "Inkscape will run with default settings, and new settings will not be saved. "
-msgstr "L'Inkscape s'executarà amb la configuració predeterminada, i no es desarà la nova configuració."
+msgstr "L'Inkscape s'executarà amb la configuració per defecte, i no es desarà la nova configuració."
 
 #. the creation failed
 #. _reportError(Glib::ustring::compose(_("Cannot create profile directory %1."),
@@ -11422,7 +11423,7 @@ msgstr "Data:"
 
 #: ../src/rdf.cpp:239
 msgid "A point or period of time associated with an event in the lifecycle of the resource"
-msgstr "Data associada a un succés en el cicle de vida del document"
+msgstr "Data associada a un esdeveniment en el cicle de vida del document"
 
 #: ../src/rdf.cpp:241 ../share/extensions/webslicer_create_rect.inx.h:3
 msgid "Format:"
@@ -11547,7 +11548,7 @@ msgstr "Fragment XML per a la secció «Llicència» d'RDF"
 
 #: ../src/resource-manager.cpp:336
 msgid "Fixup broken links"
-msgstr "Reparar els enllaços trencats"
+msgstr "Repara els enllaços trencats"
 
 #: ../src/selection-chemistry.cpp:401
 msgid "Delete text"
@@ -11622,7 +11623,7 @@ msgstr "No podeu pujar/baixar objectes de <b>grups</b> o <b>capes diferents</b>.
 #: ../src/selection-chemistry.cpp:1031
 msgctxt "Undo action"
 msgid "Raise"
-msgstr "Pujar"
+msgstr "Puja"
 
 #: ../src/selection-chemistry.cpp:1039
 msgid "Select <b>object(s)</b> to raise to top."
@@ -11905,7 +11906,7 @@ msgstr "Seleccioneu els <b>objectes</b> per fer-ne una còpia del mapa de bits."
 
 #: ../src/selection-chemistry.cpp:3554
 msgid "Rendering bitmap..."
-msgstr "Generant el mapa de bits..."
+msgstr "S'està generant el mapa de bits..."
 
 #: ../src/selection-chemistry.cpp:3739
 msgid "Create bitmap"
@@ -12000,7 +12001,7 @@ msgstr " en el grup %s (%s)"
 #: ../src/selection-describer.cpp:181
 #, c-format
 msgid " in unnamed group (%s)"
-msgstr " en el grup (%s)"
+msgstr " en el grup sense nom (%s)"
 
 #: ../src/selection-describer.cpp:183
 #, c-format
@@ -12018,11 +12019,11 @@ msgstr[1] " en <b>%i</b> capes"
 
 #: ../src/selection-describer.cpp:198
 msgid "Convert symbol to group to edit"
-msgstr "Converteix un símbol a grup per editar-lo"
+msgstr "Convertiu un símbol a grup per editar-lo"
 
 #: ../src/selection-describer.cpp:202
 msgid "Remove from symbols tray to edit symbol"
-msgstr "Treure'ls de la safata dels símbols per editar-los"
+msgstr "Elimineu el símbol de la safata de símbols per editar-lo"
 
 #: ../src/selection-describer.cpp:208
 msgid "Use <b>Shift+D</b> to look up original"
@@ -13681,7 +13682,7 @@ msgstr "Per clonar diversos objectes, <b>agrupeu-los</b> i <b>cloneu el grup</b>
 
 #: ../src/ui/dialog/clonetiler.cpp:2253
 msgid "<small>Creating tiled clones...</small>"
-msgstr "<small>S'estan creant clons en mosaic.</small>"
+msgstr "<small>S'estan creant clons en mosaic...</small>"
 
 #: ../src/ui/dialog/clonetiler.cpp:2670
 msgid "Create tiled clones"
@@ -13702,7 +13703,7 @@ msgstr "<small>Aleatoritza:</small>"
 #: ../src/ui/dialog/color-item.cpp:127
 #, c-format
 msgid "Color: <b>%s</b>; <b>Click</b> to set fill, <b>Shift+click</b> to set stroke"
-msgstr "Color: <b>%s</b>; <b>Clic</b> per definir l'emplenat, <b>Maj+clic</b> per a definir el traç"
+msgstr "Color: <b>%s</b>; <b>Clic</b> per definir l'emplenat, <b>Maj+clic</b> per definir el traç"
 
 #: ../src/ui/dialog/color-item.cpp:505
 msgid "Change color definition"
@@ -14081,7 +14082,7 @@ msgstr "Scripts incrustats"
 
 #: ../src/ui/dialog/document-properties.cpp:806
 msgid "<b>External script files:</b>"
-msgstr "<b>Fitxers d'scripts externs:</b>"
+msgstr "<b>Fitxers de scripts externs:</b>"
 
 #: ../src/ui/dialog/document-properties.cpp:808
 msgid "Add the current file name or browse for a file"
@@ -14098,7 +14099,7 @@ msgstr "Nom de fitxer"
 
 #: ../src/ui/dialog/document-properties.cpp:883
 msgid "<b>Embedded script files:</b>"
-msgstr "<b>Fitxers d'scripts incrustats:</b>"
+msgstr "<b>Fitxers de scripts incrustats:</b>"
 
 #: ../src/ui/dialog/document-properties.cpp:885 ../src/ui/dialog/objects.cpp:1894
 msgid "New"
@@ -14106,7 +14107,7 @@ msgstr "Nou"
 
 #: ../src/ui/dialog/document-properties.cpp:952
 msgid "Script id"
-msgstr "Id d'script"
+msgstr "Id de script"
 
 #: ../src/ui/dialog/document-properties.cpp:958
 msgid "<b>Content:</b>"
@@ -14114,19 +14115,19 @@ msgstr "<b>Contingut:</b>"
 
 #: ../src/ui/dialog/document-properties.cpp:1075
 msgid "_Save as default"
-msgstr "De_sa com a predeterminat"
+msgstr "De_sa com a valor per defecte"
 
 #: ../src/ui/dialog/document-properties.cpp:1076
 msgid "Save this metadata as the default metadata"
-msgstr "Desa aquesta metadada com a predeterminada"
+msgstr "Desa aquesta metadada com a valor per defecte"
 
 #: ../src/ui/dialog/document-properties.cpp:1077
 msgid "Use _default"
-msgstr "Usa com a pre_determinat"
+msgstr "Usa el valor per _defecte"
 
 #: ../src/ui/dialog/document-properties.cpp:1078
 msgid "Use the previously saved default metadata here"
-msgstr "Usa aquí la metadada predeterminada desada prèviament"
+msgstr "Usa aquí la metadada per defecte desada prèviament"
 
 #. inform the document, so we can undo
 #: ../src/ui/dialog/document-properties.cpp:1151
@@ -14172,7 +14173,7 @@ msgstr "Suprimeix la graella"
 
 #: ../src/ui/dialog/document-properties.cpp:1795
 msgid "Changed default display unit"
-msgstr "Canvia la unitat de visualització predeterminada"
+msgstr "S'ha canviat la unitat de visualització per defecte"
 
 #: ../src/ui/dialog/export.cpp:147 ../src/verbs.cpp:2887
 msgid "_Page"
@@ -14299,7 +14300,7 @@ msgstr[1] "Export_a per lots els %d objectes seleccionats"
 
 #: ../src/ui/dialog/export.cpp:930
 msgid "Export in progress"
-msgstr "S'està exportant"
+msgstr "S'està exportant..."
 
 #: ../src/ui/dialog/export.cpp:1022
 msgid "No items selected."
@@ -14558,7 +14559,7 @@ msgid ""
 msgstr ""
 "Aquesta matriu determina una transformació lineal en l'espai de color. Cada fila afecta un component de color. Cada "
 "columna determina la quantitat de cada component de color que passarà de l'entrada a la sortida. L'última columna no "
-"depèn dels colors de l'entrada i, per tant, es pot utilitzar per a afegir un valor constant a totes les components."
+"depèn dels colors de l'entrada i, per tant, es pot utilitzar per afegir un valor constant a totes les components."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:550 ../share/extensions/grid_polar.inx.h:4
 msgctxt "Label"
@@ -15162,7 +15163,7 @@ msgid ""
 "alpha channel is used to provide depth information: higher opacity areas are raised toward the viewer and lower opacity "
 "areas recede away from the viewer."
 msgstr ""
-"Les primitives de filtratge <b>feDiffuseLighting</b> i feSpecularLighting creen ombres de relleu. El canal alfa "
+"Les primitives de filtratge <b>feDiffuseLighting</b> i <b>feSpecularLighting</b> creen ombres de relleu. El canal alfa "
 "d'entrada s'utilitza per proporcionar la informació de profunditat: com més opaca sigui la regió més alta semblarà i les "
 "més transparents apareixeran més llunyanes."
 
@@ -15533,7 +15534,7 @@ msgstr "heretat"
 
 #: ../src/ui/dialog/glyphs.cpp:63 ../src/ui/dialog/glyphs.cpp:165
 msgid "Arabic"
-msgstr "Aràbic"
+msgstr "Aràb"
 
 #: ../src/ui/dialog/glyphs.cpp:64 ../src/ui/dialog/glyphs.cpp:163
 msgid "Armenian"
@@ -15777,7 +15778,7 @@ msgstr "Balinès"
 
 #: ../src/ui/dialog/glyphs.cpp:124
 msgid "Cuneiform"
-msgstr "Cuneiforme"
+msgstr "Cuneïforme"
 
 #: ../src/ui/dialog/glyphs.cpp:125
 msgid "Phoenician"
@@ -15829,11 +15830,11 @@ msgstr "Caria"
 
 #: ../src/ui/dialog/glyphs.cpp:137
 msgid "Lycian"
-msgstr "Licia"
+msgstr "Lici"
 
 #: ../src/ui/dialog/glyphs.cpp:138
 msgid "Lydian"
-msgstr "Lydia"
+msgstr "Lidi"
 
 #: ../src/ui/dialog/glyphs.cpp:153
 msgid "Basic Latin"
@@ -16872,7 +16873,7 @@ msgid ""
 "When on, shared gradient definitions are automatically forked on change; uncheck to allow sharing of gradient "
 "definitions so that editing one object may affect other objects using the same gradient"
 msgstr ""
-"Quan està habilitat, les definicions dels degradats es dupliquen automàticament en ser canviades; en cas contrari es "
+"Si està activat, les definicions dels degradats es dupliquen automàticament en ser canviades; en cas contrari es "
 "comparteixen les definicions dels degradats, de manera que en editar-se'n el d'un objecte es modifica els altres "
 "objectes que el fan servir"
 
@@ -16885,8 +16886,8 @@ msgid ""
 "When on, the Gradient Edit button in the Fill & Stroke dialog will show the legacy Gradient Editor dialog, when off the "
 "Gradient Tool will be used"
 msgstr ""
-"Quan està habilitat, el botó d'edició de degradats en el diàleg Emplenat i traç mostrarà el diàleg d'editor de degradat "
-"antic. Deshabilitat s'usarà l'eina degradat"
+"Si està activat, el botó d'edició de degradats en el diàleg Emplenat i traç mostrarà el diàleg d'editor de degradat "
+"antic. Si està desactivat, s'usarà l'eina degradat"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:509
 msgid "Linear gradient _angle:"
@@ -16894,7 +16895,7 @@ msgstr "_Angle del degradat lineal:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:510
 msgid "Default angle of new linear gradients in degrees (clockwise from horizontal)"
-msgstr "Angle predeterminat pels nous degradats lineals en graus (sentit horari des de l'horitzontal)"
+msgstr "Angle per defecte per als nous degradats lineals en graus (sentit horari des de l'horitzontal)"
 
 #. Dropper
 #: ../src/ui/dialog/inkscape-preferences.cpp:514
@@ -16922,7 +16923,7 @@ msgstr "Interfície"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:537
 msgid "System default"
-msgstr "Predeterminat del sistema"
+msgstr "Valor per defecte del sistema"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:538
 msgid "Albanian (sq)"
@@ -16934,7 +16935,7 @@ msgstr "Amhàric (am)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:538
 msgid "Arabic (ar)"
-msgstr "Aràbic (ar)"
+msgstr "Aràb (ar)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:538
 msgid "Armenian (hy)"
@@ -17266,7 +17267,7 @@ msgstr "Tàmil (ta)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:558
 msgid "Telugu (te)"
-msgstr "Telugu"
+msgstr "Telugu (te)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:558
 msgid "Thai (th)"
@@ -17347,7 +17348,7 @@ msgstr "Solució temporal per als controls de color que no es pinten"
 #: ../src/ui/dialog/inkscape-preferences.cpp:635
 msgid "When on, will attempt to work around bugs in certain GTK themes drawing color sliders"
 msgstr ""
-"Quan està habilitat, s'aplicarà la solució temporal per al problema d'alguns temes GTK que no mostren bé el control de "
+"Si està activat, s'aplicarà la solució temporal per al problema d'alguns temes GTK que no mostren bé el control de "
 "colors"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:640
@@ -17380,7 +17381,7 @@ msgstr "Habilita la disposició automàtica per les seccions incompletes"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:653
 msgid "When on, will allow dynamic layout of components that are not completely finished being refactored"
-msgstr "Quan està habilitat, permetrà la disposició automàtica dels components que no estan del tot acabats"
+msgstr "Si està activat, permetrà la disposició automàtica dels components que no estan del tot acabats"
 
 #. show infobox
 #: ../src/ui/dialog/inkscape-preferences.cpp:656
@@ -17587,7 +17588,7 @@ msgid ""
 "any window using the button above the right scrollbar)"
 msgstr ""
 "Apropa el dibuix quan es canvia la mida de la finestra del document, per mantenir la mateixa àrea visible (es pot "
-"canviar aquest valor predeterminat fent servir el botó a sobre de la barra de desplaçament de la dreta)"
+"canviar aquest valor per defecte fent servir el botó a sobre de la barra de desplaçament de la dreta)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:767
 msgid "Save documents viewport (zoom and panning position). Useful to turn off when sharing version controlled files."
@@ -17617,7 +17618,7 @@ msgstr "Les línies de graella es mostraran amb el color de la línia major de g
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:780
 msgid "Default grid settings"
-msgstr "Configuració predeterminada de la graella"
+msgstr "Configuració per defecte de la graella"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:786 ../src/ui/dialog/inkscape-preferences.cpp:811
 msgid "Grid units:"
@@ -17675,7 +17676,7 @@ msgstr "Entrada/Sortida"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:891
 msgid "Use current directory for \"Save As ...\""
-msgstr "Utilitza el directori actual per a «Anomena i desa ...»"
+msgstr "Utilitza el directori actual per a «Anomena i desa...»"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:893
 msgid ""
@@ -17692,17 +17693,17 @@ msgstr "Afegeix comentaris d'etiqueta a la sortida d'impressió"
 #: ../src/ui/dialog/inkscape-preferences.cpp:897
 msgid "When on, a comment will be added to the raw print output, marking the rendered output for an object with its label"
 msgstr ""
-"Quan està habilitat, s'afegirà un comentari a la sortida d'impressió, que marqui la sortida generada per a un objecte "
+"Si està activat, s'afegirà un comentari a la sortida d'impressió, que marqui la sortida generada per a un objecte "
 "amb la seva etiqueta"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:899
 msgid "Add default metadata to new documents"
-msgstr "Afegeix metadades predeterminades als nous documents"
+msgstr "Afegeix les metadades per defecte als nous documents"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:901
 msgid "Add default metadata to new documents. Default metadata can be set from Document Properties->Metadata."
 msgstr ""
-"Afegeix metadades predeterminades als nous documents. Les metadades predeterminades es poden establir des de Propietats "
+"Afegeix les metadades per defecte als nous documents. Les metadades per defecte es poden definir des de Propietats "
 "del document->Metadades."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:905
@@ -17903,7 +17904,7 @@ msgid ""
 "Print warning if redundant style properties found (i.e. if a property has the default value and a different value is not "
 "inherited or if value is the same as would be inherited). Database files located in inkscape_data_dir/attributes."
 msgstr ""
-"Imprimeix l'avís si es troben propietats d'estil redundants (p. ex. si una propietat té el valor predeterminat i un "
+"Imprimeix l'avís si es troben propietats d'estil redundants (p. ex. si una propietat té el valor per defecte i un "
 "valor diferent a l'heretat o si el valor és el mateix que seria si fos heretat). Els fitxers de la base de dades es "
 "troben a inkscape_data_dir/attributes."
 
@@ -17977,7 +17978,7 @@ msgid ""
 "Searched directories:%s"
 msgstr ""
 "El perfil ICC que s'ha d'usar per calibrar la sortida de la pantalla.\n"
-"Directoris on s'ha buscat:%s"
+"Directoris on s'ha cercat:%s"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1016
 msgid "Display profile:"
@@ -18173,9 +18174,9 @@ msgid ""
 "How strong is the Node tool's Simplify command by default. If you invoke this command several times in quick succession, "
 "it will act more and more aggressively; invoking it again after a pause restores the default threshold."
 msgstr ""
-"La força predeterminada que tindrà l'ordre de simplificació de l'eina Node. Si invoqueu de forma successiva i ràpidament "
-"aquesta ordre, actuarà cada vegada més agressivament;  en invocar-la després d'una pausa es retorna al valor "
-"predeterminat del llindar."
+"La força per defecte que tindrà l'ordre de simplificació de l'eina Node. Si invoqueu de forma successiva i ràpidament "
+"aquesta ordre, actuarà cada vegada més agressivament; en invocar-la després d'una pausa es retorna al valor "
+"per defecte del llindar."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1189
 msgid "Color stock markers the same color as object"
@@ -18371,7 +18372,7 @@ msgstr "El botó esquerre del ratolí desplaça quan es prem espai"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1268
 msgid "When on, pressing and holding Space and dragging pans canvas"
-msgstr "Quan està actiu, prement i mentnint l'espai i arrossegant desplaça el llenç"
+msgstr "Si està activat, mantenint premut l'espai i arrossegant desplaça el llenç"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1269
 msgid "Mouse wheel zooms by default"
@@ -18382,7 +18383,7 @@ msgid ""
 "When on, mouse wheel zooms without Ctrl and scrolls canvas with Ctrl; when off, it zooms with Ctrl and scrolls without "
 "Ctrl"
 msgstr ""
-"Quan està habilitat, la roda del ratolí amplia o redueix, amb Ctrl desplaça el llenç; si s'inhabilita, la roda  amplia "
+"Si està activat, la roda del ratolí amplia o redueix, amb Ctrl desplaça el llenç; si està desactivat, la roda amplia "
 "amb el Ctrl i desplaça sense el Ctrl"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1272
@@ -18408,7 +18409,7 @@ msgstr "Persistència de l'indicador d'ajustament (en segons):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1285
 msgid "Controls how long the snap indicator message will be shown, before it disappears"
-msgstr "Controla durant quan de temps es mostrarà l'indicador d'ajustament, abans de que desaparegui"
+msgstr "Controla durant quan de temps es mostrarà l'indicador d'ajustament, abans que desaparegui"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1287
 msgid "What should snap"
@@ -18501,7 +18502,7 @@ msgid ""
 "When on, angles are displayed with 0 at north, 0 to 360 range, positive clockwise; otherwise with 0 at east, -180 to 180 "
 "range, positive counterclockwise"
 msgstr ""
-"Quan està habilitat, els angles es visualitzen amb 0 al nord, de 0 a 360 graus positius, en sentit horari; en cas "
+"Si està activat, els angles es visualitzen amb 0 al nord, de 0 a 360 graus positius, en sentit horari; en cas "
 "contrari, 0 a l'est, de -180 a 180 positiu, en sentit antihorari"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1325
@@ -18528,7 +18529,7 @@ msgstr "Ajustament relatiu dels angles de la línia guia"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1333
 msgid "When on, the snap angles when rotating a guideline will be relative to the original angle"
-msgstr "Quan està habilitat, els angles d'ajustament quan es gira una línia guia seran relatius a l'angle original"
+msgstr "Si està activat, els angles d'ajustament quan es gira una línia guia seran relatius a l'angle original"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1335
 msgid "_Zoom in/out by:"
@@ -18818,11 +18819,11 @@ msgstr "Exporta"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1498
 msgid "Default export _resolution:"
-msgstr "_Resolució per exportar predeterminada:"
+msgstr "_Resolució per defecte de l'exportació:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1499
 msgid "Default bitmap resolution (in dots per inch) in the Export dialog"
-msgstr "Resolució predeterminada (en punts per polzada) del mapa de bits en el diàleg Exporta"
+msgstr "Resolució per defecte (en punts per polzada) del mapa de bits en el diàleg «Exporta»"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1500 ../src/ui/dialog/xml-tree.cpp:920
 msgid "Create"
@@ -18830,7 +18831,7 @@ msgstr "Crea"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1502
 msgid "Resolution for Create Bitmap _Copy:"
-msgstr "Resolució per a Crea una _còpia del mapa de bits»:"
+msgstr "Resolució per a «Crea una _còpia del mapa de bits»:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1503
 msgid "Resolution used by the Create Bitmap Copy command"
@@ -18854,11 +18855,11 @@ msgstr "Escala de mapa de bits (imatge-representació):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1526
 msgid "Default _import resolution:"
-msgstr "Resolució per _importar predeterminada:"
+msgstr "Resolució per defecte de la _importació:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1527
 msgid "Default bitmap resolution (in dots per inch) for bitmap import"
-msgstr "Resolució predeterminada (en punts per polzada) de mapa de bits per la seva importació"
+msgstr "Resolució per defecte (en punts per polzada) per a la importació de mapes de bits"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1528
 msgid "Override file resolution"
@@ -18866,7 +18867,7 @@ msgstr "Anul·la la resolució el fitxer"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1530
 msgid "Use default bitmap resolution in favor of information from file"
-msgstr "Useu la resolució predeterminada del mapa de bits per afavorir la informació del fitxer"
+msgstr "Usa la resolució per defecte dels mapes de bits en lloc de la informació del fitxer"
 
 #. rendering outlines for pixmap image tags
 #: ../src/ui/dialog/inkscape-preferences.cpp:1534
@@ -19002,7 +19003,7 @@ msgid ""
 "When on, named icons will be rendered before displaying the ui. This is for working around bugs in GTK+ named icon "
 "notification"
 msgstr ""
-"Quan es marqui l'opció, les icones amb nom es renderitzaran prèviament abans de mostrar la interfície d'usuari. Això és "
+"Si està activat, les icones amb nom es renderitzaran prèviament abans de mostrar la interfície d'usuari. Això és "
 "una solució temporal a alguns problemes del GTK+ amb la notificació de les icones amb nom"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1977
@@ -19047,7 +19048,7 @@ msgstr "Fitxers temporals: "
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2001
 msgid "Location of the temporary files used for autosave"
-msgstr "Ubicació dels fitxers temporals utilitzats al desar automàticament"
+msgstr "Ubicació dels fitxers temporals utilitzats en desar automàticament"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2005
 msgid "Inkscape data: "
@@ -19349,11 +19350,11 @@ msgstr "S'ha aplicat un efecte desconegut"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:301
 msgid "Click button to add an effect"
-msgstr "Fes clic al botó per a afegir un efecte"
+msgstr "Fes clic al botó per afegir un efecte"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:316
 msgid "Click add button to convert clone"
-msgstr "Fes clic al botó per a convertir a clona"
+msgstr "Fes clic al botó per convertir el clon"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:321 ../src/ui/dialog/livepatheffect-editor.cpp:325
 #: ../src/ui/dialog/livepatheffect-editor.cpp:334
@@ -19891,7 +19892,7 @@ msgstr "Afavoreix les connexions que són part d'una corba llarga"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:204
 msgid "_Islands (weight):"
-msgstr "_Iles (pes):"
+msgstr "_Illes (pes):"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:207
 msgid "Avoid single disconnected pixels"
@@ -19955,7 +19956,7 @@ msgstr "Sortida"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:297 ../src/ui/dialog/tracedialog.cpp:814
 msgid "Reset all settings to defaults"
-msgstr "Reinicia tots els paràmetres als valors predeterminats"
+msgstr "Reinicia tots els paràmetres als valors per defecte"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:302 ../src/ui/dialog/tracedialog.cpp:819
 msgid "Abort a trace in progress"
@@ -20835,7 +20836,7 @@ msgstr "Aplica per separat a cada _objecte"
 #: ../src/ui/dialog/transformation.cpp:96
 msgid "Apply the scale/rotate/skew to each selected object separately; otherwise, transform the selection as a whole"
 msgstr ""
-"Aplicar escala/gira/torça a cada objecte seleccionat per separat; en cas contrari, transforma la selecció com a un de sol"
+"Aplica escala/gira/torça a cada objecte seleccionat per separat; en cas contrari, transforma la selecció en conjunt"
 
 #: ../src/ui/dialog/transformation.cpp:97
 msgid "Edit c_urrent matrix"
@@ -20863,7 +20864,7 @@ msgstr "Matr_iu"
 
 #: ../src/ui/dialog/transformation.cpp:143
 msgid "Reset the values on the current tab to defaults"
-msgstr "Reinicia els valors en la pestanya actual als valors predeterminats"
+msgstr "Reinicia els valors en la pestanya actual als valors per defecte"
 
 #: ../src/ui/dialog/transformation.cpp:150
 msgid "Apply transformation to selection"
@@ -20987,7 +20988,7 @@ msgstr "Canvia l'atribut"
 #: ../src/ui/interface.cpp:763
 msgctxt "Interface setup"
 msgid "Default"
-msgstr "Predeterminat"
+msgstr "Per defecte"
 
 #: ../src/ui/interface.cpp:763
 msgid "Default interface setup"
@@ -21308,7 +21309,7 @@ msgid ""
 "<b>Alt</b> to lock radius"
 msgstr ""
 "Enrotlleu/desenrotlleu l'espiral des de <b>fora</b>; amb <b>Ctrl</b> per ajustar l'angle; amb <b>Maj</b> per escalar/"
-"girar"
+"girar; amb <b>Alt</b> per blocar el radi"
 
 #: ../src/ui/object-edit.cpp:1413
 msgid "Adjust the <b>offset distance</b>"
@@ -21866,7 +21867,7 @@ msgid ""
 "<b>Click</b> to paint a bounded area, <b>Shift+click</b> to union the new fill with the current selection, <b>Ctrl"
 "+click</b> to change the clicked object's fill and stroke to the current setting."
 msgstr ""
-"<b>Cliqueu</b> per pintar una àrea vorejada, <b>Maj+clic</b> per a unir el nou emplenat amb la selecció actual o <b>Ctrl"
+"<b>Cliqueu</b> per pintar una àrea vorejada, <b>Maj+clic</b> per unir el nou emplenat amb la selecció actual o <b>Ctrl"
 "+clic</b> per canviar l'emplenat i el traç de l'objecte clicat amb els valors actuals."
 
 #: ../src/ui/tools-switch.cpp:123
@@ -22112,7 +22113,7 @@ msgstr "%s està seleccionat"
 #, c-format
 msgid " out of %d gradient handle"
 msgid_plural " out of %d gradient handles"
-msgstr[0] " d'un punt de control del degradat"
+msgstr[0] " d'%d punt de control del degradat"
 msgstr[1] " de %d punts de control del degradat"
 
 #. TRANSLATORS: Mind the space in front. (Refers to gradient handles selected). This is part of a compound message
@@ -22130,23 +22131,23 @@ msgstr[1] " dels %d objectes seleccionats"
 msgid "One handle merging %d stop (drag with <b>Shift</b> to separate) selected"
 msgid_plural "One handle merging %d stops (drag with <b>Shift</b> to separate) selected"
 msgstr[0] "S'ha seleccionat una nansa que ajunta %d punt final (arrossegueu amb <b>Maj</b> per separar-lo)"
-msgstr[1] "S'ha seleccionat una nansa que ajunta %d punt finals (arrossegueu amb <b>Maj</b> per separar-los)"
+msgstr[1] "S'ha seleccionat una nansa que ajunta %d punts finals (arrossegueu amb <b>Maj</b> per separar-los)"
 
 #. TRANSLATORS: The plural refers to number of selected gradient handles. This is part of a compound message (part two indicates selected object count)
 #: ../src/ui/tools/gradient-tool.cpp:138
 #, c-format
 msgid "<b>%d</b> gradient handle selected out of %d"
 msgid_plural "<b>%d</b> gradient handles selected out of %d"
-msgstr[0] "S'ha seleccionat <b>%d</b> punt de control dels %d"
-msgstr[1] "S'han seleccionat <b>%d</b> punts de control dels %d"
+msgstr[0] "S'ha seleccionat <b>%d</b> de %d punts de control del degradat"
+msgstr[1] "S'han seleccionat <b>%d</b> de %d punts de control del degradat"
 
 #. TRANSLATORS: The plural refers to number of selected objects
 #: ../src/ui/tools/gradient-tool.cpp:145
 #, c-format
 msgid "<b>No</b> gradient handles selected out of %d on %d selected object"
 msgid_plural "<b>No</b> gradient handles selected out of %d on %d selected objects"
-msgstr[0] "No s'ha seleccionat <b>Cap</b> dels punts de control del degradat dels %d de %d objecte seleccionat"
-msgstr[1] "No s'ha seleccionat <b>Cap</b> dels punts de control del degradat dels %d dels %d objectes seleccionats"
+msgstr[0] "No s'ha seleccionat <b>cap</b> dels %d punts de control del degradat de l'objecte seleccionat"
+msgstr[1] "No s'ha seleccionat <b>cap</b> dels %d punts de control del degradat dels %d objectes seleccionats"
 
 #: ../src/ui/tools/gradient-tool.cpp:433
 msgid "Simplify gradient"
@@ -22154,7 +22155,7 @@ msgstr "Simplifica el degradat"
 
 #: ../src/ui/tools/gradient-tool.cpp:510
 msgid "Create default gradient"
-msgstr "Crea un degradat predeterminat"
+msgstr "Crea un degradat per defecte"
 
 #: ../src/ui/tools/gradient-tool.cpp:569 ../src/ui/tools/mesh-tool.cpp:564
 msgid "<b>Draw around</b> handles to select them"
@@ -22219,30 +22220,30 @@ msgstr "Afegeix una línia global de mesura"
 #: ../src/ui/tools/measure-tool.cpp:1289 ../src/ui/tools/measure-tool.cpp:1291
 #, c-format
 msgid "Crossing %lu"
-msgstr "Encreuament  %lu"
+msgstr "Encreuament %lu"
 
 #. TRANSLATORS: Mind the space in front. This is part of a compound message
 #: ../src/ui/tools/mesh-tool.cpp:122 ../src/ui/tools/mesh-tool.cpp:133
 #, c-format
 msgid " out of %d mesh handle"
 msgid_plural " out of %d mesh handles"
-msgstr[0] " de %d punt de control de la malla"
+msgstr[0] " d'%d punt de control de la malla"
 msgstr[1] " de %d punts de control de la malla"
 
 #: ../src/ui/tools/mesh-tool.cpp:140
 #, c-format
 msgid "<b>%d</b> mesh handle selected out of %d"
 msgid_plural "<b>%d</b> mesh handles selected out of %d"
-msgstr[0] "<b>%d</b> punt de control de la malla seleccionada de %d"
-msgstr[1] "<b>%d</b> punts de control de la malla seleccionades de %d"
+msgstr[0] "S'ha seleccionat <b>%d</b> de %d punts de control de la malla"
+msgstr[1] "S'han seleccionat <b>%d</b> de %d punts de control de la malla"
 
 #. TRANSLATORS: The plural refers to number of selected objects
 #: ../src/ui/tools/mesh-tool.cpp:147
 #, c-format
 msgid "<b>No</b> mesh handles selected out of %d on %d selected object"
 msgid_plural "<b>No</b> mesh handles selected out of %d on %d selected objects"
-msgstr[0] "<b>No</b> s'ha seleccionat cap dels punts de control de la malla dels %d de %d objecte seleccionat"
-msgstr[1] "<b>No</b> s'ha seleccionat cap dels punts de control de la malla dels %d dels %d objectes seleccionats"
+msgstr[0] "No s'ha seleccionat <b>cap</b> dels %d punts de control de la malla de l'objecte seleccionat"
+msgstr[1] "No s'ha seleccionat <b>cap</b> dels %d punts de control de la malla dels %d objectes seleccionats"
 
 #: ../src/ui/tools/mesh-tool.cpp:315
 msgid "Split mesh row/column"
@@ -22270,7 +22271,7 @@ msgstr "Color de la cantonada de la malla seleccionat."
 
 #: ../src/ui/tools/mesh-tool.cpp:492
 msgid "Create default mesh"
-msgstr "Crea una malla predeterminada"
+msgstr "Crea una malla per defecte"
 
 #: ../src/ui/tools/mesh-tool.cpp:715
 msgid "FIXME<b>Ctrl</b>: snap mesh angle"
@@ -23468,7 +23469,7 @@ msgstr "Gran"
 #: ../src/ui/widget/panel.cpp:147
 msgctxt "Swatches height"
 msgid "Huge"
-msgstr "To"
+msgstr "Enorme"
 
 #: ../src/ui/widget/panel.cpp:169
 msgctxt "Swatches"
@@ -24192,7 +24193,7 @@ msgstr "_Nou"
 
 #: ../src/verbs.cpp:2426
 msgid "Create new document from the default template"
-msgstr "Crea un nou document a partir de la plantilla predeterminada"
+msgstr "Crea un nou document a partir de la plantilla per defecte"
 
 #: ../src/verbs.cpp:2428
 msgid "_Open..."
@@ -24352,7 +24353,7 @@ msgstr "Escala la selecció per ajustar-se a la mida de l'objecte"
 
 #: ../src/verbs.cpp:2474
 msgid "Paste _Width"
-msgstr "Amplada de pà_gina"
+msgstr "En_ganxa l'amplada"
 
 #: ../src/verbs.cpp:2475
 msgid "Scale selection horizontally to match the width of the copied object"
@@ -24635,7 +24636,7 @@ msgstr "Desfés la selecció dels objectes o els nodes"
 
 #: ../src/verbs.cpp:2545
 msgid "Delete all the guides in the document"
-msgstr "Suprimeix tots els guies al document"
+msgstr "Suprimeix totes les guies del document"
 
 #: ../src/verbs.cpp:2546
 msgid "Lock All Guides"
@@ -24643,7 +24644,7 @@ msgstr "Bloqueja totes les guies"
 
 #: ../src/verbs.cpp:2546 ../src/widgets/desktop-widget.cpp:404
 msgid "Toggle lock of all guides in the document"
-msgstr "Commuta el bloqueja de totes les guies al document"
+msgstr "Commuta el bloqueig de totes les guies del document"
 
 #: ../src/verbs.cpp:2547
 msgid "Create _Guides Around the Page"
@@ -26402,7 +26403,7 @@ msgstr "Commuta el punt volàtil en la direcció Z entre 'finit' i 'infinit' (=p
 #: ../src/widgets/calligraphy-toolbar.cpp:218 ../src/widgets/calligraphy-toolbar.cpp:262
 #: ../src/widgets/calligraphy-toolbar.cpp:267
 msgid "No preset"
-msgstr "Sense valor per defecte"
+msgstr "Cap valor predefinit"
 
 #. Width
 #: ../src/widgets/calligraphy-toolbar.cpp:427 ../src/widgets/eraser-toolbar.cpp:151
@@ -26418,7 +26419,7 @@ msgstr "(cabell)"
 #: ../src/widgets/spray-toolbar.cpp:438 ../src/widgets/spray-toolbar.cpp:456 ../src/widgets/spray-toolbar.cpp:605
 #: ../src/widgets/tweak-toolbar.cpp:125 ../src/widgets/tweak-toolbar.cpp:142 ../src/widgets/tweak-toolbar.cpp:350
 msgid "(default)"
-msgstr "(predeterminat)"
+msgstr "(per defecte)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:427 ../src/widgets/eraser-toolbar.cpp:151
 msgid "(broad stroke)"
@@ -26447,7 +26448,7 @@ msgstr "(amplada constant)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:444
 msgid "(slight thinning, default)"
-msgstr "(lleugerament aprimat, predeterminat)"
+msgstr "(lleugerament aprimat, per defecte)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:444
 msgid "(speed deflates stroke)"
@@ -26501,7 +26502,7 @@ msgstr "(perpendicular al traç, «pinzell»)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:478
 msgid "(almost fixed, default)"
-msgstr "(gairebé fix, predeterminat)"
+msgstr "(gairebé fix, per defecte)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:478
 msgid "(fixed by Angle, \"pen\")"
@@ -26609,7 +26610,7 @@ msgstr "(sense inèrcia)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:546 ../src/widgets/eraser-toolbar.cpp:168
 msgid "(slight smoothing, default)"
-msgstr "(suavitzat lleuger, predeterminat)"
+msgstr "(suavitzat lleuger, per defecte)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:546 ../src/widgets/eraser-toolbar.cpp:168
 msgid "(noticeable lagging)"
@@ -26653,7 +26654,7 @@ msgstr "Usa la inclinació del dispositiu d'entrada per modificar l'angle de la 
 
 #: ../src/widgets/calligraphy-toolbar.cpp:607
 msgid "Choose a preset"
-msgstr "Selecciona el valor per defecte"
+msgstr "Selecciona un valor predefinit"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:622
 msgid "Add/Edit Profile"
@@ -27325,7 +27326,7 @@ msgstr "Utilitza totes les capes en la mesura."
 
 #: ../src/widgets/measure-toolbar.cpp:195
 msgid "Use current layer in the measure."
-msgstr "Utilitza la capes actual en la mesura."
+msgstr "Utilitza la capa actual en la mesura."
 
 #: ../src/widgets/measure-toolbar.cpp:211
 msgid "Compute all elements."
@@ -27333,7 +27334,7 @@ msgstr "Calcula tots els elements."
 
 #: ../src/widgets/measure-toolbar.cpp:213
 msgid "Compute max length."
-msgstr "Calcula la llargada màxima:"
+msgstr "Calcula la llargada màxima."
 
 #: ../src/widgets/measure-toolbar.cpp:274 ../src/widgets/text-toolbar.cpp:1620
 msgid "Font Size"
@@ -27510,7 +27511,7 @@ msgstr "Commuta les cares"
 
 #: ../src/widgets/mesh-toolbar.cpp:538
 msgid "Toggle selected sides between Beziers and lines."
-msgstr "Commuta les cares selecciones entre Béziers i línies."
+msgstr "Commuta les cares seleccionades entre Béziers i línies."
 
 #: ../src/widgets/mesh-toolbar.cpp:541
 msgid "Toggle side:"
@@ -27805,7 +27806,7 @@ msgid ""
 "&gt; Objects to Pattern</b> to create a new pattern from selection."
 msgstr ""
 "Useu l'<b>Eina de nodes</b> per ajustar la posició, escala i rotació del patró en el llenç. Useu <b>Objecte &gt; Patró "
-"&gt; Objectes a patró</b> per a crear un nou patró des de la selecció."
+"&gt; Objectes a patró</b> per crear un nou patró des de la selecció."
 
 #: ../src/widgets/paint-selector.cpp:1111
 msgid "<b>Pattern fill</b>"
@@ -27829,7 +27830,7 @@ msgstr "Llindar d'emplenat"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:149
 msgid "The maximum allowed difference between the clicked pixel and the neighboring pixels to be counted in the fill"
-msgstr "La màxima diferència permesa entre el píxel clicat i els píxels dels voltants que es contaran en l'emplenat"
+msgstr "La màxima diferència permesa entre el píxel clicat i els píxels dels voltants que es comptaran en l'emplenat"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:176
 msgid "Grow/shrink by"
@@ -27859,7 +27860,7 @@ msgstr "Per defecte"
 #: ../src/widgets/paintbucket-toolbar.cpp:213
 msgid "Reset paint bucket parameters to defaults (use Inkscape Preferences > Tools to change defaults)"
 msgstr ""
-"Reinicialitza les opcions predeterminades del cubell (useu Preferències > Eines per canviar els valors predeterminats)"
+"Reinicialitza les opcions per defecte del cubell (useu Preferències > Eines per canviar els valors per defecte)"
 
 #: ../src/widgets/pencil-toolbar.cpp:104
 msgid "Bezier"
@@ -27950,7 +27951,7 @@ msgstr "Quantitat de suavitzat (simplificat) s'aplicarà a la línia"
 #: ../src/widgets/pencil-toolbar.cpp:403
 msgid "Reset pencil parameters to defaults (use Inkscape Preferences > Tools to change defaults)"
 msgstr ""
-"Recupera les opcions predeterminades del llapis (utilitzeu Preferències > Eines per canviar els valors predeterminats)"
+"Recupera les opcions per defecte del llapis (utilitzeu Preferències > Eines per canviar els valors per defecte)"
 
 #: ../src/widgets/pencil-toolbar.cpp:413 ../src/widgets/pencil-toolbar.cpp:414
 msgid "LPE based interactive simplify"
@@ -28051,7 +28052,7 @@ msgstr "Mida màxima"
 
 #: ../src/widgets/ruler.cpp:250
 msgid "Maximum size of the ruler"
-msgstr "Mida màxima de la regla"
+msgstr "Mida màxima del regle"
 
 #: ../src/widgets/select-toolbar.cpp:262
 msgid "Transform by toolbar"
@@ -28294,7 +28295,7 @@ msgstr "Radi de la revolució més interna (relatiu a la mida de l'espiral)"
 #: ../src/widgets/spiral-toolbar.cpp:286 ../src/widgets/star-toolbar.cpp:565
 msgid "Reset shape parameters to defaults (use Inkscape Preferences > Tools to change defaults)"
 msgstr ""
-"Reinicialitza les opcions predeterminades de la forma (useu Preferències > Eines per canviar els valors predeterminats)"
+"Reinicialitza les opcions per defecte de la forma (useu Preferències > Eines per canviar els valors per defecte)"
 
 #. Width
 #: ../src/widgets/spray-toolbar.cpp:294
@@ -28839,7 +28840,7 @@ msgstr "Text: canvia la rotació"
 
 #: ../src/widgets/text-toolbar.cpp:988
 msgid "Text: Change writing mode"
-msgstr "Txet: canvia el mode d'escriptura"
+msgstr "Text: canvia el mode d'escriptura"
 
 #: ../src/widgets/text-toolbar.cpp:1042
 msgid "Text: Change orientation"
@@ -28898,12 +28899,12 @@ msgstr "Justifica"
 #. Name
 #: ../src/widgets/text-toolbar.cpp:1722
 msgid "Alignment"
-msgstr "Alineament"
+msgstr "Alineació"
 
 #. Label
 #: ../src/widgets/text-toolbar.cpp:1723
 msgid "Text alignment"
-msgstr "Alineament del text"
+msgstr "Alineació del text"
 
 #: ../src/widgets/text-toolbar.cpp:1750
 msgid "Horizontal"
@@ -28915,15 +28916,15 @@ msgstr "Vertical — DE"
 
 #: ../src/widgets/text-toolbar.cpp:1758
 msgid "Vertical text — lines: right to left"
-msgstr "Text vertical —  línies: dreta a esquerra"
+msgstr "Text vertical — línies: dreta a esquerra"
 
 #: ../src/widgets/text-toolbar.cpp:1764
 msgid "Vertical — LR"
-msgstr "Vertical  — ED"
+msgstr "Vertical — ED"
 
 #: ../src/widgets/text-toolbar.cpp:1765
 msgid "Vertical text — lines: left to right"
-msgstr "Text vertical —  línies: esquerra a dreta"
+msgstr "Text vertical — línies: esquerra a dreta"
 
 #. Name
 #: ../src/widgets/text-toolbar.cpp:1770
@@ -29072,7 +29073,7 @@ msgstr "Rotació de la lletra"
 #. label
 #: ../src/widgets/text-toolbar.cpp:2025
 msgid "Rot:"
-msgstr "Rota:"
+msgstr "Rot:"
 
 #. short label
 #: ../src/widgets/text-toolbar.cpp:2026
@@ -29580,7 +29581,7 @@ msgstr "Seleccioneu un rectangle"
 #: ../share/extensions/gcodetools.py:3319 ../share/extensions/gcodetools.py:4524 ../share/extensions/gcodetools.py:4697
 #: ../share/extensions/gcodetools.py:6230 ../share/extensions/gcodetools.py:6425
 msgid "No paths are selected! Trying to work on all available paths."
-msgstr "No heu seleccionat cap camí! S'està intentant treballar en tots els camins disponibles."
+msgstr "No heu seleccionat cap camí. S'està intentant treballar en tots els camins disponibles."
 
 #: ../share/extensions/gcodetools.py:3322
 msgid "Nothing is selected. Please select something."
@@ -29588,7 +29589,7 @@ msgstr "No s'ha seleccionat res. Seleccioneu alguna cosa."
 
 #: ../share/extensions/gcodetools.py:3862
 msgid "Directory does not exist! Please specify existing directory at Preferences tab!"
-msgstr "El directori no existeix! Especifiqueu un directori que existeixi a la pestanya preferències!"
+msgstr "El directori no existeix. Especifiqueu un directori que existeixi en la pestanya «Preferències»."
 
 #: ../share/extensions/gcodetools.py:3892
 #, python-format
@@ -29596,13 +29597,13 @@ msgid ""
 "Can not write to specified file!\n"
 "%s"
 msgstr ""
-"No es pot escriure al fitxer especificat!\n"
+"No es pot escriure al fitxer especificat.\n"
 "%s"
 
 #: ../share/extensions/gcodetools.py:4038
 #, python-format
 msgid "Orientation points for '%s' layer have not been found! Please add orientation points using Orientation tab!"
-msgstr "No s'han trobat els punts d'orientació per la capa «%s» ! Afegiu punts d'orientació usant la pestanya orientació!"
+msgstr "No s'han trobat els punts d'orientació per a la capa «%s». Afegiu punts d'orientació en la pestanya «Orientació»."
 
 #: ../share/extensions/gcodetools.py:4045
 #, python-format
@@ -29614,18 +29615,18 @@ msgid ""
 "Orientation points are wrong! (if there are two orientation points they should not be the same. If there are three "
 "orientation points they should not be in a straight line.)"
 msgstr ""
-"Els punts d'orientació són erronis! (Si hi ha dos punts d'orientació que no poden ser el mateix. Si hi ha tres punts "
-"d'orientació cal que no estiguin en una línia recta.)"
+"Els punts d'orientació són incorrectes. Si hi ha dos punts d'orientació, no poden ser els mateixos. Si hi ha tres punts "
+"d'orientació, no poden estar en una línia recta."
 
 #: ../share/extensions/gcodetools.py:4248
 #, python-format
 msgid "Warning! Found bad orientation points in '%s' layer. Resulting Gcode could be corrupt!"
-msgstr "Avís! S'han trobat punts d'orientació dolents a la capa «%s». El «Gcode» resultant pot sortir corrupte!"
+msgstr "Avís! S'han trobat punts d'orientació dolents a la capa «%s». El «Gcode» resultant pot estar malmès."
 
 #: ../share/extensions/gcodetools.py:4261
 #, python-format
 msgid "Warning! Found bad graffiti reference point in '%s' layer. Resulting Gcode could be corrupt!"
-msgstr "Avís! S'han trobat punts de referència grafit dolents a la capa «%s». El «Gcode» resultant pot sortir corrupte!"
+msgstr "Avís! S'han trobat punts de referència grafit dolents a la capa «%s». El «Gcode» resultant pot estar malmès."
 
 #. xgettext:no-pango-format
 #: ../share/extensions/gcodetools.py:4282
@@ -29635,20 +29636,19 @@ msgid ""
 "Solution 2: Path->Dynamic offset or Ctrl+J.\n"
 "Solution 3: export all contours to PostScript level 2 (File->Save As->.ps) and File->Import this file."
 msgstr ""
-"Aquesta extensió sols treballa amb camins i desplaçaments dinàmics i grups d'ells! Tots els altres objectes seran "
-"ignorats!\n"
+"Aquesta extensió només treballa amb camins i desplaçaments dinàmics i grups d'ells. Tots els altres objectes s'ignoraran.\n"
 "Solució 1: premeu Camí -> Objecte al camí o Maj+Ctrl+C.\n"
 "Solució 2: Camí -> Desplaçament dinàmic o Ctrl+J.\n"
-"Solució 3: exporta tots els contorns al nivell 2 PostScript (Fitxer-> Desa com ->.ps) i Fitxer-> importa aquest fitxer"
+"Solució 3: exporteu tots els contorns al nivell 2 PostScript (Fitxer->Anomena i desa->.ps) i Fitxer->Importa aquest fitxer."
 
 #: ../share/extensions/gcodetools.py:4288
 msgid "Document has no layers! Add at least one layer using layers panel (Ctrl+Shift+L)"
-msgstr "El document no conté capes! Afegiu almenys una capa usant el panell de capes (Ctrl + Maj + L)"
+msgstr "El document no conté capes. Afegiu almenys una capa usant el panell de capes (Ctrl + Maj + L)"
 
 #: ../share/extensions/gcodetools.py:4292
 msgid "Warning! There are some paths in the root of the document, but not in any layer! Using bottom-most layer for them."
 msgstr ""
-"Avís! Hi ha alguns camins a l'arrel del document, però no en qualsevol la capa! S'està usant la capa inferior per a ells."
+"Avís! Hi ha alguns camins a l'arrel del document, però no en qualsevol la capa. S'està usant la capa inferior per a ells."
 
 #: ../share/extensions/gcodetools.py:4369
 #, python-format
@@ -29660,24 +29660,24 @@ msgstr ""
 #: ../share/extensions/gcodetools.py:4372
 #, python-format
 msgid "Warning! Tool has parameter that default tool has not ( '%s': '%s' )."
-msgstr "Avís! L'eina té un paràmetre que l'eina per defecte no té («% s»: «% s»)."
+msgstr "Avís! L'eina té un paràmetre que l'eina per defecte no té («%s»: «%s»)."
 
 #: ../share/extensions/gcodetools.py:4386
 #, python-format
 msgid "Layer '%s' contains more than one tool!"
-msgstr "La capa «%s» conté més d'una eina!"
+msgstr "La capa «%s» conté més d'una eina."
 
 #: ../share/extensions/gcodetools.py:4389
 #, python-format
 msgid "Can not find tool for '%s' layer! Please add one with Tools library tab!"
-msgstr "No es pot trobar l'eina per a la capa «%s»! Afegiu-ne un amb la pestanya «Eines de biblioteca»!"
+msgstr "No es pot trobar l'eina per a la capa «%s». Afegiu-ne una amb la pestanya «Biblioteca d'eines»."
 
 #: ../share/extensions/gcodetools.py:4551 ../share/extensions/gcodetools.py:4706
 msgid ""
 "Warning: One or more paths do not have 'd' parameter, try to Ungroup (Ctrl+Shift+G) and Object to Path (Ctrl+Shift+C)!"
 msgstr ""
 "Avís: un o més camins no tenen paràmetre «d», tracta de Desagrupar (Ctrl + Maj + G) i fer Objecte a Camí (Ctrl + Maj + "
-"C)!"
+"C)."
 
 #: ../share/extensions/gcodetools.py:4665
 msgid "Nothing is selected. Please select something to convert to drill point (dxfpoint) or clear point sign."
@@ -29692,7 +29692,7 @@ msgstr "Aquesta extensió necessita que almenys un camí estigui seleccionat."
 #: ../share/extensions/gcodetools.py:4754 ../share/extensions/gcodetools.py:5000
 #, python-format
 msgid "Tool diameter must be > 0 but tool's diameter on '%s' layer is not!"
-msgstr "El diàmetre de l'eina ha de ser > 0 però el diàmetre de l'eina a la capa «%s» no s'ha definit!"
+msgstr "El diàmetre de l'eina ha de ser > 0 però el diàmetre de l'eina a la capa «%s» no s'ha definit."
 
 #: ../share/extensions/gcodetools.py:4765 ../share/extensions/gcodetools.py:4954 ../share/extensions/gcodetools.py:5009
 msgid "Warning: omitting non-path"
@@ -29704,16 +29704,16 @@ msgstr "Seleccioneu almenys 1 camí per gravar i executar de nou."
 
 #: ../share/extensions/gcodetools.py:5517
 msgid "Unknown unit selected. mm assumed"
-msgstr "Unitat seleccionada desconeguda, s'assumeixen mm"
+msgstr "Unitat seleccionada desconeguda. Es pressuposarà que és mm."
 
 #: ../share/extensions/gcodetools.py:5538
 #, python-format
 msgid "Tool '%s' has no shape. 45 degree cone assumed!"
-msgstr "L'eina «%s» no té forma. S'assumeixen 45 graus de con!"
+msgstr "L'eina «%s» no té forma. Es pressuposarà que és un con de 45 graus."
 
 #: ../share/extensions/gcodetools.py:5609 ../share/extensions/gcodetools.py:5614
 msgid "csp_normalised_normal error. See log."
-msgstr "Error csp_normalised_normal. Mireu els registres."
+msgstr "Error csp_normalised_normal. Vegeu el registre."
 
 #: ../share/extensions/gcodetools.py:5802
 msgid "No need to engrave sharp angles."
@@ -29721,11 +29721,11 @@ msgstr "No cal gravar angles aguts."
 
 #: ../share/extensions/gcodetools.py:5846
 msgid "Active layer already has orientation points! Remove them or select another layer!"
-msgstr "La capa activa ja té punts d'orientació! Treu-los o selecciona una altra capa!"
+msgstr "La capa activa ja té punts d'orientació. Elimineu-los o seleccioneu una altra capa."
 
 #: ../share/extensions/gcodetools.py:5891
 msgid "Active layer already has a tool! Remove it or select another layer!"
-msgstr "La capa activa ja té una eina! Elimina-la o selecciona una altra capa!"
+msgstr "La capa activa ja té una eina. Elimineu-la o seleccioneu una altra capa."
 
 #: ../share/extensions/gcodetools.py:6006
 msgid "Selection is empty! Will compute whole drawing."
@@ -29766,7 +29766,7 @@ msgstr ""
 #: ../share/extensions/gcodetools.py:6666
 msgid "Orientation points have not been defined! A default set of orientation points has been automatically added."
 msgstr ""
-"Els punts d'orientació no s'han definit! S'ha afegit de forma automàtica un conjunt predeterminat de punts d'orientació."
+"Els punts d'orientació no s'han definit. S'ha afegit de forma automàtica un conjunt per defecte de punts d'orientació."
 
 #: ../share/extensions/gcodetools.py:6670
 msgid "Cutting tool has not been defined! A default tool has been automatically added."
@@ -29864,7 +29864,7 @@ msgstr "No hi ha cap node que coincideixi amb l'expressió: %s"
 
 #: ../share/extensions/inkex.py:358
 msgid "SVG Width not set correctly! Assuming width = 100"
-msgstr "L'amplària SVG no està configurada de forma correcta! S'assumeix amplària = 100"
+msgstr "L'amplada SVG no està configurada de forma correcta. Es pressuposarà que l'amplada = 100"
 
 #: ../share/extensions/interp_att_g.py:175
 msgid "There is no selection to interpolate"
@@ -29882,7 +29882,7 @@ msgid ""
 "\n"
 msgstr ""
 "El script «JessyInk» no està instal·lat en aquest fitxer SVG o té una versió diferent que les extensions JessyInk. "
-"Seleccioneu «instal·la/actualitza ..» des del submenú «JessyInk» o el menú «Extensions» per instal·lar o actualitzar el "
+"Seleccioneu «instal·la/actualitza...» des del submenú «JessyInk» o el menú «Extensions» per instal·lar o actualitzar el "
 "script JessyInk.\n"
 "\n"
 
@@ -29891,7 +29891,7 @@ msgid ""
 "To assign an effect, please select an object.\n"
 "\n"
 msgstr ""
-"Per assignar un efecte, si us plau seleccioneu un objecte. \n"
+"Per assignar un efecte, seleccioneu un objecte. \n"
 "\n"
 
 #: ../share/extensions/jessyInk_autoTexts.py:53
@@ -30041,11 +30041,11 @@ msgstr "Heu d'introduir un nom de capa.\n"
 msgid ""
 "Could not obtain the selected layer for inclusion of the video element.\n"
 "\n"
-msgstr "No s'ha pogut obtenir la capa seleccionada per a incloure un vídeo.\n"
+msgstr "No s'ha pogut obtenir la capa seleccionada per incloure un vídeo.\n"
 
 #: ../share/extensions/jessyInk_view.py:74
 msgid "More than one object selected. Please select only one object.\n"
-msgstr "S'ha seleccionat més d'un objecte. Seleccioneu sols un objecte.\n"
+msgstr "S'ha seleccionat més d'un objecte. Seleccioneu només un objecte.\n"
 
 #: ../share/extensions/jessyInk_view.py:78
 msgid "No object selected. Please select the object you want to assign a view to and then press apply.\n"
@@ -30090,8 +30090,8 @@ msgid ""
 "The 'stretch' option requires that the pattern must have non-zero width :\n"
 "Please edit the pattern width."
 msgstr ""
-"L'opció «estirat» requereix que el patró tingui una amplària diferent de zero: \n"
-"Editeu l'amplària del patró."
+"L'opció «estirat» requereix que el patró tingui una amplada diferent de zero: \n"
+"Editeu l'amplada del patró."
 
 #: ../share/extensions/pathmodifier.py:235
 #, python-format
@@ -30147,7 +30147,7 @@ msgstr ""
 #. issue error if no paths found
 #: ../share/extensions/plotter.py:68
 msgid "No paths where found. Please convert all objects you want to plot into paths."
-msgstr "No s'han trobat camins. Convertiu tots els objectes que desitgeu traçar en camins."
+msgstr "No s'han trobat camins. Convertiu tots els objectes que voleu traçar en camins."
 
 #: ../share/extensions/plotter.py:146
 #, fuzzy
@@ -30216,7 +30216,7 @@ msgstr "Error intern. No s'ha seleccionat cap tipus de visualitzador\n"
 
 #: ../share/extensions/print_win32_vector.py:39
 msgid "sorry, this will run only on Windows, exiting..."
-msgstr "disculpeu, això sols s'executa en Windows, s'està sortint..."
+msgstr "disculpeu, això només es pot executar al Windows, s'està sortint..."
 
 #: ../share/extensions/print_win32_vector.py:177
 msgid "Failed to open default printer"
@@ -30252,7 +30252,7 @@ msgstr "No s'han pogut trobar cap tipografia en aquest document/selecció."
 #: ../share/extensions/replace_font.py:141 ../share/extensions/svg_and_media_zip_output.py:196
 #, python-format
 msgid "Found the following font only: %s"
-msgstr "Sols s'ha trobat aquesta tipografia: %s"
+msgstr "Només s'ha trobat aquesta tipografia: %s"
 
 #: ../share/extensions/replace_font.py:143 ../share/extensions/svg_and_media_zip_output.py:198
 #, python-format
@@ -30324,12 +30324,12 @@ msgstr "Cal que creeu i seleccioneu alguns «rectangles de tall» abans d'agrupa
 
 #: ../share/extensions/webslicer_create_group.py:70
 msgid "You must to select some \"Slicer rectangles\" or other \"Layout groups\"."
-msgstr "Cal que seleccioneu alguns «rectangles de tall» o altres «disposicions en grup»"
+msgstr "Cal que seleccioneu alguns «rectangles de tall» o altres «disposicions en grup»."
 
 #: ../share/extensions/webslicer_create_group.py:74
 #, python-format
 msgid "Oops... The element \"%s\" is not in the Web Slicer layer"
-msgstr "Oops... L'element \"%s\" no és a la capa web lliscadora"
+msgstr "L'element \"%s\" no és a la capa web lliscadora"
 
 #: ../share/extensions/webslicer_export.py:55
 msgid "You must give a directory to export the slices."
@@ -30577,7 +30577,7 @@ msgid ""
 "  Blue Function: g"
 msgstr ""
 "Us permet avaluar diferents funcions per a cada canal. \n"
-"R, G i B són els valors normalitzats dels canals vermell, verd i blau.Els valors RGB resultants es determinen de forma "
+"R, G i B són els valors normalitzats dels canals vermell, verd i blau. Els valors RGB resultants es determinen de forma "
 "automàtica. \n"
 "  \n"
 "Exemple (la meitat del vermell, verd i blau sencers): \n"
@@ -30785,8 +30785,8 @@ msgid ""
 "    * Step: numbering step between two nodes."
 msgstr ""
 "Aquesta extensió reemplaça els nodes de la selecció amb punts numerats d'acorda les següents opcions: \n"
-"     * Mida de la tipografia: Mida de les etiquetes de nombre de node (20px, 12pt ...) \n"
-"     * Mida del punt : Diàmetre dels punts col·locats en els nodes del camí (10px, 2mm ...) \n"
+"     * Mida de la tipografia: Mida de les etiquetes de nombre de node (20px, 12pt...) \n"
+"     * Mida del punt : Diàmetre dels punts col·locats en els nodes del camí (10px, 2mm...) \n"
 "     * Inici del punt número: primer número de la seqüència, assignat al primer node del camí. \n"
 "     * Pas: numeració de pas entre dos nodes."
 
@@ -30958,9 +30958,9 @@ msgstr ""
 "predefinit o bé crear-ne un vostre.\n"
 "            \n"
 "Totes les unitats són en píxels de l'Inkscape. Els angles estan en radians.\n"
-"Podeu especificar un punt donant les coordenades trilinials, o bé donada la funció del centre del triangle.\n"
+"Podeu especificar un punt donant les coordenades trilineals, o bé donada la funció del centre del triangle.\n"
 "Introduïu-ho com a funció dels seus costats o dels seus angles.\n"
-"Els elements trilinials s'han de separar amb dos punts: ':'.\n"
+"Els elements trilineals s'han de separar amb dos punts: ':'.\n"
 "Les longituds dels costats es representen com a 's_a', 's_b' and 's_c'.\n"
 "Els angles es representen com a 'a_a', 'a_b', and 'a_c'.\n"
 "També podeu utilitzar com a constants el semiperímetre i l'àrea del triangle. Escriviu 'area' o 'semiperim'.\n"
@@ -31024,8 +31024,8 @@ msgid ""
 "- limited support for BLOCKS, use AutoCAD Explode Blocks instead, if needed."
 msgstr ""
 "- AutoCAD Versió 13 i posteriors.\n"
-"- per escalat manual, s'assumeix que el dibuix dxf està en mm.\n"
-"- s'assumeix que el dibuix svg està en píxels, a 96 ppp.\n"
+"- per a l'escalat manual, es pressuposa que el dibuix dxf està en mm.\n"
+"- es pressuposa que el dibuix svg està en píxels, a 96 ppp.\n"
 "- el factor d'escala i l'origen només s'apliquen a escala manual.\n"
 "- «Escala automàtica» s'ajusta a l'ample d'una pàgina A4.\n"
 "- «Llegeix del fitxer» usa la variable $MEASUREMENT.\n"
@@ -31126,7 +31126,7 @@ msgstr "UTF 8"
 
 #: ../share/extensions/dxf_outlines.inx.h:21
 msgid "All (default)"
-msgstr "Tots (predeterminat)"
+msgstr "Tots (per defecte)"
 
 #: ../share/extensions/dxf_outlines.inx.h:22
 msgid "Visible only"
@@ -31159,8 +31159,8 @@ msgstr ""
 "però no a l'Inkscape.\n"
 "- La sortida LWPOLYLINE és una polilínia amb múltiples connexions, inhabiliteu-la per utilitzar la versió antiga de "
 "sortida LINE.\n"
-"- Podeu triar exportar totes les capes, sols visibles o per nom de coincidència(Majúscules i minúscules i ús de la coma "
-"\",\" com a separador)"
+"- Podeu triar exportar totes les capes, només les visibles o per coincidència de nom (no distingeix entre majúscules i minúscules, s'utilitza una coma "
+"«,» com a separador)"
 
 #: ../share/extensions/dxf_outlines.inx.h:34
 msgid "Desktop Cutting Plotter (AutoCAD DXF R14) (*.dxf)"
@@ -31538,8 +31538,8 @@ msgid ""
 "Lathes Laser and Plasma cutters and engravers Mill engravers Plotters etc. To get more info visit developers page at "
 "http://www.cnc-club.ru/gcodetools"
 msgstr ""
-"Gcodetools ha estat desenvolupat per fer senzill Gcode des dels camins de l'Inkscape. Gcodeés un format especial que "
-"s'utilitza en la majoria de les màquines CNC. Per això Gcodetoolspermet utilitzar Inkscape com a programa CAM. Es pot "
+"Gcodetools ha estat desenvolupat per fer senzill Gcode des dels camins de l'Inkscape. Gcode és un format especial que "
+"s'utilitza en la majoria de les màquines CNC. Per això Gcodetools permet utilitzar Inkscape com a programa CAM. Es pot "
 "utilitzar amb una gran quantitat de tipus de màquines: torns làser i talladores de plasma, gravadores, traçadors etc. "
 "Per a més informació visita la pàgina de desenvolupadors a http://www.cnc-club.ru/gcodetools"
 
@@ -31594,7 +31594,7 @@ msgid ""
 "definition (\"Tool diameter\" value). Only one offset will be created if the \"Area width\" is equal to \"1/2 D\"."
 msgstr ""
 "«Crea desplaçament d'àrea»: crea diversos desplaçaments de camins d'Inkscape per omplir l'àrea de camins original fins "
-"al valor «radi de l'àrea». Els traços s'inicien des de «1/2 D» fins «l'amplada de l'àrea» amb l' amplada total amb «D» "
+"al valor «radi de l'àrea». Els traços s'inicien des de «1/2 D» fins «l'amplada de l'àrea» amb l'amplada total amb «D» "
 "passos on D és mesura des de la definició de l'eina més propera (valor «Diàmetre de l'eina»). El desplaçament només es "
 "crearà si «l'amplada de l'àrea» és igual a «1/2 D»."
 
@@ -31616,7 +31616,7 @@ msgstr "Mètode d'emplenament"
 
 #: ../share/extensions/gcodetools_area.inx.h:10
 msgid "Zig zag"
-msgstr "Ziga zaga"
+msgstr "Ziga-zaga"
 
 #: ../share/extensions/gcodetools_area.inx.h:12
 msgid "Area artifacts"
@@ -31829,7 +31829,7 @@ msgstr "Capgira l'eix «Y» i parametritza Gcode "
 #: ../share/extensions/gcodetools_engraving.inx.h:29 ../share/extensions/gcodetools_graffiti.inx.h:40
 #: ../share/extensions/gcodetools_lathe.inx.h:44 ../share/extensions/gcodetools_path_to_gcode.inx.h:33
 msgid "Round all values to 4 digits"
-msgstr "Arredoneix tots els valors a 4 dígits"
+msgstr "Arrodoneix tots els valors a 4 dígits"
 
 #: ../share/extensions/gcodetools_area.inx.h:52 ../share/extensions/gcodetools_dxf_points.inx.h:24
 #: ../share/extensions/gcodetools_engraving.inx.h:30 ../share/extensions/gcodetools_graffiti.inx.h:41
@@ -31865,7 +31865,7 @@ msgid ""
 msgstr ""
 "Converteix els objectes seleccionats a punts de perforació (com el connector dxf_import). També podeu desar la forma "
 "original. Només s'usarà el punt d'inici de cada corba. També podeu seleccionar manualment l'objecte, editor de XML (MAJ "
-"+ Ctrl + X) i afegir o eliminar etiquetes XML \"dxfpoint' amb qualsevol valor."
+"+ Ctrl + X) i afegir o eliminar etiquetes XML «dxfpoint» amb qualsevol valor."
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:5
 msgid "set as dxfpoint and save shape"
@@ -31959,11 +31959,11 @@ msgstr "Profunditat Z:"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:14 ../share/extensions/gcodetools_orientation_points.inx.h:7
 msgid "2-points mode (move and rotate, maintained aspect ratio X/Y)"
-msgstr "Mode de 2 punts (mou i rota, relació d'aspecte mantingut X/Y)"
+msgstr "Mode de 2 punts (mou i gira, relació d'aspecte mantingut X/Y)"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:15 ../share/extensions/gcodetools_orientation_points.inx.h:8
 msgid "3-points mode (move, rotate and mirror, different X/Y scale)"
-msgstr "Mode de 3-punts (mou, rota i mirall, escala diferent X/Y)"
+msgstr "Mode de 3-punts (mou, gira i mirall, escala diferent X/Y)"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:16 ../share/extensions/gcodetools_orientation_points.inx.h:9
 msgid "graffiti points"
@@ -32062,7 +32062,7 @@ msgstr "Tipus de camí dins-fora:"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:7
 msgid "In-out path radius for round path:"
-msgstr "Radi del camí dins-fora per al camí arredonit:"
+msgstr "Radi del camí dins-fora per al camí arrodonit:"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:8
 msgid "Replace original path"
@@ -32106,7 +32106,7 @@ msgstr "Tipus d'eines:"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:3
 msgid "default"
-msgstr "predeterminat"
+msgstr "per defecte"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:4
 msgid "cylinder"
@@ -32142,7 +32142,7 @@ msgid ""
 "topmost (z order) tool in the active layer is used. If there is no tool inside the current layer it is taken from the "
 "upper layer. Press Apply to create new tool."
 msgstr ""
-"Seleccionat el tipus d'eina per omplir els valors predeterminats apropiats. Podeu canviar aquests valors utilitzant "
+"Seleccionat el tipus d'eina per omplir els valors per defecte apropiats. Podeu canviar aquests valors utilitzant "
 "l'eina de text més endavant. S'usa l'eina superior (ordre z) en la capa activa. Si no hi ha una eina dins de la capa "
 "actual es pren de la capa superior. Feu clic a «Aplica» per crear una nova eina."
 
@@ -32167,7 +32167,7 @@ msgid ""
 "cell size, to produce a smooth join of the pattern at the edges. Use a negative border to reduce the size of the pattern "
 "and get an empty border."
 msgstr ""
-"Generar un patró aleatori de cel·les de Voronoi. El patró serà accessible en el quadre de diàleg «Emplenat i traç». Heu "
+"Genera un patró aleatori de cel·les de Voronoi. El patró serà accessible en el quadre de diàleg «Emplenat i traç». Heu "
 "de seleccionar un objecte o un grup. \n"
 "\n"
 "Si la vora és zero, el patró serà discontinu als cantons. Utilitzeu una vora positiva, preferiblement més gran que la "
@@ -32207,11 +32207,11 @@ msgid ""
 "parent layer into a single Gimp layer."
 msgstr ""
 "Aquesta extensió exporta el document a format XCF del Gimp d'acord amb les següents opcions: \n"
-"     * Desa guies: converteix totes les guies a guies de Gimp \n"
-".     * Desa graella: converteix la primera graella rectangular a una graella Gimp (noteu que la xarxa Inkscape per "
+"     * Desa les guies: converteix totes les guies a guies de Gimp \n"
+".     * Desa la graella: converteix la primera graella rectangular a una graella Gimp (noteu que la xarxa Inkscape per "
 "defecte és molt estreta quan es mostra en Gimp). \n"
-"     * Desa fons: afegeix el fons del document a cada capa convertida \n"
-".     * Resolució de l'arxiu :. Resolució del fitxer XCF, en ppp \n"
+"     * Desa el fons: afegeix el fons del document a cada capa convertida \n"
+".     * Resolució del fitxer: Resolució del fitxer XCF, en ppp \n"
 "\n"
 "Cada capa de primer nivell es converteix a una capa de Gimp. Les subcapes hi són concatenades i convertides amb la seva "
 "capa principal de primer nivell en una sola capa de Gimp."
@@ -32322,7 +32322,7 @@ msgstr "Divisions Y [x2] [> 1/2 X Div]:"
 
 #: ../share/extensions/grid_isometric.inx.h:4
 msgid "Division Spacing (px):"
-msgstr "Espai entre divisions principals X (px):"
+msgstr "Espai entre divisions (px):"
 
 #: ../share/extensions/grid_isometric.inx.h:5
 msgid "Subdivisions per Major Division:"
@@ -32334,7 +32334,7 @@ msgstr "Subdivisions per a cada divisió secundària:"
 
 #: ../share/extensions/grid_isometric.inx.h:7
 msgid "Major Division Thickness (px):"
-msgstr "Gruix de les divisions principals X (px):"
+msgstr "Gruix de les divisions principals (px):"
 
 #: ../share/extensions/grid_isometric.inx.h:8
 msgid "Minor Division Thickness (px):"
@@ -32366,7 +32366,7 @@ msgstr "Mida de l'etiqueta circumferència (px):"
 
 #: ../share/extensions/grid_polar.inx.h:7
 msgid "Circumferential Label Outset (px):"
-msgstr "Separació de l'etiqueta circumferència  (px):"
+msgstr "Separació de l'etiqueta circumferència (px):"
 
 #: ../share/extensions/grid_polar.inx.h:8
 msgid "Circular Divisions"
@@ -32434,7 +32434,7 @@ msgstr "Graella rectangular"
 
 #: ../share/extensions/guides_creator.inx.h:3
 msgid "Guides preset:"
-msgstr "Guies preconfigurades:"
+msgstr "Guies predefinides:"
 
 #: ../share/extensions/guides_creator.inx.h:6
 msgid "Start from edges"
@@ -32454,7 +32454,7 @@ msgstr "Relació àuria"
 
 #: ../share/extensions/guides_creator.inx.h:10
 msgid "Rule-of-third"
-msgstr "Regle de terços"
+msgstr "Regla de terços"
 
 #: ../share/extensions/guides_creator.inx.h:11
 msgid "Diagonal guides"
@@ -32682,7 +32682,7 @@ msgid ""
 msgstr ""
 "\n"
 "Aquesta extensió renderitza una línia de text usant\n"
-"tipus de lletra\"Hershey\" per a impressores, derivats de \n"
+"tipus de lletra «Hershey» per a impressores, derivats de \n"
 "NBS SP-424 1976-04, \"Una contribució a \n"
 "les tècniques d'escriptura per ordinador: Taules de \n"
 "coordenades pel repertori Hershey's Repertory dels\n"
@@ -32692,7 +32692,7 @@ msgstr ""
 "sinó d'un sol traç o gravades on la lletra\n"
 "està formada pel traç i no per l'emplenat.\n"
 "\n"
-"Per més informació visiteu:\n"
+"Per a més informació, visiteu:\n"
 "  www.evilmadscientist.com/go/hershey"
 
 #: ../share/extensions/hpgl_input.inx.h:1
@@ -32713,7 +32713,7 @@ msgstr "Resolució X (ppp):"
 
 #: ../share/extensions/hpgl_input.inx.h:4 ../share/extensions/hpgl_output.inx.h:5 ../share/extensions/plotter.inx.h:33
 msgid "The amount of steps the plotter moves if it moves for 1 inch on the X axis (Default: 1016.0)"
-msgstr "Quantitat de passos que es mou la impressora si es mou per 1 polzada en l'eix X Per defecte: 1016.0)"
+msgstr "Quantitat de passos que es mou la impressora si es mou per 1 polzada en l'eix X (Per defecte: 1016.0)"
 
 #: ../share/extensions/hpgl_input.inx.h:5 ../share/extensions/hpgl_output.inx.h:6 ../share/extensions/plotter.inx.h:34
 msgid "Resolution Y (dpi):"
@@ -32721,7 +32721,7 @@ msgstr "Resolució Y (ppp):"
 
 #: ../share/extensions/hpgl_input.inx.h:6 ../share/extensions/hpgl_output.inx.h:7 ../share/extensions/plotter.inx.h:35
 msgid "The amount of steps the plotter moves if it moves for 1 inch on the Y axis (Default: 1016.0)"
-msgstr "Quantitat de passos que es mou la impressora si es mou per 1 polzada en l'eix X (Per defecte: 1016.0)"
+msgstr "Quantitat de passos que es mou la impressora si es mou per 1 polzada en l'eix Y (Per defecte: 1016.0)"
 
 #: ../share/extensions/hpgl_input.inx.h:7
 msgid "Show movements between paths"
@@ -32854,7 +32854,7 @@ msgstr ""
 #: ../share/extensions/hpgl_output.inx.h:28 ../share/extensions/plotter.inx.h:56
 #, fuzzy
 msgid "Precut"
-msgstr "Usa el tallat predeterminat"
+msgstr "Usa el tallat per defecte"
 
 #: ../share/extensions/hpgl_output.inx.h:29 ../share/extensions/plotter.inx.h:57
 msgid ""
@@ -32872,7 +32872,7 @@ msgid ""
 "Curves are divided into lines, this number controls how fine the curves will be reproduced, the smaller the finer "
 "(Default: '1.2')"
 msgstr ""
-"Les corbes es divideixen en línies, aquest número controla la finura en la representació de les corbes, com més petit "
+"Les corbes es divideixen en línies, aquest número controla la finor en la representació de les corbes, com més petit "
 "més fina (per defecte: '1.2')"
 
 #: ../share/extensions/hpgl_output.inx.h:32 ../share/extensions/plotter.inx.h:60
@@ -32892,7 +32892,7 @@ msgid ""
 "All these settings depend on the plotter you use, for more information please consult the manual or homepage for your "
 "plotter."
 msgstr ""
-"Tots aquests paràmetres depenen de la impressora que feu anar. Per més informació consulteu el manual o la pàgina web de "
+"Tots aquests paràmetres depenen de la impressora que feu anar. Per a més informació, consulteu el manual o la pàgina web de "
 "la impressora."
 
 #: ../share/extensions/hpgl_output.inx.h:36
@@ -32901,7 +32901,7 @@ msgstr "Exporta un fitxer HP Graphics Language"
 
 #: ../share/extensions/image_attributes.inx.h:1
 msgid "Set Image Attributes"
-msgstr "Estableix els atributs de la imatgte"
+msgstr "Estableix els atributs de la imatge"
 
 #. render images like in 0.48
 #: ../share/extensions/image_attributes.inx.h:3
@@ -33196,8 +33196,8 @@ msgid ""
 "This extension allows you to install, update and remove auto-texts for a JessyInk presentation. Please see code.google."
 "com/p/jessyink for more details."
 msgstr ""
-"Aquesta extensió us permet instal·lar, actualitzar i suprimir text auto per una presentació JessyInk. Per més informació "
-"consulteu code.google.com/p/jessyink ."
+"Aquesta extensió us permet instal·lar, actualitzar i suprimir text auto per una presentació JessyInk. Per a més informació, "
+"consulteu code.google.com/p/jessyink."
 
 #: ../share/extensions/jessyInk_autoTexts.inx.h:10 ../share/extensions/jessyInk_effects.inx.h:15
 #: ../share/extensions/jessyInk_install.inx.h:4 ../share/extensions/jessyInk_keyBindings.inx.h:46
@@ -33223,7 +33223,7 @@ msgstr "Efecte construeix (build-in)"
 
 #: ../share/extensions/jessyInk_effects.inx.h:7
 msgid "None (default)"
-msgstr "Cap (predeterminat)"
+msgstr "Cap (per defecte)"
 
 #: ../share/extensions/jessyInk_effects.inx.h:8 ../share/extensions/jessyInk_transitions.inx.h:8
 msgid "Appear"
@@ -33251,7 +33251,7 @@ msgid ""
 "google.com/p/jessyink for more details."
 msgstr ""
 "Aquesta extensió us permet instal·lar, actualitzar i suprimir efectes dels objectes per una presentació JessyInk. Per "
-"més informació consulteu code.google.com/p/jessyink ."
+"a més informació, consulteu code.google.com/p/jessyink."
 
 #: ../share/extensions/jessyInk_export.inx.h:1
 msgid "JessyInk zipped pdf or png output"
@@ -33275,7 +33275,7 @@ msgid ""
 "code.google.com/p/jessyink for more details."
 msgstr ""
 "Aquesta extensió us permet exportar una presentació JessyInk un cop hàgiu creat una capa d'exportació al vostre "
-"navegador Per més informació consulteu code.google.com/p/jessyink."
+"navegador Per a més informació, consulteu code.google.com/p/jessyink."
 
 #: ../share/extensions/jessyInk_export.inx.h:9
 msgid "JessyInk zipped pdf or png output (*.zip)"
@@ -33295,7 +33295,7 @@ msgid ""
 "Please see code.google.com/p/jessyink for more details."
 msgstr ""
 "Aquesta extensió us permet instal·lar o actualitzar scripts JessyInk per tal de convertir el vostre fitxer SVG en una "
-"presentació. Per més informació consulteu code.google.com/p/jessyink."
+"presentació. Per a més informació, consulteu code.google.com/p/jessyink."
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:1
 msgid "Key bindings"
@@ -33303,7 +33303,7 @@ msgstr "Assignació de tecles"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:2
 msgid "Slide mode"
-msgstr "Mode diapositives"
+msgstr "Mode de diapositives"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:3
 msgid "Back (with effects):"
@@ -33359,67 +33359,67 @@ msgstr "Exporta la presentació:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:17
 msgid "Switch to slide mode:"
-msgstr "Commuta al mode diapositives:"
+msgstr "Commuta al mode de diapositives:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:18
 msgid "Set path width to default:"
-msgstr "Estableix el gruix de camí a predeterminar:"
+msgstr "Defineix l'amplada del camí en el valor per defecte:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:19
 msgid "Set path width to 1:"
-msgstr "Estableix el gruix de camí a 1:"
+msgstr "Defineix l'amplada del camí en 1:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:20
 msgid "Set path width to 3:"
-msgstr "Estableix el gruix de camí a 3:"
+msgstr "Defineix l'amplada del camí en 3:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:21
 msgid "Set path width to 5:"
-msgstr "Estableix el gruix de camí a 5:"
+msgstr "Defineix l'amplada del camí en 5:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:22
 msgid "Set path width to 7:"
-msgstr "Estableix el gruix de camí a 7:"
+msgstr "Defineix l'amplada del camí en 7:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:23
 msgid "Set path width to 9:"
-msgstr "Estableix el gruix de camí a 9:"
+msgstr "Defineix l'amplada del camí en 9:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:24
 msgid "Set path color to blue:"
-msgstr "Estableix el color del camí a blau:"
+msgstr "Defineix el color del camí en blau:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:25
 msgid "Set path color to cyan:"
-msgstr "Estableix el color del camí a cian:"
+msgstr "Defineix el color del camí en cian:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:26
 msgid "Set path color to green:"
-msgstr "Estableix el color del camí a verd:"
+msgstr "Defineix el color del camí en verd:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:27
 msgid "Set path color to black:"
-msgstr "Estableix el color del camí a negre:"
+msgstr "Defineix el color del camí en negre:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:28
 msgid "Set path color to magenta:"
-msgstr "Estableix el color del camí a magenta:"
+msgstr "Defineix el color del camí en magenta:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:29
 msgid "Set path color to orange:"
-msgstr "Estableix el color del camí a taronja:"
+msgstr "Defineix el color del camí en taronja:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:30
 msgid "Set path color to red:"
-msgstr "Estableix el color del camí a vermell:"
+msgstr "Defineix el color del camí en vermell:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:31
 msgid "Set path color to white:"
-msgstr "Estableix el color del camí a blanc:"
+msgstr "Defineix el color del camí en blanc:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:32
 msgid "Set path color to yellow:"
-msgstr "Estableix el color del camí a groc:"
+msgstr "Defineix el color del camí en groc:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:33
 msgid "Undo last path segment:"
@@ -33463,14 +33463,14 @@ msgstr "Incrementa el nombre de columnes:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:43
 msgid "Set number of columns to default:"
-msgstr "Estableix el nombre de columnes a predeterminar:"
+msgstr "Defineix el nombre de columnes en el valor per defecte:"
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:45
 msgid ""
 "This extension allows you customise the key bindings JessyInk uses. Please see code.google.com/p/jessyink for more "
 "details."
 msgstr ""
-"Aquesta extensió us permet personalitzar l'assignació de tecles per utilitzar el JessyInk. Per més informació consulteu "
+"Aquesta extensió us permet personalitzar l'assignació de tecles per utilitzar el JessyInk. Per a més informació, consulteu "
 "code.google.com/p/jessyink."
 
 #: ../share/extensions/jessyInk_masterSlide.inx.h:1
@@ -33490,7 +33490,7 @@ msgid ""
 "This extension allows you to change the master slide JessyInk uses. Please see code.google.com/p/jessyink for more "
 "details."
 msgstr ""
-"Aquesta extensió us permet canviar la diapositiva mestra que utilitza JessyInk. Per més informació consulteu code.google."
+"Aquesta extensió us permet canviar la diapositiva mestra que utilitza JessyInk. Per a més informació, consulteu code.google."
 "com/p/jessyink."
 
 #: ../share/extensions/jessyInk_mouseHandler.inx.h:1
@@ -33514,7 +33514,7 @@ msgid ""
 "This extension allows you customise the mouse handler JessyInk uses. Please see code.google.com/p/jessyink for more "
 "details."
 msgstr ""
-"Aquesta extensió us permet personalitzar el control del ratolí per fer-lo servir amb JessyInk. Per més informació "
+"Aquesta extensió us permet personalitzar el control del ratolí per fer-lo servir amb JessyInk. Per a més informació, "
 "consulteu code.google.com/p/jessyink."
 
 #: ../share/extensions/jessyInk_summary.inx.h:1
@@ -33527,7 +33527,7 @@ msgid ""
 "file. Please see code.google.com/p/jessyink for more details."
 msgstr ""
 "Aquesta extensió us permet obtenir informació sobre l'script, els efectes i les transicions que estan incloses al fitxer "
-"SVG. Per més informació consulteu code.google.com/p/jessyink."
+"SVG. Per a més informació, consulteu code.google.com/p/jessyink."
 
 #: ../share/extensions/jessyInk_transitions.inx.h:1
 msgid "Transitions"
@@ -33550,7 +33550,7 @@ msgid ""
 "This extension allows you to change the transition JessyInk uses for the selected layer. Please see code.google.com/p/"
 "jessyink for more details."
 msgstr ""
-"Aquesta extensió us permet canviar la transició JessyInk de la capa seleccionada. Per més informació consulteu code."
+"Aquesta extensió us permet canviar la transició JessyInk de la capa seleccionada. Per a més informació, consulteu code."
 "google.com/p/jessyink."
 
 #: ../share/extensions/jessyInk_uninstall.inx.h:1
@@ -33587,7 +33587,7 @@ msgstr "Seleccioneu quines parts voleu desinstal·lar o suprimir del JessyInk."
 
 #: ../share/extensions/jessyInk_uninstall.inx.h:11
 msgid "This extension allows you to uninstall the JessyInk script. Please see code.google.com/p/jessyink for more details."
-msgstr "Aquesta extensió us permet desinstal·lar l'script JessyInk. Per més informació code.google.com/p/jessyink ."
+msgstr "Aquesta extensió us permet desinstal·lar l'script JessyInk. Per a més informació, consulteu code.google.com/p/jessyink."
 
 #: ../share/extensions/jessyInk_video.inx.h:1
 msgid "Video"
@@ -33599,7 +33599,7 @@ msgid ""
 "into your JessyInk presentation. Please see code.google.com/p/jessyink for more details."
 msgstr ""
 "Aquesta extensió posa un element JessyInk de vídeo a la diapositiva (capa) actual. Aquest element us permet integrar "
-"vídeo a les vostres presentacions JessyInk. Per més informació consulteu code.google.com/p/jessyink."
+"vídeo a les vostres presentacions JessyInk. Per a més informació, consulteu code.google.com/p/jessyink."
 
 #: ../share/extensions/jessyInk_view.inx.h:5
 msgid "Remove view"
@@ -33614,8 +33614,8 @@ msgid ""
 "This extension allows you to set, update and remove views for a JessyInk presentation. Please see code.google.com/p/"
 "jessyink for more details."
 msgstr ""
-"Aquesta extensió us permet definir, actualitzar i suprimir visualitzacions a una presentació JessyInk. Per més "
-"informació code.google.com/p/jessyink ."
+"Aquesta extensió us permet definir, actualitzar i suprimir visualitzacions a una presentació JessyInk. Per a més "
+"informació, consulteu code.google.com/p/jessyink."
 
 #: ../share/extensions/jitternodes.inx.h:1
 msgid "Jitter nodes"
@@ -33857,7 +33857,7 @@ msgstr ""
 "\n"
 "|: gira 180 graus,\n"
 "\n"
-"[: memoritza el  punt,\n"
+"[: memoritza el punt,\n"
 "\n"
 "]: torna al punt memoritzat\n"
 
@@ -34676,7 +34676,7 @@ msgstr "Cub rom"
 
 #: ../share/extensions/polyhedron_3d.inx.h:10
 msgid "Cuboctahedron"
-msgstr "Cuboctaedre"
+msgstr "Cubooctaedre"
 
 #: ../share/extensions/polyhedron_3d.inx.h:11
 msgid "Tetrahedron"
@@ -34940,7 +34940,7 @@ msgstr "Codi QR"
 
 #: ../share/extensions/render_barcode_qrcode.inx.h:2
 msgid "See http://www.denso-wave.com/qrcode/index-e.html for details"
-msgstr "Per més detall visiteu: http://www.denso-wave.com/qrcode/index-e.html"
+msgstr "Per a més informació, visiteu: http://www.denso-wave.com/qrcode/index-e.html"
 
 #: ../share/extensions/render_barcode_qrcode.inx.h:6
 msgid "With \"Auto\", the size of the barcode depends on the length of the text and the error correction level"
@@ -35240,7 +35240,7 @@ msgstr "Redueix tots els grups"
 #: ../share/extensions/scour.inx.h:10
 msgid "Remove useless groups, promoting their contents up one level. Requires \"Remove unused IDs\" to be set."
 msgstr ""
-"Suprimeix els grups no útils, promocionant els seus continguts un nivell amunt.  Requereix que «Suprimeix els IDs no "
+"Suprimeix els grups no útils, promocionant els seus continguts un nivell amunt. Requereix que «Suprimeix els ID no "
 "usats» estigui actiu. "
 
 #: ../share/extensions/scour.inx.h:11
@@ -35415,7 +35415,7 @@ msgstr ""
 
 #: ../share/extensions/scour.inx.h:47
 msgid "Shorten IDs"
-msgstr "Escurça IDs"
+msgstr "Escurça els ID"
 
 #: ../share/extensions/scour.inx.h:48
 msgid ""
@@ -35539,7 +35539,7 @@ msgstr "Format de fitxer que s'utilitza amb l'editor de gràfics vectorials sK1"
 
 #: ../share/extensions/sk_input.inx.h:1
 msgid "Sketch Input"
-msgstr "Entrada d'Sketch"
+msgstr "Entrada de Sketch"
 
 #: ../share/extensions/sk_input.inx.h:2
 msgid "Sketch Diagram (*.sk)"
@@ -35906,11 +35906,11 @@ msgstr "A l'ATzaR"
 
 #: ../share/extensions/text_sentencecase.inx.h:1
 msgid "Sentence case"
-msgstr "frase en majúscules"
+msgstr "Majúscules a l'inici de frase"
 
 #: ../share/extensions/text_titlecase.inx.h:1
 msgid "Title Case"
-msgstr "Títol en majúscula"
+msgstr "Cada Paraula Comença En Majúscules"
 
 #: ../share/extensions/text_uppercase.inx.h:1
 msgid "UPPERCASE"
