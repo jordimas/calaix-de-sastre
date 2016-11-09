@@ -8997,7 +8997,7 @@ msgstr "Habilita els camins de deformació esquerre i dret"
 
 #: ../src/live_effects/lpe-envelope.cpp:36
 msgid "_Enable top & bottom paths"
-msgstr "Habilita els camins superior i inferior"
+msgstr "_Habilita els camins superior i inferior"
 
 #: ../src/live_effects/lpe-envelope.cpp:36
 msgid "Enable the top and bottom deformation paths"
@@ -9177,7 +9177,7 @@ msgstr "Determina el nombre de passos des de l'inici fins al final."
 
 #: ../src/live_effects/lpe-interpolate.cpp:32
 msgid "E_quidistant spacing"
-msgstr "Espai equidistant"
+msgstr "_Espai equidistant"
 
 #: ../src/live_effects/lpe-interpolate.cpp:32
 msgid ""
@@ -9309,7 +9309,7 @@ msgstr "Mida de la regió oculta de la cadena inferior"
 
 #: ../src/live_effects/lpe-knot.cpp:351
 msgid "_In units of stroke width"
-msgstr "En unitats d'amplada del traç"
+msgstr "_En unitats d'amplada del traç"
 
 #: ../src/live_effects/lpe-knot.cpp:351
 msgid "Consider 'Interruption width' as a ratio of stroke width"
@@ -9317,7 +9317,7 @@ msgstr "Considera «l'amplada de la interrupció» en relació a l'amplada del t
 
 #: ../src/live_effects/lpe-knot.cpp:352
 msgid "St_roke width"
-msgstr "Amplada del traç"
+msgstr "_Amplada del traç"
 
 #: ../src/live_effects/lpe-knot.cpp:352
 msgid "Add the stroke width to the interruption size"
@@ -10134,7 +10134,7 @@ msgstr "Unitat"
 
 #: ../src/live_effects/lpe-ruler.cpp:43
 msgid "Ma_jor length:"
-msgstr "Longitud principal:"
+msgstr "_Longitud principal:"
 
 #: ../src/live_effects/lpe-ruler.cpp:43
 msgid "Length of major ruler marks"
@@ -10142,7 +10142,7 @@ msgstr "Longitud de les marques principals del regle"
 
 #: ../src/live_effects/lpe-ruler.cpp:44
 msgid "Mino_r length:"
-msgstr "Longitud menor:"
+msgstr "_Longitud menor:"
 
 #: ../src/live_effects/lpe-ruler.cpp:44
 msgid "Length of minor ruler marks"
@@ -10150,7 +10150,7 @@ msgstr "Longitud de les marques menors del regle"
 
 #: ../src/live_effects/lpe-ruler.cpp:45
 msgid "Major steps_:"
-msgstr "Passos principals:"
+msgstr "_Passos principals:"
 
 #: ../src/live_effects/lpe-ruler.cpp:45
 msgid "Draw a major mark every ... steps"
@@ -10158,7 +10158,7 @@ msgstr "Dibuixa una marca principal cada ... passos"
 
 #: ../src/live_effects/lpe-ruler.cpp:46
 msgid "Shift marks _by:"
-msgstr "Canvia les marques per:"
+msgstr "Canvi_a les marques per:"
 
 #: ../src/live_effects/lpe-ruler.cpp:46
 msgid "Shift marks by this many steps"
@@ -10523,7 +10523,7 @@ msgstr "Camí els segments del qual defineixen les transformacions iteratives"
 
 #: ../src/live_effects/lpe-vonkoch.cpp:48
 msgid "_Use uniform transforms only"
-msgstr "Només utilitza les transformacions uniformes"
+msgstr "_Només utilitza les transformacions uniformes"
 
 #: ../src/live_effects/lpe-vonkoch.cpp:48
 msgid "2 consecutive segments are used to reverse/preserve orientation only (otherwise, they define a general transform)."
@@ -10531,7 +10531,7 @@ msgstr "Només s'utilitzaren dos segments consecutius per preservar o canviar l'
 
 #: ../src/live_effects/lpe-vonkoch.cpp:49
 msgid "Dra_w all generations"
-msgstr "Dibuixa totes les generacions"
+msgstr "_Dibuixa totes les generacions"
 
 #: ../src/live_effects/lpe-vonkoch.cpp:49
 msgid "If unchecked, draw only the last generation"
@@ -10829,7 +10829,7 @@ msgstr ""
 
 #: ../src/main.cpp:425
 msgid "PDF_VERSION"
-msgstr "Versió en PDF"
+msgstr "_Versió en PDF"
 
 #: ../src/main.cpp:429
 msgid ""
@@ -10959,7 +10959,7 @@ msgstr "Clo_na"
 
 #: ../src/menus-skeleton.h:79
 msgid "Select Sa_me"
-msgstr "Selecciona el mateix"
+msgstr "_Selecciona el mateix"
 
 #: ../src/menus-skeleton.h:100
 msgid "_View"
@@ -10978,14 +10978,14 @@ msgstr "Mode _mostrar"
 #. "         <verb verb-id=\"DialogPrintColorsPreview\" />\n"
 #: ../src/menus-skeleton.h:126
 msgid "_Color display mode"
-msgstr "Mode mostrar el color"
+msgstr "_Mode mostrar el color"
 
 #. Better location in menu needs to be found
 #. "         <verb verb-id=\"ViewColorModePrintColorsPreview\" radio=\"yes\"/>\n"
 #. "         <verb verb-id=\"DialogPrintColorsPreview\" />\n"
 #: ../src/menus-skeleton.h:139
 msgid "Sh_ow/Hide"
-msgstr "Mostra/amaga"
+msgstr "_Mostra/amaga"
 
 #. Not quite ready to be in the menus.
 #. "       <verb verb-id=\"FocusToggle\" />\n"
@@ -13975,7 +13975,7 @@ msgstr "_Exporta com a..."
 
 #: ../src/ui/dialog/export.cpp:170
 msgid "B_atch export all selected objects"
-msgstr "Exportació per lots de tots els objectes seleccionats"
+msgstr "_Exportació per lots de tots els objectes seleccionats"
 
 #: ../src/ui/dialog/export.cpp:170
 msgid "Export each selected object into its own PNG file, using export hints if any (caution, overwrites without asking!)"
@@ -17281,7 +17281,7 @@ msgstr "Opacitat q_uan deixa el focus:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:756
 msgid "_Time of opacity change animation:"
-msgstr "Duració de l'animació del canvi d'opacitat:"
+msgstr "_Duració de l'animació del canvi d'opacitat:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:759
 msgid "Miscellaneous"
@@ -18168,7 +18168,7 @@ msgstr "En prémer > o < s'escala la selecció o es redueix en aquesta quantitat
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1319
 msgid "_Inset/Outset by:"
-msgstr "Contrau/expandeix:"
+msgstr "_Contrau/expandeix:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1320
 msgid "Inset and Outset commands displace the path by this distance"
@@ -20801,7 +20801,7 @@ msgstr "Desagr_upa"
 #. Link dialog
 #: ../src/ui/interface.cpp:1941
 msgid "Link _Properties..."
-msgstr "Propietats de l'enllaç..."
+msgstr "_Propietats de l'enllaç..."
 
 #. Select item
 #: ../src/ui/interface.cpp:1947
@@ -24580,7 +24580,7 @@ msgstr "Bloca totes les capes"
 
 #: ../src/verbs.cpp:2679
 msgid "Lock/Unlock _other layers"
-msgstr "Bloca o desbloca les altres capes"
+msgstr "_Bloca o desbloca les altres capes"
 
 #: ../src/verbs.cpp:2680
 msgid "Lock all the other layers"
@@ -25548,7 +25548,7 @@ msgstr "Mostra objectes"
 
 #: ../src/verbs.cpp:2950
 msgid "Selection se_ts..."
-msgstr "Selecciona el conjunt..."
+msgstr "_Selecciona el conjunt..."
 
 #: ../src/verbs.cpp:2951
 msgid "View Tags"
