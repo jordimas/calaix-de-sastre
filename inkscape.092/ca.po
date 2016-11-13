@@ -878,7 +878,7 @@ msgstr "Relleus amb bombolles mat"
 
 #: ../share/filters/filters.svg.h:352
 msgid "Same as Bubbly Bumps but with a diffuse light instead of a specular one"
-msgstr "El mateix que els relleus amb bombolles però amb llum difosa en comptes d'especular"
+msgstr "El mateix que els relleus amb bombolles però amb llum difusa en comptes d'especular"
 
 #: ../share/filters/filters.svg.h:354
 msgid "Blotting Paper"
@@ -1293,7 +1293,7 @@ msgstr "Llenç amb relleu, mat"
 
 #: ../share/filters/filters.svg.h:544
 msgid "Same as Canvas Bumps but with a diffuse light instead of a specular one"
-msgstr "El mateix que llenç amb relleu però amb llum difosa en comptes d'especular"
+msgstr "El mateix que llenç amb relleu però amb llum difusa en comptes d'especular"
 
 #: ../share/filters/filters.svg.h:546
 msgid "Canvas Bumps Alpha"
@@ -4701,7 +4701,7 @@ msgstr "_Desfés"
 
 #: ../src/event-log.cpp:381 ../src/event-log.cpp:385 ../src/verbs.cpp:2462
 msgid "_Redo"
-msgstr "To_rna a fer"
+msgstr "_Refés"
 
 #: ../src/extension/dependency.cpp:255
 msgid "Dependency:"
@@ -4709,19 +4709,19 @@ msgstr "Dependència:"
 
 #: ../src/extension/dependency.cpp:256
 msgid "  type: "
-msgstr "tipus:"
+msgstr " tipus: "
 
 #: ../src/extension/dependency.cpp:257
 msgid "  location: "
-msgstr "posició:"
+msgstr "  posició: "
 
 #: ../src/extension/dependency.cpp:258
 msgid "  string: "
-msgstr "cadena:"
+msgstr "  cadena: "
 
 #: ../src/extension/dependency.cpp:261
 msgid "  description: "
-msgstr "descripció:"
+msgstr "  descripció: "
 
 #: ../src/extension/effect.cpp:41
 msgid " (No preferences)"
@@ -5601,7 +5601,7 @@ msgstr "Metafitxer millorat"
 
 #: ../src/extension/internal/filter/bevels.h:53
 msgid "Diffuse Light"
-msgstr "Llum difosa"
+msgstr "Llum difusa"
 
 #: ../src/extension/internal/filter/bevels.h:55 ../src/extension/internal/filter/bevels.h:135 ../src/extension/internal/filter/bevels.h:219
 #: ../src/extension/internal/filter/paint.h:89 ../src/extension/internal/filter/paint.h:340
@@ -5644,7 +5644,7 @@ msgstr "Filtres"
 
 #: ../src/extension/internal/filter/bevels.h:66
 msgid "Basic diffuse bevel to use for building textures"
-msgstr "Bisellat difós bàsic que s'utilitza per fer textures"
+msgstr "Bisellat difús bàsic que s'utilitza per fer textures"
 
 #: ../src/extension/internal/filter/bevels.h:133
 msgid "Matte Jelly"
@@ -5841,7 +5841,7 @@ msgstr "Especular"
 
 #: ../src/extension/internal/filter/bumps.h:96
 msgid "Diffuse"
-msgstr "Difosa"
+msgstr "Difusa"
 
 #: ../src/extension/internal/filter/bumps.h:98 ../src/extension/internal/filter/bumps.h:329 ../src/libgdl/gdl-dock-placeholder.c:175
 #: ../src/libgdl/gdl-dock.c:199 ../src/ui/widget/page-sizer.cpp:250 ../src/widgets/rect-toolbar.cpp:334 ../share/extensions/interp_att_g.inx.h:13
@@ -7725,7 +7725,7 @@ msgstr "Matriu de convolució"
 
 #: ../src/filter-enums.cpp:26
 msgid "Diffuse Lighting"
-msgstr "Llum difosa"
+msgstr "Llum difusa"
 
 #: ../src/filter-enums.cpp:27
 msgid "Displacement Map"
@@ -14669,7 +14669,7 @@ msgstr "Si està marcat, el canal alfa no es veurà afectat per aquesta primitiv
 #. default: white
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2911
 msgid "Diffuse Color:"
-msgstr "Color difós:"
+msgstr "Color difús:"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2911 ../src/ui/dialog/filter-effects-dialog.cpp:2944
 msgid "Defines the color of the light source"
@@ -15524,7 +15524,7 @@ msgstr "Phagspa"
 
 #: ../src/ui/dialog/glyphs.cpp:127
 msgid "N'Ko"
-msgstr "N'Ko"
+msgstr "Nko"
 
 #: ../src/ui/dialog/glyphs.cpp:128 ../src/ui/dialog/glyphs.cpp:278
 msgid "Kayah Li"
@@ -15540,7 +15540,7 @@ msgstr "Rejang"
 
 #: ../src/ui/dialog/glyphs.cpp:131 ../src/ui/dialog/glyphs.cpp:207
 msgid "Sundanese"
-msgstr "Sudanès"
+msgstr "Sundanès"
 
 #: ../src/ui/dialog/glyphs.cpp:132 ../src/ui/dialog/glyphs.cpp:276
 msgid "Saurashtra"
@@ -18090,7 +18090,7 @@ msgstr "Persistència de l'indicador d'ajustament (en segons):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1285
 msgid "Controls how long the snap indicator message will be shown, before it disappears"
-msgstr "Controla durant quan de temps es mostrarà l'indicador d'ajustament, abans que desaparegui"
+msgstr "Controla durant quant de temps es mostrarà l'indicador d'ajustament, abans que desaparegui"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1287
 msgid "What should snap"
@@ -19381,7 +19381,7 @@ msgstr "Commuta la visibilitat de la capa, grup o objecte."
 
 #: ../src/ui/dialog/objects.cpp:1681
 msgid "Toggle lock of Layer, Group, or Object."
-msgstr "Commuta el boqueig de la capa, grup o objecte."
+msgstr "Commuta el bloqueig de la capa, grup o objecte."
 
 #: ../src/ui/dialog/objects.cpp:1693
 msgid "Type: Layer, Group, or Object. Clicking on Layer or Group icon, toggles between the two types."
@@ -28950,7 +28950,7 @@ msgstr "Usa la pressió del dispositiu d'entrada per modificar la força de l'à
 
 #: ../share/extensions/convert2dashes.py:56
 msgid "Total number of objects not converted: {}\n"
-msgstr "Nombre total d'objectes que no s'han de convertit: {}\n"
+msgstr "Nombre total d'objectes que no s'han convertit: {}\n"
 
 #: ../share/extensions/dimension.py:108
 msgid "Please select an object."
@@ -30237,7 +30237,7 @@ msgid ""
 "    * Starting dot number: first number in the sequence, assigned to the first node of the path.\n"
 "    * Step: numbering step between two nodes."
 msgstr ""
-"Aquesta extensió reemplaça els nodes de la selecció amb punts numerats d'acorda les següents opcions: \n"
+"Aquesta extensió reemplaça els nodes de la selecció amb punts numerats d'acord a les següents opcions: \n"
 "     * Mida de la tipografia: Mida de les etiquetes de nombre de node (20px, 12pt...) \n"
 "     * Mida del punt : Diàmetre dels punts col·locats en els nodes del camí (10px, 2mm...) \n"
 "     * Inici del punt número: primer número de la seqüència, assignat al primer node del camí. \n"
@@ -31384,7 +31384,7 @@ msgstr ""
 "Els punts d'orientació s'utilitzen per calcular la transformació (desplaçament, escala, mirall, rotació en el pla XY) del camí. Mode 3 punts només: no "
 "poseu els tres punts en una sola línia (utilitzeu el mode 2 punts en el seu lloc). Podeu modificar després els valors de la superfície Z, la "
 "profunditat Z utilitzant l'eina de text (3a coordenada). Si no hi ha punts dins de la capa actual es prenen de la capa superior. No desagrupeu els "
-"punts d'orientació! Podeu seleccionar usant doble clic per entrar el grup o amb Ctrl + Clic. Ara premeu s'aplicarà per crear punts de control (conjunt "
+"punts d'orientació! Podeu seleccionar usant doble clic per entrar el grup o amb Ctrl + Clic. Ara premeu aplica per a crear punts de control (conjunt "
 "independent per a cada capa)."
 
 #: ../share/extensions/gcodetools_lathe.inx.h:1
