@@ -120,7 +120,7 @@ msgstr "Peça d'un trencaclosques"
 
 #: ../share/filters/filters.svg.h:16
 msgid "Low, sharp bevel"
-msgstr "Relleu baix i marcat"
+msgstr "Bisell baix i marcat"
 
 #: ../share/filters/filters.svg.h:18
 msgid "Rubber Stamp"
@@ -782,7 +782,7 @@ msgstr "Vidre fosc"
 
 #: ../share/filters/filters.svg.h:304
 msgid "Illuminated glass effect with light coming from beneath"
-msgstr "Efecte de vidre il·luminat pel darrere"
+msgstr "Efecte de vidre il·luminat des de sota"
 
 #: ../share/filters/filters.svg.h:306
 msgid "HSL Bumps Alpha"
@@ -1437,7 +1437,7 @@ msgstr "Efecte repujat mat de la pasta de modelar"
 
 #: ../share/filters/filters.svg.h:614
 msgid "Rough Canvas Painting"
-msgstr "llenç de pintura rugós"
+msgstr "Llenç de pintura rugós"
 
 #: ../share/filters/filters.svg.h:618
 msgid "Paper Bump"
@@ -3395,7 +3395,7 @@ msgstr "Aparcament"
 #: ../share/symbols/symbols.h:61 ../share/symbols/symbols.h:62
 msgctxt "Symbol"
 msgid "Pets On Leash"
-msgstr "Macotes amb corretja"
+msgstr "Mascotes amb corretja"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:63 ../share/symbols/symbols.h:64
@@ -4274,7 +4274,7 @@ msgstr "Tipografia del llenç"
 
 #: ../share/templates/templates.h:1
 msgid "Empty typography canvas with helping guidelines."
-msgstr "Tipografia del llenç buida amb línies guies d'ajuda."
+msgstr "Tipografia del llenç buida amb línies guia d'ajuda."
 
 #: ../share/templates/templates.h:1
 msgid "guidelines typography canvas"
@@ -4789,11 +4789,11 @@ msgstr "no s'ha trobat una dependència."
 
 #: ../src/extension/extension.cpp:321
 msgid "Extension \""
-msgstr "Extensió «"
+msgstr "L'extensió «"
 
 #: ../src/extension/extension.cpp:321
 msgid "\" failed to load because "
-msgstr "» no s'ha pogut carregar atès que"
+msgstr "» no s'ha pogut carregar perquè"
 
 #: ../src/extension/extension.cpp:670
 #, c-format
@@ -5870,19 +5870,19 @@ msgstr "Font de llum:"
 
 #: ../src/extension/internal/filter/bumps.h:105
 msgid "Distant"
-msgstr "Allunyada"
+msgstr "Llunyana"
 
 #: ../src/extension/internal/filter/bumps.h:106 ../src/ui/dialog/inkscape-preferences.cpp:470
 msgid "Point"
-msgstr "Punt"
+msgstr "Omnidireccional"
 
 #: ../src/extension/internal/filter/bumps.h:107
 msgid "Spot"
-msgstr "Lloc"
+msgstr "Focus"
 
 #: ../src/extension/internal/filter/bumps.h:109
 msgid "Distant light options"
-msgstr "Opcions de la llum allunyada"
+msgstr "Opcions de la llum llunyana"
 
 #: ../src/extension/internal/filter/bumps.h:110 ../src/extension/internal/filter/bumps.h:332 ../src/ui/dialog/filter-effects-dialog.cpp:1196
 msgid "Azimuth"
@@ -5894,7 +5894,7 @@ msgstr "Elevació"
 
 #: ../src/extension/internal/filter/bumps.h:112
 msgid "Point light options"
-msgstr "Opcions del punt de llum"
+msgstr "Opcions de la llum omnidireccional"
 
 #: ../src/extension/internal/filter/bumps.h:113 ../src/extension/internal/filter/bumps.h:117
 msgid "X location"
@@ -5910,7 +5910,7 @@ msgstr "Ubicació Z"
 
 #: ../src/extension/internal/filter/bumps.h:116
 msgid "Spot light options"
-msgstr "Opcions del lloc de la llum"
+msgstr "Opcions del focus"
 
 #: ../src/extension/internal/filter/bumps.h:120
 msgid "X target"
@@ -5942,7 +5942,7 @@ msgstr "Relleu del color"
 
 #: ../src/extension/internal/filter/bumps.h:145
 msgid "All purposes bump filter"
-msgstr "Filtre de cada relleu"
+msgstr "Filtre de relleu general"
 
 #: ../src/extension/internal/filter/bumps.h:309
 msgid "Wax Bump"
@@ -5966,23 +5966,23 @@ msgstr "Opacitat del fons"
 
 #: ../src/extension/internal/filter/bumps.h:327 ../src/extension/internal/filter/color.h:1115
 msgid "Lighting"
-msgstr "Il·lumina"
+msgstr "Il·luminació"
 
 #: ../src/extension/internal/filter/bumps.h:334
 msgid "Lighting blend:"
-msgstr "Il·lumina la mescla:"
+msgstr "Mescla d'il·luminació:"
 
 #: ../src/extension/internal/filter/bumps.h:341
 msgid "Highlight blend:"
-msgstr "Il·luminació de la mescla:"
+msgstr "Ressalta la mescla:"
 
 #: ../src/extension/internal/filter/bumps.h:350
 msgid "Bump color"
-msgstr "Color del ewllwu"
+msgstr "Color del relleu"
 
 #: ../src/extension/internal/filter/bumps.h:351
 msgid "Revert bump"
-msgstr "Desfés el relleu"
+msgstr "Inverteix el relleu"
 
 #: ../src/extension/internal/filter/bumps.h:352
 msgid "Transparency type:"
@@ -7037,7 +7037,7 @@ msgstr "Personalitzat"
 
 #: ../src/extension/internal/filter/textures.h:83
 msgid "Custom stroke options"
-msgstr "Opcions del traçat personalitzat"
+msgstr "Opcions del traç personalitzat"
 
 #: ../src/extension/internal/filter/textures.h:84
 msgid "k1:"
@@ -7341,7 +7341,7 @@ msgid ""
 "Import via external library. Text consists of groups containing cloned glyphs where each glyph is a path. Images are stored internally. Meshes cause "
 "entire document to be rendered as a raster image."
 msgstr ""
-"Importació a través de la biblioteca externa. El text consta de grups que contenen glifs clonats en que cada glif és un camí. Les imatges "
+"Importació a través de la biblioteca externa. El text consta de grups que contenen glifs clonats on cada glif és un camí. Les imatges "
 "s'emmagatzemen internament. Les malles fan que tot el document es representi com una imatge de mapa de bits."
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:136
@@ -7589,7 +7589,7 @@ msgstr "Format de gràfics vectorials utilitzat pel Corel WordPerfect"
 
 #: ../src/extension/prefdialog.cpp:276
 msgid "Live preview"
-msgstr "Previsualització en viu"
+msgstr "Previsualització en temps real"
 
 #: ../src/extension/prefdialog.cpp:276
 msgid "Is the effect previewed live on canvas?"
@@ -7898,11 +7898,11 @@ msgstr "Llum llunyana"
 
 #: ../src/filter-enums.cpp:152
 msgid "Point Light"
-msgstr "Punt de llum"
+msgstr "Llum omnidireccional"
 
 #: ../src/filter-enums.cpp:153
 msgid "Spot Light"
-msgstr "Punt de llum"
+msgstr "Focus"
 
 #: ../src/gradient-chemistry.cpp:1586
 msgid "Invert gradient colors"
@@ -7910,7 +7910,7 @@ msgstr "Inverteix el degradat de colors"
 
 #: ../src/gradient-chemistry.cpp:1613
 msgid "Reverse gradient"
-msgstr "Degradat invertit"
+msgstr "Inverteix el degradat"
 
 #: ../src/gradient-chemistry.cpp:1627 ../src/widgets/gradient-selector.cpp:222
 msgid "Delete swatch"
@@ -8905,7 +8905,7 @@ msgstr "_Variabilitat inicial de la vora:"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:43
 msgid "The amount of random jitter to move the start points of the stitches inside & outside the guide path"
-msgstr "Quantitat d'aleatorietat amb què es començararan a moure els punts inicials del camí cap endins i cap enfora"
+msgstr "Quantitat d'aleatorietat amb què es començaran a moure els punts inicials del camí cap endins i cap enfora"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:44
 msgid "Sta_rt spacing variance:"
@@ -9618,7 +9618,7 @@ msgstr "Marqueu per mantenir emmirallada només la part del camí"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:73
 msgid "Fuse original and the reflection into a single path"
-msgstr "Fusiona l'original i el reflex amb un únic camí"
+msgstr "Fusiona l'original i la reflexió en un únic camí"
 
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:74
 msgid "Opposite fuse"
@@ -10426,7 +10426,7 @@ msgstr "Límit del biaix de les juntes"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:447
 msgid "Start point of the taper"
-msgstr "Inici del punt del fus"
+msgstr "Punt inicial del fus"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:451
 msgid "End point of the taper"
@@ -10466,7 +10466,7 @@ msgstr "Capgira verticalment"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:37
 msgid "Start point"
-msgstr "Punt d'inici"
+msgstr "Punt inicial"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:38
 msgid "End point"
@@ -11311,7 +11311,7 @@ msgstr "Cobertura:"
 
 #: ../src/rdf.cpp:276
 msgid "The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant"
-msgstr "Tema espaial o temporal del document, l'aplicació espaial del document, o la jurisdicció en què el document està escrit"
+msgstr "Tema espacial o temporal del document, l'aplicació espacial del document, o la jurisdicció en què el document està escrit"
 
 #: ../src/rdf.cpp:279
 msgid "Description:"
@@ -11471,15 +11471,15 @@ msgstr "Enganxa l'estil"
 
 #: ../src/selection-chemistry.cpp:1265
 msgid "Paste live path effect"
-msgstr "Enganxa l'efecte del camí"
+msgstr "Enganxa l'efecte del camí dinàmic"
 
 #: ../src/selection-chemistry.cpp:1287
 msgid "Select <b>object(s)</b> to remove live path effects from."
-msgstr "Seleccioneu els <b>objectes</b> d'on voleu suprimir els efectes del camí."
+msgstr "Seleccioneu els <b>objectes</b> d'on voleu suprimir els efectes del camí dinàmic."
 
 #: ../src/selection-chemistry.cpp:1299
 msgid "Remove live path effect"
-msgstr "Suprimeix l'efecte del camí"
+msgstr "Suprimeix l'efecte del camí dinàmic"
 
 #: ../src/selection-chemistry.cpp:1310
 msgid "Select <b>object(s)</b> to remove filters from."
@@ -11898,7 +11898,7 @@ msgstr "<b>Escala</b>: %0.2f%% x %0.2f%%; amb <b>Ctrl</b> per blocar el radi"
 #: ../src/seltrans.cpp:1202
 #, c-format
 msgid "<b>Skew</b>: %0.2f&#176;; with <b>Ctrl</b> to snap angle"
-msgstr "<b>Inclineu</b>: %0.2f&#176;; amb <b>Ctrl</b> per ajustar l'angle"
+msgstr "<b>Inclina</b>: %0.2f&#176;; amb <b>Ctrl</b> per ajustar l'angle"
 
 #. TRANSLATORS: don't modify the first ";"
 #. (it will NOT be displayed as ";" - only the second one will be)
@@ -12339,7 +12339,7 @@ msgstr "Seleccioneu <b>un text i un camí</b> per posar el text en el camí."
 
 #: ../src/text-chemistry.cpp:96
 msgid "This text object is <b>already put on a path</b>. Remove it from the path first. Use <b>Shift+D</b> to look up its path."
-msgstr "Aquest objecte de text <b>ja és en un camí</b>. Suprimiu-lo  primer del camí. Utilitzeu <b>Maj+D</b> per cercar-ne el camí."
+msgstr "Aquest objecte de text <b>ja és en un camí</b>. Suprimiu-lo primer del camí. Utilitzeu <b>Maj+D</b> per cercar-ne el camí."
 
 #. rect is the only SPShape which is not <path> yet, and thus SVG forbids us from putting text on it
 #: ../src/text-chemistry.cpp:102
@@ -12484,7 +12484,7 @@ msgstr "No hi ha cap mida al porta-retalls."
 
 #: ../src/ui/clipboard.cpp:567
 msgid "Select <b>object(s)</b> to paste live path effect to."
-msgstr "Seleccioneu <b>objectes</b> per enganxar-hi l'efecte del camí."
+msgstr "Seleccioneu <b>objectes</b> per enganxar-hi l'efecte del camí dinàmic."
 
 #. no_effect:
 #: ../src/ui/clipboard.cpp:593
@@ -12809,7 +12809,7 @@ msgstr "<b>P1</b>: desplaçament simple"
 
 #: ../src/ui/dialog/clonetiler.cpp:123
 msgid "<b>P2</b>: 180&#176; rotation"
-msgstr "<b>P2</b>: 180&#176; gir"
+msgstr "<b>P2</b>: gir de 180&#176;"
 
 #: ../src/ui/dialog/clonetiler.cpp:124
 msgid "<b>PM</b>: reflection"
@@ -12831,47 +12831,47 @@ msgstr "<b>PMM</b>: reflexió + reflexió"
 
 #: ../src/ui/dialog/clonetiler.cpp:130
 msgid "<b>PMG</b>: reflection + 180&#176; rotation"
-msgstr "<b>PMG</b>: reflexió + 180&#176; gir"
+msgstr "<b>PMG</b>: reflexió + gir de 180&#176;"
 
 #: ../src/ui/dialog/clonetiler.cpp:131
 msgid "<b>PGG</b>: glide reflection + 180&#176; rotation"
-msgstr "<b>PGG</b>: reflexió lleugera + 180&#176; gir"
+msgstr "<b>PGG</b>: reflexió lleugera + gir de 180&#176;"
 
 #: ../src/ui/dialog/clonetiler.cpp:132
 msgid "<b>CMM</b>: reflection + reflection + 180&#176; rotation"
-msgstr "<b>CMM</b>: reflexió + reflexió + 180&#176; gir"
+msgstr "<b>CMM</b>: reflexió + reflexió + gir de 180&#176;"
 
 #: ../src/ui/dialog/clonetiler.cpp:133
 msgid "<b>P4</b>: 90&#176; rotation"
-msgstr "<b>P4</b>: 90&#176; gir"
+msgstr "<b>P4</b>: gir de 90&#176;"
 
 #: ../src/ui/dialog/clonetiler.cpp:134
 msgid "<b>P4M</b>: 90&#176; rotation + 45&#176; reflection"
-msgstr "<b>P4M</b>: 90&#176; gir + 45&#176; reflexió"
+msgstr "<b>P4M</b>: gir de 90&#176; + reflexió de 45&#176;"
 
 #: ../src/ui/dialog/clonetiler.cpp:135
 msgid "<b>P4G</b>: 90&#176; rotation + 90&#176; reflection"
-msgstr "<b>P4G</b>: 90&#176; gir + 90&#176; reflexió"
+msgstr "<b>P4G</b>: gir de 90&#176; + reflexió de 90&#176;"
 
 #: ../src/ui/dialog/clonetiler.cpp:136
 msgid "<b>P3</b>: 120&#176; rotation"
-msgstr "<b>P3</b>: 120&#176; gir"
+msgstr "<b>P3</b>: gir de 120&#176;"
 
 #: ../src/ui/dialog/clonetiler.cpp:137
 msgid "<b>P31M</b>: reflection + 120&#176; rotation, dense"
-msgstr "<b>P31M</b>: reflexió + 120&#176; gir, dens"
+msgstr "<b>P31M</b>: reflexió + gir de 120&#176;, dens"
 
 #: ../src/ui/dialog/clonetiler.cpp:138
 msgid "<b>P3M1</b>: reflection + 120&#176; rotation, sparse"
-msgstr "<b>P3M1</b>: reflexió + 120&#176; gir, dispers"
+msgstr "<b>P3M1</b>: reflexió + gir de 120&#176;, dispers"
 
 #: ../src/ui/dialog/clonetiler.cpp:139
 msgid "<b>P6</b>: 60&#176; rotation"
-msgstr "<b>P6</b>: 60&#176; gir"
+msgstr "<b>P6</b>: gir de 60&#176;"
 
 #: ../src/ui/dialog/clonetiler.cpp:140
 msgid "<b>P6M</b>: reflection + 60&#176; rotation"
-msgstr "<b>P6M</b>: reflexió + 60&#176; gir"
+msgstr "<b>P6M</b>: reflexió + gir de 60&#176;"
 
 #: ../src/ui/dialog/clonetiler.cpp:160
 msgid "Select one of the 17 symmetry groups for the tiling"
@@ -13631,7 +13631,7 @@ msgstr "Color de la línia guia"
 
 #: ../src/ui/dialog/document-properties.cpp:130
 msgid "Color of guidelines"
-msgstr "Color de les línies guies"
+msgstr "Color de les línies guia"
 
 #: ../src/ui/dialog/document-properties.cpp:131
 msgid "_Highlight color:"
@@ -14419,12 +14419,12 @@ msgid ""
 "This is the angle between the spot light axis (i.e. the axis between the light source and the point to which it is pointing at) and the spot light "
 "cone. No light is projected outside this cone."
 msgstr ""
-"Aquest és l'angle entre l'eix del punt de llum (per ecemple, l’eix entre la font de llum i el punt on apunta) i el con de llum. No es projecta llum "
+"És l'angle entre l'eix del focus (per exemple, l'eix entre la font de llum i el punt on apunta) i el con del focus. No es projecta llum "
 "fora del con."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1275
 msgid "New light source"
-msgstr "Nova font de llum"
+msgstr "Font de llum nova"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1326
 msgid "_Duplicate"
@@ -14532,7 +14532,7 @@ msgid ""
 "convenience shortcuts to allow commonly used color operations to be performed without specifying a complete matrix."
 msgstr ""
 "Indica el tipus d'operació matricial. La paraula «matriu» indica que s'utilitza una matriu sencera de 5x4. Les altres paraules clau representen "
-"dreceres de conveniència per a permetre les operacions de color utilitzat comunament, per tal de dur a terme sense especificar una matriu completa"
+"dreceres de conveniència per a permetre les operacions de color utilitzat comunament, per tal de dur a terme sense especificar una matriu completa."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2883
 msgid "Value(s):"
@@ -14738,7 +14738,7 @@ msgid ""
 "Dilate: performs \"fattenning\" of input image."
 msgstr ""
 "Erosiona: du a terme «aprima» de la imatge d’entrada.\n"
-"Dilata: de a terme «engrandeix» de la imatge d’entrada."
+"Dilata: du a terme «engrandeix» de la imatge d’entrada."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2937
 msgid "Source of Image:"
@@ -15252,7 +15252,7 @@ msgstr "No mostris més aquest avís"
 
 #: ../src/ui/dialog/font-substitution.cpp:245
 msgid "Font '%1' substituted with '%2'"
-msgstr "S'ha substituït la tipografia '%1' per '%2'"
+msgstr "S'ha substituït la tipografia «%1» per «%2»"
 
 #: ../src/ui/dialog/glyphs.cpp:60 ../src/ui/dialog/glyphs.cpp:152
 msgid "all"
@@ -15268,7 +15268,7 @@ msgstr "heretat"
 
 #: ../src/ui/dialog/glyphs.cpp:63 ../src/ui/dialog/glyphs.cpp:165
 msgid "Arabic"
-msgstr "Aràb"
+msgstr "Àrab"
 
 #: ../src/ui/dialog/glyphs.cpp:64 ../src/ui/dialog/glyphs.cpp:163
 msgid "Armenian"
@@ -16492,7 +16492,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:455
 msgid "If on, each newly created object will be selected (deselecting previous selection)"
-msgstr "Si està marcat, cada objecte creat de nou se seleccionarà (en comptes del que estigui seleccionat)"
+msgstr "Si està marcat, se seleccionarà cada objecte que es creï (es desseleccionarà la selecció anterior)"
 
 #. Text
 #: ../src/ui/dialog/inkscape-preferences.cpp:458 ../src/verbs.cpp:2755
@@ -16502,11 +16502,11 @@ msgstr "Text"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:463
 msgid "Show font samples in the drop-down list"
-msgstr "Mostra exemples de tipografia a la llista de selecció"
+msgstr "Mostra exemples de tipografia a la llista desplegable"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:464
 msgid "Show font samples alongside font names in the drop-down list in Text bar"
-msgstr "Mostra exemples de tipografia, al costat del nom del tipus de lletra, a la llista de selecció de la barra de text"
+msgstr "Mostra exemples de tipografia, al costat del nom del tipus de lletra, a la llista desplegable de la barra de text"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:466
 msgid "Show font substitution warning dialog"
@@ -16646,7 +16646,7 @@ msgstr "Amhàric (am)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:538
 msgid "Arabic (ar)"
-msgstr "Aràb (ar)"
+msgstr "Àrab (ar)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:538
 msgid "Armenian (hy)"
@@ -17474,7 +17474,7 @@ msgstr "Usa els colors per nom"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:926
 msgid "If set, write the CSS name of the color when available (e.g. 'red' or 'magenta') instead of the numeric value"
-msgstr "Si està marcat, podeu escriure noms de color CSS (p. ex. 'red' o 'magenta') en comptes del valor numèric"
+msgstr "Si està marcat, podeu escriure noms de color CSS (p. ex. «red» o «magenta») en comptes del valor numèric"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:928
 msgid "XML formatting"
@@ -17530,7 +17530,7 @@ msgstr "Força les ordres repetitives"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:946
 msgid "Force repeating of the same path command (for example, 'L 1,2 L 3,4' instead of 'L 1,2 3,4')"
-msgstr "Força la repetició d'una mateixa ordre (per exemple: 'L 1,2 L 3,4' en comptes de 'L 1,2 3,4')"
+msgstr "Força la repetició d'una mateixa ordre (per exemple: «L 1,2 L 3,4» en comptes de «L 1,2 3,4»)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:948
 msgid "Numbers"
@@ -17583,7 +17583,7 @@ msgstr "Accions de propietats d'estil inapropiades"
 msgid ""
 "Print warning if inappropriate style properties found (i.e. 'font-family' set on a <rect>). Database files located in inkscape_data_dir/attributes."
 msgstr ""
-"Imprimeix l'avís si es troben propietats d'estil inapropiades (p. ex. 'font-family' estableix un <rect>). Els fitxers de la base de dades es troben a "
+"Imprimeix l'avís si es troben propietats d'estil inapropiades (p. ex. «font-family» definit en un <rect>). Els fitxers de la base de dades es troben a "
 "inkscape_data_dir/attributes."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:971 ../src/ui/dialog/inkscape-preferences.cpp:979
@@ -18263,7 +18263,7 @@ msgstr "Els clons mantenen la seva posició quan es mou l'original"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1357
 msgid ""
 "Each clone moves according to the value of its transform= attribute; for example, a rotated clone will move in a different direction than its original"
-msgstr "Cada clon es mou segons el valor de l'atribut transform=. Per exemple, un clon rotat es mourà en una direcció diferent que el seu original"
+msgstr "Cada clon es mou segons el valor de l'atribut transform=. Per exemple, un clon girat es mourà en una direcció diferent que el seu original"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1358
 msgid "Deleting original: clones"
@@ -18398,7 +18398,7 @@ msgstr "Configura el nombre de processadors o fils d'execució a usar en renderi
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1433
 msgid "Rendering _cache size:"
-msgstr "Mida de la memòria _cau del renderitzat:"
+msgstr "Mida de la memòria _cau de renderització:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1433
 msgctxt "mebibyte (2^20 bytes) abbreviation"
@@ -18464,7 +18464,7 @@ msgstr "Qualitat dels efectes de filtre per pantalla"
 #. build custom preferences tab
 #: ../src/ui/dialog/inkscape-preferences.cpp:1483 ../src/ui/dialog/print.cpp:215
 msgid "Rendering"
-msgstr "Renderitzat"
+msgstr "Renderització"
 
 #. Note: /options/bitmapoversample removed with Cairo renderer
 #: ../src/ui/dialog/inkscape-preferences.cpp:1489 ../src/verbs.cpp:156 ../src/widgets/calligraphy-toolbar.cpp:626
@@ -19397,7 +19397,7 @@ msgstr "Ressalta el color del contorn en l'eina node. Feu clic per definir. Si l
 
 #: ../src/ui/dialog/objects.cpp:1734
 msgid "Layer/Group/Object label (inkscape:label). Double-click to set. Default value is object 'id'."
-msgstr "Capa/Grup /Etiqueta de l'objecte (inkscape:label). Fer doble clic a establir. El valor per defecte és l'objecte Id."
+msgstr "Capa/Grup /Etiqueta de l'objecte (inkscape:label). Fer doble clic a establir. El valor per defecte és l'objecte «id»."
 
 #: ../src/ui/dialog/objects.cpp:1831
 msgid "Add layer..."
@@ -20377,7 +20377,7 @@ msgstr "Cobriu l'àrea que voleu seleccionar com a primer pla"
 
 #: ../src/ui/dialog/tracedialog.cpp:782
 msgid "Live Preview"
-msgstr "Previsualització en viu"
+msgstr "Previsualització en temps real"
 
 #: ../src/ui/dialog/tracedialog.cpp:788
 msgid "_Update"
@@ -20742,12 +20742,12 @@ msgstr "Emplenat de color"
 #. Select same stroke color
 #: ../src/ui/interface.cpp:1700
 msgid "Stroke Color"
-msgstr "Color del traçat"
+msgstr "Color del traç"
 
 #. Select same stroke style
 #: ../src/ui/interface.cpp:1707
 msgid "Stroke Style"
-msgstr "Estil del traçat"
+msgstr "Estil del traç"
 
 #. Select same stroke style
 #: ../src/ui/interface.cpp:1714
@@ -20866,26 +20866,26 @@ msgstr "_Comprova l'ortografia..."
 
 #: ../src/ui/object-edit.cpp:450
 msgid "Adjust the <b>horizontal rounding</b> radius; with <b>Ctrl</b> to make the vertical radius the same"
-msgstr "Ajusta el radi de <b>l'arrodoniment horitzontal</b>; amb <b>Ctrl</b> per fer igual el radi vertical"
+msgstr "Ajusteu el radi de <b>l'arrodoniment horitzontal</b>; amb <b>Ctrl</b> per fer igual el radi vertical"
 
 #: ../src/ui/object-edit.cpp:455
 msgid "Adjust the <b>vertical rounding</b> radius; with <b>Ctrl</b> to make the horizontal radius the same"
-msgstr "Ajusta el radi de <b>l'arrodoniment vertical</b>; amb <b>Ctrl</b> per fer igual el radi vertical"
+msgstr "Ajusteu el radi de <b>l'arrodoniment vertical</b>; amb <b>Ctrl</b> per fer igual el radi vertical"
 
 #: ../src/ui/object-edit.cpp:460 ../src/ui/object-edit.cpp:465
 msgid "Adjust the <b>width and height</b> of the rectangle; with <b>Ctrl</b> to lock ratio or stretch in one dimension only"
-msgstr "Ajusta <b>l'amplada i l'alçada</b> del rectangle; amb <b>Ctrl</b> es bloca la relació o s'estira només en una dimensió"
+msgstr "Ajusteu <b>l'amplada i l'alçada</b> del rectangle; amb <b>Ctrl</b> es bloca la relació o s'estira només en una dimensió"
 
 #: ../src/ui/object-edit.cpp:712 ../src/ui/object-edit.cpp:716 ../src/ui/object-edit.cpp:720 ../src/ui/object-edit.cpp:724
 msgid "Resize box in X/Y direction; with <b>Shift</b> along the Z axis; with <b>Ctrl</b> to constrain to the directions of edges or diagonals"
 msgstr ""
-"Canvia la mida de la capsa en la direcció X/Y; amb <b>Maj</b> sobre l'eix Z; amb <b>Ctrl</b> per restringir a les direccions de les vores o les "
+"Canvieu la mida de la capsa en la direcció X/Y; amb <b>Maj</b> sobre l'eix Z; amb <b>Ctrl</b> per restringir a les direccions de les vores o les "
 "diagonals"
 
 #: ../src/ui/object-edit.cpp:728 ../src/ui/object-edit.cpp:732 ../src/ui/object-edit.cpp:736 ../src/ui/object-edit.cpp:740
 msgid "Resize box along the Z axis; with <b>Shift</b> in X/Y direction; with <b>Ctrl</b> to constrain to the directions of edges or diagonals"
 msgstr ""
-"Canvia la mida de la capsa en la direcció Z; amb <b>Maj</b> sobre l'eix X/Y; amb <b>Ctrl</b> per restringir a les direccions de les vores o les "
+"Canvieu la mida de la capsa en la direcció Z; amb <b>Maj</b> sobre l'eix X/Y; amb <b>Ctrl</b> per restringir a les direccions de les vores o les "
 "diagonals"
 
 #: ../src/ui/object-edit.cpp:744
@@ -20894,7 +20894,7 @@ msgstr "Mou la capsa en perspectiva"
 
 #: ../src/ui/object-edit.cpp:996
 msgid "Adjust ellipse <b>width</b>, with <b>Ctrl</b> to make circle"
-msgstr "Ajusta <b>l'amplada</b> de l'el·lipse, amb <b>Ctrl</b> es fa un cercle"
+msgstr "Ajusteu <b>l'amplada</b> de l'el·lipse, amb <b>Ctrl</b> es fa un cercle"
 
 #: ../src/ui/object-edit.cpp:1000
 msgid "Adjust ellipse <b>height</b>, with <b>Ctrl</b> to make circle"
@@ -20905,16 +20905,16 @@ msgid ""
 "Position the <b>start point</b> of the arc or segment; with <b>Shift</b> to move with <b>end point</b>; with <b>Ctrl</b> to snap angle; drag <b>inside</"
 "b> the ellipse for arc, <b>outside</b> for segment"
 msgstr ""
-"Col·loqueu el <b>punt final</b> de l'arc o segment; with <b>Maj</b> per moure amb el <b>punt final</b>; amb <b>Ctrl</b> per ajustar l'angle; arrossega "
-"<b>a dins</b> de l'el·lipse per l'arc, <b>a fora</b> pel segment"
+"Col·loqueu el <b>punt inicial</b> de l'arc o segment; amb <b>Maj</b> per moure amb el <b>punt final</b>; amb <b>Ctrl</b> per ajustar l'angle; arrossegueu "
+"<b>a dins</b> de l'el·lipse per fer un arc, <b>a fora</b> per fer un segment"
 
 #: ../src/ui/object-edit.cpp:1010
 msgid ""
 "Position the <b>end point</b> of the arc or segment; with <b>Shift</b> to move with <b>start point</b>; with <b>Ctrl</b> to snap angle; drag <b>inside</"
 "b> the ellipse for arc, <b>outside</b> for segment"
 msgstr ""
-"Col·loqueu el <b>punt final</b> de l'arc o segment; amb <b>Ctrl</b> s'ajusta l'angle; arrossegueu <b>a dins</b> l'el·lipse per a l'arc, <b>a fora</b> "
-"per al segment"
+"Col·loqueu el <b>punt final</b> de l'arc o segment;<b>Maj</b> per moure amb el <b>punt inicial</b>; amb <b>Ctrl</b> s'ajusta l'angle; arrossegueu <b>a dins</b> l'el·lipse per fer un arc, <b>a fora</b> "
+"per fer un segment"
 
 #: ../src/ui/object-edit.cpp:1157
 msgid "Adjust the <b>tip radius</b> of the star or polygon; with <b>Shift</b> to round; with <b>Alt</b> to randomize"
@@ -20952,7 +20952,7 @@ msgstr "Arrossega la corba"
 #: ../src/ui/tool/curve-drag-point.cpp:192
 msgctxt "Path segment tip"
 msgid "<b>Shift</b>: drag to open or move BSpline handles"
-msgstr "<b>Maj</b>: arrossega per obrir o moure les nanses BSpline"
+msgstr "<b>Maj</b>: arrossegueu per obrir o moure les nanses BSpline"
 
 #: ../src/ui/tool/curve-drag-point.cpp:196
 msgctxt "Path segment tip"
@@ -21129,7 +21129,7 @@ msgstr "<b>Maj+Ctrl</b>: ajusta l'angle de rotació amb increments de %g° i gir
 #: ../src/ui/tool/node.cpp:529
 msgctxt "Path handle tip"
 msgid "<b>Ctrl</b>: Snap handle to steps defined in BSpline Live Path Effect"
-msgstr "<b>Ctrl</b>: ajusta la nansa segons les passes definides en l'efecte viu BSpline"
+msgstr "<b>Ctrl</b>: ajusta la nansa segons les passes definides en l'efecte de camí dinàmic BSpline"
 
 #: ../src/ui/tool/node.cpp:532
 #, c-format
@@ -21776,11 +21776,11 @@ msgstr "Trieu una eina de construcció de la barra d'eines."
 #. create the knots
 #: ../src/ui/tools/measure-tool.cpp:349
 msgid "Measure start, <b>Shift+Click</b> for position dialog"
-msgstr "Inici de la mesura, <b>Maj+Clic</ b> per al diàleg de posició"
+msgstr "Inici de la mesura, <b>Maj+Clic</b> per al diàleg de posició"
 
 #: ../src/ui/tools/measure-tool.cpp:355
 msgid "Measure end, <b>Shift+Click</b> for position dialog"
-msgstr "Final de la mesura, <b>Maj+Clic</ b> per al diàleg de posició"
+msgstr "Final de la mesura, <b>Maj+Clic</b> per al diàleg de posició"
 
 #: ../src/ui/tools/measure-tool.cpp:746 ../share/extensions/measure.inx.h:2
 msgid "Measure"
@@ -22057,7 +22057,7 @@ msgstr "Crea un rectangle"
 
 #: ../src/ui/tools/select-tool.cpp:155
 msgid "Click selection to toggle scale/rotation handles"
-msgstr "Cliqueu la selecció per commutar entre punts de control per rotar/escalar"
+msgstr "Cliqueu la selecció per commutar entre punts de control per girar/escalar"
 
 #: ../src/ui/tools/select-tool.cpp:156
 msgid "No objects selected. Click, Shift+click, Alt+scroll mouse on top of objects, or drag around objects to select."
@@ -22242,7 +22242,7 @@ msgstr "Fes cursiva"
 
 #: ../src/ui/tools/text-tool.cpp:886
 msgid "New line"
-msgstr "Nova línia"
+msgstr "Línia nova"
 
 #: ../src/ui/tools/text-tool.cpp:927
 msgid "Backspace"
@@ -22562,27 +22562,27 @@ msgstr "Lligadures"
 #: ../src/ui/widget/font-variants.cpp:39
 msgctxt "Font variant"
 msgid "Common"
-msgstr "Comú"
+msgstr "Comunes"
 
 #: ../src/ui/widget/font-variants.cpp:40
 msgctxt "Font variant"
 msgid "Discretionary"
-msgstr "Discrecional"
+msgstr "Discrecionals"
 
 #: ../src/ui/widget/font-variants.cpp:41
 msgctxt "Font variant"
 msgid "Historical"
-msgstr "Històrica"
+msgstr "Històriques"
 
 #: ../src/ui/widget/font-variants.cpp:42
 msgctxt "Font variant"
 msgid "Contextual"
-msgstr "Contextual"
+msgstr "Contextuals"
 
 #: ../src/ui/widget/font-variants.cpp:44
 msgctxt "Font variant"
 msgid "Position"
-msgstr "Posició "
+msgstr "Posició"
 
 #: ../src/ui/widget/font-variants.cpp:45 ../src/ui/widget/font-variants.cpp:50
 msgctxt "Font variant"
@@ -22706,19 +22706,19 @@ msgstr "La selecció té diferents paràmetres de les funcions!"
 
 #: ../src/ui/widget/font-variants.cpp:85
 msgid "Common ligatures. On by default. OpenType tables: 'liga', 'clig'"
-msgstr "Lligadures comunes. Per defecte. Taules OpenType: 'liga', 'clig'"
+msgstr "Lligadures comunes. Activat per defecte. Taules d'OpenType: «liga», «clig»"
 
 #: ../src/ui/widget/font-variants.cpp:87
 msgid "Discretionary ligatures. Off by default. OpenType table: 'dlig'"
-msgstr "Lligadures discrecionals. Desactivada per defecte. Taula d'OpenType: 'hlig'"
+msgstr "Lligadures discrecionals. Desactivat per defecte. Taula d'OpenType: «hlig»"
 
 #: ../src/ui/widget/font-variants.cpp:89
 msgid "Historical ligatures. Off by default. OpenType table: 'hlig'"
-msgstr "Historial de lligadures. Desactivada per defecte. Taula d'OpenType: 'hlig'"
+msgstr "Lligadures històriques. Desactivat per defecte. Taula d'OpenType: «hlig»"
 
 #: ../src/ui/widget/font-variants.cpp:91
 msgid "Contextual forms. On by default. OpenType table: 'calt'"
-msgstr "Formes contextuals. Per defecte. Taula d'OpenType:  'calt'"
+msgstr "Formes contextuals. Activat per defecte. Taula d'OpenType: «calt»"
 
 #. Position ----------------------------------
 #. Add tooltips
@@ -22728,41 +22728,41 @@ msgstr "Posició normal."
 
 #: ../src/ui/widget/font-variants.cpp:113
 msgid "Subscript. OpenType table: 'subs'"
-msgstr "Subscript. Taula d'OpenType: 'subs'"
+msgstr "Subíndex. Taula d'OpenType: «subs»"
 
 #: ../src/ui/widget/font-variants.cpp:114
 msgid "Superscript. OpenType table: 'sups'"
-msgstr "Superscript. Taula d'OpenType: 'sups'"
+msgstr "Superíndex. Taula d'OpenType: «sups»"
 
 #. Caps ----------------------------------
 #. Add tooltips
 #: ../src/ui/widget/font-variants.cpp:138
 msgid "Normal capitalization."
-msgstr "Posa en majúscules de manera normal"
+msgstr "Majúscules i minúscules normals."
 
 #: ../src/ui/widget/font-variants.cpp:139
 msgid "Small-caps (lowercase). OpenType table: 'smcp'"
-msgstr "Versaletes (minúscules). Taula d'OpenType: 'smcp'"
+msgstr "Versaletes (minúscules). Taula d'OpenType: «smcp»"
 
 #: ../src/ui/widget/font-variants.cpp:140
 msgid "All small-caps (uppercase and lowercase). OpenType tables: 'c2sc' and 'smcp'"
-msgstr "Totes les versaletes (majúscules i minúscules). Taules OpenType: 'c2sc' i ' 'smcp'"
+msgstr "Totes les versaletes (majúscules i minúscules). Taules d'OpenType: «c2sc» i «smcp»"
 
 #: ../src/ui/widget/font-variants.cpp:141
-msgid "Petite-caps (lowercase). OpenType table: 'pcap'"
-msgstr "Versaletes (minúscules). Taula d'OpenType: 'pcap'"
+msgid "Petite-caps (lowercase). OpenType table: «pcap»"
+msgstr "Versaletes (minúscules). Taula d'OpenType: «pcap»"
 
 #: ../src/ui/widget/font-variants.cpp:142
 msgid "All petite-caps (uppercase and lowercase). OpenType tables: 'c2sc' and 'pcap'"
-msgstr "Totes les versaletes (majúscules i minúscules). Taules OpenType: 'c2sc' i 'pcap'"
+msgstr "Totes les versaletes (majúscules i minúscules). Taules d'OpenType: «c2sc» i «pcap»"
 
 #: ../src/ui/widget/font-variants.cpp:143
 msgid "Unicase (small caps for uppercase, normal for lowercase). OpenType table: 'unic'"
-msgstr "Caixa única (versaletes per a majúscules, normals per a minúscules). Taula d'OpenType: 'unic'"
+msgstr "Caixa única (versaletes per a majúscules, normals per a minúscules). Taula d'OpenType: «unic»"
 
 #: ../src/ui/widget/font-variants.cpp:144
 msgid "Titling caps (lighter-weight uppercase for use in titles). OpenType table: 'titl'"
-msgstr "Majúscules dels títols (majúscules de menor pes per a l'ús en títols). Taula d'OpenType: \"títol\""
+msgstr "Majúscules dels títols (majúscules de menor pes per a l'ús en títols). Taula d'OpenType: «titl»"
 
 #. Numeric ------------------------------
 #. Add tooltips
@@ -22772,11 +22772,11 @@ msgstr "Estil normal."
 
 #: ../src/ui/widget/font-variants.cpp:181
 msgid "Lining numerals. OpenType table: 'lnum'"
-msgstr "Numerals lineals. Taula d'OpenType: 'lnum'"
+msgstr "Numerals lineals. Taula d'OpenType: «lnum»"
 
 #: ../src/ui/widget/font-variants.cpp:182
 msgid "Old style numerals. OpenType table: 'onum'"
-msgstr "Numerals d'estil antic. Taula d'OpenType: 'onum'"
+msgstr "Numerals d'estil antic. Taula d'OpenType: «onum»"
 
 #: ../src/ui/widget/font-variants.cpp:183
 msgid "Normal widths."
@@ -22784,11 +22784,11 @@ msgstr "Amplades normals."
 
 #: ../src/ui/widget/font-variants.cpp:184
 msgid "Proportional width numerals. OpenType table: 'pnum'"
-msgstr "Numerals d'amplada proporcional. Taula d'OpenType: 'pnum'"
+msgstr "Numerals d'amplada proporcional. Taula d'OpenType: «pnum»"
 
 #: ../src/ui/widget/font-variants.cpp:185
 msgid "Same width numerals. OpenType table: 'tnum'"
-msgstr "Numerals de la mateixa amplada. Taula d'OpenType: 'tnum'"
+msgstr "Numerals de la mateixa amplada. Taula d'OpenType: «tnum»"
 
 #: ../src/ui/widget/font-variants.cpp:186
 msgid "Normal fractions."
@@ -22796,19 +22796,19 @@ msgstr "Fraccions normals."
 
 #: ../src/ui/widget/font-variants.cpp:187
 msgid "Diagonal fractions. OpenType table: 'frac'"
-msgstr "Fraccions diagonals. Taula d'OpenType: 'frac'"
+msgstr "Fraccions diagonals. Taula d'OpenType: «frac»"
 
 #: ../src/ui/widget/font-variants.cpp:188
 msgid "Stacked fractions. OpenType table: 'afrc'"
-msgstr "Fraccions apilades. Taula d'OpenType: 'AFRC'"
+msgstr "Fraccions apilades. Taula d'OpenType: «afrc»"
 
 #: ../src/ui/widget/font-variants.cpp:189
 msgid "Ordinals (raised 'th', etc.). OpenType table: 'ordn'"
-msgstr "Ordinals (aixecat 'th', etc.). Taula d'OpenType: 'ordn'"
+msgstr "Ordinals («th» volat, etc.). Taula d'OpenType: «ordn»"
 
 #: ../src/ui/widget/font-variants.cpp:190
 msgid "Slashed zeros. OpenType table: 'zero'"
-msgstr "Zeros barrats. Taula OpenType «zero»"
+msgstr "Zeros barrats. Taula d'OpenType «zero»"
 
 #. Feature settings ---------------------
 #. Add tooltips
@@ -22952,15 +22952,15 @@ msgid ""
 "directly."
 msgstr ""
 "Mentre que l'SVG permet escalar sense uniformar, es recomana utilitzar només una escala uniforme a l'Inkscape. Per establir una escala no uniforme, "
-"estableix el 'Visualitzador de capses' directament."
+"definiu el «Quadre de visualització» directament."
 
 #: ../src/ui/widget/page-sizer.cpp:483
 msgid "_Viewbox..."
-msgstr "_Visualitzador de capses..."
+msgstr "Quadre de _visualització..."
 
 #: ../src/ui/widget/page-sizer.cpp:590
 msgid "Set page size"
-msgstr "Estableix la mida de la pàgina"
+msgstr "Defineix la mida de la pàgina"
 
 #: ../src/ui/widget/page-sizer.cpp:836
 msgid "User units per "
@@ -22968,11 +22968,11 @@ msgstr "Unitats d'usuari per "
 
 #: ../src/ui/widget/page-sizer.cpp:932
 msgid "Set page scale"
-msgstr "Estableix l'escala de la pàgina"
+msgstr "Defineix l'escala de la pàgina"
 
 #: ../src/ui/widget/page-sizer.cpp:958
 msgid "Set 'viewBox'"
-msgstr "Extreu el 'Visualitzador de capses'"
+msgstr "Defineix el «quadre de visualització»"
 
 #: ../src/ui/widget/panel.cpp:116
 msgid "List"
@@ -24022,7 +24022,7 @@ msgstr "Objectes a gu_ies"
 
 #: ../src/verbs.cpp:2509
 msgid "Convert selected objects to a collection of guidelines aligned with their edges"
-msgstr "Converteix els objectes en una col·lecció de línies guies alineades amb les vores"
+msgstr "Converteix els objectes en una col·lecció de línies guia alineades amb les vores"
 
 #: ../src/verbs.cpp:2510
 msgid "Objects to Patter_n"
@@ -24448,11 +24448,11 @@ msgstr "Organitza els objectes seleccionats en una taula o cercle"
 #. Layer
 #: ../src/verbs.cpp:2645
 msgid "_Add Layer..."
-msgstr "_Nova capa..."
+msgstr "A_fegeix una capa..."
 
 #: ../src/verbs.cpp:2646
 msgid "Create a new layer"
-msgstr "Crea una nova capa"
+msgstr "Crea una capa nova"
 
 #: ../src/verbs.cpp:2647
 msgid "Re_name Layer..."
@@ -24906,7 +24906,7 @@ msgstr "Goma d'esborrar"
 
 #: ../src/verbs.cpp:2778
 msgid "Erase existing paths"
-msgstr "Suprimeix els camins existents"
+msgstr "Esborra camins existents"
 
 #: ../src/verbs.cpp:2779
 msgctxt "ContextVerb"
@@ -25881,7 +25881,7 @@ msgstr "Estat del PE en la direcció X"
 
 #: ../src/widgets/box3d-toolbar.cpp:327
 msgid "Toggle VP in X direction between 'finite' and 'infinite' (=parallel)"
-msgstr "Commuta el punt d'escapada en la direcció X entre 'finit' i 'infinit' (paral·lel)"
+msgstr "Commuta el punt d'escapada en la direcció X entre «finit» i «infinit» (=paral·lel)"
 
 #: ../src/widgets/box3d-toolbar.cpp:342
 msgid "Angle in Y direction"
@@ -25903,7 +25903,7 @@ msgstr "Estat del PE en la direcció Y"
 
 #: ../src/widgets/box3d-toolbar.cpp:366
 msgid "Toggle VP in Y direction between 'finite' and 'infinite' (=parallel)"
-msgstr "Commuta el punt d'escapada en la direcció Y entre 'finit' i 'infinit' (paral·lel)"
+msgstr "Commuta el punt d'escapada en la direcció Y entre «finit» i «infinit» (=paral·lel)"
 
 #: ../src/widgets/box3d-toolbar.cpp:381
 msgid "Angle in Z direction"
@@ -25921,7 +25921,7 @@ msgstr "Estat del PE en la direcció Z"
 
 #: ../src/widgets/box3d-toolbar.cpp:405
 msgid "Toggle VP in Z direction between 'finite' and 'infinite' (=parallel)"
-msgstr "Commuta el punt volàtil en la direcció Z entre 'finit' i 'infinit' (=paral·lel)"
+msgstr "Commuta el punt volàtil en la direcció Z entre «finit» i «infinit» (=paral·lel)"
 
 #. gint preset_index = ege_select_one_action_get_active( sel );
 #: ../src/widgets/calligraphy-toolbar.cpp:218 ../src/widgets/calligraphy-toolbar.cpp:262 ../src/widgets/calligraphy-toolbar.cpp:267
@@ -26443,15 +26443,15 @@ msgstr "(sense amplada)"
 
 #: ../src/widgets/eraser-toolbar.cpp:155
 msgid "The width of the eraser pen (relative to the visible canvas area)"
-msgstr "L'amplada de llapis d'esborrar (relatiu a la mida de la part visible del llenç)"
+msgstr "L'amplada de la goma d'esborrar (relativa a l'àrea visible del llenç)"
 
 #: ../src/widgets/eraser-toolbar.cpp:171
 msgid "Eraser Mass"
-msgstr "Esborrador de masses"
+msgstr "Massa de la goma d'esborrar"
 
 #: ../src/widgets/eraser-toolbar.cpp:172
 msgid "Increase to make the eraser drag behind, as if slowed by inertia"
-msgstr "Incrementeu per arrossegar la goma d’esborrar pel darrere, com si la inèrcia la fes anar lenta"
+msgstr "Incrementeu per arrossegar la goma d'esborrar, com si la inèrcia la fes anar lenta"
 
 #: ../src/widgets/eraser-toolbar.cpp:186 ../src/widgets/eraser-toolbar.cpp:18
 msgid "Break apart cut items"
@@ -27569,11 +27569,11 @@ msgstr "<b>No s'escalarà l'amplada del contorn</b> quan s'escalin els objectes.
 
 #: ../src/widgets/select-toolbar.cpp:293
 msgid "Now <b>rounded rectangle corners</b> are <b>scaled</b> when rectangles are scaled."
-msgstr "<b>S'escalarà les cantonades arrodonides dels rectangles</b> quan s'escalin els objectes."
+msgstr "<b>S'escalaran les cantonades arrodonides dels rectangles</b> quan s'escalin els objectes."
 
 #: ../src/widgets/select-toolbar.cpp:295
 msgid "Now <b>rounded rectangle corners</b> are <b>not scaled</b> when rectangles are scaled."
-msgstr "<b>No s'escalarà les cantonades arrodonides dels rectangles</b> quan s'escalin els objectes."
+msgstr "<b>No s'escalaran les cantonades arrodonides dels rectangles</b> quan s'escalin els objectes."
 
 #: ../src/widgets/select-toolbar.cpp:306
 msgid "Now <b>gradients</b> are <b>transformed</b> along with their objects when those are transformed (moved, scaled, rotated, or skewed)."
@@ -28962,15 +28962,15 @@ msgstr "No s'ha pogut processar aquest objecte. Proveu-ho transformant-lo abans 
 
 #: ../share/extensions/draw_from_triangle.py:179
 msgid "Side Length 'a' ("
-msgstr "Longitud del costat 'a' ("
+msgstr "Longitud del costat «a» ("
 
 #: ../share/extensions/draw_from_triangle.py:180
 msgid "Side Length 'b' ("
-msgstr "Longitud del costat 'b' ("
+msgstr "Longitud del costat «b» ("
 
 #: ../share/extensions/draw_from_triangle.py:181
 msgid "Side Length 'c' ("
-msgstr "Longitud del costat 'c' ("
+msgstr "Longitud del costat «c» ("
 
 #: ../share/extensions/draw_from_triangle.py:182
 msgid "Angle 'A' (radians): "
@@ -29216,7 +29216,7 @@ msgstr ""
 
 #: ../share/extensions/gcodetools.py:6105
 msgid "Lathe X and Z axis remap should be 'X', 'Y' or 'Z'. Exiting..."
-msgstr "Els eixos de gir X i Z reassignats haurien de ser 'X', 'Y' o 'Z'. S'està sortint..."
+msgstr "Els eixos de gir X i Z reassignats haurien de ser «X», «Y» o «Z». S'està sortint..."
 
 #: ../share/extensions/gcodetools.py:6108
 msgid "Lathe X and Z axis remap should be the same. Exiting..."
@@ -29302,11 +29302,11 @@ msgid ""
 "Technical details:\n"
 "%s"
 msgstr ""
-"El fantàstic embolcall lxml per libxml2 és requerit per inkex.py i per tant aquesta extensió. Si us plau, descarrega i instal·la l'última versió de "
-"http://cheeseshop.python.org/pypi/lxml/, o instal·la-la a través del gestor de paquets amb una ordre: sudo apt-get install python-lxml\n"
+"El fantàstic embolcall lxml per libxml2 és requerit per inkex.py i per tant aquesta extensió. Baixeu i instal·leu l'última versió de "
+"http://cheeseshop.python.org/pypi/lxml/, o instal·leu-la a través del gestor de paquets amb una ordre: sudo apt-get install python-lxml\n"
 "\n"
 "Detalls tècnics:\n"
-"% s"
+"%s"
 
 #: ../share/extensions/inkex.py:184
 #, python-format
@@ -29358,7 +29358,7 @@ msgid ""
 "Node with id '{0}' is not a suitable text node and was therefore ignored.\n"
 "\n"
 msgstr ""
-"El node amb id '{0}' no és un node de text adequat i, per tant serà ignorat.\n"
+"El node amb id «{0}» no és un node de text adequat i, per tant, s'ignorarà.\n"
 "\n"
 
 #: ../share/extensions/jessyInk_effects.py:52
@@ -29529,7 +29529,7 @@ msgstr ""
 
 #: ../share/extensions/measure.py:119
 msgid "Area is zero, cannot calculate Center of Mass"
-msgstr "L'àrea és zero, no es pot calcular el centre de masses."
+msgstr "L'àrea és zero, no es pot calcular el centre de massa."
 
 #: ../share/extensions/pathalongpath.py:207 ../share/extensions/pathscatter.py:226 ../share/extensions/perspective.py:50
 msgid "This extension requires two selected paths."
@@ -29608,7 +29608,7 @@ msgstr "No s'han trobat camins. Convertiu tots els objectes que voleu traçar en
 
 #: ../share/extensions/plotter.py:146
 msgid "pySerial is not installed. Please follow these steps:"
-msgstr "El PySerial no està instal·lat. Si us plau, feu els següent passos:"
+msgstr "El PySerial no està instal·lat. Seguiu els passos següents:"
 
 #: ../share/extensions/plotter.py:147
 msgid "1. Download and extract (unzip) this file to your local harddisk:"
@@ -30411,10 +30411,10 @@ msgstr ""
 "Totes les unitats són en píxels de l'Inkscape. Els angles estan en radians.\n"
 "Podeu especificar un punt donant les coordenades trilineals, o bé donada la funció del centre del triangle.\n"
 "Introduïu-ho com a funció dels seus costats o dels seus angles.\n"
-"Els elements trilineals s'han de separar amb dos punts: ':'.\n"
-"Les longituds dels costats es representen com a 's_a', 's_b' and 's_c'.\n"
-"Els angles es representen com a 'a_a', 'a_b', and 'a_c'.\n"
-"També podeu utilitzar com a constants el semiperímetre i l'àrea del triangle. Escriviu 'area' o 'semiperim'.\n"
+"Els elements trilineals s'han de separar amb dos punts: «:».\n"
+"Les longituds dels costats es representen com a «s_a», «s_b» i «s_c».\n"
+"Els angles es representen com a «a_a», «a_b» i «a_c».\n"
+"També podeu utilitzar com a constants el semiperímetre i l'àrea del triangle. Escriviu «area» o «semiperim».\n"
 "\n"
 "Podeu utilitzar qualsevol funció matemàtica del Python:\n"
 "ceil(x); fabs(x); floor(x); fmod(x,y); frexp(x); ldexp(x,i); \n"
@@ -30427,7 +30427,7 @@ msgstr ""
 "sec(x); csc(x); cot(x)\n"
 "\n"
 "També podeu especificar el radi del cercle al voltant d'un punt  utilitzant una fórmula, la qual també pot fer servir les longituds dels costats, els "
-"angles, etc. Per altra banda també podeu dibuixar el conjugat isotòmic i isogonal del punt. Però vigileu perquè això pot provocar una divisió per zero "
+"angles, etc. Per altra banda també podeu traçar el conjugat isotòmic i isogonal del punt. Però vigileu perquè això pot provocar una divisió per zero "
 "en determinats punts.\n"
 "            "
 
@@ -30493,7 +30493,7 @@ msgstr "Importa el format de document d'intercanvi d'AutoCAD"
 
 #: ../share/extensions/dxf_outlines.inx.h:1
 msgid "Desktop Cutting Plotter"
-msgstr "Desktop Cutting Plotter"
+msgstr "Traçador de tall d'escriptori"
 
 #: ../share/extensions/dxf_outlines.inx.h:3
 msgid "use ROBO-Master type of spline output"
@@ -30610,7 +30610,7 @@ msgstr ""
 
 #: ../share/extensions/dxf_outlines.inx.h:34
 msgid "Desktop Cutting Plotter (AutoCAD DXF R14) (*.dxf)"
-msgstr "Desktop Cutting Plotter (AutoCAD DXF R14) (*.dxf)"
+msgstr "Traçador de tall d'escriptori (AutoCAD DXF R14) (*.dxf)"
 
 #: ../share/extensions/dxf_output.inx.h:1
 msgid "DXF Output"
@@ -32076,7 +32076,7 @@ msgid ""
 msgstr ""
 "\n"
 "Aquesta extensió renderitza una línia de text usant\n"
-"tipus de lletra «Hershey» per a impressores, derivats de \n"
+"tipus de lletra «Hershey» per a traçadors, derivats de \n"
 "NBS SP-424 1976-04, \"Una contribució a \n"
 "les tècniques d'escriptura per ordinador: Taules de \n"
 "coordenades pel repertori Hershey's Repertory dels\n"
@@ -32107,7 +32107,7 @@ msgstr "Resolució X (ppp):"
 
 #: ../share/extensions/hpgl_input.inx.h:4 ../share/extensions/hpgl_output.inx.h:5 ../share/extensions/plotter.inx.h:33
 msgid "The amount of steps the plotter moves if it moves for 1 inch on the X axis (Default: 1016.0)"
-msgstr "Quantitat de passos que es mou la impressora si es mou per 1 polzada en l'eix X (Per defecte: 1016.0)"
+msgstr "Quantitat de passos que es mou el traçador si es mou per 1 polzada en l'eix X (Per defecte: 1016.0)"
 
 #: ../share/extensions/hpgl_input.inx.h:5 ../share/extensions/hpgl_output.inx.h:6 ../share/extensions/plotter.inx.h:34
 msgid "Resolution Y (dpi):"
@@ -32115,7 +32115,7 @@ msgstr "Resolució Y (ppp):"
 
 #: ../share/extensions/hpgl_input.inx.h:6 ../share/extensions/hpgl_output.inx.h:7 ../share/extensions/plotter.inx.h:35
 msgid "The amount of steps the plotter moves if it moves for 1 inch on the Y axis (Default: 1016.0)"
-msgstr "Quantitat de passos que es mou la impressora si es mou per 1 polzada en l'eix Y (Per defecte: 1016.0)"
+msgstr "Quantitat de passos que es mou el traçador si es mou per 1 polzada en l'eix Y (Per defecte: 1016.0)"
 
 #: ../share/extensions/hpgl_input.inx.h:7
 msgid "Show movements between paths"
@@ -32142,39 +32142,39 @@ msgid ""
 "Please make sure that all objects you want to save are converted to paths. Please use the plotter extension (Extensions menu) to plot directly over a "
 "serial connection."
 msgstr ""
-"Assegureu-vos que tots els objectes que voleu desar estiguin convertits en camins. Useu l'extensió d'impressió (menú Extensions) per imprimir "
-"directament sobre una connexió en sèrie."
+"Assegureu-vos que tots els objectes que voleu desar estiguin convertits en camins. Useu l'extensió de traçador (menú Extensions) per traçar "
+"directament mitjançant una connexió en sèrie."
 
 #: ../share/extensions/hpgl_output.inx.h:3 ../share/extensions/plotter.inx.h:31
 msgid "Plotter Settings "
-msgstr "Paràmetres d'impressió"
+msgstr "Paràmetres del traçador"
 
 #: ../share/extensions/hpgl_output.inx.h:8 ../share/extensions/plotter.inx.h:36
 msgid "Pen number:"
-msgstr "Número de llapis:"
+msgstr "Número de ploma:"
 
 #: ../share/extensions/hpgl_output.inx.h:9 ../share/extensions/plotter.inx.h:37
 msgid "The number of the pen (tool) to use (Standard: '1')"
-msgstr "Número del llapis (eina) a usar (Estàndard:'1')"
+msgstr "Número de la ploma (eina) a usar (Estàndard: «1»)"
 
 #: ../share/extensions/hpgl_output.inx.h:10 ../share/extensions/plotter.inx.h:38
 msgid "Pen force (g):"
-msgstr "Pen force (g):"
+msgstr "Força de la ploma (g):"
 
 #: ../share/extensions/hpgl_output.inx.h:11 ../share/extensions/plotter.inx.h:39
 msgid "The amount of force pushing down the pen in grams, set to 0 to omit command; most plotters ignore this command (Default: 0)"
-msgstr "Quantitat de pressió del llapis en grams. Establiu a 0 per ometre l'ordre. La majoria de les impressores ignoren aquesta ordre (Per defecte: 0)"
+msgstr "Quantitat de pressió de la ploma en grams. Establiu a 0 per ometre l'ordre. La majoria dels traçadors ignoren aquesta ordre (Per defecte: 0)"
 
 #: ../share/extensions/hpgl_output.inx.h:12 ../share/extensions/plotter.inx.h:40
 msgid "Pen speed (cm/s or mm/s):"
-msgstr "Velocitat del llapis (cm/s o mm/s):"
+msgstr "Velocitat de la ploma (cm/s o mm/s):"
 
 #: ../share/extensions/hpgl_output.inx.h:13
 msgid ""
 "The speed the pen will move with in centimeters or millimeters per second (depending on your plotter model), set to 0 to omit command; most plotters "
 "ignore this command (Default: 0)"
 msgstr ""
-"El llapis es mourà a una velocitat en cm/s o mm/s depenen del vostre model d'impressora. Establiu a 0 per ometre l'ordre. La majoria de les impressores "
+"La ploma es mourà a una velocitat en cm/s o mm/s depenent del vostre model de traçador. Establiu a 0 per ometre l'ordre. La majoria dels traçadors "
 "ignoren aquesta ordre (Per defecte: 0)"
 
 #: ../share/extensions/hpgl_output.inx.h:14
@@ -32207,7 +32207,7 @@ msgstr "Centra el punt zero"
 
 #: ../share/extensions/hpgl_output.inx.h:21 ../share/extensions/plotter.inx.h:49
 msgid "Check this if your plotter uses a centered zero point (Default: Unchecked)"
-msgstr "Activeu si la vostra impressora usa un punt zero centrat (Per defecte: desactivat)"
+msgstr "Activeu si el vostre traçador usa un punt zero centrat (Per defecte: desactivat)"
 
 #: ../share/extensions/hpgl_output.inx.h:22 ../share/extensions/plotter.inx.h:50
 msgid ""
@@ -32219,7 +32219,7 @@ msgstr ""
 
 #: ../share/extensions/hpgl_output.inx.h:23 ../share/extensions/plotter.inx.h:51
 msgid "Plot Features "
-msgstr "Característiques d'impressió"
+msgstr "Característiques el traçador"
 
 #: ../share/extensions/hpgl_output.inx.h:24 ../share/extensions/plotter.inx.h:52
 msgid "Overcut (mm):"
@@ -32244,7 +32244,7 @@ msgstr "Tall previ"
 #: ../share/extensions/hpgl_output.inx.h:29 ../share/extensions/plotter.inx.h:57
 msgid "Check this to cut a small line before the real drawing starts to correctly align the tool orientation. (Default: Checked)"
 msgstr ""
-"Marqueu aquest per tallar una petita línia abans de començar el dibuix real per alinear correctament l'orientació de l'eina. (Per defecte: marcat)"
+"Activeu per tallar una petita línia abans de començar el dibuix real per alinear correctament l'orientació de l'eina. (Per defecte: activat)"
 
 #: ../share/extensions/hpgl_output.inx.h:30 ../share/extensions/plotter.inx.h:58
 msgid "Curve flatness:"
@@ -32253,23 +32253,23 @@ msgstr "Aplanament:"
 #: ../share/extensions/hpgl_output.inx.h:31 ../share/extensions/plotter.inx.h:59
 msgid "Curves are divided into lines, this number controls how fine the curves will be reproduced, the smaller the finer (Default: '1.2')"
 msgstr ""
-"Les corbes es divideixen en línies, aquest número controla la finor en la representació de les corbes, com més petit més fina (per defecte: '1.2')"
+"Les corbes es divideixen en línies, aquest número controla la finor en la representació de les corbes, com més petit més fina (Per defecte: «1.2»)"
 
 #: ../share/extensions/hpgl_output.inx.h:32 ../share/extensions/plotter.inx.h:60
 msgid "Auto align"
-msgstr "Alineat automàtic"
+msgstr "Alineació automàtica"
 
 #: ../share/extensions/hpgl_output.inx.h:33 ../share/extensions/plotter.inx.h:61
 msgid ""
-"Check this to auto align the drawing to the zero point (Plus the tool offset if used). If unchecked you have to make sure that all parts of your "
+" to auto align the drawing to the zero point (Plus the tool offset if used). If unchecked you have to make sure that all parts of your "
 "drawing are within the document border! (Default: Checked)"
 msgstr ""
-"Marca aquest per l'alineació automàtica del dibuix al punt zero. Si està desmarcat, assegureu-vos que totes les parts del dibuix estiguin dins els "
-"vorells del document (Per defecte: Marcat)"
+"Activeu per alinear automàticament el dibuix al punt zero (més el desplaçament de l'eina, si s'utilitza). Si està desactivat, assegureu-vos que totes les parts del dibuix estiguin dins les "
+"vores del document (Per defecte: activat)"
 
 #: ../share/extensions/hpgl_output.inx.h:34 ../share/extensions/plotter.inx.h:64
 msgid "All these settings depend on the plotter you use, for more information please consult the manual or homepage for your plotter."
-msgstr "Tots aquests paràmetres depenen de la impressora que feu anar. Per a més informació, consulteu el manual o la pàgina web de la impressora."
+msgstr "Tots aquests paràmetres depenen del traçador que utilitzeu. Per a més informació, consulteu el manual o la pàgina web del traçador."
 
 #: ../share/extensions/hpgl_output.inx.h:36
 msgid "Export an HP Graphics Language file"
@@ -32452,7 +32452,7 @@ msgstr "Usa ordenació en Z"
 
 #: ../share/extensions/interp.inx.h:8 ../share/extensions/interp_att_g.inx.h:11
 msgid "Workaround for reversed selection order in Live Preview cycles"
-msgstr "Solució temporal per l'ordre de selecció invers en els cicles de previsualització en viu"
+msgstr "Solució temporal per l'ordre de selecció invers en els cicles de previsualització en temps real"
 
 #: ../share/extensions/interp_att_g.inx.h:1
 msgid "Interpolate Attribute in a group"
@@ -33332,7 +33332,7 @@ msgstr "Àrea"
 #: ../share/extensions/measure.inx.h:19
 msgctxt "measure extension"
 msgid "Center of Mass"
-msgstr "Centre de masses"
+msgstr "Centre de massa"
 
 #: ../share/extensions/measure.inx.h:21
 msgid "Text on Path, Start"
@@ -33356,7 +33356,7 @@ msgstr "Text fix, centre de la capsa"
 
 #: ../share/extensions/measure.inx.h:26
 msgid "Fixed Text, Center of Mass"
-msgstr "Text fix, centre de masses"
+msgstr "Text fix, centre de massa"
 
 #: ../share/extensions/measure.inx.h:28
 msgid "Center"
@@ -33372,7 +33372,7 @@ msgstr "Centre de la capsa"
 
 #: ../share/extensions/measure.inx.h:32
 msgid "Center of Mass"
-msgstr "Centre de masses"
+msgstr "Centre de massa"
 
 #: ../share/extensions/measure.inx.h:35
 #, no-c-format
@@ -33820,11 +33820,11 @@ msgstr "Ajusta tots els camins seleccionats al píxel. Ajusta les vores al punt 
 
 #: ../share/extensions/plotter.inx.h:1
 msgid "Plot"
-msgstr "Dibuixa"
+msgstr "Traça"
 
 #: ../share/extensions/plotter.inx.h:2
 msgid "Please make sure that all objects you want to plot are converted to paths."
-msgstr "Assegureu-vos que tots els objectes que voleu imprimir s'han convertit a camins."
+msgstr "Assegureu-vos que tots els objectes que voleu traçar estiguin convertits en camins."
 
 #: ../share/extensions/plotter.inx.h:3
 msgid "Connection Settings "
@@ -33836,7 +33836,7 @@ msgstr "Port en sèrie:"
 
 #: ../share/extensions/plotter.inx.h:5
 msgid "The port of your serial connection, on Windows something like 'COM1', on Linux something like: '/dev/ttyUSB0' (Default: COM1)"
-msgstr "Port de la vostra connexió en sèrie, en Windows semblant a 'COM1', en Linux a '/dev/ttyUSB0' (Per defecte: COM1)"
+msgstr "Port de la vostra connexió en sèrie, en Windows semblant a «COM1», en Linux a «/dev/ttyUSB0» (Per defecte: COM1)"
 
 #: ../share/extensions/plotter.inx.h:6
 msgid "Serial baud rate:"
@@ -33853,7 +33853,7 @@ msgstr "Mida dels bits en sèrie:"
 #: ../share/extensions/plotter.inx.h:10
 #, no-c-format
 msgid "The Byte size of your serial connection, 99% of all plotters use the default setting (Default: 8 Bits)"
-msgstr "Mida del byte per la connexió en sèrie, 99% dels plòters utilitzen la configuració per defecte (per defecte: 8 bits)"
+msgstr "Mida del byte per la connexió en sèrie, el 99% dels traçadors utilitzen la configuració per defecte (per defecte: 8 bits)"
 
 #: ../share/extensions/plotter.inx.h:11
 msgid "Serial stop bits:"
@@ -33862,7 +33862,7 @@ msgstr "Bits de parada en sèrie:"
 #: ../share/extensions/plotter.inx.h:13
 #, no-c-format
 msgid "The Stop bits of your serial connection, 99% of all plotters use the default setting (Default: 1 Bit)"
-msgstr "Mida dels bits d'aturada per la connexió en sèrie, 99% dels plòters utilitzen la configuració per defecte (per defecte: 1 bit)"
+msgstr "Mida dels bits d'aturada per la connexió en sèrie, el 99% dels traçadors utilitzen la configuració per defecte (per defecte: 1 bit)"
 
 #: ../share/extensions/plotter.inx.h:14
 msgid "Serial parity:"
@@ -33871,7 +33871,7 @@ msgstr "Paritat de sèrie:"
 #: ../share/extensions/plotter.inx.h:16
 #, no-c-format
 msgid "The Parity of your serial connection, 99% of all plotters use the default setting (Default: None)"
-msgstr "La paritat de la connexió en sèrie, 99% dels plòters utilitzen la configuració per defecte (per defecte: cap)"
+msgstr "La paritat de la connexió en sèrie, el 99% dels traçadors utilitzen la configuració per defecte (per defecte: cap)"
 
 #: ../share/extensions/plotter.inx.h:17
 msgid "Serial flow control:"
@@ -33911,15 +33911,15 @@ msgstr "DMPL"
 
 #: ../share/extensions/plotter.inx.h:27
 msgid "KNK Plotter (HPGL variant)"
-msgstr "KNK traçador (variant HPGL)"
+msgstr "Traçador KNK (variant HPGL)"
 
 #: ../share/extensions/plotter.inx.h:28
 msgid "Using wrong settings can under certain circumstances cause Inkscape to freeze. Always save your work before plotting!"
-msgstr "Usar paràmetres equivocats, sota certes circumstàncies, pot congelar l'Inkscape. Deseu sempre els treballs abans d'imprimir!"
+msgstr "Usar paràmetres equivocats, sota certes circumstàncies, pot bloquejar l'Inkscape. Deseu sempre els treballs abans de començar a traçar."
 
 #: ../share/extensions/plotter.inx.h:29
 msgid "This can be a physical serial connection or a USB-to-Serial bridge. Ask your plotter manufacturer for drivers if needed."
-msgstr "Això pot ser una connexió sèrie física o un pont USB en sèrie. Pregunteu pels controladors al fabricant de la impressora, si els necessiteu."
+msgstr "Això pot ser una connexió sèrie física o un pont d'USB a sèrie. Demaneu els controladors al fabricant del traçador, si els necessiteu."
 
 #: ../share/extensions/plotter.inx.h:30
 msgid "Parallel (LPT) connections are not supported."
@@ -33930,8 +33930,8 @@ msgid ""
 "The speed the pen will move with in centimeters or millimeters per second (depending on your plotter model), set to 0 to omit command. Most plotters "
 "ignore this command. (Default: 0)"
 msgstr ""
-"El llapis es mourà a una velocitat en cm/s o mm/s depenent del vostre model d'impressora. Establiu a 0 per ometre l'ordre. La majoria de les "
-"impressores ignoren aquesta ordre (Per defecte: 0)"
+"La ploma es mourà a una velocitat en cm/s o mm/s depenent del vostre model de traçador. Establiu a 0 per ometre l'ordre. La majoria de ls "
+"traçador ignoren aquesta ordre (Per defecte: 0)"
 
 #: ../share/extensions/plotter.inx.h:42
 msgid "Rotation (°, clockwise):"
@@ -33943,11 +33943,11 @@ msgstr "Mostra la informació de depuració"
 
 #: ../share/extensions/plotter.inx.h:63
 msgid "Check this to get verbose information about the plot without actually sending something to the plotter (A.k.a. data dump) (Default: Unchecked)"
-msgstr "Activeu aquest per obtenir més informació sobre la impressió sense enviar realment res a la impressora (Per defecte: desactivat)"
+msgstr "Activeu per obtenir més informació sobre el traçat sense enviar realment res al traçador (Per defecte: desactivat)"
 
 #: ../share/extensions/plt_input.inx.h:1
 msgid "AutoCAD Plot Input"
-msgstr "Entrada d'AutoCAD Plot"
+msgstr "Entrada de traçador d'AutoCAD"
 
 #: ../share/extensions/plt_input.inx.h:2 ../share/extensions/plt_output.inx.h:2
 msgid "HP Graphics Language Plot file [AutoCAD] (*.plt)"
@@ -33955,15 +33955,15 @@ msgstr "Fitxer HP Graphics Language Plot [AutoCAD] (*.plt)"
 
 #: ../share/extensions/plt_input.inx.h:3
 msgid "Open HPGL plotter files"
-msgstr "Obre fitxers HPGL plotter"
+msgstr "Obre fitxers de traçador HPGL"
 
 #: ../share/extensions/plt_output.inx.h:1
 msgid "AutoCAD Plot Output"
-msgstr "Sortida d'AutoCAD Plot"
+msgstr "Sortida de traçador d'AutoCAD"
 
 #: ../share/extensions/plt_output.inx.h:3
 msgid "Save a file for plotters"
-msgstr "Desa un fitxer per a plòters"
+msgstr "Desa un fitxer per a traçadors"
 
 #: ../share/extensions/polyhedron_3d.inx.h:1
 msgid "3D Polyhedron"
@@ -34489,7 +34489,7 @@ msgstr "Ometre segments redundants"
 
 #: ../share/extensions/rtree.inx.h:5
 msgid "Lift pen for backward steps"
-msgstr "Aixeca el llapis pels passos enrere"
+msgstr "Aixeca la ploma pels passos enrere"
 
 #: ../share/extensions/rubberstretch.inx.h:1
 msgid "Rubber Stretch"
@@ -34529,7 +34529,7 @@ msgstr "Escurça els valors del color"
 
 #: ../share/extensions/scour.inx.h:6
 msgid "Convert all color specifications to #RRGGBB (or #RGB where applicable) format."
-msgstr "Converteix totes les especificacions de color a #RRGGBB format (o #RGB on sigui aplicable)"
+msgstr "Converteix totes les especificacions de color a #RRGGBB format (o #RGB on sigui aplicable)."
 
 #: ../share/extensions/scour.inx.h:7
 msgid "Convert CSS attributes to XML attributes"
@@ -34553,7 +34553,7 @@ msgstr "Crea grups per atributs similars"
 
 #: ../share/extensions/scour.inx.h:12
 msgid "Create groups for runs of elements having at least one attribute in common (e.g. fill-color, stroke-opacity, ...)."
-msgstr "Crea grups per a carreres d'elements que tenen com a mínim un atribut en comú (per exemple, farcir de color, traçat opac, ...)."
+msgstr "Crea grups per a seqüències d'elements que tenen com a mínim un atribut en comú (per exemple, color d'emplenat, opacitat del traç, etc.)."
 
 #: ../share/extensions/scour.inx.h:13
 msgid "Keep editor data"
@@ -34561,7 +34561,7 @@ msgstr "Conserva les dades de l'editor"
 
 #: ../share/extensions/scour.inx.h:14
 msgid "Don't remove editor-specific elements and attributes. Currently supported: Inkscape, Sodipodi and Adobe Illustrator."
-msgstr "No retireu els elements i atributs específics de l'editor. Actualment suporta: Inkscape, Sodipodi i Adobe Illustrator."
+msgstr "No eliminis els elements i atributs específics de l'editor. Actualment suporta: Inkscape, Sodipodi i Adobe Illustrator."
 
 #: ../share/extensions/scour.inx.h:15
 msgid "Keep unreferenced definitions"
@@ -34573,11 +34573,11 @@ msgstr "Mantén les definicions d'elements que no s'utilitzen actualment en el S
 
 #: ../share/extensions/scour.inx.h:17
 msgid "Work around renderer bugs"
-msgstr "Treballa sobre els errors de renderitzat"
+msgstr "Treballa sobre els errors de renderització"
 
 #: ../share/extensions/scour.inx.h:18
 msgid "Works around some common renderer bugs (mainly libRSVG) at the cost of a slightly larger SVG file."
-msgstr "Funciona al voltant d'alguns errors comuns renderitzats (principalment libRSVG) a costa d'un arxiu SVG una mica més gran."
+msgstr "Soluciona alguns errors comuns de renderització (principalment libRSVG) a costa d'un fitxer SVG una mica més gran."
 
 #: ../share/extensions/scour.inx.h:20
 msgid "Remove the XML declaration"
@@ -34588,7 +34588,7 @@ msgid ""
 "Removes the XML declaration (which is optional but should be provided, especially if special characters are used in the document) from the file header."
 msgstr ""
 "Treu la declaració XML (que és opcional però hauria de ser proporcionada, especialment si s'utilitzen caràcters especials al document) des de la "
-"capçalera de l'arxiu."
+"capçalera del fitxer."
 
 #: ../share/extensions/scour.inx.h:22
 msgid "Remove metadata"
@@ -34616,17 +34616,17 @@ msgstr "Incrusta imatges de mapa de bits"
 
 #: ../share/extensions/scour.inx.h:27
 msgid "Resolve external references to raster images and embed them as Base64-encoded data URLs."
-msgstr "Resol les referències externes de les imatges de mapa de bits i les incrusta com a una dada URLs Base64-codificada."
+msgstr "Resol les referències externes de les imatges de mapa de bits i les incrusta com a URL de dades codificada en Base64."
 
 #: ../share/extensions/scour.inx.h:28
 msgid "Enable viewboxing"
-msgstr "Habilita la visualització de capses"
+msgstr "Habilita el quadre de visualització"
 
 #: ../share/extensions/scour.inx.h:30
 #, no-c-format
 msgid "Set page size to 100%/100% (full width and height of the display area) and introduce a viewBox specifying the drawings dimensions."
 msgstr ""
-"Defineix la mida de la pàgina al 100%/100% (amplada màxima i alçada de l'àrea de visualització) i introdueix un Visualitzador de capses especificant "
+"Definiu la mida de la pàgina al 100%/100% (amplada i alçada màximes de l'àrea de visualització) i introduïu un quadre de visualització especificant "
 "les dimensions dels dibuixos."
 
 #: ../share/extensions/scour.inx.h:31
@@ -34643,14 +34643,14 @@ msgstr ""
 
 #: ../share/extensions/scour.inx.h:33
 msgid "Indentation characters:"
-msgstr "Sagnat dels caràcters:"
+msgstr "Caràcters de sagnat:"
 
 #: ../share/extensions/scour.inx.h:34
 msgid ""
 "The type of indentation used for each level of nesting in the output. Specify \"None\" to disable indentation. This option has no effect if \"Format "
 "output with line-breaks and indentation\" is disabled."
 msgstr ""
-"Tipus de sagnat utilitzat per a cada nivell d'implantació a la sortida. Seleccioneu «Cap» per desactivar el sagnat. Aquesta opció no té efecte si el "
+"Tipus de sagnat utilitzat per a cada nivell d'imbricació a la sortida. Seleccioneu «Cap» per desactivar el sagnat. Aquesta opció no té efecte si el "
 "«Format de sortida amb salts de línia i sagnat» està desactivat."
 
 #: ../share/extensions/scour.inx.h:35
@@ -34661,18 +34661,18 @@ msgstr "Profunditat del sagnat:"
 msgid ""
 "The depth of the chosen type of indentation. E.g. if you choose \"2\" every nesting level in the output will be indented by two additional spaces/tabs."
 msgstr ""
-"La profunditat del tipus de sagnat. Per exemple si trieu «2», cada nivell d'implantació a la sortida se sagnarà per dos espais/tabuladors addicionals."
+"La profunditat del tipus de sagnat. Per exemple si trieu «2», cada nivell d'imbricació a la sortida se sagnarà dos espais/tabuladors addicionals."
 
 #: ../share/extensions/scour.inx.h:37
 msgid "Strip the \"xml:space\" attribute from the root SVG element"
-msgstr "Franja de la \"xml:space\" atribut de l'element SVG arrel"
+msgstr "Elimina l'atribut «xml:space» de l'element SVG arrel"
 
 #: ../share/extensions/scour.inx.h:38
 msgid ""
 "This is useful if the input file specifies \"xml:space='preserve'\" in the root SVG element which instructs the SVG editor not to change whitespace in "
 "the document at all (and therefore overrides the options above)."
 msgstr ""
-"Això és útil si el fitxer d'entrada especifica \"xml: space =\" preservar \"' en l'element SVG arrel, que instrueix l'editor de SVG per tal de no "
+"Això és útil si el fitxer d'entrada especifica «xml:space='preserve'» en l'element SVG arrel, que instrueix l'editor de SVG per tal de no "
 "canviar els espais en blanc en el document (i per tant anul·la les opcions de dalt)."
 
 #: ../share/extensions/scour.inx.h:39
@@ -34718,7 +34718,7 @@ msgid ""
 "\"linearGradient5621\" will become \"a\" if it is the most used element."
 msgstr ""
 "Minimitza la longitud dels identificadors utilitzant només lletres minúscules, assignant els valors més curts als elements més referenciats. Per "
-"exemple, \"linearGradient5621\" es convertirà en \"a\" si és l'element més utilitzat."
+"exemple, «linearGradient5621» es convertirà en «a» si és l'element més utilitzat."
 
 #: ../share/extensions/scour.inx.h:49
 msgid "Prefix shortened IDs with:"
@@ -34756,7 +34756,7 @@ msgstr "Preserva els Identificadors que comencen amb:"
 #: ../share/extensions/scour.inx.h:56
 msgid "Preserve all IDs that start with the specified prefix (e.g. specify \"flag\" to preserve \"flag-mx\", \"flag-pt\", etc.)."
 msgstr ""
-"Conserva tots els identificadors que comencen amb el prefix especificat (per exemple, especifica \"flag\" per preservar \"flag-mx\", \"flag-pt\", etc.)."
+"Conserva tots els identificadors que comencen amb el prefix especificat (per exemple, especifiqueu «flag» per preservar «flag-mx», «flag-pt», etc.)."
 
 #: ../share/extensions/scour.inx.h:57
 msgid "Optimized SVG (*.svg)"
@@ -34856,7 +34856,7 @@ msgstr "r - Radi de la peça (px):"
 
 #: ../share/extensions/spirograph.inx.h:4
 msgid "d - Pen Radius (px):"
-msgstr "d - Radi del llapis (px):"
+msgstr "d - Radi de la ploma (px):"
 
 #: ../share/extensions/spirograph.inx.h:5
 msgid "Gear Placement:"
@@ -35261,7 +35261,7 @@ msgstr "Desagrupació profunda"
 
 #: ../share/extensions/ungroup_deep.inx.h:2
 msgid "Ungroup all groups in the selected object."
-msgstr "Desagrupa tots els grups en l'objecte seleccionat"
+msgstr "Desagrupa tots els grups de l'objecte seleccionat."
 
 #: ../share/extensions/ungroup_deep.inx.h:3
 msgid "Starting Depth"
@@ -35317,7 +35317,7 @@ msgstr "Opcions per la Triangulació Delaunay"
 
 #: ../share/extensions/voronoi2svg.inx.h:13
 msgid "Default (Stroke black and no fill)"
-msgstr "Per defecte (Traçat negre sense farcir)"
+msgstr "Per defecte (Traç negre sense farcir)"
 
 #: ../share/extensions/voronoi2svg.inx.h:14
 msgid "Triangles with item color"
