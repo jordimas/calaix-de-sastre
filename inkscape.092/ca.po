@@ -10080,7 +10080,6 @@ msgid "Min Radius:"
 msgstr "Radi mínim:"
 
 #: ../src/live_effects/lpe-gears.cpp:216
-#, fuzzy
 msgid "Minimum radius, low values can be slow"
 msgstr "Radi mínim, els valors baixos poden ser lents"
 
@@ -17828,7 +17827,7 @@ msgstr "Base simplificada:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:213
 msgid "on dynamic LPE simplify"
-msgstr "Simplifica el LPE dinàmic"
+msgstr "simplifica el LPE dinàmic"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:214
 msgid "Base simplify of dynamic LPE based simplify"
@@ -24279,9 +24278,8 @@ msgid "Picked mesh corner color."
 msgstr "Color de la cantonada de la malla seleccionat."
 
 #: ../src/ui/tools/mesh-tool.cpp:489
-#, fuzzy
 msgid "Fit mesh inside bounding box."
-msgstr "Utilització de la capsa contenidora visual"
+msgstr "Encaixa la malla dins de la capsa contenidora interna."
 
 #: ../src/ui/tools/mesh-tool.cpp:779
 msgid "FIXME<b>Ctrl</b>: snap mesh angle"
@@ -29310,14 +29308,12 @@ msgid "Set gradient on stroke"
 msgstr "Estableix el degradat del traç"
 
 #: ../src/widgets/fill-style.cpp:727
-#, fuzzy
 msgid "Set mesh on fill"
-msgstr "Estableix el patró en emplenar"
+msgstr "Estableix la malla en emplenar"
 
 #: ../src/widgets/fill-style.cpp:727
-#, fuzzy
 msgid "Set mesh on stroke"
-msgstr "Estableix el patró del traç"
+msgstr "Estableix la malla en traçar"
 
 #: ../src/widgets/fill-style.cpp:788
 msgid "Set pattern on fill"
@@ -29944,19 +29940,16 @@ msgid "Pick Color"
 msgstr "Escolliu un color"
 
 #: ../src/widgets/mesh-toolbar.cpp:600
-#, fuzzy
 msgid "Scale mesh to bounding box:"
-msgstr "Mostra la capsa contenidora"
+msgstr "Escala la malla a la capsa contenidora:"
 
 #: ../src/widgets/mesh-toolbar.cpp:601
-#, fuzzy
 msgid "Scale mesh to fit inside bounding box."
-msgstr "Mostra la capsa contenidora"
+msgstr "Escala la malla a la capsa contenidora intern."
 
 #: ../src/widgets/mesh-toolbar.cpp:604
-#, fuzzy
 msgid "Fit mesh"
-msgstr "Edita l'emplenat de la malla"
+msgstr "Encabeix a la malla"
 
 #: ../src/widgets/node-toolbar.cpp:341
 msgid "Insert node"
@@ -30222,12 +30215,11 @@ msgstr "<b>Degradat radial</b>"
 
 #: ../src/widgets/paint-selector.cpp:1080
 msgid "Use the <b>Mesh tool</b> to modify the mesh."
-msgstr ""
+msgstr "Utilitza <b>l'eina de malles</b> per modificar la malla."
 
 #: ../src/widgets/paint-selector.cpp:1093
-#, fuzzy
 msgid "<b>Mesh fill</b>"
-msgstr "<b>Mostra emplenat</b>"
+msgstr "<b>Emplenat de la malla</b>"
 
 #: ../src/widgets/paint-selector.cpp:1444
 msgid ""
