@@ -403,7 +403,7 @@ msgstr "Rufiyaa"
 
 #. Name for MWK
 msgid "Malawi Kwacha"
-msgstr "Kwacha de Malawi"
+msgstr "Kwacha malawià"
 
 #. Name for MXN
 msgid "Mexican Peso"
