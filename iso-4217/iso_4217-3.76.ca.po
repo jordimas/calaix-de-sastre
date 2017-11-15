@@ -82,7 +82,7 @@ msgstr "Taka"
 
 #. Name for BGN
 msgid "Bulgarian Lev"
-msgstr "Lev de Bulgària"
+msgstr "Lev búlgar"
 
 #. Name for BHD
 msgid "Bahraini Dinar"
