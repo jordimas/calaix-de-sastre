@@ -6,6 +6,13 @@
 #   Free Software Foundation, Inc., 2000
 #   Softcatalà <info@softcatala.org>, 2000-2001.
 #   Alastair McKinstry <mckinstry@computer.org>, 2001.
+#   Jordi Mas i Hernàndez <jmas@softcatala.org>, 2017
+#
+#   Existeix una gran varació en la manera d'anomenar monedes en totes les llengües.
+#   El criteri d'estandarització que hem usat és:
+#
+#       1. Llengües del món del TERMCAT
+#       2. Nom de llengües del CLDR d'Unicode
 #
 msgid ""
 msgstr ""
@@ -47,7 +54,7 @@ msgstr "Kwanza"
 
 #. Name for ARS
 msgid "Argentine Peso"
-msgstr "Pes argentí"
+msgstr "Peso argentí"
 
 #. Name for AUD
 msgid "Australian Dollar"
@@ -139,7 +146,7 @@ msgstr "Peso xilè"
 
 #. Name for CNY
 msgid "Yuan Renminbi"
-msgstr "Iuan Renminbi"
+msgstr "Iuan renminbi"
 
 #. Name for COP
 msgid "Colombian Peso"
@@ -155,7 +162,7 @@ msgstr "Peso convertible"
 
 #. Name for CUP
 msgid "Cuban Peso"
-msgstr "Pes cubà"
+msgstr "Peso cubà"
 
 #. Name for CVE
 msgid "Cabo Verde Escudo"
@@ -175,7 +182,7 @@ msgstr "Corona danesa"
 
 #. Name for DOP
 msgid "Dominican Peso"
-msgstr "Pes dominicà"
+msgstr "Peso dominicà"
 
 #. Name for DZD
 msgid "Algerian Dinar"
@@ -596,7 +603,7 @@ msgstr "Dòlar dels Estats Units"
 
 #. Name for UYU
 msgid "Peso Uruguayo"
-msgstr "Pes d'Uruguai"
+msgstr "Peso uruguaià"
 
 #. Name for UZS
 msgid "Uzbekistan Sum"
