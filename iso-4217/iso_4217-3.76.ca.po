@@ -9,18 +9,19 @@
 #   Jordi Mas i Hernàndez <jmas@softcatala.org>, 2017
 #
 #   Existeix una gran varació en la manera d'anomenar monedes en totes les llengües.
+#
 #   El criteri d'estandarització que hem usat és:
 #
-#       1. Llengües del món del TERMCAT
-#       2. Nom de llengües del CLDR d'Unicode
+#       1. El diccionari en línia Monedes del món del TERMCAT
+#       2. Nom de monedes en català usades als locale del CLDR (Unicode Common Locale Data Repository)
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: iso_4217 CVS\n"
 "Report-Msgid-Bugs-To: Debian iso-codes team <pkg-isocodes-devel@lists.alioth.debian.org>\n"
 "POT-Creation-Date: 2017-04-25 17:24+0200\n"
-"PO-Revision-Date: 2004-08-08 17:22+0100\n"
-"Last-Translator: Softcatalà <tradgnome@softcatala.org>\n"
+"PO-Revision-Date: 2017-11-15 12:22+0100\n"
+"Last-Translator: Jordi Mas <jmas@softcatala.org>\n"
 "Language-Team: Catalan <linux@softcatala.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +47,7 @@ msgstr "Dram armeni"
 
 #. Name for ANG
 msgid "Netherlands Antillean Guilder"
-msgstr "Florí de les Antilles Holandeses"
+msgstr "Florí de les Antilles Neerlandeses"
 
 #. Name for AOA
 msgid "Kwanza"
@@ -154,7 +155,7 @@ msgstr "Peso colombià"
 
 #. Name for CRC
 msgid "Costa Rican Colon"
-msgstr "Colón de Costa Rica"
+msgstr "Colon costa-riqueny"
 
 #. Name for CUC
 msgid "Peso Convertible"
@@ -198,7 +199,7 @@ msgstr "Nakfa"
 
 #. Name for ETB
 msgid "Ethiopian Birr"
-msgstr "Birr d'Etiòpia"
+msgstr "Birr etíop"
 
 #. Name for EUR
 msgid "Euro"
@@ -371,7 +372,7 @@ msgstr "Leu moldau"
 
 #. Name for MGA
 msgid "Malagasy Ariary"
-msgstr "Ariary"
+msgstr "Ariary malgaix"
 
 #. Name for MKD
 msgid "Denar"
@@ -395,7 +396,7 @@ msgstr "Ouguiya"
 
 #. Name for MUR
 msgid "Mauritius Rupee"
-msgstr "Rupia de Maurici"
+msgstr "Rupia mauriciana"
 
 #. Name for MVR
 msgid "Rufiyaa"
@@ -491,7 +492,7 @@ msgstr "Ruble rus"
 
 #. Name for RWF
 msgid "Rwanda Franc"
-msgstr "Franc rwandès"
+msgstr "Franc de Ruanda"
 
 #. Name for SAR
 msgid "Saudi Riyal"
@@ -543,7 +544,7 @@ msgstr "Dobra"
 
 #. Name for SVC
 msgid "El Salvador Colon"
-msgstr "Colón salvadorenc"
+msgstr "Colon salvadorenc"
 
 #. Name for SYP
 msgid "Syrian Pound"
@@ -635,7 +636,7 @@ msgstr "Plata"
 
 #. Name for XAU
 msgid "Gold"
-msgstr "Daurat"
+msgstr "Or"
 
 #. Name for XBA
 msgid "Bond Markets Unit European Composite Unit (EURCO)"
@@ -655,7 +656,7 @@ msgstr ""
 
 #. Name for XCD
 msgid "East Caribbean Dollar"
-msgstr "Dòlar del Carib Est"
+msgstr "Dòlar del Carib Oriental"
 
 #. Name for XDR
 msgid "SDR (Special Drawing Right)"
