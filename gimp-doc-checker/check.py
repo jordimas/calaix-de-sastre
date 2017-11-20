@@ -63,7 +63,7 @@ def find_recursive(directory, pattern):
 
 def print_entry(entry, filename, firstError):
 
-    if firstError is False:
+    if firstError:
         print('**** Found error:' + filename)
 
     print('--')
@@ -79,7 +79,7 @@ def main():
     for filename in filenames:
         try:
     
-            firstError = False
+            firstError = True
             input_po = polib.pofile(filename)
             for entry in input_po:
                 if len(entry.msgstr) == 0:
