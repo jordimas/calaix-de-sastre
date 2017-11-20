@@ -61,12 +61,12 @@ def find_recursive(directory, pattern):
     filelist.sort()
     return filelist
 
-def print_entry(entry, firstError):
+def print_entry(entry, filename, firstError):
 
-    if firstError:
-        print('** Found error:' + filename)
+    if firstError is False:
+        print('**** Found error:' + filename)
 
-    print('****')
+    print('--')
     print('msgid:' + entry.msgid)
     print('msgstr:' + entry.msgstr)
 
@@ -92,13 +92,13 @@ def main():
                     continue
                
                 if ids and not strs:
-                    print_entry(entry, firstError)
+                    print_entry(entry, filename, firstError)
                     errors = errors + 1
                     firstError = False
                     continue
 
                 if not ids and strs:
-                    print_entry(entry, firstError)
+                    print_entry(entry, filename, firstError)
                     errors = errors + 1
                     firstError = False
                     continue
@@ -106,7 +106,7 @@ def main():
                 for i in range(len(ids.groups()) - 1):
                     for s in range(len(strs.groups()) - 1):
                         if ids.group(i + 1) != strs.group(i + 1):
-                            print_entry(entry, firstError)
+                            print_entry(entry, filename, firstError)
                             errors = errors + 1
                             firstError = False
                             continue
