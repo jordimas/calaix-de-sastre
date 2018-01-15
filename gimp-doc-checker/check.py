@@ -92,15 +92,9 @@ def main():
                     continue
                
                 if ids and not strs:
-                    print_entry(entry, filename, firstError)
-                    errors = errors + 1
-                    firstError = False
                     continue
 
                 if not ids and strs:
-                    print_entry(entry, filename, firstError)
-                    errors = errors + 1
-                    firstError = False
                     continue
 
                 for i in range(len(ids.groups()) - 1):
