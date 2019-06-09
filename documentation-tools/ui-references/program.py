@@ -77,8 +77,8 @@ def extract_text(entry):
 def main():
 
     print("Checks that UI elements in documentation use the same names than in the UI")
-    doc_file = '/home/jordi/dev/gnome-user-docs/gnome-help/ca/ca.po'
-    ui_file = '/home/jordi/sc/tmt/src/output/gnome-tm.po'
+    doc_file = '/home/jordi/dev/gedit/gedit-upstream/help/ca/ca.po'
+    ui_file = '/home/jordi/dev/gedit/gedit-upstream/po/ca.po'
 
     ui_strings = _load_po_into_dictionary(ui_file)
 
