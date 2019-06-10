@@ -5,8 +5,9 @@
     02/20/97 instead of the expected 20/02/97
     on libc version 2.29
 */
+#include <time.h>
+#include <stdio.h>
 
-#include <glib.h>
 
 int
 main (void)
@@ -25,6 +26,6 @@ main (void)
     sample_tm.tm_isdst  = 0;
 
     strftime(str_time, sizeof(str_time), "%x", &sample_tm); 
-    g_print("%s\n", str_time);
+    printf("%s\n", str_time);
     return 0;
 }
