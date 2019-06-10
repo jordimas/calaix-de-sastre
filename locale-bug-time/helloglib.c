@@ -7,9 +7,6 @@
 */
 
 #include <glib.h>
-#include <langinfo.h>
-
-#define PREFERRED_DATE_FMT nl_langinfo (D_FMT)
 
 int
 main (void)
