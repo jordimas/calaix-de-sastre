@@ -1,3 +1,11 @@
+/*
+    This example shows a bug in %x date formatter
+
+    When executed on ca_ES or es_ES locale this sample shows
+    02/20/97 instead of the expected 20/02/97
+    on libc version 2.29
+*/
+
 #include <glib.h>
 #include <langinfo.h>
 
