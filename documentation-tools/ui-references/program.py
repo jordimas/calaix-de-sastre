@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
 # Copyright (c) 2018 Jordi Mas i Hernandez <jmas@softcatala.org>
@@ -77,14 +77,18 @@ def extract_text(entry):
 def main():
 
     print("Checks that UI elements in documentation use the same names than in the UI")
-    doc_file = '/home/jordi/dev/gedit/gedit-upstream/help/ca/ca.po'
-    ui_file = '/home/jordi/dev/gedit/gedit-upstream/po/ca.po'
+    doc_file = '/home/jordi/dev/gedit/gedit/help/ca/ca.po'
+    ui_file = '/home/jordi/dev/gedit/gedit/po/ca.po'
 
     ui_strings = _load_po_into_dictionary(ui_file)
 
     cnt = 0
     input_po = polib.pofile(doc_file)
     for entry in input_po:
+
+        if 'fuzzy' in entry.flags:
+            continue
+
         #  <gui>reference</gui>
         srcs = extract_text(entry.msgid)
         trgs = extract_text(entry.msgstr)
