@@ -107,7 +107,8 @@ def main():
 
         except Exception as e:
             print('Cannot analyze {0} -> {1}'.format(filename, e))
-                
+
+    print("Files found:" + str(len(filenames)))
     print("Total errors:" + str(errors))
 
 if __name__ == "__main__":
