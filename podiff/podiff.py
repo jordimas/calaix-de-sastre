@@ -38,18 +38,36 @@ def main():
     target_entries = {}
 
     source_filename = '/home/jordi/sc/tmt/src/output/fedora-tm.po'
-    target_filename = '/home/jordi/sc/tmt3/src/output/fedora-tm-nou.po'
+    target_filename = '/home/jordi/sc/tmt2/src/output/fedora-tm.po'
+
+    source_duplicates_same_translation = 0
+    source_duplicates_different_translation = 0
+
+    target_duplicates_same_translation = 0
+    target_duplicates_different_translation = 0
   
     # Load source strings
     source_po = polib.pofile(source_filename)
     for entry in source_po:
         key = entry.msgid
+        if key in source_entries:
+            if source_entries[key] == entry.msgid:
+                source_duplicates_same_translation += 1 
+            else:
+                source_duplicates_different_translation += 1
+      
         source_entries[key] = entry.msgid
 
     # Load target strings
     target_po = polib.pofile(target_filename)
     for entry in target_po:
         key = entry.msgid
+        if key in target_entries:
+            if target_entries[key] == entry.msgid:
+                target_duplicates_same_translation += 1 
+            else:
+                target_duplicates_different_translation += 1
+
         target_entries[key] = entry.msgid
 
     print('Added strings')
@@ -66,11 +84,12 @@ def main():
             print(' {0}'.format(key))
             missing = missing + 1
 
-
     print('Added:' + str(added))
     print('Missing:' + str(missing))
-
-            
+    print('Source duplicates with same translation: ' +  str(source_duplicates_same_translation))
+    print('Source duplicates with different translation: ' + str(source_duplicates_different_translation))
+    print('Target duplicates with same translation: ' +  str(target_duplicates_same_translation))
+    print('Target duplicates with different translation: ' + str(target_duplicates_different_translation))
 
 if __name__ == "__main__":
     main()
