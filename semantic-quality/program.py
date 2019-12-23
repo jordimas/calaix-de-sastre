@@ -115,6 +115,11 @@ def translate_text_yandex(text, _key):
         all_text += text
     return all_text
 
+
+def clean_string(text):
+    text = re.sub('[_&~]', '', text)
+    return text
+
           
 def main():
 
@@ -129,22 +134,24 @@ def main():
     cnt = 0
     for entry in input_po:
 
-        if len(entry.msgstr) < 4:
+        msgid = clean_string(entry.msgid)
+        msgstr = clean_string(entry.msgstr)
+
+        if len(msgstr) < 4:
             continue
 
         cnt = cnt + 1
-
-        translated = translate_text_yandex(entry.msgid, key)
-        leven = levenshtein(entry.msgstr, translated)
+        translated = translate_text_yandex(msgid, key)
+        leven = levenshtein(msgstr, translated)
     
-        proportional = leven / len(entry.msgstr)
+        proportional = leven / len(msgstr)
 
         if proportional < 0.9:
             continue
 
         print("----")
-        print(" {0}".format(entry.msgid))
-        print(" {0}".format(entry.msgstr))
+        print(" {0}".format(msgid))
+        print(" {0}".format(msgstr))
         print(" {0}".format(translated))
         print(" {0} ({1})".format(leven, proportional))
 
