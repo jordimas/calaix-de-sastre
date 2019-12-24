@@ -32,7 +32,6 @@ import urllib.request, urllib.parse, urllib.error
 import json
 
 
-
 def _load_po_into_dictionary(filename):
     strings = {}
     input_po = polib.pofile(filename)
@@ -67,7 +66,8 @@ def _get_marker(pos, end, self_closed):
 def _get_translation(text):
 
     # Request translation
-    url = "https://www.softcatala.org/apertium/json/translate?langpair=es|ca&markUnknown=no"
+    #url = "https://www.softcatala.org/apertium/json/translate?langpair=es|ca&markUnknown=no"
+    url = "http://localhost:8050/translate?langpair=es|ca&markUnknown=no"
     url += "&q=" + urllib.parse.quote_plus(text.encode('utf-8'))
     #print("url->" + url)
 
