@@ -118,53 +118,7 @@ def _create_markers_in_string(text):
 
 def _translate_from_spanish(english, text):
 
-    global tm
-
-    if tm is None:
-        tm = _load_tm('tm/gimp-tm.po')
-        print("memory loaded")
-
-    # Create markers for HTML tags Spanish
-    markers, text = _create_markers_in_string(text)
-
-    # Create markers for HTML tags English
-    markers_en, text_en = _create_markers_in_string(english)
-
-    # Create markers for HTML text
-    markers_text = {}
-    regex = re.compile(r"MATCH-[0-9](.*?)ENDMATCH-[0-9]", re.VERBOSE)
-    matches = regex.findall(text)
-    matches_en = regex.findall(text_en)
-    
-    pos = 0
-    ca_pos = 0
-    if len(markers_en) == len(markers):
-        for match in matches:
-            eng = matches_en[pos].strip()
-            if eng in tm:
-                #print("Found text in tags in TM:'" + eng.encode("utf-8") + "'")
-                marker = "CATEXT-" + str(ca_pos)
-                #print("Marker: '{0}'".format(marker.encode("utf-8")))
-                #print("Match: '{0}'".format(match.encode("utf-8")))
-                text = text.replace(match.strip(), marker, 1)
-                markers_text[marker] = tm[eng]
-                ca_pos = ca_pos + 1
-
-            pos = pos + 1
-    else:
-        print("Different number of matches: {0} {1} for {2}. Cannot look for word between tags in TM".format(len(markers_en), len(markers), english))
-
     translated = _get_translation(text)
-
-    # Put back markers for HTML tags Spanish
-    for marker in markers.keys():
-        translated = translated.replace(marker, markers[marker], 1)
-    
-    # Put back markers for HTML text
-    for marker in markers_text.keys():
-        translated = translated.replace(marker, markers_text[marker], 1)
-
-    #print("Translated:" + str(translated))
     return translated
 
 def read_parameters():
@@ -259,6 +213,11 @@ def levenshtein(seq1, seq2):
                 )
     return (matrix[size_x - 1, size_y - 1])
 
+def clean_string(text):
+    text = re.sub('[_&~]', '', text)
+    text = re.sub('<[^>]*>', '', text) # Remove HTML tags
+    return text
+
 def main():
 
     print("Takes a translated PO Catalan file, then a Spanish file that translates using machine translation into Catalan")
@@ -276,28 +235,32 @@ def main():
     cnt = 0
     for entry in input_po:
 
+        msgid = entry.msgid
+        msgstr = clean_string(entry.msgstr)
+
         if entry.msgid not in strings:
             continue
 
-        if len(entry.msgstr) < 4:
+        if len(msgstr) < 4:
             continue
 
         cnt = cnt + 1
 
-        sp = _parse_accents(strings[entry.msgid])
-        translated = _translate_from_spanish(entry.msgid, sp)
+        sp = _parse_accents(strings[msgid])
+        sp = clean_string(sp)
+        translated = _translate_from_spanish(msgid, sp)
         translated = _word_replacement(translated)
 
-        leven = levenshtein(entry.msgstr, translated)
+        leven = levenshtein(msgstr, translated)
     
-        proportional = leven / len(entry.msgstr)
+        proportional = leven / len(msgstr)
 
         if proportional < 0.9:
             continue
 
         print("----")
-        print(" {0}".format(entry.msgid))
-        print(" {0}".format(entry.msgstr))
+        print(" {0}".format(msgid))
+        print(" {0}".format(msgstr))
         print(" {0}".format(translated))
         print(" {0} ({1})".format(leven, proportional))
 
