@@ -30,7 +30,7 @@ import numpy as np
 from optparse import OptionParser
 import urllib.request, urllib.parse, urllib.error
 import json
-
+import time
 
 def _load_po_into_dictionary(filename):
     strings = {}
@@ -54,14 +54,6 @@ def _parse_accents(string):
     string = string.replace(u"ñ", u'ñ')
     return string
 
-def _get_marker(pos, end, self_closed):
-    if self_closed:
-        return "MATCHSELF-" + str(pos)
-
-    s = ''
-    if end is True:
-        s = "END"
-    return s + "MATCH-" + str(pos)
 
 def _get_translation(text):
 
@@ -71,53 +63,19 @@ def _get_translation(text):
     url += "&q=" + urllib.parse.quote_plus(text.encode('utf-8'))
     #print("url->" + url)
 
-    response = urllib.request.urlopen(url)
-    data = json.loads(response.read())
-    translated =  data['responseData']['translatedText']
-    #print("Translated (returned):" + translated)
-    return translated
+    try:
+        response = urllib.request.urlopen(url)
+        data = json.loads(response.read())
+        translated =  data['responseData']['translatedText']
+        return translated
 
-tm = None
+    except Exception as e:
+        print("ERROR: calling _get_translation: " + str(e))
+        time.sleep(5)
+        return ""
 
-def _load_tm(filename):
-    strings = {}
-    input_po = polib.pofile(filename)
-
-    for entry in input_po:
-        if entry.msgstr is '':
-            continue
-
-        strings[entry.msgid] = entry.msgstr
-
-    print("Read Translation memory:" + str(len(strings)))
-    return strings
-
-def _create_markers_in_string(text):
-    markers = {}
-    regex = re.compile(r"\<(.*?)\>", re.VERBOSE)
-    matches = regex.findall(text)
-    pos = 0
-    for match in matches:
-        match = '<' + match + '>'
-        where = text.find(match)
-        end = match[1] == '/'
-        self_closed = match[len(match) - 2] == '/'
-        marker = _get_marker(pos, end, self_closed)
-
-        if where + len(match) < len(text):
-            marker = marker + ' '
-
-        if where > 0:
-            marker = ' ' + marker
-        
-        text = text.replace(match, marker, 1)
-        markers[marker] = match
-        pos = pos + 1
-
-    return markers, text
 
 def _translate_from_spanish(english, text):
-
     translated = _get_translation(text)
     return translated
 
@@ -176,17 +134,6 @@ def _word_replacement(string):
         string = string.replace(key, words[key])
 
     return string
-
-
-def search_for_tm(entry):
-    reported = []
-    for eng in tm:
-        eng_lo = eng.lower()
-        if eng_lo not in reported and len(eng_lo) > 5 and eng_lo in entry.msgid.lower():
-            value = tm[eng]
-            if value.lower() not in entry.msgstr.lower():
-                entry.tcomment += u"\n {0} -> {1}".format(eng, unicode(tm[eng]))
-                reported.append(eng)
 
 def levenshtein(seq1, seq2):
     size_x = len(seq1) + 1
