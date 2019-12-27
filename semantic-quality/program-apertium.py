@@ -191,6 +191,9 @@ def main():
         if len(msgstr) < 4:
             continue
 
+        if 'fuzzy' in entry.flags:
+            continue
+
         cnt = cnt + 1
 
         sp = _parse_accents(strings[msgid])
@@ -202,7 +205,7 @@ def main():
     
         proportional = leven / len(msgstr)
 
-        if proportional < 0.9:
+        if proportional < 0.7:
             continue
 
         print("----")
