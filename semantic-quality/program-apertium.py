@@ -195,6 +195,10 @@ def main():
         if 'fuzzy' in entry.flags:
             continue
 
+
+        if entry.obsolete:
+            continue
+
         total_strings = total_strings + 1
 
         sp = _parse_accents(strings[msgid])
