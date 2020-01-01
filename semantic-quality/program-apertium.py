@@ -179,7 +179,8 @@ def main():
     strings = _load_po_into_dictionary(translated_file)
 
     input_po = polib.pofile(source_file)
-    cnt = 0
+    total_strings = 0
+    review_strings = 0
     for entry in input_po:
 
         msgid = entry.msgid
@@ -194,7 +195,7 @@ def main():
         if 'fuzzy' in entry.flags:
             continue
 
-        cnt = cnt + 1
+        total_strings = total_strings + 1
 
         sp = _parse_accents(strings[msgid])
         sp = clean_string(sp)
@@ -208,13 +209,16 @@ def main():
         if proportional < 0.7:
             continue
 
+        review_strings = review_strings + 1
         print("----")
         print(" {0}".format(msgid))
         print(" {0}".format(msgstr))
         print(" {0}".format(translated))
         print(" {0} ({1})".format(leven, proportional))
 
-    print("Processed strings:" + str(cnt))
+    reviewed = total_strings / review_strings if review_strings > 0 else  0
+    print("Processed strings:" + str(total_strings))
+    print("Strings to review: {:.2f}% ({})".format(reviewed, review_strings))
 
 if __name__ == "__main__":
     main()
