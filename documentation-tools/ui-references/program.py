@@ -21,18 +21,20 @@
 
 import polib
 import re
+import pathlib
+import os
 
 def _load_po_into_dictionary(filename):
     strings = {}
     input_po = polib.pofile(filename)
 
     for entry in input_po:
-        if entry.msgstr is '' or '@@image' in entry.msgid:
+        if entry.msgstr == '' or '@@image' in entry.msgid:
             continue
 
         strings[entry.msgid.lower()] = entry.msgstr
 
-    print("Read Spanish sentences:" + str(len(strings)))
+    print("Read sentences:" + str(len(strings)))
     return strings
 
 def _parse_accents(string):
@@ -49,7 +51,7 @@ def _load_tm(filename):
     input_po = polib.pofile(filename)
 
     for entry in input_po:
-        if entry.msgstr is '':
+        if entry.msgstr == '':
             continue
 
         strings[entry.msgid] = entry.msgstr
@@ -77,8 +79,24 @@ def extract_text(entry):
 def main():
 
     print("Checks that UI elements in documentation use the same names than in the UI")
-    doc_file = '/home/jordi/dev/gedit/gedit/help/ca/ca.po'
-    ui_file = '/home/jordi/dev/gedit/gedit/po/ca.po'
+
+    help_path = str(pathlib.Path().absolute())
+    help_pattern = "help/ca"
+    docs_pattern = "docs/ca"
+
+    if help_pattern == help_path[len(help_path) - len(help_pattern):]:
+        ui_file = os.path.join(help_path[:len(help_path) - len(help_pattern)], "po/ca.po")
+    elif docs_pattern == help_path[len(help_path) - len(docs_pattern):]:
+        ui_file = os.path.join(help_path[:len(help_path) - len(docs_pattern)], "po/ca.po")
+    else:
+        print("No help dir")
+        return
+
+
+    ui_file = os.path.join(help_path[:len(help_path) - len(help_pattern)], "po/ca.po")
+    doc_file = os.path.join(help_path, "ca.po")
+#    doc_file = '/home/jordi/dev/gedit/gedit/help/ca/ca.po'
+#    ui_file = '/home/jordi/dev/gedit/gedit/po/ca.po'
 
     ui_strings = _load_po_into_dictionary(ui_file)
 
@@ -87,6 +105,9 @@ def main():
     for entry in input_po:
 
         if 'fuzzy' in entry.flags:
+            continue
+
+        if entry.obsolete:
             continue
 
         #  <gui>reference</gui>
