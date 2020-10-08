@@ -73,7 +73,7 @@ def print_entry(entry, filename, firstError):
 def main():
 
     print("Looks for missing tags in the GIMP documentation")
-    filenames = find_recursive('/home/jordi/dev/gimp-help-2/po/ca/', '*.po')
+    filenames = find_recursive('/home/jordi/dev/gimp/gimp-help/po/ca/', '*.po')
 
     errors = 0
     for filename in filenames:
