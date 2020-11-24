@@ -52,30 +52,6 @@ def _parse_accents(string):
     return string
 
 
-def _get_translation(text):
-
-    # Request translation
-    #url = "https://www.softcatala.org/apertium/json/translate?langpair=es|ca&markUnknown=no"
-    url = "http://localhost:8050/translate?langpair=es|ca&markUnknown=no"
-    url += "&q=" + urllib.parse.quote_plus(text.encode('utf-8'))
-    #print("url->" + url)
-
-    try:
-        response = urllib.request.urlopen(url)
-        data = json.loads(response.read())
-        translated =  data['responseData']['translatedText']
-        return translated
-
-    except Exception as e:
-        print("ERROR: calling _get_translation: " + str(e))
-        time.sleep(5)
-        return ""
-
-
-def _translate_from_spanish(english, text):
-    translated = _get_translation(text)
-    return translated
-
 def read_parameters():
     parser = OptionParser()
 
