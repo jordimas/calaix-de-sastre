@@ -98,7 +98,13 @@ def main():
 #    doc_file = '/home/jordi/dev/gedit/gedit/help/ca/ca.po'
 #    ui_file = '/home/jordi/dev/gedit/gedit/po/ca.po'
 
-    ui_strings = _load_po_into_dictionary(ui_file)
+    if os.path.exists(ui_file) is False:
+        print(f"File {ui_file} does not exists. Cannot do checking")
+        return
+
+
+    ui_strings = _load_po_into_dictionary()
+
 
     cnt = 0
     input_po = polib.pofile(doc_file)
