@@ -72,13 +72,8 @@ def _get_clean_word(word):
     word = word.replace('»', '')
     return word
 
-def split_in_six_files():
-
-    strings = 0
-    duplicated = 0
-
-    #filename = "ca_dedup.txt"
-    filename = "tgt-train.txt"
+def _read_diacritics(filename):
+    print("_read_diacritics")
     diacritics = {}
 
     with open(filename, "r") as source:
@@ -111,10 +106,11 @@ def split_in_six_files():
                 cnt = cnt + 1
                 diacritics[word] = cnt
 
-                #print(word)  
+                #print(word)
+    return diacritics
 
-            strings = strings + 1
-
+def _read_clean_diacritics(filename, diacritics):
+    print("_read_clean_diacritics")
     cleaned = {}
     for diacritic in diacritics.keys():
         diacritic_cleaned = _get_clean_diacritic(diacritic)
@@ -139,6 +135,53 @@ def split_in_six_files():
                 cnt = cnt + 1
                 cleaned[word] = cnt
 
+    return cleaned
+
+
+def _select_sentences_with_diacritics(filename, diacritics):
+    print("_select_sentences_with_diacritics")
+    diacritics_sentences = {}
+    with open(filename, "r") as source:
+        clean = 0
+        while True:
+
+            src = source.readline().lower()
+
+            if not src:
+                break
+        
+            words = src.split()
+            for word in words:
+                word = _get_clean_word(word)
+
+                if word not in diacritics:
+                    continue
+                
+                    if word in diacritics_sentences:
+                        sentences = diacritics_sentences[word]
+                    else:
+                        sentences = []
+
+                    sentences.append(src)
+                    diacritics_sentences[word] = sentences
+
+                #print(word)
+    return diacritics_sentences
+
+
+def split_in_six_files():
+
+    strings = 0
+    duplicated = 0
+
+#    filename = "ca_dedup.txt"
+    filename = "tgt-train.txt"
+#    filename = "tgt-val.txt"
+
+    diacritics = _read_diacritics(filename)
+    cleaned = _read_clean_diacritics(filename, diacritics)
+   
+    selected_diacritics = 0
     sorted_dict = sorted(diacritics.items(), key=operator.itemgetter(1), reverse=True)
     for item in sorted_dict:
         key, value = item
@@ -158,10 +201,21 @@ def split_in_six_files():
         if value < _min or value > _max:
             continue
 
+        selected_diacritics = selected_diacritics + 1
         print(f"{key} - {value} ({value_clean})")
+
+    diacritics_sentences = _select_sentences_with_diacritics(filename, diacritics)
+    for diacritic in diacritics_sentences.keys():
+        print(diacritic)
+        sentences = diacritics_sentences[diacritic]
+        for sentence in sentences:
+            print(f"   {sentence}")
+
+    diacritics_len = len(diacritics)
+    print(f"Diacritics: {diacritics_len}, selected: {selected_diacritics}")
  
-    pduplicated = duplicated * 100 / strings
-    print(f"Strings: {strings}, duplicated {duplicated} ({pduplicated:.2f}%)")
+#    pduplicated = duplicated * 100 / strings
+#    print(f"Strings: {strings}, duplicated {duplicated} ({pduplicated:.2f}%)")
  
 
 
