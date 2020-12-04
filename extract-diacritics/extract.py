@@ -40,31 +40,6 @@ def init_logging():
     logger.addHandler(console)
 
 
-def file_len(fname):
-    with open(fname) as f:
-        for i, l in enumerate(f):
-            pass
-    return i + 1
-
-
-def _clean_localized(result):
-    original = result
-    mapping = {
-                '’' : '\'',
-                'à' : 'à',
-                'í' : 'í',
-                'ó' : 'ó',
-                'è' : 'è',
-                'ò' : 'ò',
-                'ú' : 'ú',
-              }
-
-    for char in mapping.keys():
-        result = result.replace(char, mapping[char])
-
-    cleaned = original != result
-    return result, cleaned
-
 
 def _get_clean_diacritic(diacritic):
     diacritic = diacritic.replace('à', 'a')
@@ -224,12 +199,10 @@ def _select_sentences_with_diacritics(filename, diacritics):
 command = 'curl --data "language=ca-ES"  --data-urlencode "text@{0}" {1} > "{2}" 2>/dev/null'
 server = 'http://172.17.0.2:7001/v2/check'
 
-def run_lt(sentence):
+def run_lt(filename):
 
-    txt_file = 'lt-txt'
-    json_file = 'lt.json'
-    with open(txt_file, "w") as writer:
-        writer.write(sentence)
+    txt_file = filename + ".txt"
+    json_file = filename + ".json"
 
     cmd = command.format(txt_file, server, json_file)
 #    print(cmd)
@@ -238,7 +211,13 @@ def run_lt(sentence):
     with open(json_file) as f:
         data = json.load(f)
         matches = data['matches']
-        return len(matches)
+        matches = len(matches)
+
+    with open(json_file, 'w') as f:
+        json.dump(data, f, indent=4, separators=(',', ': '))
+#        json.dumps(all_results, )
+
+    return matches
 
 def _remove_diacritic_sentence(sentence, diacritic):
     clean = _get_clean_diacritic(diacritic)
@@ -312,31 +291,27 @@ def split_in_six_files():
         if len(diacritic) < 4:
             continue
 
-        for sentence in sentences:
-#            print(f"   {sentence}")
-            errors_diac = run_lt(sentence)
-            sentence_nodiac = _remove_diacritic_sentence(sentence, diacritic)
-            errors_nodiac = run_lt(sentence_nodiac)
-#            logging.debug(f"{sentence} - {errors_diac}")
-#            logging.debug(f"{sentence_nodiac} - {errors_diac}")
-            if errors_diac == errors_nodiac:
-                same_errors = same_errors + 1
+        name = _get_clean_diacritic(diacritic)
+        filename_diacritics = f'data/{name}_dia'
+        filename_nodiacritics = f'data/{name}_nodia'
 
-#            print(f"{errors_diac} - {errors_nodiac}")
-#            print(sentence)
-#            print(errors_diacritics)
-#            print(sentence_nodiac)
+        with open(filename_diacritics + ".txt", "w") as diac_writer, \
+             open(filename_nodiacritics  + ".txt", "w") as nodiac_writer:
+            for sentence in sentences:
+                sentence_nodiac = _remove_diacritic_sentence(sentence, diacritic)
+                nodiac_writer.write(sentence_nodiac + "\n")
+                diac_writer.write(sentence + "\n")
 
-        logging.debug(f"Same errors? - {diacritic} - {same_errors} - {len(sentences)}")
-        if same_errors == len(sentences):
+        errors_diac = run_lt(filename_diacritics)
+        errors_nodiac = run_lt(filename_nodiacritics)
+ 
+        logging.debug(f"Same errors? - {diacritic} - {errors_diac} - {errors_nodiac}")
+        if errors_diac == errors_nodiac:
+            print(f"Same errors? - {diacritic} - {errors_diac} - {errors_nodiac}")
             print("*" + diacritic)
             for sentence in sentences:
                 print("   " + sentence)
  
-#    pduplicated = duplicated * 100 / strings
-#    print(f"Strings: {strings}, duplicated {duplicated} ({pduplicated:.2f}%)")
- 
-
 
 def main():
     print("Extracts words from corpus that have diacritics and non-diacritic versions")
