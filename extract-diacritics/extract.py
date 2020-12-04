@@ -251,7 +251,7 @@ def split_in_six_files():
     filename = "tgt-train.txt"
 #    filename = "tgt-val.txt"
 
-    filename = "200000.txt"
+#    filename = "200000.txt"
 
     diacritics = _read_diacritics(filename)
     cleaned = _read_clean_diacritics(filename, diacritics)
@@ -294,13 +294,22 @@ def split_in_six_files():
 
     diacritics_sentences = _select_sentences_with_diacritics(filename, diacritics)
 #    sorted_diacritics_sentences = sorted(diacritics_sentences.items(), key=operator.itemgetter(1), reverse=True)
+
+    diacritics_len = len(diacritics)
+    print(f"Diacritics: {diacritics_len}, selected: {selected_diacritics}")
+
     print("_final list")
+    cnt = 0
     for diacritic in sel_diacritics:
         sentences = diacritics_sentences[diacritic]
-#        print("*" + diacritic)
+        logging.debug(f"{diacritic} - pos: {cnt} sentences: {len(sentences)}")
 
         same_errors = 0
+        cnt = cnt + 1
         if len(sentences) < 2:
+            continue
+
+        if len(diacritic) < 4:
             continue
 
         for sentence in sentences:
@@ -323,9 +332,6 @@ def split_in_six_files():
             print("*" + diacritic)
             for sentence in sentences:
                 print("   " + sentence)
-
-    diacritics_len = len(diacritics)
-    print(f"Diacritics: {diacritics_len}, selected: {selected_diacritics}")
  
 #    pduplicated = duplicated * 100 / strings
 #    print(f"Strings: {strings}, duplicated {duplicated} ({pduplicated:.2f}%)")
