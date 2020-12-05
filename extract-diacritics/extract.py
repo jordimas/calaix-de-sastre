@@ -224,22 +224,12 @@ def _remove_diacritic_sentence(sentence, diacritic):
     return sentence.replace(diacritic, clean)
 
 
-def split_in_six_files():
-
-#    filename = "ca_dedup.txt"
-    filename = "tgt-train.txt"
-#    filename = "tgt-val.txt"
-
-#    filename = "200000.txt"
-
-    diacritics = _read_diacritics(filename)
-    cleaned = _read_clean_diacritics(filename, diacritics)
-
-    selected_diacritics = 0
-    sorted_diacritics = sorted(diacritics.items(), key=operator.itemgetter(1), reverse=True)
+def _get_selected_diacritics(filename, cleaned, diacritics):
     sel_diacritics = []
+    selected_diacritics = 0
 
     cleaned_diacritics_sentences = _select_sentences_with_diacritics(filename, cleaned)
+    sorted_diacritics = sorted(diacritics.items(), key=operator.itemgetter(1), reverse=True)
 
     logging.debug("_select diacritics")
     for item in sorted_diacritics:
@@ -271,12 +261,24 @@ def split_in_six_files():
         if selected_diacritics > 100:
             break
 
-    diacritics_sentences = _select_sentences_with_diacritics(filename, diacritics)
-#    sorted_diacritics_sentences = sorted(diacritics_sentences.items(), key=operator.itemgetter(1), reverse=True)
-
     diacritics_len = len(diacritics)
     print(f"Diacritics: {diacritics_len}, selected: {selected_diacritics}")
+    return sel_diacritics
 
+def split_in_six_files():
+
+#    filename = "ca_dedup.txt"
+    filename = "tgt-train.txt"
+#    filename = "tgt-val.txt"
+
+#    filename = "1500000.txt"
+
+    diacritics = _read_diacritics(filename)
+    cleaned = _read_clean_diacritics(filename, diacritics)
+
+    sel_diacritics = _get_selected_diacritics(filename, cleaned, diacritics)
+    diacritics_sentences = _select_sentences_with_diacritics(filename, diacritics)
+  
     print("_final list")
     cnt = 0
     for diacritic in sel_diacritics:
@@ -297,7 +299,7 @@ def split_in_six_files():
 
         with open(filename_diacritics + ".txt", "w") as diac_writer, \
              open(filename_nodiacritics  + ".txt", "w") as nodiac_writer:
-            for sentence in sentences:
+            for sentence in sentences[:5]:
                 sentence_nodiac = _remove_diacritic_sentence(sentence, diacritic)
                 nodiac_writer.write(sentence_nodiac + "\n")
                 diac_writer.write(sentence + "\n")
@@ -308,7 +310,7 @@ def split_in_six_files():
         logging.debug(f"Same errors? - {diacritic} - {errors_diac} - {errors_nodiac}")
         if errors_diac == errors_nodiac:
             print(f"Same errors? - {diacritic} - {errors_diac} - {errors_nodiac}")
-            print("*" + diacritic)
+            print("*** " + diacritic)
             for sentence in sentences:
                 print("   " + sentence)
  
