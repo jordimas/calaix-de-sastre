@@ -182,8 +182,9 @@ def _select_sentences_with_diacritics(filename, diacritics):
                 else:
                     sentences = []
 
-                sentences.append(src)
-                diacritics_sentences[word] = sentences
+                if len(sentences) < 10:
+                    sentences.append(src)
+                    diacritics_sentences[word] = sentences
 
                 #print(word)
 
@@ -267,10 +268,9 @@ def _get_selected_diacritics(filename, cleaned, diacritics):
 
 def split_in_six_files():
 
-#    filename = "ca_dedup.txt"
-    filename = "tgt-train.txt"
+    filename = "ca_dedup.txt"
+#    filename = "tgt-train.txt"
 #    filename = "tgt-val.txt"
-
 #    filename = "1500000.txt"
 
     diacritics = _read_diacritics(filename)
