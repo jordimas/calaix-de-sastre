@@ -249,29 +249,44 @@ def _get_selected_diacritics(filename, cleaned, diacritics):
         if value_clean == 0:
             continue
 
-        _max = value_clean * 1.50
-        _min = value_clean * 0.50
+#        _max = value_clean * 1.50
+#        _min = value_clean * 0.50
 
-        if value < _min or value > _max:
-            continue
+#        if value < _min or value > _max:
+#            continue
 
         sel_diacritics.append(key)
         selected_diacritics = selected_diacritics + 1
         print(f"{key} - {value} ({value_clean})")
 
-        if selected_diacritics > 100:
-            break
+#        if selected_diacritics > 100:
+#            break
 
     diacritics_len = len(diacritics)
     print(f"Diacritics: {diacritics_len}, selected: {selected_diacritics}")
     return sel_diacritics
 
-def split_in_six_files():
 
-    filename = "ca_dedup.txt"
+def _write_debug_files(filename_diacritics, filename_nodiacritics, diacritic, sentences):
+
+    try:
+        with open(filename_diacritics + ".txt", "w") as diac_writer, \
+             open(filename_nodiacritics  + ".txt", "w") as nodiac_writer:
+            for sentence in sentences[:5]:
+                sentence_nodiac = _remove_diacritic_sentence(sentence, diacritic)
+                nodiac_writer.write(sentence_nodiac + "\n")
+                diac_writer.write(sentence + "\n")
+
+    except Exception as e:
+        logging.error(e)
+        print(e)
+
+def process_corpus():
+
+#    filename = "ca_dedup.txt"
 #    filename = "tgt-train.txt"
 #    filename = "tgt-val.txt"
-#    filename = "1500000.txt"
+    filename = "50000.txt"
 
     diacritics = _read_diacritics(filename)
     cleaned = _read_clean_diacritics(filename, diacritics)
@@ -287,30 +302,25 @@ def split_in_six_files():
 
         same_errors = 0
         cnt = cnt + 1
-        if len(sentences) < 2:
-            continue
+#        if len(sentences) < 2:
+#            continue
 
-        if len(diacritic) < 4:
-            continue
+#        if len(diacritic) < 4:
+#            continue
 
         name = _get_clean_diacritic(diacritic)
         filename_diacritics = f'data/{name}_dia'
         filename_nodiacritics = f'data/{name}_nodia'
 
-        with open(filename_diacritics + ".txt", "w") as diac_writer, \
-             open(filename_nodiacritics  + ".txt", "w") as nodiac_writer:
-            for sentence in sentences[:5]:
-                sentence_nodiac = _remove_diacritic_sentence(sentence, diacritic)
-                nodiac_writer.write(sentence_nodiac + "\n")
-                diac_writer.write(sentence + "\n")
+        _write_debug_files(filename_diacritics, filename_nodiacritics, diacritic, sentences)
 
         errors_diac = run_lt(filename_diacritics)
         errors_nodiac = run_lt(filename_nodiacritics)
  
         logging.debug(f"Same errors? - {diacritic} - {errors_diac} - {errors_nodiac}")
         if errors_diac == errors_nodiac:
-            print(f"Same errors? - {diacritic} - {errors_diac} - {errors_nodiac}")
-            print("*** " + diacritic)
+            clean_diacritic =  _get_clean_word(diacritic)
+            print(f"*** {diacritic} {diacritics[diacritic]} - {cleaned[clean_diacritic]}")
             for sentence in sentences:
                 print("   " + sentence)
  
@@ -319,7 +329,7 @@ def main():
     print("Extracts words from corpus that have diacritics and non-diacritic versions")
 
     init_logging()
-    split_in_six_files()
+    process_corpus()
 
 if __name__ == "__main__":
     main()
