@@ -22,6 +22,7 @@ import os
 import json
 import operator
 import logging
+import nltk
 
 def init_logging():
     logfile = 'extract.log'
@@ -51,21 +52,6 @@ def _get_clean_diacritic(diacritic):
     diacritic = diacritic.replace('ú', 'u')
     return diacritic
 
-def _get_clean_word(word):
-    word = word.lower()
-    word = word.replace('.', '')
-    word = word.replace('s\'', '')
-    word = word.replace('d\'', '')
-    word = word.replace(',', '')
-    word = word.replace('l\'', '')
-    word = word.replace(')', '')
-    word = word.replace('(', '')
-    word = word.replace('\"', '')
-    word = word.replace(';', '')
-    word = word.replace(':', '')
-    word = word.replace('»', '')
-    return word
-
 '''
     Select words that have diacritics
     Returns a dictionary with word, frequency
@@ -85,7 +71,7 @@ def _read_diacritics(filename):
             if not src:
                 break
         
-            words = src.split()
+            words = nltk.word_tokenize(src)
             for word in words:
                 found = False
                 chars = ['à', 'è', 'é', 'í', 'ò', 'ó', 'ú']
@@ -95,8 +81,6 @@ def _read_diacritics(filename):
                         
                 if found == False:
                     continue
-
-                word = _get_clean_word(word)
 
 #                if len(word) < 4:
 #                    logging.debug(f"Skip {word}")
@@ -139,10 +123,9 @@ def _read_clean_diacritics(filename, diacritics):
             if not src:
                 break
         
-            words = src.split()
+            words = nltk.word_tokenize(src)
             for word in words:
 
-                word = _get_clean_word(word)
                 if word in cleaned:
                     cnt = cleaned[word]        
                 else:
@@ -170,10 +153,8 @@ def _select_sentences_with_diacritics(filename, diacritics):
             if not src:
                 break
         
-            words = src.split()
+            words = nltk.word_tokenize(src)
             for word in words:
-                word = _get_clean_word(word)
-
                 if word not in diacritics:
                     continue
 
@@ -201,22 +182,28 @@ command = 'curl --data "language=ca-ES"  --data-urlencode "text@{0}" {1} > "{2}"
 server = 'http://172.17.0.2:7001/v2/check'
 
 def run_lt(filename):
+    matches = 0
 
-    txt_file = filename + ".txt"
-    json_file = filename + ".json"
+    try:
+        #filename = filename.replace("/", "_")
+        txt_file = filename + ".txt"
+        json_file = filename + ".json"
 
-    cmd = command.format(txt_file, server, json_file)
-#    print(cmd)
-    os.system(cmd)
+        cmd = command.format(txt_file, server, json_file)
+    #    print(cmd)
+        os.system(cmd)
 
-    with open(json_file) as f:
-        data = json.load(f)
-        matches = data['matches']
-        matches = len(matches)
+        with open(json_file) as f:
+            data = json.load(f)
+            matches = data['matches']
+            matches = len(matches)
 
-    with open(json_file, 'w') as f:
-        json.dump(data, f, indent=4, separators=(',', ': '))
-#        json.dumps(all_results, )
+        with open(json_file, 'w') as f:
+            json.dump(data, f, indent=4, separators=(',', ': '))
+    #        json.dumps(all_results, )
+
+    except Exception as e:
+        logging.error(e)
 
     return matches
 
@@ -279,7 +266,6 @@ def _write_debug_files(filename_diacritics, filename_nodiacritics, diacritic, se
 
     except Exception as e:
         logging.error(e)
-        print(e)
 
 def process_corpus():
 
@@ -319,7 +305,7 @@ def process_corpus():
  
         logging.debug(f"Same errors? - {diacritic} - {errors_diac} - {errors_nodiac}")
         if errors_diac == errors_nodiac:
-            clean_diacritic =  _get_clean_word(diacritic)
+            clean_diacritic =  _get_clean_diacritic(diacritic)
             print(f"*** {diacritic} {diacritics[diacritic]} - {cleaned[clean_diacritic]}")
             for sentence in sentences:
                 print("   " + sentence)
