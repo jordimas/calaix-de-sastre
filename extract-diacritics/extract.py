@@ -22,7 +22,7 @@ import os
 import json
 import operator
 import logging
-import nltk
+from nltk.tokenize.toktok import ToktokTokenizer
 
 def init_logging():
     logfile = 'extract.log'
@@ -41,6 +41,11 @@ def init_logging():
     logger.addHandler(console)
 
 
+_toktok = ToktokTokenizer()
+
+def _get_tokenized_sentence(sentence):
+    return _toktok.tokenize(sentence)        
+
 
 def _get_clean_diacritic(diacritic):
     diacritic = diacritic.replace('à', 'a')
@@ -57,7 +62,7 @@ def _get_clean_diacritic(diacritic):
     Returns a dictionary with word, frequency
 
 '''
-def _read_diacritics(filename):
+def _read_diacritics(filename, dictionary):
     print("_read_diacritics")
     logging.debug("_read_diacritics")
     diacritics = {}
@@ -71,7 +76,7 @@ def _read_diacritics(filename):
             if not src:
                 break
         
-            words = nltk.word_tokenize(src)
+            words = _get_tokenized_sentence(src)
             for word in words:
                 found = False
                 chars = ['à', 'è', 'é', 'í', 'ò', 'ó', 'ú']
@@ -80,6 +85,10 @@ def _read_diacritics(filename):
                         found = True
                         
                 if found == False:
+                    continue
+
+                if word not in dictionary:
+                    logging.debug(f"Word not in dictionary {word}")
                     continue
 
 #                if len(word) < 4:
@@ -123,7 +132,7 @@ def _read_clean_diacritics(filename, diacritics):
             if not src:
                 break
         
-            words = nltk.word_tokenize(src)
+            words = _get_tokenized_sentence(src)
             for word in words:
 
                 if word in cleaned:
@@ -153,7 +162,7 @@ def _select_sentences_with_diacritics(filename, diacritics):
             if not src:
                 break
         
-            words = nltk.word_tokenize(src)
+            words = _get_tokenized_sentence(src)
             for word in words:
                 if word not in diacritics:
                     continue
@@ -233,7 +242,7 @@ def _get_selected_diacritics(filename, cleaned, diacritics):
 #        print(diacritic_cleaned)
 #        print(cleaned[diacritic_cleaned])
         value_clean = cleaned[diacritic_cleaned]
-        if value_clean == 0:
+        if value < 2 or value_clean < 2:
             continue
 
 #        _max = value_clean * 1.50
@@ -267,14 +276,14 @@ def _write_debug_files(filename_diacritics, filename_nodiacritics, diacritic, se
     except Exception as e:
         logging.error(e)
 
-def process_corpus():
+def process_corpus(dictionary):
 
 #    filename = "ca_dedup.txt"
 #    filename = "tgt-train.txt"
 #    filename = "tgt-val.txt"
     filename = "50000.txt"
 
-    diacritics = _read_diacritics(filename)
+    diacritics = _read_diacritics(filename, dictionary)
     cleaned = _read_clean_diacritics(filename, diacritics)
 
     sel_diacritics = _get_selected_diacritics(filename, cleaned, diacritics)
@@ -309,13 +318,30 @@ def process_corpus():
             print(f"*** {diacritic} {diacritics[diacritic]} - {cleaned[clean_diacritic]}")
             for sentence in sentences:
                 print("   " + sentence)
- 
+
+def load_dictionary():
+
+    input_file = 'diccionari.txt'
+    words = set()
+    with open(input_file) as f:
+        while True:
+            line = f.readline()
+            if not line:
+                break
+
+            word = line.split()[0].lower()
+            if word not in words:
+                words.add(word)
+
+    logging.debug(f"Words load from dictionary {len(words)}")
+    return words
 
 def main():
     print("Extracts words from corpus that have diacritics and non-diacritic versions")
 
     init_logging()
-    process_corpus()
+    dictionary = load_dictionary()
+    process_corpus(dictionary)
 
 if __name__ == "__main__":
     main()
