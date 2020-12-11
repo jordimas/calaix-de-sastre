@@ -30,16 +30,13 @@ def init_logging():
     if os.path.isfile(logfile):
         os.remove(logfile)
 
-
     logging.basicConfig(filename=logfile, level=logging.DEBUG,
                         format='%(message)s')
-                        #format='%(asctime)s - %(levelname)s - %(message)s')
 
     logger = logging.getLogger('')
     console = logging.StreamHandler()
     console.setLevel(logging.INFO)
     logger.addHandler(console)
-
 
 _toktok = ToktokTokenizer()
 
@@ -63,8 +60,7 @@ def _get_clean_diacritic(diacritic):
 
 '''
 def _read_diacritics(filename, dictionary):
-    print("_read_diacritics")
-    logging.debug("_read_diacritics")
+    logging.info("_read_diacritics")
     diacritics = {}
 
     with open(filename, "r") as source:
@@ -91,23 +87,17 @@ def _read_diacritics(filename, dictionary):
                     logging.debug(f"Word not in dictionary {word}")
                     continue
 
-#                if len(word) < 4:
-#                    logging.debug(f"Skip {word}")
-#                    continue
-                
                 if word in diacritics:
-                    cnt = diacritics[word]        
+                    cnt = diacritics[word]
                 else:
                     cnt = 0
 
                 cnt = cnt + 1
                 diacritics[word] = cnt
 
-                #print(word)
-
-
     for diacritic in diacritics:
         logging.debug(f"  {diacritic}")
+
     return diacritics
 
 
@@ -116,8 +106,7 @@ def _read_diacritics(filename, dictionary):
     Returns a dictionary with word, frequency
 '''
 def _read_clean_diacritics(filename, diacritics):
-    print("_read_clean_diacritics")
-    logging.debug("_read_clean_diacritics")
+    logging.info("_read_clean_diacritics")
 
     cleaned = {}
     for diacritic in diacritics.keys():
@@ -151,8 +140,7 @@ def _read_clean_diacritics(filename, diacritics):
     Returns a dictionary with word, sentences
 '''
 def _select_sentences_with_diacritics(filename, diacritics):
-    print("_select_sentences_with_diacritics")
-    logging.debug("_select_sentences_with_diacritics")
+    logging.info("_select_sentences_with_diacritics")
 
     diacritics_sentences = {}
     with open(filename, "r") as source:
@@ -199,7 +187,6 @@ def run_lt(filename):
         json_file = filename + ".json"
 
         cmd = command.format(txt_file, server, json_file)
-    #    print(cmd)
         os.system(cmd)
 
         with open(json_file) as f:
@@ -209,8 +196,7 @@ def run_lt(filename):
 
         with open(json_file, 'w') as f:
             json.dump(data, f, indent=4, separators=(',', ': '))
-    #        json.dumps(all_results, )
-
+    
     except Exception as e:
         logging.error(e)
 
@@ -281,7 +267,7 @@ def process_corpus(dictionary):
 #    filename = "ca_dedup.txt"
 #    filename = "tgt-train.txt"
 #    filename = "tgt-val.txt"
-    filename = "50000.txt"
+    filename = "500000.txt"
 
     diacritics = _read_diacritics(filename, dictionary)
     cleaned = _read_clean_diacritics(filename, diacritics)
@@ -289,7 +275,7 @@ def process_corpus(dictionary):
     sel_diacritics = _get_selected_diacritics(filename, cleaned, diacritics)
     diacritics_sentences = _select_sentences_with_diacritics(filename, diacritics)
   
-    print("_final list")
+    logging.info("_final list")
     cnt = 0
     for diacritic in sel_diacritics:
         sentences = diacritics_sentences[diacritic]
