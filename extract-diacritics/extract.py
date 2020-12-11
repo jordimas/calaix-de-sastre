@@ -143,6 +143,7 @@ def _select_sentences_with_diacritics(filename, diacritics):
     logging.info("_select_sentences_with_diacritics")
 
     diacritics_sentences = {}
+    SHORT_SENTENCE = 5
     with open(filename, "r") as source:
         while True:
             src = source.readline().lower()
@@ -155,12 +156,15 @@ def _select_sentences_with_diacritics(filename, diacritics):
                 if word not in diacritics:
                     continue
 
+                if len(words) < SHORT_SENTENCE:
+                    continue
+
                 if word in diacritics_sentences:
                     sentences = diacritics_sentences[word]
                 else:
                     sentences = []
 
-                if len(sentences) < 10:
+                if len(sentences) < 10 and src not in sentences:
                     sentences.append(src)
                     diacritics_sentences[word] = sentences
 
