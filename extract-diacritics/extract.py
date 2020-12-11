@@ -164,8 +164,6 @@ def _select_sentences_with_diacritics(filename, diacritics):
                     sentences.append(src)
                     diacritics_sentences[word] = sentences
 
-                #print(word)
-
     for diacritic in diacritics_sentences.keys():
         sentences = diacritics_sentences[diacritic]
         logging.debug(f"{diacritic}")
@@ -201,7 +199,6 @@ def run_lt(filename):
         logging.error(e)
 
     return matches
-
 def _remove_diacritic_sentence(sentence, diacritic):
     clean = _get_clean_diacritic(diacritic)
     return sentence.replace(diacritic, clean)
@@ -239,7 +236,7 @@ def _get_selected_diacritics(filename, cleaned, diacritics):
 
         sel_diacritics.append(key)
         selected_diacritics = selected_diacritics + 1
-        print(f"{key} - {value} ({value_clean})")
+        logging.debug(f"{key} - {value} ({value_clean})")
 
 #        if selected_diacritics > 100:
 #            break
