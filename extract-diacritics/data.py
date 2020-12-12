@@ -135,6 +135,13 @@ def main():
     dictionary = load_dictionary()
     pairs = words_with_and_without_diacritics(dictionary)
 
+    with open('diacritics.csv', 'w') as writer:
+        for pair in pairs:
+            diacritic = pair.diacritic
+            no_diacritic = pair.no_diacritic
+
+            writer.write(f"{diacritic.word}\t{diacritic.pos}\t{no_diacritic.word}\t{no_diacritic.pos}\n")
+
     print(f"Total words: {len(dictionary)}, diacritic/no diacritic {len(pairs)}")
 #    for word in dictionary:
 #        print(f"{word.word} - {word.lema} {word.pos}")
