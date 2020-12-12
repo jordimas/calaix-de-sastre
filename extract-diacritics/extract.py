@@ -143,7 +143,7 @@ def _select_sentences_with_diacritics(filename, diacritics):
     logging.info("_select_sentences_with_diacritics")
 
     diacritics_sentences = {}
-    SHORT_SENTENCE = 5
+    SHORT_SENTENCE = 10
     with open(filename, "r") as source:
         while True:
             src = source.readline().lower()
@@ -222,6 +222,9 @@ def _get_selected_diacritics(filename, cleaned, diacritics):
         if diacritic_cleaned not in cleaned:
             continue
 
+        if key[-1:] == 'à':
+            continue
+
         if diacritic_cleaned not in cleaned_diacritics_sentences:
             #logging.debug(f" {diacritic_cleaned} not found")
             continue
@@ -229,7 +232,7 @@ def _get_selected_diacritics(filename, cleaned, diacritics):
 #        print(diacritic_cleaned)
 #        print(cleaned[diacritic_cleaned])
         value_clean = cleaned[diacritic_cleaned]
-        if value < 2 or value_clean < 2:
+        if value < 100 or value_clean < 100:
             continue
 
 #        _max = value_clean * 1.50
@@ -265,10 +268,10 @@ def _write_debug_files(filename_diacritics, filename_nodiacritics, diacritic, se
 
 def process_corpus(dictionary):
 
-#    filename = "ca_dedup.txt"
-#    filename = "tgt-train.txt"
+    filename = "ca_dedup.txt"
+    filename = "tgt-train.txt"
 #    filename = "tgt-val.txt"
-    filename = "500000.txt"
+#    filename = "500000.txt"
 
     diacritics = _read_diacritics(filename, dictionary)
     cleaned = _read_clean_diacritics(filename, diacritics)
