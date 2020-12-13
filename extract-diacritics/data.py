@@ -197,11 +197,13 @@ def main():
     diacritics, no_diacritics = get_words_dictionaries(pairs)
 
 #    set_dictionaries_frequencies("ca_dedup.txt", diacritics, no_diacritics)
-    set_dictionaries_frequencies("tgt-train.txt", diacritics, no_diacritics)
+    #set_dictionaries_frequencies("tgt-train.txt", diacritics, no_diacritics)
+    set_dictionaries_frequencies("200000.txt", diacritics, no_diacritics)
     update_pairs(pairs, diacritics, no_diacritics)
 
     diacritics_corpus = 0
     position = 0
+    not_found_in_corpus_pos = {}
     with open('diacritics.csv', 'w') as writer:
         msg = f"diacritic_word\tdiacritic_pos\tdiacritic_freq\t"
         msg += f"no_diacritic_word\tno_diacritic_pos\tno_diacritic_freq\t"
@@ -213,7 +215,15 @@ def main():
             no_diacritic = pair.no_diacritic
 
             if diacritic.frequency == 0 and no_diacritic.frequency == 0:
-                logging.debug(f"Frequency 0: {diacritic.word}")
+                logging.debug(f"Frequency 0: {diacritic.word}, {diacritic.pos}")
+                pos = diacritic.pos
+                if pos in not_found_in_corpus_pos:
+                    counter = not_found_in_corpus_pos[pos]
+                else:
+                    counter = 0
+
+                counter = counter + 1
+                not_found_in_corpus_pos[pos] = counter
                 continue
 
             total_freq = diacritic.frequency + no_diacritic.frequency
@@ -224,11 +234,22 @@ def main():
             position = position + 1
             writer.write(msg)
 
-    pdiacritics_corpus = diacritics_corpus * 100 / len(pairs)
+    diacritics_dict = len(pairs)
+    pdiacritics_dict = diacritics_dict * 100 / len(dictionary)
+    pdiacritics_corpus = diacritics_corpus * 100 / diacritics_dict
+    
 
     logging.info(f"Total unique words in dictionary: {len(dictionary)}")
-    logging.info(f"Diacritic/no diacritic {len(pairs)} (in dictionary)")
-    logging.info(f"Diacritic/no diacritic {diacritics_corpus} (({pdiacritics_corpus:.2f}%)) (in corpus)")
+    logging.info(f"Diacritic/no diacritic {diacritics_dict} ({pdiacritics_dict:.2f}%) (in dictionary)")
+    logging.info(f"Diacritic/no diacritic {diacritics_corpus} ({pdiacritics_corpus:.2f}%) (in corpus)")
+
+
+    len_pos = total = sum(int(v) for v in not_found_in_corpus_pos.values())
+    print(len_pos)
+    for pos in not_found_in_corpus_pos:
+        counter = not_found_in_corpus_pos[pos]
+        pcounter = counter * 100 / len_pos
+        logging.info(f"Not found in corpus, category {pos} - {counter}  ({pcounter:.2f}%)")
 #    for word in dictionary:
 #        print(f"{word.word} - {word.lema} {word.pos}")
 
