@@ -20,6 +20,10 @@
 
 import logging
 import os
+from nltk.tokenize.toktok import ToktokTokenizer
+
+_toktok = ToktokTokenizer()
+
 
 class Word(object):
 
@@ -27,6 +31,7 @@ class Word(object):
         self.word = word
         self.lema = lema
         self.pos = pos
+        self.frequency = 0
 
 class Pair(object):
 
@@ -54,21 +59,21 @@ def init_logging():
 def _convert_to_readable_pos(pos_code):
     t = pos_code[0]
     if t == 'A':
-        return "Adjectiu"
+        return 0 #"Adjectiu"
     elif t == 'C':
-        return "Conjunció"
+        return 1 # "Conjunció"
     elif t == 'V':
-        return "Verb"
+        return 2 # "Verb"
     elif t == 'D':
-        return "Determinant"
+        return 3 # "Determinant"
     elif t == 'N':
-        return "Nom"
+        return 4 # "Nom"
     elif t == 'P':
-        return "Pronom"
+        return 5 # "Pronom"
     elif t == 'R':
-        return "Advervi"
+        return 6 # "Advervi"
     else:
-        return "Desconegut"
+        return 7 # "Desconegut"
 
 
 def load_dictionary():
@@ -78,6 +83,8 @@ def load_dictionary():
     WORD = 0
     LEMA = 1
     POS = 2
+
+    duplicated = set()
     with open(input_file) as f:
         while True:
             line = f.readline()
@@ -86,6 +93,12 @@ def load_dictionary():
 
             components = line.split()
             _word = components[WORD].lower()
+
+            if _word in duplicated:
+                continue
+    
+            duplicated.add(_word)
+
             lema =  components[LEMA].lower()
             pos = _convert_to_readable_pos(components[POS])
             word = Word(_word, lema, pos)
@@ -105,7 +118,7 @@ def _get_clean_diacritic(diacritic):
     diacritic = diacritic.replace('ú', 'u')
     return diacritic
 
-def words_with_and_without_diacritics(dictionary):
+def get_pairs(dictionary):
     words = {}
     pairs = []
     for word in dictionary:
@@ -127,22 +140,95 @@ def words_with_and_without_diacritics(dictionary):
 
     return pairs
 
+def get_words_dictionaries(pairs):
+    diacritics = {}
+    no_diacritics = {}
+
+    for pair in pairs:
+        if pair.diacritic.word not in diacritics:
+            diacritics[pair.diacritic.word] = 0
+            
+        if pair.no_diacritic.word not in no_diacritics:
+            no_diacritics[pair.no_diacritic.word] = 0
+
+    return diacritics, no_diacritics
+
+
+def _get_tokenized_sentence(sentence):
+    return _toktok.tokenize(sentence)        
+
+
+def set_dictionaries_frequencies(corpus, diacritics, no_diacritics):
+    with open(corpus, "r") as source:
+        while True:
+
+            src = source.readline().lower()
+
+            if not src:
+                break
+
+            words = _get_tokenized_sentence(src)
+            for word in words:
+                if word in diacritics:
+                    frequency = diacritics[word]
+                    diacritics[word] = frequency + 1
+
+                if word in no_diacritics:
+                    frequency = no_diacritics[word]
+                    no_diacritics[word] = frequency + 1
+
+def update_pairs(pairs, diacritics, no_diacritics):
+    for pair in pairs:
+        if pair.diacritic.word in diacritics:
+            frequency = diacritics[pair.diacritic.word]
+            pair.diacritic.frequency = frequency
+
+        if pair.no_diacritic.word in no_diacritics:
+            frequency = no_diacritics[pair.no_diacritic.word]
+            pair.no_diacritic.frequency = frequency
+
 
 def main():
     print("Generates diacritic data from dictionary.")
 
     init_logging()
     dictionary = load_dictionary()
-    pairs = words_with_and_without_diacritics(dictionary)
+    pairs = get_pairs(dictionary)
+    diacritics, no_diacritics = get_words_dictionaries(pairs)
 
+#    set_dictionaries_frequencies("ca_dedup.txt", diacritics, no_diacritics)
+    set_dictionaries_frequencies("tgt-train.txt", diacritics, no_diacritics)
+    update_pairs(pairs, diacritics, no_diacritics)
+
+    diacritics_corpus = 0
+    position = 0
     with open('diacritics.csv', 'w') as writer:
+        msg = f"diacritic_word\tdiacritic_pos\tdiacritic_freq\t"
+        msg += f"no_diacritic_word\tno_diacritic_pos\tno_diacritic_freq\t"
+        msg += f"total_freq\tcnt\n"
+
+        writer.write(msg)
         for pair in pairs:
             diacritic = pair.diacritic
             no_diacritic = pair.no_diacritic
 
-            writer.write(f"{diacritic.word}\t{diacritic.pos}\t{no_diacritic.word}\t{no_diacritic.pos}\n")
+            if diacritic.frequency == 0 and no_diacritic.frequency == 0:
+                logging.debug(f"Frequency 0: {diacritic.word}")
+                continue
 
-    print(f"Total words: {len(dictionary)}, diacritic/no diacritic {len(pairs)}")
+            total_freq = diacritic.frequency + no_diacritic.frequency
+
+            msg = f"{diacritic.word}\t{diacritic.pos}\t{diacritic.frequency}\t"
+            msg += f"{no_diacritic.word}\t{no_diacritic.pos}\t{no_diacritic.frequency}\t{total_freq}\t{position}\n"
+            diacritics_corpus = diacritics_corpus + 1
+            position = position + 1
+            writer.write(msg)
+
+    pdiacritics_corpus = diacritics_corpus * 100 / len(pairs)
+
+    logging.info(f"Total unique words in dictionary: {len(dictionary)}")
+    logging.info(f"Diacritic/no diacritic {len(pairs)} (in dictionary)")
+    logging.info(f"Diacritic/no diacritic {diacritics_corpus} (({pdiacritics_corpus:.2f}%)) (in corpus)")
 #    for word in dictionary:
 #        print(f"{word.word} - {word.lema} {word.pos}")
 
