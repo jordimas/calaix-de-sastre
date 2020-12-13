@@ -20,6 +20,7 @@
 
 import logging
 import os
+import json
 from nltk.tokenize.toktok import ToktokTokenizer
 
 _toktok = ToktokTokenizer()
@@ -32,6 +33,7 @@ class Word(object):
         self.lema = lema
         self.pos = pos
         self.frequency = 0
+        self.sentences = []
 
 class Pair(object):
 
@@ -120,7 +122,7 @@ def _get_clean_diacritic(diacritic):
 
 def get_pairs(dictionary):
     words = {}
-    pairs = []
+    pairs = {}
     for word in dictionary:
         words[word.word] = word
 
@@ -135,8 +137,8 @@ def get_pairs(dictionary):
         no_diacritic = words[no_diatricic_word]
 
         pair = Pair(word, no_diacritic)
-#        print(f"{word.word} - {word.pos}, {no_diacritic.word} - {no_diacritic.pos}")
-        pairs.append(pair)
+        logging.debug(f"{word.word} - {word.pos}, {no_diacritic.word} - {no_diacritic.pos}")
+        pairs[word.word] = pair
 
     return pairs
 
@@ -144,7 +146,7 @@ def get_words_dictionaries(pairs):
     diacritics = {}
     no_diacritics = {}
 
-    for pair in pairs:
+    for pair in pairs.values():
         if pair.diacritic.word not in diacritics:
             diacritics[pair.diacritic.word] = 0
             
@@ -158,7 +160,9 @@ def _get_tokenized_sentence(sentence):
     return _toktok.tokenize(sentence)        
 
 
-def set_dictionaries_frequencies(corpus, diacritics, no_diacritics):
+def set_dictionaries_frequencies_and_sentences(corpus, pairs):
+    diacritics, no_diacritics = get_words_dictionaries(pairs)
+
     with open(corpus, "r") as source:
         while True:
 
@@ -173,12 +177,19 @@ def set_dictionaries_frequencies(corpus, diacritics, no_diacritics):
                     frequency = diacritics[word]
                     diacritics[word] = frequency + 1
 
+                    pair = pairs[word]
+                    if src not in pair.diacritic.sentences:
+                        pair.diacritic.sentences.append(src)
+
                 if word in no_diacritics:
                     frequency = no_diacritics[word]
                     no_diacritics[word] = frequency + 1
 
+    update_pairs(pairs, diacritics, no_diacritics)
+
+
 def update_pairs(pairs, diacritics, no_diacritics):
-    for pair in pairs:
+    for pair in pairs.values():
         if pair.diacritic.word in diacritics:
             frequency = diacritics[pair.diacritic.word]
             pair.diacritic.frequency = frequency
@@ -188,18 +199,13 @@ def update_pairs(pairs, diacritics, no_diacritics):
             pair.no_diacritic.frequency = frequency
 
 
-def main():
-    print("Generates diacritic data from dictionary.")
-
-    init_logging()
+def analysis(corpus):
     dictionary = load_dictionary()
     pairs = get_pairs(dictionary)
-    diacritics, no_diacritics = get_words_dictionaries(pairs)
+    #diacritics, no_diacritics = get_words_dictionaries(pairs)
 
-#    set_dictionaries_frequencies("ca_dedup.txt", diacritics, no_diacritics)
-    #set_dictionaries_frequencies("tgt-train.txt", diacritics, no_diacritics)
-    set_dictionaries_frequencies("200000.txt", diacritics, no_diacritics)
-    update_pairs(pairs, diacritics, no_diacritics)
+    set_dictionaries_frequencies_and_sentences(corpus, pairs)
+#    update_pairs(pairs, diacritics, no_diacritics)
 
     diacritics_corpus = 0
     position = 0
@@ -210,7 +216,7 @@ def main():
         msg += f"total_freq\tcnt\n"
 
         writer.write(msg)
-        for pair in pairs:
+        for pair in pairs.values():
             diacritic = pair.diacritic
             no_diacritic = pair.no_diacritic
 
@@ -245,13 +251,151 @@ def main():
 
 
     len_pos = total = sum(int(v) for v in not_found_in_corpus_pos.values())
-    print(len_pos)
     for pos in not_found_in_corpus_pos:
         counter = not_found_in_corpus_pos[pos]
         pcounter = counter * 100 / len_pos
         logging.info(f"Not found in corpus, category {pos} - {counter}  ({pcounter:.2f}%)")
-#    for word in dictionary:
-#        print(f"{word.word} - {word.lema} {word.pos}")
+
+    return pairs
+
+'''
+    Returns a dictionary with word, sentences
+'''
+def _select_sentences_with_diacritics(filename, diacritics):
+    logging.info("_select_sentences_with_diacritics")
+
+    diacritics_sentences = {}
+    SHORT_SENTENCE = 10
+    with open(filename, "r") as source:
+        while True:
+            src = source.readline().lower()
+
+            if not src:
+                break
+        
+            words = _get_tokenized_sentence(src)
+            for word in words:
+                if word not in diacritics:
+                    continue
+
+                if len(words) < SHORT_SENTENCE:
+                    continue
+
+                if word in diacritics_sentences:
+                    sentences = diacritics_sentences[word]
+                else:
+                    sentences = []
+
+                if len(sentences) < 10 and src not in sentences:
+                    sentences.append(src)
+                    diacritics_sentences[word] = sentences
+
+    for diacritic in diacritics_sentences.keys():
+        sentences = diacritics_sentences[diacritic]
+        logging.debug(f"{diacritic}")
+        #for sentence in sentences:
+        #    logging.debug(f"  {sentence}")
+            
+
+    return diacritics_sentences
+
+command = 'curl --data "language=ca-ES"  --data-urlencode "text@{0}" {1} > "{2}" 2>/dev/null'
+server = 'http://172.17.0.2:7001/v2/check'
+
+def run_lt(filename):
+    matches = 0
+
+    try:
+        txt_file = filename + ".txt"
+        json_file = filename + ".json"
+
+        cmd = command.format(txt_file, server, json_file)
+        os.system(cmd)
+
+        with open(json_file) as f:
+            data = json.load(f)
+            matches = data['matches']
+            matches = len(matches)
+
+        with open(json_file, 'w') as f:
+            json.dump(data, f, indent=4, separators=(',', ': '))
+    
+    except Exception as e:
+        logging.error(e)
+
+    return matches
+
+def _remove_diacritic_sentence(sentence, diacritic):
+    clean = _get_clean_diacritic(diacritic)
+    return sentence.replace(diacritic, clean)
+
+
+def _write_debug_files(filename_diacritics, filename_nodiacritics, pair):
+
+    try:
+        diacritic = pair.diacritic.word
+        sentences = pair.diacritic.sentences
+
+        with open(filename_diacritics + ".txt", "w") as diac_writer, \
+             open(filename_nodiacritics  + ".txt", "w") as nodiac_writer:
+            for sentence in sentences[:5]:
+                sentence_nodiac = _remove_diacritic_sentence(sentence, diacritic)
+                nodiac_writer.write(sentence_nodiac + "\n")
+                diac_writer.write(sentence + "\n")
+
+    except Exception as e:
+        logging.error(e)
+
+
+
+def process_corpus(corpus, pairs):
+
+
+#    diacritics = _read_diacritics(filename, dictionary)
+#    cleaned = _read_clean_diacritics(filename, diacritics)
+#    sel_diacritics = _get_selected_diacritics(filename, cleaned, diacritics)
+#    diacritics_sentences = _select_sentences_with_diacritics(corpus, diacritics)
+  
+    logging.info("_final list")
+    cnt = 0
+    for pair in pairs.values():
+        diacritic = pair.diacritic
+        sentences = pair.diacritic.sentences
+        no_diacritic = pair.no_diacritic
+        logging.debug(f"{diacritic.word} - pos: {cnt} sentences: {len(sentences)}")
+
+        if len(sentences) == 0:
+            continue
+
+        same_errors = 0
+        cnt = cnt + 1
+
+        name = _get_clean_diacritic(diacritic.word)
+        filename_diacritics = f'data/{name}_dia'
+        filename_nodiacritics = f'data/{name}_nodia'
+        _write_debug_files(filename_diacritics, filename_nodiacritics, pair)
+
+        errors_diac = run_lt(filename_diacritics)
+        errors_nodiac = run_lt(filename_nodiacritics)
+ 
+        logging.debug(f"Same errors? - {diacritic} - {errors_diac} - {errors_nodiac}")
+        if errors_diac == errors_nodiac:
+            print(f"*** {diacritic.word} {diacritic.frequency} - {no_diacritic.word} {no_diacritic.frequency}")
+            for sentence in sentences[:10]:
+                print("   " + sentence)
+
+
+
+def main():
+    print("Generates diacritic data from dictionary.")
+    CORPUS = "200000.txt"
+#    CORPUS = "tgt-train.txt"
+#    ca_dedup.txt
+#    tgt-train.txt
+
+    init_logging()
+    pairs = analysis(CORPUS)
+    process_corpus(CORPUS, pairs)
 
 if __name__ == "__main__":
     main()
