@@ -107,18 +107,6 @@ def get_pairs(dictionary):
 
     return pairs
 
-def get_words_dictionaries(pairs):
-    diacritics = {}
-    no_diacritics = {}
-
-    for pair in pairs.values():
-        if pair.diacritic.word not in diacritics:
-            diacritics[pair.diacritic.word] = 0
-            
-        if pair.no_diacritic.word not in no_diacritics:
-            no_diacritics[pair.no_diacritic.word] = 0
-
-    return diacritics, no_diacritics
 
 
 def _get_tokenized_sentence(sentence):
@@ -317,33 +305,54 @@ def process_corpus(corpus, pairs):
 
     logging.info("_final list")
     cnt = 0
+
+    writer = open('diacritics-lt.csv', 'w')
+    msg = f"diacritic_word\tdiacritic_pos\tdiacritic_freq\t"
+    msg += f"no_diacritic_word\tno_diacritic_pos\tno_diacritic_freq\t"
+    msg += f"total_freq\tcnt\tdetected\n"
+    writer.write(msg)
+
+    position = 0    
     for pair in pairs.values():
         diacritic = pair.diacritic
         sentences = pair.diacritic.sentences
         no_diacritic = pair.no_diacritic
         logging.debug(f"{diacritic.word} - pos: {cnt} sentences: {len(sentences)}")
 
-        if len(sentences) == 0:
-            continue
+        
+        if len(sentences)> 0:
+            same_errors = 0
+            cnt = cnt + 1
 
-        same_errors = 0
-        cnt = cnt + 1
+            name = _get_clean_diacritic(diacritic.word)
+            filename_diacritics = f'data/{name}_dia'
+            filename_nodiacritics = f'data/{name}_nodia'
+            _write_debug_files(filename_diacritics, filename_nodiacritics, pair)
 
-        name = _get_clean_diacritic(diacritic.word)
-        filename_diacritics = f'data/{name}_dia'
-        filename_nodiacritics = f'data/{name}_nodia'
-        _write_debug_files(filename_diacritics, filename_nodiacritics, pair)
+            errors_diac = run_lt(filename_diacritics)
+            errors_nodiac = run_lt(filename_nodiacritics)
+            if errors_diac == errors_nodiac:
+                detected = 1
+            else:
+                detected = 0
+        else:
+            detected = 2
+            errors_diac = errors_nodiac = 0
+     
+        total_freq = diacritic.frequency + no_diacritic.frequency
+        msg = f"{diacritic.word}\t{diacritic.pos}\t{diacritic.frequency}\t"
+        msg += f"{no_diacritic.word}\t{no_diacritic.pos}\t{no_diacritic.frequency}\t{total_freq}\t{position}\t"
+        msg += f"{detected}\t\n"
+#        diacritics_corpus = diacritics_corpus + 1
+        position = position + 1
+        writer.write(msg)
 
-        errors_diac = run_lt(filename_diacritics)
-        errors_nodiac = run_lt(filename_nodiacritics)
- 
-        logging.debug(f"Same errors? - {diacritic} - {errors_diac} - {errors_nodiac}")
         if errors_diac == errors_nodiac:
             print(f"*** {diacritic.word} {diacritic.frequency} - {no_diacritic.word} {no_diacritic.frequency}")
             for sentence in sentences[:10]:
                 print("   " + sentence)
 
-
+    writer.close()
 
 def main():
     print("Generates diacritic data from dictionary.")

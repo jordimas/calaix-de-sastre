@@ -64,6 +64,19 @@ class Pair(object):
         self.no_diacritic = no_diacritic
 
 
+def get_words_dictionaries(pairs):
+    diacritics = {}
+    no_diacritics = {}
+
+    for pair in pairs.values():
+        if pair.diacritic.word not in diacritics:
+            diacritics[pair.diacritic.word] = 0
+            
+        if pair.no_diacritic.word not in no_diacritics:
+            no_diacritics[pair.no_diacritic.word] = 0
+
+    return diacritics, no_diacritics
+
 
 
 
