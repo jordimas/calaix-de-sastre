@@ -23,9 +23,10 @@ import os
 import json
 from nltk.tokenize.toktok import ToktokTokenizer
 from pair import *
+import datetime
+
 
 _toktok = ToktokTokenizer()
-
 
 
 def init_logging():
@@ -307,8 +308,8 @@ def process_corpus(corpus, pairs):
     cnt = 0
 
     writer = open('diacritics-lt.csv', 'w')
-    msg = f"diacritic_word\tdiacritic_pos\tdiacritic_freq\t"
-    msg += f"no_diacritic_word\tno_diacritic_pos\tno_diacritic_freq\t"
+    msg = f"diacritic_pos\tdiacritic_freq\t"
+    msg += f"no_diacritic_pos\tno_diacritic_freq\t"
     msg += f"total_freq\tcnt\tdetected\n"
     writer.write(msg)
 
@@ -340,8 +341,8 @@ def process_corpus(corpus, pairs):
             errors_diac = errors_nodiac = 0
      
         total_freq = diacritic.frequency + no_diacritic.frequency
-        msg = f"{diacritic.word}\t{diacritic.pos}\t{diacritic.frequency}\t"
-        msg += f"{no_diacritic.word}\t{no_diacritic.pos}\t{no_diacritic.frequency}\t{total_freq}\t{position}\t"
+        msg = f"{diacritic.pos}\t{diacritic.frequency}\t"
+        msg += f"{no_diacritic.pos}\t{no_diacritic.frequency}\t{total_freq}\t{position}\t"
         msg += f"{detected}\t\n"
 #        diacritics_corpus = diacritics_corpus + 1
         position = position + 1
@@ -362,9 +363,14 @@ def main():
 #    CORPUS = "tgt-train.txt"
 #    ca_dedup.txt
 
+    start_time = datetime.datetime.now()
+
     init_logging()
     pairs = analysis(CORPUS)
     process_corpus(CORPUS, pairs)
+
+    s = 'Time used: {0}'.format(datetime.datetime.now() - start_time)
+    logging.info(s)
 
 if __name__ == "__main__":
     main()
