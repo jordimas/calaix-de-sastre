@@ -347,7 +347,7 @@ def process_corpus(corpus, pairs):
         position = position + 1
         writer.write(msg)
 
-        if errors_diac == errors_nodiac:
+        if detected != 2 and errors_diac == errors_nodiac:
             print(f"*** {diacritic.word} {diacritic.frequency} - {no_diacritic.word} {no_diacritic.frequency}")
             for sentence in sentences[:10]:
                 print("   " + sentence)
@@ -356,7 +356,7 @@ def process_corpus(corpus, pairs):
 
 def main():
     print("Generates diacritic data from dictionary.")
-    CORPUS = "50000.txt"
+    CORPUS = "500000.txt"
 
 #    CORPUS = "200000.txt"
 #    CORPUS = "tgt-train.txt"
