@@ -22,24 +22,11 @@ import logging
 import os
 import json
 from nltk.tokenize.toktok import ToktokTokenizer
+from pair import *
 
 _toktok = ToktokTokenizer()
 
 
-class Word(object):
-
-    def __init__(self, word, lema, pos):
-        self.word = word
-        self.lema = lema
-        self.pos = pos
-        self.frequency = 0
-        self.sentences = []
-
-class Pair(object):
-
-    def __init__(self, diacritic, no_diacritic):
-        self.diacritic = diacritic
-        self.no_diacritic = no_diacritic
 
 def init_logging():
     logfile = 'data.log'
@@ -54,28 +41,6 @@ def init_logging():
     console = logging.StreamHandler()
     console.setLevel(logging.INFO)
     logger.addHandler(console)
-
-# Part of speech tags documentation:
-# https://freeling-user-manual.readthedocs.io/en/latest/tagsets/tagset-ca/#part-of-speech-verb
-
-def _convert_to_readable_pos(pos_code):
-    t = pos_code[0]
-    if t == 'A':
-        return 0 #"Adjectiu"
-    elif t == 'C':
-        return 1 # "Conjunció"
-    elif t == 'V':
-        return 2 # "Verb"
-    elif t == 'D':
-        return 3 # "Determinant"
-    elif t == 'N':
-        return 4 # "Nom"
-    elif t == 'P':
-        return 5 # "Pronom"
-    elif t == 'R':
-        return 6 # "Advervi"
-    else:
-        return 7 # "Desconegut"
 
 
 def load_dictionary():
@@ -102,7 +67,7 @@ def load_dictionary():
             duplicated.add(_word)
 
             lema =  components[LEMA].lower()
-            pos = _convert_to_readable_pos(components[POS])
+            pos = Word._convert_to_readable_pos(components[POS])
             word = Word(_word, lema, pos)
         
             words.append(word)
@@ -350,12 +315,6 @@ def _write_debug_files(filename_diacritics, filename_nodiacritics, pair):
 
 def process_corpus(corpus, pairs):
 
-
-#    diacritics = _read_diacritics(filename, dictionary)
-#    cleaned = _read_clean_diacritics(filename, diacritics)
-#    sel_diacritics = _get_selected_diacritics(filename, cleaned, diacritics)
-#    diacritics_sentences = _select_sentences_with_diacritics(corpus, diacritics)
-  
     logging.info("_final list")
     cnt = 0
     for pair in pairs.values():
@@ -388,10 +347,11 @@ def process_corpus(corpus, pairs):
 
 def main():
     print("Generates diacritic data from dictionary.")
-    CORPUS = "200000.txt"
+    CORPUS = "50000.txt"
+
+#    CORPUS = "200000.txt"
 #    CORPUS = "tgt-train.txt"
 #    ca_dedup.txt
-#    tgt-train.txt
 
     init_logging()
     pairs = analysis(CORPUS)
