@@ -356,9 +356,9 @@ def process_corpus(corpus, pairs):
 
 def main():
     print("Generates diacritic data from dictionary.")
-    CORPUS = "500000.txt"
+#    CORPUS = "500000.txt"
 
-#    CORPUS = "200000.txt"
+    CORPUS = "200000.txt"
 #    CORPUS = "tgt-train.txt"
 #    ca_dedup.txt
 
