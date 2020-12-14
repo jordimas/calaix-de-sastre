@@ -343,7 +343,7 @@ def process_corpus(corpus, pairs):
         total_freq = diacritic.frequency + no_diacritic.frequency
         msg = f"{diacritic.pos}\t{diacritic.frequency}\t"
         msg += f"{no_diacritic.pos}\t{no_diacritic.frequency}\t{total_freq}\t{position}\t"
-        msg += f"{detected}\t\n"
+        msg += f"{detected}\n"
 #        diacritics_corpus = diacritics_corpus + 1
         position = position + 1
         writer.write(msg)
