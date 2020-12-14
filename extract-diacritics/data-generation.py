@@ -317,6 +317,11 @@ def process_corpus(corpus, pairs):
     msg += f"total_freq\tcnt\tdetected\n"
     writer.write(msg)
 
+    ERROR_NOT_DETECTED = 0
+    ERROR_DETECTED = 1
+    ERROR_NOT_INCORPUS = 2
+
+
     position = 0    
     for pair in pairs.values():
         diacritic = pair.diacritic
@@ -324,7 +329,6 @@ def process_corpus(corpus, pairs):
         no_diacritic = pair.no_diacritic
         logging.debug(f"{diacritic.word} - pos: {cnt} sentences: {len(sentences)}")
 
-        
         if len(sentences)> 0:
             same_errors = 0
             cnt = cnt + 1
@@ -337,11 +341,11 @@ def process_corpus(corpus, pairs):
             errors_diac = run_lt(filename_diacritics)
             errors_nodiac = run_lt(filename_nodiacritics)
             if errors_diac == errors_nodiac:
-                detected = 1
+                detected = ERROR_NOT_DETECTED
             else:
-                detected = 0
+                detected = ERROR_DETECTED
         else:
-            detected = 2
+            detected = ERROR_NOT_INCORPUS
             errors_diac = errors_nodiac = 0
      
         total_freq = diacritic.frequency + no_diacritic.frequency
