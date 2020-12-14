@@ -30,7 +30,7 @@ _toktok = ToktokTokenizer()
 
 
 def init_logging():
-    logfile = 'data.log'
+    logfile = 'data-generation.log'
 
     if os.path.isfile(logfile):
         os.remove(logfile)
@@ -115,6 +115,8 @@ def _get_tokenized_sentence(sentence):
 
 
 def set_dictionaries_frequencies_and_sentences(corpus, pairs):
+    logging.info("set_dictionaries_frequencies_and_sentences")
+
     diacritics, no_diacritics = get_words_dictionaries(pairs)
 
     with open(corpus, "r") as source:
@@ -132,7 +134,7 @@ def set_dictionaries_frequencies_and_sentences(corpus, pairs):
                     diacritics[word] = frequency + 1
 
                     pair = pairs[word]
-                    if src not in pair.diacritic.sentences:
+                    if len(pair.diacritic.sentences) < 10 and src not in pair.diacritic.sentences:
                         pair.diacritic.sentences.append(src)
 
                 if word in no_diacritics:
@@ -143,6 +145,7 @@ def set_dictionaries_frequencies_and_sentences(corpus, pairs):
 
 
 def update_pairs(pairs, diacritics, no_diacritics):
+    logging.info("update_pairs")
     for pair in pairs.values():
         if pair.diacritic.word in diacritics:
             frequency = diacritics[pair.diacritic.word]
@@ -187,6 +190,7 @@ def analysis(corpus):
                 continue
 
             total_freq = diacritic.frequency + no_diacritic.frequency
+
 
             msg = f"{diacritic.word}\t{diacritic.pos}\t{diacritic.frequency}\t"
             msg += f"{no_diacritic.word}\t{no_diacritic.pos}\t{no_diacritic.frequency}\t{total_freq}\t{position}\n"
@@ -304,7 +308,7 @@ def _write_debug_files(filename_diacritics, filename_nodiacritics, pair):
 
 def process_corpus(corpus, pairs):
 
-    logging.info("_final list")
+    logging.info("process_corpus")
     cnt = 0
 
     writer = open('diacritics-lt.csv', 'w')
@@ -358,10 +362,9 @@ def process_corpus(corpus, pairs):
 def main():
     print("Generates diacritic data from dictionary.")
 #    CORPUS = "500000.txt"
+#    CORPUS = "200000.txt"
+    CORPUS = "tgt-train.txt"
 
-    CORPUS = "200000.txt"
-#    CORPUS = "tgt-train.txt"
-#    ca_dedup.txt
 
     start_time = datetime.datetime.now()
 
