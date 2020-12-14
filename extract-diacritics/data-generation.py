@@ -312,8 +312,8 @@ def process_corpus(corpus, pairs):
     cnt = 0
 
     writer = open('diacritics-lt.csv', 'w')
-    msg = f"diacritic_pos\tdiacritic_freq\t"
-    msg += f"no_diacritic_pos\tno_diacritic_freq\t"
+    msg = f"diacritic.word\tdiacritic_pos\tdiacritic_freq\t"
+    msg += f"no_diacritic.word\tno_diacritic_pos\tno_diacritic_freq\t"
     msg += f"total_freq\tcnt\tdetected\n"
     writer.write(msg)
 
@@ -345,8 +345,8 @@ def process_corpus(corpus, pairs):
             errors_diac = errors_nodiac = 0
      
         total_freq = diacritic.frequency + no_diacritic.frequency
-        msg = f"{diacritic.pos}\t{diacritic.frequency}\t"
-        msg += f"{no_diacritic.pos}\t{no_diacritic.frequency}\t{total_freq}\t{position}\t"
+        msg = f"{diacritic.word}\t{diacritic.pos}\t{diacritic.frequency}\t"
+        msg += f"{no_diacritic.word}\t{no_diacritic.pos}\t{no_diacritic.frequency}\t{total_freq}\t{position}\t"
         msg += f"{detected}\n"
 #        diacritics_corpus = diacritics_corpus + 1
         position = position + 1
