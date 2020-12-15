@@ -24,7 +24,11 @@ import json
 from nltk.tokenize.toktok import ToktokTokenizer
 from pair import *
 import datetime
+import operator
 
+ERROR_NOT_DETECTED = 0
+ERROR_DETECTED = 1
+ERROR_NOT_INCORPUS = 2
 
 _toktok = ToktokTokenizer()
 
@@ -156,6 +160,46 @@ def update_pairs(pairs, diacritics, no_diacritics):
             pair.no_diacritic.frequency = frequency
 
 
+def export_diacritics_with_no_rules(pairs):
+
+    selected_pairs = []  
+
+    for pair in pairs.values():
+        diacritic = pair.diacritic
+        no_diacritic = pair.no_diacritic
+
+        if diacritic.detected != ERROR_DETECTED:
+            continue
+
+        frequency = no_diacritic.frequency * 100 / diacritic.frequency
+        if frequency > 5: # 5%
+            logging.debug(f"Discarted {diacritic.frequency} - {no_diacritic.frequency} - {frequency}")
+            continue
+
+        selected_pairs.append(pair)
+
+
+    position = 0
+    with open('diacritics-rules.csv', 'w') as writer:
+        msg = f"diacritic_word\tdiacritic_pos\tdiacritic_freq\t"
+        msg += f"no_diacritic_word\tno_diacritic_pos\tno_diacritic_freq\t"
+        msg += f"cnt\n"
+        writer.write(msg)
+
+        sorted_pairs = sorted(selected_pairs, key=lambda x: x.diacritic.frequency, reverse=True)
+
+        print(type(sorted_pairs))
+        for pair in sorted_pairs:
+            diacritic = pair.diacritic
+            no_diacritic = pair.no_diacritic
+
+            msg = f"{diacritic.word}\t{diacritic.pos}\t{diacritic.frequency}\t"
+            msg += f"{no_diacritic.word}\t{no_diacritic.pos}\t{no_diacritic.frequency}\t{position}\n"
+            position = position + 1
+            writer.write(msg)
+            
+
+
 def analysis(corpus):
     dictionary = load_dictionary()
     pairs = get_pairs(dictionary)
@@ -190,7 +234,6 @@ def analysis(corpus):
                 continue
 
             total_freq = diacritic.frequency + no_diacritic.frequency
-
 
             msg = f"{diacritic.word}\t{diacritic.pos}\t{diacritic.frequency}\t"
             msg += f"{no_diacritic.word}\t{no_diacritic.pos}\t{no_diacritic.frequency}\t{total_freq}\t{position}\n"
@@ -317,10 +360,6 @@ def process_corpus(corpus, pairs):
     msg += f"total_freq\tcnt\tdetected\n"
     writer.write(msg)
 
-    ERROR_NOT_DETECTED = 0
-    ERROR_DETECTED = 1
-    ERROR_NOT_INCORPUS = 2
-
 
     position = 0    
     for pair in pairs.values():
@@ -348,27 +387,29 @@ def process_corpus(corpus, pairs):
             detected = ERROR_NOT_INCORPUS
             errors_diac = errors_nodiac = 0
      
+        diacritic.detected = detected
         total_freq = diacritic.frequency + no_diacritic.frequency
         msg = f"{diacritic.word}\t{diacritic.pos}\t{diacritic.frequency}\t"
         msg += f"{no_diacritic.word}\t{no_diacritic.pos}\t{no_diacritic.frequency}\t{total_freq}\t{position}\t"
         msg += f"{detected}\n"
-#        diacritics_corpus = diacritics_corpus + 1
         position = position + 1
         writer.write(msg)
 
-        if detected != 2 and errors_diac == errors_nodiac:
+        if detected != ERROR_DETECTED:
             print(f"*** {diacritic.word} {diacritic.frequency} - {no_diacritic.word} {no_diacritic.frequency}")
             for sentence in sentences[:10]:
                 print("   " + sentence)
 
     writer.close()
 
+    export_diacritics_with_no_rules(pairs)
+
 def main():
     print("Generates diacritic data from dictionary.")
+#    CORPUS = "5000.txt"
 #    CORPUS = "500000.txt"
-#    CORPUS = "200000.txt"
-    CORPUS = "tgt-train.txt"
-
+#    CORPUS = "tgt-train.txt"
+    CORPUS = "ca_dedup.txt"
 
     start_time = datetime.datetime.now()
 

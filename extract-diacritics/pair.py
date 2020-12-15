@@ -35,6 +35,7 @@ class Word(object):
         self.pos = pos
         self.frequency = 0
         self.sentences = []
+        self.detected = 0
 
     # Part of speech tags documentation:
     # https://freeling-user-manual.readthedocs.io/en/latest/tagsets/tagset-ca/#part-of-speech-verb
