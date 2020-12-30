@@ -39,7 +39,6 @@ def read_file(filename):
         tgt_upper = tgt[0].upper() + tgt[1:]
         d[src_upper] = tgt_upper
 
-
     return d
         
 
@@ -47,19 +46,24 @@ def main():
 
     print("Canvia per + infinitus")
 
+    changes = 0
     filename = '/home/jordi/sc/calaix-de-sastre/pera/pera.txt'
     replaces = read_file(filename)
     source_filename = sys.argv[1]
 
-    source_po = polib.pofile(source_filename)
+    source_po = polib.pofile(source_filename, wrapwidth = 79)
     for entry in source_po:
         msg = entry.msgstr
         for replace in replaces.keys():
-            msg = msg.replace(replace, replaces[replace])
+            org = msg
+            msg = org.replace(replace, replaces[replace])
+            if msg != org:
+                changes = changes + 1
 
         entry.msgstr = msg
 
     source_po.save(sys.argv[1])
+    print(f"Changes {changes}")
 
 if __name__ == "__main__":
     main()

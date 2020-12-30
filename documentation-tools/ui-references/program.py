@@ -103,7 +103,7 @@ def main():
         return
 
 
-    ui_strings = _load_po_into_dictionary()
+    ui_strings = _load_po_into_dictionary("/home/jordi/sc/tmt/tmt/src/gnome-tm.po")
 
 
     cnt = 0
