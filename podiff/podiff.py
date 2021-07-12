@@ -62,15 +62,17 @@ def main():
     target_po = polib.pofile(target_filename)
     for entry in target_po:
         key = entry.msgid
-        if key in target_entries:
-            if target_entries[key] == entry.msgid:
+
+
+xx
+
                 target_duplicates_same_translation += 1 
             else:
                 target_duplicates_different_translation += 1
 
         target_entries[key] = entry.msgid
 
-    print('Added strings')
+    print('Added strings')x
     added = 0
     for key in target_entries.keys():
         if key not in source_entries:
