@@ -98,9 +98,9 @@ def main():
 #    doc_file = '/home/jordi/dev/gedit/gedit/help/ca/ca.po'
 #    ui_file = '/home/jordi/dev/gedit/gedit/po/ca.po'
 
-    if os.path.exists(ui_file) is False:
-        print(f"File {ui_file} does not exists. Cannot do checking")
-        return
+#    if os.path.exists(ui_file) is False:
+#        print(f"File {ui_file} does not exists. Cannot do checking")
+#        return
 
 
     ui_strings = _load_po_into_dictionary("/home/jordi/sc/tmt/tmt/src/gnome-tm.po")

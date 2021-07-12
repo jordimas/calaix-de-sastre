@@ -37,8 +37,8 @@ def main():
     source_entries = {}
     target_entries = {}
 
-    source_filename = '/home/jordi/sc/tmt/src/output/fedora-tm.po'
-    target_filename = '/home/jordi/sc/tmt2/src/output/fedora-tm.po'
+    source_filename = '/home/jordi/sc/tmt/tmt/src/fedora-old/fedora-tm.po'
+    target_filename = '/home/jordi/sc/tmt/tmt/src/output/fedora-tm.po'
 
     source_duplicates_same_translation = 0
     source_duplicates_different_translation = 0
