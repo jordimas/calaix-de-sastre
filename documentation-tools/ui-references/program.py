@@ -103,7 +103,10 @@ def main():
 #        return
 
 
-    ui_strings = _load_po_into_dictionary("/home/jordi/sc/tmt/tmt/src/gnome-tm.po")
+    if os.path.exists(ui_file):
+        ui_strings = _load_po_into_dictionary(ui_file)
+    else:
+        ui_strings = _load_po_into_dictionary("/home/jordi/sc/tmt/tmt/src/output/gnome-tm.po")
 
 
     cnt = 0
