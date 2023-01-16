@@ -1,15 +1,15 @@
 
 Reference files:
 
-* 15GdH9-curt.mp3 (original àudio, 5 minutes of real Podcast)
-* 15GdH9-curt.txt (transcription done by a human)
+* 15GdH9-curt.mp3 (original audio, 5 minutes of real Podcast)
+* 15GdH9-curt.txt (transcription curated by a human)
 
-Transcription done using OpenAI medium model with whisper.cpp inference:
+Transcription done using OpenAI medium model with whisper.cpp tool:
 
 * 15GdH9-curt-medium.wav
 * 15GdH9-curt-medium.wav.txt
 
-Transcription done using fine-tuned medium model (https://huggingface.co/jordimas/whisper-medium-ca-2000steps) with whisper.cpp inference:
+Transcription done using fine-tuned medium model (https://huggingface.co/jordimas/whisper-medium-ca-2000steps) with whisper.cpp tool:
 
 * 15GdH9-curt-sc-medium-2000.wav
 * 15GdH9-curt-sc-medium-2000.wav.txt
