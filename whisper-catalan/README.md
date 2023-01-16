@@ -14,3 +14,6 @@ Transcription done using fine-tuning model (https://huggingface.co/jordimas/whis
 * 15GdH9-curt-sc-medium-2000.wav
 * 15GdH9-curt-sc-medium-2000.wav.txt
 
+Transcription with different engines:
+* 15GdH9-curt-medium-whisper.txt (OpenAI model using OpenAI whisper original code)
+* 15GdH9-curt-medium.wav.txt (OpenAI model using whisper.cpp library)
