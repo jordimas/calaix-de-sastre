@@ -1,8 +1,8 @@
 
 Reference files:
 
-* 15GdH9-curt.mp3
-* 15GdH9-curt.txt
+* 15GdH9-curt.mp3 (original àudio, 5 minutes of real Podcast)
+* 15GdH9-curt.txt (transcription done by a human)
 
 Transcription done using OpenAI medium model with whisper.cpp inference:
 
