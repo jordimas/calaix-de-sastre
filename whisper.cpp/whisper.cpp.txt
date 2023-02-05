@@ -1,0 +1,481 @@
+ 15 glaçons d'hidrògen
+ El podcast de llengua i tecnologia de Soft Català
+ amb l'Eis Vidal
+ Doncs sí, ja som aquí un mes més a la taverna dels 15 glaçons d'hidrògen.
+ Aquesta taverna on ens agrada parlar de llengua i tecnologia,
+ els companys i companyes de Soft Català i tothom qui vingui a aprendre alguna cosa.
+ Tenim copes, tenim còctels, tenim tot tipus de begudes
+ per passar una bona estona parlant de llengua i de tecnologia.
+ Ens acompanya l'Artur Vicedo, que comença a ser ja un habitual del 15 glaçons.
+ Hola, Artur, com estàs?
+ Hola, Aleix.
+ Molt bé, gràcies.
+ Escolta, què et sembla si aquest episodi el dediquem al Dia Internacional de la Lengua Materna?
+ És a dir, el dediquem al Dia Internacional de la Lengua Materna,
+ ja que aquest diumenge 21 de febrer va ser el Dia Internacional de la Lengua Materna.
+ Et sembla bé?
+ Em sembla estupend.
+ Perquè val la pena, des de Catalunya, des dels països catalans,
+ tenir cura de la nostra llengua, ja ho sabem tots,
+ i aprofitant que va ser aquest dia de la llengua materna,
+ doncs farem un repàs a l'actualitat, com sempre,
+ però a més a més en Xavi ens recomanarà una de les eines més potents
+ per consolidar justament la presència del català al món digital que tenim a Sof Català.
+ I també obrirà les portes a la taverna per rebre uns convidats
+ que venen d'arreu del territori i que, ja que avui parlem de llengua materna,
+ parlarem de tota la llengua materna, la d'aquí, la més al nord, la més al sud,
+ la més endins del mar, eh, Artur? Tu t'identifiques amb la més cap avall, eh?
+ Home, el sud sempre...
+ El sud.
+ A l'actualitat tindrem una mica de videojocs, també parlarem de la Fundació.cat,
+ i escolteu bé perquè sentireu el que és la primera prova de concepte
+ d'un assistent virtual en català, de cap a peus.
+ I recordeu que ens podeu sentir a les principals plataformes de podcast,
+ així com també a la nostra web, sofcatalà.org.
+ Doncs sembla que hi ha novetats a la Fundació.cat, oi, Artur?
+ Sí, sí, sembla que, bueno, si parlem de llengua i tecnologia,
+ no podem deixar de nomenar la Fundació.cat, no?,
+ que ha sigut sempre important per al desenvolupament de la llengua a l'internet, no?
+ Recordem que són els gestors del .cat, no?,
+ de totes les webs que volen estallar-se amb l'extensió .cat, no?,
+ i que un dels requisits d'aquestes webs són que estiguin traduïdes, entre altres, en català, no?
+ Doncs fa poc el Genís Roca ha sigut nominat el nou president de la Fundació.cat, no?,
+ que és, com hem dit, de l'entitat que gestiona el domini .cat,
+ i que ve de la Federació Llull, no?, ve a substituir a Carles Salvador del bisoc, del bisoc IOCAT, no?
+ I sembla que, sembla que aportarà, no, una visió més digitalitzadora del català, no?,
+ en els noves temps que venen, no?,
+ d'importància de la tecnologia i les nostres vides,
+ com sempre la Fundació .cat farà una feina espectacular per a la llengua,
+ però estos aires nous em donen una esperança, no?,
+ de novetats, de nous aires, de...
+ -Va, sí. -Com que és l'opinió.
+ Li desitgem molta sort al càrrec el Genís.
+ I tant.
+ Escolta, i pel que fa als videojocs, al panorama, en català com el tenim?
+ Hi ha alguna notícia, alguna cosa? Com està això?
+ En realitat es parla poc dels videojocs en català, no?, normalment.
+ Sé que hi ha una comunitat que cada vegada és més forta de videojocs en català,
+ sobretot de youtubers en català, no?,
+ i de gent que està preocupant-se per la llengua en aquests sectors.
+ I ens agradaria comentar que el Departament de Política Llingüística de la Generalitat de Catalunya
+ ha obert un portal, no fa molt, que es diu V de Joc, no?, V Baixa de Joc,
+ que podeu cercar a internet i que es tracta d'un recull de quins videojocs
+ ara mateix tenen els menús en català o tenen el català dins de les llengües
+ que es poden triar per a jugar, no?
+ És un recull que si entreu, es pareix prou o té la mateixa filosofia que el nostre recull de parells, no?,
+ que els usuaris poden aportar jocs que coneixen i que no estan en el recull, que estiguin en català,
+ jocs que han iniciat nous o jocs que no estan representats en el recull del V de Joc.
+ I és una molt bona iniciativa perquè no només és un escaparat de jocs que ja estan en català,
+ sinó que és una plataforma per a donar a conèixer els jocs d'una manera no concebent,
+ de tal manera, la nostra llengua.
+ Es pot col·laborar, si en llavors.
+ A més, està molt ben muntat, si entreu, veureu que estan tots catalogats per tipus de joc, per plataforma,
+ tenen un resum, fotos, està molt bé.
+ I has fet algun cop d'ull a veure si hi ha algun títol que destaqui o no som gaire jugadors?
+ I tant, i tant, a mirar per damunt i la veritat és que hi ha jocs molt interessants.
+ M'han apuntat uns quants ja per a provar-lo perquè...
+ Així tu sí que ets més.
+ Sí, sí, jo soc més jugador i tinc moltes ganes de jugar amb la meva llengua, en realitat.
+ Vinga, doncs, a jugar.
+ Escolta, i després de jugar també podem mirar una mica la tele, no?
+ Una mica de "sophing", agafem la tele.
+ Bueno, en aquest cas crec que hauríem d'agafar l'ordinador o una tele intel·ligent.
+ De què ens parles ara?
+ Vos parleu d'una notícia que així et fa res, que és una bona notícia per al conjunt de la llengua, en general.
+ No sé si coneixeu la plataforma Bon Dia TV, que és una iniciativa de la televisió catalana i la Baleà,
+ que vam fer un acord per posar un portal web, com que fora, a la carta,
+ per triar contingut de les dues cadenes en un matis portal i que sigui accessible a tothom.
+ Doncs fa molt poquet s'ha anunciat que a punt la televisió valenciana s'ha afegit a ells projecte
+ i de ser un temps no molt llunyà perquè encara hem de detallar els aspectes legals i tot això,
+ podrem veure contingut en valencià en aquesta plataforma del Bon Dia TV.
+ Fantàstic. És a dir que finalment conflueixen les tres televisions del territori català en un mitjà digital.
+ Un projecte comú.
+ Un projecte comú audiovisual. És molt bona notícia, és molt interessant.
+ I tant, és un pas més a la normalització i la unitat que sempre hem intentat perseguir
+ els usuaris dels mitjans audiovisuals.
+ I tant. Sí, sí, des de Soft Català evidentment creiem que és la línia a seguir
+ i a vegades aquests gegants que són les televisions públiques els costa fer alguns passos,
+ així que ho celebrem molt efusivament des de Soft Català.
+ Sí, donem l'enhorabona.
+ Molt bé.
+ I bé, per la nostra banda també venem fent pessets.
+ Resulta que, bé, just ho comentàvem a l'entrada del programa,
+ tenim a les mans una primera prova de concepte del que seria un assistent de veu fet en català de cap a peus.
+ De principi al final. De què es tracta això? Artur, explica'ns una mica millor.
+ I tant, i tant. De fet, podíem dir que és una fita, un primer pas molt important
+ de cara a tindre un assistent virtual completament en català.
+ Ja se veu que hem parlat en el nostre programa moltes voltes que és un assistent virtual,
+ que és com si fos una Alexa, un Siri, una aplicació, un aparell que ens ajudar
+ a navegar per internet amb la veu sobretot.
+ En comandes de veu hem ofert informació que li demanem.
+ Doncs en català, a dia d'avui no hi ha cap assistent virtual que puguem preguntar-li en català
+ i que ens ho contesti en català.
+ Però ara, amb l'ajuda del nostre benvolgut Kieran O'Reilly, hem pogut estrenar un portal,
+ que és un projecte d'ell, eh? I que té tot el mèrit de la Moabac.
+ Jo sé que estàs conformat de diversos projectes, però ell ha muntat el portal assistent.cat,
+ que podeu anar a provar-lo si voleu.
+ Ens oferiu una prova de concepte del que és el primer assistent de veu en català completament.
+ Des que tu li parles en català, que processa tota la informació
+ i es contrasta en un català, en una síntesi de veu.
+ Sí, s'ha de dir que aquí hi ha tot un grup de treball, entre col·laboradors de Softcatalà
+ i altra gent que treballa amb Mycroft, que és el motor que s'ha adaptat al català
+ i que s'han traduït coses.
+ I també amb col·laboració col·lectiva.
+ I en Kiran ha estat desenvolupant aquest portal per poder mostrar una mica més
+ tota la feina que a vegades, com que és una feina molt darrere de màquines,
+ acaba quedant una mica amagada fins que no acaba d'implementar-se.
+ I aquest portal ens ofereix una oportunitat per provar i jugar amb aquest assistent de prova.
+ I tant, home, no és perfecte perquè calen moltes hores d'inversió de temps i de recursos,
+ però és una prova molt esperançadora perquè de no tindre res o tindre sol és molt important.
+ En Kiran ens explicava una mica la seva experiència amb un tall que ens ha gravat fa uns instants.
+ Assistent.cat no és res més que un interfície web a un assistent Mycroft
+ que s'executa en un servei d'extern.
+ S'havia fet tot l'esforç de traduir el Mycroft i les seves habilitats al català,
+ però encara seria bastant complicat si no es tenen coneixements tècnics,
+ instal·lar-lo i executar-lo.
+ I per això que vaig crear assistent.cat per fer el Mycroft més accessible a usuaris
+ amb pocs coneixements tècnics.
+ Està encara bastant limitat, és només un tast,
+ perquè les habilitats que existeixen en català no són moltes,
+ però bé és aquest l'objectiu, donar a conèixer el projecte, el Mycroft en català,
+ i a veure si així s'engrendeix la comunitat i aquesta retruc,
+ doncs treballa per millorar-lo.
+ Si voleu parlar amb l'Ona o amb Pau, que són les dues veus que té l'assistent,
+ ho podeu fer des d'un ordinador o un mòbil,
+ només cal comptar amb un navegador web i que el dispositiu tingui micròfon, clar.
+ Val a dir, igualment, Artur, que ens comentava el Kiran,
+ que el fet de muntar aquest assistent en un servidor extern, un servidor de tercers,
+ va una mica en contra de la filosofia de Mycroft,
+ que està pensat perquè cadascú pugui tenir el seu assistent muntat en el seu ordinador o en el seu servidor,
+ i així no haver d'enviar les dades de veu i tema de privacitat de dades a l'exterior.
+ I tant, de regla.
+ Exacte, però ell deia que creia interessant muntar-ho
+ per facilitar tot aquest muntatge que diu que és complicat
+ i perquè així la gent, un usuari mig o poc expert,
+ pugui provar a primera mà de com funciona un assistent de veu en català.
+ I tant, recordem que el Mycroft és el projecte que té com a objectiu ser el primer assistent de veu
+ fet en programari lliure, que la comunitat pugui contribuir, desenvolupar i adaptar a llengües o com sigui.
+ I no té un servei central o no vol tindre, vol ser més distribuït.
+ I és el que tu dius, clar, però és una ajuda que es pugui transmetre, anem a dir, amb el projecte.
+ Exacte.
+ Bé, doncs anirem donant pas al Xavi, que comença a obrir ja la persiana del rebost.
+ A veure què ens treu avui.
+ Mantenir viva la nostra llengua és important,
+ però per a ser visibles com a comunitat lingüística a internet,
+ parlar català a casa i al carrer no és suficient.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ I per això, per a la comunitat, hem de ser capaços de fer-ho.
+ El catalanitzador és un programa disponible per a Windows i per a macOS
+ que, a través d'un assistent intuitiu, permet configurar el sistema operatiu
+ i els principals navegadors d'una manera molt fàcil.
+ També configura la llengua de navegació i fins i tot instala els complementos
+ del nostre corrector per al LibreOffice o al Firefox si estem instalats,
+ o el corrector ortogràfic en cas de mac.
+ Jo ja he catalanitzat el meu ordinador. Tu també pots amb el catalanitzador de softcatalà.
+ [MÚSICA]
+ Recordem que és important per a contribuir al català en la llengua,
+ tindre el navegador configurat en català i, a més, si voleu continuar contribuint,
+ teniu el projecte Common Voice per a donar la nostra veu en català
+ i a favorir projectes com l'assistent.cap del Camp Parlar de Zarrats.
+ I tant, i tant. El catalanitzador és superimportant,
+ però també que, a més a més d'identificar-nos com a catalans a internet,
+ col·laborem amb Common Voice per tenir una bona base de detalls de veu
+ que ens serveixin per construir un assistent.
+ Parem taula.
+ I ara arribam Miquel Piolats, de Mallorca.
+ És un dels membres fundadors de softcatalà i també volem saber com li agrada l'arròs.
+ Hola a tothom. Abans de res, una salutació a tots els que escolteu aquest post
+ que publiquem mensualment.
+ El meu nom és Miquel Piolats i soc membre de l'associació des del primer segon
+ que va iniciar el seu recorregut i d'això ja fa força temps.
+ La meva implicació en l'associació ha sigut una mica intermittent,
+ sempre depenent una mica de les circumstàncies personals que he tingut
+ si he tingut més o menys disponibilitat de temps.
+ Actualment col·laboro en les tasques de desenvolupament de la web,
+ mirant d'incorporar nous serveis o fent les millores que són necessàries a la nostra web.
+ És un plaer poder compartir temps amb gent molt professional de diverses branques
+ i poder compartir un projecte com aquest.
+ I referent a la gran pregunta, la pregunta més important d'aquest tall,
+ sobre la pell, sense no voler entrar gaire en polèmica,
+ dir-vos que per mi el que és molt important sempre és el tipus i el punt de cocció
+ de l'arròs que s'utilitze. Una salutació per a tothom.
+ 15 laçons d'hidrogen
+ Una etapa de refranys amb Josep Closa.
+ Bon dia, xerits. Cada poble la seva llengua, cada casa la seva façana.
+ Aquest refrany el trobem als extrems del domini lingüístic,
+ en reculls de refranys del País Valencià i de la Vall d'Aran.
+ Allà, a la Vall de Parla Occitana, entenen una variant.
+ Cada poble la seva llengua, cada ocell la seva cançó.
+ Continuant amb la idea que les llengües són un element clau en les identitats col·lectives,
+ Jacint Bardeguens deia "La llengua de l'infern són els renecs, la del cel, els precs".
+ Des de fa segles que sabem que les paraules, moltes vegades, són més perilloses que res més.
+ "Ensis vulnerat corpus, cet animo no ratio", en deien els romans,
+ que vol dir "l'espasa fareja el cos, les paraules, en canvi, l'ànima".
+ I d'aquesta darrera frase en trobem una variant recullida per tot el territori lingüístic.
+ "La mà fareja el cos, la llengua arribar a l'os".
+ Estimam sa nostra llengua.
+ Avui seguim el fil d'aquest tema que tenim al programa d'avui sobre la llengua materna.
+ Volíem comptar amb una mica més de veus que normalment no tenim aquí al 15 Glassons.
+ Hem convidat a la taverna quatre persones, quatre veus per partides una mica per tot el territori de llengua catalana,
+ de parla catalana.
+ Una ja la tenim sovint aquí, la sentim a cada episodi, que és la Beleni Vars, companya de Sof Català i la Déu en Of.
+ Hola, Beleni, com estàs?
+ Hola, Aleix.
+ I també tenim uns novinguts a la taverna, i que els hi acostarem de seguida que calgui un got, una copa o el que necessitin per veure.
+ Són en Didac Martorell, de Les Maravelles, de Palma. Hola, Didac, com estàs?
+ Està anant, va bé.
+ El Marín Vines, d'Elna, el Rosselló. Hola, Marín.
+ Hola, bona tarda.
+ I el Dani Palau, d'Avià, al Berguedà.
+ Hola, bona tarda a tothom.
+ Com veieu, són de diferents punts del territori, de Maranyllà, de Nord Tamunt, de Sud i de la Centre.
+ Evidentment falta representació a molts llocs, però tampoc no podíem convidar aquí molta gent perquè sabeu que apliquen restriccions d'aforament als locals.
+ Llavors, escolteu, venim a parlar una mica de llengua, de la llengua materna, però també de la llengua digital, de com veiem la situació al català amb aquestes cosetes.
+ Però abans que res, ens podíem presentar una mica, així us escoltem. Qui comença, per exemple, el Didac?
+ Sí, va bé. Vinga, doncs.
+ Bé, com has presentat, som de Palma, la Maravelles és un barri de Palma, i som graduat a Llingua de Teatura Catalana a l'UIC, la Universitat de les Illes Balears.
+ Actualment faig feina de tècnic de suport de recerca al Centre de Documentació Social Llingüística de les Illes Balears, que és avui per la universitat.
+ I, clar, com a tal, som membre del Departament de Filologia Catalana i Llingüística General.
+ Però bé, vaja, som aquí bàsicament perquè vaig ser col·laborador de software català, la traducció que van fer tu i jo, L'Eix.
+ Exacte, sí, sí, ens coneixíem.
+ Ens coneixíem d'un projecte de traducció software català, que tenim molts col·laboradors puntuals i més contínus i de tot. Molt bé, fantàstic, gràcies per venir, Didac.
+ I la Marín, hola Marín, com estem?
+ Hola, estic molt bé.
+ A veure, presenta'ns una miqueta.
+ Sí, doncs jo em dic Marín, soc del Rosselló i estic estudiant filologia catalana a la Universitat de Perpinyà i al mateix temps soc professora de la Universitat de l'Eix.
+ Soc professora catalana a les escoles primàries per la PLEC, l'associació nord-catalana que promou l'ensenyament del català.
+ Molt interessant, aquí. Doncs molt bé, a veure, què comentem per aquí? A veure, Dani, que tu també et volem sentir, què tal?
+ Bona tarda, doncs mira, jo soc de Vià al Berguedà, soc músic, professional de formació, tot i que últimament em dedico més a fer de professor de música.
+ Actualment estic vivint més cap a la Garrotxa, però bé, com a bon músic, dormo allà on hi hagi festa i allà on hi hagi una miqueta de música.
+ Molt bé, molt bé. Bé, i la Belén, ja que ens estem presentant, doncs vinga tu també, no?
+ Doncs jo soc Belén, soc de Benissa a la Marina Alta i em dedico al marketing digital i bé, jo, ja ho sabeu, col·laborem, formo part de Soft Català i porto un poc les xarxes.
+ Molt bé, fantàstic. Doncs escolteu, no esperem més, comencem a comentar una miqueta què us sembla a vosaltres? Tots sou usuaris habituals de mòbils, d'ordinadors o dispositius d'aquests?
+ El feu servir molt o poc? No sé, em sembla que hi ha algú, el... el... el... el dir que em comentava fora d'antena, que ell no és gaire de modernitats d'aquestes, no, em sembla?
+ Sí, no, vaja, jo estic bastant enganxat al mòbil i al ordinador, que fa molt d'anys. No, el que passa és que no tinc ni Alexa ni coses d'aquestes modernes, això ja no.
+ Ah, clar. No ho dic tant. Però estic enganxat, enganxadíssim a tots aquests dispositius.
+ Molt bé, la resta teniu... bueno, mòbil suposo que encara que ens aquests... Si això tothom en té, no?
+ Sí, sí, no? I llavors, en el repertori tecnològic que teniu, diguéssim, que feu servir cada dia mòbil, si teniu smartwatch, rellotge intel·ligent o una tauleta,
+ el que utilitzeu en un dia normal, quin... quin és el que us quedeu més? Diguéssim, el Didec diu que el que fa servir més és el mòbil, però algú fa servir un rellotge o una... o la tele...
+ Jo m'he d'aviat un portàtil. Portàtil? Ahà.
+ Sí. Sí, mòbil, l'ordinador portàtil també. També jo, el cotxe sí que tinc d'aquests que parlen i bé, seria la cosa més... més oral que tinc així, de tecnologia.
+ Sí, exacte, el que ens interessaria veure, veure, o us ho comentava per saber quins aparells us direccioneu més amb la llengua, no? Diguéssim, o on trobeu més a faltar la vostra llengua.
+ La Belén suposo que toca una mica de tot pel seu perfil, no?
+ Sí, sí que tinc un assistent de Véu de Google i també tinc un rellotge intel·ligent.
+ I... a veure, doncs en... en quin dels moments del dia en què utilitzeu aquests aparells trobeu a faltar més la vostra llengua, no?
+ En quin moment us sentiu menys còmodes per no poder utilitzar la llengua... la vostra llengua materna?
+ Perquè entenc que en algun moment us passa, no? No sabem... bueno, aquí n'hem parlat sovint i és una de les raons de l'existència de SoftCatalà, que el català no el trobem a tot arreu, no?
+ En quins moments us trobeu més... incòmodes per dir "ostres"? A veure, no sé, qui vol llançar...
+ Jo, per exemple, com a estudiant, tinc de treballar molt amb el portàtil i hi ha moltes aplicacions que fem servir amb la universitat o dispositius de redacció que no funcionen amb el català, que no reconeixen català
+ i a vegades pot posar problemes perquè ho necessitem com a estudiants de filologia.
+ Doncs sí. Val. O sigui, això a l'estat francès també impera l'absència catalana. Sí, també, igual. Sí, sí. Molt bé. I... Algú més?
+ Jo, per exemple, em trobo molt que tot el que seria aparells tecnològics al voltant de la música no n'hi ha cap de traduït al català.
+ Bé, hi ha, per exemple, el Musescore, que sí que hi ha una traducció al català, està molt bé, però el que serien coses més de programes d'enregistrament i d'aquest tipus no hi són.
+ Llavors, això el que fa és, sobretot, que s'acabin fent servir molts anglicismes a l'hora de parlar amb altres músics, a l'hora de parlar amb altra gent del món, aquest tècnic...
+ Doncs acabes fent servir anglicismes per definir coses que potser no es diries en català, però quan et passes el dia llegint-les en anglès o escrivint-les en anglès, al final ja t'hi relaciones en anglès.
+ Ja les dius en anglès. Sí, quan dius "ostres, per exemple això del programari i el maquinari", que és una cosa que és ben fàcil de dir en català i no costa gens, coi, estem tots acostumats a dir "software" i "hardware".
+ Vull dir que ens sembla com més natural, i en el fons no ho és, perquè avui estem fent servir anglicismes, i això passa amb un munt de paraules en el món tècnic, que la música t'hi trobes molt.
+ Clar, com és especialitzat el tema, segurament més difícil és normalitzar els termes en català, no?
+ Sí. Potser probablement en les xarxes socials així, Belén, les traduccions d'alguna xarxa social han ajudat molt a piolar, per exemple, o a repiolar, no?
+ Sí, la veritat que sí, i el fet que hi ha aquestes traduccions automàtiques també ajuda molt que la gent ho pugui entendre, la gent que no és català o parla pugui tenir aquesta informació accessible.
+ Però jo personalment, per exemple, jo utilitze molt la redacció per veu, i utilitzem els documents de Google, i és veritat que en valencià no capta tan bé el que dic com ho pugui fer en castella.
+ I això per a mi també és un inconvenient perquè he de revisar molt més o no és tan pràctic com pugui resultar en castella.
+ I com a filòleg, en Dídac, quant troba a faltar el català a la tecnologia?
+ No, bé, com a filòleg, com a usuari, com a usuari virtual.
+ Bé, jo sempre he estat defensor de l'ordinador de sobretauda, i m'agraden poques portàtils. Així, el que tenc portàtils és el mòbil.
+ I en aquest temps una cosa que no s'ha comentat, i jo m'he trobat sovint, és que les traduccions són parcials.
+ Aleshores, jo què sé, m'he trobat que a la feina vaig aplicar el catalitzador del soft català i també a Canostra, i no me surt igual.
+ És a dir, hi ha coses que me surten en anglès a una banda i a l'altra me surten en català.
+ I coses d'aquestes que no he acabat d'entendre perquè no s'ha aplicat bé. Que s'ocupa, òbviament, no el soft català, sinó que...
+ No, vull dir que, clar, no, però ja faig massa.
+ Però que no ho sé, que el problema que hi ha és aquest, que hem d'anar... que mai arribam a nivell perquè no, des de les empreses no surten.
+ No surten a aquesta oportunitat, sí que surten en les altres llengües.
+ Sí, segurament no s'arriba a la qualitat i encara gràcies, diguéssim, que hi ha algun paquet de traducció, encara que sigui complet, no?
+ Perquè després et trobes en llocs que, encara que hi siguin, no el volen aplicar, eh?
+ Molt bé. De fet, una de les... bueno, per comentar, la Spotify em sembla que ha anunciat fa poc que trauran el servei en no sé quantes més llengües,
+ i trenta i escaig més i ja no hi ha el català. És a dir, que és com un dels llocs on hi ha...
+ que és el que el donem per perdut, eh, realment. Quan no s'entren les vint-trenta primeres, el català ja...
+ tenir calculat que ja no hi entra.
+ Escolteu, i llavors ho heu comentat tots bastant a l'entorn professional, no?
+ En el vostre dia a dia professional, que clar, si treballeu en català, doncs és normal que trobeu a faltar quan produïm, diguéssim, textos o estem treballant amb els ordinadors.
+ Però en l'entorn domèstic també trobeu algun moment o... o sigui que el català sí que és cert que en el sector professional, segons quins sectors està molt absent,
+ però últimament ens trobem que la tecnologia cada vegada està més en el dia a dia, en els rellotges, en les cases, i les televisions poques parlen en català.
+ Teniu alguna experiència que digui "ostres, això no... no... no... trobo a faltar molt?"
+ Jo m'he trobat fa... tinc un nen petit de quatre anys que tot just està començant a aprendre a llegir, i sobretot, ostres, clar, a casa ho fem tot en català,
+ ell només parla en català, perquè vull dir, tot just està això, fa poc que parla i està tot just començant a llegir,
+ i jo em trobo que ell vol aprendre moltes coses, a fer-les anar sobretot de... de... de coses, de... de tecnologia de casa, la televisió mateix,
+ li agrada doncs... tocar coses, però clar, està tot en anglès o en castellà, llavors li has de dir "no, no, és que això està escrit en castellà, però en català és així".
+ O per exemple, amb el cotxe que deia abans, que també és un interactiu de forma oral, també em trobo amb això que... ella a vegades també vol dir coses,
+ o diu "aquest carrer", o anem cap aquí o anem cap allà, però ho ha de dir tot en castellà, llavors li ha d'acabar ensenyant en castellà perquè ho pugui dir, o sigui, no pot dir-ho en català,
+ quan és la seva llengua i en què s'és encomoda, llavors... fa molt estrany de dir "no, això digue-ho en castellà perquè això només està en castellà, quan totes les seves vides són en català".
+ És ben curios, aquesta situació és realment...
+ Ens trobem que entra, per obligació diguéssim, entra una llengua que no és la nostra, la materna, entra dins de casa, no? Marín, a tu també et passa això?
+ Sí, el que passa és que nosaltres de la Catalunya Nord tenim emissions de televisió que bàsicament es fan en català, justament pels catalanoparlants d'aquí, de la Catalunya Nord,
+ però notem que hi ha molts galicismes i anglicismes que es posen dins la llengua catalana a l'emissió catalana que tenim nosaltres a la Catalunya Nord,
+ és a dir que veritablement no és el català d'aquí, de Catalunya Nord, sinó un català transformat perquè tota la gent de Catalunya Nord,
+ fins i tot la gent que no parla català ho entén, saps? És que l'han modificat pel públic.
+ I és molt estrany perquè si parles català ho entens, el català d'aquí, si no ho parles, canvies de cadena, no?
+ Llavors és com un fenomen semblant al que deia el Díac, que es troben programes que tradueix a mitges, tenim una televisió traduïda a mitges, no?
+ Sí, fan unes emissions que diuen "català d'aquí, Catalunya Nord" i al final la meitat no en és.
+ Mira, per anar directament al tema dels assistents de veu, que ha comentat una mica el Dani amb el cotxe, que li parla per comentar-li coses,
+ per demanar-li ordres, diguéssim-ho així, vosaltres teniu algun assistent de veu d'aquests, un Alexa, un Google Home o una cosa d'aquestes?
+ Jo tinc un Google Home. I què? Li parles amb valència?
+ Què va, no ho entenc. La veritat és que jo em sent ridícula i seria ja paraula perquè li he de parlar en castellà per preguntar-li qualsevol cosa.
+ I te l'has comprat tu o te l'han regalat? Me'l vaig comprar jo. Ostres, no m'ha dit si...
+ Perquè confiem que d'algun dia arribarà una actualització. És una compra futur, hostis, que és clar.
+ Jo confie... Jo ja vaig buscar algun que permeti que... que... que sàpigués que en un futur, si Google ho posa o ho vol, estarà.
+ I algú més, Santé? O si més no, un assistent de veu, algun aparell que inclogui assistència de veu, diguéssiu?
+ Sí, jo tinc el mòbil, tinc el GPS, aquest que diu on anar, i de fet no reconeix ni els cares que estan escrits en català, perquè aquí tenim cares en francès i en català.
+ I no reconeix els cares que estan posats en català. És a dir que, per exemple, en lloc de dir "care no sé què", dirà o en francès o en anglès o en castellà o canviarà de llengua, però el "care" és en català.
+ Això quan t'ho diu o quan li deman... Això quant allegeix el nom del carrer, no, diguéssiu?
+ Sí, quan em diu, gira cap a la dreta al carrer no sé què, bueno, si el "care tal" és escrit en català, no hi ha manera. Me canvia de llengua perquè no ho reconeix, no hi ha manera.
+ Clar, clar.
+ Això jo ho trobo molt divertit perquè un dia havia d'anar a Porreig, que és un poble al Berguedà que s'escriu Puig-Reig, però veja, tothom en diu Porreig.
+ Llavors, clar, per dir-li amb el GPS "vull anar a Porreig", vaig provar-lo de totes les maneres.
+ Clar, això és... El no existint castellà tampoc vaig començar, direm en català, potser s'ha entrat així, Porreig, no, Puig-Reig, no, Puig-Reig.
+ Cap manera.
+ I al final... No hi ha manera, ho vaig escriure així, per veure com ho deia ell, el GPS de Google, ho vaig escriure i em deia, i meitat en català, meitat en català, en castellà em deia Puig-Reig.
+ Ostres.
+ Llavors, dius, clar, és que al final trobar... és completament inútil ja posar noms gaire catalans.
+ Sí, sí, sí.
+ Ja és inútil, ja no ho fas servir perquè dius, no és que... no sé ni com pronunciar-ho, mini.
+ No, que no hi ha cap manera, no.
+ No. Ja has anat trobant i al final li perds els nervis i dius, mira, prou per preu, ja ho escric.
+ A Mallorca, a Sineu, hi tenim el Puig de Reig.
+ Hombre!
+ I l'he empolat jo, així ja el vols pronunciar, Puig de Reig.
+ Molt bé, posant la preposició entre mitges ens estalviem problemes.
+ Exacte.
+ No sé si els farà gaire gràcia, els de Porreig, això, no, Dani?
+ Això mira...
+ Jo supòs que en tants altres pobles, aquí tenim una possessió que vendria a ser una masia principal que se diu Sarrià.
+ I una altra que se diu Barcelona, vull dir que...
+ No, jo em referia a que no els farà gaire gràcia posar... canviar el nom del poble, diguéssim.
+ No, allò ja has de vingut com una sola paraula que és Porreig, tot així.
+ Clar, clar.
+ Jo no tinc cap assistent.
+ Una vegada sí que havia provat de Google que t'avènça mòbil, que te vas escrivint el que dius, i sí que me va anar bé per quatre notes de veu, però vaja...
+ No, però ara que heu parlat d'això, clar, ja he estat molt d'anys i som encara usuaris del transport públic, de l'autobús, de Palma, és a dir, d'un municipi de transports,
+ i abans, fa molt d'anys, tenien un... com un modulador de veu que escrivien les paraules, i era horrible allò.
+ Era ferès, perquè ara no se m'acudiria a res, però...
+ Lletgia, era com un castellà no parlant que lletgia sense entonació, i era com un robot horrible.
+ Sí, aquí també tenim això.
+ Sí, i d'aquí fa uns anys van posar un caixerre en català central.
+ I clar, segons com em pronuncia...
+ Clar, també teníem aquesta manca de tenir un modulador que parli una varietat estàndard, però em pronuncia mallorquí, n'entenc jo.
+ Això és una de les coses... n'hem parlat sovint, hi ha els sintetitzadors de veu, sobretot el que utilitza Google en algunes aplicacions.
+ És un sintetitzador veu molt primari, molt primitiu, diguéssim. El Joan Montaner n'ha estudiat bastant el tema.
+ I n'hi ha alguns de millors, el Festcat, que està fet aquí a una universitat catalana, en recordo quina,
+ i ara estan treballant amb el Catatron des de... com es deia, ajuda amb el Belén, com eren els companys de col·lectivet.
+ I la sintesi de veu s'ha anat millorant bastant, però sí que és veritat que en molts llocs s'aplica algun motor que és realment lamentable.
+ Ara que comentaves això de les variants, ens trobem moltes vegades que s'implementen les coses pel català central,
+ perquè clar, en profeines hi ha intenció o recursos perquè hi hagi algo implementat en català,
+ i després ens trobem que d'una variant a l'altra hi ha moltes diferències a l'hora de donar ordres o de llegir topònims, com comentàveu.
+ Creieu que aquí podríem... realment hi ha unes coses que sovint comentem, és el tema del projecte del Common Voice
+ que us convidarem a vosaltres i a tothom que ens escolti a formar una part i a col·laborar per donar la vostra veu, perquè així tindrem totes les variants.
+ Però creieu que les administracions de cada territori, de les Illes Balears, del País Valencià, Catalunya Nord,
+ estan treballant prou perquè la llengua no quedi escombrada d'aquest món digital, diguéssim?
+ Treballant sí, però prou no ho sé.
+ És a dir, hi treballen, no? A Catalunya Nord creus que...
+ Sí, hi treballen, és que és per municipi, és que cada municipi pren la decisió o no de treballar, defensar i promoure la llengua,
+ però si hi ha un poble que sí i el costat no, hi ha moltes diferències i si no tot el territori es posi d'acord per fer una cosa homògena
+ i difondre bé no avança prou. Tots treballen però no prou.
+ No hi ha una política unitària, diguéssim, en aquest sentit, en el territori?
+ No, això.
+ Sí, així baix jo crec que estem també... el País Valencià és molt similar, depèn molt de cada ciutat o poble o comarca,
+ però a nivell territorial no n'hi ha una estratègia i jo crec massa gran.
+ Els ajuntaments fan més cosetes de...?
+ Clar, perquè al final els ajuntaments són els més pròxims a la gent, doncs es tracten de fer-se arribar.
+ Sí, exacte.
+ Sí, aquí tenim la Direcció General de Política Llingüística, que se va arrenzant al xoc de canvi de govern, ja fa aquesta legislatura al nostre anterior
+ i sí que tenen bona voluntat i fan cosetes, han fet campanyes, però falten recursos.
+ Clar.
+ Falten recursos i desconec si fan res en tema digital, però jo crec que no.
+ I sobretot falten recursos i sí que és vera que segons quin municipi, que més amb un govern, amb uns regidors més conscienciats, sí que fan coses.
+ Sí que fan coses per la llengua.
+ A Nacor sempre han fet moltes coses, per exemple. A Leró, quan t'hi vas verbal a l'engí amb el Boa, la flama de la llengua de Sant Joan venia fins a Leró.
+ I si no fos per ell, no s'ho hauria fet.
+ Per tant, sí, tenim aquestes dues coses, però jo crec que per tot falten recursos, perquè moltes vegades hi ha voluntat i no hi ha recursos.
+ Que tal vegada sí que teniu els principats.
+ Sí, anava a dir. Justament aquí sí que la Direcció General de Política Llingüística treballa bastant.
+ Inclus hem col·laborat amb Soft Català amb algunes coses i últimament també el Departament de Polítiques Digitals crec que també amb el tema del projecte Aina i això també van voler posar la seva...
+ Sí que hi ha diners, dublers que dieu allà.
+ Què passa? Que a vegades no s'acaben d'enfocar bé els projectes.
+ Això són les coses que comentava.
+ Jo tinc la sensació que el que es fa és, aquí el principat, que sobretot és publicitari per una part, de dir "mireu què estem fent", però que realment tampoc es fa tant.
+ I que el que es fa és d'una forma molt imposada. Llavors acaba sent poc natural, si més no ho veig en l'entorn així més jove, més tecnològic, que acaba sent molt imposat i que després no es fa servir.
+ Per això, perquè amb el que comentava el maquinari o el programari, jo tinc la sensació que aquestes dues paraules s'han volgut imposar d'una manera molt artificial.
+ I no de dir "mireu, doncs fan servir de forma normal, la fa servir la gent", sinó que és com "ai, s'han de fer servir aquestes perquè és el que toca ara".
+ I que la cosa per aquí tampoc...
+ Aquí nosaltres a la Universitat de Perpinyà, cada estudiant de filologia catalana tradueix una pàgina del Wikipedia francès, fa la traducció cap al català.
+ És una feina que cada estudiant de català té, és a dir que tria una pàgina de la Wikipedia en francès que no té traducció al català i la tradueix al català.
+ I crec que és una molt bona cosa perquè són coses que cada estudiant anirà a buscar, més o menys, ja que són estudiants que tradueixen.
+ I de fet està bé perquè així els altres estudiants s'interessen, és a dir que...
+ Per què ho fas en català? Bueno, justament perquè parlo català i vull difondre la llengua i tot això, saps?
+ És una manera de difondre la llengua a la web que cada estudiant de català fa.
+ Molt bé.
+ Sí, al final... Digues dies, perdona.
+ No, perdona, jo crec que al final és el que ha dit la companya Marina, és a dir,
+ han estat tots usuaris que durant molts anys han pressionat, però no només, però no han pressionat la institució, sinó que han fet.
+ Exacte.
+ Han creat aquest present que tenim ara.
+ Per tant, jo quan... jo tinc 28 anys, quan era petit, això que sé, quan tenia 10 anys, no hi havia ni la meitat de coses en català.
+ I de fet jo me'n record a jo mateix, traduint el Messenger en català, quan tenia 8 o 9 anys, que jo era un poc visionari...
+ Sí, perquè falta molt.
+ Exacte. Perdona. I això, que vull dir que som nosaltres i crec que hem deixat escaspar un bon nivell en el tema digital, però clar,
+ tot avança més ràpid que nosaltres i necessitem una ajuda econòmica per avançar.
+ Sobretot quan enten les tecnologies de la veu i tot això que és molt més difícil que els usuaris puguem traduir o adaptar, no?
+ Amb el text és molta feina i no hi trobarem mèrit, eh?
+ Però tot el tema de la veu, evidentment, és un graó una mica més difícil de superar.
+ Com dieu la feina que hem fet i que seguim fent els usuaris i des de moltes associacions, i soc català també,
+ creiem que veig que coincidim tots que és el que tira endavant el català a la tecnologia.
+ És a dir, jo em quedaria amb aquest missatge, perquè, a més a més, reiterant el tema del Common Boys,
+ tothom sortint avui de la taverna que visiti, busqui Common Boys i intenti col·laborar amb el projecte de Mozilla,
+ que serveix per fer una gran base de dades de veus en català, en el nostre cas,
+ i que servirà per motors de síntesi de veu, de reconeixement de la parla i coses com les que hem comentat en l'aparitiu d'actualitat a l'assistent.cat,
+ que també us convido a provar.
+ Ho deixaríem aquí. Moltes gràcies, Marín, moltes gràcies...
+ -A molt de ple.
+ -A en Dani i Belén.
+ -A tu, gràcies.
+ -Moltes gràcies per venir a la taverna i esperem que hagueu estat còmodes.
+ -Moltes gràcies.
+ -Gràcies a tothom.
+ -Molt bé, vinga, fins a la pròxima. Gràcies.
+ -Ja sé que...
+ -Bé, doncs, Artur, què t'ha semblat, aquest episodi d'avui?
+ -M'emmouina, molt interessant, molt constructiu, m'encanta, de veres.
+ -A mi m'agrada molt perquè hem sentit molta llengua, moltes variants, i això de sentir València sempre m'encanta, eh?
+ Però avui una mica de rossellonès, una mica mallorquí, una mica de català central, escolta, magnífic, eh?
+ -Sí, sempre l'empararé gaudir de totes aquestes varietats.
+ -Doncs, escolta, tancar el local així em sembla que és el millor que podem fer, així que anem baixant la parcianeta.
+ Si vols, avui acomiada tu i...
+ -Serà un plaer.
+ -I anem tirant.
+ -Bé, fins així, aquest episodi del 15 glaçons. Ha sigut un plaer, gasteu la llengua i vos esperem al nostre pròxim programa.
+ -Mentrestant, ei, Mycroft, porti whisky amb 15 glaçons d'hidrogen, coi!
+ 15 glaçons d'hidrogen, el podcast de llengua i tecnologia de Soft Català.
+ #
+ i que no hi hagi cap problema.
