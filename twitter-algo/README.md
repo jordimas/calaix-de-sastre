@@ -18,7 +18,7 @@ La selecció de candidats és molt important ja que es crea un subcojunt petit d
 
 Aquí destacar que en el procés de selecció de candidats es cerca específicament contingut provinent [d'usuaris que seguim, el país, i l'idioma](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/cr-mixer/server/src/main/scala/com/twitter/cr_mixer/candidate_generation/FrsTweetCandidateGenerator.scala#L72). 
 
-Tots aquests paràmetres es poden escollir al perfil de l'usuari, podeu canviar-los i veure quin impacte té en el contingut que veieu.
+Tots aquests paràmetres es poden escollir al perfil de l'usuari, podeu canviar-los i veure quin impacte té en el contingut que se us mostra.
 
 **2**. Ràquing
 
@@ -33,7 +33,7 @@ unknownLanguageBoost = 0.05,
 
 ```
 
-Li donen més pes a l'anglès davant de la resta de les llengües. 
+Li donen més rellevància a l'anglès davant de la resta de les llengües. 
 
 
 També la funció de boosting (donar més pes) de l'algorisme de rànquing de les piulades es té en compte la llengua que l'usuari té configurada a la UI i es [baixa la puntuació](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/src/java/com/twitter/search/earlybird/search/relevance/scoring/FeatureBasedScoringFunction.java#L589) si el contingut no coincideix. 
