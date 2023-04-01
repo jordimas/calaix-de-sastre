@@ -14,7 +14,7 @@ A molt alt nivell els algorismes de recomanació tenen tres grans parts:
 2. Rànquing on s'ordenen per rellevància basant-se en moltes característiques (preferències de l'usuari, qualitat del contingut, etc).
 3. Filtratge final on s'elimina contingut no addient
 
-La selecció de candidats és molt important ja que es crea un subcojunt petit de contingut sobre el que treballa després l'algorisme. El contingut que no entri aquí mai serà recomanat. Després la fase de ràquing es decidirà quin pes li donem a cada contingut, però només dels que s'han escollit.
+La selecció de candidats és molt important ja que es crea un subcojunt petit de contingut sobre el que treballa després l'algorisme. El contingut que no entri aquí mai serà recomanat. Després la fase de ràquing es decidirà quin pes li donem a cada contingut, però només sobre el subcojunt que s'ha escollit.
 
 Aquí destacar que en el procés de selecció de candidats es cerca específicament contingut provinent [d'usuaris que seguim, el país, i l'idioma](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/cr-mixer/server/src/main/scala/com/twitter/cr_mixer/candidate_generation/FrsTweetCandidateGenerator.scala#L72). 
 
