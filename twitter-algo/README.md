@@ -33,7 +33,7 @@ unknownLanguageBoost = 0.05,
 
 ```
 
-Li donen més rellevància a l'anglès davant de la resta de les llengües. 
+Li donen més rellevància a l'anglès davant de la resta de les llengües. Un codi similar es pot trobar [també aquí](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/src/thrift/com/twitter/search/common/ranking/ranking.thrift#L121).
 
 
 També la funció de boosting (donar més pes) de l'algorisme de rànquing de les piulades es té en compte la llengua que l'usuari té configurada a la UI i es [baixa la puntuació](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/src/java/com/twitter/search/earlybird/search/relevance/scoring/FeatureBasedScoringFunction.java#L589) si el contingut no coincideix. 
