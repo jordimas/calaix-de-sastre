@@ -2,7 +2,7 @@
 
 El 31 de març de 2023 [es va publicar](https://twitter.com/elonmusk/status/1641876892302073875) el codi de l'algorisme de Twitter.
 
-Cal destacar que una anàlisi amb un codi com aquest no pot ser mai concloent: no es té certesa que aquesta sigui la versió del codi que realment s'executa, poden faltar mòduls importants que impacten el sistema (per exemple, càlculs de prediccions fetes en altres sistemes que es guarden directament en l'emmagazematge i impacten el comportament). És pràcticament impossible entendre algunes relacions si el codi no s'executa, cosa que no és possible.
+Cal destacar que una anàlisi amb un codi com aquest no pot ser mai concloent: no es té certesa que aquesta sigui la versió del codi que realment s'executa, poden faltar mòduls importants que impacten el sistema (per exemple, càlculs de prediccions fetes en altres sistemes que es guarden directament en l'emmagatzematge i impacten el comportament). És pràcticament impossible entendre algunes relacions si el codi no s'executa, cosa que no és possible.
 
 Algunes coses que he observat respecte al tractament de llengües
 
@@ -22,7 +22,7 @@ Tots aquests paràmetres es poden escollir al perfil de l'usuari, podeu canviar-
 
 **2**. Ràquing
 
-En [aquesta funció](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/home-mixer/server/src/main/scala/com/twitter/home_mixer/util/earlybird/RelevanceSearchUtil.scala#L13) es decideixen parts claus de la rellevància. En concret podem veure com els *likes* tenen més pes que els els *retwits* però també el pes que se li dona a la les llengües:
+En [aquesta funció](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/home-mixer/server/src/main/scala/com/twitter/home_mixer/util/earlybird/RelevanceSearchUtil.scala#L13) es decideixen parts claus de la rellevància. En concret podem veure com els *m'agraden* tenen més pes que els *retuits* però també el pes que se li dona a les llengües:
 
 ```scala
 
@@ -33,7 +33,7 @@ unknownLanguageBoost = 0.05,
 
 ```
 
-Clarament li donen més pes a l'anglès devant de la rest de les llengües. 
+Li donen més pes a l'anglès davant de la resta de les llengües. 
 
 
 També la funció de boosting (donar més pes) de l'algorisme de rànquing de les piulades es té en compte la llengua que l'usuari té configurada a la UI i es [baixa la puntuació](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/src/java/com/twitter/search/earlybird/search/relevance/scoring/FeatureBasedScoringFunction.java#L589) si el contingut no coincideix. 
