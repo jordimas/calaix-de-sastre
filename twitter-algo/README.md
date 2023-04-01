@@ -8,7 +8,11 @@ Algunes coses que he observat respecte al tractament de llengües
 
 **1**. Selecció de candidats
 
-A molt alt nivell els algorismes de recomanació tenen dos grans parts: la selecció de candidats, candidats potencialment a recomanar, i rànquing on s'ordenen per rellevància basant-se en moltes característiques (preferències de l'usuari, qualitat del contingut, etc).
+A molt alt nivell els algorismes de recomanació tenen tres grans parts: 
+
+1. La selecció de candidats, candidats potencialment a recomanar
+2. Rànquing on s'ordenen per rellevància basant-se en moltes característiques (preferències de l'usuari, qualitat del contingut, etc).
+3. Filtratge final on s'elimina contingut no addient
 
 La selecció de candidats és molt important ja que es crea un subcojunt petit de contingut sobre el que treballa després l'algorisme. El contingut que no entri aquí mai serà recomanat. Després la fase de ràquing es decidirà quin pes li donem a cada contingut, però només dels que s'han escollit.
 
@@ -16,16 +20,33 @@ Aquí destacar que en el procés de selecció de candidats es cerca específicam
 
 Tots aquests paràmetres es poden escollir al perfil de l'usuari, podeu canviar-los i veure quin impacte té en el contingut que veieu.
 
+**2**. Ràquing
 
-**2**. El català es troba entre les [51 llengües que](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/home-mixer/server/src/main/scala/com/twitter/home_mixer/functional_component/gate/SupportedLanguagesGate.scala#L18) Twitter considera que tenen [una traducció prou completa](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/home-mixer/server/src/main/scala/com/twitter/home_mixer/functional_component/gate/SupportedLanguagesGate.scala#L12). Això és interessant perquè crea una relació directa entre el fet que la traducció sigui completa i el tractament que se li donarà en l'algorisme.
+En [aquesta funció](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/home-mixer/server/src/main/scala/com/twitter/home_mixer/util/earlybird/RelevanceSearchUtil.scala#L13) es decideixen parts claus de la rellevància. En concret podem veure com els *likes* tenen més pes que els els *retwits* però també el pes que se li dona a la les llengües:
 
-Aquesta informació sembla usar-se amb el subsistema SimClusters que s'usa per descobrir i recomanar comunitats. S'usa en moltes parts de l'aplicació tal com expliquen en [aquest article](https://dl.acm.org/doi/pdf/10.1145/3394486.3403370).
+```scala
 
-**3**. A la funció de boosting (donar més pes) de l'algorisme de rànquing de les piulades es té en compte la llengua que l'usuari té configurada a la UI i es [baixa la puntuació](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/src/java/com/twitter/search/earlybird/search/relevance/scoring/FeatureBasedScoringFunction.java#L589) si el contingut no coincideix. 
+langEnglishUIBoost = 0.5,
+langEnglishTweetBoost = 0.2,
+langDefaultBoost = 0.02,
+unknownLanguageBoost = 0.05, 
+
+```
+
+Clarament li donen més pes a l'anglès devant de la rest de les llengües. 
+
+
+També la funció de boosting (donar més pes) de l'algorisme de rànquing de les piulades es té en compte la llengua que l'usuari té configurada a la UI i es [baixa la puntuació](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/src/java/com/twitter/search/earlybird/search/relevance/scoring/FeatureBasedScoringFunction.java#L589) si el contingut no coincideix. 
 
 També en aquest [fragment de codi](https://github.com/twitter/the-algorithm/blob/ec83d01dcaebf369444d75ed04b3625a0a645eb9/home-mixer/server/src/main/scala/com/twitter/home_mixer/functional_component/decorator/HomeTweetTypePredicates.scala#L125) sembla indicar com filtren per idioma. És important destacar el *device_language_matches_tweet_language*.
 Primer miren la llengua que l'usuari té configurada però també miren després la lengua del dispositiu. 
 
 El que sempre hem dit, configurar-se la llengua del dispositiu és important, però també la interfície de l'usuari i les llengües preferides. Tot.
+
+
+**3**. El català es troba entre les [51 llengües que](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/home-mixer/server/src/main/scala/com/twitter/home_mixer/functional_component/gate/SupportedLanguagesGate.scala#L18) Twitter considera que tenen [una traducció prou completa](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/home-mixer/server/src/main/scala/com/twitter/home_mixer/functional_component/gate/SupportedLanguagesGate.scala#L12). Això és interessant perquè crea una relació directa entre el fet que la traducció sigui completa i el tractament que se li donarà en l'algorisme.
+
+Aquesta informació sembla usar-se amb el subsistema SimClusters que s'usa per descobrir i recomanar comunitats. S'usa en moltes parts de l'aplicació tal com expliquen en [aquest article](https://dl.acm.org/doi/pdf/10.1145/3394486.3403370).
+
 
 
