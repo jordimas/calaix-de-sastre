@@ -2,7 +2,7 @@
 
 El 31 de març de 2023 [es va publicar](https://twitter.com/elonmusk/status/1641876892302073875) el codi de l'algorisme de Twitter.
 
-Cal destacar que una anàlisi amb un codi com aquest no pot ser mai concloent: no es té certesa que aquesta sigui la versió del codi que realment s'executa, poden faltar mòduls importants que impacten el sistema (per exemple, càlculs de prediccions fetes en altres sistemes que es guarden directament en l'emmagatzematge i impacten el comportament). És pràcticament impossible entendre algunes relacions si el codi no s'executa, cosa que no és possible.
+Cal destacar que una anàlisi amb un codi com aquest no pot ser mai concloent: no es té certesa que aquesta sigui la versió del codi que realment s'executa, poden faltar mòduls importants que impacten el sistema (per exemple, càlculs de prediccions fetes en altres sistemes que es guarden directament en l'emmagatzematge i impacten el comportament), etc. Per últim, és pràcticament impossible entendre algunes relacions si el codi no s'executa, cosa que no és possible amb el codi que s'ha publicat i sense tenir les dades que té Twitter.
 
 Algunes coses que he observat respecte al tractament de llengües
 
