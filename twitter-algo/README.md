@@ -1,14 +1,14 @@
-== Algorisme de recomanacions de Twitter i llengües ==
+# Algorisme de recomanacions de Twitter i llengües
 
 El 31 de març de 2023 [es va publicar](https://twitter.com/elonmusk/status/1641876892302073875) el codi de l'algorisme de Twitter.
 
-Cal destacar que una anàlisi amb un codi com aquest no pot ser mai concloent: no es té certesa que aquesta sigui la versió del codi que realment s'executa, poden faltar mòduls importants que impacten el sistema (per exemple, càlculs de prediccions fetes en altres sistemes que es guarden directament en el emmagazematge i impacten el comportament). És difícil també entendre algunes relacions si el codi no s'executa, quelcom que no és possible.
+Cal destacar que una anàlisi amb un codi com aquest no pot ser mai concloent: no es té certesa que aquesta sigui la versió del codi que realment s'executa, poden faltar mòduls importants que impacten el sistema (per exemple, càlculs de prediccions fetes en altres sistemes que es guarden directament en l'emmagazematge i impacten el comportament). És difícil també entendre algunes relacions si el codi no s'executa, cosa que no és possible.
 
-Algunes coses que he obsevat respecte al tractament de llengües
+Algunes coses que he observat respecte al tractament de llengües
 
 **1**. Selecció de candidats
 
-A molt alt nivell els algorismes de recomanació tenen dos gran parts: la selecció de candidats, candidats potencialment a recommanar, i rànquing on s'orden per rellevància basant-se en moltes característiques (preferències de l'usuari, qualitat del contigut, etc).
+A molt alt nivell els algorismes de recomanació tenen dos grans parts: la selecció de candidats, candidats potencialment a recomanar, i rànquing on s'ordenen per rellevància basant-se en moltes característiques (preferències de l'usuari, qualitat del contingut, etc).
 
 La selecció de candidats és molt important ja que fa un subcojunt petit de contingut sobre el que treballa després l'algorisme. El contingut que no entri aquí mai serà recomanat. Després la fase de ràquing es decidirà quin pes li donem a cada contingut, però només dels que s'han escollit.
 
@@ -19,7 +19,7 @@ Tots aquests paràmetres es poden escollir al perfil de l'usuari, podeu canviar-
 
 **2**. El català es troba entre les [51 llengües que](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/home-mixer/server/src/main/scala/com/twitter/home_mixer/functional_component/gate/SupportedLanguagesGate.scala#L18) Twitter considera que tenen [una traducció prou completa](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/home-mixer/server/src/main/scala/com/twitter/home_mixer/functional_component/gate/SupportedLanguagesGate.scala#L12). Això és interessant perquè crea una relació directa entre el fet que la traducció sigui completa i el tractament que se li donarà en l'algorisme.
 
-Aquesta informació sembla usar-se amb el subsistema SimClusters que s'usa per intentar descobrir i recomanar comunitats. Sembla usar com a senyal en moltes parts de l'aplicació tal com expliquein en [aquest article](https://dl.acm.org/doi/pdf/10.1145/3394486.3403370).
+Aquesta informació sembla usar-se amb el subsistema SimClusters que s'usa per intentar descobrir i recomanar comunitats. Sembla usar com a senyal en moltes parts de l'aplicació tal com expliquen en [aquest article](https://dl.acm.org/doi/pdf/10.1145/3394486.3403370).
 
 **3**. A la funció de boosting (donar més pes) de l'algorisme de rànquing de les piulades es té en compte la llengua que l'usuari té configurada a la UI i es [baixa la puntuació](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/src/java/com/twitter/search/earlybird/search/relevance/scoring/FeatureBasedScoringFunction.java#L589) si el contingut no es coincideix. 
 
