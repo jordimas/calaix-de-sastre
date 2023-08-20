@@ -1,0 +1,8474 @@
+English: service order line
+es-ES: línea de orden de servicio
+es-MX: línea de pedido de servicio
+
+English: broadband
+es-ES: banda ancha
+es-MX: de banda ancha
+
+English: cardholder
+es-ES: titular de la tarjeta
+es-MX: titular de tarjeta
+
+English: copyright
+es-ES: copyright
+es-MX: propiedad intelectual
+
+English: face
+es-ES: tipo de letra
+es-MX: cara
+
+English: pointer
+es-ES: puntero
+es-MX: foco
+
+English: pointer
+es-ES: puntero
+es-MX: foco
+
+English: upgrade
+es-ES: Actualizar
+es-MX: actualizar
+
+English: dump
+es-ES: volcado de memoria
+es-MX: volcar
+
+English: authorization
+es-ES: autorización
+es-MX: autorización 
+
+English: authorization
+es-ES: autorización
+es-MX: autorización 
+
+English: DDoS attack
+es-ES: ataque DDoS
+es-MX: DDoS
+
+English: distributed denial of service attack
+es-ES: ataque de denegación de servicio distribuido
+es-MX: denegación de servicio distribuido
+
+English: administrator account
+es-ES: cuenta Administrador
+es-MX: cuenta de administrador
+
+English: administrator account
+es-ES: cuenta Administrador
+es-MX: cuenta de administrador
+
+English: built-in administrator account
+es-ES: cuenta Administrador
+es-MX: cuenta predefinida de administrador
+
+English: CSV
+es-ES: archivo .csv
+es-MX: CSV
+
+English: snippet
+es-ES: fragmento de código
+es-MX: fragmento
+
+English: key
+es-ES: clave
+es-MX: Llave
+
+English: key
+es-ES: clave
+es-MX: Llave
+
+English: remote
+es-ES: remoto
+es-MX: repositorio remoto
+
+English: remote
+es-ES: remoto
+es-MX: repositorio remoto
+
+English: In a meeting
+es-ES: En una reunión
+es-MX: En reunión
+
+English: hashing function
+es-ES: algoritmo hash
+es-MX: función hash
+
+English: sync
+es-ES: sincronizar
+es-MX: sincrónico
+
+English: sync
+es-ES: sincronizar
+es-MX: sincrónico
+
+English: discretionary hyphen
+es-ES: guión discrecional
+es-MX: guion discrecional
+
+English: optional hyphen
+es-ES: guion opcional
+es-MX: guión opcional
+
+English: write
+es-ES: escribir
+es-MX: escritura
+
+English: doc
+es-ES: documento
+es-MX: documentación
+
+English: doc
+es-ES: documento
+es-MX: documentación
+
+English: thread
+es-ES: subproceso
+es-MX: conversación
+
+English: thread
+es-ES: subproceso
+es-MX: conversación
+
+English: Microsoft Distributed Transaction Coordinator
+es-ES: Coordinador de transacciones distribuidas de Microsoft
+es-MX: Microsoft DTC (Coordinador de transacciones distribuidas)
+
+English: stream
+es-ES: hacer streaming
+es-MX: transmisión
+
+English: stream
+es-ES: hacer streaming
+es-MX: transmisión
+
+English: stream
+es-ES: streaming
+es-MX: transmisión
+
+English: stream
+es-ES: transmitir
+es-MX: transmisión
+
+English: cost accounting
+es-ES: contabilidad de costos
+es-MX: contabilidad de costes
+
+English: Last Name
+es-ES: Apellido
+es-MX: Apellidos
+
+English: prompt
+es-ES: aviso
+es-MX: solicitud
+
+English: controller
+es-ES: controladora
+es-MX: controlador
+
+English: controller
+es-ES: controladora
+es-MX: controlador
+
+English: silent setup
+es-ES: instalación no interactiva
+es-MX: instalación silenciosa
+
+English: desktop
+es-ES: escritorio
+es-MX: dispositivo de escritorio
+
+English: desktop
+es-ES: escritorio
+es-MX: dispositivo de escritorio
+
+English: invoice
+es-ES: factura
+es-MX: facturar
+
+English: invoice
+es-ES: factura
+es-MX: facturar
+
+English: web-based application
+es-ES: aplicación basada en web
+es-MX: aplicación web
+
+English: web-based application
+es-ES: aplicación basada en web
+es-MX: aplicación web
+
+English: build
+es-ES: compilar
+es-MX: compilación
+
+English: imaging
+es-ES: creación de imágenes
+es-MX: digitalización
+
+English: click
+es-ES: hacer clic
+es-MX: clic
+
+English: path
+es-ES: ruta de acceso
+es-MX: ruta
+
+English: MFA
+es-ES: MFA
+es-MX: ACA
+
+English: MFA
+es-ES: MFA
+es-MX: ACA
+
+English: bounding box
+es-ES: cuadro de límite
+es-MX: rectángulo de selección
+
+English: dialer
+es-ES: marcador clandestino
+es-MX: marcador
+
+English: license
+es-ES: licencia
+es-MX: licenciar
+
+English: license
+es-ES: licencia
+es-MX: licenciar
+
+English: bin
+es-ES: ubicación
+es-MX: rango
+
+English: drop
+es-ES: anular
+es-MX: depositar
+
+English: insert
+es-ES: inserción
+es-MX: insertar
+
+English: insert
+es-ES: inserción
+es-MX: insertar
+
+English: stacked
+es-ES: Apilado
+es-MX: apilado
+
+English: scanner
+es-ES: escáner
+es-MX: explorador
+
+English: scanner
+es-ES: escáner
+es-MX: explorador
+
+English: Printer Control Language
+es-ES: Lenguaje de control de impresora
+es-MX: Lenguaje de control de impresora (PCL)
+
+English: peer-to-peer network
+es-ES: red punto a punto
+es-MX: red entre iguales
+
+English: peer-to-peer network
+es-ES: red punto a punto (P2P)
+es-MX: red entre iguales
+
+English: peer-to-peer network
+es-ES: red punto a punto
+es-MX: red entre iguales
+
+English: peer-to-peer network
+es-ES: red punto a punto (P2P)
+es-MX: red entre iguales
+
+English: Internetwork Packet Exchange/Sequenced Packet Exchange
+es-ES: Internetwork Packet Exchange/Sequenced Packet Exchange
+es-MX: IPX/SPX (Internetwork Packet Exchange/Sequenced Packet Exchange)
+
+English: Server Manager
+es-ES: Administrador del servidor
+es-MX: Administrador de servidores
+
+English: Server Manager
+es-ES: Administrador del servidor
+es-MX: Administrador de servidores
+
+English: just-in-time
+es-ES: cuando es necesario
+es-MX: Just-In-Time
+
+English: Windows Resource Protection
+es-ES: Protección de recursos de Windows
+es-MX: Protección de recursos de Windows 
+
+English: freight terms
+es-ES: condiciones del flete
+es-MX: condiciones de flete
+
+English: stop
+es-ES: detener
+es-MX: Detente
+
+English: SMB
+es-ES: SMB
+es-MX: pyme
+
+English: SMB
+es-ES: SMB
+es-MX: pyme
+
+English: switch
+es-ES: modificador
+es-MX: cambiar
+
+English: dynamic random access memory
+es-ES: memoria dinámica de acceso aleatorio
+es-MX: DRAM (memoria dinámica de acceso aleatorio)
+
+English: extended key usage
+es-ES: EKU
+es-MX: uso mejorado de clave
+
+English: Voice over Internet Protocol
+es-ES: voz sobre IP
+es-MX: voz sobre IP (VoIP)
+
+English: mouse click
+es-ES: clic del mouse
+es-MX: clic del ratón
+
+English: safety stock
+es-ES: inventario de seguridad
+es-MX: existencias de seguridad
+
+English: caption
+es-ES: leyenda
+es-MX: subtítulo
+
+English: caption
+es-ES: descripción
+es-MX: subtítulo
+
+English: caption
+es-ES: leyenda
+es-MX: subtítulo
+
+English: DC
+es-ES: controlador de dominio
+es-MX: DC
+
+English: work center
+es-ES: centro de trabajo
+es-MX: recurso
+
+English: full screen
+es-ES: pantalla completa
+es-MX: en pantalla completa
+
+English: dial
+es-ES: marcar
+es-MX: dial
+
+English: dial
+es-ES: marcar
+es-MX: dial
+
+English: drive
+es-ES: unidad de disco
+es-MX: unidad
+
+English: drive
+es-ES: unidad de disco
+es-MX: unidad
+
+English: keyboard shortcut
+es-ES: método abreviado de teclado
+es-MX: función rápida de teclado
+
+English: keyboard shortcut
+es-ES: método abreviado de teclado
+es-MX: función rápida de teclado
+
+English: keyboard shortcut
+es-ES: acceso rápido de teclado
+es-MX: función rápida de teclado
+
+English: duplicate
+es-ES: duplicar
+es-MX: duplicado
+
+English: Post Office Protocol version 3
+es-ES: Protocolo de oficina de correos v.3
+es-MX: Protocolo de oficina de correo v.3
+
+English: salvage value
+es-ES: valor residual
+es-MX: valor remanente
+
+English: caller ID
+es-ES: identificador de llamada
+es-MX: Identificador de llamada
+
+English: caller ID
+es-ES: Id. de llamada
+es-MX: Identificador de llamada
+
+English: buffer
+es-ES: búfer
+es-MX: almacenar en búfer
+
+English: revenue
+es-ES: ingresos
+es-MX: ingreso
+
+English: Secure Hypertext Transfer Protocol
+es-ES: protocolo seguro de transferencia de hipertexto
+es-MX: protocolo seguro de transferencia de hipertexto (HTTPS)
+
+English: order line
+es-ES: línea de orden
+es-MX: línea de pedidos
+
+English: profile
+es-ES: generar perfiles
+es-MX: perfil
+
+English: purchase order
+es-ES: orden de compra
+es-MX: pedido de compra
+
+English: reminder
+es-ES: aviso
+es-MX: recordatorio
+
+English: basic input/output system
+es-ES: sistema básico de entrada y salida
+es-MX: sistema básico de entrada y salida (BIOS)
+
+English: FAQ
+es-ES: P+F
+es-MX: Preguntas más frecuentes
+
+English: FAQ
+es-ES: preguntas más frecuentes
+es-MX: Preguntas más frecuentes
+
+English: FAQ
+es-ES: P+F
+es-MX: Preguntas más frecuentes
+
+English: FAQ
+es-ES: preguntas frecuentes
+es-MX: Preguntas más frecuentes
+
+English: FAQ
+es-ES: Preguntas frecuentes
+es-MX: Preguntas más frecuentes
+
+English: purchase requisition
+es-ES: pedido de compra
+es-MX: solicitud de compra
+
+English: floppy disk
+es-ES: disquete
+es-MX: disco
+
+English: distinguished name
+es-ES: nombre distintivo
+es-MX: nombre distintivo (DN)
+
+English: unlink
+es-ES: desenlazar
+es-MX: desvincular
+
+English: voicemail
+es-ES: buzón de voz
+es-MX: correo de voz
+
+English: parity
+es-ES: paridad
+es-MX: de paridad
+
+English: parity
+es-ES: paridad
+es-MX: de paridad
+
+English: Photo Gallery
+es-ES: Galería fotográfica
+es-MX: Galería de fotos
+
+English: Photo Gallery
+es-ES: Galería fotográfica
+es-MX: Galería de fotos
+
+English: Windows Photo Gallery
+es-ES: Galería fotográfica de Windows
+es-MX: Galería de fotos de Windows
+
+English: em dash
+es-ES: guion largo
+es-MX: guión largo
+
+English: register
+es-ES: registrarse
+es-MX: registro
+
+English: register
+es-ES: registrar
+es-MX: registro
+
+English: Microsoft Reserved partition
+es-ES: partición reservada de Microsoft
+es-MX: partición reservada de Microsoft (MSR)
+
+English: artist
+es-ES: artista
+es-MX: intérprete
+
+English: switch
+es-ES: conmutador
+es-MX: cambiar
+
+English: switch
+es-ES: conmutador
+es-MX: cambiar
+
+English: ghosting
+es-ES: convertir en fantasma
+es-MX: conversión en fantasma
+
+English: cookie
+es-ES: Cookie
+es-MX: cookie
+
+English: Internet service provider
+es-ES: Proveedor de servicios de Internet
+es-MX: proveedor de acceso a Internet
+
+English: title
+es-ES: título
+es-MX: titularidad
+
+English: title
+es-ES: título
+es-MX: titularidad
+
+English: COA
+es-ES: COA
+es-MX: plan de cuentas
+
+English: index
+es-ES: índice
+es-MX: indexar
+
+English: index
+es-ES: índice
+es-MX: indexar
+
+English: self-monitoring, analysis, and reporting technology
+es-ES: tecnología de supervisión automática, análisis y generación de informes
+es-MX: tecnología de supervisión automática, análisis y generación de informes (SMART)
+
+English: work in process
+es-ES: trabajo en curso
+es-MX: trabajo en proceso
+
+English: WIP
+es-ES: trabajo en proceso (WIP)
+es-MX: WIP
+
+English: compact disc-recordable
+es-ES: disco compacto grabable
+es-MX: CD grabable
+
+English: compact disc-recordable
+es-ES: disco compacto grabable
+es-MX: CD grabable
+
+English: Group Policy
+es-ES: Directiva de grupo
+es-MX: directiva de grupo
+
+English: log
+es-ES: registro
+es-MX: registrar
+
+English: log
+es-ES: registro
+es-MX: registrar
+
+English: dynamic disk
+es-ES: disco dinámico
+es-MX: discos dinámicos
+
+English: host
+es-ES: host
+es-MX: alojar
+
+English: host
+es-ES: host
+es-MX: alojar
+
+English: mailbox
+es-ES: buzón
+es-MX: buzón de correo
+
+English: mailbox
+es-ES: buzón
+es-MX: buzón de correo
+
+English: dock
+es-ES: base
+es-MX: dock
+
+English: dock
+es-ES: base
+es-MX: dock
+
+English: IM
+es-ES: mensaje instantáneo
+es-MX: enviar mensaje instantáneo
+
+English: IM
+es-ES: mensaje instantáneo
+es-MX: enviar mensaje instantáneo
+
+English: instant message
+es-ES: mensaje instantáneo
+es-MX: enviar mensaje
+
+English: blanket order
+es-ES: orden abierta
+es-MX: pedido abierto
+
+English: deselect
+es-ES: Anular la selección
+es-MX: anular la selección
+
+English: cancel
+es-ES: anular la selección
+es-MX: cancelar
+
+English: cancel
+es-ES: Anular la selección
+es-MX: cancelar
+
+English: group
+es-ES: agrupar
+es-MX: grupo
+
+English: stash file
+es-ES: archivo intermedio
+es-MX: archivo stash
+
+English: Internet Engineering Task Force
+es-ES: Grupo de trabajo de ingeniería de Internet
+es-MX: Grupo de trabajo de ingeniería de Internet (IETF)
+
+English: host
+es-ES: hospedar
+es-MX: alojar
+
+English: archive
+es-ES: archivar
+es-MX: archivo
+
+English: archive
+es-ES: archivar
+es-MX: archivo
+
+English: requisition
+es-ES: solicitud
+es-MX: petición
+
+English: requisition
+es-ES: solicitud
+es-MX: petición
+
+English: markup
+es-ES: revisión
+es-MX: marcado
+
+English: markup
+es-ES: revisión
+es-MX: marcado
+
+English: Connection Manager
+es-ES: Administrador de conexiones
+es-MX: Connection Manager
+
+English: Connection Manager
+es-ES: Administrador de conexiones
+es-MX: Connection Manager
+
+English: playback
+es-ES: reproducción
+es-MX: reproducir
+
+English: playback
+es-ES: reproducción
+es-MX: reproducir
+
+English: Video CD
+es-ES: CD de video
+es-MX: CD de vídeo (VCD)
+
+English: email
+es-ES: correo
+es-MX: correo electrónico
+
+English: layer
+es-ES: nivel
+es-MX: capa
+
+English: layer
+es-ES: nivel
+es-MX: capa
+
+English: Windows driver foundation
+es-ES: Windows Driver Foundation
+es-MX: Windows Driver Foundation 
+
+English: discard
+es-ES: descartar
+es-MX: descarte
+
+English: discard
+es-ES: descartar
+es-MX: descarte
+
+English: original equipment manufacturer
+es-ES: fabricante original de equipos
+es-MX: fabricante de equipos originales
+
+English: conference
+es-ES: llamada en conferencia
+es-MX: conferencia
+
+English: Settings
+es-ES: configuración
+es-MX: Configuración
+
+English: personally identifiable information
+es-ES: datos personales
+es-MX: información de identificación personal
+
+English: provisioning site
+es-ES: sitio de aprovisionamiento
+es-MX: sitio de approvisionamiento
+
+English: Institute of Electrical and Electronic Engineers
+es-ES: Instituto de ingenieros de electricidad y electrónica
+es-MX: Instituto de ingenieros de electricidad y electrónica (IEEE)
+
+English: playlist
+es-ES: lista de música
+es-MX: lista de reproducción
+
+English: playlist
+es-ES: lista de música
+es-MX: lista de reproducción
+
+English: British Board of Film Classification
+es-ES: Información paneuropea sobre juegos (PEGI) y British Board of Film Classification (BBFC)
+es-MX: Consejo Británico de Clasificación de Películas
+
+English: BBFC
+es-ES: PEGI/BBFC
+es-MX: BBFC
+
+English: volume license key
+es-ES: clave de licencia por volumen
+es-MX: clave de licencias por volumen
+
+English: hiring requisition
+es-ES: solicitud de contratación
+es-MX: petición de contratación
+
+English: hiring requisition
+es-ES: solicitud de contratación
+es-MX: petición de contratación
+
+English: post
+es-ES: publicar
+es-MX: publicación
+
+English: post
+es-ES: publicar
+es-MX: publicación
+
+English: default
+es-ES: predeterminado
+es-MX: valor predeterminado
+
+English: default
+es-ES: predeterminado
+es-MX: valor predeterminado
+
+English: order header
+es-ES: cabecera de orden
+es-MX: cabecera de pedido
+
+English: network range
+es-ES: intervalo de redes
+es-MX: rango de redes
+
+English: display name
+es-ES: nombre para mostrar
+es-MX: nombre
+
+English: display name
+es-ES: nombre para mostrar
+es-MX: nombre
+
+English: capacity planning
+es-ES: planificación de capacidad
+es-MX: planeamiento de capacidad
+
+English: capacity planning
+es-ES: planificación de capacidad
+es-MX: planeamiento de capacidad
+
+English: Journal
+es-ES: Journal
+es-MX: Diario
+
+English: download
+es-ES: descargar
+es-MX: descarga
+
+English: download
+es-ES: descargar
+es-MX: descarga
+
+English: rating
+es-ES: calificación
+es-MX: clasificación
+
+English: display
+es-ES: pantalla
+es-MX: mostrar
+
+English: Import Video
+es-ES: Importar video
+es-MX: Importar vídeo
+
+English: sleep
+es-ES: suspensión
+es-MX: suspender
+
+English: cache
+es-ES: memoria caché
+es-MX: caché
+
+English: registry
+es-ES: Registro
+es-MX: registro
+
+English: connect
+es-ES: conectar(se)
+es-MX: conectar
+
+English: connect
+es-ES: conectar(se)
+es-MX: conectar
+
+English: media streaming
+es-ES: streaming de multimedia
+es-MX: streaming multimedia
+
+English: transfer
+es-ES: transferir
+es-MX: transferencia
+
+English: transfer
+es-ES: transferir
+es-MX: transferencia
+
+English: eject
+es-ES: expulsar
+es-MX: rechazar
+
+English: eject
+es-ES: expulsar
+es-MX: rechazar
+
+English: checkpoint
+es-ES: punto de control
+es-MX: punto de comprobación
+
+English: checkpoint
+es-ES: punto de control
+es-MX: punto de comprobación
+
+English: error
+es-ES: Error
+es-MX: error
+
+English: Challenge Handshake Authentication Protocol
+es-ES: Protocolo de autenticación por desafío mutuo
+es-MX: Protocolo de autenticación por desafío mutuo (CHAP)
+
+English: Boot Configuration Data
+es-ES: datos de la configuración de arranque
+es-MX: datos de la configuración de arranque (BCD)
+
+English: storyboard
+es-ES: guión gráfico
+es-MX: guion gráfico
+
+English: notebook
+es-ES: bloc de notas
+es-MX: cuaderno
+
+English: natural language searching
+es-ES: búsqueda en lenguaje natural
+es-MX: búsqueda en lenguage natural
+
+English: checkout
+es-ES: finalización de la compra
+es-MX: restauración
+
+English: checkout
+es-ES: finalización de la compra
+es-MX: restauración
+
+English: chat
+es-ES: charlar
+es-MX: chat
+
+English: switch
+es-ES: conmutador
+es-MX: cambiar
+
+English: switch
+es-ES: conmutador
+es-MX: cambiar
+
+English: table of contents
+es-ES: tabla de contenido
+es-MX: TDC
+
+English: logical device
+es-ES: unidad lógica
+es-MX: dispositivo lógico
+
+English: demo
+es-ES: demostración
+es-MX: demo
+
+English: navigate
+es-ES: ir
+es-MX: navegar
+
+English: navigate
+es-ES: ir
+es-MX: navegar
+
+English: offline
+es-ES: sin conexión
+es-MX: desconectado
+
+English: offline
+es-ES: sin conexión
+es-MX: desconectado
+
+English: to-do
+es-ES: pendiente
+es-MX: tarea
+
+English: Web service
+es-ES: servicio web
+es-MX: servicio Web
+
+English: Web service
+es-ES: servicio web
+es-MX: servicio Web
+
+English: URI
+es-ES: identificador URI
+es-MX: URI
+
+English: URI
+es-ES: identificador URI
+es-MX: URI
+
+English: Uniform Resource Identifier
+es-ES: Identificador uniforme de recursos
+es-MX: identificador uniforme de recursos
+
+English: bottom line
+es-ES: ganancias netas
+es-MX: beneficio
+
+English: end call
+es-ES: finalizar llamada
+es-MX: finalizar
+
+English: join
+es-ES: combinación
+es-MX: unirse
+
+English: distribution list
+es-ES: lista de distribución
+es-MX: lista de distribución 
+
+English: prepaid card
+es-ES: tarjeta prepaga
+es-MX: tarjeta de prepago
+
+English: mobile operator
+es-ES: operador celular
+es-MX: operador móvil
+
+English: carrier
+es-ES: operador
+es-MX: portadora
+
+English: BOM
+es-ES: L.M.
+es-MX: BOM
+
+English: BOM
+es-ES: L.M.
+es-MX: BOM
+
+English: dock
+es-ES: acoplar
+es-MX: dock
+
+English: dock
+es-ES: acoplar
+es-MX: dock
+
+English: computer
+es-ES: PC
+es-MX: Ordenador
+
+English: computer
+es-ES: equipo
+es-MX: Ordenador
+
+English: computer
+es-ES: equipo
+es-MX: Ordenador
+
+English: abandon
+es-ES: cancelar
+es-MX: abandonar
+
+English: view
+es-ES: vista
+es-MX: visualizar
+
+English: Internet Group Management Protocol
+es-ES: Protocolo de administración de grupos de Internet
+es-MX: Protocolo de administración de grupos de Internet (IGMP)
+
+English: Dialing
+es-ES: marcando
+es-MX: Marcando
+
+English: general ledger
+es-ES: contabilidad general
+es-MX: libro mayor
+
+English: general ledger
+es-ES: contabilidad general
+es-MX: libro mayor
+
+English: target
+es-ES: destino
+es-MX: objetivo
+
+English: target
+es-ES: destino
+es-MX: objetivo
+
+English: Layer Two Tunneling Protocol
+es-ES: protocolo de túnel de capa dos
+es-MX: protocolo de túnel de capa dos (L2TP)
+
+English: search folder
+es-ES: carpeta de búsquedas
+es-MX: carpeta de búsqueda
+
+English: prospect
+es-ES: cliente potencial
+es-MX: posible interesado
+
+English: peer
+es-ES: del mismo nivel
+es-MX: nodo del mismo nivel
+
+English: peer
+es-ES: del mismo nivel
+es-MX: nodo del mismo nivel
+
+English: payment method
+es-ES: Método de pago
+es-MX: método de pago
+
+English: payment method
+es-ES: forma de pago
+es-MX: método de pago
+
+English: payment method
+es-ES: forma de pago
+es-MX: método de pago
+
+English: call
+es-ES: llamar
+es-MX: llamada
+
+English: call
+es-ES: llamar
+es-MX: llamada
+
+English: Wi-Fi hotspot
+es-ES: zona cubierta Wi-Fi
+es-MX: zona Wi-Fi
+
+English: hotspot
+es-ES: zona cubierta
+es-MX: área relevante
+
+English: hotspot
+es-ES: zona con cobertura inalámbrica
+es-MX: área relevante
+
+English: hotspot
+es-ES: zona Wi-Fi
+es-MX: área relevante
+
+English: Display Configuration wizard
+es-ES: Asistente para configuración de pantalla
+es-MX: Asistente para configurar la pantalla
+
+English: undo
+es-ES: deshacer
+es-MX: fase de reversión
+
+English: address book
+es-ES: Libreta de direcciones
+es-MX: libreta de direcciones
+
+English: video cassette recorder
+es-ES: videocasetera
+es-MX: aparato de vídeo
+
+English: speed dial
+es-ES: marcado rápido
+es-MX: marcación rápida
+
+English: pitch
+es-ES: paso
+es-MX: rotación alrededor del eje x (pitch)
+
+English: pitch
+es-ES: paso
+es-MX: rotación alrededor del eje x (pitch)
+
+English: picking list
+es-ES: lista de picking
+es-MX: lista de selección
+
+English: notification
+es-ES: Notificación
+es-MX: notificación
+
+English: Whipped Cream Filling Button
+es-ES: botón Relleno de crema batida
+es-MX: botón Relleno de nata montada
+
+English: run time
+es-ES: tiempo de ejecución
+es-MX: duración
+
+English: run time
+es-ES: tiempo de ejecución
+es-MX: duración
+
+English: saved requisition
+es-ES: solicitud guardada
+es-MX: petición guardada
+
+English: roaming service
+es-ES: servicio de roaming
+es-MX: servicio de itinerancia
+
+English: payment terms
+es-ES: términos de pago
+es-MX: condiciones de pago
+
+English: workforce
+es-ES: personal
+es-MX: recursos
+
+English: memory leak
+es-ES: pérdida de memoria
+es-MX: fuga de memoria
+
+English: type
+es-ES: escribir
+es-MX: tipo
+
+English: type
+es-ES: escribir
+es-MX: tipo
+
+English: frame
+es-ES: trama
+es-MX: marco
+
+English: frame
+es-ES: trama
+es-MX: marco
+
+English: trap
+es-ES: captura
+es-MX: trapecio
+
+English: trap
+es-ES: captura
+es-MX: trapecio
+
+English: Web browser
+es-ES: navegador web
+es-MX: explorador web
+
+English: Web browser
+es-ES: navegador web
+es-MX: explorador web
+
+English: browser
+es-ES: navegador
+es-MX: explorador
+
+English: browser
+es-ES: navegador
+es-MX: explorador
+
+English: multi-function printer
+es-ES: impresora multifunción
+es-MX: impresora multifunción 
+
+English: back order
+es-ES: orden restante
+es-MX: pedido pendiente
+
+English: video capture device
+es-ES: dispositivo de captura de video
+es-MX: dispositivo de captura de vídeo
+
+English: ATM
+es-ES: ATM
+es-MX: cajero automático
+
+English: ATM
+es-ES: ATM
+es-MX: cajero automático
+
+English: object identifier
+es-ES: identificador de objetos
+es-MX: identificador de objeto
+
+English: response
+es-ES: respuesta
+es-MX: contestación
+
+English: stockkeeping unit
+es-ES: unidad de almacenamiento
+es-MX: referencia de almacén
+
+English: feed
+es-ES: feed
+es-MX: fuente
+
+English: busy
+es-ES: no disponible
+es-MX: ocupado
+
+English: Advanced Peer-to-Peer Networking
+es-ES: Advanced Peer-to-Peer Networking
+es-MX: APPN (Advanced Peer-to-Peer Networking)
+
+English: About
+es-ES: Acerca de
+es-MX: Información
+
+English: About
+es-ES: Acerca de
+es-MX: Información
+
+English: dump
+es-ES: volcado
+es-MX: volcar
+
+English: dump
+es-ES: volcado
+es-MX: volcar
+
+English: dump
+es-ES: volcado
+es-MX: volcar
+
+English: dependent
+es-ES: celda dependiente
+es-MX: dependiente
+
+English: highlighter
+es-ES: marcador de resaltado
+es-MX: marcador
+
+English: email
+es-ES: enviar correo
+es-MX: correo electrónico
+
+English: scale
+es-ES: escalar
+es-MX: modificar la escala
+
+English: scale
+es-ES: escalar
+es-MX: modificar la escala
+
+English: call
+es-ES: llamar
+es-MX: llamada
+
+English: outline
+es-ES: esquema
+es-MX: contorno
+
+English: order
+es-ES: orden
+es-MX: solicitar
+
+English: link
+es-ES: vincular
+es-MX: vínculo
+
+English: link
+es-ES: enlazar
+es-MX: vínculo
+
+English: link
+es-ES: vincular
+es-MX: vínculo
+
+English: link
+es-ES: Vincular
+es-MX: vínculo
+
+English: ActiveX component
+es-ES: componente ActiveX
+es-MX: componente Active X
+
+English: broadcast
+es-ES: difusión
+es-MX: difundir
+
+English: Feedback
+es-ES: reportes
+es-MX: Comentarios
+
+English: Complete the merge
+es-ES: Completa la combinación
+es-MX: Complete la combinación
+
+English: pattern
+es-ES: trama
+es-MX: patrón
+
+English: pattern
+es-ES: trama
+es-MX: patrón
+
+English: Complementary Metal Oxide Semiconductor
+es-ES: semiconductor complementario de óxido de metal
+es-MX: semiconductor complementario de óxido de metal (CMOS)
+
+English: technical account manager
+es-ES: responsable técnico de cuenta
+es-MX: responsable técnico de cuenta (TAM)
+
+English: bank statement
+es-ES: estado de cuenta de banco
+es-MX: extracto bancario
+
+English: hub
+es-ES: concentrador
+es-MX: centro de conectividad
+
+English: logon
+es-ES: iniciar sesión
+es-MX: inicio de sesión
+
+English: login
+es-ES: iniciar sesión
+es-MX: inicio de sesión
+
+English: time stamp
+es-ES: marca de tiempo
+es-MX: marca de hora
+
+English: time stamp
+es-ES: marca de tiempo
+es-MX: marca de hora
+
+English: copyright notice
+es-ES: aviso sobre derechos de autor
+es-MX: aviso de derechos de autor
+
+English: swap
+es-ES: cambiar
+es-MX: Intercambiar
+
+English: swap
+es-ES: intercambiar
+es-MX: Intercambiar
+
+English: account manager
+es-ES: administrador de cuentas
+es-MX: gestor de cuentas
+
+English: account manager
+es-ES: administrador de cuentas
+es-MX: gestor de cuentas
+
+English: provision
+es-ES: aprovisionar
+es-MX: disposición
+
+English: provision
+es-ES: aprovisionar
+es-MX: disposición
+
+English: detach
+es-ES: desasociar
+es-MX: ocultar
+
+English: banner
+es-ES: banner
+es-MX: mensaje emergente
+
+English: signature
+es-ES: firma
+es-MX: signatura
+
+English: signature
+es-ES: firma
+es-MX: signatura
+
+English: tab
+es-ES: pestaña
+es-MX: ficha
+
+English: load
+es-ES: carga
+es-MX: cargar
+
+English: hardware ID
+es-ES: Id. de hardware
+es-MX: Id. de hardware 
+
+English: keypad
+es-ES: teclado numérico
+es-MX: teclado
+
+English: Component Platform Interface
+es-ES: Interfaz de plataforma de componentes
+es-MX: Interfaz de plataforma de componentes (CPI)
+
+English: CPI
+es-ES: CPI
+es-MX: IRC
+
+English: Notes E-mailed To Me
+es-ES: Notas recibidas por correo
+es-MX: Notas recibidas por correo electrónico
+
+English: format
+es-ES: formatear
+es-MX: formato
+
+English: format
+es-ES: formatear
+es-MX: formato
+
+English: tap
+es-ES: puntear
+es-MX: tocar
+
+English: tap
+es-ES: puntear
+es-MX: tocar
+
+English: Advanced Program-to-Program Communication File Transfer Protocol
+es-ES: Advanced Program-to-Program Communication File Transfer Protocol
+es-MX: AFTP (Advanced Program-to-Program Communication File Transfer Protocol)
+
+English: isochronous
+es-ES: isócrono
+es-MX: isócrono 
+
+English: source document
+es-ES: documento origen
+es-MX: documento de origen
+
+English: source document
+es-ES: documento origen
+es-MX: documento de origen
+
+English: snip
+es-ES: recorte
+es-MX: recortar
+
+English: scan
+es-ES: digitalizar
+es-MX: digitalización
+
+English: scan
+es-ES: digitalizar
+es-MX: digitalización
+
+English: ink
+es-ES: escribir con lápiz
+es-MX: trazo
+
+English: ink
+es-ES: escribir con lápiz
+es-MX: trazo
+
+English: recording
+es-ES: grabación
+es-MX: Grabación
+
+English: digest
+es-ES: síntesis
+es-MX: hash
+
+English: finger
+es-ES: Finger
+es-MX: Insulto
+
+English: finger
+es-ES: Finger
+es-MX: Insulto
+
+English: application
+es-ES: aplicación
+es-MX: solicitud
+
+English: application
+es-ES: aplicación
+es-MX: solicitud
+
+English: end tag
+es-ES: etiqueta de cierre
+es-MX: etiqueta final
+
+English: private
+es-ES: privado
+es-MX: en privado
+
+English: connection manager
+es-ES: administrador de conexión
+es-MX: administrador de conexiones
+
+English: connection manager
+es-ES: administrador de conexión
+es-MX: administrador de conexiones
+
+English: Join
+es-ES: Unirse
+es-MX: Participar
+
+English: client access license
+es-ES: Licencia de acceso de cliente (CAL)
+es-MX: licencia de acceso de cliente
+
+English: Internet content provider
+es-ES: Proveedor de contenido de Internet
+es-MX: Proveedor de contenido Internet
+
+English: locale
+es-ES: configuración regional
+es-MX: ubicación
+
+English: locale
+es-ES: configuración regional
+es-MX: ubicación
+
+English: tablet
+es-ES: tablet PC
+es-MX: tableta
+
+English: on-premises
+es-ES: local
+es-MX: en el entorno local
+
+English: digital video recorder
+es-ES: grabadora de video digital
+es-MX: grabadora de vídeo digital
+
+English: dash
+es-ES: guión
+es-MX: guion
+
+English: attach
+es-ES: adjuntar
+es-MX: exponer
+
+English: attach
+es-ES: adjuntar
+es-MX: exponer
+
+English: clear
+es-ES: desactivar
+es-MX: borrar
+
+English: clear
+es-ES: desactivar
+es-MX: borrar
+
+English: mute
+es-ES: silenciar
+es-MX: desactivar notificaciones
+
+English: fixed cost
+es-ES: costo fijo
+es-MX: coste fijo
+
+English: ASR
+es-ES: ASR
+es-MX: RSEA
+
+English: inline movie
+es-ES: video insertado
+es-MX: vídeo insertado
+
+English: called subscriber ID string
+es-ES: cadena de Id. del abonado destinatario
+es-MX: cadena de Id. del abonado destinatario (CSID)
+
+English: Service Set Identifier
+es-ES: Identificador de red SSID
+es-MX: Identificador de red (SSID)
+
+English: Posterize
+es-ES: Posterización
+es-MX: Posterización 
+
+English: Spotlight
+es-ES: Noticias destacadas
+es-MX: Destacados
+
+English: sync
+es-ES: sincronización
+es-MX: sincrónico
+
+English: link
+es-ES: Vínculo
+es-MX: vínculo
+
+English: caller ID
+es-ES: Id. de llamada
+es-MX: Identificador de llamada
+
+English: edit
+es-ES: editar
+es-MX: edición
+
+English: dispatch
+es-ES: distribuir
+es-MX: enviar
+
+English: home network
+es-ES: red doméstica
+es-MX: red local
+
+English: offline
+es-ES: sin conexión
+es-MX: desconectado
+
+English: offline
+es-ES: sin conexión
+es-MX: desconectado
+
+English: cost center
+es-ES: centro de costo
+es-MX: centro de coste
+
+English: discoverable
+es-ES: reconocible
+es-MX: detectable
+
+English: discoverable
+es-ES: reconocible
+es-MX: detectable
+
+English: to-do
+es-ES: tarea pendiente
+es-MX: tarea
+
+English: to-do item
+es-ES: tarea
+es-MX: tarea pendiente
+
+English: signature
+es-ES: firma
+es-MX: signatura
+
+English: signature
+es-ES: firma
+es-MX: signatura
+
+English: Broadband Integrated Services Digital Network
+es-ES: Red digital de servicios integrados de banda ancha
+es-MX: Red digital de servicios integrados de banda ancha (B-ISDN)
+
+English: Shape Client
+es-ES: cliente de estilos
+es-MX: cliente de estilos 
+
+English: offline
+es-ES: sin conexión
+es-MX: desconectado
+
+English: minimum system requirements
+es-ES: requisitos mínimos de sistema
+es-MX: requisitos mínimos del sistema
+
+English: throughput
+es-ES: rendimiento
+es-MX: capacidad de proceso
+
+English: throughput
+es-ES: rendimiento
+es-MX: capacidad de proceso
+
+English: monitor
+es-ES: monitor
+es-MX: supervisar
+
+English: expiration date
+es-ES: fecha de caducidad
+es-MX: fecha de expiración
+
+English: expiration date
+es-ES: fecha de caducidad
+es-MX: fecha de expiración
+
+English: Enterprise Quality of Service
+es-ES: Calidad de servicio en empresas
+es-MX: Calidad de servicio en empresas (EQoS)
+
+English: territory
+es-ES: zona de ventas
+es-MX: territorio
+
+English: upgrade
+es-ES: actualización
+es-MX: actualizar
+
+English: sales invoice
+es-ES: factura de venta
+es-MX: factura de ventas
+
+English: SA
+es-ES: asociación de seguridad
+es-MX: Microsoft Software Assurance
+
+English: item
+es-ES: elemento
+es-MX: artículo
+
+English: variable cost
+es-ES: costo variable
+es-MX: coste variable
+
+English: bit rate
+es-ES: velocidad de bits
+es-MX: tasa de bits
+
+English: reading order
+es-ES: sentido de la lectura
+es-MX: orden de lectura
+
+English: port
+es-ES: portar
+es-MX: puerto
+
+English: port
+es-ES: portar
+es-MX: puerto
+
+English: story
+es-ES: artículo
+es-MX: historia
+
+English: story
+es-ES: artículo
+es-MX: historia
+
+English: en dash
+es-ES: guion corto
+es-MX: guión corto
+
+English: compact disc-rewritable
+es-ES: disco compacto regrabable
+es-MX: CD regrabable
+
+English: key
+es-ES: clave
+es-MX: Llave
+
+English: key
+es-ES: clave
+es-MX: Llave
+
+English: tabbed browsing
+es-ES: exploración por pestañas
+es-MX: exploración por fichas
+
+English: Reliability Analysis Component
+es-ES: Componente de análisis de confiabilidad
+es-MX: Componente de análisis de confiabilidad 
+
+English: medium
+es-ES: medio, a
+es-MX: medio grueso
+
+English: upload
+es-ES: cargar
+es-MX: carga
+
+English: upload
+es-ES: cargar
+es-MX: carga
+
+English: flip
+es-ES: voltear
+es-MX: girar
+
+English: flip
+es-ES: voltear
+es-MX: girar
+
+English: first-run experience
+es-ES: experiencia de primera ejecución
+es-MX: Primera vista de Windows
+
+English: downgrade
+es-ES: migrar a versión anterior
+es-MX: degradar
+
+English: Vibrate
+es-ES: vibración
+es-MX: Vibración
+
+English: subscribe
+es-ES: suscribirse
+es-MX: suscribir
+
+English: Automated System Recovery Preparation Wizard
+es-ES: Asistente para preparación de recuperación automática del sistema
+es-MX: Asistente para preparar la recuperación automática del sistema
+
+English: dock
+es-ES: acoplar
+es-MX: dock
+
+English: dock
+es-ES: acoplar
+es-MX: dock
+
+English: security breach
+es-ES: vulneración de seguridad
+es-MX: infracción de seguridad
+
+English: left-aligned
+es-ES: alineado a la izquierda
+es-MX: alineado a la izquierda 
+
+English: stalemate
+es-ES: ahogado
+es-MX: enroque
+
+English: share
+es-ES: recurso compartido
+es-MX: compartir
+
+English: share
+es-ES: recurso compartido
+es-MX: compartir
+
+English: media
+es-ES: medios
+es-MX: elementos multimedia
+
+English: data plan
+es-ES: plan de datos
+es-MX: servicio de datos
+
+English: Busy
+es-ES: No disponible
+es-MX: Ocupado
+
+English: Redundant Array of Independent Disks
+es-ES: matriz redundante de discos independientes
+es-MX: matriz redundante de discos independientes (RAID)
+
+English: skin
+es-ES: máscara
+es-MX: cambiar el aspecto visual 
+
+English: skin
+es-ES: máscara
+es-MX: cambiar el aspecto visual 
+
+English: Getting Started
+es-ES: Tareas iniciales
+es-MX: Introducción
+
+English: Getting Started
+es-ES: Tareas iniciales
+es-MX: Introducción
+
+English: Search
+es-ES: Buscar
+es-MX: Búsqueda
+
+English: indent
+es-ES: sangría
+es-MX: aplicar sangría
+
+English: indent
+es-ES: sangría
+es-MX: aplicar sangría
+
+English: pen
+es-ES: lápiz
+es-MX: bolígrafo
+
+English: frame
+es-ES: fotograma
+es-MX: marco
+
+English: mail
+es-ES: correo
+es-MX: correo electrónico
+
+English: email
+es-ES: correo
+es-MX: correo electrónico
+
+English: trace
+es-ES: traza
+es-MX: seguimiento
+
+English: Private
+es-ES: número privado
+es-MX: Número privado
+
+English: trim
+es-ES: recortar
+es-MX: reducción
+
+English: trim
+es-ES: recortar
+es-MX: reducción
+
+English: setup
+es-ES: instalación
+es-MX: configuración
+
+English: release
+es-ES: versión
+es-MX: liberar
+
+English: watermark
+es-ES: marca de agua
+es-MX: referencia
+
+English: unsubscribe
+es-ES: Cancelar suscripción
+es-MX: cancelar suscripción
+
+English: digital rights management
+es-ES: Digital Rights Management
+es-MX: administración de derechos digitales
+
+English: profile
+es-ES: Perfil
+es-MX: perfil
+
+English: view
+es-ES: vista
+es-MX: visualizar
+
+English: view
+es-ES: visualización
+es-MX: visualizar
+
+English: view
+es-ES: vista
+es-MX: visualizar
+
+English: ECP
+es-ES: ECP
+es-MX: médico de urgencias
+
+English: Information Rights Management
+es-ES: IRM
+es-MX: Information Rights Management
+
+English: start tag
+es-ES: etiqueta de apertura
+es-MX: etiqueta inicial
+
+English: CD-ROM File System
+es-ES: Sistema de archivos de CD-ROM
+es-MX: Sistema de archivos de CD-ROM (CDFS)
+
+English: Compact Disc File System
+es-ES: Sistema de archivos de CD-ROM
+es-MX: Sistema de archivos de CD-ROM (CDFS)
+
+English: routing
+es-ES: enrutamiento
+es-MX: cálculo de ruta
+
+English: routing
+es-ES: enrutamiento
+es-MX: cálculo de ruta
+
+English: view
+es-ES: ver
+es-MX: visualizar
+
+English: view
+es-ES: ver
+es-MX: visualizar
+
+English: Long tones
+es-ES: tonos continuos
+es-MX: Tonos largos
+
+English: sender
+es-ES: remitente
+es-MX: emisor
+
+English: stage
+es-ES: fase
+es-MX: agregar al "stage"
+
+English: competition
+es-ES: competencia
+es-MX: competición
+
+English: System Preparation Tool
+es-ES: Herramienta de preparación del sistema
+es-MX: Herramienta de preparación del sistema 
+
+English: Configuration Manager
+es-ES: Administrador de configuración
+es-MX: Configuration Manager
+
+English: Windows Hardware Quality Labs
+es-ES: Laboratorios de calidad de hardware de Windows
+es-MX: Laboratorios de calidad de hardware de Windows (WHQL)
+
+English: zoom
+es-ES: zoom
+es-MX: aplicar zoom
+
+English: evidence
+es-ES: evidencia
+es-MX: prueba
+
+English: massively multiplayer on-line game
+es-ES: juego multijugador masivo en línea
+es-MX: juego en línea multijugador masivo
+
+English: parent
+es-ES: primario
+es-MX: elemento primario
+
+English: transfer order line
+es-ES: línea de orden de transferencia
+es-MX: línea de pedido de transferencia
+
+English: chart
+es-ES: gráfico
+es-MX: lista de populares
+
+English: seal
+es-ES: sellar
+es-MX: sellado
+
+English: benchmark
+es-ES: medir
+es-MX: punto de referencia
+
+English: flag
+es-ES: marcar
+es-MX: marca
+
+English: invalid
+es-ES: no válido
+es-MX: inválido
+
+English: Panning Hand
+es-ES: Mano panorámica
+es-MX: Mano panorámica 
+
+English: Conference
+es-ES: conferencia
+es-MX: Conferencia
+
+English: sign up
+es-ES: registrarse
+es-MX: suscribirse
+
+English: New Number...
+es-ES: Nuevo número...
+es-MX: Nuevo n�mero...
+
+English: label
+es-ES: etiquetar
+es-MX: etiqueta
+
+English: mouse button
+es-ES: botón del mouse
+es-MX: botón de ratón
+
+English: alert
+es-ES: enviar alerta
+es-MX: alerta
+
+English: alert
+es-ES: enviar alerta
+es-MX: alerta
+
+English: alert
+es-ES: Alertar
+es-MX: alerta
+
+English: video card
+es-ES: tarjeta de video
+es-MX: tarjeta de vídeo
+
+English: scrap
+es-ES: recorte
+es-MX: residuo
+
+English: scrap
+es-ES: recorte
+es-MX: residuo
+
+English: benchmark
+es-ES: banco de pruebas
+es-MX: punto de referencia
+
+English: benchmark
+es-ES: banco de pruebas
+es-MX: punto de referencia
+
+English: instant messaging
+es-ES: mensajería instantánea
+es-MX: de mensajería instantánea
+
+English: IM
+es-ES: mensajería instantánea
+es-MX: enviar mensaje instantáneo
+
+English: IM
+es-ES: MI
+es-MX: enviar mensaje instantáneo
+
+English: Internet Storage Name Service
+es-ES: Servicio de nombres de almacenamiento de Internet
+es-MX: Servicio de nombres de almacenamiento de Internet 
+
+English: infrared
+es-ES: infrarrojos
+es-MX: infrarrojo
+
+English: Out of Office
+es-ES: fuera de la oficina
+es-MX: Fuera de la oficina
+
+English: share
+es-ES: acción
+es-MX: compartir
+
+English: frame grabber
+es-ES: capturador de video
+es-MX: capturador de vídeo
+
+English: key
+es-ES: tecla
+es-MX: Llave
+
+English: forward
+es-ES: desviar
+es-MX: reenviar
+
+English: forward
+es-ES: Desviar
+es-MX: reenviar
+
+English: volume licensing
+es-ES: licencias por volumen
+es-MX: programa de licencias por volumen
+
+English: quote
+es-ES: oferta
+es-MX: cotización
+
+English: quotation
+es-ES: oferta
+es-MX: presupuesto
+
+English: estimate
+es-ES: cotización
+es-MX: presupuesto
+
+English: Home
+es-ES: Página principal
+es-MX: Inicio
+
+English: online meeting
+es-ES: Reunión en línea
+es-MX: reunión en línea
+
+English: arrangement
+es-ES: organización
+es-MX: disposición
+
+English: video graphics adapter
+es-ES: tarjeta gráfica de video
+es-MX: tarjeta gráfica de vídeo
+
+English: run time
+es-ES: tiempo de ejecución
+es-MX: duración
+
+English: run time
+es-ES: tiempo de ejecución
+es-MX: duración
+
+English: liquid asset
+es-ES: activo corriente
+es-MX: activo líquido
+
+English: camera
+es-ES: cámara
+es-MX: Cámara
+
+English: hotfix
+es-ES: reparar
+es-MX: revisión
+
+English: owner
+es-ES: propietario/a
+es-MX: propietario
+
+English: trusted platform module
+es-ES: Módulo de plataforma segura
+es-MX: Módulo de plataforma segura (TPM)
+
+English: system-locked preinstallation
+es-ES: bloqueo de preinstalación de sistema
+es-MX: bloqueo de preinstalación de sistema (SLP)
+
+English: cash flow
+es-ES: flujo de caja
+es-MX: flujo de efectivo
+
+English: hold
+es-ES: retener
+es-MX: suspensión
+
+English: hold
+es-ES: retener
+es-MX: suspensión
+
+English: System Deployment Image
+es-ES: Sistema de implementación de imágenes
+es-MX: Sistema de implementación de imágenes (SDI)
+
+English: autonomous system
+es-ES: sistema autónomo
+es-MX: sistema autónomo (AS)
+
+English: moving average
+es-ES: promedio móvil
+es-MX: media móvil
+
+English: Microsoft Web Rating System
+es-ES: Sistema de clasificación de contenido web de Microsoft
+es-MX: Sistema de clasificación de contenido web de Microsoft 
+
+English: mobile
+es-ES: dispositivo móvil
+es-MX: para dispositivos móviles
+
+English: mobile
+es-ES: dispositivo móvil
+es-MX: para dispositivos móviles
+
+English: credentials
+es-ES: Credenciales
+es-MX: credenciales
+
+English: IM
+es-ES: de mensajería instantánea
+es-MX: enviar mensaje instantáneo
+
+English: Web Distributed Authoring and Versioning
+es-ES: Sistema distribuido de creación y control de versiones web
+es-MX: Sistema distribuido de creación y control de versiones web (WebDAV)
+
+English: Web-based Distributed Authoring and Versioning
+es-ES: Sistema distribuido de creación y control de versiones web
+es-MX: Sistema distribuido de creación y control de versiones web (WebDAV)
+
+English: World Wide Web Distributed Authoring and Versioning
+es-ES: Sistema distribuido de creación y control de versiones web
+es-MX: Sistema distribuido de creación y control de versiones web (WebDAV)
+
+English: live session
+es-ES: sesión en vivo
+es-MX: sesión en directo
+
+English: attachment
+es-ES: adjunto
+es-MX: datos adjuntos
+
+English: property promotion
+es-ES: promoción de propiedades
+es-MX: promoción de propiedad
+
+English: TV
+es-ES: televisión
+es-MX: TV
+
+English: TV
+es-ES: televisión
+es-MX: TV
+
+English: focus
+es-ES: foco
+es-MX: concentración
+
+English: Windows Setup
+es-ES: instalación de Windows
+es-MX: programa de instalación de Windows
+
+English: Shut Down
+es-ES: Apagar
+es-MX: apagar
+
+English: Digital Subscriber Line
+es-ES: línea de suscriptor digital
+es-MX: línea de suscriptor digital (ADSL)
+
+English: DSL
+es-ES: ADSL
+es-MX: DSL
+
+English: video port
+es-ES: puerto de video
+es-MX: puerto de vídeo
+
+English: filter
+es-ES: filtrar
+es-MX: filtro
+
+English: commitment
+es-ES: memoria asignada
+es-MX: compromiso
+
+English: Data Terminal Equipment
+es-ES: Equipo terminal de datos
+es-MX: Equipo terminal de datos (DTE)
+
+English: digital video disk
+es-ES: disco de video digital
+es-MX: disco de vídeo digital
+
+English: public key infrastructure
+es-ES: infraestructura de clave pública
+es-MX: infraestructura de clave pública (PKI)
+
+English: label
+es-ES: etiquetar
+es-MX: etiqueta
+
+English: label
+es-ES: etiquetar
+es-MX: etiqueta
+
+English: production order
+es-ES: orden de producción
+es-MX: pedido de producción
+
+English: unit price
+es-ES: precio por unidad
+es-MX: precio unitario
+
+English: journal entry
+es-ES: entrada de diaro
+es-MX: entrada del diario
+
+English: hook
+es-ES: enlace
+es-MX: tecla para colgar y descolgar
+
+English: hook
+es-ES: enlace
+es-MX: tecla para colgar y descolgar
+
+English: parental controls
+es-ES: control de padres
+es-MX: control parental
+
+English: headset
+es-ES: auriculares con micrófono
+es-MX: casco
+
+English: headset
+es-ES: auriculares
+es-MX: casco
+
+English: headset
+es-ES: auriculares
+es-MX: casco
+
+English: headset
+es-ES: auriculares con micrófono
+es-MX: casco
+
+English: Hard Rock
+es-ES: Rock pesado
+es-MX: Rock duro
+
+English: setting
+es-ES: ajuste
+es-MX: valor
+
+English: setting
+es-ES: ajuste
+es-MX: valor
+
+English: setting
+es-ES: Configuración
+es-MX: valor
+
+English: path
+es-ES: ruta de acceso
+es-MX: ruta
+
+English: Stretch
+es-ES: Elástico
+es-MX: Estirar
+
+English: Adults Only
+es-ES: Solo para adultos
+es-MX: Sólo para adultos
+
+English: No service
+es-ES: sin servicio
+es-MX: Sin servicio
+
+English: wildcard character
+es-ES: carácter genérico
+es-MX: carácter comodín
+
+English: 100baseT
+es-ES: 100BaseT
+es-MX: 100BaseTx
+
+English: bundle
+es-ES: paquete
+es-MX: agrupar
+
+English: resume
+es-ES: currículum vítae
+es-MX: reanudar
+
+English: curriculum vitae
+es-ES: currículum vítae
+es-MX: curriculum vitae
+
+English: preroll
+es-ES: preprocesar
+es-MX: datos en preprocesamiento
+
+English: preroll
+es-ES: preprocesar
+es-MX: datos en preprocesamiento
+
+English: close
+es-ES: cerrar
+es-MX: cierre
+
+English: close
+es-ES: cerrar
+es-MX: cierre
+
+English: ISP signup offer
+es-ES: oferta de suscripción a un proveedor de servicios de Internet
+es-MX: oferta de suscripción a un proveedor de servicios Internet
+
+English: ink
+es-ES: entrada de lápiz
+es-MX: trazo
+
+English: ink
+es-ES: entrada de lápiz
+es-MX: trazo
+
+English: archive
+es-ES: archivar
+es-MX: archivo
+
+English: point
+es-ES: apuntar
+es-MX: punto
+
+English: point
+es-ES: apuntar
+es-MX: punto
+
+English: stage
+es-ES: copia intermedia
+es-MX: agregar al "stage"
+
+English: stage
+es-ES: realizar copia intermedia
+es-MX: agregar al "stage"
+
+English: stage
+es-ES: realizar copia intermedia
+es-MX: agregar al "stage"
+
+English: email address
+es-ES: dirección de correo
+es-MX: dirección de correo electrónico
+
+English: email
+es-ES: correo
+es-MX: correo electrónico
+
+English: bundle
+es-ES: empaquetar
+es-MX: agrupar
+
+English: Inactive
+es-ES: Sin actividad
+es-MX: Inactivo
+
+English: Active Directory Domain Services
+es-ES: Servicios de dominio de Active Directory
+es-MX: Active Directory Domain Services
+
+English: Reading View
+es-ES: Diseño de lectura
+es-MX: Vista de lectura
+
+English: Home
+es-ES: Casa
+es-MX: Inicio
+
+English: downloader
+es-ES: descargador troyano
+es-MX: aplicación de descarga
+
+English: downloader
+es-ES: descargador troyano
+es-MX: aplicación de descarga
+
+English: passcode
+es-ES: código de acceso
+es-MX: versión en línea
+
+English: active requisition
+es-ES: solicitud activa
+es-MX: petición activa
+
+English: Home
+es-ES: Casa
+es-MX: Inicio
+
+English: World Clock
+es-ES: reloj internacional
+es-MX: Reloj internacional
+
+English: Payment Terms
+es-ES: Condiciones de pago
+es-MX: Términos de pago
+
+English: scan
+es-ES: digitalizar
+es-MX: digitalización
+
+English: scan
+es-ES: digitalizar
+es-MX: digitalización
+
+English: fuzzing
+es-ES: pruebas de vulnerabilidad con datos preparados
+es-MX: pruebas de vulnerabilidad ante datos aleatorios o inesperados
+
+English: company network
+es-ES: red de la compañía
+es-MX: red de la empresa
+
+English: search
+es-ES: búsqueda
+es-MX: buscar
+
+English: search
+es-ES: búsqueda
+es-MX: buscar
+
+English: transfer order
+es-ES: orden de transferencia
+es-MX: pedido de transferencia
+
+English: roam
+es-ES: activar roaming
+es-MX: usar el servicio de roaming
+
+English: Pan European Game Information
+es-ES: Información paneuropea sobre juegos
+es-MX: Información paneuropea sobre juegos (PEGI)
+
+English: processor
+es-ES: procesador
+es-MX: encargado
+
+English: processor
+es-ES: procesador
+es-MX: encargado
+
+English: enlist
+es-ES: dar de alta
+es-MX: inscribir
+
+English: pre-order
+es-ES: pedido por adelantado
+es-MX: pedir por adelantado
+
+English: Home service
+es-ES: servicio local
+es-MX: Red manual fijada
+
+English: spoof
+es-ES: suplantar electrónicamente
+es-MX: suplantar identidad (spoofing)
+
+English: brand colors
+es-ES: identidad cromática
+es-MX: colores que identifican la marca
+
+English: customer service
+es-ES: atención al cliente
+es-MX: servicio de asistencia al cliente
+
+English: Unknown
+es-ES: desconocido
+es-MX: Desconocido
+
+English: key ID
+es-ES: Id. de clave
+es-MX: id. clave
+
+English: extended amount
+es-ES: importe ampliado
+es-MX: importe total
+
+English: system builder
+es-ES: ensamblador de equipos
+es-MX: ensamblador o distribuidor de equipos
+
+English: system builder
+es-ES: ensamblador de equipos
+es-MX: ensamblador o distribuidor de equipos
+
+English: query
+es-ES: consultar
+es-MX: consulta
+
+English: prompt
+es-ES: solicitar
+es-MX: solicitud
+
+English: Group Policy container
+es-ES: Contenedor de directivas de grupo
+es-MX: Contenedor de directivas de grupo 
+
+English: ultra-mobile PC
+es-ES: PC ultramóvil
+es-MX: PC ultra móvil
+
+English: Internet Sharing
+es-ES: conexión compartida a Internet
+es-MX: Conexión compartida
+
+English: Infrared Data Association
+es-ES: Protocolo de asociación de datos por infrarrojos
+es-MX: Protocolo de asociación de datos por infrarrojos (IrDA)
+
+English: current
+es-ES: corriente
+es-MX: al corriente
+
+English: current
+es-ES: corriente
+es-MX: al corriente
+
+English: URL
+es-ES: dirección URL
+es-MX: URL
+
+English: right angle bracket
+es-ES: corchete angular de cierre
+es-MX: corchete angular de cierre 
+
+English: pan
+es-ES: desplazamiento lateral
+es-MX: presionar y mover
+
+English: checkpoint
+es-ES: punto de control
+es-MX: punto de comprobación
+
+English: handwriting recognizer
+es-ES: Reconocedor de escritura a mano
+es-MX: Reconocedor de escritura a mano 
+
+English: LPR
+es-ES: LPR
+es-MX: Line Printer Remote (LPR)
+
+English: Line Printer Remote
+es-ES: Line Printer Remote
+es-MX: Line Printer Remote (LPR)
+
+English: partner
+es-ES: asociado
+es-MX: partner
+
+English: liquidity ratio
+es-ES: indicador de liquidez
+es-MX: tasa de liquidez
+
+English: Strong Language
+es-ES: Lenguaje muy soez
+es-MX: Lenguage muy soez
+
+English: item number
+es-ES: número de producto
+es-MX: número de artículo
+
+English: kit item
+es-ES: producto del kit
+es-MX: artículo de kit
+
+English: kit item
+es-ES: producto del kit
+es-MX: artículo de kit
+
+English: bulk order
+es-ES: Pedido al por mayor
+es-MX: pedido al por mayor
+
+English: key
+es-ES: clave
+es-MX: Llave
+
+English: spam
+es-ES: spam
+es-MX: correo no deseado
+
+English: sales stage
+es-ES: fase de venta
+es-MX: fase de ventas
+
+English: mail server
+es-ES: servidor de correo
+es-MX: servidor de correo electrónico
+
+English: mail server
+es-ES: servidor de correo
+es-MX: servidor de correo electrónico
+
+English: email server
+es-ES: servidor de correo
+es-MX: servidor de correo electrónico
+
+English: key performance indicator
+es-ES: indicador clave de rendimiento
+es-MX: indicador de rendimiento clave
+
+English: Settings Management Interface
+es-ES: interfaz de administración de configuración
+es-MX: interfaz de administración de configuración (SMI)
+
+English: NWLink IPX/SPX/NetBIOS Compatible Transport Protocol
+es-ES: Protocolo de transporte compatible con NWLink IPX/SPX/NetBIOS
+es-MX: Protocolo de transporte compatible con NWLink IPX/SPX/NetBIOS 
+
+English: nickname
+es-ES: sobrenombre
+es-MX: alias
+
+English: data region
+es-ES: área de datos
+es-MX: región de datos
+
+English: inventory order
+es-ES: orden de inventario
+es-MX: pedido de inventario
+
+English: out of memory
+es-ES: memoria agotada
+es-MX: memoria insuficiente
+
+English: Family Safety
+es-ES: Seguridad familiar
+es-MX: Protección infantil
+
+English: feature
+es-ES: función 
+es-MX: característica
+
+English: feature
+es-ES: función
+es-MX: característica
+
+English: hyphen
+es-ES: guión
+es-MX: guion
+
+English: state
+es-ES: condición
+es-MX: estado
+
+English: user mode
+es-ES: modo usuario
+es-MX: modo de usuario
+
+English: user mode
+es-ES: modo usuario
+es-MX: modo de usuario
+
+English: inventory
+es-ES: inventario
+es-MX: inventariar
+
+English: group
+es-ES: agrupar
+es-MX: grupo
+
+English: Speech
+es-ES: Fragmento hablado
+es-MX: Voz
+
+English: handshake
+es-ES: protocolo de enlace
+es-MX: apretón de manos
+
+English: handshake
+es-ES: protocolo de enlace
+es-MX: apretón de manos
+
+English: requisition
+es-ES: pedido
+es-MX: petición
+
+English: requisition
+es-ES: solicitud
+es-MX: petición
+
+English: requisition
+es-ES: solicitud
+es-MX: petición
+
+English: parts requisition
+es-ES: solicitud de piezas
+es-MX: petición
+
+English: parts requisition
+es-ES: solicitud de partes
+es-MX: petición
+
+English: exception handler
+es-ES: controlador de excepciones
+es-MX: controlador de excepción
+
+English: PIN unlock key
+es-ES: código de desbloqueo de PIN 
+es-MX: código de desbloqueo PIN
+
+English: multitenancy
+es-ES: multiempresa
+es-MX: arquitectura multiempresa
+
+English: Guest account
+es-ES: cuenta de invitado
+es-MX: cuenta Invitado
+
+English: Guest account
+es-ES: Cuenta de invitado
+es-MX: cuenta Invitado
+
+English: Guest account
+es-ES: cuenta de invitado
+es-MX: cuenta Invitado
+
+English: moving average trendline
+es-ES: línea de tendencia de promedio móvil
+es-MX:  línea de tendencia de media móvil
+
+English: platform configuration register
+es-ES: registro de configuración de la plataforma
+es-MX: registro de configuración de la plataforma 
+
+English: volume master key
+es-ES: clave maestra de volumen
+es-MX: clave maestra de volumen 
+
+English: closed captioning
+es-ES: subtítulos
+es-MX: subtítulos (CC)
+
+English: phone
+es-ES: smartphone
+es-MX: teléfono
+
+English: IL
+es-ES: nivel de integridad
+es-MX: IL
+
+English: run level
+es-ES: nivel de ejecución
+es-MX: nivel de ejecución 
+
+English: User Interface Privilege Isolation
+es-ES: UIPI
+es-MX: Aislamiento de privilegios en interfaz de usuario
+
+English: in-memory patching
+es-ES: aplicar revisión en memoria
+es-MX: aplicar revisión en memoria 
+
+English: Windows AIK
+es-ES: AIK de Windows
+es-MX: AIK de Windows 
+
+English: bank wire transfer
+es-ES: transferencias bancarias
+es-MX: transferencia bancaria
+
+English: full packaged product
+es-ES: producto de paquete completo
+es-MX: producto empaquetado completo
+
+English: skill
+es-ES: aptitud
+es-MX: capacidad
+
+English: directory ID
+es-ES: identificación de directorio
+es-MX: identificador de directorio
+
+English: posting account
+es-ES: cuenta auxiliar
+es-MX: cuenta de registro
+
+English: reason code
+es-ES: código de auditoría
+es-MX: código de motivo
+
+English: estimate at completion
+es-ES: costo estimado al finalizar
+es-MX: coste estimado al finalizar
+
+English: tap
+es-ES: pulsar
+es-MX: tocar
+
+English: orbit
+es-ES: hacer orbitar
+es-MX: órbita
+
+English: embed a video
+es-ES: insertar un video
+es-MX: insertar un vídeo
+
+English: Embed videos
+es-ES: Insertar videos
+es-MX: Insertar vídeos
+
+English: Inbox
+es-ES: bandeja de entrada
+es-MX: Bandeja de entrada
+
+English: nudge
+es-ES: zumbido
+es-MX: sugerencia de productividad
+
+English: mean opinion score
+es-ES: mean opinion score
+es-MX: puntuación de opinión media
+
+English: star
+es-ES: estrella
+es-MX: marcar con una estrella
+
+English: source file
+es-ES: archivo de origen
+es-MX: archivo de código fuente
+
+English: fix
+es-ES: arreglo
+es-MX: corregir
+
+English: intellectual property
+es-ES: propiedad intelectual
+es-MX: propiedad intelectual e industrial
+
+English: 1980 United Nations Convention on Contracts for the International Sale of Goods
+es-ES: Convención de las Naciones Unidas sobre los contratos de compraventa internacional de mercaderías de 1980
+es-MX: Convención de las Naciones Unidas sobre los Contratos de Compraventa Internacional de Mercadería de 1980
+
+English: account manager
+es-ES: gerente de cuentas
+es-MX: gestor de cuentas
+
+English: accounts payable
+es-ES: cuentas por pagar
+es-MX: proveedores
+
+English: administer
+es-ES: administrar
+es-MX: gestionar
+
+English: adverse final judgment
+es-ES: fallo final adverso
+es-MX: sentencia adversa que se dicte con carácter firme y definitivo
+
+English: affiliate
+es-ES: afiliada
+es-MX: afiliado
+
+English: agent
+es-ES: mandatario
+es-MX: agente
+
+English: agreement
+es-ES: contrato
+es-MX: acuerdo
+
+English: annual installment
+es-ES: cuota anual
+es-MX: plazos anuales
+
+English: applicable law
+es-ES: ley aplicable
+es-MX: legislación aplicable
+
+English: be bound by
+es-ES: aceptan someterse
+es-MX: estar obligado por
+
+English: billing terms
+es-ES: términos de facturación
+es-MX: condiciones de facturación
+
+English: buy-out option
+es-ES: opción de compra
+es-MX: opción de compra completa
+
+English: claim
+es-ES: reclamo
+es-MX: reclamar
+
+English: compliance verification
+es-ES: verificación de cumplimiento
+es-MX: verificación del cumplimiento
+
+English: copyright
+es-ES: derechos de autor
+es-MX: propiedad intelectual
+
+English: date of renewal
+es-ES: fecha de renovación
+es-MX: fecha de prórroga
+
+English: default administrator
+es-ES: administrador predefinido
+es-MX: administrador predeterminado
+
+English: device CAL
+es-ES: CAL para dispositivo
+es-MX: CAL de dispositivo
+
+English: divestiture
+es-ES: enajenación
+es-MX: desinversión
+
+English: effect of termination
+es-ES: efecto de la terminación
+es-MX: efecto de la resolución
+
+English: effective date
+es-ES: fecha de entrada en vigencia
+es-MX: fecha de entrada en vigor
+
+English: enrolled affiliate
+es-ES: afiliada inscrita
+es-MX: filial inscrita
+
+English: enterprise
+es-ES: Enterprise
+es-MX: empresa
+
+English: legal entity
+es-ES: persona jurídica
+es-MX: entidad jurídica
+
+English: legal entity
+es-ES: persona jurídica
+es-MX: entidad jurídica
+
+English: exclusive remedy
+es-ES: único recurso
+es-MX: único remedio
+
+English: expiration
+es-ES: vencimiento
+es-MX: expiración
+
+English: expiration date
+es-ES: fecha de vencimiento
+es-MX: fecha de expiración
+
+English: export jurisdiction
+es-ES: jurisdicción de exportación
+es-MX: jurisdicción en materia de exportaciones
+
+English: External Connector license
+es-ES: Licencia de conector externo
+es-MX: External Connector License
+
+English: final adjudication
+es-ES: Tribunal de última instancia
+es-MX: sentencia firme y definitiva
+
+English: force majeure
+es-ES: Fuerza mayor o caso fortuito
+es-MX: fuerza mayor
+
+English: fraudulent misrepresentation
+es-ES: declaraciones fraudulentas
+es-MX: falsa manifestación fraudulenta
+
+English: fulfillment
+es-ES: entrega
+es-MX: proceso de entrega
+
+English: government entity
+es-ES: entidad gubernamental
+es-MX: entidad pública
+
+English: implied
+es-ES: implícita
+es-MX: implícito
+
+English: infringement
+es-ES: violación
+es-MX: infracción de derechos
+
+English: installments of the price
+es-ES: cuotas del precio
+es-MX: plazos del precio
+
+English: laws and regulations
+es-ES: leyes y regulaciones
+es-MX: leyes y reglamentos
+
+English: lease
+es-ES: alquilar
+es-MX: arrendamiento
+
+English: lease
+es-ES: alquilar
+es-MX: arrendamiento
+
+English: liability
+es-ES: responsabilidad
+es-MX: pasivo
+
+English: liability
+es-ES: responsabilidad
+es-MX: pasivo
+
+English: license grant
+es-ES: otorgamiento de licencia
+es-MX: concesión de licencias
+
+English: limited product warranty
+es-ES: garantía limitada del producto
+es-MX: garantía limitada para los productos
+
+English: material breach of an obligation
+es-ES: incumplimiento sustancial de una obligación
+es-MX: incumplimiento grave de una obligación
+
+English: merchantability
+es-ES: comerciabilidad
+es-MX: satisfacción
+
+English: Microsoft account manager
+es-ES: gerente de cuentas Microsoft
+es-MX: gestor de cuentas de Microsoft
+
+English: Microsoft approved fulfillment source
+es-ES: proveedor aprobado por Microsoft
+es-MX: fuente de suministro aprobada por Microsoft
+
+English: Open Value Subscription Agreement
+es-ES: Contrato de licencia de suscripción Open Value
+es-MX: Contrato Open Subscription License
+
+English: Open Value Agreement
+es-ES: Contrato de licencia Open Value
+es-MX: Contrato Open Value
+
+English: misappropriation
+es-ES: apropiación indebida
+es-MX: violación de secretos empresariales
+
+English: non-exclusivity
+es-ES: sin exclusividad
+es-MX: ausencia de exclusividad
+
+English: non-infringing
+es-ES: sin violación de
+es-MX: ausencia de infracción
+
+English: non-Microsoft product
+es-ES: producto ajeno a Microsoft
+es-MX: producto que no es de Microsoft
+
+English: notices and online access contact
+es-ES: contacto para notificaciones y acceso en línea
+es-MX: contacto para notificaciones y acceso online
+
+English: online access
+es-ES: acceso en línea
+es-MX: acceso online
+
+English: order
+es-ES: pedir
+es-MX: solicitar
+
+English: party
+es-ES: parte
+es-MX: fiesta
+
+English: personal injury
+es-ES: lesión personal
+es-MX: daños corporales
+
+English: price level
+es-ES: nivel de precio
+es-MX: nivel de precios
+
+English: printed name
+es-ES: nombre en letra de imprenta
+es-MX: nombre en mayúsculas
+
+English: proof of payment
+es-ES: prueba del pago
+es-MX: justificante de pago
+
+English: qualified desktop
+es-ES: equipos de escritorio calificados
+es-MX: desktop cualificado
+
+English: qualified user
+es-ES: usuario calificado
+es-MX: usuario cualificado
+
+English: re-image
+es-ES: reemplazar copias
+es-MX: recrear la imagen
+
+English: re-image
+es-ES: reemplazar copias
+es-MX: recrear la imagen
+
+English: re-imaging rights
+es-ES: derecho a reemplazar copias
+es-MX: derechos a reemplazar copias
+
+English: release
+es-ES: lanzamiento
+es-MX: liberar
+
+English: renewal order
+es-ES: pedido de renovación
+es-MX: solicitud de prórroga
+
+English: renewal term
+es-ES: período de renovación
+es-MX: periodo de prórroga
+
+English: rent
+es-ES: arrendar
+es-MX: alquilar
+
+English: representation
+es-ES: declaración
+es-MX: manifestación
+
+English: condition
+es-ES: condición
+es-MX: afección
+
+English: settlement
+es-ES: conciliación
+es-MX: acuerdo transaccional
+
+English: Software Assurance benefit
+es-ES: beneficios de Software Assurance
+es-MX: Beneficio de Software Assurance
+
+English: Software Assurance benefits contact
+es-ES: Contacto para beneficios de Software Assurance
+es-MX: contacto para los beneficios de Software Assurance
+
+English: Software Assurance Membership
+es-ES: Membresía de Software Assurance
+es-MX: Pertenencia a Software Assurance
+
+English: Software Assurance Membership program
+es-ES: Programa de membresía de Software Assurance
+es-MX: programa de pertenencia a Software Assurance
+
+English: step-up
+es-ES: ascender de nivel
+es-MX: actualización a edición superior
+
+English: sublicense
+es-ES: sublicenciar
+es-MX: sublicencia
+
+English: subsection
+es-ES: subsección
+es-MX: subapartado
+
+English: take effect
+es-ES: entrará en vigencia
+es-MX: entrar en vigor
+
+English: terminate an agreement
+es-ES: terminar
+es-MX: resolver un contrato
+
+English: termination of an agreement
+es-ES: terminación
+es-MX: resolución de un contrato
+
+English: termination date
+es-ES: fecha de terminación
+es-MX: fecha de resolución
+
+English: terms of an agreement
+es-ES: términos de un contrato
+es-MX: cláusulas de un contrato
+
+English: third party
+es-ES: terceros
+es-MX: tercero
+
+English: tort
+es-ES: daño extracontractual
+es-MX: responsabilidad extracontractual
+
+English: trade secret
+es-ES: secreto comercial
+es-MX: secreto empresarial
+
+English: transfer
+es-ES: transferir
+es-MX: transferencia
+
+English: transfer restriction
+es-ES: restricción a la transferencia
+es-MX: restricción a la transmisión
+
+English: transferee
+es-ES: parte receptora
+es-MX: adquirente
+
+English: TRIPs agreement
+es-ES: Acuerdo de la OMC sobre los Aspectos de los Derechos de Propiedad Intelectual relacionados con el Comercio (ADPIC)
+es-MX: Acuerdo TRIPS
+
+English: use
+es-ES: uso
+es-MX: utilizar
+
+English: use
+es-ES: usar
+es-MX: utilizar
+
+English: user CAL
+es-ES: CAL de Usuario
+es-MX: CAL de usuario
+
+English: verifying compliance
+es-ES: verificación de cumplimiento
+es-MX: verificación del cumplimiento
+
+English: Windows Desktop Operating System Upgrade
+es-ES: Actualización de sistema operativo Windows Desktop
+es-MX: Actualización del Sistema Operativo de Equipo de Escritorio Windows
+
+English: access
+es-ES: conectarse
+es-MX: acceso
+
+English: access
+es-ES: acceder
+es-MX: acceso
+
+English: judgment
+es-ES: fallo
+es-MX: sentencia
+
+English: step-up
+es-ES: ascenso a edición superior
+es-MX: actualización a edición superior
+
+English: reply
+es-ES: responder
+es-MX: respuesta
+
+English: subscribed
+es-ES: suscrito
+es-MX: inscrito
+
+English: speaker volume
+es-ES: volumen del altavoz
+es-MX: volumen de altavoz
+
+English: route
+es-ES: redirigir
+es-MX: ruta
+
+English: incoming area
+es-ES: área de conversaciones entrantes
+es-MX: �rea de conversaciones entrantes
+
+English: in a meeting
+es-ES: en reunión
+es-MX: En reuni�n
+
+English: caller
+es-ES: autor de la llamada
+es-MX: autor de llamada
+
+English: troubleshoot
+es-ES: solución de problemas
+es-MX: solucionar problemas
+
+English: release
+es-ES: lanzar
+es-MX: liberar
+
+English: release
+es-ES: lanzar
+es-MX: liberar
+
+English: run
+es-ES: ejecutar
+es-MX: ejecución
+
+English: text
+es-ES: mensaje de texto
+es-MX: enviar SMS
+
+English: near field communication
+es-ES: comunicación de campo cercano
+es-MX: transmisión de datos en proximidad
+
+English: deprecated
+es-ES: desusado
+es-MX: en desuso
+
+English: GST
+es-ES: GST
+es-MX: impuesto sobre bienes y servicios (IBS)
+
+English: storage card
+es-ES: tarjeta de memoria
+es-MX: tarjeta de almacenamiento
+
+English: filter
+es-ES: filtrar
+es-MX: filtro
+
+English: filter
+es-ES: filtrar
+es-MX: filtro
+
+English: run history
+es-ES: historial de ejecución 
+es-MX: historial de ejecución
+
+English: Agenda view
+es-ES: Vista de agenda
+es-MX: vista Agenda
+
+English: branch
+es-ES: ramificación
+es-MX: rama
+
+English: group IM
+es-ES: sesión de mensajería instantánea grupal
+es-MX: chat grupal
+
+English: pin
+es-ES: anclar
+es-MX: chincheta
+
+English: pin
+es-ES: marcar
+es-MX: chincheta
+
+English: unpin
+es-ES: desmarcar
+es-MX: desanclar
+
+English: main video
+es-ES: video principal
+es-MX: vídeo principal
+
+English: globally routable user agent URI
+es-ES: URI de agente de usuario globalmente enrutable
+es-MX: URI de agente de usuario globalmente enrutable 
+
+English: slide
+es-ES: diapositiva
+es-MX: deslizar
+
+English: ring
+es-ES: hacer sonar
+es-MX: anillo
+
+English: Auto Fill
+es-ES: Autorrellenąr
+es-MX: Autorellenar
+
+English: biometrics
+es-ES: biometría
+es-MX: cálculos biométricos
+
+English: biometrics
+es-ES: biometría
+es-MX: cálculos biométricos
+
+English: Bird’s eye
+es-ES: Vista aérea
+es-MX: Vista de pájaro
+
+English: Bird’s eye
+es-ES: Vista aérea
+es-MX: Vista de pájaro
+
+English: roaming
+es-ES: roaming
+es-MX: itinerancia
+
+English: junk
+es-ES: correo no deseado
+es-MX: desplazar al correo no deseado
+
+English: junk
+es-ES: correo no deseado
+es-MX: desplazar al correo no deseado
+
+English: sales order line
+es-ES: línea de orden de venta
+es-MX: línea de pedidos de ventas
+
+English: publish
+es-ES: publicar
+es-MX: hacer "publish"
+
+English: pan
+es-ES: movimiento panorámico
+es-MX: presionar y mover
+
+English: pan
+es-ES: movimiento panorámico
+es-MX: presionar y mover
+
+English: zoom
+es-ES: zoom
+es-MX: aplicar zoom
+
+English: zoom
+es-ES: zoom
+es-MX: aplicar zoom
+
+English: publisher
+es-ES: publicador
+es-MX: editor
+
+English: park
+es-ES: detener
+es-MX: estacionar
+
+English: park
+es-ES: detener
+es-MX: estacionar
+
+English: unpark
+es-ES: reactivar
+es-MX: cancelar estacionamiento
+
+English: unpark
+es-ES: reactivar
+es-MX: cancelar estacionamiento
+
+English: quad
+es-ES: cuádruplo
+es-MX: cuádriceps
+
+English: quad
+es-ES: cuádruplo
+es-MX: cuádriceps
+
+English: cycle power
+es-ES: apagar y encender
+es-MX: desactivar y activar
+
+English: caller
+es-ES: autor de la llamada
+es-MX: autor de llamada
+
+English: contact object
+es-ES: objeto de contacto
+es-MX: objeto contacto
+
+English: pair
+es-ES: emparejar
+es-MX: enlazar
+
+English: pair
+es-ES: emparejar
+es-MX: enlazar
+
+English: CEP
+es-ES: CEP
+es-MX: médico rehabilitador
+
+English: cellular network
+es-ES: red de telefonía celular
+es-MX: red de telefonía móvil
+
+English: cellular
+es-ES: red celular
+es-MX: red de telefonía móvil
+
+English: Partner ID
+es-ES: Id. de asociado
+es-MX: Id. de partner
+
+English: video carousel
+es-ES: secuencia de video
+es-MX: secuencia de vídeo
+
+English: voice clip
+es-ES: mensaje de voz
+es-MX: clip de voz
+
+English: Home
+es-ES: Principal
+es-MX: Inicio
+
+English: Home
+es-ES: Principal
+es-MX: Inicio
+
+English: pairing
+es-ES: emparejamiento
+es-MX: sincronización
+
+English: Jump List
+es-ES: Jump List
+es-MX: Lista de accesos directos
+
+English: Jump List
+es-ES: Jump List
+es-MX: Lista de accesos directos
+
+English: redial
+es-ES: volver a marcar
+es-MX: remarcado
+
+English: redial
+es-ES: volver a marcar
+es-MX: remarcado
+
+English: text
+es-ES: enviar mensaje de texto
+es-MX: enviar SMS
+
+English: dismiss
+es-ES: ignorar
+es-MX: descartar
+
+English: missed call
+es-ES: Llamada perdida
+es-MX: llamada perdida
+
+English: camera
+es-ES: cámara
+es-MX: Cámara
+
+English: ringer
+es-ES: timbre
+es-MX: tono
+
+English: ringer
+es-ES: timbre
+es-MX: tono
+
+English: boundary feedback
+es-ES: indicación de límite
+es-MX: indicación de límite 
+
+English: BMR
+es-ES: BMR
+es-MX: TMB
+
+English: BMR
+es-ES: BMR
+es-MX: TMB
+
+English: differencing chain
+es-ES: cadena de diferenciación
+es-MX: cadena de diferenciación 
+
+English: About
+es-ES: Acerca de
+es-MX: Información
+
+English: About
+es-ES: Acerca de
+es-MX: Información
+
+English: all-in-one card reader
+es-ES: lector de tarjetas multiformato
+es-MX: lector de tarjetas multi formato
+
+English: peer
+es-ES: del mismo nivel
+es-MX: nodo del mismo nivel
+
+English: peer
+es-ES: del mismo nivel
+es-MX: nodo del mismo nivel
+
+English: tag
+es-ES: etiquetar
+es-MX: etiqueta
+
+English: Excel Mobile Viewer
+es-ES: Visor de Excel Mobile
+es-MX: Visor de Excel para móvil
+
+English: Word Mobile Viewer
+es-ES: Visor de Word para móvil
+es-MX: Visor de Word Mobile
+
+English: Word Mobile Viewer
+es-ES: Visor de Word para móvil
+es-MX: Visor de Word Mobile
+
+English: dial pad
+es-ES: Teclado de marcado
+es-MX: teclado de marcado
+
+English: swipe
+es-ES: deslizar
+es-MX: deslizar rápidamente
+
+English: charm
+es-ES: símbolo
+es-MX: acceso
+
+English: charm
+es-ES: símbolo
+es-MX: acceso
+
+English: heap corruption
+es-ES: daños en el montón
+es-MX: daños en el montón 
+
+English: BitLocker To Go Reader
+es-ES: Lector de BitLocker To Go
+es-MX: Lector de BitLocker To Go 
+
+English: Instant Answers
+es-ES: Respuestas instantáneas
+es-MX: Respuestas rápidas
+
+English: Video Styles
+es-ES: Estilos de video
+es-MX: Estilos de vídeo
+
+English: bookmark
+es-ES: guardar como marcador
+es-MX: marcador
+
+English: bookmark
+es-ES: guardar como marcador
+es-MX: marcador
+
+English: quiet time
+es-ES: tiempo de espera
+es-MX: tiempo de descanso
+
+English: embedded video clip
+es-ES: clip de video insertado
+es-MX: clip de vídeo insertado
+
+English: factor
+es-ES: factor
+es-MX: factorizar
+
+English: add
+es-ES: agregar
+es-MX: añadir
+
+English: add
+es-ES: agregar
+es-MX: añadir
+
+English: application map
+es-ES: asignacion de aplicaciones
+es-MX: mapa de aplicación
+
+English: activity report
+es-ES: informe de actividades
+es-MX: informe de actividad
+
+English: activity report
+es-ES: informe de actividades
+es-MX: informe de actividad
+
+English: job definition
+es-ES: definición de trabajo
+es-MX: definición del trabajo
+
+English: service window
+es-ES: periodo para tareas administrativas
+es-MX: período para tareas administrativas
+
+English: query window
+es-ES: periodo de consulta
+es-MX: período de consulta
+
+English: registered trademark
+es-ES: marca registrada
+es-MX: marca registada
+
+English: throttle
+es-ES: limitación
+es-MX: limitar
+
+English: throttle
+es-ES: limitación
+es-MX: limitar
+
+English: e-discovery
+es-ES: exhibición de documentos electrónicos
+es-MX: eDiscovery
+
+English: ribbon
+es-ES: cinta de opciones
+es-MX: cinta
+
+English: ribbon
+es-ES: cinta de opciones
+es-MX: cinta
+
+English: Bing Maps
+es-ES: Mapas de Bing
+es-MX: mapas de Bing
+
+English: Maps
+es-ES: Mapas
+es-MX: Maps
+
+English: multiple choice question
+es-ES: pregunta de opción múltiple
+es-MX: pregunta de tipo test
+
+English: closed caption
+es-ES: subtítulos (CC)
+es-MX: subtítulo
+
+English: PowerPoint Mobile Viewer
+es-ES: Visor de PowerPoint para móvil
+es-MX: Visor de PowerPoint Mobile
+
+English: PowerPoint Mobile Viewer
+es-ES: Visor de PowerPoint para celular
+es-MX: Visor de PowerPoint Mobile
+
+English: instant message
+es-ES: enviar mensaje instantáneo
+es-MX: enviar mensaje
+
+English: instant message
+es-ES: enviar mensaje instantáneo
+es-MX: enviar mensaje
+
+English: eDiscovery mailbox
+es-ES: buzón de eDiscovery
+es-MX: buzón de correo de eDiscovery
+
+English: People
+es-ES: Contactos
+es-MX: Gente
+
+English: People
+es-ES: contactos
+es-MX: Gente
+
+English: Spaces
+es-ES: Spaces
+es-MX: Espacios
+
+English: social
+es-ES: sociales
+es-MX: social
+
+English: Video Messages
+es-ES: Mensajes de video
+es-MX: Mensajes de vídeo
+
+English: badge
+es-ES: distintivo
+es-MX: notificación
+
+English: badge
+es-ES: distintivo
+es-MX: notificación
+
+English: call admission control
+es-ES: control de admisión de llamadas
+es-MX: servicio de control de admisión de llamadas
+
+English: call admission control
+es-ES: control de admisión de llamadas
+es-MX: servicio de control de admisión de llamadas
+
+English: proxy
+es-ES: Proxy
+es-MX: proxy
+
+English: ad
+es-ES: Anuncio
+es-MX: anuncio
+
+English: purchase order
+es-ES: orden de compra
+es-MX: pedido de compra
+
+English: report
+es-ES: informe
+es-MX: informar
+
+English: web app
+es-ES: aplic. web
+es-MX: aplicación web
+
+English: stage
+es-ES: escena
+es-MX: agregar al "stage"
+
+English: inventory item
+es-ES: producto de inventario
+es-MX: artículo de inventario
+
+English: journal entry
+es-ES: movimiento de diario
+es-MX: entrada del diario
+
+English: event payload
+es-ES: carga de eventos
+es-MX: carga del evento
+
+English: sales order
+es-ES: orden de venta
+es-MX: pedido de venta
+
+English: deal
+es-ES: oferta
+es-MX: ofertas
+
+English: cost
+es-ES: costo
+es-MX: coste
+
+English: DC
+es-ES: contexto de dispositivo
+es-MX: DC
+
+English: SharePoint Deployment Planning Services
+es-ES: Servicios de planeación de implementación de SharePoint
+es-MX: Servicios de planeamiento de implementación de SharePoint
+
+English: Microsoft Desktop Deployment Planning Services
+es-ES: Servicios de planeación de implementación de escritorio de Microsoft
+es-MX: Servicios de planeamiento de la implementación de escritorio de Microsoft
+
+English: amount
+es-ES: cantidad
+es-MX: importe
+
+English: payment amount
+es-ES: importe de pago
+es-MX: importe del pago
+
+English: fiscal period
+es-ES: período fiscal
+es-MX: periodo fiscal
+
+English: cash receipt
+es-ES: recepción de efectivo
+es-MX: recibo de cobro
+
+English: Hub
+es-ES: Hub
+es-MX: hub
+
+English: Hub
+es-ES: Centro
+es-MX: hub
+
+English: hub
+es-ES: centro
+es-MX: centro de conectividad
+
+English: slate
+es-ES: tableta táctil
+es-MX: claqueta
+
+English: indirect cost
+es-ES: costo indirecto
+es-MX: coste indirecto
+
+English: service message
+es-ES: mensaje de servicio
+es-MX: mensaje del servicio
+
+English: telecoil
+es-ES: auricular
+es-MX: telecoil
+
+English: emergency call
+es-ES: llamada de emergencia
+es-MX: llamada SOS
+
+English: International assist
+es-ES: asistencia para llamadas internacionales
+es-MX: Asistencia llamadas internacionales
+
+English: free trial
+es-ES: prueba gratuita
+es-MX: evaluación gratuita
+
+English: free trial
+es-ES: prueba gratuita
+es-MX: evaluación gratuita
+
+English: reverse charge VAT
+es-ES: cargo invertido
+es-MX: IVA de cargo revertido
+
+English: Top artists
+es-ES: Artistas top
+es-MX: Artistas principales
+
+English: company phone
+es-ES: teléfono de la empresa
+es-MX: teléfono de empresa
+
+English: Speech
+es-ES: voz
+es-MX: Voz
+
+English: tap to expand
+es-ES: pulsar para expandir
+es-MX: pulsa para expandir
+
+English: tap to swap
+es-ES: pulsar para intercambiar
+es-MX: pulsa para cambiar
+
+English: tap to merge
+es-ES: pulsar para combinar
+es-MX: pulsa para combinar
+
+English: Explicit
+es-ES: contenido explícito
+es-MX: Explícito
+
+English: Top albums
+es-ES: Álbumes top
+es-MX: álbumes principales
+
+English: call icon
+es-ES: icono de llamada
+es-MX: icono Llamar
+
+English: Search icon
+es-ES: icono de búsqueda
+es-MX: icono Buscar
+
+English: Business Center
+es-ES: Centro de negocios
+es-MX: Business Center
+
+English: Microsoft Business Center
+es-ES: Centro de negocios de Microsoft
+es-MX: Microsoft Business Center
+
+English: curfew
+es-ES: horario restringido
+es-MX: restricción horaria
+
+English: curfew
+es-ES: horario restringido
+es-MX: restricción horaria
+
+English: System Information
+es-ES: Información del sistema
+es-MX: Información del Sistema
+
+English: RemoteFX 3D video adapter
+es-ES: adaptador de video 3D RemoteFX
+es-MX: adaptador de vídeo 3D RemoteFX
+
+English: dampener period
+es-ES: periodo de tolerancia
+es-MX: periodo amortiguador
+
+English: stage
+es-ES: habilitar a etapa
+es-MX: agregar al "stage"
+
+English: void
+es-ES: anular
+es-MX: nulo
+
+English: cost object
+es-ES: objeto de costo
+es-MX: objeto de coste
+
+English: direct cost
+es-ES: costo directo
+es-MX: coste directo
+
+English: step variable cost
+es-ES: costo variable de la etapa
+es-MX: coste variable de la etapa
+
+English: connection
+es-ES: contacto
+es-MX: conexión
+
+English: metered data plan
+es-ES: plan de datos según uso
+es-MX: plan de datos limitado
+
+English: metered data plan
+es-ES: plan de datos según uso
+es-MX: plan de datos limitado
+
+English: layout
+es-ES: distribución
+es-MX: diseño
+
+English: video frame
+es-ES: fotograma de video
+es-MX: fotograma de vídeo
+
+English: banner
+es-ES: tira
+es-MX: mensaje emergente
+
+English: wipe
+es-ES: borrar
+es-MX: borrado
+
+English: wipe
+es-ES: borrar
+es-MX: borrado
+
+English: Call
+es-ES: Llamadas
+es-MX: Llamada
+
+English: Call
+es-ES: Llamadas
+es-MX: Llamada
+
+English: People
+es-ES: Contactos
+es-MX: Gente
+
+English: Photos Preview
+es-ES: Vista previa de fotos
+es-MX: Fotos (vista previa)
+
+English: pinch
+es-ES: alejar
+es-MX: acercar los dedos
+
+English: press and hold
+es-ES: pulsar y sostener
+es-MX: mantener presionado
+
+English: press and hold
+es-ES: pulsar y sostener
+es-MX: mantener presionado
+
+English: press and hold
+es-ES: pulsar y sostener
+es-MX: mantener presionado
+
+English: swipe
+es-ES: deslizar el dedo
+es-MX: deslizar rápidamente
+
+English: swipe
+es-ES: deslizar el dedo
+es-MX: deslizar rápidamente
+
+English: tap
+es-ES: pulsar
+es-MX: tocar
+
+English: tap
+es-ES: pulsar
+es-MX: tocar
+
+English: thumb keyboard
+es-ES: teclado para pulgares
+es-MX: teclado para pulgares 
+
+English: tile
+es-ES: ventana
+es-MX: icono
+
+English: Xbox Video
+es-ES: Xbox Video
+es-MX: Vídeo Xbox
+
+English: Video
+es-ES: Video
+es-MX: Vídeo
+
+English: stretch
+es-ES: acercar
+es-MX: extender
+
+English: stretch
+es-ES: acercar
+es-MX: extender
+
+English: app package
+es-ES: paquete de aplicación
+es-MX: paquete de la aplicación
+
+English: People
+es-ES: Contactos
+es-MX: Gente
+
+English: Online Video
+es-ES: Video en línea
+es-MX: Vídeo en línea
+
+English: Battery Saver
+es-ES: Ahorro de la batería
+es-MX: Ahorro de batería
+
+English: camera roll
+es-ES: álbum de la cámara
+es-MX: álbum de cámara
+
+English: cellular data
+es-ES: datos celulares
+es-MX: datos móviles
+
+English: check in
+es-ES: indicar llegada
+es-MX: actualizar
+
+English: customer service
+es-ES: atención al cliente
+es-MX: servicio de asistencia al cliente
+
+English: customer service
+es-ES: servicio de atención al cliente
+es-MX: servicio de asistencia al cliente
+
+English: customer service center
+es-ES: centro de atención al cliente
+es-MX: Centro de atención al cliente
+
+English: light
+es-ES: claro
+es-MX: ligera
+
+English: directions
+es-ES: direcciones
+es-MX: indicaciones
+
+English: Food & Dining
+es-ES: Bebidas y comidas
+es-MX: Bares y restaurantes
+
+English: eat+drink
+es-ES: comer+beber
+es-MX: comer
+
+English: Emergency Callback Mode
+es-ES: modo de devolución de llamada de emergencia
+es-MX: Modo de devolución de llamada de emergencia
+
+English: favorites
+es-ES: favoritas
+es-MX: favoritos
+
+English: favorites
+es-ES: favoritas
+es-MX: favoritos
+
+English: Featured
+es-ES: Notables
+es-MX: Destacados
+
+English: Fixed Dialing Number
+es-ES: número de marcado fijo
+es-MX: Número de marcación fija
+
+English: flash
+es-ES: alternar
+es-MX: flash
+
+English: Global mode
+es-ES: modo Global
+es-MX: Modo global
+
+English: how-to video
+es-ES: video paso a paso
+es-MX: vídeo paso a paso
+
+English: Incoming
+es-ES: entrante
+es-MX: Recibida
+
+English: Outgoing
+es-ES: saliente
+es-MX: Realizada
+
+English: Key press
+es-ES: al presionar una tecla
+es-MX: Presión de teclas
+
+English: like
+es-ES: me gusta
+es-MX: Me gusta
+
+English: like
+es-ES: me gusta
+es-MX: Me gusta
+
+English: link
+es-ES: enlace
+es-MX: vínculo
+
+English: linked inbox
+es-ES: bandeja de entrada enlazada
+es-MX: bandeja de entrada vinculada
+
+English: Local Scout
+es-ES: atracciones locales
+es-MX: Rastreador local
+
+English: scout
+es-ES: atracciones
+es-MX: rastreador
+
+English: location services
+es-ES: servicios de ubicación
+es-MX: servicios de localización
+
+English: location services
+es-ES: servicios de ubicación
+es-MX: servicios de localización
+
+English: Personal
+es-ES: personal
+es-MX: Personal
+
+English: office location
+es-ES: ubicación de la oficina
+es-MX: oficina
+
+English: phone mode
+es-ES: modo del teléfono
+es-MX: modo de teléfono
+
+English: podcast feed
+es-ES: feed de podcast
+es-MX: fuente de podcasts
+
+English: retweet
+es-ES: retwittear
+es-MX: retweet
+
+English: retweet
+es-ES: retwittear
+es-MX: retweet
+
+English: see+do
+es-ES: actividades
+es-MX: Ver y hacer
+
+English: SMS delivery confirmation
+es-ES: confirmación de entrega de SMS
+es-MX: Confirmación de entrega de SMS
+
+English: Sound
+es-ES: sonido
+es-MX: Sonido
+
+English: spotlight
+es-ES: primer plano
+es-MX: poner en primer plano
+
+English: Start button
+es-ES: botón de inicio
+es-MX: botón Inicio
+
+English: tap to open
+es-ES: pulsar para abrir
+es-MX: pulsa para abrir
+
+English: tap to pair
+es-ES: pulsar para emparejar
+es-MX: pulsa para emparejar
+
+English: top playlists
+es-ES: listas de reproducción top
+es-MX: listas principales
+
+English: top songs
+es-ES: canciones top
+es-MX: canciones principales
+
+English: spotlight
+es-ES: destacados
+es-MX: poner en primer plano
+
+English: spotlight
+es-ES: destacados
+es-MX: poner en primer plano
+
+English: weekday
+es-ES: día entre semana
+es-MX: día laborable
+
+English: unlink
+es-ES: desenlazar
+es-MX: desvincular
+
+English: Vibrate
+es-ES: vibración
+es-MX: Vibración
+
+English: video
+es-ES: video
+es-MX: vídeo
+
+English: vision
+es-ES: búsqueda visual
+es-MX: vision
+
+English: Bing Vision
+es-ES: Búsqueda visual de Bing
+es-MX: Bing Vision
+
+English: visual voicemail
+es-ES: buzón de voz visual
+es-MX: correo de voz visual
+
+English: Wi-Fi networking
+es-ES: redes Wi-Fi
+es-MX: Redes Wi-Fi
+
+English: capability
+es-ES: funcionalidad
+es-MX: capacidad
+
+English: Pairing accessory
+es-ES: accesorio de emparejamiento
+es-MX: Accesorio de emparejamiento
+
+English: phone accessibility
+es-ES: accesibilidad del teléfono
+es-MX: accesibilidad
+
+English: merge calls
+es-ES: fusionar llamadas
+es-MX: combinar llamadas
+
+English: merge calls
+es-ES: Combinar llamadas
+es-MX: combinar llamadas
+
+English: reflow
+es-ES: redistribución
+es-MX: redistribuir
+
+English: callout
+es-ES: globo
+es-MX: aviso
+
+English: working set
+es-ES: espacio de trabajo
+es-MX: conjunto de trabajo
+
+English: working set
+es-ES: espacio de trabajo
+es-MX: conjunto de trabajo
+
+English: Power
+es-ES: inicio/apagado
+es-MX: Inicio/Apagado
+
+English: fetch
+es-ES: acceder
+es-MX: recuperar cambios
+
+English: Yomi
+es-ES: Yomi
+es-MX: yomi
+
+English: health provider
+es-ES: proveedor de salud
+es-MX: proveedor de asistencia sanitaria
+
+English: health provider
+es-ES: proveedor de salud
+es-MX: proveedor de asistencia sanitaria
+
+English: healthcare provider
+es-ES: proveedor de servicios de salud
+es-MX: profesional sanitario
+
+English: Geolocation
+es-ES: Geolocalización
+es-MX: Geolocation
+
+English: Geolocation
+es-ES: Geolocalización
+es-MX: Geolocation
+
+English: refresh your PC
+es-ES: restaurar tu PC
+es-MX: restaurar su PC
+
+English: refresh your PC
+es-ES: restaurar tu PC
+es-MX: restaurar su PC
+
+English: reset your PC
+es-ES: restablecer tu PC
+es-MX: restablecer su PC
+
+English: reset your PC
+es-ES: restablecer tu PC
+es-MX: restablecer su PC
+
+English: Microsoft 365 Apps for enterprise
+es-ES: Aplicaciones Microsoft 365 para empresas
+es-MX: Aplicaciones de Microsoft 365 para empresas
+
+English: offer
+es-ES: oferta
+es-MX: ofrecer
+
+English: cloud storage
+es-ES: almacenamiento en la nube
+es-MX: almacenamiento en nube
+
+English: platform-as-a-service
+es-ES: PaaS
+es-MX: plataforma como servicio
+
+English: beacon
+es-ES: aviso
+es-MX: señal
+
+English: beacon
+es-ES: aviso
+es-MX: señal
+
+English: Best rated
+es-ES: Con mejor calificación
+es-MX: Mejor valoradas
+
+English: Best-rated apps
+es-ES: Aplicaciones con mejor calificación
+es-MX: Aplicaciones mejor valoradas
+
+English: Best-rated games
+es-ES: Juegos con mejor calificación
+es-MX: Juegos mejor valorados
+
+English: cloud collection
+es-ES: colección de nube
+es-MX: colección en la nube
+
+English: Family Room
+es-ES: Sala de familia
+es-MX: Sala de estar
+
+English: fast card
+es-ES: tarjeta rápida
+es-MX: fast card
+
+English: flash auto
+es-ES: Flash automático
+es-MX: flash automático
+
+English: flash off
+es-ES: Flash desactivado
+es-MX: flash desactivado
+
+English: flash on
+es-ES: Flash activado
+es-MX: flash activado
+
+English: front
+es-ES: frontal
+es-MX: cámara frontal
+
+English: group text
+es-ES: mensajes a grupos
+es-MX: MMS para grupo
+
+English: Help+Tips
+es-ES: Ayuda+consejos
+es-MX: Ayuda y consejos
+
+English: Internet APN
+es-ES: APN de Internet
+es-MX: APN para Internet
+
+English: MMS APN
+es-ES: APN de MMS
+es-MX: APN para MMS
+
+English: Keep your life in sync
+es-ES: Mantén tu vida en sincronía
+es-MX: Tu vida, sincronizada
+
+English: lens
+es-ES: aplicación de edición
+es-MX: lente
+
+English: monthly reset date
+es-ES: fecha de restablecimiento mensual
+es-MX: día del mes para restablecimiento
+
+English: Affiliate Program
+es-ES: programa de afiliados
+es-MX: Programa de afiliados
+
+English: New releases
+es-ES: Nuevas versiones
+es-MX: Novedades
+
+English: new+rising
+es-ES: más recientes
+es-MX: novedades
+
+English: New and rising apps
+es-ES: Aplicaciones más recientes
+es-MX: Novedades en aplicaciones
+
+English: New and rising games
+es-ES: Juegos más recientes
+es-MX: Novedades en juegos
+
+English: NFC reader
+es-ES: lector de NFC
+es-MX: lector NFC
+
+English: One time
+es-ES: Pago único
+es-MX: Bono de datos
+
+English: pan
+es-ES: deslizar
+es-MX: presionar y mover
+
+English: Fair Usage Policy
+es-ES: Política de uso razonable
+es-MX: Política de Uso Razonable
+
+English: Buy Skype Credit
+es-ES: Comprar crédito de Skype
+es-MX: comprar crédito de Skype
+
+English: Skype Credit
+es-ES: crédito de Skype
+es-MX: Crédito de Skype
+
+English: Storage
+es-ES: Almacenamiento
+es-MX: Storage
+
+English: Picks for you
+es-ES: Sugerencia
+es-MX: Sugerencias para ti
+
+English: mood panel
+es-ES: panel de mensaje personal
+es-MX: panel de mensajes personales
+
+English: live chat customer support
+es-ES: atención al cliente por chat
+es-MX: asistencia al cliente por chat
+
+English: Skype Name
+es-ES: usuario de Skype
+es-MX: nombre de usuario
+
+English: Screen magnifier
+es-ES: ampliador de pantalla
+es-MX: lupa
+
+English: Top free apps
+es-ES: Aplicaciones más populares gratis
+es-MX: Principales aplicaciones gratuitas
+
+English: Top free games
+es-ES: Juegos más populares gratis
+es-MX: Principales juegos gratuitos
+
+English: Top free
+es-ES: Más populares gratis
+es-MX: Principales gratis
+
+English: Top paid
+es-ES: Más populares con pago
+es-MX: Principales de pago
+
+English: Top paid apps
+es-ES: Aplicaciones más populares con pago
+es-MX: Principales aplicaciones de pago
+
+English: Top paid games
+es-ES: Juegos más populares con pago
+es-MX: Principales juegos de pago
+
+English: unfriend
+es-ES: quitar como amigo
+es-MX: dejar de ser amigo
+
+English: video
+es-ES: video
+es-MX: vídeo
+
+English: WAP gateway
+es-ES: gateway WAP
+es-MX: puerta de enlace WAP
+
+English: buzz
+es-ES: opiniones
+es-MX: tendencias
+
+English: company app
+es-ES: aplicación de la empresa
+es-MX: aplicaciones de empresa
+
+English: deal
+es-ES: oferta
+es-MX: ofertas
+
+English: rooms+groups
+es-ES: salas+grupos
+es-MX: salas y grupos
+
+English: slide down
+es-ES: deslizar hacia abajo
+es-MX: bajar
+
+English: to-do
+es-ES: pendientes
+es-MX: tarea
+
+English: highlight
+es-ES: resaltado
+es-MX: resaltar
+
+English: flick
+es-ES: desplazarse
+es-MX: desplazar
+
+English: group call
+es-ES: Llamada grupal
+es-MX: llamada grupal
+
+English: Offline
+es-ES: Sin conexión
+es-MX: Desconectado
+
+English: Online
+es-ES: En línea
+es-MX: Conectado
+
+English: pay as you go
+es-ES: paga cuando hables
+es-MX: paga a medida que hablas
+
+English: photo sharing
+es-ES: compartir fotos
+es-MX: foto compartida
+
+English: public IM
+es-ES: mensajería instantánea pública
+es-MX: chat público
+
+English: Skype Home
+es-ES: Inicio de Skype
+es-MX: portada de Skype
+
+English: cellular signal
+es-ES: señal móvil
+es-MX: cobertura
+
+English: audio call
+es-ES: llamada de audio
+es-MX: llamada
+
+English: voice call
+es-ES: llamada de voz
+es-MX: llamada
+
+English: video message
+es-ES: mensaje de video
+es-MX: videomensaje
+
+English: video message
+es-ES: mensaje de video
+es-MX: videomensaje
+
+English: Pay As You Go
+es-ES: Paga y habla
+es-MX: Paga y Habla
+
+English: service item
+es-ES: producto de servicio
+es-MX: artículo de servicio
+
+English: service order
+es-ES: orden de servicio
+es-MX: pedido de servicio
+
+English: accrued cost
+es-ES: costo acumulado
+es-MX: coste acumulado
+
+English: Do Not Track
+es-ES: No rastrear
+es-MX: No realizar seguimiento
+
+English: payload
+es-ES: carga
+es-MX: carga útil
+
+English: preview
+es-ES: vista previa
+es-MX: versión preliminar
+
+English: preview
+es-ES: vista previa
+es-MX: versión preliminar
+
+English: matching
+es-ES: coincidente
+es-MX: correspondencia
+
+English: account mapping
+es-ES: mapeo de cuentas
+es-MX: asignación de cuentas
+
+English: mobile hotspot
+es-ES: zona cubierta móvil
+es-MX: zona con cobertura inalámbrica móvil
+
+English: geofence
+es-ES: geocerca
+es-MX: perímetro
+
+English: PO number
+es-ES: número de orden de compra
+es-MX: número de pedido de compra
+
+English: app bundle
+es-ES: recopilación de aplicación
+es-MX: lote de aplicaciones
+
+English: avatar item
+es-ES: elemento de avatar
+es-MX: elementos de avatar
+
+English: chat invite
+es-ES: invitación de chat
+es-MX: invitación de charla
+
+English: friend request
+es-ES: solicitud de amigo
+es-MX: solicitud de amistad
+
+English: Games on Demand
+es-ES: juegos a petición
+es-MX: Juegos bajo demanda
+
+English: gamerscore
+es-ES: puntuación
+es-MX: puntuación de jugador
+
+English: pin
+es-ES: marca
+es-MX: chincheta
+
+English: prop
+es-ES: accesorio
+es-MX: accesorios
+
+English: text chat
+es-ES: chat de texto
+es-MX: chat de juego
+
+English: voice chat
+es-ES: chat de voz
+es-MX: charla de voz
+
+English: Indie Games
+es-ES: juegos independientes
+es-MX: Juegos independientes
+
+English: Xbox Live Gamer Zone
+es-ES: zona de juego Xbox Live
+es-MX: Zona de juego Xbox Live
+
+English: Xbox Games
+es-ES: juegos Xbox
+es-MX: Xbox Games
+
+English: Xbox SmartGlass Companion
+es-ES: Compañero de Xbox SmartGlass
+es-MX: Compañero Xbox SmartGlass
+
+English: passcode
+es-ES: código de acceso
+es-MX: versión en línea
+
+English: renew
+es-ES: renovar
+es-MX: canjear
+
+English: Xbox Live code
+es-ES: código Xbox Live
+es-MX: Código Xbox Live
+
+English: Xbox Live Gold membership
+es-ES: suscripción a Xbox Live Gold
+es-MX: Suscripción a Xbox Live Gold
+
+English: Xbox Live Free membership
+es-ES: suscripción gratuita a Xbox Live
+es-MX: Suscripción gratuita a Xbox Live
+
+English: video sensor
+es-ES: sensor de video
+es-MX: sensor de juego
+
+English: guide icon
+es-ES: icono guía
+es-MX: icono de juego
+
+English: Kinect Tuner
+es-ES: configurador de Kinect
+es-MX: Configurador de Kinect
+
+English: controller port
+es-ES: puerto del control
+es-MX: puerto de mando
+
+English: controller port cover
+es-ES: tapa de puerto del control
+es-MX: tapa de puerto de mando
+
+English: Xbox 360 console
+es-ES: consola Xbox 360
+es-MX: Consola Xbox 360
+
+English: controller cable
+es-ES: cable del control
+es-MX: cable de mando
+
+English: inline release
+es-ES: desconexión de seguridad
+es-MX: versión en línea
+
+English: pull
+es-ES: presionar
+es-MX: incorporar cambios
+
+English: Xbox 360 Controller
+es-ES: Control Xbox 360
+es-MX: Mando Xbox 360
+
+English: Xbox 360 Controller for Windows
+es-ES: Control Xbox 360 para Windows
+es-MX: Mando Xbox 360 para Windows
+
+English: Xbox 360 Wireless Controller
+es-ES: control inalámbrico Xbox 360
+es-MX: Mando inalámbrico Xbox 360
+
+English: Xbox 360 Wireless Controller for Windows
+es-ES: control inalámbrico Xbox 360 para Windows
+es-MX: Mando inalámbrico Xbox 360 para Windows
+
+English: Xbox 360 Wireless Speed Wheel
+es-ES: volante inalámbrico Xbox 360
+es-MX: Volante inalámbrico Xbox 360
+
+English: Xbox Guide button
+es-ES: botón guía Xbox
+es-MX: Botón Guía Xbox
+
+English: Xbox 360 Hard Drive
+es-ES: disco duro Xbox 360
+es-MX: Disco duro Xbox 360
+
+English: Xbox 360 Hard Drive Transfer Cable
+es-ES: cable de transferencia para Disco duro Xbox 360
+es-MX: Cable de transferencia para Disco duro Xbox 360
+
+English: Xbox 360 Composite AV Cable
+es-ES: cable audio/video compuesto Xbox 360
+es-MX: Cable audio/video compuesto Xbox 360
+
+English: Xbox 360 HDMI Cable
+es-ES: cable HDMI Xbox 360
+es-MX: Cable HDMI Xbox 360
+
+English: Xbox 360 S-Video AV Cable
+es-ES: cable audio/video S-Video Xbox 360
+es-MX: Cable audio/video S-Video Xbox 360
+
+English: Xbox 360 VGA HD AV Cable
+es-ES: cable audio/video de alta definición VGA Xbox 360
+es-MX: Cable audio/video de alta definición VGA Xbox 360
+
+English: Xbox 360 Wireless N Networking Adapter
+es-ES: adaptador de red N inalámbrico Xbox 360
+es-MX: Adaptador de red N inalámbrico Xbox 360
+
+English: Xbox 360 Quick Charge Kit
+es-ES: kit de carga rápida Xbox 360
+es-MX: Kit de carga rápida Xbox 360
+
+English: headset cable
+es-ES: cable de audífonos
+es-MX: cable de auriculares
+
+English: headset connect button
+es-ES: botón de conexión de los audífonos
+es-MX: botón de conexión de los auriculares
+
+English: headset connector
+es-ES: conector de audífonos
+es-MX: conector de auriculares
+
+English: Xbox 360 Headset
+es-ES: audífonos Xbox 360
+es-MX: Auriculares Xbox 360
+
+English: Xbox 360 Wireless Headset
+es-ES: audífonos inalámbricos Xbox 360
+es-MX: Auricular inalámbrico Xbox 360
+
+English: Xbox 360 Wireless Microphone
+es-ES: micrófono inalámbrico Xbox 360
+es-MX: Micrófono inalámbrico Xbox 360
+
+English: Xbox 360 Universal Media Remote
+es-ES: control multimedia universal Xbox 360
+es-MX: Mando multimedia universal Xbox 360
+
+English: Xbox Dashboard
+es-ES: interfaz Xbox
+es-MX: Interfaz Xbox
+
+English: Xbox Guide
+es-ES: guía Xbox
+es-MX: Guía Xbox
+
+English: Sorry, [video service name/web service name] isn't available right now. Please try again later. For more information, go to www.xbox.com/status.
+es-ES: [Nombre del servicio de video/nombre del servicio web] no está disponible en este momento. Vuelva a intentarlo más tarde. Para obtener más información, vaya a www.xbox.com/status.
+es-MX: Lo sentimos, [video service name/web service name] no está disponible en este momento. Inténtalo de nuevo más tarde. Para más información, ve a www.xbox.com/status.
+
+English: unlock full game
+es-ES: desbloquear juego completo
+es-MX: Desbloquear juego completo
+
+English: Download Content
+es-ES: descargar contenido
+es-MX: Descargar contenido
+
+English: Games on Windows Phone
+es-ES: juegos en Windows Phone
+es-MX: Juegos en Windows Phone
+
+English: Games Hub
+es-ES: hub de juegos
+es-MX: Centro de juegos
+
+English: buy full game
+es-ES: Comprar juego completo
+es-MX: comprar juego completo
+
+English: Search
+es-ES: buscar
+es-MX: Búsqueda
+
+English: Start
+es-ES: Iniciar
+es-MX: Inicio
+
+English: Kinect microphone
+es-ES: micrófono de Kinect
+es-MX: Micrófono de Kinect
+
+English: Xbox 360 video game and entertainment system
+es-ES: sistema de entretenimiento y videojuegos Xbox 360
+es-MX: Sistema de entretenimiento y videojuegos Xbox 360
+
+English: A button
+es-ES: botón A
+es-MX: Botón A
+
+English: B button
+es-ES: botón B
+es-MX: Botón B
+
+English: BACK button
+es-ES: botón Atrás
+es-MX: Botón ATRÁS
+
+English: directional pad
+es-ES: pad direccional
+es-MX: mando de dirección
+
+English: D-pad
+es-ES: pad direccional
+es-MX: cruceta
+
+English: bumper
+es-ES: bumper
+es-MX: botón superior
+
+English: LB
+es-ES: LB
+es-MX: BI
+
+English: left bumper
+es-ES: bumper izquierdo
+es-MX: botón superior izquierdo
+
+English: right bumper
+es-ES: bumper derecho
+es-MX: botón superior derecho
+
+English: RB
+es-ES: RB
+es-MX: BD
+
+English: advertising ID
+es-ES: id. de publicidad
+es-MX: identificador de publicidad
+
+English: advertising ID
+es-ES: id. de publicidad
+es-MX: identificador de publicidad
+
+English: divider
+es-ES: divisor
+es-MX: línea divisoria
+
+English: push notification
+es-ES: notificación de inserción
+es-MX: notificación push
+
+English: demand forecasting
+es-ES: pronóstico de la demanda
+es-MX: previsión de demanda
+
+English: statistical baseline forecast
+es-ES: pronóstico estadístico de línea base
+es-MX: previsión estadística de línea base
+
+English: video chat
+es-ES: video chat
+es-MX: videocharla
+
+English: LS
+es-ES: LS
+es-MX: SI
+
+English: RS
+es-ES: RS
+es-MX: GD
+
+English: LSB
+es-ES: LSB
+es-MX: BSI
+
+English: RSB
+es-ES: RSB
+es-MX: BSD
+
+English: stick button
+es-ES: botón de stick
+es-MX: stick de juego
+
+English: START button
+es-ES: botón START
+es-MX: Botón START
+
+English: trigger
+es-ES: gatillo
+es-MX: desencadenador
+
+English: LT
+es-ES: LT
+es-MX: GD
+
+English: RT
+es-ES: RT
+es-MX: GD
+
+English: X button
+es-ES: botón X
+es-MX: Botón X
+
+English: Y button
+es-ES: botón Y
+es-MX: Botón Y
+
+English: fixed location
+es-ES: localidad fija
+es-MX: ubicación fija
+
+English: routing
+es-ES: ruta
+es-MX: cálculo de ruta
+
+English: wave
+es-ES: oleada
+es-MX: lanzamiento
+
+English: output VAT
+es-ES: IVA repercutido
+es-MX: IVA diferido
+
+English: apportionment engine
+es-ES: motor de prorrateos
+es-MX: motor de reparto
+
+English: check digit calculator engine
+es-ES: motor de cálculo de dígito verificador
+es-MX: motor de cálculo de dígito de control
+
+English: forecast dimension
+es-ES: dimensión de pronóstico
+es-MX: dimensión de previsión
+
+English: rate shopping
+es-ES: opciones de tarifas
+es-MX: comparación de tarifas
+
+English: sales tax hierarchy
+es-ES: jerarquía de impuestos sobre las ventas
+es-MX: jerarquía de impuestos
+
+English: sales tax hierarchy node
+es-ES: nodo de jerarquía de impuestos sobre las ventas
+es-MX: nodo de jerarquía de impuestos
+
+English: sales tax hierarchy structure
+es-ES: estructura de jerarquías de impuestos sobre las ventas
+es-MX: estructura de jerarquías de impuestos
+
+English: Embedded Shell Launcher
+es-ES: Iniciador de shell integrado
+es-MX: Selector de shell integrado
+
+English: MSN Health & Fitness
+es-ES: MSN Salud
+es-MX: MSN Salud y Bienestar
+
+English: Health & Fitness
+es-ES: Salud
+es-MX: Salud y Bienestar
+
+English: Weather
+es-ES: El tiempo
+es-MX: Tiempo
+
+English: MSN Weather
+es-ES: MSN El tiempo
+es-MX: MSN El Tiempo
+
+English: Exercise Tracker
+es-ES: Agregar al Seguimiento de actividad
+es-MX: Seguimiento de actividad
+
+English: Diet Tracker
+es-ES: Rastreador de dieta
+es-MX: Registra tus comidas
+
+English: Game DVR
+es-ES: DVR de juegos
+es-MX: Game DVR
+
+English: record
+es-ES: grabar
+es-MX: registro
+
+English: snap
+es-ES: ajustar
+es-MX: acoplar
+
+English: unsnap
+es-ES: desajustar
+es-MX: desacoplar
+
+English: SmartGlass companion
+es-ES: compañero de Xbox SmartGlass
+es-MX: Compañero SmartGlass
+
+English: Companion
+es-ES: compañero
+es-MX: Compañero
+
+English: Menu button
+es-ES: botón menú
+es-MX: botón Menú
+
+English: Xbox button
+es-ES: botón Xbox
+es-MX: Botón Xbox
+
+English: Email to OneNote
+es-ES: Enviar por correo a OneNote
+es-MX: Enviar por correo electrónico a OneNote
+
+English: text tone
+es-ES: tono mensaje de texto
+es-MX: tono de SMS
+
+English: speed dial
+es-ES: marcado rápido
+es-MX: marcación rápida
+
+English: phone book
+es-ES: libreta de teléfonos
+es-MX: agenda de teléfonos
+
+English: workplace
+es-ES: lugar de trabajo
+es-MX: mi empresa
+
+English: workplace account
+es-ES: cuenta laboral
+es-MX: cuenta de empresa
+
+English: project my screen
+es-ES: Proyectar mi pantalla
+es-MX: proyectar mi pantalla
+
+English: burst mode
+es-ES: modo ráfaga
+es-MX: modo de ráfaga
+
+English: video light
+es-ES: luz de video
+es-MX: luz del vídeo
+
+English: SIM slot
+es-ES: ranura de SIM
+es-MX: ranura SIM
+
+English: IP range
+es-ES: intervalo de IP
+es-MX: intervalo IP
+
+English: Cellular & SIM
+es-ES: Red celular y SIM
+es-MX: Red móvil y SIM
+
+English: action center
+es-ES: centro de acciones
+es-MX: centro de actividades
+
+English: Live Lock Screen
+es-ES: Pantalla de bloqueo dinámica
+es-MX: Pantalla de bloqueo activa
+
+English: Wi-Fi Sense
+es-ES: Sensor de Wi-Fi
+es-MX: Sensor Wi-Fi
+
+English: Multiline
+es-ES: doble SIM
+es-MX: Multilínea
+
+English: Word Flow with shape writing
+es-ES: Word Flow por deslizamiento
+es-MX: Word Flow con trazos
+
+English: Microsoft Camera
+es-ES: Cámara de Microsoft
+es-MX: cámara de Microsoft
+
+English: lens picker
+es-ES: selector de aplicación de edición
+es-MX: selector de modos
+
+English: mute
+es-ES: deshabilitar notificaciones
+es-MX: desactivar notificaciones
+
+English: mute
+es-ES: silenciar notificaciones
+es-MX: desactivar notificaciones
+
+English: unmute
+es-ES: habilitar notificaciones
+es-MX: activar audio
+
+English: start+theme
+es-ES: inicio+tema
+es-MX: inicio y tema
+
+English: handheld
+es-ES: dispositivo de mano
+es-MX: dispositivo portátil
+
+English: In-Call
+es-ES: Volumen de llamada
+es-MX: En llamada
+
+English: data roaming
+es-ES: roaming de datos
+es-MX: itinerancia de datos
+
+English: voice roaming
+es-ES: roaming de voz
+es-MX: itinerancia de voz
+
+English: Driving mode
+es-ES: Modo conducción
+es-MX: Modo de conducción
+
+English: text reply
+es-ES: respuesta con mensaje de texto
+es-MX: responder con SMS
+
+English: text reply
+es-ES: respuesta con mensaje de texto
+es-MX: responder con SMS
+
+English: video upgrade
+es-ES: cambio a videollamada
+es-MX: cambio a vídeo
+
+English: nonoperating income
+es-ES: ingresos no operativos
+es-MX: ingresos extraordinarios
+
+English: favorites
+es-ES: Favoritos
+es-MX: favoritos
+
+English: webinar
+es-ES: webinar
+es-MX: seminario web
+
+English: App Connect
+es-ES: Conectar aplicación
+es-MX: Aplicaciones relacionadas
+
+English: How-to
+es-ES: Procedimientos
+es-MX: Instrucciones
+
+English: health + fitness
+es-ES: salud + ejercicio físico
+es-MX: salud y forma física
+
+English: Health & Fitness
+es-ES: Salud y bienestar
+es-MX: Salud y Bienestar
+
+English: Business
+es-ES: Negocios
+es-MX: Empresa
+
+English: Education
+es-ES: Educación
+es-MX: Education
+
+English: Lifestyle
+es-ES: Estilo de vida
+es-MX: Estilo
+
+English: Lifestyle
+es-ES: Estilo de vida
+es-MX: Estilo
+
+English: books + reference
+es-ES: libros + referencia
+es-MX: libros y referencia
+
+English: action + adventure
+es-ES: acción + aventura
+es-MX: acción y aventura
+
+English: card + board
+es-ES: naipes + juegos de mesa
+es-MX: juegos de mesa
+
+English: government + politics
+es-ES: gobierno + política
+es-MX: gobierno y política
+
+English: Government
+es-ES: Gobierno
+es-MX: Administración Pública
+
+English: kids + family
+es-ES: niños + familia
+es-MX: niños y familia
+
+English: music + video
+es-ES: música + video
+es-MX: música y vídeo
+
+English: Music & Video
+es-ES: Música y videos
+es-MX: Música y vídeo
+
+English: News & Weather
+es-ES: Noticias y el tiempo
+es-MX: Noticias y tiempo
+
+English: news + weather
+es-ES: noticias + tiempo
+es-MX: noticias y tiempo
+
+English: Photo
+es-ES: Fotografía
+es-MX: Foto
+
+English: platformer
+es-ES: juegos de plataforma
+es-MX: plataformas
+
+English: puzzle + trivia
+es-ES: ingenio + curiosidades
+es-MX: puzles y curiosidades
+
+English: racing + flying
+es-ES: carreras + vuelo
+es-MX: carreras y vuelo
+
+English: sports + recreation
+es-ES: deportes + recreación
+es-MX: deportes y recreo
+
+English: Sports & recreation
+es-ES: Deportes y recreación
+es-MX: Deportes y recreo
+
+English: strategy + simulation
+es-ES: estrategia + simulación
+es-MX: simulación
+
+English: tools + productivity
+es-ES: herramientas + productividad
+es-MX: productividad
+
+English: travel + navigation
+es-ES: viajes + navegación
+es-MX: viajes y navegación
+
+English: App Switcher
+es-ES: Conmutador de aplicaciones
+es-MX: últimas aplicaciones
+
+English: inner circle
+es-ES: círculo íntimo
+es-MX: contactos preferentes
+
+English: remind me
+es-ES: recordarme
+es-MX: recordatorios
+
+English: Music+videos
+es-ES: Música+Videos
+es-MX: Música y vídeos
+
+English: Live Lock Screen app
+es-ES: aplicación para Pantalla de bloqueo dinámica
+es-MX: aplicación para Pantalla de bloqueo activa
+
+English: lock app
+es-ES: aplicación de pantalla de bloqueo
+es-MX: aplicación para bloqueo
+
+English: mix view
+es-ES: vista combinada
+es-MX: vista conjunta
+
+English: Microsoft 365 Apps for business
+es-ES: Aplicaciones Microsoft 365 para negocios
+es-MX: Aplicaciones de Microsoft 365 para negocios
+
+English: Windows Feedback
+es-ES: Comentarios sobre Windows
+es-MX: Opiniones sobre Windows
+
+English: Windows Insider Program
+es-ES: Windows Insider Program
+es-MX: Programa Windows Insider
+
+English: stack
+es-ES: apilar
+es-MX: pila
+
+English: Autos
+es-ES: Autos
+es-MX: Motor
+
+English: Lifestyle
+es-ES: Estilo de vida
+es-MX: Estilo
+
+English: Video
+es-ES: Video
+es-MX: Vídeo
+
+English: work or school account
+es-ES: cuenta laboral o educativa
+es-MX: cuenta profesional o educativa
+
+English: work account
+es-ES: cuenta laboral
+es-MX: cuenta profesional
+
+English: Compare times
+es-ES: Comparar la hora
+es-MX: Conversor de horarios
+
+English: Security tab
+es-ES: pestaña Seguridad
+es-MX: ficha Seguridad
+
+English: profile path
+es-ES: ruta de acceso al perfil
+es-MX: ruta de acceso del perfil
+
+English: Skype for Business
+es-ES: Skype for Business
+es-MX: Skype Empresarial
+
+English: Skype® for Business
+es-ES: Skype® for Business
+es-MX: Skype® Empresarial
+
+English: Skype® for Business 2015
+es-ES: Skype® for Business 2015
+es-MX: Skype® Empresarial 2015
+
+English: Skype® for Business client
+es-ES: cliente de Skype® for Business
+es-MX: cliente de Skype® Empresarial
+
+English: role-based access control
+es-ES: control de acceso basado en roles
+es-MX: control de acceso basado en rol
+
+English: selfie
+es-ES: selfie
+es-MX: Selfie
+
+English: "knock knock"
+es-ES: "toc toc"
+es-MX: toc toc
+
+English: tip
+es-ES: consejo
+es-MX: sugerencia
+
+English: interest
+es-ES: tema de interés
+es-MX: interés
+
+English: E-reader
+es-ES: Lector electrónico
+es-MX: Libro electrónico
+
+English: Reference & training
+es-ES: Material de referencia y capacitación
+es-MX: Material de referencia y formación
+
+English: Language
+es-ES: Idiomas
+es-MX: Lenguaje
+
+English: Hobbies & toys
+es-ES: Hobbies y juguetes
+es-MX: Aficiones y juguetes
+
+English: Automotive
+es-ES: Automóviles
+es-MX: Automoción
+
+English: News
+es-ES: Noticias
+es-MX: News
+
+English: Web browsing
+es-ES: Navegación web
+es-MX: Exploración web
+
+English: Word
+es-ES: Palabras
+es-MX: Juegos de palabras
+
+English: Featured sets
+es-ES: Series destacadas
+es-MX: Colecciones destacadas
+
+English: Editors' picks
+es-ES: Recomendaciones del editor
+es-MX: Destacado por los medios
+
+English: Popular on Xbox
+es-ES: Populares para Xbox
+es-MX: Ofertas populares para Xbox
+
+English: Popular
+es-ES: Populares
+es-MX: Ofertas populares
+
+English: Top music
+es-ES: Música más popular
+es-MX: Éxitos musicales
+
+English: Top songs
+es-ES: Canciones más populares
+es-MX: Canciones principales
+
+English: Last chance rentals
+es-ES: Últimas oportunidades de alquiler de videos
+es-MX: Oportunidades de alquiler de vídeos
+
+English: Reset protection
+es-ES: Protección contra restablecimiento
+es-MX: Protección frente a restablecimiento
+
+English: Maps
+es-ES: Mapas
+es-MX: Maps
+
+English: action shot
+es-ES: disparo continuo
+es-MX: fotografía de acción
+
+English: living image
+es-ES: imagen en movimiento
+es-MX: fotoclip
+
+English: ad mediation
+es-ES: mediación publicitaria
+es-MX: mediación de anuncios
+
+English: Snap Assist
+es-ES: Asistencia de acople
+es-MX: Asistente para el espacio restante
+
+English: Snap Fill
+es-ES: Relleno de acople
+es-MX: Relleno de espacio restante
+
+English: end of support
+es-ES: fin de soporte
+es-MX: finalización del soporte
+
+English: additional requirement
+es-ES: requisito adicional
+es-MX: requisitos adicionales
+
+English: Ask Cortana
+es-ES: Pregúntale a Cortana
+es-MX: Preguntar a Cortana
+
+English: Deals Hub
+es-ES: hub de ofertas
+es-MX: Hub de ofertas
+
+English: Tab Peek
+es-ES: Vistazo de pestañas
+es-MX: Ojear pestañas
+
+English: peek
+es-ES: dar un vistazo
+es-MX: ver el código sin salir
+
+English: step-by-step directions
+es-ES: direcciones paso a paso
+es-MX: indicaciones detalladas
+
+English: Calendar World Readiness
+es-ES: Configuración regional del calendario
+es-MX: Configuración regional del Calendario
+
+English: storyline
+es-ES: argumento
+es-MX: espacio propio
+
+English: storyline
+es-ES: argumento
+es-MX: espacio propio
+
+English: Top TV
+es-ES: Más populares de TV
+es-MX: Principales programas de TV
+
+English: sideload
+es-ES: realizar instalación de prueba
+es-MX: transferir localmente
+
+English: insight
+es-ES: recomendación
+es-MX: conclusión
+
+English: master reset
+es-ES: restablecimiento de fábrica
+es-MX: restablecimiento maestro
+
+English: bootcamp
+es-ES: entrenamiento militar
+es-MX: seminario intensivo profesional
+
+English: squat thrust
+es-ES: plancha con sentadilla
+es-MX: sentadillas con flexión
+
+English: backbend
+es-ES: contorsión dorsal
+es-MX: flexión dorsal
+
+English: workspace
+es-ES: espacio de trabajo
+es-MX: área de trabajo
+
+English: Skype® for Business Server
+es-ES: Skype® for Business Server
+es-MX: Skype® Empresarial Server
+
+English: Skype® for Business Server 2015
+es-ES: Skype® for Business Server 2015
+es-MX: Skype® Empresarial Server 2015
+
+English: Skype for Business Server
+es-ES: Skype for Business Server
+es-MX: Skype Empresarial Server
+
+English: Skype for Business basic
+es-ES: Skype for Business Basic
+es-MX: Skype Empresarial Basic
+
+English: Skype® for Business basic 2015
+es-ES: Skype® for Business Basic 2015
+es-MX: Skype® Empresarial Basic 2015
+
+English: Skype® for Business basic client
+es-ES: cliente de Skype® for Business Basic
+es-MX: cliente de Skype® Empresarial Basic
+
+English: Skype® for Business for iPhone
+es-ES: Skype® for Business para iPhone
+es-MX: Skype® Empresarial para iPhone
+
+English: Skype for Business for iPhone
+es-ES: Skype for Business para iPhone
+es-MX: Skype Empresarial para iPhone
+
+English: Skype for Business on the web
+es-ES: Skype for Business en la Web
+es-MX: Skype Empresarial en la Web
+
+English: Skype for Business Web App
+es-ES: aplicación web de Skype for Business
+es-MX: aplicación web de Skype Empresarial
+
+English: Skype for Business Web App Plug-in
+es-ES: complemento de la aplicación web de Skype for Business
+es-MX: complemento de la aplicación web de Skype Empresarial
+
+English: lean manufacturing
+es-ES: manufactura esbelta
+es-MX: producción ajustada
+
+English: Issue search
+es-ES: Búsqueda de problemas
+es-MX: Búsqueda de temas
+
+English: Customization analysis
+es-ES: Análisis de personalizaciones
+es-MX: Análisis de personalización
+
+English: Beta feature management
+es-ES: Administración de características de versiones beta
+es-MX: Administración de características beta
+
+English: Windows MultiPoint Server Repair Service
+es-ES: Servicio de reparación de Windows MultiPoint Server
+es-MX: Servicio de reparación Windows MultiPoint Server
+
+English: bit toggling keypad
+es-ES: teclado de alternancia de bits
+es-MX: teclado numérico para la alternancia de bits
+
+English: color boost
+es-ES: mejora del color
+es-MX: aumento del color
+
+English: my stuff
+es-ES: mi contenido
+es-MX: mis cosas
+
+English: Web Note
+es-ES: Nota web
+es-MX: nota web
+
+English: Your movies & TV
+es-ES: Tus películas y programas de TV
+es-MX: Tus películas y programas
+
+English: TV genres
+es-ES: Géneros de TV
+es-MX: Géneros televisivos
+
+English: gamercard
+es-ES: gamercard
+es-MX: tarjeta de jugador
+
+English: Polycom Roundtable 100 for Skype for Business
+es-ES: Polycom Roundtable 100 para Skype for Business
+es-MX: Polycom Roundtable 100 para Skype Empresarial
+
+English: Instant Switching
+es-ES: switching instantáneo
+es-MX: Cambio instantáneo
+
+English: jump
+es-ES: activar
+es-MX: saltar
+
+English: Kinect sign-in
+es-ES: inicio de sesión por Kinect
+es-MX: Iniciar sesión con Kinect
+
+English: search
+es-ES: búsqueda
+es-MX: buscar
+
+English: snap app tile
+es-ES: mosaico para ajustar aplicaciones
+es-MX: mosaico para acoplar aplicaciones
+
+English: snappable
+es-ES: ajustable
+es-MX: acoplable
+
+English: stream
+es-ES: hacer streaming
+es-MX: transmisión
+
+English: desktop
+es-ES: escritorio
+es-MX: dispositivo de escritorio
+
+English: Malicious Software Removal Tool
+es-ES: Malicious Software Removal Tool
+es-MX: Herramienta de eliminación de software malintencionado
+
+English: upvote
+es-ES: voto a favor
+es-MX: votar a favor
+
+English: Multi-tap guide
+es-ES: guía de entrada por multipulsación
+es-MX: guía de entrada multipulsación
+
+English: trending
+es-ES: tendencia
+es-MX: tendencias
+
+English: trust
+es-ES: confiar
+es-MX: confianza
+
+English: upload
+es-ES: cargar
+es-MX: carga
+
+English: voice cue
+es-ES: indicación de voz
+es-MX: indicación para voz
+
+English: Xbox Live Compute
+es-ES: procesos Xbox Live
+es-MX: Procesos Xbox Live
+
+English: battery compartment
+es-ES: compartimiento de la batería
+es-MX: compartimento de la batería
+
+English: battery compartment door
+es-ES: cubierta del compartimiento de la batería
+es-MX: tapa de compartimento de la batería
+
+English: Cinematic Realism
+es-ES: realismo cinemático
+es-MX: Realismo cinemático
+
+English: Living Games
+es-ES: juegos vivos
+es-MX: Juegos Vivos
+
+English: Real Motion
+es-ES: Real Motion
+es-MX: Movimiento Real
+
+English: Real Voice
+es-ES: Real Voice
+es-MX: Voz Real
+
+English: Xbox One architecture
+es-ES: arquitectura Xbox One
+es-MX: Arquitectura Xbox One
+
+English: Shadow
+es-ES: sombra
+es-MX: Sombra
+
+English: Real Vision
+es-ES: Real Vision
+es-MX: Visión Real
+
+English: Xbox One entertainment system
+es-ES: sistema de entretenimiento Xbox One
+es-MX: Sistema de entretenimiento Xbox One
+
+English: download
+es-ES: descargar
+es-MX: descarga
+
+English: Home Gold
+es-ES: Gold familiar
+es-MX: Home Gold
+
+English: party
+es-ES: grupo
+es-MX: fiesta
+
+English: Xbox One Chat Headset
+es-ES: audífonos para chat de Xbox One
+es-MX: Auriculares de Xbox One
+
+English: Xbox One console
+es-ES: consola Xbox One
+es-MX: Consola Xbox One
+
+English: Xbox One Wireless Controller
+es-ES: control inalámbrico Xbox One
+es-MX: Mando Inalámbrico Xbox One
+
+English: Xbox Wireless Controller
+es-ES: Control inalámbrico Xbox
+es-MX: Mando inalámbrico Xbox
+
+English: Xbox One Wireless Controller + Play & Charge Kit
+es-ES: control inalámbrico Xbox One + Kit Carga y Juega
+es-MX: Mando inalámbrico + Kit Carga y Juega Xbox One
+
+English: Xbox Live Rewards
+es-ES: Recompensas Xbox Live
+es-MX: Xbox Live Rewards
+
+English: Network & wireless
+es-ES: Conexión de red y móvil
+es-MX: Conexión inalámbrica y de red
+
+English: Surface Pen
+es-ES: Pluma para Surface
+es-MX: Lápiz para Surface
+
+English: Primetime
+es-ES: Horario estelar
+es-MX: Hora de mayor audiencia
+
+English: Sign in with your work or school account
+es-ES: Inicie sesión con su cuenta profesional o educativa
+es-MX: Iniciar sesión con una cuenta profesional o educativa
+
+English: paid cellular data
+es-ES: datos celulares de pago
+es-MX: datos móviles pagados
+
+English: Currency Converter
+es-ES: Convertidor de divisas
+es-MX: Conversor de divisas
+
+English: ETF Movers
+es-ES: CAMBIOS DE ETF
+es-MX: MOTORES DE ETF
+
+English: Exchange
+es-ES: Bolsa
+es-MX: Exchange
+
+English: Retirement Planner
+es-ES: Planificador de jubilación
+es-MX: Ahorros para la jubilación
+
+English: Return on equity
+es-ES: Rentabilidad del capital
+es-MX: ROE
+
+English: Wealth Estimator
+es-ES: Estimador de riqueza
+es-MX: Calculadora de ahorros
+
+English: Cardio Tracker
+es-ES: Rastreador cardiovascular
+es-MX: Registra tus ejercicios
+
+English: Medical Lookup
+es-ES: Búsqueda médica
+es-MX: Buscador de enfermedades
+
+English: Run Tracker
+es-ES: Seguimiento de carreras
+es-MX: Seguimiento GPS
+
+English: flight
+es-ES: piloto
+es-MX: lanzar como paquete piloto
+
+English: Power
+es-ES: Inicio/apagado
+es-MX: Inicio/Apagado
+
+English: whiteboard
+es-ES: pizarra interactiva
+es-MX: pizarra
+
+English: ML
+es-ES: AA
+es-MX: ML
+
+English: Upgrade Friends and Family
+es-ES: Actualizar a amigos y familiares
+es-MX: Actualiza a amigos y familiares
+
+English: notification badge
+es-ES: aviso de notificación
+es-MX: señal de notificación
+
+English: beacon
+es-ES: baliza
+es-MX: señal
+
+English: refine
+es-ES: restringir
+es-MX: mejorar
+
+English: flash
+es-ES: instalar imagen
+es-MX: flash
+
+English: 3D Selfie
+es-ES: Selfie en 3D
+es-MX: Autofoto en 3D
+
+English: unblock
+es-ES: Desbloquear
+es-MX: desbloquear
+
+English: SMS alert
+es-ES: Alerta SMS
+es-MX: alerta por SMS
+
+English: Skype for Business Web Scheduler
+es-ES: Planificador web de Skype for Business
+es-MX: Programador web de Skype Empresarial
+
+English: Skype for Business Online Phone Add-on
+es-ES: Complemento de teléfono en línea de Skype for Business
+es-MX: Complemento telefónico de Internet de Skype Empresarial
+
+English: Skype for Business Mobile app
+es-ES: Aplicación móvil de Skype for Business
+es-MX: aplicación Skype Empresarial para móviles
+
+English: Skype for Business for Windows Phone
+es-ES: Skype for Business para Windows Phone
+es-MX: Skype Empresarial para Windows Phone
+
+English: Skype for Business for Mac
+es-ES: Skype for Business para Mac
+es-MX: Skype Empresarial para Mac
+
+English: Skype for Business for iPad
+es-ES: Skype for Business para iPad
+es-MX: Skype Empresarial para iPad
+
+English: Skype for Business for Android
+es-ES: Skype for Business para Android
+es-MX: Skype Empresarial para Android
+
+English: Skype for Business 2015 Planning tool
+es-ES: Herramienta de planificación de Skype for Business 2015
+es-MX: Herramienta de planeamiento de Skype Empresarial 2015
+
+English: Skype Credit balance
+es-ES: Saldo de crédito de Skype
+es-MX: saldo de crédito de Skype
+
+English: Skype contact
+es-ES: Contacto de Skype
+es-MX: contacto de Skype
+
+English: Skype Community
+es-ES: Comunidad de Skype
+es-MX: comunidad de Skype
+
+English: Skype broadcast
+es-ES: Difusión de Skype
+es-MX: difusión de Skype
+
+English: reverse charge calling
+es-ES: Llamada de cobro revertido
+es-MX: llamadas a cobro revertido
+
+English: reverse charge call
+es-ES: Llamada de cobro revertido
+es-MX: llamada a cobro revertido
+
+English: reactivate
+es-ES: Reactivar
+es-MX: reactivar
+
+English: rates
+es-ES: Tarifas
+es-MX: tarifas
+
+English: profile picture
+es-ES: Foto de perfil
+es-MX: imagen de perfil
+
+English: kudos
+es-ES: felicitaciones
+es-MX: felicidades
+
+English: join call/conversation/chat
+es-ES: Unirse a la llamada/a la conversación/al chat
+es-MX: unirse a la llamada/la conversación/el chat
+
+English: eGift Card
+es-ES: Tarjeta de regalo electrónica
+es-MX: Tarjeta eGift
+
+English: decline
+es-ES: Rechazar
+es-MX: rechazar
+
+English: decline
+es-ES: denegar
+es-MX: rechazar
+
+English: country code
+es-ES: Código de país
+es-MX: prefijo internacional
+
+English: connection fee
+es-ES: Cargo por conexión
+es-MX: cargo por conexión
+
+English: collect call
+es-ES: Llamada de cobro revertido
+es-MX: llamada a cobro revertido
+
+English: chat window
+es-ES: Ventana de chat
+es-MX: ventana de chat
+
+English: chat history
+es-ES: Historial de chat
+es-MX: historial de chats
+
+English: Mystery Skype
+es-ES: Skype de misterio
+es-MX: Skype misterioso
+
+English: line-of-business publisher
+es-ES: editor de línea de negocio
+es-MX: anunciante de línea de negocio
+
+English: LOB publisher
+es-ES: editor de LOB
+es-MX: anunciante de LOB
+
+English: Focused
+es-ES: Prioritarios
+es-MX: Principales
+
+English: unmute
+es-ES: activar sonido
+es-MX: activar audio
+
+English: trash
+es-ES: papelera
+es-MX: enviar a la papelera
+
+English: Zoom
+es-ES: Zoom
+es-MX: Vista general
+
+English: Microsoft Wallet
+es-ES: Billetera
+es-MX: Cartera
+
+English: Wallet
+es-ES: Billetera
+es-MX: Cartera
+
+English: wallet
+es-ES: billetera
+es-MX: cartera
+
+English: IFS
+es-ES: SI.CONJUNTO
+es-MX: IFS
+
+English: RSVP
+es-ES: RSVP
+es-MX: S. R. C.
+
+English: RSVP
+es-ES: Responder
+es-MX: S. R. C.
+
+English: Skype for Business PSTN Domestic Calling
+es-ES: Llamadas nacionales de RTC de Skype for Business
+es-MX: Llamadas RTC nacionales de Skype Empresarial
+
+English: Skype for Business PSTN Domestic Calling
+es-ES: Llamadas nacionales de RTC de Skype for Business
+es-MX: Llamadas RTC nacionales de Skype Empresarial
+
+English: Skype for Business PSTN International Calling
+es-ES: Llamadas internacionales de RTC de Skype for Business
+es-MX: Llamadas RTC internacionales de Skype Empresarial
+
+English: Skype for Business PSTN International Calling
+es-ES: Llamadas internacionales de RTC de Skype for Business
+es-MX: Llamadas RTC internacionales de Skype Empresarial
+
+English: Skype for Business PSTN Domestic and International Calling
+es-ES: Llamadas internacionales y nacionales de RTC de Skype for Business
+es-MX: Llamadas RTC nacionales e internacionales de Skype Empresarial
+
+English: Skype for Business PSTN Domestic and International Calling
+es-ES: Llamadas internacionales y nacionales de RTC de Skype for Business
+es-MX: Llamadas RTC nacionales e internacionales de Skype Empresarial
+
+English: Enterprise data protection
+es-ES: Protección de datos empresariales
+es-MX: Protección de datos de empresa
+
+English: Windows Feedback Hub
+es-ES: Centro de comentarios sobre Windows
+es-MX: Centro de opiniones sobre Windows
+
+English: Feedback Hub
+es-ES: Centro de comentarios
+es-MX: Centro de opiniones
+
+English: Skype for Business PSTN Consumption
+es-ES: Consumo RTC de Skype for Business
+es-MX: Consumo RTC de Skype Empresarial
+
+English: Most popular
+es-ES: Lo más famoso
+es-MX: Los más populares
+
+English: Timeline
+es-ES: Línea de tiempo
+es-MX: Escala de tiempo
+
+English: Unrated
+es-ES: Sin calificar
+es-MX: Sin valorar
+
+English: video library
+es-ES: biblioteca de videos
+es-MX: biblioteca de vídeos
+
+English: Immersive Reader
+es-ES: Lector inmersivo
+es-MX: Immersive Reader
+
+English: Immersive Reader
+es-ES: Lector inmersivo
+es-MX: Immersive Reader
+
+English: desk-free worker
+es-ES: trabajador sin escritorio
+es-MX: trabajador sin equipo propio
+
+English: glance screen
+es-ES: pantalla vistazo
+es-MX: pantalla de vista rápida
+
+English: Time off request
+es-ES: Solicitud de licencia
+es-MX: Solicitud de tiempo libre
+
+English: Team Chat
+es-ES: Chat del equipo
+es-MX: Chat de equipo
+
+English: Add people
+es-ES: Agregar personas
+es-MX: Agregar contactos
+
+English: Time off details
+es-ES: Detalles de licencias
+es-MX: Información de permiso
+
+English: Time off
+es-ES: Licencia
+es-MX: Tiempo libre
+
+English: Shift details
+es-ES: Detalles del turno
+es-MX: Información de turno
+
+English: SHIFT NOTES
+es-ES: NOTAS DE LOS TURNOS
+es-MX: NOTAS DE TURNO
+
+English: Shift hand off
+es-ES: Turnos ofrecidos
+es-MX: Ofrecimiento de turnos
+
+English: Shift swap
+es-ES: Cambio de turnos
+es-MX: Intercambio de turnos
+
+English: TRADE FOR THIS SHIFT
+es-ES: CAMBIAR TURNO
+es-MX: INTERCAMBIAR TURNO
+
+English: TRADE FOR THIS SHIFT
+es-ES: CAMBIAR POR ESTE TURNO
+es-MX: INTERCAMBIAR TURNO
+
+English: Top games
+es-ES: Juegos más populares
+es-MX: Principales juegos
+
+English: Top apps
+es-ES: Aplicaciones más populares
+es-MX: Principales aplicaciones
+
+English: preview
+es-ES: previsualizar
+es-MX: versión preliminar
+
+English: preview
+es-ES: vista previa
+es-MX: versión preliminar
+
+English: self-host
+es-ES: probar internamente
+es-MX: de prueba interna
+
+English: Multi-player online battle arena
+es-ES: Campo de batalla en línea multijugador
+es-MX: Campo de batalla en línea para varios jugadores
+
+English: Video
+es-ES: Video
+es-MX: Vídeo
+
+English: Swap or offer shift
+es-ES: Intercambiar u ofrecer mi turno
+es-MX: Intercambiar u ofrecer turno
+
+English: shift swap
+es-ES: cambio de turnos
+es-MX: intercambio de turnos
+
+English: Swap my shift
+es-ES: Intercambiar mi turno
+es-MX: Permutar mi turno
+
+English: Swap my shift
+es-ES: Cambiar mi turno
+es-MX: Permutar mi turno
+
+English: Help us improve
+es-ES: Ayúdanos a mejorar
+es-MX: Ayúdenos a mejorar
+
+English: touch writing
+es-ES: escritura de entrada táctil
+es-MX: escritura táctil
+
+English: train
+es-ES: serie
+es-MX: entrenar
+
+English: like
+es-ES: me gusta
+es-MX: Me gusta
+
+English: like
+es-ES: me gusta
+es-MX: Me gusta
+
+English: paddle
+es-ES: palanca
+es-MX: Palanca
+
+English: reward
+es-ES: premio
+es-MX: Premio
+
+English: tournament
+es-ES: torneo
+es-MX: Torneo
+
+English: Xbox Elite Wireless Controller
+es-ES: control inalámbrico Xbox Elite
+es-MX: Mando Inalámbrico Xbox Elite
+
+English: Xbox Kinect Adapter
+es-ES: adaptador de Kinect para Xbox
+es-MX: Adaptador de Kinect para Xbox
+
+English: Xbox One Stereo Headset
+es-ES: audífonos estéreo Xbox One
+es-MX: Auriculares estéreo Xbox One
+
+English: Xbox One Stereo Headset Adapter
+es-ES: adaptador de audífonos estéreo Xbox One
+es-MX: Adaptador de auriculares estéreo Xbox One
+
+English: club
+es-ES: club
+es-MX: Club
+
+English: Looking for Group
+es-ES: Buscando grupo
+es-MX: Buscar un grupo
+
+English: broadcast
+es-ES: transmitir
+es-MX: difundir
+
+English: offboarding
+es-ES: retirada
+es-MX: desvinculación
+
+English: Intelligent Services
+es-ES: Servicios Inteligentes
+es-MX: Servicios inteligentes
+
+English: update history
+es-ES: historial de actualizaciones
+es-MX: Historial de actualizaciones
+
+English: Notepad
+es-ES: Bloc de notas
+es-MX: Bloc de notas de Windows
+
+English: Classic
+es-ES: Clásica
+es-MX: Clásico
+
+English: seed
+es-ES: proporcionar
+es-MX: inicialización
+
+English: Batch calculation
+es-ES: cálculo de lote
+es-MX: Cálculo de lote
+
+English: News
+es-ES: Noticias
+es-MX: News
+
+English: Relevance training
+es-ES: Entrenamiento de la relevancia
+es-MX: entrenamiento de Relevancia
+
+English: load
+es-ES: colección
+es-MX: cargar
+
+English: Compare
+es-ES: Comparación
+es-MX: Comparar
+
+English: inclusive
+es-ES: correo con todo el hilo
+es-MX: inclusivo
+
+English: load file
+es-ES: archivo de colección
+es-MX: archivo de compilación
+
+English: case
+es-ES: informe de un caso
+es-MX: caso
+
+English: review set
+es-ES: conjunto para revisión
+es-MX: conjunto de revisión
+
+English: Windows 10 Creators Update
+es-ES: Actualización de Windows 10 para creadores
+es-MX: Windows 10 Creators Update
+
+English: gaze
+es-ES: mirada
+es-MX: mirar
+
+English: My feedback
+es-ES: Mis comentarios
+es-MX: Mis opiniones
+
+English: All apps
+es-ES: Todas las aplicaciones
+es-MX: Todas
+
+English: Video
+es-ES: Video
+es-MX: Vídeo
+
+English: Video
+es-ES: Video
+es-MX: Vídeo
+
+English: Activity
+es-ES: Actividad
+es-MX: actividad
+
+English: time off
+es-ES: licencia
+es-MX: tiempo libre
+
+English: parental leave
+es-ES: licencia por maternidad/paternidad
+es-MX: permiso parental
+
+English: schedule
+es-ES: horario
+es-MX: programar
+
+English: handoff
+es-ES: cambio de turno
+es-MX: transferencia
+
+English: driving directions
+es-ES: direcciones de ruta en coche
+es-MX: indicaciones de ruta en coche
+
+English: transit directions
+es-ES: direcciones de ruta en transporte público
+es-MX: indicaciones de ruta en transporte público
+
+English: walking directions
+es-ES: direcciones de ruta a pie
+es-MX: indicaciones de ruta a pie
+
+English: Classic
+es-ES: Clásica
+es-MX: Clásico
+
+English: Capitalization of March and May
+es-ES: Uso de mayúsculas en marzo y mayo
+es-MX: Capitalización de marzo y mayo
+
+English: remix
+es-ES: remezcla
+es-MX: remezclar
+
+English: In-Place eDiscovery & Hold
+es-ES: eDiscovery y suspensión local
+es-MX: eDiscovery y conservación local
+
+English: Business center
+es-ES: Centro de negocios
+es-MX: Business Center
+
+English: 360° video
+es-ES: video 360°
+es-MX: vídeo 360°
+
+English: Activity
+es-ES: Actividad
+es-MX: actividad
+
+English: Learning
+es-ES: Learning
+es-MX: Aprendizaje
+
+English: Microsoft Secure Score
+es-ES: Microsoft Secure Score
+es-MX: Puntuación de seguridad de Microsoft
+
+English: secure score
+es-ES: puntuación segura
+es-MX: puntuación de seguridad
+
+English: Connections
+es-ES: Connections
+es-MX: Conexiones
+
+English: angry
+es-ES: enojado
+es-MX: enfadado
+
+English: cake
+es-ES: pastel
+es-MX: tarta
+
+English: clapping
+es-ES: aplaudiendo
+es-MX: ¡bravo!
+
+English: clapping
+es-ES: aplaudiendo
+es-MX: ¡bravo!
+
+English: cool
+es-ES: chido
+es-MX: esporádico
+
+English: crying
+es-ES: llorando
+es-MX: llanto
+
+English: crying
+es-ES: llorando
+es-MX: llanto
+
+English: dancing
+es-ES: bailando
+es-MX: baile
+
+English: doh!
+es-ES: Uff
+es-MX: ¡Uy!
+
+English: heidy
+es-ES: ardilla heidy
+es-MX: ardilla
+
+English: heidy
+es-ES: ardilla heidy
+es-MX: ardilla
+
+English: it wasn't me!
+es-ES: Yo no fui
+es-MX: Yo no he sido
+
+English: it wasn't me!
+es-ES: Yo no fui
+es-MX: Yo no he sido
+
+English: mooning
+es-ES: mostrar el trasero
+es-MX: que te den
+
+English: mooning
+es-ES: mostrar el trasero
+es-MX: que te den
+
+English: nerdy
+es-ES: nerd
+es-MX: empollón
+
+English: nerdy
+es-ES: nerd
+es-MX: empollón
+
+English: rolling on the floor laughing
+es-ES: desternillándose de risa
+es-MX: desternillarse
+
+English: Skype
+es-ES: skype
+es-MX: Skype
+
+English: smoking
+es-ES: fumando
+es-MX: fumar
+
+English: smoking
+es-ES: fumando
+es-MX: fumar
+
+English: star
+es-ES: estrella
+es-MX: marcar con una estrella
+
+English: vomiting
+es-ES: vomitando
+es-MX: asco
+
+English: yes
+es-ES: sí
+es-MX: Sí
+
+English: Mailbox clean-up assistant
+es-ES: Asistente para la limpieza del buzón
+es-MX: Asistente para la limpieza del buzón de correo
+
+English: Windows Insider Program for Business
+es-ES: Windows Insider Program para empresas
+es-MX: Programa Windows Insider para empresas
+
+English: Explorer
+es-ES: Explorador
+es-MX: Explorer
+
+English: place
+es-ES: situar
+es-MX: lugar
+
+English: point
+es-ES: apuntar
+es-MX: punto
+
+English: Intune Company Portal
+es-ES: Intune Company Portal
+es-MX: Portal de empresa de Intune
+
+English: Company Portal
+es-ES: Company Portal
+es-MX: Portal de empresa
+
+English: high-stakes testing
+es-ES: examen decisivo
+es-MX: prueba decisiva
+
+English: Office 365 Analytics
+es-ES: Análisis de Office 365
+es-MX: Office 365 Analytics
+
+English: Photos & Videos
+es-ES: Fotos y videos
+es-MX: Fotos y vídeos
+
+English: update ring
+es-ES: círculo de actualizaciones
+es-MX: anillo de actualización
+
+English: @mention
+es-ES: @mencionar
+es-MX: @mención
+
+English: fork
+es-ES: bifurcación
+es-MX: bifurcar
+
+English: fork
+es-ES: bifurcación
+es-MX: bifurcar
+
+English: upstream
+es-ES: ascendente
+es-MX: Upstream
+
+English: frame
+es-ES: encuadre
+es-MX: marco
+
+English: switch
+es-ES: cambio
+es-MX: cambiar
+
+English: Thumbstick
+es-ES: Palanca de control
+es-MX: Palanca de mando
+
+English: frame
+es-ES: encuadrar
+es-MX: marco
+
+English: archery
+es-ES: Arquería
+es-MX: Tiro con arco
+
+English: basketball
+es-ES: Básquetbol
+es-MX: Baloncesto
+
+English: be right back
+es-ES: Ya vuelvo
+es-MX: Ahora vuelvo
+
+English: bowled
+es-ES: Descartar
+es-MX: Boleado
+
+English: busy day
+es-ES: Día ocupado
+es-MX: Día ajetreado
+
+English: call
+es-ES: Llamada
+es-MX: llamada
+
+English: can’t unsee that
+es-ES: Ya no lo puedo olvidar
+es-MX: Demasiado tarde
+
+English: car
+es-ES: Auto
+es-MX: Coche
+
+English: champagne
+es-ES: Espumante
+es-MX: Champán
+
+English: cold shivering
+es-ES: Temblando de frío
+es-MX: Muerto de frío
+
+English: computer
+es-ES: Computadora
+es-MX: Ordenador
+
+English: computer rage
+es-ES: Ira computacional
+es-MX: Frustración informática
+
+English: crying with laughter
+es-ES: Ataque de risa
+es-MX: Llorando de risa
+
+English: disco dancer
+es-ES: Bailarín disco
+es-MX: Baile disco
+
+English: donkey
+es-ES: Burro
+es-MX: Asno
+
+English: dreaming
+es-ES: Soñar
+es-MX: Soñador
+
+English: fingers
+es-ES: Dedo
+es-MX: Insulto
+
+English: fist bump
+es-ES: Choque de puños
+es-MX: Choque con el puño
+
+English: got to run
+es-ES: Debo correr
+es-MX: A correr
+
+English: hands celebrating
+es-ES: Manos celebrando
+es-MX: Manos en celebración
+
+English: hold on
+es-ES: Aguarda
+es-MX: Espera
+
+English: kissing lips
+es-ES: Labios besando
+es-MX: Beso
+
+English: lady vampire
+es-ES: Vampira
+es-MX: Vampiresa
+
+English: let's meet
+es-ES: Juntémonos
+es-MX: ¿Quedamos?
+
+English: listening
+es-ES: Estoy escuchando
+es-MX: Escuchando
+
+English: listening to headphones
+es-ES: Escuchando con audífonos
+es-MX: Con los cascos puestos
+
+English: Movember
+es-ES: Bigote con monóculo
+es-MX: Moviembre
+
+English: on the loo
+es-ES: En el baño
+es-MX: En el váter
+
+English: piggy bank
+es-ES: Alcancía
+es-MX: Hucha de cerdito
+
+English: praying
+es-ES: Rezando
+es-MX: Rezo
+
+English: promise
+es-ES: Prometido
+es-MX: Promesa
+
+English: rainbow
+es-ES: Arcoíris
+es-MX: arco iris
+
+English: running
+es-ES: Carrera
+es-MX: Atletismo
+
+English: selfie
+es-ES: Autofoto
+es-MX: Selfie
+
+English: sorry
+es-ES: Perdón
+es-MX: Lo siento
+
+English: speechless
+es-ES: Sin comentarios
+es-MX: Mudo
+
+English: spoiler alert
+es-ES: Alerta de adelanto de trama
+es-MX: Alerta de destripe
+
+English: talk to the hand
+es-ES: Te estoy ignorando
+es-MX: Paso de ti
+
+English: talking too much
+es-ES: Hablar mucho
+es-MX: Hablador
+
+English: trophy
+es-ES: Trofeo
+es-MX: trofeo
+
+English: TV binge zombie
+es-ES: Zombi de maratón de TV
+es-MX: Zombi televisivo
+
+English: umbrella
+es-ES: Sombrilla
+es-MX: Paraguas
+
+English: who’s this!?
+es-ES: ¿¡Quién es!?
+es-MX: ¿Quién es?
+
+English: WTF…
+es-ES: Qué rayos...
+es-MX: ¿Qué diablos...?
+
+English: zombie
+es-ES: Zombi
+es-MX: Zombie
+
+English: Stop dictating
+es-ES: Detener dictado
+es-MX: Termina dictado
+
+English: Skype for Windows phone
+es-ES: Skype para teléfonos Windows
+es-MX: Skype para teléfono Windows
+
+English: Skype for Apple Watch
+es-ES: Skye para Apple Watch
+es-MX: Skype para Apple Watch
+
+English: Communications Credits
+es-ES: Créditos para comunicaciones
+es-MX: Créditos de comunicaciones
+
+English: Office 365 Communications Credits
+es-ES: Créditos para comunicaciones de Office 365
+es-MX: Créditos de comunicaciones de Office 365
+
+English: Audio Conferencing Pay-Per-Minute
+es-ES: Audioconferencia de pago por minuto
+es-MX: Audioconferencia con pago por minuto
+
+English: a man and his dog
+es-ES: Hombre con su perro
+es-MX: Un hombre y su perro
+
+English: Anger
+es-ES: Rabia
+es-MX: Furia
+
+English: bald man with glasses
+es-ES: Hombre calvo con lentes
+es-MX: Hombre calvo con gafas
+
+English: dancing gran
+es-ES: Abuelita bailando
+es-MX: Abuela bailarina
+
+English: dancing Thanksgiving turkey
+es-ES: Pavo asado bailando
+es-MX: Pavo de Acción de Gracias bailarín
+
+English: disgust
+es-ES: Asco
+es-MX: Desagrado
+
+English: festive party
+es-ES: Fiesta festiva
+es-MX: Fiesta navideña
+
+English: finger
+es-ES: Dedo
+es-MX: Insulto
+
+English: football fail
+es-ES: Caída
+es-MX: Pifia en fútbol
+
+English: FUBAR
+es-ES: Fastidiarla
+es-MX: Loco
+
+English: girl shopping
+es-ES: Chica de compras
+es-MX: Chica comprando
+
+English: Hanukkah
+es-ES: Janucá
+es-MX: Hanukkah
+
+English: in love pose
+es-ES: Pose de enamorado
+es-MX: Posición de enamorado
+
+English: Karl Mordo
+es-ES: Karl Mordo
+es-MX: Barón Mordo
+
+English: LFC fan clapping
+es-ES: Fanático de LFC aplaudiendo
+es-MX: Seguidor del LFC aplaudiendo
+
+English: LFC fan facepalm
+es-ES: Fanático de LFC con la mano en la cara
+es-MX: Seguidor del LFC desesperado
+
+English: LFC fan laugh
+es-ES: Fanático de LFC riendo
+es-MX: Seguidor del LFC riéndose
+
+English: LFC fan party
+es-ES: Fanático de LFC festejando
+es-MX: Seguidor del LFC festejando
+
+English: LFC fan worried
+es-ES: Fanático de LFC preocupado
+es-MX: Seguidor del LFC preocupado
+
+English: man playing football
+es-ES: Hombre jugando fútbol
+es-MX: Hombre jugando a futbol
+
+English: man saying come on
+es-ES: Hombre diciendo vamos
+es-MX: Hombre diciendo ¡venga ya!
+
+English: man taking a photo
+es-ES: Hombre tomando foto
+es-MX: Hombre sacando una foto
+
+English: mom-mello
+es-ES: Malva-mamá
+es-MX: Nube mamá
+
+English: morning after party
+es-ES: La mañana después de la fiesta
+es-MX: Mañana después de la fiesta
+
+English: muscle and fat guy
+es-ES: Tipo musculoso y gordo
+es-MX: Chico musculoso y barrigudo
+
+English: nature's call
+es-ES: La naturaleza llama
+es-MX: La llamada de la naturaleza
+
+English: rainbow smile
+es-ES: Sonrisa arcoiris
+es-MX: Arco iris sonriente
+
+English: rickshaw
+es-ES: Carreta
+es-MX: Rickshaw
+
+English: Santa mooning
+es-ES: Papá Noel mostrando el trasero
+es-MX: Calvo navideño
+
+English: Silly Pig
+es-ES: Cerdo tontín
+es-MX: Cerdo tonto
+
+English: Skype for Business
+es-ES: Skype for Business
+es-MX: Skype Empresarial
+
+English: slipper
+es-ES: Chancla
+es-MX: Zapatilla
+
+English: smiling man with glasses
+es-ES: Hombre sonriente con lentes
+es-MX: Hombre que sonríe y lleva gafas
+
+English: stingray
+es-ES: Mantarraya
+es-MX: Raya
+
+English: sweet
+es-ES: Dulce
+es-MX: Dulces
+
+English: synchronized swimming
+es-ES: Nado sincronizado
+es-MX: Natación sincronizada
+
+English: tealight
+es-ES: Lucerna
+es-MX: Luz de té
+
+English: tennis fail
+es-ES: Error tenístico
+es-MX: Tenista patoso
+
+English: tubelight
+es-ES: Tubo fluorescente
+es-MX: Tubo de luz
+
+English: victory sign
+es-ES: Victoria
+es-MX: Signo de la victoria
+
+English: whistle
+es-ES: Chiflido
+es-MX: Silbo
+
+English: year of the monkey
+es-ES: El año del mono
+es-MX: Año del mono
+
+English: good luck
+es-ES: Buena suerte
+es-MX: Suerte
+
+English: what's going on?
+es-ES: ¿Qué sucede?
+es-MX: ¿Qué pasa?
+
+English: Phone Plan
+es-ES: Plan telefónico
+es-MX: plan de telefonía
+
+English: bag
+es-ES: carrito
+es-MX: cesta
+
+English: shopping bag
+es-ES: carrito de compras
+es-MX: cesta de compras
+
+English: annual commitment
+es-ES: plan anual
+es-MX: compromiso anual
+
+English: monthly commitment
+es-ES: plan mensual
+es-MX: compromiso mensual
+
+English: People
+es-ES: Personas
+es-MX: Gente
+
+English: Resume Assistant
+es-ES: Asistente para currículum vítae
+es-MX: Asistente para curriculum vitae
+
+English: booking window
+es-ES: periodo de reservación
+es-MX: período de reserva
+
+English: Education Resources
+es-ES: Recursos educativos
+es-MX: Education Resources
+
+English: slash command
+es-ES: comando de barra lateral
+es-MX: comando de barra oblicua
+
+English: slash command
+es-ES: comando de barra lateral
+es-MX: comando de barra oblicua
+
+English: SMS Insights
+es-ES: Resúmenes de SMS
+es-MX: Información de SMS
+
+English: cheat sheet
+es-ES: ficha de ayuda
+es-MX: hoja de características clave
+
+English: Mobile Plans
+es-ES: Planes de datos móviles
+es-MX: Planes móviles
+
+English: star
+es-ES: estrella
+es-MX: marcar con una estrella
+
+English: end of service
+es-ES: fin del servicio
+es-MX: finalización del servicio
+
+English: SharePoint hub site
+es-ES: sitio del concentrador de SharePoint
+es-MX: sitio central de SharePoint
+
+English: hub site
+es-ES: sitio del concentrador
+es-MX: sitio central
+
+English: hub
+es-ES: centro
+es-MX: centro de conectividad
+
+English: service worker
+es-ES: trab
+es-MX: trabajo de servicio
+
+English: data controller
+es-ES: poseedor de los datos
+es-MX: controlador de datos
+
+English: data controller
+es-ES: responsable de los datos
+es-MX: controlador de datos
+
+English: controller
+es-ES: poseedor de la información
+es-MX: controlador
+
+English: controller
+es-ES: responsable
+es-MX: controlador
+
+English: data processor
+es-ES: procesador de datos
+es-MX: encargado de los datos
+
+English: processor
+es-ES: procesador
+es-MX: encargado
+
+English: report
+es-ES: informe
+es-MX: informar
+
+English: Payment Terms
+es-ES: Condiciones de pago
+es-MX: Términos de pago
+
+English: Terms
+es-ES: Condiciones
+es-MX: Términos
+
+English: release group
+es-ES: grupo de lanzamiento
+es-MX: grupo de liberación
+
+English: targeted release
+es-ES: lanzamiento dirigido
+es-MX: versión dirigida
+
+English: targeted release group
+es-ES: grupo de lanzamiento dirigido
+es-MX: grupo de liberación dirigida
+
+English: standard release
+es-ES: lanzamiento estándar
+es-MX: liberación estándar
+
+English: standard release group
+es-ES: grupo de lanzamiento estándar
+es-MX: grupo de liberación estándar
+
+English: Skype SMS Connect
+es-ES: Conectar SMS de Skype
+es-MX: Conexión de SMS de Skype
+
+English: Skype SMS Connect
+es-ES: Conectar SMS de Skype
+es-MX: Conexión de SMS de Skype
+
+English: SMS Connect
+es-ES: Conectar SMS
+es-MX: Conexión de SMS
+
+English: ISNA
+es-ES: ESND
+es-MX: ESNOD
+
+English: Go Live
+es-ES: En vivo
+es-MX: Llamada en directo
+
+English: Go Live
+es-ES: En vivo
+es-MX: Llamada en directo
+
+English: fixed cost accrual
+es-ES: devengo de costos fijos
+es-MX: acumulación de costes fijos
+
+English: Palm Rejection
+es-ES: Ignorar la palma
+es-MX: Anulación de la palma
+
+English: flat amount
+es-ES: cantidad fija
+es-MX: importe fijo
+
+English: fringe benefit
+es-ES: beneficio complementario
+es-MX: incentivo
+
+English: garnishment
+es-ES: deducción
+es-MX: retención
+
+English: pay statement
+es-ES: declaración de pago
+es-MX: nómina
+
+English: posting rule
+es-ES: regla de contabilidad
+es-MX: regla de registro
+
+English: signing limit
+es-ES: límite de aprobación
+es-MX: límite de firma
+
+English: tax setoff
+es-ES: compensación por impuesto
+es-MX: reembolso por impuesto
+
+English: Tasks
+es-ES: Tareas
+es-MX: Tasks
+
+English: Home
+es-ES: Centro
+es-MX: Inicio
+
+English: Microsoft News
+es-ES: Microsoft Noticias
+es-MX: Microsoft News
+
+English: News
+es-ES: Noticias
+es-MX: News
+
+English: live event
+es-ES: evento en vivo
+es-MX: evento en directo
+
+English: Background blur in Microsoft Teams
+es-ES: Desenfoque del fondo en Microsoft Teams
+es-MX: Desenfoque de fondo en Microsoft Teams
+
+English: blur
+es-ES: desenfocar
+es-MX: desenfoque
+
+English: Skype for Business Cloud Connector Edition
+es-ES: Skype for Business Edición de conector de nube
+es-MX: Skype empresarial Edición de conector de nube
+
+English: care coordinator
+es-ES: coordinador de atención médica
+es-MX: coordinador de asistencia médica
+
+English: care manager
+es-ES: gerente de atención médica
+es-MX: administrador de asistencia médica
+
+English: care manager
+es-ES: gerente de atención médica
+es-MX: administrador de asistencia médica
+
+English: healthcare facility
+es-ES: centro de atención médica
+es-MX: centro sanitario
+
+English: healthcare facility
+es-ES: centro de atención médica
+es-MX: centro sanitario
+
+English: MRN
+es-ES: NHC
+es-MX: Número de historia clínica
+
+English: MRN
+es-ES: NHC
+es-MX: Número de historia clínica
+
+English: medical record number
+es-ES: número de historia clínica
+es-MX: número de expediente médico
+
+English: medical record number
+es-ES: número de historia clínica
+es-MX: número de expediente médico
+
+English: operation
+es-ES: intervención quirúrgica
+es-MX: operación
+
+English: payor
+es-ES: responsable del pago
+es-MX: responsable de los pagos
+
+English: payor
+es-ES: responsable del pago
+es-MX: responsable de los pagos
+
+English: room
+es-ES: cuarto
+es-MX: sala
+
+English: room
+es-ES: cuarto
+es-MX: sala
+
+English: vital signs
+es-ES: signos vitales
+es-MX: constantes vitales
+
+English: fifth vital signs
+es-ES: quinto signo vital
+es-MX: quinta constante vital
+
+English: fifth vital signs
+es-ES: quinto signo vital
+es-MX: quinta constante vital
+
+English: sixth vital signs
+es-ES: sexto signo vital
+es-MX: sexta constante vital
+
+English: sixth vital signs
+es-ES: sexto signo vital
+es-MX: sexta constante vital
+
+English: internet standard
+es-ES: estándar de Internet
+es-MX: norma de Internet
+
+English: internet standard
+es-ES: estándar de Internet
+es-MX: norma de Internet
+
+English: live caption
+es-ES: subtítulos en vivo
+es-MX: subtítulos en directo
+
+English: live caption
+es-ES: subtítulos en vivo
+es-MX: subtítulos en directo
+
+English: attendee engagement report
+es-ES: informe de interacción de los asistentes
+es-MX: Informe de contratación de asistentes
+
+English: attendee engagement report
+es-ES: informe de interacción de los asistentes
+es-MX: Informe de contratación de asistentes
+
+English: emote
+es-ES: expresar los sentimientos
+es-MX: expresar emociones
+
+English: emote
+es-ES: expresar los sentimientos
+es-MX: expresar emociones
+
+English: Skype in the Classroom
+es-ES: Skype en el salón de clases
+es-MX: Skype en el aula
+
+English: Skype in the Classroom
+es-ES: Skype en el salón de clases
+es-MX: Skype en el aula
+
+English: dial key
+es-ES: tecla de marcado
+es-MX: tecla de marcación
+
+English: dial key
+es-ES: tecla de marcado
+es-MX: tecla de marcación
+
+English: Recently Active
+es-ES: Recientemente en actividad
+es-MX: Activo recientemente
+
+English: Recently Active
+es-ES: Recientemente en actividad
+es-MX: Activo recientemente
+
+English: Microsoft 365 live captions & subtitles
+es-ES: Subtítulos en vivo de Microsoft 365
+es-MX: Subtítulos en directo de Microsoft 365
+
+English: Live Subtitles
+es-ES: Subtítulos en vivo
+es-MX: Subtítulos en directo
+
+English: classified
+es-ES: clasificado
+es-MX: reservado
+
+English: Kudos
+es-ES: Felicitaciones
+es-MX: Enhorabuena
+
+English: Kudos
+es-ES: Felicitaciones
+es-MX: Enhorabuena
+
+English: Praise
+es-ES: Felicitar
+es-MX: Elogio
+
+English: Achiever
+es-ES: Objetivo cumplido
+es-MX: Triunfador
+
+English: Achiever
+es-ES: Objetivo cumplido
+es-MX: Triunfador
+
+English: Always Positive
+es-ES: Siempre optimista
+es-MX: Siempre positivo
+
+English: Always Positive
+es-ES: Siempre optimista
+es-MX: Siempre positivo
+
+English: Deadline Smasher
+es-ES: Acelerador de fechas de entrega
+es-MX: Siempre adelantado
+
+English: Deadline Smasher
+es-ES: Acelerador de fechas de entrega
+es-MX: Siempre adelantado
+
+English: Awesome
+es-ES: Increíble
+es-MX: Genial
+
+English: Awesome
+es-ES: Increíble
+es-MX: Genial
+
+English: Coach
+es-ES: Entrenador
+es-MX: Asesor
+
+English: Coach
+es-ES: Entrenador
+es-MX: Asesor
+
+English: Team player
+es-ES: Jugador de equipo
+es-MX: Trabajador en equipo
+
+English: Team player
+es-ES: Jugador de equipo
+es-MX: Trabajador en equipo
+
+English: open shift
+es-ES: turno libre
+es-MX: turno abierto
+
+English: open shift
+es-ES: turno libre
+es-MX: turno abierto
+
+English: Microsoft Teams admin center
+es-ES: Centro de administradores de Microsoft Teams
+es-MX: Centro de administración de Microsoft Teams
+
+English: Microsoft Teams admin center
+es-ES: Centro de administradores de Microsoft Teams
+es-MX: Centro de administración de Microsoft Teams
+
+English: Skype for desktop
+es-ES: Skype para Escritorio
+es-MX: Skype para escritorio
+
+English: Skype for desktop
+es-ES: Skype para Escritorio
+es-MX: Skype para escritorio
+
+English: Skype extension
+es-ES: extensión de Skype
+es-MX: Extensión de Skype
+
+English: work or school email address
+es-ES: dirección de correo laboral o educativa
+es-MX: dirección de correo electrónico profesional o educativa
+
+English: Active
+es-ES: En actividad
+es-MX: En línea
+
+English: Skype Certified
+es-ES: Certificado por Skype
+es-MX: certificado para Skype
+
+English: clock in
+es-ES: registrar entrada
+es-MX: registrar hora de entrada
+
+English: clock out
+es-ES: registrar salida
+es-MX: registrar hora de salida
+
+English: booking calendar
+es-ES: calendario de reservaciones
+es-MX: calendario de reservas
+
+English: personal booking page
+es-ES: página de reservaciones personal
+es-MX: página de reservas personal
+
+English: My Apps
+es-ES: Mis aplicaciones
+es-MX: Aplicaciones
+
+English: Educator Center
+es-ES: Centro de educadores
+es-MX: Centro para formadores
+
+English: whaling
+es-ES: suplantación de identidad de alto nivel
+es-MX: suplantación de altos cargos
+
+English: Quiz
+es-ES: Cuestionarios
+es-MX: Cuestionario
+
+English: tenant admin
+es-ES: administrador de inquilino
+es-MX: administrador de inquilinos
+
+English: tenant administrator
+es-ES: administrador de inquilino
+es-MX: administrador de inquilinos
+
+English: Call
+es-ES: Llamadas
+es-MX: Llamada
+
+English: Network planner
+es-ES: Planificador de red
+es-MX: Planeamiento de red
+
+English: Disabled
+es-ES: Desactivado
+es-MX: Deshabilitado
+
+English: Disabled
+es-ES: Desactivado
+es-MX: Deshabilitado
+
+English: Email & data
+es-ES: Correo y datos
+es-MX: Correo electrónico y datos
+
+English: host
+es-ES: anfitrión
+es-MX: alojar
+
+English: PHI
+es-ES: PHI
+es-MX: FI
+
+English: body fingerprint
+es-ES: huella digital del cuerpo del mensaje
+es-MX: huella digital del cuerpo
+
+English: hands-free
+es-ES: manos libres
+es-MX: sin manos
+
+English: Skype for Business Hybrid
+es-ES: Skype for Business Hybrid
+es-MX: Skype Empresarial Hybrid
+
+English: evidence
+es-ES: pruebas
+es-MX: prueba
+
+English: maintenance forecast
+es-ES: pronóstico de mantenimiento
+es-MX: previsión de mantenimiento
+
+English: Insights
+es-ES: Conclusiones
+es-MX: Ideas
+
+English: hot desk
+es-ES: espacio de trabajo compartido
+es-MX: puesto compartido
+
+English: hot desking
+es-ES: uso compartido de espacios de trabajo
+es-MX: puesto temporal
+
+English: hot-desking
+es-ES: uso de espacios de trabajo compartidos
+es-MX: uso compartido de un puesto
+
+English: hands-free
+es-ES: manos libres
+es-MX: sin manos
+
+English: email cluster
+es-ES: clúster de correo
+es-MX: clúster de correo electrónico
+
+English: Light
+es-ES: Claro
+es-MX: Suave
+
+English: joined groups
+es-ES: grupos a los que te uniste
+es-MX: grupos a los que se unió
+
+English: Schools
+es-ES: Escuelas
+es-MX: Centros educativos
+
+English: Search for members
+es-ES: Busca miembros
+es-MX: Busque miembros
+
+English: Search for channels
+es-ES: Busca canales
+es-MX: Busque canales
+
+English: Search teams
+es-ES: Busca equipos
+es-MX: Busque equipos
+
+English: Play My Emails
+es-ES: Reproducir mis correos
+es-MX: Reproducir mis correos electrónicos
+
+English: Social Media Monitoring
+es-ES: Monitoreo de redes sociales
+es-MX: Supervisión de redes sociales
+
+English: fuzz
+es-ES: preparar datos para pruebas de vulnerabilidad
+es-MX: datos para pruebas de vulnerabilidad
+
+English: dial-out
+es-ES: marcar para invitar
+es-MX: llamada saliente
+
+English: group call pickup
+es-ES: recepción de llamadas grupales
+es-MX: recogida de llamadas grupales
+
+English: Countdown
+es-ES: Cuenta regresiva
+es-MX: Cuenta atrás
+
+English: Countdown Sale
+es-ES: Ofertas de Cuenta Regresiva
+es-MX: Ofertas de cuenta atrás
+
+English: dial in number
+es-ES: número de marcación
+es-MX: número de acceso telefónico
+
+English: directory ID
+es-ES: identificación de directorio
+es-MX: identificador de directorio
+
+English: burgundy
+es-ES: vino
+es-MX: tinto
+
+English: seafoam
+es-ES: verde espuma de mar
+es-MX: verde agua
+
+English: cranberry
+es-ES: arándano
+es-MX: cereza
+
+English: peach
+es-ES: durazno
+es-MX: melocotón
+
+English: lime
+es-ES: verde limón
+es-MX: verde lima
+
+English: forest
+es-ES: verde bosque
+es-MX: bosque
+
+English: insider risk management
+es-ES: administración de riesgo interno
+es-MX: administración de riesgos internos
+
+English: insider risk management policy
+es-ES: directiva de administración de riesgo interno
+es-MX: directiva de administración de riesgos internos
+
+English: insider risk policy
+es-ES: directiva de riesgo interno
+es-MX: directiva de riesgos internos
+
+English: insider risk management case
+es-ES: caso de administración de riesgo interno
+es-MX: caso de administración de riesgos internos
+
+English: Policy Simulation
+es-ES: Simulación de directiva
+es-MX: Simulación de directivas
+
+English: Content explorer
+es-ES: explorador de contenidos
+es-MX: Explorador de contenido
+
+English: insider risk management content explorer
+es-ES: explorador de contenidos de administración de riesgo interno
+es-MX: explorador de contenido de administración de riesgos internos
+
+English: Cards View
+es-ES: Vista de fichas
+es-MX: Vista de tarjetas
+
+English: pop-out chat
+es-ES: Chat emergente
+es-MX: chat emergente
+
+English: pop out chat
+es-ES: Chat emergente
+es-MX: chat emergente
+
+English: LET
+es-ES: PERMITIR
+es-MX: LET
+
+English: business bar
+es-ES: barra de negocios
+es-MX: barra informativa
+
+English: Office cloud policy service
+es-ES: Servicio de directivas de nube Office
+es-MX: Servicio de directivas de nube de Office
+
+English: Connector tool
+es-ES: Herramienta de conector
+es-MX: herramienta Conector
+
+English: Agile kanban
+es-ES: Kanban ágil
+es-MX: kanban ágil
+
+English: kanban board
+es-ES: Panel kanban
+es-MX: panel kanban
+
+English: motion background
+es-ES: fondo animado
+es-MX: fondo en movimiento
+
+English: Microsoft Edge add-ons
+es-ES: Complementos para Microsoft Edge
+es-MX: complementos de Microsoft Edge
+
+English: Guide to Windows 10
+es-ES: Guía para Windows 10
+es-MX: Guía de Windows 10
+
+English: production build
+es-ES: compilación de producción
+es-MX: autoconciencia
+
+English: production release
+es-ES: lanzamiento de producción
+es-MX: versión de producción
+
+English: insider release
+es-ES: lanzamiento para Insider
+es-MX: versión para insider
+
+English: help & learning
+es-ES: ayuda y aprendizaje
+es-MX: ayuda y formación
+
+English: Office app
+es-ES: Aplicación de Office
+es-MX: aplicación de Office
+
+English: privileged access workstation
+es-ES: estación de trabajo de acceso con privilegios
+es-MX: estacion de trabajo de acceso con privilegios
+
+English: facilitator guide
+es-ES: guía del facilitador
+es-MX: guía para el formador
+
+English: document understanding
+es-ES: comprensión de documentos
+es-MX: comprensión mediante documentos
+
+English: co-awareness
+es-ES: concientización mutua
+es-MX: conciencia conjunta
+
+English: awareness and inclusion
+es-ES: concientización e inclusión
+es-MX: conciencia e inclusión
+
+English: Anyone
+es-ES: Cualquier usuario
+es-MX: cualquier usuario
+
+English: wipe
+es-ES: eliminación
+es-MX: borrado
+
+English: wipe request
+es-ES: solicitud de eliminación
+es-MX: solicitud de borrado
+
+English: app protection policy
+es-ES: directiva de protección de la aplic.
+es-MX: directiva de protección de aplicaciones
+
+English: app protection policy
+es-ES: directiva de protección de la aplicación
+es-MX: directiva de protección de aplicaciones
+
+English: application protection policy
+es-ES: directiva de protección de la aplicación
+es-MX: política de protección de aplicaciones
+
+English: MAM without device enrollment
+es-ES: MAM sin registro de dispositivo
+es-MX: MAM sin inscripción de dispositivos
+
+English: MAM without enrollment
+es-ES: MAM sin registro
+es-MX: MAM sin inscripción
+
+English: mobile threat defense
+es-ES: defensa de amenaza móvil
+es-MX: defensa contra amenazas móviles
+
+English: unsafe linked object
+es-ES: objeto vinculado inseguro
+es-MX: objeto vinculado no seguro
+
+English: meeting hours
+es-ES: horas de reunión
+es-MX: horas de reuniones
+
+English: work-life balance
+es-ES: equilibrio entre la vida profesional y privada
+es-MX: equilibrio entre trabajo y vida
+
+English: skip-level
+es-ES: de mayor jerarquía
+es-MX: salto de nivel
+
+English: cutout people
+es-ES: personas en recorte
+es-MX: personas recortadas
+
+English: spotlight
+es-ES: primer plano
+es-MX: poner en primer plano
+
+English: Highlights
+es-ES: Contenidos destacados
+es-MX: Luces
+
+English: fold
+es-ES: doblar
+es-MX: plegar
+
+English: Business Insights & Ideas
+es-ES: Ideas para negocios
+es-MX: Datos e ideas para empresas
+
+English: Microsoft 365 Apps
+es-ES: Aplicaciones Microsoft 365
+es-MX: Aplicaciones de Microsoft 365
+
+English: OneDrive Standalone 100 GB
+es-ES: OneDrive Autónomo de 100 GB
+es-MX: OneDrive Independiente de 100 GB
+
+English: Cloud enabled
+es-ES: Habilitado para streaming por nube
+es-MX: habilitado para la nube
+
+English: Cloud Enabled
+es-ES: Habilitado en la nube
+es-MX: Nube habilitada
+
+English: Smart Delivery
+es-ES: Entrega inteligente
+es-MX: Smart Delivery
+
+English: Xbox Smart Delivery
+es-ES: Entrega inteligente Xbox
+es-MX: Xbox Smart Delivery
+
+English: executory cost
+es-ES: costo a cargo del arrendatario en un arrendamiento de capital
+es-MX: gastos a cargo del arrendatario en un arrendamiento de capital
+
+English: incremental borrowing rate
+es-ES: tasa de interés incremental del endeudamiento
+es-MX: tipo de interés incremental del endeudamiento
+
+English: index rate
+es-ES: tasa indexada
+es-MX: tipo indexado
+
+English: initial direct cost
+es-ES: costo directo inicial
+es-MX: coste directo inicial
+
+English: interest expense
+es-ES: cargo por intereses
+es-MX: gasto por intereses
+
+English: low-value lease
+es-ES: arrendamiento de valor reducido
+es-MX: arrendamiento de bajo valor
+
+English: squiggle
+es-ES: subrayado de error ortográfico
+es-MX: subrayado rojo
+
+English: host
+es-ES: hospedar
+es-MX: alojar
+
+English: location sharing
+es-ES: ubicación compartida
+es-MX: compartir ubicación
+
+English: Flag Day
+es-ES: Día de la Bandera Nacional
+es-MX: Día de la Bandera
+
+English: Focus sessions
+es-ES: Sesiones de concentración
+es-MX: Sesión de enfoque
+
+English: social account
+es-ES: cuenta de redes sociales
+es-MX: cuenta de red social
+
+English: Windows PC Health Check
+es-ES: Comprobación de estado de la PC Windows
+es-MX: Comprobación de estado de PC Windows
+
+English: PC Health Check
+es-ES: Comprobación de estado de la PC
+es-MX: Comprobación de estado del PC
+
+English: Insights
+es-ES: Insights
+es-MX: Ideas
+
+English: Mobile operator configuration
+es-ES: Configuración del operador de telefonía celular
+es-MX: Configuración del operador de telefonía móvil
+
+English: Xbox Live Gold subscription
+es-ES: Suscripción de Xbox Live Gold
+es-MX: Suscripción a Xbox Live Gold
+
+English: Electronic Reporting
+es-ES: Reportes electrónicos
+es-MX: Informes electrónicos
+
+English: Dev Channel
+es-ES: Canal de Desarrolladores
+es-MX: Canal de desarrolladores
+
+English: Learning
+es-ES: Learning
+es-MX: Aprendizaje
+
+English: Cloud configuration
+es-ES: Configuración de la nube
+es-MX: Config. de la nube
+
+English: Viva Connections
+es-ES: Viva Connections
+es-MX: Conexiones Viva
+
+English: Microsoft Viva Connections
+es-ES: Microsoft Viva Connections
+es-MX: Conexiones Microsoft Viva
+
+English: Connections
+es-ES: Connections
+es-MX: Conexiones
+
+English: wheel
+es-ES: dispositivo de rueda
+es-MX: rueda
+
+English: Insights
+es-ES: Insights
+es-MX: Ideas
+
+English: Microsoft Viva Insights
+es-ES: Microsoft Viva Insights
+es-MX: Ideas Microsoft Viva
+
+English: Viva Insights
+es-ES: Viva Insights
+es-MX: Ideas Viva
+
+English: Microsoft Viva Topics
+es-ES: Microsoft Viva Topics
+es-MX: Temas Microsoft Viva
+
+English: Topics
+es-ES: Topics
+es-MX: Temas
+
+English: Viva Topics
+es-ES: Viva Topics
+es-MX: Temas Viva
+
+English: Learning
+es-ES: Learning
+es-MX: Aprendizaje
+
+English: Microsoft Viva Learning
+es-ES: Microsoft Viva Learning
+es-MX: Aprendizaje Microsoft Viva
+
+English: Viva Learning
+es-ES: Viva Learning
+es-MX: Aprendizaje Viva
+
+English: shadow stack
+es-ES: instantánea de pila de llamadas
+es-MX: pila paralela
+
+English: Spotlight
+es-ES: Datos destacados
+es-MX: Destacados
+
+English: Security Trimming
+es-ES: Ajuste de Seguridad
+es-MX: Limitación de seguridad
+
+English: runtime package
+es-ES: paquete en tiempo de ejecución
+es-MX: paquete del entorno de ejecución
+
+English: check-in
+es-ES: registro
+es-MX: entrada
+
+English: app governance
+es-ES: gobierno de la aplicación
+es-MX: gobernanza de aplicaciones
+
+English: Developer Portal
+es-ES: Portal del desarrollador
+es-MX: Portal para desarrolladores
+
+English: Microsoft Viva with Glint add-on
+es-ES: Microsoft Viva con complemento Glint
+es-MX: Microsoft Viva con complemento de Glint
+
+English: ADDRESS
+es-ES: DIRECCIÓN
+es-MX: DIRECCION
+
+English: DOLLAR
+es-ES: DOLLAR
+es-MX: MONEDA
+
+English: ENCODEURL
+es-ES: ENCODEURL
+es-MX: URLCODIF
+
+English: FORMULATEXT
+es-ES: FORMULATEXT
+es-MX: FORMULATEXTO
+
+English: FTEST
+es-ES: FTEST
+es-MX: PRUEBA.F
+
+English: SHEET
+es-ES: SHEET
+es-MX: HOJA
+
+English: SHEETS
+es-ES: SHEETS
+es-MX: HOJAS
+
+English: STANDARDIZE
+es-ES: STANDARDIZE
+es-MX: NORMALIZACION
+
+English: PC health
+es-ES: estado de la PC
+es-MX: estado del PC
+
+English: hot desking
+es-ES: reservación rápida
+es-MX: puesto temporal
+
+English: Advanced Data Residency Plan 1
+es-ES: Plan avanzado de datos residenciales 1
+es-MX: Plan de datos residenciales avanzados 1
+
+English: Advanced Data Residency Plan 2
+es-ES: Plan avanzado de datos residenciales 2
+es-MX: Plan de datos residenciales avanzados 2
+
+English: Operator Connect Mobile
+es-ES: Operador de conexión móvil
+es-MX: Conexión con operador móvil
+
+English: Microsoft Viva Insights Capacity
+es-ES: Microsoft Viva Insights Capacity
+es-MX: Capacidad adicional de Ideas Microsoft Viva
+
+English: feed
+es-ES: feed
+es-MX: fuente
+
+Total entries 17338
+Different: 2118 (12.22%)
