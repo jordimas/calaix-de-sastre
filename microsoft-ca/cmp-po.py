@@ -23,8 +23,8 @@ def main():
             
         diff += 1
         print(f"English: {entry.msgid}")
-        print(f"{name_1}: {entry.msgstr}")
-        print(f"{name_2}: {cat_msgstr}\n")
+        print(f"{name_1}: {cat_msgstr}")
+        print(f"{name_2}: {entry.msgstr}\n")
 
     total = len(po.translated_entries())
     pdiff = diff * 100 / total
