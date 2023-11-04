@@ -9,11 +9,10 @@ Before starting, install dependencies using:
 
 ## Speech to speech translation 
 
-* code: tts.py
-* sample: tts-softcatala.wav
-
-
 ## Speech to text translation (sst)
+
+* code: sst.py
+* input: gossos.mp3
 
 ## Text to speech translation (tts)
 
