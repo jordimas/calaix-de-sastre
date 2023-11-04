@@ -28,4 +28,6 @@ audio_inputs = processor(audios=audio_sample,
 audio_array_from_audio = model.generate(**audio_inputs, tgt_lang="spa")[0].cpu().numpy().squeeze()
 
 # Displaying the generated audio using IPython's Audio function
-Audio(audio_array_from_audio, rate=sample_rate)
+import scipy
+sample_rate=16000
+scipy.io.wavfile.write("sts-cat-spa.wav", rate=sample_rate, data=audio_array_from_text) 
