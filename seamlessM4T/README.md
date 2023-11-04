@@ -11,7 +11,7 @@ Before starting, install dependencies using:
 
 * code: sst.py
 * input: gossos.mp3
-
+* output: sts-cat-spa.wav
 
 ## Speech to text translation (sst)
 
