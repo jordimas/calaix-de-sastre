@@ -7,7 +7,11 @@ Before starting, install dependencies using:
 
 * pip install -r requirements.txt
 
-## Speech to speech translation 
+## Speech to speech translation  (sts)
+
+* code: sst.py
+* input: gossos.mp3
+
 
 ## Speech to text translation (sst)
 
