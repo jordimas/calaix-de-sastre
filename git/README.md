@@ -7,8 +7,8 @@ Ho deixo per centrar-me en altres projectes. Estem buscant una o més persones
 que es vulguin encarregar de la traducció al català del Git, i així col·laborar 
 també amb Softcatalà.
 
-Aquest és un programa de programari lliure rellevant i us pot permetre ajudar
-a molts usuaris i apendre molt bé com funciona.
+Aquest és un programa de programari lliure rellevant i us permet ajudar a molts 
+usuaris i apendre molt bé com funciona el Git.
 
 Algunes informacions:
 * Aquí https://www.softcatala.org/projectes/git/ la pàgina amb els detalls de 
