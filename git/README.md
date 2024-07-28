@@ -7,6 +7,9 @@ Ho deixo per centrar-me en altres projectes. Estem buscant una o més persones
 que es vulguin encarregar de la traducció al català del Git, i així col·laborar 
 també amb Softcatalà.
 
+Aquest és un programa de programari lliure rellevant i us pot permetre ajudar
+a molts usuaris i apendre molt bé com funciona.
+
 Algunes informacions:
 * Aquí https://www.softcatala.org/projectes/git/ la pàgina amb els detalls de 
 la traducció.
@@ -15,7 +18,7 @@ la traducció.
 
 Requisits desitjables de qui es vulgui encarregar:
 
-* Ser usuari del GIT. La traducció és molt més senzilla si coneixes el programa, 
+* Ser usuari del Git. La traducció és molt més senzilla si coneixes el programa, 
 així com el procés de pujar les traduccions.
 * Pel que fa a procés de traducció usem traducció neuronal i després 
 postedició, la qual cosa facilita la feina, però cal ser molt curós, ja que la 
