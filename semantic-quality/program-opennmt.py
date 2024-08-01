@@ -126,15 +126,15 @@ def create_new_translated_po(source_file):
     filename = os.path.basename(target_file)
     command_line=f"-f {filename}"
 
-    command = f"docker run -it -v {directory}:/srv/files/ --env FILE_TYPE='po' --env COMMAND_LINE='{command_line}' --rm jordimash/use-models-tools --name jordimash/use-models-tools"
+    command = f"docker run -it -v {directory}:/srv/files/ --env FILE_TYPE='po' --env COMMAND_LINE='{command_line}' --rm use-models-tools --name use-models-tools"
 #    print(command)
     os.system(command)
    
 
 def main():
 
-    print("Takes a translated PO Catalan file, translates it again using machine translation"
-          "into Catalan then checks levenshtein distance between our translation and the"
+    print("Takes a translated PO Catalan file, translates it again using machine translation\n"
+          "into Catalan then checks levenshtein distance between our translation and the\n"
           "machine's one to find potential semantic quality issues\n")
 
     source_file = read_parameters()
