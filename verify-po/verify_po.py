@@ -8,9 +8,6 @@ from langchain_community.chat_models import ChatLlamaCpp
 
 local_model = "/home/jordi/sc/llama/llama.cpp/download/gemma-2-27b-it-Q4_K_M.gguf"
 local_model = "/home/jordi/sc/llama/llama.cpp/download/gemma-2-9b-it-Q4_K_M.gguf"
-# local_model = (
-#    "/home/jordi/sc/llama/llama.cpp/download/salamandra-7b-instruct-Q4_K_M.gguf"
-# )
 
 
 llm = ChatLlamaCpp(
@@ -92,15 +89,14 @@ def extract_po_strings(po_file_path):
 
 # Example usage
 if __name__ == "__main__":
-    #    po_file = "/home/jordi/dev/gimp/gimp/po-script-fu/ca.po"
     po_file = "gimp-doc.po"
 
     errors = 0
     strings = 0
     for source, target, comment in extract_po_strings(po_file):
         strings += 1
-        if strings < 881:
-            continue
+#        if strings < 881:
+#            continue
 
         result = verify(source, target)
 
