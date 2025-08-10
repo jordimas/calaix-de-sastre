@@ -13,15 +13,27 @@ except KeyError:
 model = genai.GenerativeModel("gemini-2.5-pro")
 
 
+
 def verify(sentences):
     prompt = (
-        "Verify if there are major errors in the translation from English to Catalan. Be to the point in explanations. Do not mention what is correct."
+        "Verify if there are major errors in the translation from English to Catalan. "
+        "Be to the point in explanations. Do not mention what is correct."
         f"{sentences}"
     )
 
-    response = model.generate_content(prompt)
+    # Create a GenerationConfig object
+    generation_config = genai.types.GenerationConfig(
+        temperature=0
+    )
+
+    # Pass the GenerationConfig object to the generate_content method
+    response = model.generate_content(
+        prompt,
+        generation_config=generation_config
+    )
     return response.text
 
+# ... (rest of your code)
 
 def extract_po_strings(po_file_path):
     po = polib.pofile(po_file_path)
@@ -46,10 +58,10 @@ def batch_iterable(iterable, size):
 
 import time
 
-BATCH_SIZE = 100
+BATCH_SIZE = 400
 
 if __name__ == "__main__":
-    po_file = "gnome-calendar.po"
+    po_file = "nautilus.po"
 
     errors = 0
     strings = list(extract_po_strings(po_file))  # Convert to list to get length
@@ -62,8 +74,8 @@ if __name__ == "__main__":
             batch_start = time.time()  # Start timing for batch
 
             r = verify(batch)
-            file.write(f"{r}")
-            file.write("-----------------------")
+            file.write(f"{r}\n")
+            file.write("\n-----------------------\n")
 
             # Calculate % completed
             processed = min((i + 1) * BATCH_SIZE, total_strings)
