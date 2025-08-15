@@ -13,27 +13,28 @@ except KeyError:
 model = genai.GenerativeModel("gemini-2.5-pro")
 
 
-
 def verify(sentences):
+    text = ""
+    for source, target, comment in sentences:
+        text += f"English: {source}\n"
+        text += f"Catalan: {target}\n\n"
+
     prompt = (
         "Verify if there are major errors in the translation from English to Catalan. "
         "Be to the point in explanations. Do not mention what is correct."
-        f"{sentences}"
+        f"{text}"
     )
 
     # Create a GenerationConfig object
-    generation_config = genai.types.GenerationConfig(
-        temperature=0
-    )
-
+    generation_config = genai.types.GenerationConfig(temperature=0)
+    #    print(prompt)
     # Pass the GenerationConfig object to the generate_content method
-    response = model.generate_content(
-        prompt,
-        generation_config=generation_config
-    )
+    response = model.generate_content(prompt, generation_config=generation_config)
     return response.text
 
+
 # ... (rest of your code)
+
 
 def extract_po_strings(po_file_path):
     po = polib.pofile(po_file_path)
@@ -42,10 +43,10 @@ def extract_po_strings(po_file_path):
         (
             entry.msgid.replace("_", ""),
             entry.msgstr.replace("_", ""),
-            "" + entry.comment + entry.tcomment,
+            (entry.comment or "") + (entry.tcomment or ""),
         )
         for entry in po
-        if entry.msgid and entry.msgstr
+        if entry.msgid and entry.msgstr and not entry.fuzzy
     ]
     return translations
 
@@ -61,7 +62,7 @@ import time
 BATCH_SIZE = 400
 
 if __name__ == "__main__":
-    po_file = "nautilus.po"
+    po_file = "/home/jordi/dev/NetworkManager-openconnect/po/ca.po"
 
     errors = 0
     strings = list(extract_po_strings(po_file))  # Convert to list to get length
@@ -69,7 +70,7 @@ if __name__ == "__main__":
 
     start_time = time.time()  # Start timing overall process
 
-    with open('output.txt', 'w') as file:
+    with open("output.txt", "w") as file:
         for i, batch in enumerate(batch_iterable(strings, BATCH_SIZE)):
             batch_start = time.time()  # Start timing for batch
 
@@ -82,10 +83,11 @@ if __name__ == "__main__":
             percent_done = (processed / total_strings) * 100
 
             batch_time = time.time() - batch_start
-            print(f"Progress: {percent_done:.2f}% | Batch time: {batch_time:.2f} seconds")
+            print(
+                f"Progress: {percent_done:.2f}% | Batch time: {batch_time:.2f} seconds"
+            )
 
     total_time = time.time() - start_time
     print(f"Strings analyzed: {total_strings}")
     print(f"Total errors detected: {errors}")
     print(f"Total time used: {total_time:.2f} seconds")
-
