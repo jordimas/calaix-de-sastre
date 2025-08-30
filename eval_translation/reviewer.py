@@ -8,7 +8,18 @@ from langchain.schema import SystemMessage, HumanMessage  # safer than raw tuple
 from translate.storage.tmx import tmxfile
 
 
-local_model = "/home/jordi/sc/llama/llama.cpp/download/google_gemma-3-12b-it-Q8_0.gguf"
+local_model = "/home/jordi/sc/llama/llama.cpp/download/gpt-oss-20b-UD-Q8_K_XL.gguf"
+
+import logging
+
+# Configure logging
+logging.basicConfig(
+    filename="hf.log",  # log file name
+    filemode="w",  # append mode ('w' to overwrite each run)
+    level=logging.INFO,  # minimum log level
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
+
 
 llm = ChatLlamaCpp(
     temperature=0,
@@ -23,65 +34,8 @@ llm = ChatLlamaCpp(
     verbose=False,
 )
 
-BATCH_SIZE = 1  # keeping your value
-
-
-def batch_iterable(iterable, size):
-    iterator = iter(iterable)
-    while batch := list(islice(iterator, size)):
-        yield batch
-
 
 def translate(english: str, catalan: str) -> dict:
-    """
-    Returns a dict with keys:
-      - label: "OK" or "ERROR"
-      - type: "opposite" | "unrelated" | None
-      - reason: short string (<= 10 words)
-    Any parsing failure -> ERROR/unrelated with reason.
-    """
-    system = SystemMessage(
-        content=(
-            "You are a strict translation auditor. "
-            "Decide if the Catalan text matches the English source."
-        )
-    )
-
-    # Few-shot to stabilize behavior
-    examples = [
-        HumanMessage(
-            content=(
-                "TASK:\n"
-                "Check ONLY these two error types:\n"
-                "1) Opposite meaning (contradiction/negation of key idea).\n"
-                "2) Completely unrelated to the English (topic mismatch).\n\n"
-                "Respond with ONE minified JSON line:\n"
-                '{"label":"OK"|"ERROR","type":"opposite"|"unrelated"|null,"reason":"<=10 words"}\n'
-                "If unsure, choose ERROR with type 'unrelated'.\n\n"
-                "English: '''Open the image in a new tab.'''\n"
-                "Catalan: '''Obre la imatge en una pestanya nova.'''"
-            )
-        ),
-        SystemMessage(content='{"label":"OK","type":null,"reason":"Matches source"}'),
-        HumanMessage(
-            content=(
-                "English: '''Enable the feature to allow uploads.'''\n"
-                "Catalan: '''Desactiva la funció per permetre pujades.'''"
-            )
-        ),
-        SystemMessage(
-            content='{"label":"ERROR","type":"opposite","reason":"Negation mismatch"}'
-        ),
-        HumanMessage(
-            content=(
-                "English: '''Click Save to keep your changes.'''\n"
-                "Catalan: '''Aquest menú mostra les preferències del teclat.'''"
-            )
-        ),
-        SystemMessage(
-            content='{"label":"ERROR","type":"unrelated","reason":"Different topic"}'
-        ),
-    ]
 
     task = HumanMessage(
         content=(
@@ -89,36 +43,20 @@ def translate(english: str, catalan: str) -> dict:
             "Check ONLY these two error types:\n"
             "1) Opposite meaning (contradiction/negation of key idea).\n"
             "2) Completely unrelated to the English (topic mismatch).\n\n"
-            "Respond with ONE minified JSON line:\n"
-            '{"label":"OK"|"ERROR","type":"opposite"|"unrelated"|null,"reason":"<=10 words"}\n'
-            "No prose, no code fences, no explanations.\n"
-            "If unsure, choose ERROR with type 'unrelated'.\n\n"
+            "Respond YES if there is an error with a short explanation:\n"
+            "Respond NO if there is no error with no explanation\n"
             f"English: '''{english}'''\n"
             f"Catalan: '''{catalan}'''"
         )
     )
 
-    ai_msg = llm.invoke([system, *examples, task])
+    ai_msg = llm.invoke([task])
 
-    raw = (ai_msg.content or "").strip()
-    # take last line (some models prepend a newline)
-    line = raw.splitlines()[-1].strip()
-    try:
-        data = json.loads(line)
-        # minimal validation
-        if data.get("label") not in {"OK", "ERROR"}:
-            raise ValueError("bad label")
-        if data.get("label") == "OK":
-            data["type"] = None
-            data["reason"] = data.get("reason") or "Matches source"
-        else:
-            if data.get("type") not in {"opposite", "unrelated"}:
-                data["type"] = "unrelated"
-            if not data.get("reason"):
-                data["reason"] = "Mismatch"
-        return data
-    except Exception:
-        return {"label": "ERROR", "type": "unrelated", "reason": "Non-JSON response"}
+    answer = (ai_msg.content or "").strip()
+    logging.info(f"s: {english}")
+    logging.info(f"t: {catalan}")
+    logging.info(f"a: {answer}\r")
+    return answer
 
 
 def _write(english: str, catalan: str, result: dict, fh):
@@ -133,16 +71,16 @@ def _write(english: str, catalan: str, result: dict, fh):
     print("\n-----------------------\n")
 
 
-def load_strings():
+def load_strings(dataset):
     # Open the TMX file
-    with open("translations.tmx", "rb") as file:
+    with open(dataset, "rb") as file:
         tmx = tmxfile(file, "en", "fr")
 
     strings = []
     for tu in tmx.unit_iter():
         source = tu.source
         target = tu.target
-        strings.add((source, target))
+        strings.append((source, target))
 
     return strings
 
@@ -159,6 +97,9 @@ if __name__ == "__main__":
     with open("output2.txt", "w", encoding="utf-8") as file:
         for idx, (en, ca) in enumerate(strings, start=1):
             res = translate(en, ca)
+
+            if res.lower.startswith("NO"):
+                continue
 
             if idx % 50 == 0:
                 percent_done = (idx / total_strings) * 100
