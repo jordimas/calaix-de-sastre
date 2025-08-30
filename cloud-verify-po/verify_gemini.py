@@ -62,7 +62,7 @@ import time
 BATCH_SIZE = 400
 
 if __name__ == "__main__":
-    po_file = "/home/jordi/dev/NetworkManager-openconnect/po/ca.po"
+    po_file = "/home/jordi/dev/gnome-user-docs/gnome-help/ca/ca.po"
 
     errors = 0
     strings = list(extract_po_strings(po_file))  # Convert to list to get length
@@ -74,13 +74,18 @@ if __name__ == "__main__":
         for i, batch in enumerate(batch_iterable(strings, BATCH_SIZE)):
             batch_start = time.time()  # Start timing for batch
 
-            r = verify(batch)
-            file.write(f"{r}\n")
-            file.write("\n-----------------------\n")
 
             # Calculate % completed
             processed = min((i + 1) * BATCH_SIZE, total_strings)
             percent_done = (processed / total_strings) * 100
+            
+#            if percent_done < 50:
+#                 continue
+            
+            r = verify(batch)
+            file.write(f"{r}\n")
+            file.write("\n-----------------------\n")
+
 
             batch_time = time.time() - batch_start
             print(

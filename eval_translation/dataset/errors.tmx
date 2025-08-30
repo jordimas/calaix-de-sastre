@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="3.15.6" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Rotation around (0,0). Rotation angle in degrees:</seg>
+      </tuv>
+      <tuv xml:lang="ca">
+        <seg>Gir al volant (0,0). Angle de rotació en graus:</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
