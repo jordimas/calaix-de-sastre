@@ -7,9 +7,10 @@
       <tuv xml:lang="en">
         <seg>Rotation around (0,0). Rotation angle in degrees:</seg>
       </tuv>
-      <tuv xml:lang="ca">
+      <tuv xml:lang=" ca">
         <seg>Gir al volant (0,0). Angle de rotació en graus:</seg>
       </tuv>
-    </tu>
+    </tu>    
   </body>
 </tmx>
+

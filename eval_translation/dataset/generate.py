@@ -1,6 +1,7 @@
 import polib
 import subprocess
 from pathlib import Path
+from translate.storage import tmx
 
 # Paths to your original po files
 PO1 = Path("gnome-ui.po")
@@ -11,8 +12,9 @@ SMALL1 = Path("intermediate/gnome-ui-small.po")
 SMALL2 = Path("intermediate/gnome-ui-small.po")
 
 # Output tmx files
-TMX1 = Path("file1.tmx")
-TMX2 = Path("file2.tmx")
+TMX0 = Path("errors.tmx")
+TMX1 = Path("intermediate/file1.tmx")
+TMX2 = Path("intermediate/file2.tmx")
 MERGED_TMX = Path("merged.tmx")
 
 # Step 1: Read and truncate PO files
@@ -67,8 +69,9 @@ truncate_po(PO2, SMALL2)
 subprocess.run(["po2tmx", str(SMALL1), str(TMX1), "-l ca"], check=True)
 subprocess.run(["po2tmx", str(SMALL2), str(TMX2), "-l ca"], check=True)
 
-merge_tmx("errors.tmx", "file1.tmx", "file2.tmx", "merged.tmx")
+output = "dataset.tmx"
+merge_tmx(str(TMX0),  str(TMX1), str(TMX2), output)
 
 
-print(f"TMX saved as {MERGED_TMX}")
+print(f"TMX saved as {output}")
 
