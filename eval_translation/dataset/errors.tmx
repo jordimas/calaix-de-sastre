@@ -10,7 +10,26 @@
       <tuv xml:lang=" ca">
         <seg>Gir al volant (0,0). Angle de rotació en graus:</seg>
       </tuv>
-    </tu>    
+    </tu>
+
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Tag selected files with this field</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Copia amb aquest camp els fitxers seleccionats</seg>
+      </tuv>
+    </tu>
+
+    <tu>
+      <tuv xml:lang="en">
+        <seg>No data to parse</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Sense dates per a analitzar</seg>
+      </tuv>
+    </tu>
+
   </body>
 </tmx>
 

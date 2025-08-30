@@ -8,12 +8,14 @@ from translate.storage.tmx import tmxfile
 
 
 local_model = "/home/jordi/sc/llama/llama.cpp/download/gpt-oss-20b-UD-Q8_K_XL.gguf"
+local_model = "/home/jordi/sc/llama/llama.cpp/download/google_gemma-3-27b-it-Q8_0.gguf"
+
 
 import logging
 
 # Configure logging
 logging.basicConfig(
-    filename="hf.log",  # log file name
+    filename="reviewer.log",  # log file name
     filemode="w",  # append mode ('w' to overwrite each run)
     level=logging.INFO,  # minimum log level
     format="%(asctime)s - %(levelname)s - %(message)s",
@@ -26,7 +28,7 @@ llm = ChatLlamaCpp(
     n_ctx=8192,
     n_gpu_layers=8,
     n_batch=64,  # adjust for your VRAM, but no need to be huge
-    max_tokens=64,  # small—it's a single-line JSON classification
+    max_tokens=512,
     n_threads=max(1, multiprocessing.cpu_count()),
     repeat_penalty=1.1,  # softer penalty helps short JSON
     top_p=1.0,  # fully deterministic with temperature=0
