@@ -82,14 +82,21 @@ def translate_old(english: str, catalan: str) -> str:
     return answer
 
 
-def _write(english: str, catalan: str, result: str, fh):
+def _write(english: str, catalan: str, note: str, result: str, fh):
     fh.write(f"English: {english}\n")
     fh.write(f"Catalan: {catalan}\n")
+
+    if note:
+        fh.write(f"Note: {note}\n")
+
     fh.write(f"Result:  {result}\n")
     fh.write("\n-----------------------\n")
 
     print(f"English: {english}")
     print(f"Catalan: {catalan}")
+    if note:
+        print(f"Note: {note}")
+
     print(f"Result: {result}")
     print("\n-----------------------\n")
 
@@ -132,7 +139,7 @@ if __name__ == "__main__":
                 )
 
             errors += 1
-            _write(en, ca, res, file)
+            _write(en, ca, note, res, file)
 
     total_time = time.time() - start_time
     print(f"Strings analyzed: {total_strings}")
