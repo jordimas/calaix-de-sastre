@@ -44,6 +44,9 @@ def translate(english: str, catalan: str) -> str:
                 "Check ONLY these two error types:\n"
                 "1) Completely opposite meaning (contradiction/negation of key idea).\n"
                 "2) Completely topic mismatch to the English.\n"
+                "Do not report:\n"
+                " - Change of tone or formality.\n"
+                " - Errors for which you do not have high confidence.\n"
                 "Respond YES if there is an error with a short explanation.\n"
                 "Respond NO if there is no error with no explanation."
             )
@@ -57,24 +60,6 @@ def translate(english: str, catalan: str) -> str:
     logging.info(f"t: {catalan}")
     logging.info(f"a: {answer}\n")
     return answer
-
-
-def translate_old(english: str, catalan: str) -> str:
-
-    task = (
-        "TASK:\n"
-        "You are an English to Catalan translation reviewer expert.\n"
-        "Check ONLY these two error types:\n"
-        "1) Opposite meaning (contradiction/negation of key idea).\n"
-        "2) Completely topic mismatch to the English.\n"
-        "Do not report:\n"
-        " - Change of tone or formality.\n"
-        " - Errors for which you do not have high confidence.\n"  
-        "Respond YES if there is an error with a short explanation:\n"
-        "Respond NO if there is no error with no explanation\n"
-        f"English: '''{english}'''\n"
-        f"Catalan: '''{catalan}'''"
-    )
 
     ai_msg = llm.invoke(task)
 
@@ -127,19 +112,39 @@ if __name__ == "__main__":
 
     start_time = time.time()
 
+    tp = 0
+    fp = 0
+    fn = 0
+    tn = 0
     with open("output.txt", "w", encoding="utf-8") as file:
         for idx, (en, ca, note) in enumerate(strings, start=1):
             res = translate(en, ca)
 
-            if res.upper().startswith("NO"):
-                continue
-
             if idx % 50 == 0:
                 percent_done = (idx / total_strings) * 100
                 total_time = time.time() - start_time
+
+                precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+                recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+
                 print(
-                    f"Progress: {percent_done:.2f}% - {idx}/{total_strings} | Time: {total_time} seconds"
+                    f"Progress: {percent_done:.2f}% - {idx}/{total_strings} | "
+                    f"Time: {total_time:.2f}s | "
+                    f"TP: {tp}, TN: {tn}, FP: {fp}, FN: {fn} | "
+                    f"Precision: {precision:.2f}, Recall: {recall:.2f}"
                 )
+
+            if res.upper().startswith("NO"):
+                if note:
+                    fn += 1
+                else:
+                    tn += 1
+                continue
+
+            if note:
+                tp += 1
+            else:
+                fp += 1
 
             errors += 1
             _write(en, ca, note, res, file)
