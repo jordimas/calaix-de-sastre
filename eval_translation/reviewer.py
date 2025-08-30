@@ -40,15 +40,16 @@ def translate(english: str, catalan: str) -> str:
     messages = [
         SystemMessage(
             content=(
-                "You are an English to Catalan translation reviewer expert.\n"
-                "Check ONLY these two error types:\n"
-                "1) Completely opposite meaning (contradiction/negation of key idea).\n"
-                "2) Completely topic mismatch to the English.\n"
-                "Do not report:\n"
-                " - Change of tone or formality.\n"
-                " - Errors for which you do not have high confidence.\n"
-                "Respond YES if there is an error with a short explanation.\n"
-                "Respond NO if there is no error with no explanation."
+                "You are an expert English-to-Catalan translation reviewer.\n"
+                "Your task is to check ONLY for these two types of errors:\n"
+                "1) Complete contradiction: the Catalan translation reverses or negates the key meaning of the English.\n"
+                "2) Topic mismatch: the Catalan translation is about a completely different subject than the English.\n\n"
+                "Do NOT report:\n"
+                " - Differences in tone, style, or formality.\n"
+                " - Errors you are not highly confident about.\n\n"
+                "Response format:\n"
+                " - If there is an error, respond YES with a brief explanation.\n"
+                " - If there is no error, respond NO with no explanation."
             )
         ),
         HumanMessage(content=f"English: '''{english}'''\nCatalan: '''{catalan}'''"),
