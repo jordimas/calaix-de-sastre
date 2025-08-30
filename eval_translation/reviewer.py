@@ -7,7 +7,7 @@ from langchain.schema import SystemMessage, HumanMessage  # safer than raw tuple
 from translate.storage.tmx import tmxfile
 
 
-local_model = "/home/jordi/sc/llama/llama.cpp/download/gpt-oss-20b-UD-Q8_K_XL.gguf"
+# local_model = "/home/jordi/sc/llama/llama.cpp/download/gpt-oss-20b-UD-Q8_K_XL.gguf"
 local_model = "/home/jordi/sc/llama/llama.cpp/download/google_gemma-3-27b-it-Q8_0.gguf"
 
 
@@ -61,32 +61,22 @@ def translate(english: str, catalan: str) -> str:
     logging.info(f"a: {answer}\n")
     return answer
 
-    ai_msg = llm.invoke(task)
-
-    answer = (ai_msg.content or "").strip()
-    logging.info(f"s: {english}")
-    logging.info(f"t: {catalan}")
-    logging.info(f"a: {answer}\n")
-    return answer
-
 
 def _write(english: str, catalan: str, note: str, result: str, fh):
-    fh.write(f"English: {english}\n")
-    fh.write(f"Catalan: {catalan}\n")
+    lines = [
+        f"English: {english}",
+        f"Catalan: {catalan}",
+    ]
 
     if note:
-        fh.write(f"Note: {note}\n")
+        lines.append(f"Note: {note}")
 
-    fh.write(f"Result:  {result}\n")
-    fh.write("\n-----------------------\n")
+    lines.append(f"Result: {result}")
+    lines.append("\n-----------------------\n")
 
-    print(f"English: {english}")
-    print(f"Catalan: {catalan}")
-    if note:
-        print(f"Note: {note}")
-
-    print(f"Result: {result}")
-    print("\n-----------------------\n")
+    content = "\n".join(lines)
+    fh.write(content + "\n")
+    print(content)
 
 
 def load_strings(dataset):
@@ -112,15 +102,12 @@ if __name__ == "__main__":
 
     start_time = time.time()
 
-    tp = 0
-    fp = 0
-    fn = 0
-    tn = 0
+    tp = fp = fn = tn = 0
     with open("output.txt", "w", encoding="utf-8") as file:
         for idx, (en, ca, note) in enumerate(strings, start=1):
             res = translate(en, ca)
 
-            if idx % 50 == 0:
+            if idx % 10 == 0:
                 percent_done = (idx / total_strings) * 100
                 total_time = time.time() - start_time
 

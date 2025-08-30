@@ -31,6 +31,16 @@
       </tuv>
       <note>'Dates' should be 'Dades'</note>
     </tu>
+
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you have no &lt;link linkend="fdl-invariant"&gt;Invariant Sections&lt;/link&gt;, write &lt;quote&gt;with no Invariant Sections&lt;/quote&gt; instead of saying which ones are invariant. If you have no &lt;link linkend="fdl-cover-texts"&gt;Front-Cover Texts&lt;/link&gt;, write &lt;quote&gt;no Front-Cover Texts&lt;/quote&gt; instead of &lt;quote&gt;Front-Cover Texts being LIST&lt;/quote&gt;; likewise for &lt;link linkend="fdl-cover-texts"&gt;Back-Cover Texts&lt;/link&gt;.</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Si no teniu &lt;link linkend="fdl-invariant"&gt;Seccions invariables&lt;/link&gt; escriviu &lt;quote&gt;sense Seccions invariables&lt;/quote&gt; en lloc d'indicar quines són invariables. Si no teniu &lt;link linkend="fdl-cover-texts"&gt;Textos de portada&lt;/link&gt;, escriviu &lt;quote&gt;sense Textos de portada&lt;/quote&gt; en lloc de &lt;quote&gt;Textos de portada sent RELACIÓ&lt;/quote&gt;; de la mateixa manera per a &lt;link linkend="fdl-cover-texts"&gt;Textos de contraportada&lt;/link&gt;.</seg>
+      </tuv>
+      <note>'RELACIÓ' should be 'LLISTA'</note>
+    </tu>      
   </body>
 </tmx>
 
