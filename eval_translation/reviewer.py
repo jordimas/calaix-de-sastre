@@ -66,7 +66,7 @@ def translate_old(english: str, catalan: str) -> str:
         "You are an English to Catalan translation reviewer expert.\n"
         "Check ONLY these two error types:\n"
         "1) Opposite meaning (contradiction/negation of key idea).\n"
-        "2) Completely unrelated to the English (topic mismatch).\n"
+        "2) Completely topic mismatch to the English.\n"
         "Respond YES if there is an error with a short explanation:\n"
         "Respond NO if there is no error with no explanation\n"
         f"English: '''{english}'''\n"
@@ -103,8 +103,8 @@ def load_strings(dataset):
     for tu in tmx.unit_iter():
         source = tu.source
         target = tu.target
-        strings.append((source, target))
-
+        note = tu.getnotes()
+        strings.append((source, target, note))
     return strings
 
 
@@ -118,7 +118,7 @@ if __name__ == "__main__":
     start_time = time.time()
 
     with open("output.txt", "w", encoding="utf-8") as file:
-        for idx, (en, ca) in enumerate(strings, start=1):
+        for idx, (en, ca, note) in enumerate(strings, start=1):
             res = translate(en, ca)
 
             if res.upper().startswith("NO"):

@@ -10,6 +10,7 @@
       <tuv xml:lang=" ca">
         <seg>Gir al volant (0,0). Angle de rotació en graus:</seg>
       </tuv>
+      <note>'Volant' should be 'voltant'</note>
     </tu>
 
     <tu>
@@ -20,7 +21,7 @@
         <seg>Copia amb aquest camp els fitxers seleccionats</seg>
       </tuv>
     </tu>
-
+      <note>'Copia' should be 'Etiqueta'</note>
     <tu>
       <tuv xml:lang="en">
         <seg>No data to parse</seg>
@@ -28,8 +29,8 @@
       <tuv xml:lang=" ca">
         <seg>Sense dates per a analitzar</seg>
       </tuv>
+      <note>'Dates' should be 'Dades'</note>
     </tu>
-
   <tu>
       <tuv xml:lang="en">
         <seg>translator-credits</seg>
