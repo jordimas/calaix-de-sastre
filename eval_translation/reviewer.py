@@ -67,7 +67,7 @@ def translate_old(english: str, catalan: str) -> str:
         "Check ONLY these two error types:\n"
         "1) Opposite meaning (contradiction/negation of key idea).\n"
         "2) Completely topic mismatch to the English.\n"
-        "Do not report:
+        "Do not report:\n"
         " - Change of tone or formality.\n"
         " - Errors for which you do not have high confidence.\n"  
         "Respond YES if there is an error with a short explanation:\n"
