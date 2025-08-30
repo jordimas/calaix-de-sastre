@@ -1,6 +1,5 @@
 import multiprocessing
 import json
-import polib
 import time
 from itertools import islice
 from langchain_community.chat_models import ChatLlamaCpp
@@ -35,46 +34,68 @@ llm = ChatLlamaCpp(
 )
 
 
-def translate(english: str, catalan: str) -> dict:
+def translate(english: str, catalan: str) -> str:
+    messages = [
+        SystemMessage(
+            content=(
+                "You are an English to Catalan translation reviewer expert.\n"
+                "Check ONLY these two error types:\n"
+                "1) Opposite meaning (contradiction/negation of key idea).\n"
+                "2) Completely unrelated to the English (topic mismatch).\n"
+                "Respond YES if there is an error with a short explanation.\n"
+                "Respond NO if there is no error with no explanation."
+            )
+        ),
+        HumanMessage(content=f"English: '''{english}'''\nCatalan: '''{catalan}'''"),
+    ]
 
-    task = HumanMessage(
-        content=(
-            "TASK:\n"
-            "Check ONLY these two error types:\n"
-            "1) Opposite meaning (contradiction/negation of key idea).\n"
-            "2) Completely unrelated to the English (topic mismatch).\n\n"
-            "Respond YES if there is an error with a short explanation:\n"
-            "Respond NO if there is no error with no explanation\n"
-            f"English: '''{english}'''\n"
-            f"Catalan: '''{catalan}'''"
-        )
+    ai_msg = llm.invoke(messages)
+    answer = (ai_msg.content or "").strip()
+    logging.info(f"s: {english}")
+    logging.info(f"t: {catalan}")
+    logging.info(f"a: {answer}\n")
+    return answer
+
+
+def translate_old(english: str, catalan: str) -> str:
+
+    task = (
+        "TASK:\n"
+        "You are an English to Catalan translation reviewer expert.\n"
+        "Check ONLY these two error types:\n"
+        "1) Opposite meaning (contradiction/negation of key idea).\n"
+        "2) Completely unrelated to the English (topic mismatch).\n"
+        "Respond YES if there is an error with a short explanation:\n"
+        "Respond NO if there is no error with no explanation\n"
+        f"English: '''{english}'''\n"
+        f"Catalan: '''{catalan}'''"
     )
 
-    ai_msg = llm.invoke([task])
+    ai_msg = llm.invoke(task)
 
     answer = (ai_msg.content or "").strip()
     logging.info(f"s: {english}")
     logging.info(f"t: {catalan}")
-    logging.info(f"a: {answer}\r")
+    logging.info(f"a: {answer}\n")
     return answer
 
 
-def _write(english: str, catalan: str, result: dict, fh):
+def _write(english: str, catalan: str, result: str, fh):
     fh.write(f"English: {english}\n")
     fh.write(f"Catalan: {catalan}\n")
-    fh.write(f"Result: {json.dumps(result, ensure_ascii=False)}\n")
+    fh.write(f"Result:  {result}\n")
     fh.write("\n-----------------------\n")
 
     print(f"English: {english}")
     print(f"Catalan: {catalan}")
-    print(f"Result: {json.dumps(result, ensure_ascii=False)}")
+    print(f"Result: {result}")
     print("\n-----------------------\n")
 
 
 def load_strings(dataset):
     # Open the TMX file
     with open(dataset, "rb") as file:
-        tmx = tmxfile(file, "en", "fr")
+        tmx = tmxfile(file, "en", "ca")
 
     strings = []
     for tu in tmx.unit_iter():
@@ -94,11 +115,11 @@ if __name__ == "__main__":
 
     start_time = time.time()
 
-    with open("output2.txt", "w", encoding="utf-8") as file:
+    with open("output.txt", "w", encoding="utf-8") as file:
         for idx, (en, ca) in enumerate(strings, start=1):
             res = translate(en, ca)
 
-            if res.lower.startswith("NO"):
+            if res.upper().startswith("NO"):
                 continue
 
             if idx % 50 == 0:
@@ -107,9 +128,6 @@ if __name__ == "__main__":
                 print(
                     f"Progress: {percent_done:.2f}% - {idx}/{total_strings} | Time: {total_time} seconds"
                 )
-
-            if res["label"] == "OK":
-                continue
 
             errors += 1
             _write(en, ca, res, file)
