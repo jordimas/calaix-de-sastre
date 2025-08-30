@@ -42,8 +42,8 @@ def translate(english: str, catalan: str) -> str:
             content=(
                 "You are an English to Catalan translation reviewer expert.\n"
                 "Check ONLY these two error types:\n"
-                "1) Opposite meaning (contradiction/negation of key idea).\n"
-                "2) Completely unrelated to the English (topic mismatch).\n"
+                "1) Completely opposite meaning (contradiction/negation of key idea).\n"
+                "2) Completely topic mismatch to the English.\n"
                 "Respond YES if there is an error with a short explanation.\n"
                 "Respond NO if there is no error with no explanation."
             )
