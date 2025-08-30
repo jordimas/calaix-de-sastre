@@ -5,7 +5,8 @@ from itertools import islice
 from langchain_community.chat_models import ChatLlamaCpp
 from langchain.schema import SystemMessage, HumanMessage  # safer than raw tuples
 from translate.storage.tmx import tmxfile
-
+import os
+from datetime import datetime
 
 # local_model = "/home/jordi/sc/llama/llama.cpp/download/gpt-oss-20b-UD-Q8_K_XL.gguf"
 local_model = "/home/jordi/sc/llama/llama.cpp/download/google_gemma-3-27b-it-Q8_0.gguf"
@@ -35,22 +36,21 @@ llm = ChatLlamaCpp(
     verbose=False,
 )
 
+prompt_version = 1
+
+def load_prompt():
+    # Open the file in read mode
+    with open(f'prompt-v{prompt_version}.txt', 'r') as file:
+        data = file.read()  # Read the entire file into a variable
+        
+    return data        
+        
+prompt = load_prompt()
 
 def translate(english: str, catalan: str) -> str:
     messages = [
         SystemMessage(
-            content=(
-                "You are an expert English-to-Catalan translation reviewer.\n"
-                "Your task is to check ONLY for these two types of errors:\n"
-                "1) Complete contradiction: the Catalan translation reverses or negates the key meaning of the English.\n"
-                "2) Topic mismatch: the Catalan translation is about a completely different subject than the English.\n\n"
-                "Do NOT report:\n"
-                " - Differences in tone, style, or formality.\n"
-                " - Errors you are not highly confident about.\n\n"
-                "Response format:\n"
-                " - If there is an error, respond YES with a brief explanation.\n"
-                " - If there is no error, respond NO with no explanation."
-            )
+            content=(prompt)
         ),
         HumanMessage(content=f"English: '''{english}'''\nCatalan: '''{catalan}'''"),
     ]
@@ -104,11 +104,12 @@ if __name__ == "__main__":
     start_time = time.time()
 
     tp = fp = fn = tn = 0
-    with open("output.txt", "w", encoding="utf-8") as file:
+    END = 200
+    with open(f"output-v{prompt_version}.txt", "w", encoding="utf-8") as file:
         for idx, (en, ca, note) in enumerate(strings, start=1):
             res = translate(en, ca)
 
-            if idx % 10 == 0:
+            if idx % 10 == 0 or idx == END:
                 percent_done = (idx / total_strings) * 100
                 total_time = time.time() - start_time
 
@@ -121,6 +122,9 @@ if __name__ == "__main__":
                     f"TP: {tp}, TN: {tn}, FP: {fp}, FN: {fn} | "
                     f"Precision: {precision:.2f}, Recall: {recall:.2f}"
                 )
+
+            if idx == END:
+                break
 
             if res.upper().startswith("NO"):
                 if note:
@@ -138,6 +142,32 @@ if __name__ == "__main__":
             _write(en, ca, note, res, file)
 
     total_time = time.time() - start_time
+    total_time =  f"{total_time:.2f}"
     print(f"Strings analyzed: {total_strings}")
     print(f"Total errors detected: {errors}")
-    print(f"Total time used: {total_time:.2f} seconds")
+    print(f"Total time used: {total_time:} seconds")
+    
+
+    csv = "stats.csv"
+    precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+    recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+
+    if os.path.exists(csv):
+        # File exists, append data
+        mode = "a"
+        write_header = False
+    else:
+        # File doesn't exist, create file and write header
+        mode = "w"
+        write_header = True
+
+    with open(csv, mode, encoding="utf-8") as fh:
+        if write_header:
+            header = "date_time\tprompt_version\ttp\tfp\tfn\ttn\tprecision\trecall\ttotal_time"
+            fh.write(header + "\n")
+        
+        # Get current date and time in a readable format
+        now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        context = f"{now}\t{prompt_version}\t{tp}\t{fp}\t{fn}\t{tn}\t{precision:.2f}\t{recall:.2f}\t{total_time}"
+        fh.write(context + "\n")
+    
