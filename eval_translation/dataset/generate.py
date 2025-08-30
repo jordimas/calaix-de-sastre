@@ -9,7 +9,7 @@ PO2 = Path("gnome-docs.po")
 
 # Output smaller po files
 SMALL1 = Path("intermediate/gnome-ui-small.po")
-SMALL2 = Path("intermediate/gnome-ui-small.po")
+SMALL2 = Path("intermediate/gnome-docs-small.po")
 
 # Output tmx files
 TMX0 = Path("errors.tmx")
@@ -44,16 +44,30 @@ def truncate_po(src: Path, dst: Path, limit: int = 500):
 
 def merge_tmx(file1, file2, file3, output):
     # Open files in binary mode
+    sources = set()
     with open(file1, "rb") as f1, open(file2, "rb") as f2, open(file3, "rb") as f3:
         tmx1 = tmx.tmxfile(f1, 'utf-8')
         tmx2 = tmx.tmxfile(f2, 'utf-8')
         tmx3 = tmx.tmxfile(f3, 'utf-8')
 
         # Merge units from second and third files into the first
+        for unit in tmx1.units:
+            sources.add(unit.source)
+        
         for unit in tmx2.units:
-            tmx1.addunit(unit)
+            if unit.source not in sources:
+                tmx1.addunit(unit)
+                sources.add(unit.source)
+            else:
+                print(f"Discard: {unit.source}")
+
         for unit in tmx3.units:
-            tmx1.addunit(unit)
+            if unit.source not in sources:
+                tmx1.addunit(unit)
+                sources.add(unit.source)
+            else:
+                print(f"Discard: {unit.source}")
+                
 
     # Save merged TMX
     with open(output, "wb") as f:
