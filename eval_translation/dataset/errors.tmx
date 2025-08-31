@@ -76,6 +76,17 @@
     </tu>
     <tu>
         
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Crawling single directory “%s”</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>S'està arrossegant el directori «%s»</seg>
+      </tuv>
+    </tu>
+      <note>'arrossegant' should be 'rastrejant'</note>    
+    <tu>
+        
   </body>
 </tmx>
 
