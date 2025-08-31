@@ -18,8 +18,7 @@ TMX2 = Path("intermediate/file2.tmx")
 MERGED_TMX = Path("merged.tmx")
 
 # Step 1: Read and truncate PO files
-from pathlib import Path
-import polib
+
 
 def truncate_po(src: Path, dst: Path, limit: int = 500):
     po = polib.pofile(src)
@@ -40,20 +39,22 @@ def truncate_po(src: Path, dst: Path, limit: int = 500):
         new_po.append(entry)
 
     new_po.save(dst)
-    
+
 
 def merge_tmx(file1, file2, file3, output):
     # Open files in binary mode
     sources = set()
     with open(file1, "rb") as f1, open(file2, "rb") as f2, open(file3, "rb") as f3:
-        tmx1 = tmx.tmxfile(f1, 'utf-8')
-        tmx2 = tmx.tmxfile(f2, 'utf-8')
-        tmx3 = tmx.tmxfile(f3, 'utf-8')
+        tmx1 = tmx.tmxfile(f1, "utf-8")
+        tmx2 = tmx.tmxfile(f2, "utf-8")
+        tmx3 = tmx.tmxfile(f3, "utf-8")
 
         # Merge units from second and third files into the first
         for unit in tmx1.units:
             sources.add(unit.source)
-        
+
+        print("Defined errors: {len(sources)}")
+
         for unit in tmx2.units:
             if unit.source not in sources:
                 tmx1.addunit(unit)
@@ -67,7 +68,6 @@ def merge_tmx(file1, file2, file3, output):
                 sources.add(unit.source)
             else:
                 print(f"Discard: {unit.source}")
-                
 
     # Save merged TMX
     with open(output, "wb") as f:
@@ -75,6 +75,7 @@ def merge_tmx(file1, file2, file3, output):
 
     # Print number of saved segments
     print(f"Merged TMX contains {len(tmx1.units)} segments.")
+
 
 truncate_po(PO1, SMALL1)
 truncate_po(PO2, SMALL2)
@@ -84,8 +85,7 @@ subprocess.run(["po2tmx", str(SMALL1), str(TMX1), "-l ca"], check=True)
 subprocess.run(["po2tmx", str(SMALL2), str(TMX2), "-l ca"], check=True)
 
 output = "dataset.tmx"
-merge_tmx(str(TMX0),  str(TMX1), str(TMX2), output)
+merge_tmx(str(TMX0), str(TMX1), str(TMX2), output)
 
 
 print(f"TMX saved as {output}")
-
