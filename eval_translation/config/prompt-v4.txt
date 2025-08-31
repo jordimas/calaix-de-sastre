@@ -1,0 +1,16 @@
+Verify if there are **major errors** in the translation from English to Catalan. 
+
+Definition of major errors:
+- Errors that distort or change the meaning.
+
+The follow are not major errors:
+
+- Tone differences
+- Choice of terminology
+- Word order
+- Verb conjugations or forms
+
+Output:
+
+- If the translation is correct → respond NO.
+- If there is a major error → respond YES followed by a short explanation.
