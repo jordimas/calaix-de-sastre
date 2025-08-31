@@ -36,7 +36,7 @@ llm = ChatLlamaCpp(
     verbose=False,
 )
 
-prompt_version = 1
+prompt_version = 2
 
 def load_prompt():
     # Open the file in read mode
@@ -48,6 +48,8 @@ def load_prompt():
 prompt = load_prompt()
 
 def translate(english: str, catalan: str) -> str:
+    english = english.replace("_", "")
+    catalan = catalan.replace("_", "")    
     messages = [
         SystemMessage(
             content=(prompt)
