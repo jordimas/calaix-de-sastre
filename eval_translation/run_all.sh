@@ -1,4 +1,4 @@
-for i in 5 4 3 2 2_1 1; do
+for i in 1 2  2_1 3 4 5; do
     python reviewer.py --prompt_version "$i"
 done
 

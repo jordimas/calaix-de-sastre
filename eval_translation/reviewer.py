@@ -51,7 +51,7 @@ def get_args():
         "--max",
         type=int,
         default=200,
-        help="Maximum number to precess",
+        help="Maximum number to process",
     )
 
     args = parser.parse_args()
@@ -130,7 +130,7 @@ if __name__ == "__main__":
     dataset = "dataset/dataset.tmx"
 
     strings = load_strings(dataset)
-    total_strings = max(len(strings), MAX)
+    total_strings = min(len(strings), MAX)
     errors = 0
 
     start_time = time.time()
@@ -197,10 +197,10 @@ if __name__ == "__main__":
     goal = metadata["goal"]
     with open(csv, mode, encoding="utf-8") as fh:
         if write_header:
-            header = "date_time\tgoal\tprompt_version\ttp\tfp\tfn\ttn\tprecision\trecall\ttotal_time\tstrings"
+            header = "date_time\tprompt_version\tgoal\ttp\tfp\tfn\ttn\tprecision\trecall\ttotal_time\tstrings"
             fh.write(header + "\n")
 
         # Get current date and time in a readable format
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        context = f"{now}\t{goal}\t{prompt_version}\t{tp}\t{fp}\t{fn}\t{tn}\t{precision:.2f}\t{recall:.2f}\t{total_time}\t{processed}"
+        context = f"{now}\t{prompt_version}\t{goal}\t{tp}\t{fp}\t{fn}\t{tn}\t{precision:.2f}\t{recall:.2f}\t{total_time}\t{processed}"
         fh.write(context + "\n")
