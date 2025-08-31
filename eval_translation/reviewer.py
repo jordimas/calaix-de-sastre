@@ -13,7 +13,6 @@ import logging
 local_model = "/home/jordi/sc/llama/llama.cpp/download/google_gemma-3-27b-it-Q8_0.gguf"
 
 
-
 # Configure logging
 logging.basicConfig(
     filename="reviewer.log",  # log file name
@@ -37,7 +36,7 @@ llm = ChatLlamaCpp(
 )
 
 
-def get_prompt_version():
+def get_args():
     parser = argparse.ArgumentParser(
         description="Run translation reviewer with a specific prompt version."
     )
@@ -47,11 +46,19 @@ def get_prompt_version():
         default="2_1",  # default value if not provided
         help="Version of the prompt to use (e.g., 2_1, 3_0, etc.)",
     )
+
+    parser.add_argument(
+        "--max",
+        type=str,
+        default="200",
+        help="Maximum number to precess",
+    )
+
     args = parser.parse_args()
-    return args.prompt_version
+    return args.prompt_version, args.max
 
 
-prompt_version = get_prompt_version()
+prompt_version, MAX = get_args()
 
 
 def load_prompt():
@@ -80,7 +87,6 @@ def translate(english: str, catalan: str) -> str:
         SystemMessage(content=(prompt)),
         HumanMessage(content=f"English: '''{english}'''\nCatalan: '''{catalan}'''"),
     ]
-
     ai_msg = llm.invoke(messages)
     answer = (ai_msg.content or "").strip()
     logging.info(f"s: {english}")
@@ -124,18 +130,19 @@ if __name__ == "__main__":
     dataset = "dataset/dataset.tmx"
 
     strings = load_strings(dataset)
-    total_strings = len(strings)
+    total_strings = max(len(strings), MAX)
     errors = 0
 
     start_time = time.time()
 
     tp = fp = fn = tn = 0
-    END = 200
-    with open(f"output-v{prompt_version}.txt", "w", encoding="utf-8") as file:
+    string = 0
+    with open(f"output-v{prompt_version}-{MAX}.txt", "w", encoding="utf-8") as file:
         for idx, (en, ca, note) in enumerate(strings, start=1):
             res = translate(en, ca)
+            strings += 1
 
-            if idx % 10 == 0 or idx == END:
+            if idx % 10 == 0 or idx == MAX:
                 percent_done = (idx / total_strings) * 100
                 total_time = time.time() - start_time
 
@@ -149,12 +156,13 @@ if __name__ == "__main__":
                     f"Precision: {precision:.2f}, Recall: {recall:.2f}"
                 )
 
-            if idx == END:
+            if idx > 0 and idx == MAX:
                 break
 
             if res.upper().startswith("NO"):
                 if note:
                     fn += 1
+                    _write(en, ca, note, res, file)
                 else:
                     tn += 1
                 continue
@@ -164,16 +172,13 @@ if __name__ == "__main__":
             else:
                 fp += 1
 
-            errors += 1
             _write(en, ca, note, res, file)
 
     total_time = time.time() - start_time
     total_time = f"{total_time:.2f}"
-    print(f"Strings analyzed: {total_strings}")
-    print(f"Total errors detected: {errors}")
     print(f"Total time used: {total_time:} seconds")
 
-    csv = "stats.csv"
+    csv = "stats_{MAX}.csv"
     precision = tp / (tp + fp) if (tp + fp) > 0 else 0
     recall = tp / (tp + fn) if (tp + fn) > 0 else 0
 
@@ -189,10 +194,10 @@ if __name__ == "__main__":
     goal = metadata["goal"]
     with open(csv, mode, encoding="utf-8") as fh:
         if write_header:
-            header = "date_time\tgoal\tprompt_version\ttp\tfp\tfn\ttn\tprecision\trecall\ttotal_time"
+            header = "date_time\tgoal\tprompt_version\ttp\tfp\tfn\ttn\tprecision\trecall\ttotal_time\tstrings"
             fh.write(header + "\n")
 
         # Get current date and time in a readable format
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        context = f"{now}\t{goal}\t{prompt_version}\t{tp}\t{fp}\t{fn}\t{tn}\t{precision:.2f}\t{recall:.2f}\t{total_time}"
+        context = f"{now}\t{goal}\t{prompt_version}\t{tp}\t{fp}\t{fn}\t{tn}\t{precision:.2f}\t{recall:.2f}\t{total_time}\t{strings}"
         fh.write(context + "\n")

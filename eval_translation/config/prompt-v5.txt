@@ -1,3 +1,3 @@
 Verify if there are **major errors** in the translation from English to Catalan. 
 - If the translation is correct → respond NO.
-- If there is a major error → respond YES followed by a category of the error
+- If there is a major error → respond YES followed by the category of the error
