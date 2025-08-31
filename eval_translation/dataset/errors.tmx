@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
-  <header creationtool="Translate Toolkit" creationtoolversion="3.15.6" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <header segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <prop type="author">Softcatalà</prop>
+  <prop type="description">Corpus of real translation errros in computer programs</prop>
   <body>
     <tu>
       <tuv xml:lang="en">
@@ -20,8 +22,9 @@
       <tuv xml:lang=" ca">
         <seg>Copia amb aquest camp els fitxers seleccionats</seg>
       </tuv>
+      <note>'Copia' should be 'Etiqueta'</note>      
     </tu>
-      <note>'Copia' should be 'Etiqueta'</note>
+      
     <tu>
       <tuv xml:lang="en">
         <seg>No data to parse</seg>
@@ -61,6 +64,17 @@
       </tuv>
       <note>'exponent' should be 'potència'</note>      
     </tu>
+    
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Allow CPU Throttling</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Permet l'acceleració de la CPU</seg>
+      </tuv>
+      <note>'acceleració' should be 'limitació'</note>
+    </tu>
+    <tu>
         
   </body>
 </tmx>
