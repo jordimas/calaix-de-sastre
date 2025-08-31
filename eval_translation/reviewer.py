@@ -41,13 +41,21 @@ prompt_version = 2
 
 def load_prompt():
     # Open the file in read mode
-    with open(f"prompt-v{prompt_version}.txt", "r") as file:
+    with open(f"config/prompt-v{prompt_version}.txt", "r") as file:
         data = file.read()  # Read the entire file into a variable
 
     return data
 
 
+def load_metadata():
+    with open(f"config/metatada-v{prompt_version}.yml", "r") as file:
+        config = yaml.safe_load(file)
+
+    return config
+
+
 prompt = load_prompt()
+metadata = load_metadata()
 
 
 def translate(english: str, catalan: str) -> str:
@@ -107,7 +115,7 @@ if __name__ == "__main__":
     start_time = time.time()
 
     tp = fp = fn = tn = 0
-    END = 200
+    END = 2
     with open(f"output-v{prompt_version}.txt", "w", encoding="utf-8") as file:
         for idx, (en, ca, note) in enumerate(strings, start=1):
             res = translate(en, ca)
@@ -163,12 +171,13 @@ if __name__ == "__main__":
         mode = "w"
         write_header = True
 
+    goal = metadata["goal"]
     with open(csv, mode, encoding="utf-8") as fh:
         if write_header:
-            header = "date_time\tprompt_version\ttp\tfp\tfn\ttn\tprecision\trecall\ttotal_time"
+            header = "date_time\tgoal\tprompt_version\ttp\tfp\tfn\ttn\tprecision\trecall\ttotal_time"
             fh.write(header + "\n")
 
         # Get current date and time in a readable format
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        context = f"{now}\t{prompt_version}\t{tp}\t{fp}\t{fn}\t{tn}\t{precision:.2f}\t{recall:.2f}\t{total_time}"
+        context = f"{now}\t{goal}\t{prompt_version}\t{tp}\t{fp}\t{fn}\t{tn}\t{precision:.2f}\t{recall:.2f}\t{total_time}"
         fh.write(context + "\n")
