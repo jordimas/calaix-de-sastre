@@ -53,7 +53,7 @@ def merge_tmx(file1, file2, file3, output):
         for unit in tmx1.units:
             sources.add(unit.source)
 
-        print("Defined errors: {len(sources)}")
+        print(f"Defined errors: {len(sources)}")
 
         for unit in tmx2.units:
             if unit.source not in sources:
