@@ -25,10 +25,10 @@ logging.basicConfig(
 llm = ChatLlamaCpp(
     temperature=0,
     model_path=local_model,
-    n_ctx=8192,
+    n_ctx=2048,
     n_gpu_layers=8,
     n_batch=64,  # adjust for your VRAM, but no need to be huge
-    max_tokens=512,
+    max_tokens=128,
     n_threads=max(1, multiprocessing.cpu_count()),
     repeat_penalty=1.1,  # softer penalty helps short JSON
     top_p=1.0,  # fully deterministic with temperature=0
@@ -150,7 +150,7 @@ if __name__ == "__main__":
 
                 precision = tp / (tp + fp) if (tp + fp) > 0 else 0
                 recall = tp / (tp + fn) if (tp + fn) > 0 else 0
-                set_sec = total_time / processed if (total_time) > 0 else 0
+                set_sec = processed / total_time  if (total_time) > 0 else 0
                 print(
                     f"Progress: {percent_done:.2f}% - {idx}/{total_strings} | set/sec: {set_sec:.2f}| "
                     f"Time: {total_time:.2f}s | "
