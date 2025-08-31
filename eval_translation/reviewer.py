@@ -49,8 +49,8 @@ def get_args():
 
     parser.add_argument(
         "--max",
-        type=str,
-        default="200",
+        type=int,
+        default=200,
         help="Maximum number to precess",
     )
 
@@ -137,7 +137,7 @@ if __name__ == "__main__":
 
     tp = fp = fn = tn = 0
     string = 0
-    with open(f"output-v{prompt_version}-{MAX}.txt", "w", encoding="utf-8") as file:
+    with open(f"output/results-v{prompt_version}-{MAX}.txt", "w", encoding="utf-8") as file:
         for idx, (en, ca, note) in enumerate(strings, start=1):
             res = translate(en, ca)
             strings += 1
@@ -178,7 +178,7 @@ if __name__ == "__main__":
     total_time = f"{total_time:.2f}"
     print(f"Total time used: {total_time:} seconds")
 
-    csv = "stats_{MAX}.csv"
+    csv = "output/stats_{MAX}.csv"
     precision = tp / (tp + fp) if (tp + fp) > 0 else 0
     recall = tp / (tp + fn) if (tp + fn) > 0 else 0
 
