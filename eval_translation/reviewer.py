@@ -38,22 +38,23 @@ llm = ChatLlamaCpp(
 
 prompt_version = 2
 
+
 def load_prompt():
     # Open the file in read mode
-    with open(f'prompt-v{prompt_version}.txt', 'r') as file:
+    with open(f"prompt-v{prompt_version}.txt", "r") as file:
         data = file.read()  # Read the entire file into a variable
-        
-    return data        
-        
+
+    return data
+
+
 prompt = load_prompt()
+
 
 def translate(english: str, catalan: str) -> str:
     english = english.replace("_", "")
-    catalan = catalan.replace("_", "")    
+    catalan = catalan.replace("_", "")
     messages = [
-        SystemMessage(
-            content=(prompt)
-        ),
+        SystemMessage(content=(prompt)),
         HumanMessage(content=f"English: '''{english}'''\nCatalan: '''{catalan}'''"),
     ]
 
@@ -144,11 +145,10 @@ if __name__ == "__main__":
             _write(en, ca, note, res, file)
 
     total_time = time.time() - start_time
-    total_time =  f"{total_time:.2f}"
+    total_time = f"{total_time:.2f}"
     print(f"Strings analyzed: {total_strings}")
     print(f"Total errors detected: {errors}")
     print(f"Total time used: {total_time:} seconds")
-    
 
     csv = "stats.csv"
     precision = tp / (tp + fp) if (tp + fp) > 0 else 0
@@ -167,9 +167,8 @@ if __name__ == "__main__":
         if write_header:
             header = "date_time\tprompt_version\ttp\tfp\tfn\ttn\tprecision\trecall\ttotal_time"
             fh.write(header + "\n")
-        
+
         # Get current date and time in a readable format
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         context = f"{now}\t{prompt_version}\t{tp}\t{fp}\t{fn}\t{tn}\t{precision:.2f}\t{recall:.2f}\t{total_time}"
         fh.write(context + "\n")
-    
