@@ -150,9 +150,9 @@ if __name__ == "__main__":
 
                 precision = tp / (tp + fp) if (tp + fp) > 0 else 0
                 recall = tp / (tp + fn) if (tp + fn) > 0 else 0
-                set_sec = processed / total_time  if (total_time) > 0 else 0
+                set_sec = processed / total_time * 60  if (total_time) > 0 else 0
                 print(
-                    f"Progress: {percent_done:.2f}% - {idx}/{total_strings} | set/sec: {set_sec:.2f}| "
+                    f"Progress: {percent_done:.2f}% - {idx}/{total_strings} | set/min: {set_sec:.2f}| "
                     f"Time: {total_time:.2f}s | "
                     f"TP: {tp}, TN: {tn}, FP: {fp}, FN: {fn} | "
                     f"Precision: {precision:.2f}, Recall: {recall:.2f}"
