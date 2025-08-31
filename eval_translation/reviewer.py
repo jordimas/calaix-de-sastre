@@ -37,7 +37,7 @@ llm = ChatLlamaCpp(
     verbose=False,
 )
 
-prompt_version = 1
+prompt_version = "2_1"
 
 
 def load_prompt():

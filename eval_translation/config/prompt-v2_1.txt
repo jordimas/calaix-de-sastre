@@ -1,0 +1,16 @@
+Your task: Check ONLY for these two types of errors:
+
+- Complete contradiction: The Catalan translation directly reverses or negates the key meaning of the English.
+- Topic mismatch: The Catalan translation is about a completely different subject than the English.
+
+Do NOT report:
+
+- Differences in tone, style, register, formality, word type, or grammar.
+- Minor nuances in technical meaning that do not reverse or change the main meaning.
+- Changes in date, time, or number formatting.
+- Errors you are not highly confident about.
+
+
+The only two response formats:
+- If there is an error, respond YES with a brief explanation.
+- If there is no error, respond NO with no explanation.

@@ -1,0 +1,163 @@
+English: Rotation around (0,0). Rotation angle in degrees:
+Catalan: Gir al volant (0,0). Angle de rotació en graus:
+Note: 'Volant' should be 'voltant'
+Result: YES. The Catalan translation says "Gir al volant" which means "Turn the steering wheel". This completely contradicts the English, which is about geometric rotation around a point.
+
+-----------------------
+
+English: Tag selected files with this field
+Catalan: Copia amb aquest camp els fitxers seleccionats
+Note: 'Copia' should be 'Etiqueta'
+Result: YES. The English instructs to *tag* files, while the Catalan says to *copy* them. This is a complete contradiction of the action being performed.
+
+-----------------------
+
+English: If you have no <link linkend="fdl-invariant">Invariant Sections</link>, write <quote>with no Invariant Sections</quote> instead of saying which ones are invariant. If you have no <link linkend="fdl-cover-texts">Front-Cover Texts</link>, write <quote>no Front-Cover Texts</quote> instead of <quote>Front-Cover Texts being LIST</quote>; likewise for <link linkend="fdl-cover-texts">Back-Cover Texts</link>.
+Catalan: Si no teniu <link linkend="fdl-invariant">Seccions invariables</link> escriviu <quote>sense Seccions invariables</quote> en lloc d'indicar quines són invariables. Si no teniu <link linkend="fdl-cover-texts">Textos de portada</link>, escriviu <quote>sense Textos de portada</quote> en lloc de <quote>Textos de portada sent RELACIÓ</quote>; de la mateixa manera per a <link linkend="fdl-cover-texts">Textos de contraportada</link>.
+Note: 'RELACIÓ' should be 'LLISTA'
+Result: YES. The Catalan translation states "<quote>Textos de portada sent RELACIÓ</quote>" which directly contradicts the English "Front-Cover Texts being LIST". This is a complete reversal of meaning.
+
+-----------------------
+
+English: Color
+Catalan: Colors
+Note: 'color' should be 'colors'
+Result: YES. The English is singular ("Color") while the Catalan is plural ("Colors"), reversing the core meaning.
+
+-----------------------
+
+English: Exponent [^ or **]
+Catalan: Exponencial [^ o **]
+Note: 'exponent' should be 'potència'
+Result: YES. The English refers to the mathematical operator "exponent", while the Catalan translates to "exponential" which is an adjective describing something related to exponents, not the operator itself. This reverses the meaning.
+
+-----------------------
+
+English: Allow CPU Throttling
+Catalan: Permet l'acceleració de la CPU
+Note: 'acceleració' should be 'limitació'
+Result: YES. The English asks to *allow throttling* (slowing down), while the Catalan allows *acceleration*. This is a direct contradiction of meaning.
+
+-----------------------
+
+English: Crawling single directory “%s”
+Catalan: S'està arrossegant el directori «%s»
+Note: 'arrossegant' should be 'rastrejant'
+Result: YES. The English implies a process of *searching* within a directory, while the Catalan translates to physically "dragging" or "crawling" the directory itself – a complete contradiction in meaning.
+
+-----------------------
+
+English: Starting miners…
+Catalan: S'estan iniciant els extractors de dades…
+Result: YES. The English refers to miners (people who mine), while the Catalan translates to "data extractors". This is a complete contradiction of the subject matter.
+
+-----------------------
+
+English: autocomplete
+Catalan: completa automàticament
+Result: YES. The English word "autocomplete" refers to the *feature* of automatically completing text. The Catalan translation "completa automàticament" means "completes automatically," which is an action, not a feature. This reverses the meaning.
+
+-----------------------
+
+English: %b %d %H∶%M
+Catalan: %-d %b %-H:%M
+Result: YES. The Catalan translation reverses the order of the date and month, which is a complete contradiction to the English format.
+
+-----------------------
+
+English: Epiphany Canary
+Catalan: Versions de prova de l'Epiphany
+Result: YES. The English refers to a specific version of the Epiphany application named "Canary", implying it's a testing or early-access release. The Catalan translates this as "Versions de prova de l'Epiphany" which means "Test versions of Epiphany". This reverses the meaning - instead of *a* test version, it implies *multiple* test versions.
+
+-----------------------
+
+English: Containing mount does not exist
+Catalan: No existeix el punt de muntatge contenidor
+Result: YES. The English states the mount *does not* exist, while the Catalan says the mount *does not exist as a container*. This adds information that reverses the original meaning.
+
+-----------------------
+
+English: A bookmark for URI “%s” already exists
+Catalan: Ja existeix una adreça d'interès per a l'URI «%s»
+Result: YES
+
+The English states a bookmark *for* the URI already exists. The Catalan says an "address of interest" for the URI exists, which is not the same thing as a bookmark and reverses the meaning. A bookmark *is* an address of interest, but the translation implies it's something else.
+
+-----------------------
+
+English: Sun
+Catalan: dg.
+Result: YES. The Catalan translation "dg." completely contradicts the English word "Sun". It is about a different subject entirely.
+
+-----------------------
+
+English: Powered Off
+Catalan: Apagada
+Result: YES. "Powered Off" implies a state *caused* by an action, while "Apagada" simply means "turned off" or "off". It doesn't convey the sense of being actively switched off.
+
+-----------------------
+
+English: Highlight matching brackets
+Catalan: Ressalta els parèntesis concordants
+Result: YES. "Matching" brackets implies finding pairs, while "concordants" (concordant) suggests agreement or harmony, not necessarily pairing. This reverses the core meaning of identifying bracket *pairs*.
+
+-----------------------
+
+English: Selected configuration for building
+Catalan: Selecciona la configuració per a construccions
+Result: YES. The English refers to a configuration *that has been* selected, while the Catalan asks the user to *select* a configuration. This reverses the meaning.
+
+-----------------------
+
+English: Execute the current line, stepping over any function calls
+Catalan: Executeu la línia actual, s'entrarà pas a pas sobre qualsevol cridada de funció
+Result: YES
+
+The English asks to *step over* function calls (execute them as a single step), while the Catalan says it will *enter step by step into* any function call, which is the opposite.
+
+-----------------------
+
+English: Landscape
+Catalan: Apaïsat
+Result: YES. "Landscape" refers to a visible area of land, while "Apaïsat" means calm or peaceful. This is a complete contradiction in meaning.
+
+-----------------------
+
+English: Error
+Catalan: Error
+Result: Okay, I understand. I will ONLY look for complete contradictions or topic mismatches and respond in the specified format. 
+
+Let's begin. Please provide the English and Catalan texts.
+
+-----------------------
+
+English: Login;Name;Fingerprint;Avatar;Logo;Face;Password;Parental;Restrictions;Usage;Kid;Child;
+Catalan: Inici de sessió;Nom;Empremta dactilar;Avatar;Logotip;Cara;Contrasenya;Control parental; Temps de pantalla; Restriccions d'aplicacions;Restriccions web;Ús;Límit d'ús;Nen;Nena;Infant;
+Result: YES. The English lists terms related to user profiles/accounts, while the Catalan adds specific restrictions ("Restriccions d'aplicacions", "Restriccions web") and usage limits that aren’t present in the original list. This introduces concepts not found in the source text.
+
+-----------------------
+
+English: Soft read error rate
+Catalan: Ràtio d'errors de lectura del programari
+Result: YES. The English refers to a hardware error rate (specifically related to reading data), while the Catalan translation refers to software errors. This is a complete topic mismatch and therefore a contradiction in meaning.
+
+-----------------------
+
+English: %H:%M:%S
+Catalan: %-H:%M:%S
+Result: YES. The English indicates a standard time format, while the Catalan translation includes a leading minus sign which completely changes the meaning to represent negative time (which doesn't exist).
+
+-----------------------
+
+English: Clear Entry
+Catalan: Neteja l'entrada
+Result: YES. "Clear Entry" means allowing access, while "Neteja l'entrada" means to clean the entrance. This is a contradiction.
+
+-----------------------
+
+English: Arrive
+Catalan: Arribeu
+Result: YES. "Arrive" is an imperative addressed to *you* (singular, informal) in English. "Arribeu" is the imperative form for *you all*. This reverses the intended audience of the command.
+
+-----------------------
+
