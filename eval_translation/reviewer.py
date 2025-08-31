@@ -1,19 +1,18 @@
 import multiprocessing
-import json
 import time
-from itertools import islice
 from langchain_community.chat_models import ChatLlamaCpp
 from langchain.schema import SystemMessage, HumanMessage  # safer than raw tuples
 from translate.storage.tmx import tmxfile
 import os
 from datetime import datetime
 import yaml
+import argparse
+import logging
 
-# local_model = "/home/jordi/sc/llama/llama.cpp/download/gpt-oss-20b-UD-Q8_K_XL.gguf"
+
 local_model = "/home/jordi/sc/llama/llama.cpp/download/google_gemma-3-27b-it-Q8_0.gguf"
 
 
-import logging
 
 # Configure logging
 logging.basicConfig(
@@ -37,7 +36,22 @@ llm = ChatLlamaCpp(
     verbose=False,
 )
 
-prompt_version = "2_1"
+
+def get_prompt_version():
+    parser = argparse.ArgumentParser(
+        description="Run translation reviewer with a specific prompt version."
+    )
+    parser.add_argument(
+        "--prompt_version",
+        type=str,
+        default="2_1",  # default value if not provided
+        help="Version of the prompt to use (e.g., 2_1, 3_0, etc.)",
+    )
+    args = parser.parse_args()
+    return args.prompt_version
+
+
+prompt_version = get_prompt_version()
 
 
 def load_prompt():
