@@ -7,6 +7,7 @@ from langchain.schema import SystemMessage, HumanMessage  # safer than raw tuple
 from translate.storage.tmx import tmxfile
 import os
 from datetime import datetime
+import yaml
 
 # local_model = "/home/jordi/sc/llama/llama.cpp/download/gpt-oss-20b-UD-Q8_K_XL.gguf"
 local_model = "/home/jordi/sc/llama/llama.cpp/download/google_gemma-3-27b-it-Q8_0.gguf"
@@ -36,7 +37,7 @@ llm = ChatLlamaCpp(
     verbose=False,
 )
 
-prompt_version = 2
+prompt_version = 1
 
 
 def load_prompt():
@@ -48,7 +49,7 @@ def load_prompt():
 
 
 def load_metadata():
-    with open(f"config/metatada-v{prompt_version}.yml", "r") as file:
+    with open(f"config/metadata-v{prompt_version}.yml", "r") as file:
         config = yaml.safe_load(file)
 
     return config
@@ -115,7 +116,7 @@ if __name__ == "__main__":
     start_time = time.time()
 
     tp = fp = fn = tn = 0
-    END = 2
+    END = 200
     with open(f"output-v{prompt_version}.txt", "w", encoding="utf-8") as file:
         for idx, (en, ca, note) in enumerate(strings, start=1):
             res = translate(en, ca)

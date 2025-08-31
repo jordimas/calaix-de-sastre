@@ -40,7 +40,28 @@
         <seg>Si no teniu &lt;link linkend="fdl-invariant"&gt;Seccions invariables&lt;/link&gt; escriviu &lt;quote&gt;sense Seccions invariables&lt;/quote&gt; en lloc d'indicar quines són invariables. Si no teniu &lt;link linkend="fdl-cover-texts"&gt;Textos de portada&lt;/link&gt;, escriviu &lt;quote&gt;sense Textos de portada&lt;/quote&gt; en lloc de &lt;quote&gt;Textos de portada sent RELACIÓ&lt;/quote&gt;; de la mateixa manera per a &lt;link linkend="fdl-cover-texts"&gt;Textos de contraportada&lt;/link&gt;.</seg>
       </tuv>
       <note>'RELACIÓ' should be 'LLISTA'</note>
-    </tu>      
+    </tu>
+    
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Color</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Colors</seg>
+      </tuv>
+      <note>'color' should be 'colors'</note>
+    </tu>
+
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Exponent [^ or **]</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Exponencial [^ o **]</seg>
+      </tuv>
+      <note>'exponent' should be 'potència'</note>      
+    </tu>
+        
   <tu>
       <tuv xml:lang="en">
         <seg>Audio Player</seg>
@@ -851,14 +872,6 @@ smb://servidor/recurs/fitxer.txt com a ubicació</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Color</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>Colors</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Suggest Code Completions</seg>
       </tuv>
       <tuv xml:lang=" ca">
@@ -983,14 +996,6 @@ smb://servidor/recurs/fitxer.txt com a ubicació</seg>
       </tuv>
       <tuv xml:lang=" ca">
         <seg>Terahertz</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Exponent [^ or **]</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>Exponencial [^ o **]</seg>
       </tuv>
     </tu>
     <tu>
