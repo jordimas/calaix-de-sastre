@@ -136,11 +136,11 @@ if __name__ == "__main__":
     start_time = time.time()
 
     tp = fp = fn = tn = 0
-    string = 0
+    processed = 0
     with open(f"output/results-v{prompt_version}-{MAX}.txt", "w", encoding="utf-8") as file:
         for idx, (en, ca, note) in enumerate(strings, start=1):
             res = translate(en, ca)
-            strings += 1
+            processed += 1
 
             if idx % 10 == 0 or idx == MAX:
                 percent_done = (idx / total_strings) * 100
@@ -199,5 +199,5 @@ if __name__ == "__main__":
 
         # Get current date and time in a readable format
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        context = f"{now}\t{goal}\t{prompt_version}\t{tp}\t{fp}\t{fn}\t{tn}\t{precision:.2f}\t{recall:.2f}\t{total_time}\t{strings}"
+        context = f"{now}\t{goal}\t{prompt_version}\t{tp}\t{fp}\t{fn}\t{tn}\t{precision:.2f}\t{recall:.2f}\t{total_time}\t{processed}"
         fh.write(context + "\n")
