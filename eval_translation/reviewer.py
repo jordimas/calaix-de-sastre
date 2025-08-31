@@ -137,7 +137,9 @@ if __name__ == "__main__":
 
     tp = fp = fn = tn = 0
     processed = 0
-    with open(f"output/results-v{prompt_version}-{MAX}.txt", "w", encoding="utf-8") as file:
+    with open(
+        f"output/results-v{prompt_version}-{MAX}.txt", "w", encoding="utf-8"
+    ) as file:
         for idx, (en, ca, note) in enumerate(strings, start=1):
             res = translate(en, ca)
             processed += 1
@@ -148,9 +150,9 @@ if __name__ == "__main__":
 
                 precision = tp / (tp + fp) if (tp + fp) > 0 else 0
                 recall = tp / (tp + fn) if (tp + fn) > 0 else 0
-
+                set_sec = total_time / processed if (total_time) > 0 else 0
                 print(
-                    f"Progress: {percent_done:.2f}% - {idx}/{total_strings} | "
+                    f"Progress: {percent_done:.2f}% - {idx}/{total_strings} | set/sec: {set_sec:.2f}| "
                     f"Time: {total_time:.2f}s | "
                     f"TP: {tp}, TN: {tn}, FP: {fp}, FN: {fn} | "
                     f"Precision: {precision:.2f}, Recall: {recall:.2f}"
@@ -163,6 +165,7 @@ if __name__ == "__main__":
                 if note:
                     fn += 1
                     _write(en, ca, note, res, file)
+                    continue
                 else:
                     tn += 1
                 continue
@@ -178,7 +181,7 @@ if __name__ == "__main__":
     total_time = f"{total_time:.2f}"
     print(f"Total time used: {total_time:} seconds")
 
-    csv = "output/stats_{MAX}.csv"
+    csv = f"output/stats_{MAX}.csv"
     precision = tp / (tp + fp) if (tp + fp) > 0 else 0
     recall = tp / (tp + fn) if (tp + fn) > 0 else 0
 
