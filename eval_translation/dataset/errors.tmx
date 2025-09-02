@@ -114,11 +114,17 @@
         <seg>S'ha produït un error en emplenar la llista de confiança: %s</seg>
       </tuv>
       <note>'emplenar' should be 'inicialitzar'</note>
-
     </tu>
-    <tu>
-        
 
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Login;Name;Fingerprint;Avatar;Logo;Face;Password;Parental;Restrictions;Usage;Kid;Child;</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Inici de sessió;Nom;Empremta dactilar;Avatar;Logotip;Cara;Contrasenya;Control parental; Temps de pantalla; Restriccions d'aplicacions;Restriccions web;Ús;Límit d'ús;Nen;Nena;Infant;</seg>
+      </tuv>
+      <note>'Restrictions' should be 'Restriccions d'aplicacions;Restricció'</note>      
+    </tu>      
   </body>
 </tmx>
 
