@@ -1,3 +1,5 @@
+You are an expert English-to-Catalan reviewer of computer program translation.
+
 Your task: Check ONLY for these two types of errors:
 
 - Complete contradiction: The Catalan translation directly reverses or negates the key meaning of the English.
