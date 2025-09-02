@@ -95,7 +95,7 @@ def translate(english: str, catalan: str) -> str:
     return answer
 
 
-def _write(english: str, catalan: str, note: str, result: str, fh):
+def _write(english: str, catalan: str, note: str, result: str, fh, status: str):
     lines = [
         f"English: {english}",
         f"Catalan: {catalan}",
@@ -105,6 +105,7 @@ def _write(english: str, catalan: str, note: str, result: str, fh):
         lines.append(f"Note: {note}")
 
     lines.append(f"Result: {result}")
+    lines.append(f"Status: {status}")
     lines.append("\n-----------------------\n")
 
     content = "\n".join(lines)
@@ -150,7 +151,7 @@ if __name__ == "__main__":
 
                 precision = tp / (tp + fp) if (tp + fp) > 0 else 0
                 recall = tp / (tp + fn) if (tp + fn) > 0 else 0
-                set_sec = processed / total_time * 60  if (total_time) > 0 else 0
+                set_sec = processed / total_time * 60 if (total_time) > 0 else 0
                 print(
                     f"Progress: {percent_done:.2f}% - {idx}/{total_strings} | set/min: {set_sec:.2f}| "
                     f"Time: {total_time:.2f}s | "
@@ -164,7 +165,7 @@ if __name__ == "__main__":
             if res.upper().startswith("NO"):
                 if note:
                     fn += 1
-                    _write(en, ca, note, res, file)
+                    _write(en, ca, note, res, file, "tn")
                     continue
                 else:
                     tn += 1
@@ -172,10 +173,10 @@ if __name__ == "__main__":
 
             if note:
                 tp += 1
+                _write(en, ca, note, res, file, "tp")
             else:
                 fp += 1
-
-            _write(en, ca, note, res, file)
+                _write(en, ca, note, res, file, "fp")
 
     total_time = time.time() - start_time
     total_time = f"{total_time:.2f}"

@@ -85,7 +85,40 @@
       </tuv>
       <note>'arrossegant' should be 'rastrejant'</note>          
     </tu>
+    
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Execute the current line, stepping over any function calls</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Executeu la línia actual, s'entrarà pas a pas sobre qualsevol cridada de funció</seg>
+      </tuv>
+    </tu>
+      <note>'ss'entrarà pas a pas' should be 'es passarà'</note>            
+    
+    <tu>
+      <tuv xml:lang="en">
+        <seg>left right double arrow</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>fletxa doble dreta esquerra</seg>
+      </tuv>
+      <note>'dreta esquerra' should be 'esquerra-detra'</note>            
+    </tu>
+    
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Failed to initialize trust list: %s</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>S'ha produït un error en emplenar la llista de confiança: %s</seg>
+      </tuv>
+      <note>'emplenar' should be 'inicialitzar'</note>
+
+    </tu>
+    <tu>
         
+
   </body>
 </tmx>
 
