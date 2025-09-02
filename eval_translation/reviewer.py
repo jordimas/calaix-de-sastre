@@ -165,7 +165,7 @@ if __name__ == "__main__":
             if res.upper().startswith("NO"):
                 if note:
                     fn += 1
-                    _write(en, ca, note, res, file, "tn")
+                    _write(en, ca, note, res, file, "fn")
                     continue
                 else:
                     tn += 1

@@ -85,7 +85,46 @@
       </tuv>
       <note>'arrossegant' should be 'rastrejant'</note>          
     </tu>
-        
+    
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Execute the current line, stepping over any function calls</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Executeu la línia actual, s'entrarà pas a pas sobre qualsevol cridada de funció</seg>
+      </tuv>
+    </tu>
+      <note>'ss'entrarà pas a pas' should be 'es passarà'</note>            
+    
+    <tu>
+      <tuv xml:lang="en">
+        <seg>left right double arrow</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>fletxa doble dreta esquerra</seg>
+      </tuv>
+      <note>'dreta esquerra' should be 'esquerra-detra'</note>            
+    </tu>
+    
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Failed to initialize trust list: %s</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>S'ha produït un error en emplenar la llista de confiança: %s</seg>
+      </tuv>
+      <note>'emplenar' should be 'inicialitzar'</note>
+    </tu>
+
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Login;Name;Fingerprint;Avatar;Logo;Face;Password;Parental;Restrictions;Usage;Kid;Child;</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Inici de sessió;Nom;Empremta dactilar;Avatar;Logotip;Cara;Contrasenya;Control parental; Temps de pantalla; Restriccions d'aplicacions;Restriccions web;Ús;Límit d'ús;Nen;Nena;Infant;</seg>
+      </tuv>
+      <note>'Restrictions' should be 'Restriccions d'aplicacions;Restricció'</note>      
+    </tu>      
   <tu>
       <tuv xml:lang="en">
         <seg>Audio Player</seg>
@@ -552,14 +591,6 @@
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Failed to initialize trust list: %s</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>S'ha produït un error en emplenar la llista de confiança: %s</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Usage:
 </seg>
       </tuv>
@@ -868,14 +899,6 @@ smb://servidor/recurs/fitxer.txt com a ubicació</seg>
       </tuv>
       <tuv xml:lang=" ca">
         <seg>Error d'acció del codi</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Execute the current line, stepping over any function calls</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>Executeu la línia actual, s'entrarà pas a pas sobre qualsevol cridada de funció</seg>
       </tuv>
     </tu>
     <tu>
@@ -1340,14 +1363,6 @@ smb://servidor/recurs/fitxer.txt com a ubicació</seg>
       </tuv>
       <tuv xml:lang=" ca">
         <seg>Aixequeu i poseu el dit al lector per a inscriure la vostra empremta dactilar</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Login;Name;Fingerprint;Avatar;Logo;Face;Password;Parental;Restrictions;Usage;Kid;Child;</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>Inici de sessió;Nom;Empremta dactilar;Avatar;Logotip;Cara;Contrasenya;Control parental; Temps de pantalla; Restriccions d'aplicacions;Restriccions web;Ús;Límit d'ús;Nen;Nena;Infant;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3750,14 +3765,6 @@ L'error ha sigut: %s</seg>
       </tuv>
       <tuv xml:lang=" ca">
         <seg>súper esquerra</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>left right double arrow</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>fletxa doble dreta esquerra</seg>
       </tuv>
     </tu>
     <tu>
