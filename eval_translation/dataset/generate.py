@@ -41,6 +41,26 @@ def truncate_po(src: Path, dst: Path, limit: int = 500):
     new_po.save(dst)
 
 
+def save_po(tmx):
+    po = polib.POFile()
+    po.metadata = {
+        "Project-Id-Version": "merged-tmx",
+        "Language": "ca",
+        "Content-Type": "text/plain; charset=UTF-8",
+    }
+
+    for unit in tmx.units:
+        # Convert TMX unit -> POEntry
+        entry = polib.POEntry(
+            msgid=unit.source or "",
+            msgstr=unit.target or "",
+        )
+        po.append(entry)
+    output_file = "dataset.po"
+    po.save(output_file)
+    print(f"Saved {output_file}")
+
+
 def merge_tmx(file1, file2, file3, output):
     # Open files in binary mode
     sources = set()
@@ -73,8 +93,9 @@ def merge_tmx(file1, file2, file3, output):
     with open(output, "wb") as f:
         tmx1.savefile(f)
 
-    # Print number of saved segments
     print(f"Merged TMX contains {len(tmx1.units)} segments.")
+    print(f"TMX saved as {output}")
+    save_po(tmx1)
 
 
 truncate_po(PO1, SMALL1)
@@ -86,6 +107,3 @@ subprocess.run(["po2tmx", str(SMALL2), str(TMX2), "-l ca"], check=True)
 
 output = "dataset.tmx"
 merge_tmx(str(TMX0), str(TMX1), str(TMX2), output)
-
-
-print(f"TMX saved as {output}")
