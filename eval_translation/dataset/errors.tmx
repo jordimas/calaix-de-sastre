@@ -93,8 +93,8 @@
       <tuv xml:lang=" ca">
         <seg>Executeu la línia actual, s'entrarà pas a pas sobre qualsevol cridada de funció</seg>
       </tuv>
+      <note>'entrarà pas a pas' should be 'es passarà'</note>
     </tu>
-      <note>'ss'entrarà pas a pas' should be 'es passarà'</note>            
     
     <tu>
       <tuv xml:lang="en">

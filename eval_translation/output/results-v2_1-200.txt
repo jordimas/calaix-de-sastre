@@ -36,7 +36,7 @@ English: Color
 Catalan: Colors
 Note: 'color' should be 'colors'
 Result: NO
-Status: tn
+Status: fn
 
 -----------------------
 
@@ -60,7 +60,7 @@ English: Crawling single directory “%s”
 Catalan: S'està arrossegant el directori «%s»
 Note: 'arrossegant' should be 'rastrejant'
 Result: NO
-Status: tn
+Status: fn
 
 -----------------------
 
@@ -83,7 +83,15 @@ English: Failed to initialize trust list: %s
 Catalan: S'ha produït un error en emplenar la llista de confiança: %s
 Note: 'emplenar' should be 'inicialitzar'
 Result: NO
-Status: tn
+Status: fn
+
+-----------------------
+
+English: Login;Name;Fingerprint;Avatar;Logo;Face;Password;Parental;Restrictions;Usage;Kid;Child;
+Catalan: Inici de sessió;Nom;Empremta dactilar;Avatar;Logotip;Cara;Contrasenya;Control parental; Temps de pantalla; Restriccions d'aplicacions;Restriccions web;Ús;Límit d'ús;Nen;Nena;Infant;
+Note: 'Restrictions' should be 'Restriccions d'aplicacions;Restricció'
+Result: YES. "Parental Restrictions" is translated as "Control parental", and "Usage" is translated as "Temps de pantalla". While related, these are not direct equivalents and change the meaning. Specifically, "Temps de pantalla" (screen time) is a *type* of usage restriction, but doesn't cover all types of usage. Also, "Kid/Child" becomes "Nen/Nena/Infant", which expands the scope beyond just children.
+Status: tp
 
 -----------------------
 
@@ -111,13 +119,6 @@ Status: fp
 English: Landscape
 Catalan: Apaïsat
 Result: YES. "Landscape" refers to a visual representation of the natural world, while "Apaïsat" means "calm" or "peaceful." This is a complete contradiction in meaning.
-Status: fp
-
------------------------
-
-English: Login;Name;Fingerprint;Avatar;Logo;Face;Password;Parental;Restrictions;Usage;Kid;Child;
-Catalan: Inici de sessió;Nom;Empremta dactilar;Avatar;Logotip;Cara;Contrasenya;Control parental; Temps de pantalla; Restriccions d'aplicacions;Restriccions web;Ús;Límit d'ús;Nen;Nena;Infant;
-Result: YES. "Parental Restrictions" is translated as "Control parental", and "Usage" is translated as "Temps de pantalla". While related, these are not direct equivalents and change the meaning. Specifically, "Temps de pantalla" (screen time) is a *type* of usage restriction, but doesn't cover all types of usage. Also, "Kid/Child" becomes "Nen/Nena/Infant", which expands the scope beyond just children.
 Status: fp
 
 -----------------------
