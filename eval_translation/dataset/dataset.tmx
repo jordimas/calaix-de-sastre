@@ -175,7 +175,37 @@
       </tuv>
       <note>'eliminar' should be 'moure'</note>
     </tu>
-            
+
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order for your computer to be able to use these devices, it needs to know how to communicate with them. This is done by a piece of software called a &lt;em&gt;device driver&lt;/em&gt;.</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Per tal que l'ordinador pugui utilitzar aquests dispositius, necessita saber com comunicar-s'hi. Això es fa mitjançant una peça de programari anomenada a &lt;em&gt;controlador del dispositiu&lt;/em&gt;.</seg>
+      </tuv>
+      <note>'a controlador' should be 'controlador'</note>
+    </tu>
+
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Devhelp support</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Consulta el Devhelp</seg>
+      </tuv>
+        <note>'Consulta el' should be 'Suport per a'</note>  
+    </tu>
+    
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Repeatedly lift and place your finger on the reader to enroll your fingerprint</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Aixequeu i poseu el dit al lector per a inscriure la vostra empremta dactilar</seg>
+      </tuv>
+        <note>'Repeatedly' is missing</note>      
+    </tu>
+
   <tu>
       <tuv xml:lang="en">
         <seg>Audio Player</seg>
@@ -358,14 +388,6 @@
       </tuv>
       <tuv xml:lang=" ca">
         <seg>Cert</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Devhelp support</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>Consulta el Devhelp</seg>
       </tuv>
     </tu>
     <tu>
@@ -1406,14 +1428,6 @@ smb://servidor/recurs/fitxer.txt com a ubicació</seg>
       </tuv>
       <tuv xml:lang=" ca">
         <seg>Detalls de l'usuari</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Repeatedly lift and place your finger on the reader to enroll your fingerprint</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>Aixequeu i poseu el dit al lector per a inscriure la vostra empremta dactilar</seg>
       </tuv>
     </tu>
     <tu>
@@ -5943,14 +5957,6 @@ PostSession/
       </tuv>
       <tuv xml:lang=" ca">
         <seg>Empremtes i targetes intel·ligents</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>In order for your computer to be able to use these devices, it needs to know how to communicate with them. This is done by a piece of software called a &lt;em&gt;device driver&lt;/em&gt;.</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>Per tal que l'ordinador pugui utilitzar aquests dispositius, necessita saber com comunicar-s'hi. Això es fa mitjançant una peça de programari anomenada a &lt;em&gt;controlador del dispositiu&lt;/em&gt;.</seg>
       </tuv>
     </tu>
     <tu>
