@@ -62,7 +62,7 @@ import time
 BATCH_SIZE = 400
 
 if __name__ == "__main__":
-    po_file = "/home/jordi/dev/gnome-user-docs/gnome-help/ca/ca.po"
+    po_file = "/home/jordi/sc/calaix-de-sastre/eval_translation/dataset/dataset.po"
 
     errors = 0
     strings = list(extract_po_strings(po_file))  # Convert to list to get length
@@ -85,7 +85,7 @@ if __name__ == "__main__":
             r = verify(batch)
             file.write(f"{r}\n")
             file.write("\n-----------------------\n")
-
+            file.flush()
 
             batch_time = time.time() - batch_start
             print(
