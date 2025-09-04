@@ -123,8 +123,59 @@
       <tuv xml:lang=" ca">
         <seg>Inici de sessió;Nom;Empremta dactilar;Avatar;Logotip;Cara;Contrasenya;Control parental; Temps de pantalla; Restriccions d'aplicacions;Restriccions web;Ús;Límit d'ús;Nen;Nena;Infant;</seg>
       </tuv>
-      <note>'Restrictions' should be 'Restriccions d'aplicacions;Restricció'</note>      
-    </tu>      
+      <note>'Restrictions' should be 'Restriccions d'aplicacions;Restricció'</note>
+    </tu>
+
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The language to search for subtitles for movies in.</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>La llengua a la qual cercar subtítols de la pel·lícula.</seg>
+      </tuv>
+      <note>'pel·lícula' should be 'pel·lícules'</note>
+    </tu>
+    
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Merge the blank page with your PDF document using &lt;app&gt;PDF-Shuffler&lt;/app&gt; placing the blank page at the end.</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Combina el PDF en blanc amb el document PDF mitjançant &lt;app&gt;PDF-Shuffler&lt;/app&gt; col·locant la pàgina en blanc al final.</seg>
+      </tuv>
+      <note>'el PDF en blanc' should be 'pàgina en blanc'</note>
+    </tu>
+
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If set, then the assistive tools linked to this GConf key will be started with the GDM GUI program. By default this is a screen reader application.</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Si s'ha definit, l'assistent vinculat a aquesta clau del GConf s'iniciarà amb la interfície gràfica del GDM. De forma predeterminada és un lector de pantalla.</seg>
+      </tuv>
+      <note>'l'assistent' should be 'eines assistives'</note>
+    </tu>
+
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you highlight and copy text from a document using the &lt;app&gt;document viewer&lt;/app&gt; and then paste it into another application, the formatting may alter. It may also contain different characters than the original selection. This often happens when copying text from a PDF document with multiple columns.</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>Si seleccioneu i copieu text des d'un document fent servir el &lt;app&gt;Visualitzador de documents&lt;/app&gt; i llavors el copieu a una altra aplicació, la formatació podria sofrir canvis. Pot contenir caràcters diferents que la selecció original de text. Això passa sovint quan es copia text des de documents en format PDF amb columnes múltiples.</seg>
+      </tuv>
+      <note>'llavors el copieu' should be 'llavors l'enganxeu'</note>
+    </tu>
+
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Depending on how much data has to be moved from the shrunk part, the filesystem resize may take longer time.</seg>
+      </tuv>
+      <tuv xml:lang=" ca">
+        <seg>En funció de la quantitat de dades que s'han d'eliminar de la part reduïda, el canvi de mida del sistema de fitxers pot trigar un temps més llarg.</seg>
+      </tuv>
+      <note>'eliminar' should be 'moure'</note>
+    </tu>
+            
   <tu>
       <tuv xml:lang="en">
         <seg>Audio Player</seg>
@@ -4033,14 +4084,6 @@ L'error ha sigut: %s</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>The language to search for subtitles for movies in.</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>La llengua a la qual cercar subtítols de la pel·lícula.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Screenshot from %s.png</seg>
       </tuv>
       <tuv xml:lang=" ca">
@@ -4404,14 +4447,6 @@ Quique Serrano &lt;qserrano@outlook.com&gt;</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Merge the blank page with your PDF document using &lt;app&gt;PDF-Shuffler&lt;/app&gt; placing the blank page at the end.</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>Combina el PDF en blanc amb el document PDF mitjançant &lt;app&gt;PDF-Shuffler&lt;/app&gt; col·locant la pàgina en blanc al final.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Moving around a document</seg>
       </tuv>
       <tuv xml:lang=" ca">
@@ -4536,14 +4571,6 @@ Quique Serrano &lt;qserrano@outlook.com&gt;</seg>
       </tuv>
       <tuv xml:lang=" ca">
         <seg>La impressió està habilitada per als formats de fitxer següents:</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>If you highlight and copy text from a document using the &lt;app&gt;document viewer&lt;/app&gt; and then paste it into another application, the formatting may alter. It may also contain different characters than the original selection. This often happens when copying text from a PDF document with multiple columns.</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>Si seleccioneu i copieu text des d'un document fent servir el &lt;app&gt;Visualitzador de documents&lt;/app&gt; i llavors el copieu a una altra aplicació, la formatació podria sofrir canvis. Pot contenir caràcters diferents que la selecció original de text. Això passa sovint quan es copia text des de documents en format PDF amb columnes múltiples.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4900,14 +4927,6 @@ PostSession/
       </tuv>
       <tuv xml:lang=" ca">
         <seg>El panell de benvinguda del GDM a la pantalla d'accés, mostra la icona d'accessibilitat. En fer-hi clic, s'obre el diàleg d'accessibilitat del GDM, on es mostra un llistat de quadres de verificació, així l'usuari pot habilitar o deshabilitar els assistents associats.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>If set, then the assistive tools linked to this GConf key will be started with the GDM GUI program. By default this is a screen reader application.</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>Si s'ha definit, l'assistent vinculat a aquesta clau del GConf s'iniciarà amb la interfície gràfica del GDM. De forma predeterminada és un lector de pantalla.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5724,14 +5743,6 @@ PostSession/
       </tuv>
       <tuv xml:lang=" ca">
         <seg>L'acció desmuntarà el sistema de fitxers si és necessari. L'acció de reparació intenta portar el sistema de fitxers a un estat coherent i moure fitxers que s'hagin malmès a una carpeta especial. Tingueu paciència mentre el sistema de fitxers s'estigui reparant.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Depending on how much data has to be moved from the shrunk part, the filesystem resize may take longer time.</seg>
-      </tuv>
-      <tuv xml:lang=" ca">
-        <seg>En funció de la quantitat de dades que s'han d'eliminar de la part reduïda, el canvi de mida del sistema de fitxers pot trigar un temps més llarg.</seg>
       </tuv>
     </tu>
     <tu>
