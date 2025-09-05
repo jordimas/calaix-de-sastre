@@ -1,6 +1,10 @@
-for i in 1 2 2_1 3 3_1 4 5; do
+for i in 3_1 3_2; do
     python reviewer.py --prompt_version "$i"
+done
+
+for i in 3_1 3_2; do
     python reviewer.py --prompt_version "$i" --max 1000
 done
+
 
 

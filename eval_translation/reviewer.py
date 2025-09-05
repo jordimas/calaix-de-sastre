@@ -69,11 +69,26 @@ def load_prompt():
     return data
 
 
-def load_metadata():
-    with open(f"config/metadata-v{prompt_version}.yml", "r") as file:
-        config = yaml.safe_load(file)
+def safe_divide(a, b):
 
-    return config
+    result = a / b
+    return {"goal": result}
+
+
+# Examples
+print(safe_divide(10, 2))  # {'goal': 5.0}
+print(safe_divide(10, 0))  # {'goal': 'AAA'}
+
+
+def load_metadata():
+    try:
+        with open(f"config/metadata-v{prompt_version}.yml", "r") as file:
+            config = yaml.safe_load(file)
+            return config
+
+    except Exception as e:
+        print(e)
+        return {"goal": "Default prompt description"}
 
 
 prompt = load_prompt()

@@ -62,7 +62,7 @@ import time
 BATCH_SIZE = 400
 
 if __name__ == "__main__":
-    po_file = "/home/jordi/sc/calaix-de-sastre/eval_translation/dataset/dataset.po"
+    po_file = "/home/jordi/sc/tmt/tmt/src/output/gnome-tm.po"
 
     errors = 0
     strings = list(extract_po_strings(po_file))  # Convert to list to get length
