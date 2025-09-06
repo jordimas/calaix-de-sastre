@@ -18,10 +18,12 @@ def verify(sentences):
     for source, target, comment in sentences:
         text += f"English: {source}\n"
         text += f"Catalan: {target}\n\n"
+        text += f"Commment: {comment}\n\n"
 
     prompt = (
         "Verify if there are major errors in the translation from English to Catalan. "
         "Be to the point in explanations. Do not mention what is correct."
+        "Do not review the comments but provide them as context when reporting an issue."
         f"{text}"
     )
 
@@ -31,9 +33,6 @@ def verify(sentences):
     # Pass the GenerationConfig object to the generate_content method
     response = model.generate_content(prompt, generation_config=generation_config)
     return response.text
-
-
-# ... (rest of your code)
 
 
 def extract_po_strings(po_file_path):
@@ -62,7 +61,7 @@ import time
 BATCH_SIZE = 400
 
 if __name__ == "__main__":
-    po_file = "/home/jordi/dev/gnome-user-docs/gnome-help/ca/ca.po"
+    po_file = "/home/jordi/sc/tmt/tmt/src/output/gnome-tm.po"
 
     errors = 0
     strings = list(extract_po_strings(po_file))  # Convert to list to get length
