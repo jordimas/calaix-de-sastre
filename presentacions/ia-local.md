@@ -56,7 +56,6 @@ Ara, per a moltes tasques habituals, depenem d'una tecnologia tancada, que s'exe
 
 <!-- end_slide -->
 
-
 # Què és una IA local?
 
 **IA local:** el model s'executa al nostre ordinador
@@ -158,7 +157,7 @@ d'instal·lació i primer ús pas a pas.
 | --- | --- | --- |
 | 8 GB | Qwen3.5 9B · Q4 | Gemma 3 4B |
 | 16 GB | Gemma 3 12B · Q4 | Qwen3 14B |
-| 32 GB | Muse-Glimmer 30B | Qwen3.8 27B |
+| 32 GB | Mistral 30B · Q4 | Qwen3 27B · Q4 |
 
 **Transcripció d'àudio:**
 - **whisper-large-v3-ca-3catparla** (projecte Aina) — millor precisió en català.
@@ -213,7 +212,7 @@ assert mitjana([]) is None
 **Model LLM:** Qwen3-Coder-Next · 80B MoE (actius 3B) · Q4_K_M (~48,4 GB).\
 **Execució:** Qwen CLI → llama.cpp local amb acceleració GPU.
 
-| Mesura | Sense cache | Amb cache |
+| Mesura | Sense *cache* | Amb *cache* |
 | --- | --- | --- |
 | Temps total | **46,6 s** | **16,6 s** |
 | Processament del prompt | 38,2 s | 9,6 s |
@@ -236,3 +235,7 @@ Tot el recorregut, pas a pas, a la guia de Softcatalà:
 ## [softcatala.org/ia-local](https://www.softcatala.org/ia-local/)
 
 <!-- end_slide -->
+
+<!-- alignment: center -->
+
+# Moltes gràcies!
