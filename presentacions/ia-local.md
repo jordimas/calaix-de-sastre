@@ -29,7 +29,7 @@
 **La IA és una tecnologia transformadora**
 
 La IA és una tecnologia transformadora que està canviant com realitzem moltes tasques.
-Per exemple, des de fa menys d'un any, els programadors depenem completament d'agents per treballar.
+Per exemple, els agents de programació estan canviant com desenvolupem programari.
 
 **El tancament com a avantatge competitiu**
 
@@ -67,7 +67,7 @@ o servidor, sense enviar les consultes a un servei extern.
 - **Continuïtat:** conservar les versions.
 - **Control:** triar models i integracions.
 
-Per fer això, es requereixen **pesos oberts**.
+Cal disposar del model i d'una eina que permeti executar-lo localment.
 
 <!-- end_slide -->
 
@@ -86,21 +86,21 @@ publicats, seguint els principis de la **ciència oberta**.
 
 <!-- end_slide -->
 
-# Què hi podem fer?
+# Què hi podem fer amb la IA en local?
 
 Temporalitat de les tasques:
 
-**En lot** (p. ex execució mentre som austents)
+**En lot** (p. ex., mentre som absents)
 
-- Extracció de text d'àudio, classificació, etc
+- Classificar documents i extreure'n informació.
 - Extreure dades de factures i transcriure enregistraments.
 - Revisar codi i generar proves.
 
-**Temps real** (Cal bona latència i recursos al moment)
+**Ús interactiu** (cal bona latència i recursos al moment)
 
-- Usar-lo com una xat bot normal: traducció, resums, preguntes
+- Conversar amb un assistent: traducció, resums i preguntes.
 - Transcriure en directe i conversar per veu.
-- Programació agèntica
+- Programació amb agents.
 
 <!-- end_slide -->
 
@@ -108,31 +108,48 @@ Temporalitat de les tasques:
 
 | Equip | Preu aprox. | Gemma 4 12B |
 | --- | ---: | ---: |
-| PC Ultra 5 / Ryzen 5 · 32 GB · sense GPU | 800–1.000 € | 3–6 tok/s |
+| PC Intel / AMD · 32 GB · GPU integrada | 800–1.000 € | 3–6 tok/s |
 | PC RTX 5060 Ti GPU (16 GB) · 32 GB | 1.500–2.000 € | 35–50 tok/s |
-| MacBook Air M5 · 13" · 16 GB · 512 GB | 1.300–1.500 € | 12–16 tok/s |
+| MacBook Air M5 · 13" · 16 GB  | 1.300–1.500 € | 12–16 tok/s |
 
-* **Tok/s estimats amb Gemma 4 12B**, quantitzat a 4 bits,
-en generació de text amb context curt i un sol usuari.
+* **Tokens/s de generació estimats amb Gemma 4 12B a 4 bits**,
+amb context curt i un usuari. Primera fila: només CPU.
+No són mesures pròpies; depenen de la configuració.
 
 * Preus orientatius d'equips nous a Catalunya (setembre de 2026).
+PC: només la torre. Mac: portàtil complet.
 
 <!-- end_slide -->
 
-# Consells a l'hora d'escollir model
+# Com escollir model i maquinari
 
-- Useu quantització ("comprimeix" el model), per exemple Q4_K_M
-  - Un model de 32B ocupa 16GB de RAM i anirà més ràpid
-  - Q4_K_M acostuma a oferir un bon equilibri entre qualitat, ús de memòria i velocitat.
-- Si teniu poca memòria, useu arquitectures MoE
+**Model i programari**
+
+- Proveu un model petit amb tasques reals en català.
+- **Q4_K_M:** bon equilibri entre qualitat, memòria i velocitat.
+- **MoE:** menys càlcul per token, però cal memòria per a tots els pesos.
+
+**Maquinari**
+
+- Proveu primer el vostre equip i comproveu que les eines hi funcionen.
+- Reserveu memòria per als **pesos, el context i el sistema**.
+- Per a ús interactiu, prioritzeu l'acceleració GPU; en lot, podeu esperar.
 
 <!-- end_slide -->
 
-# Consells a l'escollir maquinari
+# Per començar: la guia de Softcatalà
 
-- Si voleu fer coses en temps real, us cal GPU
-- Us cal poder carregar el model a la memòria:
-  - Models de 32GB necessiten 48GB de RAM
-- Les targetes NVIDIA donen el millor rendiment
+**La intel·ligència artificial al vostre ordinador personal**
+
+Orientada a **eines amb interfície gràfica (UI)**, sense haver d'utilitzar la línia d'ordres (CLI).
+
+- **Orienteu-vos sobre la compatibilitat** segons l'equip i la memòria.
+- **Enteneu els conceptes clau** abans de començar.
+- **Seguiu els tutorials** per fer servir models de llenguatge, transcriure i subtitular.
+- **Trieu models per treballar en català.**
+
+[softcatala.org/ia-local](https://www.softcatala.org/ia-local/)
+
+**Primer pas:** consulteu el vostre equip i trieu una tasca per provar.
 
 <!-- end_slide -->
