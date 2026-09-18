@@ -2,7 +2,7 @@
 
 Mesura feta el 18 de setembre de 2026. Dues execucions, model ja carregat en totes dues.
 
-- Equip: AMD Ryzen AI Max+ PRO 395, Radeon 8060S, 122 GiB de RAM utilitzable segons Linux.
+- Equip: AMD Ryzen AI Max+ PRO 395, Radeon 8060S, 128 GB de RAM.
 - Sistema: Ubuntu 26.04.1 LTS.
 - Client: Qwen Code 0.20.0, amb --safe-mode i directori de treball buit.
 - Servidor: llama.cpp local, http://localhost:9090/v1.

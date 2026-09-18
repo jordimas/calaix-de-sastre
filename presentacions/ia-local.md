@@ -190,7 +190,7 @@ històrics i polítics. Pesos oberts no vol dir neutralitat.
 
 # Demostració: revisar codi en català
 
-**El meu equip:** Ryzen AI Max+ PRO 395 · Radeon 8060S · 122 GiB de RAM utilitzable.
+**El meu equip:** Ryzen AI Max+ PRO 395 · Radeon 8060S · 128 GB de RAM.
 **Qwen CLI → llama.cpp local → Qwen3-Coder-Next Q4_K_M.**
 
 ```python
@@ -228,7 +228,7 @@ assert mitjana([]) is None
 
 # Quant triga? Primera consulta i repetició
 
-**Maquinari:** AMD Ryzen AI Max+ PRO 395 · Radeon 8060S · 122 GB RAM.\
+**Maquinari:** AMD Ryzen AI Max+ PRO 395 · Radeon 8060S · 128 GB RAM.\
 **Model LLM:** Qwen3-Coder-Next · 80B MoE (actius 3B) · Q4_K_M (~48,4 GB).\
 **Execució:** Qwen CLI → llama.cpp local amb acceleració GPU.
 
