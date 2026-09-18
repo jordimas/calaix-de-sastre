@@ -52,7 +52,7 @@ Ara, per a moltes tasques habituals, depenem d'una tecnologia tancada, que s'exe
 **Què succeeix amb la IA local ara?**
 
 - La IA local viu un moment semblant, amb models i maquinari que evolucionen ràpidament.
-- E̲n̲c̲a̲r̲a̲ ̲n̲o̲ ̲r̲e̲s̲o̲l̲ ̲t̲o̲t̲s̲ ̲e̲l̲s̲ ̲c̲a̲s̲o̲s̲ ̲d̲'̲ú̲s̲, però cada cop permet fer més coses.
+- **Encara no resol tots els casos d'ús**, però cada cop permet fer més coses.
 
 <!-- end_slide -->
 
