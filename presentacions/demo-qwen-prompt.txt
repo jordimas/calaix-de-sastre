@@ -1,0 +1,7 @@
+Revisa aquesta funció Python. No utilitzis eines ni llegeixis o modifiquis fitxers.
+Respon en català, en menys de 180 paraules: explica l'error, proposa una correcció
+i mostra tres comprovacions amb assert, incloent-hi la llista buida.
+El contracte és que la mitjana d'una llista buida ha de retornar None.
+
+def mitjana(valors):
+    return sum(valors) / len(valors)

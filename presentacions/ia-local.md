@@ -137,6 +137,65 @@ PC: només la torre. Mac: portàtil complet.
 
 <!-- end_slide -->
 
+# Demostració: revisar codi en català
+
+**El meu equip:** Ryzen AI Max+ PRO 395 · Radeon 8060S · 122 GiB de RAM utilitzable.
+**Qwen CLI → llama.cpp local → Qwen3-Coder-Next Q4_K_M.**
+
+```python
+def mitjana(valors):
+    return sum(valors) / len(valors)
+```
+
+**Encàrrec:** detecta l'error, corregeix-lo i proposa tres proves.
+Respon en català. Si la llista és buida, cal retornar `None`.
+
+```bash
+bash demo-qwen.sh
+```
+
+<!-- end_slide -->
+
+# Demostració: resultat comprovat
+
+Qwen detecta un **ZeroDivisionError** quan la llista és buida.
+
+```python
+def mitjana(valors):
+    if len(valors) == 0:
+        return None
+    return sum(valors) / len(valors)
+
+assert mitjana([1, 2, 3]) == 2.0
+assert mitjana([10, 20]) == 15.0
+assert mitjana([]) is None
+```
+
+**3 proves superades** en executar el codi amb Python.
+
+<!-- end_slide -->
+
+# Quant triga? Primera consulta i repetició
+
+**Maquinari:** AMD Ryzen AI Max+ PRO 395 · Radeon 8060S · 122 GB RAM.\
+**Model LLM:** Qwen3-Coder-Next · 80B MoE · 3B actius/token · Q4_K_M (~48,4 GB de pesos).\
+**Execució:** Qwen CLI → llama.cpp local amb acceleració GPU.
+
+| Mesura | Sense cache | Amb cache |
+| --- | --- | --- |
+| Temps total | **46,6 s** | **16,6 s** |
+| Processament del prompt | 38,2 s | 9,6 s |
+| Generació de la resposta | 7,0 s · 199 tokens | 6,0 s · 172 tokens |
+| Tokens de context reutilitzats | 0 | 11.431 |
+
+**La generació es manté en uns 28–29 tokens/s:** l'estalvi principal és processar menys context.
+
+Dues execucions reals del mateix encàrrec, en sessions noves de Qwen CLI.
+Model ja carregat en totes dues; el temps total inclou la sobrecàrrega del client.
+Els temps de consultes diferents dependran del context reutilitzable i de la resposta.
+
+<!-- end_slide -->
+
 # Per començar: la guia de Softcatalà
 
 **La intel·ligència artificial al vostre ordinador personal**
