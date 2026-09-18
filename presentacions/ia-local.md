@@ -106,13 +106,13 @@ Temporalitat de les tasques:
 
 # Maquinari que tens ara
 
-| Equip | Preu aprox. | Gemma 4 12B |
+| Equip | Preu aprox. | Gemma 3 12B |
 | --- | ---: | ---: |
 | PC Intel / AMD · 32 GB · GPU integrada | 800–1.000 € | 3–6 tok/s |
 | PC RTX 5060 Ti GPU (16 GB) · 32 GB | 1.500–2.000 € | 35–50 tok/s |
 | MacBook Air M5 · 13" · 16 GB  | 1.300–1.500 € | 12–16 tok/s |
 
-* **Tokens/s de generació estimats amb Gemma 4 12B a 4 bits**,
+* **Tokens/s de generació estimats amb Gemma 3 12B a 4 bits**,
 amb context curt i un usuari. Primera fila: només CPU.
 No són mesures pròpies; depenen de la configuració.
 
@@ -134,6 +134,38 @@ PC: només la torre. Mac: portàtil complet.
 - Proveu primer el vostre equip i comproveu que les eines hi funcionen.
 - Reserveu memòria per als **pesos, el context i el sistema**.
 - Per a ús interactiu, prioritzeu l'acceleració GPU; en lot, podeu esperar.
+
+<!-- end_slide -->
+
+# Eines per executar-ho a casa
+
+| Eina | Per a qui |
+| --- | --- |
+| **LM Studio** | Descoberta fàcil de models, UI amable |
+| **Ollama** | Terminal + UI, més control |
+| **AnythingLLM** | Consultar els teus documents (RAG) |
+
+Totes tres funcionen a **macOS, Windows i Linux**.
+
+Les tres estan documentades a la guia de Softcatalà, amb instruccions
+d'instal·lació i primer ús pas a pas.
+
+<!-- end_slide -->
+
+# Quin model, segons la teva RAM
+
+| RAM | Recomanat | Alternativa |
+| --- | --- | --- |
+| 8 GB | Qwen3.5 9B · Q4 | Gemma 3 4B |
+| 16 GB | Gemma 3 12B · Q4 | Qwen3 14B |
+| 32 GB | Muse-Glimmer 30B | Qwen3.8 27B |
+
+**Transcripció d'àudio:**
+- **whisper-large-v3-ca-3catparla** (projecte Aina) — millor precisió en català.
+- **whisper-large-v3-turbo** — més ràpid, qualitat similar.
+
+**Avís honest:** els models Qwen (xinesos) poden evitar certs temes
+històrics i polítics. Pesos oberts no vol dir neutralitat.
 
 <!-- end_slide -->
 
@@ -178,7 +210,7 @@ assert mitjana([]) is None
 # Quant triga? Primera consulta i repetició
 
 **Maquinari:** AMD Ryzen AI Max+ PRO 395 · Radeon 8060S · 122 GB RAM.\
-**Model LLM:** Qwen3-Coder-Next · 80B MoE · 3B actius/token · Q4_K_M (~48,4 GB de pesos).\
+**Model LLM:** Qwen3-Coder-Next · 80B MoE (actius 3B) · Q4_K_M (~48,4 GB).\
 **Execució:** Qwen CLI → llama.cpp local amb acceleració GPU.
 
 | Mesura | Sense cache | Amb cache |
@@ -190,25 +222,17 @@ assert mitjana([]) is None
 
 **La generació es manté en uns 28–29 tokens/s:** l'estalvi principal és processar menys context.
 
-Dues execucions reals del mateix encàrrec, en sessions noves de Qwen CLI.
-Model ja carregat en totes dues; el temps total inclou la sobrecàrrega del client.
-Els temps de consultes diferents dependran del context reutilitzable i de la resposta.
-
 <!-- end_slide -->
 
-# Per començar: la guia de Softcatalà
+# Comença aquesta setmana
 
-**La intel·ligència artificial al vostre ordinador personal**
+1. **Comprova el teu equip** amb l'eina de compatibilitat.
+2. **Instal·la** LM Studio o Ollama.
+3. **Descarrega el model** que et toqui segons la RAM.
+4. **Prova-ho** amb una tasca real: redacció, resum o transcripció.
 
-Orientada a **eines amb interfície gràfica (UI)**, sense haver d'utilitzar la línia d'ordres (CLI).
+Tot el recorregut, pas a pas, a la guia de Softcatalà:
 
-- **Orienteu-vos sobre la compatibilitat** segons l'equip i la memòria.
-- **Enteneu els conceptes clau** abans de començar.
-- **Seguiu els tutorials** per fer servir models de llenguatge, transcriure i subtitular.
-- **Trieu models per treballar en català.**
-
-[softcatala.org/ia-local](https://www.softcatala.org/ia-local/)
-
-**Primer pas:** consulteu el vostre equip i trieu una tasca per provar.
+## [softcatala.org/ia-local](https://www.softcatala.org/ia-local/)
 
 <!-- end_slide -->
