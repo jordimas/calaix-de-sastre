@@ -1,30 +1,50 @@
-# IA en local · Avaluant IA en català
+# IA en local · Llibertat i sobirania
 
-Presentació en català de 26 diapositives, preparada per a projecció.
+Presentació en català de 15 diapositives, preparada per a projecció.
 
-Vuit apartats:
-
-1. La importància de la IA local i de reprendre el control
-2. Casos d'ús i maquinari recomanat
-3. Components rellevants de les arquitectures (MoE, quantització)
-4. Eines comunes
-5. Rendiment en català dels principals models
-6. Models principals recomanats
-7. Opcions lliures al núvol
-8. Com començar avui mateix
+Contingut: context i sobirania, IA local i lliure, casos d'ús,
+maquinari, eines, models i una demostració de revisió de codi en català.
 
 ## Obrir al terminal actual
+
+Cal tenir `presenterm` instal·lat i disponible al `PATH`.
 
 ```bash
 ./presentar-ia-local.sh
 ```
 
-El llançador executa presenterm a la mateixa finestra del terminal, en conserva la mida de lletra i recarrega la presentació automàticament quan es desa el fitxer. Amb Python 3, calcula el marge vertical de la portada segons l’alçada del terminal i el reajusta quan es redimensiona. Amplieu la lletra i activeu la pantalla completa des del terminal abans de presentar, si cal.
+El llançador conserva la mida de lletra del terminal i presenterm recarrega
+la presentació quan es desa el fitxer. Activeu la pantalla completa i
+ajusteu la lletra abans de presentar. La mida mínima comprovada és de
+**72 columnes × 22 files**, amb presenterm 0.16.1.
 
 Espai o fletxes per navegar; `q` per sortir.
 
-La versió anterior es va comprovar en un terminal de 72 columnes i 22 files; cal revisar la projecció de la nova estructura.
+## Obrir una finestra de projecció
 
-Per editar amb recàrrega automàtica i centrat de la portada, executeu `./presentar-ia-local.sh` des d'aquest directori.
+En un escriptori GNOME amb Ptyxis:
 
-Les estimacions de memòria no són mesures de rendiment. Els exemples requereixen les eines i els models corresponents i no s'executen automàticament.
+```bash
+./presenta.sh
+```
+
+Obre una finestra independent a pantalla completa amb Ubuntu Mono de 28 punts.
+La configuració queda a `.terminal-config/`. El nombre de columnes i files
+resultant depèn de la resolució i de l'escala de la pantalla.
+
+## Comprovar la mida de projecció
+
+Des del terminal i amb la mida de lletra que fareu servir:
+
+```bash
+stty size
+./presentar-ia-local.sh --validate-overflows
+```
+
+`stty size` mostra primer les files i després les columnes. Amb menys de
+22 files o 72 columnes, reduïu la lletra o amplieu la finestra.
+La validació de presenterm comprova totes les diapositives i mostra un error
+si hi ha desbordaments; si tot cap, obre la presentació normalment.
+
+Les estimacions de memòria no són mesures de rendiment. Els exemples
+requereixen les eines i els models corresponents i no s'executen automàticament.

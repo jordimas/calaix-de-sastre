@@ -1,3 +1,23 @@
+---
+theme:
+  name: dark
+  override:
+    default:
+      margin:
+        percent: 3
+    slide_title:
+      font_size: 1
+      padding_top: 0
+      padding_bottom: 1
+    code:
+      minimum_size: 0
+      minimum_margin:
+        percent: 0
+      padding:
+        horizontal: 1
+        vertical: 0
+---
+
 <!-- new_line -->
 <!-- alignment: center -->
 <!-- no_footer -->
@@ -24,7 +44,7 @@
 
 <!-- end_slide -->
 
-# Context: en quin moment ens trobem
+# Context: en quin moment ens trobem (1/2)
 
 **La IA és una tecnologia transformadora**
 
@@ -38,7 +58,7 @@ Anècdota: irònicament, OpenAI rep el nom de ClosedAI.
 
 <!-- end_slide -->
 
-# Context: en quin moment ens trobem
+# Context: en quin moment ens trobem (2/2)
 
 **Neguit creixent**
 
@@ -46,13 +66,13 @@ Ara, per a moltes tasques habituals, depenem d'una tecnologia tancada, que s'exe
 
 **Moment "Linux"**
 
-- A principis dels anys 2000, Linux tenia mancances de suport de maquinari, aplicacions i usabilitat.
-- Molts dubtaven que fos una alternativa viable; avui és una peça clau del món digital.
+- Anys 2000: mancances de maquinari, aplicacions i usabilitat.
+- Se’n dubtava; avui és una peça clau del món digital.
 
 **Què succeeix amb la IA local ara?**
 
-- La IA local viu un moment semblant, amb models i maquinari que evolucionen ràpidament.
-- **Encara no resol tots els casos d'ús**, però cada cop permet fer més coses.
+- Models i maquinari evolucionen ràpidament.
+- **Encara no ho resol tot**, però cada cop permet fer més coses.
 
 <!-- end_slide -->
 
@@ -107,16 +127,16 @@ Temporalitat de les tasques:
 
 | Equip | Preu aprox. | Gemma 3 12B |
 | --- | ---: | ---: |
-| PC Intel / AMD · 32 GB · GPU integrada | 800–1.000 € | 3–6 tok/s |
-| PC RTX 5060 Ti GPU (16 GB) · 32 GB | 1.500–2.000 € | 35–50 tok/s |
-| MacBook Air M5 · 13" · 16 GB  | 1.300–1.500 € | 12–16 tok/s |
+| PC Intel / AMD · 32 GB | 800–1.000 € | 3–6 tok/s |
+| PC RTX 5060 Ti 16 GB¹ | 1.500–2.000 € | 35–50 tok/s |
+| MacBook Air M5 · 16 GB | 1.300–1.500 € | 12–16 tok/s |
 
-* **Tokens/s de generació estimats amb Gemma 3 12B a 4 bits**,
+**Tokens/s de generació estimats amb Gemma 3 12B a 4 bits**,
 amb context curt i un usuari. Primera fila: només CPU.
 No són mesures pròpies; depenen de la configuració.
 
-* Preus orientatius d'equips nous a Catalunya (setembre de 2026).
-PC: només la torre. Mac: portàtil complet.
+Preus orientatius d'equips nous a Catalunya (setembre de 2026).
+PC: només la torre. Mac: portàtil de 13". ¹ RAM: 32 GB.
 
 <!-- end_slide -->
 
@@ -126,13 +146,13 @@ PC: només la torre. Mac: portàtil complet.
 
 - Proveu un model petit amb tasques reals en català.
 - **Q4_K_M:** bon equilibri entre qualitat, memòria i velocitat.
-- **MoE:** menys càlcul per token, però cal memòria per a tots els pesos.
+- **MoE:** menys càlcul; memòria per a tots els pesos.
 
 **Maquinari**
 
-- Proveu primer el vostre equip i comproveu que les eines hi funcionen.
+- Comproveu primer les eines al vostre equip.
 - Reserveu memòria per als **pesos, el context i el sistema**.
-- Per a ús interactiu, prioritzeu l'acceleració GPU; en lot, podeu esperar.
+- Ús interactiu: prioritzeu la GPU. En lot, podeu esperar.
 
 <!-- end_slide -->
 
@@ -153,14 +173,14 @@ d'instal·lació i primer ús pas a pas.
 
 # Quin model, segons la teva RAM
 
-| RAM | Recomanat | Alternativa |
+| Memòria de l'ordinador | Model recomanat | Alternativa |
 | --- | --- | --- |
-| 8 GB | Qwen3.5 9B · Q4 | Gemma 3 4B |
-| 16 GB | Gemma 3 12B · Q4 | Qwen3 14B |
-| 32 GB | Mistral 30B · Q4 | Qwen3 27B · Q4 |
+| 8 GB | Qwen3.5 9B · Q4 | Gemma 3 4B · Q4 |
+| 16 GB | Gemma 3 12B · Q4 | Qwen3 14B · Q4 |
+| 32 GB | Muse-Glimmer 30B · Q4 | Qwen3.8 27B · Q4 |
 
 **Transcripció d'àudio:**
-- **whisper-large-v3-ca-3catparla** (projecte Aina) — millor precisió en català.
+- **whisper-large-v3-ca-3catparla** (Aina): més precisió.
 - **whisper-large-v3-turbo** — més ràpid, qualitat similar.
 
 **Avís honest:** els models Qwen (xinesos) poden evitar certs temes
@@ -215,9 +235,9 @@ assert mitjana([]) is None
 | Mesura | Sense *cache* | Amb *cache* |
 | --- | --- | --- |
 | Temps total | **46,6 s** | **16,6 s** |
-| Processament del prompt | 38,2 s | 9,6 s |
-| Generació de la resposta | 7,0 s · 199 tokens | 6,0 s · 172 tokens |
-| Tokens de context reutilitzats | 0 | 11.431 |
+| Prompt | 38,2 s | 9,6 s |
+| Generació | 7,0 s · 199 tokens | 6,0 s · 172 tokens |
+| Tokens reutilitzats | 0 | 11.431 |
 
 **La generació es manté en uns 28–29 tokens/s:** l'estalvi principal és processar menys context.
 
@@ -228,7 +248,7 @@ assert mitjana([]) is None
 1. **Comprova el teu equip** amb l'eina de compatibilitat.
 2. **Instal·la** LM Studio o Ollama.
 3. **Descarrega el model** que et toqui segons la RAM.
-4. **Prova-ho** amb una tasca real: redacció, resum o transcripció.
+4. **Prova-ho:** redacció, resum o transcripció.
 
 Tot el recorregut, pas a pas, a la guia de Softcatalà:
 
