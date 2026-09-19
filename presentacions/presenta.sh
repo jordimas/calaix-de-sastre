@@ -10,4 +10,4 @@ gsettings set org.gnome.Ptyxis use-system-font false
 gsettings set org.gnome.Ptyxis font-name 'Ubuntu Mono 28'
 gsettings set org.gnome.Ptyxis restore-session false
 exec ptyxis --standalone --fullscreen --title 'IA en local' -- \
-  "$presentation_dir/presentar-ia-local.sh" "$@"
+  presenterm "$presentation_dir/ia-local.md" "$@"

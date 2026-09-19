@@ -146,14 +146,12 @@ Temporalitat de les tasques:
 | --- | ---: | ---: |
 | PC Intel / AMD · 32 GB | 800–1.000 € | 3–6 tok/s |
 | PC RTX 5060 Ti 16 GB¹ | 1.500–2.000 € | 35–50 tok/s |
-| MacBook Air M5 · 16 GB | 1.300–1.500 € | 12–16 tok/s |
+| MacBook Air M5 13" · 16 GB | 1.300–1.500 € | 12–16 tok/s |
 
 **Tokens/s de generació estimats amb Gemma 3 12B a 4 bits**,
-amb context curt i un usuari. Primera fila: només CPU.
-No són mesures pròpies; depenen de la configuració.
+amb context curt i un usuari.
 
 Preus orientatius d'equips nous a Catalunya (setembre de 2026).
-PC: només la torre. Mac: portàtil de 13". ¹ RAM: 32 GB.
 
 <!-- end_slide -->
 
