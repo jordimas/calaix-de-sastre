@@ -49,7 +49,7 @@ def verify(sentences, provider):
         openai.api_key = os.environ["OPENAI_API_KEY"]
 
         response = openai.chat.completions.create(
-            model="gpt-5",
+            model="gpt-5.5",
             messages=[{"role": "user", "content": prompt}])
         return response.choices[0].message.content
 
@@ -86,6 +86,7 @@ if __name__ == "__main__":
 
     po_file = sys.argv[1]
     provider = sys.argv[2] if len(sys.argv) > 2 else "gemini"
+    print(provider)
 
     if not os.path.isfile(po_file):
         print(f"Error: File '{po_file}' does not exist.")
@@ -101,6 +102,7 @@ if __name__ == "__main__":
     start_time = time.time()
 
     with open(output_file, "w") as file:
+        print(f"Output written to: {output_file}")
         for i, batch in enumerate(batch_iterable(strings, BATCH_SIZE)):
             batch_start = time.time()
             processed = min((i + 1) * BATCH_SIZE, total_strings)
