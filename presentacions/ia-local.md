@@ -10,11 +10,12 @@ theme:
       padding_top: 0
       padding_bottom: 1
     code:
+      alignment: center
       minimum_size: 0
       minimum_margin:
         percent: 0
       padding:
-        horizontal: 1
+        horizontal: 0
         vertical: 0
 ---
 
@@ -44,12 +45,26 @@ theme:
 
 <!-- end_slide -->
 
+# Tot seguit: aprofita la IA al teu ordinador
+
+Una xerrada de **Martí SC**, enginyer de dades.
+
+- Entendre com els models fan servir la memòria.
+- Triar models adequats per al vostre ordinador.
+- Ajustar-ne el rendiment i interpretar-ne la velocitat.
+
+Hi aprofundirà amb explicacions tècniques i visualitzacions.
+
+**Us recomano que us hi quedeu!**
+
+<!-- end_slide -->
+
 # Context: en quin moment ens trobem (1/2)
 
 **La IA és una tecnologia transformadora**
 
-La IA és una tecnologia transformadora que està canviant com realitzem moltes tasques.
-Per exemple, els agents de programació estan canviant com desenvolupem programari.
+Està canviant com realitzem moltes tasques.
+Per exemple, els agents de programació han redefinit com desenvolupem programari.
 
 **El tancament com a avantatge competitiu**
 
@@ -67,12 +82,14 @@ Ara, per a moltes tasques habituals, depenem d'una tecnologia tancada, que s'exe
 **Moment "Linux"**
 
 - Anys 2000: mancances de maquinari, aplicacions i usabilitat.
-- Se’n dubtava; avui és una peça clau del món digital.
+- Es dubtava que pogués ser una alternativa.
+- Avui és una peça clau del món digital.
 
 **Què succeeix amb la IA local ara?**
 
 - Models i maquinari evolucionen ràpidament.
-- **Encara no ho resol tot**, però cada cop permet fer més coses.
+- **Encara no resol tots els casos d'ús per a tothom.**
+- Cada cop permet fer més coses.
 
 <!-- end_slide -->
 
@@ -105,7 +122,7 @@ publicats, seguint els principis de la **ciència oberta**.
 
 <!-- end_slide -->
 
-# Què hi podem fer amb la IA en local?
+# Què podem fer amb la IA en local?
 
 Temporalitat de les tasques:
 
@@ -123,7 +140,7 @@ Temporalitat de les tasques:
 
 <!-- end_slide -->
 
-# Maquinari que tens ara
+# Maquinari comú que es pot comprar a 2026
 
 | Equip | Preu aprox. | Gemma 3 12B |
 | --- | ---: | ---: |
@@ -166,12 +183,16 @@ PC: només la torre. Mac: portàtil de 13". ¹ RAM: 32 GB.
 
 Totes tres funcionen a **macOS, Windows i Linux**.
 
-Les tres estan documentades a la guia de Softcatalà, amb instruccions
-d'instal·lació i primer ús pas a pas.
+**Guia de Softcatalà:** instal·lació i primer ús pas a pas.
+
+[softcatala.org/ia-local](https://www.softcatala.org/ia-local/)
 
 <!-- end_slide -->
 
 # Quin model, segons la teva RAM
+
+**Recomanacions per treballar en català**, basades en les
+[avaluacions de models d'IA de Softcatalà](https://www.softcatala.org/ia-local/models-en-catala/llm/).
 
 | Memòria de l'ordinador | Model recomanat | Alternativa |
 | --- | --- | --- |
@@ -257,5 +278,15 @@ Tot el recorregut, pas a pas, a la guia de Softcatalà:
 <!-- end_slide -->
 
 <!-- alignment: center -->
+<!-- no_footer -->
+<!-- jump_to_middle -->
 
-# Moltes gràcies!
+**Moltes gràcies!**
+
+<span style="color: #ff5555">\*\*\*    \*\*\*</span>\
+<span style="color: #ff5555">\*\*\*\*\*  \*\*\*\*\*</span>\
+<span style="color: #ff5555">\*\*\*\*\*\*\*\*\*\*\*\*\*\*</span>\
+<span style="color: #ff5555">\*\*\*\*\*\*\*\*\*\*\*\*</span>\
+<span style="color: #ff5555">\*\*\*\*\*\*\*\*</span>\
+<span style="color: #ff5555">\*\*\*\*</span>\
+<span style="color: #ff5555">\*\*</span>

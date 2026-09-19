@@ -1,6 +1,6 @@
 # IA en local · Llibertat i sobirania
 
-Presentació en català de 15 diapositives, preparada per a projecció.
+Presentació en català de 16 diapositives, preparada per a projecció.
 
 Contingut: context i sobirania, IA local i lliure, casos d'ús,
 maquinari, eines, models i una demostració de revisió de codi en català.
