@@ -106,7 +106,7 @@ o servidor, sense enviar les consultes a un servei extern.
 
 Cal disposar del model i d'una eina que permeti executar-lo localment.
 
-En dispositius mòbils, cada cop és més habitual: Pixel, Samsumg, etc.
+En dispositius mòbils, cada cop és més habitual: Google Pixel, Samsung, etc.
 
 <!-- end_slide -->
 
@@ -162,7 +162,7 @@ Preus orientatius d'equips nous a Catalunya (setembre de 2026).
 
 **Model i programari**
 
-- Proveu un model petit amb tasques reals pel vostre cas d'ús.
+- Proveu un model petit amb tasques reals per al vostre cas d'ús.
 - **Q4_K_M:** bon equilibri entre qualitat, memòria i velocitat.
 - **MoE:** menys càlcul; memòria per a tots els pesos.
 
