@@ -45,6 +45,7 @@ theme:
 
 <!-- end_slide -->
 
+<!--
 # Tot seguit: aprofita la IA al teu ordinador
 
 Una xerrada de **Martí SC**, enginyer de dades.
@@ -57,7 +58,7 @@ Hi aprofundirà amb explicacions tècniques i visualitzacions.
 
 **Us recomano que us hi quedeu!**
 
-<!-- end_slide -->
+-->
 
 # Context: en quin moment ens trobem (1/2)
 
@@ -101,9 +102,11 @@ o servidor, sense enviar les consultes a un servei extern.
 - **Privacitat:** controlar on van les dades.
 - **Autonomia:** poder treballar sense xarxa.
 - **Continuïtat:** conservar les versions.
-- **Control:** triar models i integracions.
+- **Control:** més control sobre models, harness o integracions.
 
 Cal disposar del model i d'una eina que permeti executar-lo localment.
+
+En dispositius mòbils, cada cop és més habitual: Pixel, Samsumg, etc.
 
 <!-- end_slide -->
 
@@ -145,7 +148,7 @@ Temporalitat de les tasques:
 | Equip | Preu aprox. | Gemma 3 12B |
 | --- | ---: | ---: |
 | PC Intel / AMD · 32 GB | 800–1.000 € | 3–6 tok/s |
-| PC RTX 5060 Ti 16 GB¹ | 1.500–2.000 € | 35–50 tok/s |
+| PC RTX 5060 Ti 16 GB | 1.500–2.000 € | 35–50 tok/s |
 | MacBook Air M5 13" · 16 GB | 1.300–1.500 € | 12–16 tok/s |
 
 **Tokens/s de generació estimats amb Gemma 3 12B a 4 bits**,
@@ -159,15 +162,15 @@ Preus orientatius d'equips nous a Catalunya (setembre de 2026).
 
 **Model i programari**
 
-- Proveu un model petit amb tasques reals en català.
+- Proveu un model petit amb tasques reals pel vostre cas d'ús.
 - **Q4_K_M:** bon equilibri entre qualitat, memòria i velocitat.
 - **MoE:** menys càlcul; memòria per a tots els pesos.
 
 **Maquinari**
 
-- Comproveu primer les eines al vostre equip.
+- Comproveu primer les capacitat del vostre equip.
 - Reserveu memòria per als **pesos, el context i el sistema**.
-- Ús interactiu: prioritzeu la GPU. En lot, podeu esperar.
+- Ús interactiu: prioritzeu la GPU per casos d'ús interactiu.
 
 <!-- end_slide -->
 
@@ -202,7 +205,7 @@ Totes tres funcionen a **macOS, Windows i Linux**.
 - **whisper-large-v3-ca-3catparla** (Aina): més precisió.
 - **whisper-large-v3-turbo** — més ràpid, qualitat similar.
 
-**Avís honest:** els models Qwen (xinesos) poden evitar certs temes
+**Avís:** els models Qwen (xinesos) poden evitar certs temes
 històrics i polítics. Pesos oberts no vol dir neutralitat.
 
 <!-- end_slide -->
@@ -262,7 +265,7 @@ assert mitjana([]) is None
 
 <!-- end_slide -->
 
-# Comença aquesta setmana
+# Comenceu avui
 
 1. **Comprova el teu equip** amb l'eina de compatibilitat.
 2. **Instal·la** LM Studio o Ollama.
