@@ -23,9 +23,7 @@ theme:
 <!-- alignment: center -->
 <!-- no_footer -->
 
-<span style="color: #b4ccff">**IA en local**</span>
-
-<span style="color: #a5d7e8">Llibertat i sobirania</span>
+<span style="color: #b4ccff">**IA en local**</span> · <span style="color: #a5d7e8">Llibertat i sobirania</span>
 
 ```text
     .----------------------.   .--------.
@@ -39,13 +37,16 @@ theme:
          '----------'
 ```
 
-<span style="color: #b6eada">**Jordi Mas (Softcatalà)**</span>
+<span style="color: #b6eada">**Jordi Mas (Softcatalà)** · GitHub: jordimas · X: @jordimash</span>
 
-<span style="color: #b6eada">GitHub: jordimas · X: @jordimash</span>
+<span style="color: #a5d7e8">**Projectes actuals**</span>
+
+- <span style="color: #9aa5b1">github.com/Softcatala/</span><span style="color: #b4ccff">**arena-cat**</span>
+- <span style="color: #9aa5b1">github.com/jordimas/</span><span style="color: #b4ccff">**ai-eval-catalan**</span>
+- <span style="color: #9aa5b1">github.com/OpenNMT/</span><span style="color: #b4ccff">**CTranslate2**</span>
 
 <!-- end_slide -->
 
-<!--
 # Tot seguit: aprofita la IA al teu ordinador
 
 Una xerrada de **Martí SC**, enginyer de dades.
@@ -58,7 +59,7 @@ Hi aprofundirà amb explicacions tècniques i visualitzacions.
 
 **Us recomano que us hi quedeu!**
 
--->
+<!-- end_slide -->
 
 # Context: en quin moment ens trobem (1/2)
 
@@ -99,10 +100,10 @@ Ara, per a moltes tasques habituals, depenem d'una tecnologia tancada, que s'exe
 **IA local:** el model s'executa al nostre ordinador
 o servidor, sense enviar les consultes a un servei extern.
 
-- **Privacitat:** controlar on van les dades.
-- **Autonomia:** poder treballar sense xarxa.
-- **Continuïtat:** conservar les versions.
-- **Control:** més control sobre models, harness o integracions.
+- 🔒 **Privacitat:** controlar on van les dades.
+- 🔋 **Autonomia:** poder treballar sense xarxa.
+- 💾 **Continuïtat:** conservar les versions.
+- ⚙️  **Control:** més control sobre models, harness o integracions.
 
 Cal disposar del model i d'una eina que permeti executar-lo localment.
 
@@ -132,10 +133,10 @@ Temporalitat de les tasques:
 **En lot** (p. ex., mentre som absents)
 
 - Classificar documents i extreure'n informació.
-- Extreure dades de factures i transcriure enregistraments.
-- Revisar codi i generar proves.
+- Transcriure enregistraments.
+- Revisar codi.
 
-**Ús interactiu** (cal bona latència i recursos al moment)
+**Ús interactiu** (calen una latència baixa i recursos al moment)
 
 - Conversar amb un assistent: traducció, resums i preguntes.
 - Transcriure en directe i conversar per veu.
@@ -143,7 +144,7 @@ Temporalitat de les tasques:
 
 <!-- end_slide -->
 
-# Maquinari comú que es pot comprar a 2026
+# Maquinari comú que es pot comprar el 2026
 
 | Equip | Preu aprox. | Gemma 3 12B |
 | --- | ---: | ---: |
@@ -168,9 +169,9 @@ Preus orientatius d'equips nous a Catalunya (setembre de 2026).
 
 **Maquinari**
 
-- Comproveu primer les capacitat del vostre equip.
+- Comproveu primer les capacitats del vostre equip.
 - Reserveu memòria per als **pesos, el context i el sistema**.
-- Ús interactiu: prioritzeu la GPU per casos d'ús interactiu.
+- Per a l'ús interactiu, prioritzeu la GPU.
 
 <!-- end_slide -->
 
@@ -203,7 +204,7 @@ Totes tres funcionen a **macOS, Windows i Linux**.
 
 **Transcripció d'àudio:**
 - **whisper-large-v3-ca-3catparla** (Aina): més precisió.
-- **whisper-large-v3-turbo** — més ràpid, qualitat similar.
+- **whisper-large-v3-turbo**: més ràpid, qualitat similar.
 
 **Avís:** els models Qwen (xinesos) poden evitar certs temes
 històrics i polítics. Pesos oberts no vol dir neutralitat.
@@ -250,11 +251,11 @@ assert mitjana([]) is None
 
 # Quant triga? Primera consulta i repetició
 
-**Maquinari:** AMD Ryzen AI Max+ PRO 395 · Radeon 8060S · 128 GB RAM.\
+**Maquinari:** AMD Ryzen AI Max+ PRO 395 · Radeon 8060S · 128 GB de RAM.\
 **Model LLM:** Qwen3-Coder-Next · 80B MoE (actius 3B) · Q4_K_M (~48,4 GB).\
 **Execució:** Qwen CLI → llama.cpp local amb acceleració GPU.
 
-| Mesura | Sense *cache* | Amb *cache* |
+| Mesura | Sense memòria cau | Amb memòria cau |
 | --- | --- | --- |
 | Temps total | **46,6 s** | **16,6 s** |
 | Prompt | 38,2 s | 9,6 s |
@@ -267,10 +268,10 @@ assert mitjana([]) is None
 
 # Comenceu avui
 
-1. **Comprova el teu equip** amb l'eina de compatibilitat.
-2. **Instal·la** LM Studio o Ollama.
-3. **Descarrega el model** que et toqui segons la RAM.
-4. **Prova-ho:** redacció, resum o transcripció.
+1. **Comproveu el vostre equip** amb l'eina de compatibilitat.
+2. **Instal·leu** LM Studio o Ollama.
+3. **Descarregueu el model** que us correspongui segons la RAM.
+4. **Proveu-ho:** redacció, resum o transcripció.
 
 Tot el recorregut, pas a pas, a la guia de Softcatalà:
 
@@ -280,7 +281,7 @@ Tot el recorregut, pas a pas, a la guia de Softcatalà:
 
 <!-- alignment: center -->
 <!-- no_footer -->
-<!-- jump_to_middle -->
+<!-- new_lines: 4 -->
 
 **Moltes gràcies!**
 
@@ -291,3 +292,9 @@ Tot el recorregut, pas a pas, a la guia de Softcatalà:
 <span style="color: #ff5555">\*\*\*\*\*\*\*\*</span>\
 <span style="color: #ff5555">\*\*\*\*</span>\
 <span style="color: #ff5555">\*\*</span>
+
+El vídeo d'aquesta xerrada està penjat a:
+
+[softcatala.org/s/ia-local](https://www.softcatala.org/s/ia-local)
+
+Si algú té interès a col·laborar amb Softcatalà, **parlem-ne!**
