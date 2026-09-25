@@ -42,7 +42,7 @@ theme:
 <span style="color: #a5d7e8">**Projectes actuals**</span>
 
 - <span style="color: #9aa5b1">github.com/Softcatala/</span><span style="color: #b4ccff">**arena-cat**</span>
-- <span style="color: #9aa5b1">github.com/jordimas/</span><span style="color: #b4ccff">**ai-eval-catalan**</span>
+- <span style="color: #9aa5b1">github.com/Softcatala/</span><span style="color: #b4ccff">**ai-eval-catalan**</span>
 - <span style="color: #9aa5b1">github.com/OpenNMT/</span><span style="color: #b4ccff">**CTranslate2**</span>
 
 <!-- end_slide -->
