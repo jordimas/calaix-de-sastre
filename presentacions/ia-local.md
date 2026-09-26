@@ -295,6 +295,6 @@ Tot el recorregut, pas a pas, a la guia de Softcatalà:
 
 El vídeo d'aquesta xerrada està penjat a:
 
-[softcatala.org/s/ia-local](https://www.softcatala.org/s/ia-local)
+[softcatala.org/s/ia-local](https://www.softcatala.org/s/ia-local) (compartiu)
 
 Si algú té interès a col·laborar amb Softcatalà, **parlem-ne!**
