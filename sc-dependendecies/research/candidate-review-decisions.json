@@ -1,0 +1,7 @@
+{
+  "Polealpha/XINNIAN_PI": "Menció dins del README de faster-whisper incrustat a METADATA; no és una dependència d’open-dubbing.",
+  "kdix-23-240/Eiinmado": "Menció dins de les metadades de faster-whisper; no prova ús d’open-dubbing.",
+  "houseofsuns/pypi": "Catàleg automàtic que replica paquets de PyPI; no es compta com a producte independent.",
+  "major/fedora-rpm-specs": "Còpia de receptes de Fedora per analitzar-ne canvis; el producte és Fedora.",
+  "praiskup/fedora-sources-statistics": "Receptes de Fedora copiades per fer estadístiques; no és una integració pròpia."
+}

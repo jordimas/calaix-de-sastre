@@ -1,0 +1,99 @@
+[
+  {
+    "platform": "GitHub",
+    "project": "thecopybookhare-cmd/lingua-miner",
+    "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+    "resource": "HF model: softcatala/translate-cat-spa",
+    "status": "confirmed",
+    "type": "code_usage",
+    "path": "app/config.py",
+    "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/app/config.py",
+    "hits": [
+      {
+        "line": 65,
+        "text": "TRANSLATE_REPO = \"softcatala/translate-cat-spa\""
+      }
+    ],
+    "fork": false,
+    "stars": 23,
+    "project_name": "lingua-miner",
+    "manually_reviewed": true,
+    "integration_note": "model català-castellà descarregat i executat localment",
+    "supporting_evidence": [
+      {
+        "url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/app/languages.py",
+        "description": "Carregador i connexió amb la configuració del model"
+      },
+      {
+        "url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/app/translate.py",
+        "description": "Carregador i connexió amb la configuració del model"
+      }
+    ]
+  },
+  {
+    "platform": "GitHub",
+    "project": "m-bain/whisperX",
+    "project_url": "https://github.com/m-bain/whisperX",
+    "resource": "HF model: softcatala/wav2vec2-large-xlsr-catala",
+    "status": "confirmed",
+    "type": "code_usage",
+    "path": "whisperx/alignment.py",
+    "evidence_url": "https://github.com/m-bain/whisperX/blob/771b4a14a9486f8fd5aef18ef49e35d639523dd3/whisperx/alignment.py",
+    "hits": [
+      {
+        "line": 62,
+        "text": "\"ca\": \"softcatala/wav2vec2-large-xlsr-catala\","
+      }
+    ],
+    "fork": false,
+    "stars": 24361,
+    "project_name": "whisperX",
+    "manually_reviewed": true,
+    "integration_note": "model d’alineament quan es selecciona català",
+    "supporting_evidence": []
+  },
+  {
+    "platform": "GitHub",
+    "project": "Kedreamix/Linly-Dubbing",
+    "project_url": "https://github.com/Kedreamix/Linly-Dubbing",
+    "resource": "HF model: softcatala/wav2vec2-large-xlsr-catala",
+    "status": "confirmed",
+    "type": "code_usage",
+    "path": "submodules/whisperX/whisperx/alignment.py",
+    "evidence_url": "https://github.com/Kedreamix/Linly-Dubbing/blob/5677191ee544afae8250cee8e801c03839bcba24/submodules/whisperX/whisperx/alignment.py",
+    "hits": [
+      {
+        "line": 54,
+        "text": "\"ca\": \"softcatala/wav2vec2-large-xlsr-catala\","
+      }
+    ],
+    "fork": false,
+    "stars": 3349,
+    "project_name": "Linly-Dubbing",
+    "manually_reviewed": true,
+    "integration_note": "model català opcional al component WhisperX integrat",
+    "supporting_evidence": []
+  },
+  {
+    "platform": "GitHub",
+    "project": "guardian/transcription-service",
+    "project_url": "https://github.com/guardian/transcription-service",
+    "resource": "HF model: softcatala/wav2vec2-large-xlsr-catala",
+    "status": "confirmed",
+    "type": "code_usage",
+    "path": "model-fetch/download_whisperx_models.py",
+    "evidence_url": "https://github.com/guardian/transcription-service/blob/672c19bf3318125e24af9d69d27345e9828f7d9a/model-fetch/download_whisperx_models.py",
+    "hits": [
+      {
+        "line": 68,
+        "text": "\"ca\": \"softcatala/wav2vec2-large-xlsr-catala\","
+      }
+    ],
+    "fork": false,
+    "stars": 4,
+    "project_name": "transcription-service",
+    "manually_reviewed": true,
+    "integration_note": "descarrega el model català per a l’alineament",
+    "supporting_evidence": []
+  }
+]

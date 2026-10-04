@@ -1,0 +1,1077 @@
+{
+  "generated_at": "2026-10-04 16:32:38 UTC",
+  "resources": [
+    {
+      "name": "CTranslate2",
+      "terms": [
+        "ctranslate2",
+        "OpenNMT/CTranslate2"
+      ],
+      "queries": [
+        "ctranslate2"
+      ],
+      "source_platform": "GitHub",
+      "source_url": "https://github.com/OpenNMT/CTranslate2",
+      "maintenance_relationship": "manteniment de Softcatalà indicat per l’usuari",
+      "ownership_scope": "externally hosted maintained resource"
+    }
+  ],
+  "findings": [
+    {
+      "platform": "GitHub",
+      "project": "SYSTRAN/faster-whisper",
+      "project_url": "https://github.com/SYSTRAN/faster-whisper",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "README.md",
+      "evidence_url": "https://github.com/SYSTRAN/faster-whisper/blob/7b99be5376b41cd481dfc52e8caa00a497c3294e/README.md",
+      "hits": [
+        {
+          "line": 3,
+          "text": "# Faster Whisper transcription with CTranslate2"
+        },
+        {
+          "line": 5,
+          "text": "**faster-whisper** is a reimplementation of OpenAI's Whisper model using [CTranslate2](https://github.com/OpenNMT/CTranslate2/), which is a fast inference engine for Transformer models."
+        },
+        {
+          "line": 70,
+          "text": "**Note**: The latest versions of `ctranslate2` only support CUDA 12 and cuDNN 9. For CUDA 11 and cuDNN 8, the current workaround is downgrading to the `3.24.0` version of `ctranslate2`, for CUDA 12 and cuDNN 8, downgrade to the `4.4.0` version of `ctranslate2`, (This can be done with `pip install --force-reinstall ctranslate2==4.4.0` or specifying the version in a `requirements.txt`)."
+        },
+        {
+          "line": 242,
+          "text": "* [whisper-ctranslate2](https://github.com/Softcatala/whisper-ctranslate2) is a command line client based on faster-whisper and compatible with the original client from openai/whisper."
+        },
+        {
+          "line": 251,
+          "text": "* [Faster-Whisper-Transcriber](https://github.com/BBC-Esq/ctranslate2-faster-whisper-transcriber) is a simple but reliable voice transcriber that provides a user-friendly interface."
+        },
+        {
+          "line": 257,
+          "text": "When loading a model from its size such as `WhisperModel(\"large-v3\")`, the corresponding CTranslate2 model is automatically downloaded from the [Hugging Face Hub](https://huggingface.co/Systran)."
+        },
+        {
+          "line": 273,
+          "text": "Models can also be converted from the code. See the [conversion API](https://opennmt.net/CTranslate2/python/ctranslate2.converters.TransformersConverter.html)."
+        }
+      ],
+      "fork": false,
+      "stars": 25697,
+      "project_name": "faster-whisper"
+    },
+    {
+      "platform": "GitHub",
+      "project": "SYSTRAN/faster-whisper",
+      "project_url": "https://github.com/SYSTRAN/faster-whisper",
+      "resource": "CTranslate2",
+      "status": "confirmed",
+      "type": "code_usage",
+      "path": "faster_whisper/transcribe.py",
+      "evidence_url": "https://github.com/SYSTRAN/faster-whisper/blob/7b99be5376b41cd481dfc52e8caa00a497c3294e/faster_whisper/transcribe.py",
+      "hits": [
+        {
+          "line": 13,
+          "text": "import ctranslate2"
+        },
+        {
+          "line": 645,
+          "text": "a path to a converted model directory, or a CTranslate2-converted Whisper model ID from"
+        },
+        {
+          "line": 654,
+          "text": "See https://opennmt.net/CTranslate2/quantization.html."
+        },
+        {
+          "line": 692,
+          "text": "self.model = ctranslate2.models.Whisper("
+        },
+        {
+          "line": 1115,
+          "text": "encoder_output: Optional[ctranslate2.StorageView] = None,"
+        },
+        {
+          "line": 1397,
+          "text": "def encode(self, features: np.ndarray) -> ctranslate2.StorageView:"
+        },
+        {
+          "line": 1404,
+          "text": "features = get_ctranslate2_storage(features)"
+        },
+        {
+          "line": 1410,
+          "text": "encoder_output: ctranslate2.StorageView,"
+        },
+        {
+          "line": 1414,
+          "text": ") -> Tuple[ctranslate2.models.WhisperGenerationResult, float, float, float]:"
+        },
+        {
+          "line": 1577,
+          "text": "encoder_output: ctranslate2.StorageView,"
+        },
+        {
+          "line": 1708,
+          "text": "encoder_output: ctranslate2.StorageView,"
+        },
+        {
+          "line": 1879,
+          "text": "def get_ctranslate2_storage(segment: np.ndarray) -> ctranslate2.StorageView:"
+        },
+        {
+          "line": 1881,
+          "text": "segment = ctranslate2.StorageView.from_array(segment)"
+        }
+      ],
+      "fork": false,
+      "stars": 25697,
+      "project_name": "faster-whisper"
+    },
+    {
+      "platform": "GitHub",
+      "project": "SYSTRAN/faster-whisper",
+      "project_url": "https://github.com/SYSTRAN/faster-whisper",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "faster_whisper/utils.py",
+      "evidence_url": "https://github.com/SYSTRAN/faster-whisper/blob/7b99be5376b41cd481dfc52e8caa00a497c3294e/faster_whisper/utils.py",
+      "hits": [
+        {
+          "line": 57,
+          "text": "\"\"\"Downloads a CTranslate2 Whisper model from the Hugging Face Hub."
+        },
+        {
+          "line": 63,
+          "text": "distil-large-v3), or a CTranslate2-converted model ID from the Hugging Face Hub"
+        }
+      ],
+      "fork": false,
+      "stars": 25697,
+      "project_name": "faster-whisper"
+    },
+    {
+      "platform": "GitHub",
+      "project": "SYSTRAN/faster-whisper",
+      "project_url": "https://github.com/SYSTRAN/faster-whisper",
+      "resource": "CTranslate2",
+      "status": "confirmed",
+      "type": "dependency",
+      "path": "requirements.txt",
+      "evidence_url": "https://github.com/SYSTRAN/faster-whisper/blob/7b99be5376b41cd481dfc52e8caa00a497c3294e/requirements.txt",
+      "hits": [
+        {
+          "line": 1,
+          "text": "ctranslate2>=4.0,<5"
+        }
+      ],
+      "fork": false,
+      "stars": 25697,
+      "project_name": "faster-whisper"
+    },
+    {
+      "platform": "GitHub",
+      "project": "SYSTRAN/faster-whisper",
+      "project_url": "https://github.com/SYSTRAN/faster-whisper",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "setup.py",
+      "evidence_url": "https://github.com/SYSTRAN/faster-whisper/blob/7b99be5376b41cd481dfc52e8caa00a497c3294e/setup.py",
+      "hits": [
+        {
+          "line": 36,
+          "text": "description=\"Faster Whisper transcription with CTranslate2\","
+        },
+        {
+          "line": 53,
+          "text": "keywords=\"openai whisper speech ctranslate2 inference quantization transformer\","
+        }
+      ],
+      "fork": false,
+      "stars": 25697,
+      "project_name": "faster-whisper"
+    },
+    {
+      "platform": "GitHub",
+      "project": "argosopentech/argos-translate",
+      "project_url": "https://github.com/argosopentech/argos-translate",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "README.md",
+      "evidence_url": "https://github.com/argosopentech/argos-translate/blob/17ed1a9b055c5ba1b51d76b683bbb0c64e2a4a88/README.md",
+      "hits": [
+        {
+          "line": 132,
+          "text": "The above env variable passes the device type to [CTranslate2](https://github.com/OpenNMT/CTranslate2)."
+        },
+        {
+          "line": 170,
+          "text": "For questions about [CTranslate2](https://github.com/OpenNMT/CTranslate2) or general machine translation research the [OpenNMT Forum](https://forum.opennmt.net/) is a good resource."
+        }
+      ],
+      "fork": false,
+      "stars": 6524,
+      "project_name": "argos-translate"
+    },
+    {
+      "platform": "GitHub",
+      "project": "argosopentech/argos-translate",
+      "project_url": "https://github.com/argosopentech/argos-translate",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "ReleaseNotes.md",
+      "evidence_url": "https://github.com/argosopentech/argos-translate/blob/17ed1a9b055c5ba1b51d76b683bbb0c64e2a4a88/ReleaseNotes.md",
+      "hits": [
+        {
+          "line": 15,
+          "text": "- CTranslate2 updates"
+        },
+        {
+          "line": 24,
+          "text": "- Upgrade to CTranslate2 2.0"
+        }
+      ],
+      "fork": false,
+      "stars": 6524,
+      "project_name": "argos-translate"
+    },
+    {
+      "platform": "GitHub",
+      "project": "argosopentech/argos-translate",
+      "project_url": "https://github.com/argosopentech/argos-translate",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "argostranslate/package.py",
+      "evidence_url": "https://github.com/argosopentech/argos-translate/blob/17ed1a9b055c5ba1b51d76b683bbb0c64e2a4a88/argostranslate/package.py",
+      "hits": [
+        {
+          "line": 63,
+          "text": "OpenNMT CTranslate2 directory named model/ is expected in the root directory"
+        }
+      ],
+      "fork": false,
+      "stars": 6524,
+      "project_name": "argos-translate"
+    },
+    {
+      "platform": "GitHub",
+      "project": "argosopentech/argos-translate",
+      "project_url": "https://github.com/argosopentech/argos-translate",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "argostranslate/settings.py",
+      "evidence_url": "https://github.com/argosopentech/argos-translate/blob/17ed1a9b055c5ba1b51d76b683bbb0c64e2a4a88/argostranslate/settings.py",
+      "hits": [
+        {
+          "line": 169,
+          "text": "# https://opennmt.net/CTranslate2/python/ctranslate2.Translator.html"
+        }
+      ],
+      "fork": false,
+      "stars": 6524,
+      "project_name": "argos-translate"
+    },
+    {
+      "platform": "GitHub",
+      "project": "argosopentech/argos-translate",
+      "project_url": "https://github.com/argosopentech/argos-translate",
+      "resource": "CTranslate2",
+      "status": "confirmed",
+      "type": "code_usage",
+      "path": "argostranslate/translate.py",
+      "evidence_url": "https://github.com/argosopentech/argos-translate/blob/17ed1a9b055c5ba1b51d76b683bbb0c64e2a4a88/argostranslate/translate.py",
+      "hits": [
+        {
+          "line": 6,
+          "text": "import ctranslate2"
+        },
+        {
+          "line": 8,
+          "text": "from ctranslate2 import Translator"
+        },
+        {
+          "line": 199,
+          "text": "self.translator = ctranslate2.Translator(**params)"
+        },
+        {
+          "line": 444,
+          "text": "translator: The CTranslate2 Translator"
+        }
+      ],
+      "fork": false,
+      "stars": 6524,
+      "project_name": "argos-translate"
+    },
+    {
+      "platform": "GitHub",
+      "project": "argosopentech/argos-translate",
+      "project_url": "https://github.com/argosopentech/argos-translate",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "p2p/Argos-Translate-LibreTranslate-2022-04-30.migrate-from-zip-torrent.sh",
+      "evidence_url": "https://github.com/argosopentech/argos-translate/blob/17ed1a9b055c5ba1b51d76b683bbb0c64e2a4a88/p2p/Argos-Translate-LibreTranslate-2022-04-30.migrate-from-zip-torrent.sh",
+      "hits": [
+        {
+          "line": 65,
+          "text": "7dd00400a5fecb1bdd4d19a6e8c653cc3f06ebab5693a1acec1bf1ca53cfb0de  CTranslate2.zip"
+        }
+      ],
+      "fork": false,
+      "stars": 6524,
+      "project_name": "argos-translate"
+    },
+    {
+      "platform": "GitHub",
+      "project": "argosopentech/argos-translate",
+      "project_url": "https://github.com/argosopentech/argos-translate",
+      "resource": "CTranslate2",
+      "status": "confirmed",
+      "type": "dependency",
+      "path": "requirements.txt",
+      "evidence_url": "https://github.com/argosopentech/argos-translate/blob/17ed1a9b055c5ba1b51d76b683bbb0c64e2a4a88/requirements.txt",
+      "hits": [
+        {
+          "line": 1,
+          "text": "ctranslate2>=4.0,<5"
+        }
+      ],
+      "fork": false,
+      "stars": 6524,
+      "project_name": "argos-translate"
+    },
+    {
+      "platform": "GitHub",
+      "project": "argosopentech/argos-translate",
+      "project_url": "https://github.com/argosopentech/argos-translate",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "setup.py",
+      "evidence_url": "https://github.com/argosopentech/argos-translate/blob/17ed1a9b055c5ba1b51d76b683bbb0c64e2a4a88/setup.py",
+      "hits": [
+        {
+          "line": 12,
+          "text": "description=\"Open-source neural machine translation library based on OpenNMT's CTranslate2\","
+        }
+      ],
+      "fork": false,
+      "stars": 6524,
+      "project_name": "argos-translate"
+    },
+    {
+      "platform": "GitHub",
+      "project": "chidiwilliams/buzz",
+      "project_url": "https://github.com/chidiwilliams/buzz",
+      "resource": "CTranslate2",
+      "status": "confirmed",
+      "type": "dependency",
+      "path": "pyproject.toml",
+      "evidence_url": "https://github.com/chidiwilliams/buzz/blob/100589fd8c492869f2994b525e1092eda81e4e88/pyproject.toml",
+      "hits": [
+        {
+          "line": 33,
+          "text": "\"ctranslate2>=4.6.2,<5; sys_platform == 'darwin'\","
+        },
+        {
+          "line": 35,
+          "text": "\"ctranslate2>=4.6.2,<5; sys_platform != 'darwin'\","
+        }
+      ],
+      "fork": false,
+      "stars": 21823,
+      "project_name": "buzz"
+    },
+    {
+      "platform": "GitHub",
+      "project": "m-bain/whisperX",
+      "project_url": "https://github.com/m-bain/whisperX",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "README.md",
+      "evidence_url": "https://github.com/m-bain/whisperX/blob/771b4a14a9486f8fd5aef18ef49e35d639523dd3/README.md",
+      "hits": [
+        {
+          "line": 302,
+          "text": "Great backend from [faster-whisper](https://github.com/guillaumekln/faster-whisper) and [CTranslate2](https://github.com/OpenNMT/CTranslate2)"
+        }
+      ],
+      "fork": false,
+      "stars": 24361,
+      "project_name": "whisperX"
+    },
+    {
+      "platform": "GitHub",
+      "project": "m-bain/whisperX",
+      "project_url": "https://github.com/m-bain/whisperX",
+      "resource": "CTranslate2",
+      "status": "confirmed",
+      "type": "dependency",
+      "path": "pyproject.toml",
+      "evidence_url": "https://github.com/m-bain/whisperX/blob/771b4a14a9486f8fd5aef18ef49e35d639523dd3/pyproject.toml",
+      "hits": [
+        {
+          "line": 12,
+          "text": "\"ctranslate2>=4.5.0\","
+        }
+      ],
+      "fork": false,
+      "stars": 24361,
+      "project_name": "whisperX"
+    },
+    {
+      "platform": "GitHub",
+      "project": "m-bain/whisperX",
+      "project_url": "https://github.com/m-bain/whisperX",
+      "resource": "CTranslate2",
+      "status": "confirmed",
+      "type": "code_usage",
+      "path": "whisperx/asr.py",
+      "evidence_url": "https://github.com/m-bain/whisperX/blob/771b4a14a9486f8fd5aef18ef49e35d639523dd3/whisperx/asr.py",
+      "hits": [
+        {
+          "line": 6,
+          "text": "import ctranslate2"
+        },
+        {
+          "line": 11,
+          "text": "from faster_whisper.transcribe import TranscriptionOptions, get_ctranslate2_storage"
+        },
+        {
+          "line": 121,
+          "text": "def encode(self, features: np.ndarray) -> ctranslate2.StorageView:"
+        },
+        {
+          "line": 128,
+          "text": "features = get_ctranslate2_storage(features)"
+        }
+      ],
+      "fork": false,
+      "stars": 24361,
+      "project_name": "whisperX"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "README.md",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/README.md",
+      "hits": [
+        {
+          "line": 41,
+          "text": "translation runs offline via CTranslate2 (OPUS-MT, or NLLB-200 for pairs"
+        },
+        {
+          "line": 261,
+          "text": "and OPUS-MT CTranslate2 models per language, Apertium bilingual dictionaries,"
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "app/desktop.py",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/app/desktop.py",
+      "hits": [
+        {
+          "line": 80,
+          "text": "un primer arranque en frío (imports de faster-whisper, ctranslate2 y spaCy"
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "app/diagnostics.py",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/app/diagnostics.py",
+      "hits": [
+        {
+          "line": 21,
+          "text": "_PKGS = (\"pywebview\", \"fastapi\", \"uvicorn\", \"faster-whisper\", \"ctranslate2\","
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "app/languages.py",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/app/languages.py",
+      "hits": [
+        {
+          "line": 38,
+          "text": "\"en\": {\"repo\": \"gaudi/opus-mt-ca-en-ctranslate2\","
+        },
+        {
+          "line": 49,
+          "text": "# OPUS-MT fr→es convertido a CTranslate2 (Marian → necesita </s>)."
+        },
+        {
+          "line": 50,
+          "text": "\"translate_repo\": \"gaudi/opus-mt-fr-es-ctranslate2\","
+        },
+        {
+          "line": 71,
+          "text": "\"en\": {\"repo\": \"gaudi/opus-mt-fr-en-ctranslate2\","
+        },
+        {
+          "line": 106,
+          "text": "\"translate_repo\": \"gaudi/opus-mt-de-es-ctranslate2\",     # OPUS-MT de→es CT2"
+        },
+        {
+          "line": 128,
+          "text": "\"en\": {\"repo\": \"gaudi/opus-mt-de-en-ctranslate2\","
+        },
+        {
+          "line": 199,
+          "text": "\"en\": {\"repo\": \"gaudi/opus-mt-it-en-ctranslate2\","
+        },
+        {
+          "line": 226,
+          "text": "\"en\": {\"repo\": \"gaudi/opus-mt-ru-en-ctranslate2\","
+        },
+        {
+          "line": 263,
+          "text": "\"en\": {\"repo\": \"gaudi/opus-mt-nl-en-ctranslate2\","
+        },
+        {
+          "line": 298,
+          "text": "\"en\": {\"repo\": \"gaudi/opus-mt-zh-en-ctranslate2\","
+        },
+        {
+          "line": 339,
+          "text": "\"en\": {\"repo\": \"gaudi/opus-mt-ja-en-ctranslate2\","
+        },
+        {
+          "line": 372,
+          "text": "\"en\": {\"repo\": \"gaudi/opus-mt-ko-en-ctranslate2\","
+        },
+        {
+          "line": 391,
+          "text": "# están afinados para cantonés y ya vienen en CTranslate2."
+        },
+        {
+          "line": 399,
+          "text": "# lo cubre como yue_Hant, y hay conversión CTranslate2 hecha."
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "confirmed",
+      "type": "code_usage",
+      "path": "app/translate.py",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/app/translate.py",
+      "hits": [
+        {
+          "line": 1,
+          "text": "\"\"\"Softcatalà cat->spa neural translation via CTranslate2 + SentencePiece.\"\"\""
+        },
+        {
+          "line": 32,
+          "text": "import ctranslate2"
+        },
+        {
+          "line": 48,
+          "text": "self.tr = ctranslate2.Translator(str(ct2_dir), device=\"cpu\")"
+        },
+        {
+          "line": 100,
+          "text": "from ctranslate2.converters import OpusMTConverter"
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "docs/adding-a-language.md",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/docs/adding-a-language.md",
+      "hits": [
+        {
+          "line": 80,
+          "text": "CTranslate2. So a profile can declare an NLLB pair instead of an OPUS one:"
+        },
+        {
+          "line": 97,
+          "text": "already converted to CTranslate2. Generic Whisper transcribes Cantonese as if"
+        },
+        {
+          "line": 167,
+          "text": "\"en\": {\"repo\": \"gaudi/opus-mt-it-en-ctranslate2\","
+        },
+        {
+          "line": 175,
+          "text": "1. **A prebuilt CTranslate2 model** on Hugging Face → `translate_repo`."
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "docs/index.md",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/docs/index.md",
+      "hits": [
+        {
+          "line": 63,
+          "text": "Transcription is Whisper, translation is CTranslate2 (OPUS-MT, or NLLB-200 for"
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "docs/plans/2026-07-04-catala-miner.md",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/docs/plans/2026-07-04-catala-miner.md",
+      "hits": [
+        {
+          "line": 7,
+          "text": "**Architecture:** Single FastAPI backend (Python 3.12 via `uv` venv) serving a vanilla-JS single page. Heavy work (Whisper, yt-dlp, ffmpeg) runs in background threads with polled job state. Translation = Softcatalà CTranslate2 model; dictionary senses = Apertium bidix XML parsed locally; tokens/lemmas = spaCy `ca_core_news_sm` with regex fallback; frequency = wordfreq. Cards go to Anki via AnkiConnect with a local pending queue."
+        },
+        {
+          "line": 9,
+          "text": "**Tech Stack:** FastAPI, uvicorn, faster-whisper (`projecte-aina/faster-whisper-large-v3-ca-3catparla` default), ctranslate2 + sentencepiece, yt-dlp, spaCy, wordfreq, requests, SQLite (stdlib), ffmpeg CLI."
+        },
+        {
+          "line": 34,
+          "text": "\"ctranslate2>=4.0\","
+        },
+        {
+          "line": 597,
+          "text": "\"\"\"Softcatalà cat->spa neural translation via CTranslate2 + SentencePiece.\"\"\""
+        },
+        {
+          "line": 612,
+          "text": "import ctranslate2"
+        },
+        {
+          "line": 624,
+          "text": "self.tr = ctranslate2.Translator(str(ct2_dir), device=\"cpu\")"
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "docs/plans/2026-07-05-v060-mineria-fluida.md",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/docs/plans/2026-07-05-v060-mineria-fluida.md",
+      "hits": [
+        {
+          "line": 9,
+          "text": "**Tech Stack:** Python 3.12, FastAPI, spaCy `ca_core_news_sm`, diccionari LT de Softcatalà, bidix Apertium, CTranslate2 (Softcatalà cat→spa), espeak-ng (opcional), pywebview, AnkiConnect."
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "docs/roadmap.md",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/docs/roadmap.md",
+      "hits": [
+        {
+          "line": 14,
+          "text": "- [x] **Francés (fr→es)** — OPUS-MT `gaudi/opus-mt-fr-es-ctranslate2` (CTranslate2),"
+        },
+        {
+          "line": 26,
+          "text": "- [x] Imports perezosos auditados (whisper/ctranslate2/spaCy ya diferidos)"
+        },
+        {
+          "line": 95,
+          "text": "- **Empaquetado**: el modelo local-completo (CTranslate2 + Whisper + ~3 GB) es"
+        },
+        {
+          "line": 178,
+          "text": "**sin torch** (`ctranslate2.converters.OpusMTConverter`, ~64 MB int8),"
+        },
+        {
+          "line": 184,
+          "text": "base: ca/fr/de → en con OPUS-MT `gaudi/opus-mt-*-en-ctranslate2` (CT2)."
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "docs/specs/2026-07-04-catala-miner-design.md",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/docs/specs/2026-07-04-catala-miner-design.md",
+      "hits": [
+        {
+          "line": 26,
+          "text": "| Transcripción | faster-whisper + **`projecte-aina/faster-whisper-large-v3-ca-3catparla`** | Whisper large-v3 afinado con 710 h de catalán (BSC/Projecte AINA), ya en formato CTranslate2, Apache-2.0. Mejor que large-v3 genérico para catalán. Alternativas seleccionables: `large-v3` genérico, `small` (borrador rápido) |"
+        },
+        {
+          "line": 30,
+          "text": "| Traducción de frase | **Softcatalà `translate-cat-spa`** (CTranslate2 + SentencePiece, MIT) | Traductor neuronal que usa softcatala.org en producción. Instalación 100% pip (`ctranslate2`, `sentencepiece`) — Apertium no está en Homebrew y compilarlo es doloroso |"
+        },
+        {
+          "line": 78,
+          "text": "- **Frase completa:** modelo neuronal Softcatalà cat→spa (CTranslate2). Es el mismo motor del traductor de softcatala.org — traducción contextual de calidad de producción."
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "confirmed",
+      "type": "dependency",
+      "path": "pyproject.toml",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/pyproject.toml",
+      "hits": [
+        {
+          "line": 11,
+          "text": "\"ctranslate2>=4.0\","
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "scripts/check-language.py",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/scripts/check-language.py",
+      "hits": [
+        {
+          "line": 76,
+          "text": "# NLLB-200 cubre 200 idiomas y hay conversión CTranslate2 hecha; se usa cuando"
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "tests/test_api_v4.py",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/tests/test_api_v4.py",
+      "hits": [
+        {
+          "line": 115,
+          "text": "assert languages.translate_spec()[\"repo\"] == \"gaudi/opus-mt-ca-en-ctranslate2\""
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "tests/test_diagnostics.py",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/tests/test_diagnostics.py",
+      "hits": [
+        {
+          "line": 23,
+          "text": "for pkg in (\"pywebview\", \"faster-whisper\", \"ctranslate2\"):"
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "tests/test_languages_bases.py",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/tests/test_languages_bases.py",
+      "hits": [
+        {
+          "line": 55,
+          "text": "assert spec[\"repo\"] == \"gaudi/opus-mt-ru-en-ctranslate2\""
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    },
+    {
+      "platform": "GitHub",
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+      "resource": "CTranslate2",
+      "status": "needs_review",
+      "type": "documentation_reference",
+      "path": "uv.lock",
+      "evidence_url": "https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/uv.lock",
+      "hits": [
+        {
+          "line": 244,
+          "text": "name = \"ctranslate2\""
+        },
+        {
+          "line": 253,
+          "text": "{ url = \"https://files.pythonhosted.org/packages/6d/09/9a50eeab00db68aeac08f6ab7f98b5c36abd26b89cbd707ea39e70656500/ctranslate2-4.8.1-cp312-cp312-macosx_11_0_arm64.whl\", hash = \"sha256:9de0dddd91ae68da0a7323441e90708d14b31d31cd443004dda0e1198b5bf11e\", size = 1270522, upload-time = \"2026-07-03T12:39:13.368Z\" },"
+        },
+        {
+          "line": 254,
+          "text": "{ url = \"https://files.pythonhosted.org/packages/2f/97/6c41c4d3ae539ec76b1943c362184677befd7c1d5290d2ec361182cdb1e0/ctranslate2-4.8.1-cp312-cp312-macosx_11_0_x86_64.whl\", hash = \"sha256:82e0e6eb7d4301fd79a714495c8faf34242e09542cef04c9e9794c3fe90014a1\", size = 11930367, upload-time = \"2026-07-03T12:39:14.896Z\" },"
+        },
+        {
+          "line": 255,
+          "text": "{ url = \"https://files.pythonhosted.org/packages/2c/d4/03428106134a0a58922461074f8942f92c5ed0bb3a8d018677ad64a9c476/ctranslate2-4.8.1-cp312-cp312-manylinux_2_27_aarch64.manylinux_2_28_aarch64.whl\", hash = \"sha256:5ca144b93035b9f53e6d67b7cdf5802c3fffca9aa0247940eecbd4592c68ce2f\", size = 16882768, upload-time = \"2026-07-03T12:39:17.425Z\" },"
+        },
+        {
+          "line": 256,
+          "text": "{ url = \"https://files.pythonhosted.org/packages/47/c9/976a565398a03fb2973cbe5edd5ca03c4332d86b634799e0ee562420d3bc/ctranslate2-4.8.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl\", hash = \"sha256:dacc408f716ebc73b3b3c6ddd937700e776c4c68b6d9c81862990150ff0f6af6\", size = 39529060, upload-time = \"2026-07-03T12:39:20.468Z\" },"
+        },
+        {
+          "line": 257,
+          "text": "{ url = \"https://files.pythonhosted.org/packages/c0/82/0a5f7f2b03b4e10aacb3146715724e1b96bb993cc7d199be28c9825aa120/ctranslate2-4.8.1-cp312-cp312-win_amd64.whl\", hash = \"sha256:49f96e861b57301f0b76a082109bde2cac8204a6b4fedc870883008271e82251\", size = 19220789, upload-time = \"2026-07-03T12:39:23.356Z\" },"
+        },
+        {
+          "line": 307,
+          "text": "{ name = \"ctranslate2\" },"
+        },
+        {
+          "line": 558,
+          "text": "{ name = \"ctranslate2\" },"
+        },
+        {
+          "line": 587,
+          "text": "{ name = \"ctranslate2\", specifier = \">=4.0\" },"
+        }
+      ],
+      "fork": false,
+      "stars": 23,
+      "project_name": "lingua-miner"
+    }
+  ],
+  "warnings": [],
+  "github_searches": [
+    {
+      "files_read": 5,
+      "files_skipped": 0,
+      "query": "\"ctranslate2\" -org:Softcatala repo:SYSTRAN/faster-whisper",
+      "reported_count": 5,
+      "unique_matches": 5,
+      "requests": 1,
+      "partitions": [
+        {
+          "query": "\"ctranslate2\" -org:Softcatala repo:SYSTRAN/faster-whisper",
+          "reported_count": 5,
+          "returned_count": 5,
+          "complete": true
+        }
+      ],
+      "complete": true,
+      "state": "completed"
+    },
+    {
+      "files_read": 3,
+      "files_skipped": 0,
+      "query": "\"ctranslate2\" -org:Softcatala repo:m-bain/whisperX",
+      "reported_count": 3,
+      "unique_matches": 3,
+      "requests": 1,
+      "partitions": [
+        {
+          "query": "\"ctranslate2\" -org:Softcatala repo:m-bain/whisperX",
+          "reported_count": 3,
+          "returned_count": 3,
+          "complete": true
+        }
+      ],
+      "complete": true,
+      "state": "completed"
+    },
+    {
+      "files_read": 8,
+      "files_skipped": 0,
+      "query": "\"ctranslate2\" -org:Softcatala repo:argosopentech/argos-translate",
+      "reported_count": 8,
+      "unique_matches": 8,
+      "requests": 1,
+      "partitions": [
+        {
+          "query": "\"ctranslate2\" -org:Softcatala repo:argosopentech/argos-translate",
+          "reported_count": 8,
+          "returned_count": 8,
+          "complete": true
+        }
+      ],
+      "complete": true,
+      "state": "completed"
+    },
+    {
+      "files_read": 0,
+      "files_skipped": 0,
+      "query": "\"ctranslate2\" -org:Softcatala repo:LibreTranslate/LibreTranslate",
+      "reported_count": 0,
+      "unique_matches": 0,
+      "requests": 1,
+      "partitions": [
+        {
+          "query": "\"ctranslate2\" -org:Softcatala repo:LibreTranslate/LibreTranslate",
+          "reported_count": 0,
+          "returned_count": 0,
+          "complete": true
+        }
+      ],
+      "complete": true,
+      "state": "completed"
+    },
+    {
+      "files_read": 1,
+      "files_skipped": 0,
+      "query": "\"ctranslate2\" -org:Softcatala repo:chidiwilliams/buzz",
+      "reported_count": 1,
+      "unique_matches": 1,
+      "requests": 1,
+      "partitions": [
+        {
+          "query": "\"ctranslate2\" -org:Softcatala repo:chidiwilliams/buzz",
+          "reported_count": 1,
+          "returned_count": 1,
+          "complete": true
+        }
+      ],
+      "complete": true,
+      "state": "completed"
+    },
+    {
+      "files_read": 17,
+      "files_skipped": 0,
+      "query": "\"ctranslate2\" -org:Softcatala repo:thecopybookhare-cmd/lingua-miner",
+      "reported_count": 17,
+      "unique_matches": 17,
+      "requests": 1,
+      "partitions": [
+        {
+          "query": "\"ctranslate2\" -org:Softcatala repo:thecopybookhare-cmd/lingua-miner",
+          "reported_count": 17,
+          "returned_count": 17,
+          "complete": true
+        }
+      ],
+      "complete": true,
+      "state": "completed"
+    }
+  ],
+  "run_status": "completed",
+  "progress": {
+    "completed_steps": 6,
+    "last_step": "GitHub: \"ctranslate2\" -org:Softcatala repo:thecopybookhare-cmd/lingua-miner, page 1"
+  },
+  "scope": {
+    "github_default_branch_only": true,
+    "github_max_results_per_query": 1000,
+    "github_size_partitioning": true,
+    "github_consumer_repositories": [
+      "SYSTRAN/faster-whisper",
+      "m-bain/whisperX",
+      "argosopentech/argos-translate",
+      "LibreTranslate/LibreTranslate",
+      "chidiwilliams/buzz",
+      "thecopybookhare-cmd/lingua-miner"
+    ],
+    "gitlab_instances": [],
+    "gitlab_projects_only": false,
+    "gitlab_explicit_projects": [],
+    "gitlab_extra_search_terms": [],
+    "max_pages": 0,
+    "max_gitlab_files": 0,
+    "max_file_bytes": 393216,
+    "include_forks": false,
+    "exhaustive": false
+  }
+}

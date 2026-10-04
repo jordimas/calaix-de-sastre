@@ -1,0 +1,14 @@
+{
+  "Chocobozzz/PeerTube": "PeerTube",
+  "subtitleedit/subtitleedit": "Subtitle Edit",
+  "NixOS/nixpkgs": "Nixpkgs (NixOS)",
+  "LibreOffice/core": "LibreOffice",
+  "languagetool-org/languagetool": "LanguageTool",
+  "alpinelinux/aports": "Alpine Linux",
+  "gentoo/gentoo": "Gentoo",
+  "microsoft/azurelinux": "Azure Linux",
+  "wooorm/dictionaries": "Dictionaries (wooorm)",
+  "overleaf/dictionaries": "Diccionaris d’Overleaf",
+  "gd-pub/lettera-ink": "Lettera Ink",
+  "fdroid/fdroiddata": "F-Droid"
+}

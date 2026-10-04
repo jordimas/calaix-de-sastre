@@ -1,0 +1,33 @@
+[
+  {
+    "id": "chromium-catalan-dictionary",
+    "kind": "gitiles_text",
+    "url": "https://chromium.googlesource.com/chromium/deps/hunspell_dictionaries/+/HEAD/README_ca_ES.txt?format=TEXT",
+    "encoding": "latin-1",
+    "dependency_url": "https://chromium.googlesource.com/chromium/src/+/HEAD/DEPS?format=TEXT",
+    "dependency_revision_pattern": "hunspell_dictionaries\\.git' \\+ '@' \\+ '([0-9a-f]{40})'",
+    "dependency_evidence_url": "https://chromium.googlesource.com/chromium/src/+/HEAD/DEPS",
+    "expected_terms": ["Softcatalà", "Catalan wordlist for MySpell version 0.1", "Copyright (C) 2002 Joan Moratinos"],
+    "project": "chromium/hunspell_dictionaries",
+    "project_url": "https://chromium.googlesource.com/chromium/deps/hunspell_dictionaries",
+    "resource": "catalan-dict-tools",
+    "path": "README_ca_ES.txt",
+    "evidence_url": "https://chromium.googlesource.com/chromium/deps/hunspell_dictionaries/+/HEAD/README_ca_ES.txt",
+    "source_version": "MySpell 0.1 (2002)",
+    "integration_context": "legacy_dictionary_copy",
+    "integration_note": "diccionari històric MySpell 0.1"
+  },
+  {
+    "id": "firefox-catalan-dictionary",
+    "kind": "mozilla_addon",
+    "url": "https://addons.mozilla.org/api/v5/addons/addon/general-catalan-dictionary/",
+    "author_contains": "Softcatal",
+    "project": "Mozilla/Firefox-Catalan-dictionary",
+    "project_url": "https://addons.mozilla.org/en-US/firefox/addon/general-catalan-dictionary/",
+    "resource": "catalan-dict-tools",
+    "path": "Mozilla Add-ons: general-catalan-dictionary",
+    "evidence_url": "https://addons.mozilla.org/en-US/firefox/addon/general-catalan-dictionary/",
+    "integration_context": "optional_dictionary_addon",
+    "integration_note": "diccionari català opcional"
+  }
+]

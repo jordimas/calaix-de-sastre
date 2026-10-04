@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="410" viewBox="0 0 1400 410">
+<rect width="100%" height="100%" fill="white"/>
+<text x="35" y="42" font-family="sans-serif" font-size="25">Reutilització documentada de Softcatalà</text>
+<rect x="35" y="65" width="310" height="42" rx="8" fill="#295c9c"/>
+<text x="50" y="92" fill="white" font-family="sans-serif" font-size="17">CTranslate2</text>
+<path d="M345 85 H390 V85 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/setup.py" target="_blank">
+<rect x="430" y="66" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="90" font-family="sans-serif" font-size="16">OpenNMT-py · GitHub</text></a>
+<path d="M345 85 H390 V130 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/OpenNMT/OpenNMT-tf/blob/6f3b952ebb973dec31250a806bf0f56ff730d0b5/setup.py" target="_blank">
+<rect x="430" y="111" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="135" font-family="sans-serif" font-size="16">OpenNMT-tf · GitHub</text></a>
+<path d="M345 85 H390 V175 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/collabora/WhisperLive/blob/99cbc1c33b35c372b4790975f819dfde62f3e74a/whisper_live/transcriber/transcriber_faster_whisper.py" target="_blank">
+<rect x="430" y="156" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="180" font-family="sans-serif" font-size="16">WhisperLive · GitHub</text></a>
+<path d="M345 85 H390 V220 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/jhj0517/Whisper-WebUI/blob/c3bb3b18e959826b28b1192486a8d5b361b6a4e0/modules/whisper/faster_whisper_inference.py" target="_blank">
+<rect x="430" y="201" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="225" font-family="sans-serif" font-size="16">Whisper-WebUI · GitHub</text></a>
+<path d="M345 85 H390 V265 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/whisper_s2t/backends/tensorrt/model.py" target="_blank">
+<rect x="430" y="246" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="270" font-family="sans-serif" font-size="16">WhisperS2T · GitHub</text></a>
+</svg>

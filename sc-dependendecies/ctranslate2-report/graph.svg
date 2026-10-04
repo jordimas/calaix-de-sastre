@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="410" viewBox="0 0 1400 410">
+<rect width="100%" height="100%" fill="white"/>
+<text x="35" y="42" font-family="sans-serif" font-size="25">Reutilització documentada de Softcatalà</text>
+<rect x="35" y="65" width="310" height="42" rx="8" fill="#295c9c"/>
+<text x="50" y="92" fill="white" font-family="sans-serif" font-size="17">CTranslate2</text>
+<path d="M345 85 H390 V85 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/SYSTRAN/faster-whisper/blob/7b99be5376b41cd481dfc52e8caa00a497c3294e/requirements.txt" target="_blank">
+<rect x="430" y="66" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="90" font-family="sans-serif" font-size="16">faster-whisper · GitHub</text></a>
+<path d="M345 85 H390 V130 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/argosopentech/argos-translate/blob/17ed1a9b055c5ba1b51d76b683bbb0c64e2a4a88/requirements.txt" target="_blank">
+<rect x="430" y="111" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="135" font-family="sans-serif" font-size="16">argos-translate · GitHub</text></a>
+<path d="M345 85 H390 V175 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/chidiwilliams/buzz/blob/100589fd8c492869f2994b525e1092eda81e4e88/pyproject.toml" target="_blank">
+<rect x="430" y="156" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="180" font-family="sans-serif" font-size="16">buzz · GitHub</text></a>
+<path d="M345 85 H390 V220 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/m-bain/whisperX/blob/771b4a14a9486f8fd5aef18ef49e35d639523dd3/whisperx/asr.py" target="_blank">
+<rect x="430" y="201" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="225" font-family="sans-serif" font-size="16">whisperX · GitHub</text></a>
+<path d="M345 85 H390 V265 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/pyproject.toml" target="_blank">
+<rect x="430" y="246" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="270" font-family="sans-serif" font-size="16">lingua-miner · GitHub</text></a>
+</svg>

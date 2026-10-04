@@ -1,0 +1,682 @@
+[
+  {
+    "name": "HF model: softcatala/translate-glg-cat",
+    "terms": [
+      "softcatala/translate-glg-cat",
+      "https://huggingface.co/softcatala/translate-glg-cat"
+    ],
+    "queries": [
+      "softcatala/translate-glg-cat"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-glg-cat",
+    "identifier": "softcatala/translate-glg-cat",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-cat-glg",
+    "terms": [
+      "softcatala/translate-cat-glg",
+      "https://huggingface.co/softcatala/translate-cat-glg"
+    ],
+    "queries": [
+      "softcatala/translate-cat-glg"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-cat-glg",
+    "identifier": "softcatala/translate-cat-glg",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-cat-fra",
+    "terms": [
+      "softcatala/translate-cat-fra",
+      "https://huggingface.co/softcatala/translate-cat-fra"
+    ],
+    "queries": [
+      "softcatala/translate-cat-fra"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-cat-fra",
+    "identifier": "softcatala/translate-cat-fra",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-fra-cat",
+    "terms": [
+      "softcatala/translate-fra-cat",
+      "https://huggingface.co/softcatala/translate-fra-cat"
+    ],
+    "queries": [
+      "softcatala/translate-fra-cat"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-fra-cat",
+    "identifier": "softcatala/translate-fra-cat",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-ita-cat",
+    "terms": [
+      "softcatala/translate-ita-cat",
+      "https://huggingface.co/softcatala/translate-ita-cat"
+    ],
+    "queries": [
+      "softcatala/translate-ita-cat"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-ita-cat",
+    "identifier": "softcatala/translate-ita-cat",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-cat-ita",
+    "terms": [
+      "softcatala/translate-cat-ita",
+      "https://huggingface.co/softcatala/translate-cat-ita"
+    ],
+    "queries": [
+      "softcatala/translate-cat-ita"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-cat-ita",
+    "identifier": "softcatala/translate-cat-ita",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-jpn-cat",
+    "terms": [
+      "softcatala/translate-jpn-cat",
+      "https://huggingface.co/softcatala/translate-jpn-cat"
+    ],
+    "queries": [
+      "softcatala/translate-jpn-cat"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-jpn-cat",
+    "identifier": "softcatala/translate-jpn-cat",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-oci-cat",
+    "terms": [
+      "softcatala/translate-oci-cat",
+      "https://huggingface.co/softcatala/translate-oci-cat"
+    ],
+    "queries": [
+      "softcatala/translate-oci-cat"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-oci-cat",
+    "identifier": "softcatala/translate-oci-cat",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-cat-oci",
+    "terms": [
+      "softcatala/translate-cat-oci",
+      "https://huggingface.co/softcatala/translate-cat-oci"
+    ],
+    "queries": [
+      "softcatala/translate-cat-oci"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-cat-oci",
+    "identifier": "softcatala/translate-cat-oci",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-cat-jpn",
+    "terms": [
+      "softcatala/translate-cat-jpn",
+      "https://huggingface.co/softcatala/translate-cat-jpn"
+    ],
+    "queries": [
+      "softcatala/translate-cat-jpn"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-cat-jpn",
+    "identifier": "softcatala/translate-cat-jpn",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-cat-nld",
+    "terms": [
+      "softcatala/translate-cat-nld",
+      "https://huggingface.co/softcatala/translate-cat-nld"
+    ],
+    "queries": [
+      "softcatala/translate-cat-nld"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-cat-nld",
+    "identifier": "softcatala/translate-cat-nld",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-nld-cat",
+    "terms": [
+      "softcatala/translate-nld-cat",
+      "https://huggingface.co/softcatala/translate-nld-cat"
+    ],
+    "queries": [
+      "softcatala/translate-nld-cat"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-nld-cat",
+    "identifier": "softcatala/translate-nld-cat",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-eus-cat",
+    "terms": [
+      "softcatala/translate-eus-cat",
+      "https://huggingface.co/softcatala/translate-eus-cat"
+    ],
+    "queries": [
+      "softcatala/translate-eus-cat"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-eus-cat",
+    "identifier": "softcatala/translate-eus-cat",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-cat-spa",
+    "terms": [
+      "softcatala/translate-cat-spa",
+      "https://huggingface.co/softcatala/translate-cat-spa"
+    ],
+    "queries": [
+      "softcatala/translate-cat-spa"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-cat-spa",
+    "identifier": "softcatala/translate-cat-spa",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-spa-cat",
+    "terms": [
+      "softcatala/translate-spa-cat",
+      "https://huggingface.co/softcatala/translate-spa-cat"
+    ],
+    "queries": [
+      "softcatala/translate-spa-cat"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-spa-cat",
+    "identifier": "softcatala/translate-spa-cat",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-cat-eus",
+    "terms": [
+      "softcatala/translate-cat-eus",
+      "https://huggingface.co/softcatala/translate-cat-eus"
+    ],
+    "queries": [
+      "softcatala/translate-cat-eus"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-cat-eus",
+    "identifier": "softcatala/translate-cat-eus",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-eng-cat",
+    "terms": [
+      "softcatala/translate-eng-cat",
+      "https://huggingface.co/softcatala/translate-eng-cat"
+    ],
+    "queries": [
+      "softcatala/translate-eng-cat"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-eng-cat",
+    "identifier": "softcatala/translate-eng-cat",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-cat-eng",
+    "terms": [
+      "softcatala/translate-cat-eng",
+      "https://huggingface.co/softcatala/translate-cat-eng"
+    ],
+    "queries": [
+      "softcatala/translate-cat-eng"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-cat-eng",
+    "identifier": "softcatala/translate-cat-eng",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-cat-deu",
+    "terms": [
+      "softcatala/translate-cat-deu",
+      "https://huggingface.co/softcatala/translate-cat-deu"
+    ],
+    "queries": [
+      "softcatala/translate-cat-deu"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-cat-deu",
+    "identifier": "softcatala/translate-cat-deu",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/translate-deu-cat",
+    "terms": [
+      "softcatala/translate-deu-cat",
+      "https://huggingface.co/softcatala/translate-deu-cat"
+    ],
+    "queries": [
+      "softcatala/translate-deu-cat"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/translate-deu-cat",
+    "identifier": "softcatala/translate-deu-cat",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/paraphrase-ca",
+    "terms": [
+      "softcatala/paraphrase-ca",
+      "https://huggingface.co/softcatala/paraphrase-ca"
+    ],
+    "queries": [
+      "softcatala/paraphrase-ca"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/paraphrase-ca",
+    "identifier": "softcatala/paraphrase-ca",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/whisper-base-ca",
+    "terms": [
+      "softcatala/whisper-base-ca",
+      "https://huggingface.co/softcatala/whisper-base-ca"
+    ],
+    "queries": [
+      "softcatala/whisper-base-ca"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/whisper-base-ca",
+    "identifier": "softcatala/whisper-base-ca",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/whisper-medium-ca",
+    "terms": [
+      "softcatala/whisper-medium-ca",
+      "https://huggingface.co/softcatala/whisper-medium-ca"
+    ],
+    "queries": [
+      "softcatala/whisper-medium-ca"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/whisper-medium-ca",
+    "identifier": "softcatala/whisper-medium-ca",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/whisper-small-ca",
+    "terms": [
+      "softcatala/whisper-small-ca",
+      "https://huggingface.co/softcatala/whisper-small-ca"
+    ],
+    "queries": [
+      "softcatala/whisper-small-ca"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/whisper-small-ca",
+    "identifier": "softcatala/whisper-small-ca",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/fullstop-catalan-punctuation-prediction",
+    "terms": [
+      "softcatala/fullstop-catalan-punctuation-prediction",
+      "https://huggingface.co/softcatala/fullstop-catalan-punctuation-prediction"
+    ],
+    "queries": [
+      "softcatala/fullstop-catalan-punctuation-prediction"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/fullstop-catalan-punctuation-prediction",
+    "identifier": "softcatala/fullstop-catalan-punctuation-prediction",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/wav2vec2-large-100k-voxpopuli-catala",
+    "terms": [
+      "softcatala/wav2vec2-large-100k-voxpopuli-catala",
+      "https://huggingface.co/softcatala/wav2vec2-large-100k-voxpopuli-catala"
+    ],
+    "queries": [
+      "softcatala/wav2vec2-large-100k-voxpopuli-catala"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/wav2vec2-large-100k-voxpopuli-catala",
+    "identifier": "softcatala/wav2vec2-large-100k-voxpopuli-catala",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/wav2vec2-large-xlsr-catala",
+    "terms": [
+      "softcatala/wav2vec2-large-xlsr-catala",
+      "https://huggingface.co/softcatala/wav2vec2-large-xlsr-catala"
+    ],
+    "queries": [
+      "softcatala/wav2vec2-large-xlsr-catala"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/wav2vec2-large-xlsr-catala",
+    "identifier": "softcatala/wav2vec2-large-xlsr-catala",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF model: softcatala/julibert",
+    "terms": [
+      "softcatala/julibert",
+      "https://huggingface.co/softcatala/julibert"
+    ],
+    "queries": [
+      "softcatala/julibert"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "model",
+    "source_url": "https://huggingface.co/softcatala/julibert",
+    "identifier": "softcatala/julibert",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/models",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF dataset: softcatala/mantinc-catalan-drift",
+    "terms": [
+      "softcatala/mantinc-catalan-drift",
+      "https://huggingface.co/datasets/softcatala/mantinc-catalan-drift"
+    ],
+    "queries": [
+      "softcatala/mantinc-catalan-drift"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "dataset",
+    "source_url": "https://huggingface.co/datasets/softcatala/mantinc-catalan-drift",
+    "identifier": "softcatala/mantinc-catalan-drift",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/datasets",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF dataset: softcatala/wikimedia-common-audio-catalan",
+    "terms": [
+      "softcatala/wikimedia-common-audio-catalan",
+      "https://huggingface.co/datasets/softcatala/wikimedia-common-audio-catalan"
+    ],
+    "queries": [
+      "softcatala/wikimedia-common-audio-catalan"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "dataset",
+    "source_url": "https://huggingface.co/datasets/softcatala/wikimedia-common-audio-catalan",
+    "identifier": "softcatala/wikimedia-common-audio-catalan",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/datasets",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF dataset: softcatala/catalan-dictionary",
+    "terms": [
+      "softcatala/catalan-dictionary",
+      "https://huggingface.co/datasets/softcatala/catalan-dictionary"
+    ],
+    "queries": [
+      "softcatala/catalan-dictionary"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "dataset",
+    "source_url": "https://huggingface.co/datasets/softcatala/catalan-dictionary",
+    "identifier": "softcatala/catalan-dictionary",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/datasets",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF dataset: softcatala/catalan-youtube-speech",
+    "terms": [
+      "softcatala/catalan-youtube-speech",
+      "https://huggingface.co/datasets/softcatala/catalan-youtube-speech"
+    ],
+    "queries": [
+      "softcatala/catalan-youtube-speech"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "dataset",
+    "source_url": "https://huggingface.co/datasets/softcatala/catalan-youtube-speech",
+    "identifier": "softcatala/catalan-youtube-speech",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/datasets",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF dataset: softcatala/ca_text_corpus",
+    "terms": [
+      "softcatala/ca_text_corpus",
+      "https://huggingface.co/datasets/softcatala/ca_text_corpus"
+    ],
+    "queries": [
+      "softcatala/ca_text_corpus"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "dataset",
+    "source_url": "https://huggingface.co/datasets/softcatala/ca_text_corpus",
+    "identifier": "softcatala/ca_text_corpus",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/datasets",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF dataset: softcatala/Softcatala-Web-Texts-Dataset",
+    "terms": [
+      "softcatala/Softcatala-Web-Texts-Dataset",
+      "https://huggingface.co/datasets/softcatala/Softcatala-Web-Texts-Dataset"
+    ],
+    "queries": [
+      "softcatala/Softcatala-Web-Texts-Dataset"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "dataset",
+    "source_url": "https://huggingface.co/datasets/softcatala/Softcatala-Web-Texts-Dataset",
+    "identifier": "softcatala/Softcatala-Web-Texts-Dataset",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/datasets",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF dataset: softcatala/Europarl-catalan",
+    "terms": [
+      "softcatala/Europarl-catalan",
+      "https://huggingface.co/datasets/softcatala/Europarl-catalan"
+    ],
+    "queries": [
+      "softcatala/Europarl-catalan"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "dataset",
+    "source_url": "https://huggingface.co/datasets/softcatala/Europarl-catalan",
+    "identifier": "softcatala/Europarl-catalan",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/datasets",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF dataset: softcatala/optimot-linguistic-data",
+    "terms": [
+      "softcatala/optimot-linguistic-data",
+      "https://huggingface.co/datasets/softcatala/optimot-linguistic-data"
+    ],
+    "queries": [
+      "softcatala/optimot-linguistic-data"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "dataset",
+    "source_url": "https://huggingface.co/datasets/softcatala/optimot-linguistic-data",
+    "identifier": "softcatala/optimot-linguistic-data",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/datasets",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF dataset: softcatala/Tilde-MODEL-Catalan",
+    "terms": [
+      "softcatala/Tilde-MODEL-Catalan",
+      "https://huggingface.co/datasets/softcatala/Tilde-MODEL-Catalan"
+    ],
+    "queries": [
+      "softcatala/Tilde-MODEL-Catalan"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "dataset",
+    "source_url": "https://huggingface.co/datasets/softcatala/Tilde-MODEL-Catalan",
+    "identifier": "softcatala/Tilde-MODEL-Catalan",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/datasets",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF dataset: softcatala/open-source-english-catalan-corpus",
+    "terms": [
+      "softcatala/open-source-english-catalan-corpus",
+      "https://huggingface.co/datasets/softcatala/open-source-english-catalan-corpus"
+    ],
+    "queries": [
+      "softcatala/open-source-english-catalan-corpus"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "dataset",
+    "source_url": "https://huggingface.co/datasets/softcatala/open-source-english-catalan-corpus",
+    "identifier": "softcatala/open-source-english-catalan-corpus",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/datasets",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF space: softcatala/README",
+    "terms": [
+      "softcatala/README",
+      "https://huggingface.co/spaces/softcatala/README"
+    ],
+    "queries": [
+      "softcatala/README"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "space",
+    "source_url": "https://huggingface.co/spaces/softcatala/README",
+    "identifier": "softcatala/README",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/spaces",
+    "discovery_exhaustive": false
+  },
+  {
+    "name": "HF space: softcatala/comparativa-tts-catala",
+    "terms": [
+      "softcatala/comparativa-tts-catala",
+      "https://huggingface.co/spaces/softcatala/comparativa-tts-catala"
+    ],
+    "queries": [
+      "softcatala/comparativa-tts-catala"
+    ],
+    "source_platform": "Hugging Face",
+    "source_kind": "space",
+    "source_url": "https://huggingface.co/spaces/softcatala/comparativa-tts-catala",
+    "identifier": "softcatala/comparativa-tts-catala",
+    "discovery_status": "reviewed_web_snapshot_api_unavailable",
+    "discovery_source": "https://huggingface.co/softcatala/spaces",
+    "discovery_exhaustive": false
+  }
+]

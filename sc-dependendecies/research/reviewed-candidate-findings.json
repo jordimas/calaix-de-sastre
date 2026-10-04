@@ -1,0 +1,416 @@
+[
+  {
+    "platform": "GitHub",
+    "project": "major/fedora-rpm-specs",
+    "project_url": "https://github.com/major/fedora-rpm-specs",
+    "resource": "catalan-dict-tools",
+    "status": "excluded",
+    "type": "reviewed_nonuse",
+    "path": "specs/hunspell-ca.spec",
+    "evidence_url": "https://github.com/major/fedora-rpm-specs/blob/d08cd369171441400c9b08cbeb012ef5bc6a5549/specs/hunspell-ca.spec",
+    "hits": [
+      {
+        "line": 11,
+        "text": "Source: https://github.com/Softcatala/catalan-dict-tools/releases/download/v%{version}/ca.%{version}-hunspell.zip"
+      }
+    ],
+    "fork": false,
+    "stars": 1,
+    "project_name": "fedora-rpm-specs",
+    "manually_reviewed": true,
+    "review_reason": "Còpia de receptes de Fedora per analitzar-ne canvis; el producte és Fedora."
+  },
+  {
+    "platform": "GitHub",
+    "project": "praiskup/fedora-sources-statistics",
+    "project_url": "https://github.com/praiskup/fedora-sources-statistics",
+    "resource": "catalan-dict-tools",
+    "status": "excluded",
+    "type": "reviewed_nonuse",
+    "path": "rpm-specs/hunspell-ca.spec",
+    "evidence_url": "https://github.com/praiskup/fedora-sources-statistics/blob/a50ff2251ad6587e8898465fe7fbed3f9d38e9a3/rpm-specs/hunspell-ca.spec",
+    "hits": [
+      {
+        "line": 11,
+        "text": "Source: https://github.com/Softcatala/catalan-dict-tools/releases/download/v%{version}/ca.%{version}-hunspell.zip"
+      }
+    ],
+    "fork": false,
+    "stars": 1,
+    "project_name": "fedora-sources-statistics",
+    "manually_reviewed": true,
+    "review_reason": "Receptes de Fedora copiades per fer estadístiques; no és una integració pròpia."
+  },
+  {
+    "platform": "GitHub",
+    "project": "xezpeleta/itzune-models",
+    "project_url": "https://github.com/xezpeleta/itzune-models",
+    "resource": "nmt-softcatala",
+    "status": "confirmed",
+    "type": "installation",
+    "path": "languages/master-language/bleu.sh",
+    "evidence_url": "https://github.com/xezpeleta/itzune-models/blob/2c9f1f7db95fbaca030e169ef625a48c2bfbeafd/languages/master-language/bleu.sh",
+    "hits": [
+      {
+        "line": 9,
+        "text": "pip3 install git+https://github.com/Softcatala/nmt-softcatala#subdirectory=use-models-tools"
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "project_name": "itzune-models",
+    "manually_reviewed": true,
+    "integration_note": "eines d’avaluació i scripts adaptats al basc"
+  },
+  {
+    "platform": "GitHub",
+    "project": "Polealpha/XINNIAN_PI",
+    "project_url": "https://github.com/Polealpha/XINNIAN_PI",
+    "resource": "open-dubbing",
+    "status": "excluded",
+    "type": "reviewed_nonuse",
+    "path": "app windows/vendor/python-site-packages/faster_whisper-1.2.1.dist-info/METADATA",
+    "evidence_url": "https://github.com/Polealpha/XINNIAN_PI/blob/17fffe037145a8ce15f727e3759097ca2434b025/app windows/vendor/python-site-packages/faster_whisper-1.2.1.dist-info/METADATA",
+    "hits": [
+      {
+        "line": 288,
+        "text": "* [Open-dubbing](https://github.com/softcatala/open-dubbing) is open dubbing is an AI dubbing system which uses machine learning models to automatically translate and synchronize audio dialogue into different languages."
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "project_name": "XINNIAN_PI",
+    "manually_reviewed": true,
+    "review_reason": "Menció dins del README de faster-whisper incrustat a METADATA; no és una dependència d’open-dubbing."
+  },
+  {
+    "platform": "GitHub",
+    "project": "fscholze/uploader-recny-model-server",
+    "project_url": "https://github.com/fscholze/uploader-recny-model-server",
+    "resource": "open-dubbing",
+    "status": "confirmed",
+    "type": "installation",
+    "path": "docker/Dockerfile.dubbing",
+    "evidence_url": "https://github.com/fscholze/uploader-recny-model-server/blob/18ecbff18111d57c8085193e65a518783eb9128a/docker/Dockerfile.dubbing",
+    "hits": [
+      {
+        "line": 21,
+        "text": "RUN git clone https://github.com/ZalozbaDev/open-dubbing"
+      },
+      {
+        "line": 22,
+        "text": "RUN cd open-dubbing && python3 -m venv ."
+      },
+      {
+        "line": 23,
+        "text": "COPY docker/requirements_dubbing.txt open-dubbing/"
+      },
+      {
+        "line": 24,
+        "text": "RUN cd open-dubbing && /bin/bash -c 'source bin/activate && pip install -r requirements_dubbing.txt'"
+      },
+      {
+        "line": 25,
+        "text": "RUN cd open-dubbing && /bin/bash -c 'source bin/activate && pip install .'"
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "project_name": "uploader-recny-model-server",
+    "manually_reviewed": true,
+    "integration_note": "instal·la una variant d’open-dubbing al servidor"
+  },
+  {
+    "platform": "GitHub",
+    "project": "houseofsuns/pypi",
+    "project_url": "https://github.com/houseofsuns/pypi",
+    "resource": "open-dubbing",
+    "status": "excluded",
+    "type": "reviewed_nonuse",
+    "path": "dev-python/open-dubbing/Manifest",
+    "evidence_url": "https://github.com/houseofsuns/pypi/blob/c2e5b191050992d87fe644c6023cb7cf2fd13159/dev-python/open-dubbing/Manifest",
+    "hits": [
+      {
+        "line": 1,
+        "text": "DIST open_dubbing-0.2.3.tar.gz 60284 BLAKE2B 235ba2fd9893f049afd1f138051a1f9a1b65d6ee1f2915b54edf95a98582999ada0e1a98ef913cca010dc8d4f4e715aca80b7bc20fe7f8f6ef5ef7313da07d74 SHA512 851f59e1bd129688573d1d1d2a77371a53e6683e877607150d0c783adf0760c48f2424a12e26d931540c8cde9c7eae371fab7e40fd3990395a3ee387924f6e21"
+      },
+      {
+        "line": 2,
+        "text": "EBUILD open-dubbing-0.2.3.ebuild 1624 BLAKE2B 56b678dfd316b10a4c7a3ff5ae31670997dab2d04b44a1641339337563c17b2f93cb23d31929798930ce9b6f53fda2e8614aeefe0f64763d6d111134693b726f SHA512 e3cabb8be7b1d3b3c1c8c54d133b722af8216ed25c5ca0407750cc2910f6d9e12e8f0437009c8375dbc802dacd0fb3b081dd58bd2a4606097bdf9be88f49811a"
+      }
+    ],
+    "fork": false,
+    "stars": 7,
+    "project_name": "pypi",
+    "manually_reviewed": true,
+    "review_reason": "Catàleg automàtic que replica paquets de PyPI; no es compta com a producte independent."
+  },
+  {
+    "platform": "GitHub",
+    "project": "houseofsuns/pypi",
+    "project_url": "https://github.com/houseofsuns/pypi",
+    "resource": "open-dubbing",
+    "status": "excluded",
+    "type": "reviewed_nonuse",
+    "path": "dev-python/open-dubbing/open-dubbing-0.2.3.ebuild",
+    "evidence_url": "https://github.com/houseofsuns/pypi/blob/c2e5b191050992d87fe644c6023cb7cf2fd13159/dev-python/open-dubbing/open-dubbing-0.2.3.ebuild",
+    "hits": [
+      {
+        "line": 17,
+        "text": "HOMEPAGE=\"https://github.com/Softcatala/open-dubbing\""
+      }
+    ],
+    "fork": false,
+    "stars": 7,
+    "project_name": "pypi",
+    "manually_reviewed": true,
+    "review_reason": "Catàleg automàtic que replica paquets de PyPI; no es compta com a producte independent."
+  },
+  {
+    "platform": "GitHub",
+    "project": "houseofsuns/pypi",
+    "project_url": "https://github.com/houseofsuns/pypi",
+    "resource": "open-dubbing",
+    "status": "excluded",
+    "type": "reviewed_nonuse",
+    "path": "metadata/md5-cache/dev-python/open-dubbing-0.2.3",
+    "evidence_url": "https://github.com/houseofsuns/pypi/blob/c2e5b191050992d87fe644c6023cb7cf2fd13159/metadata/md5-cache/dev-python/open-dubbing-0.2.3",
+    "hits": [
+      {
+        "line": 5,
+        "text": "HOMEPAGE=https://github.com/Softcatala/open-dubbing"
+      },
+      {
+        "line": 14,
+        "text": "SRC_URI=https://files.pythonhosted.org/packages/source/o/open-dubbing/open_dubbing-0.2.3.tar.gz"
+      }
+    ],
+    "fork": false,
+    "stars": 7,
+    "project_name": "pypi",
+    "manually_reviewed": true,
+    "review_reason": "Catàleg automàtic que replica paquets de PyPI; no es compta com a producte independent."
+  },
+  {
+    "platform": "GitHub",
+    "project": "kdix-23-240/Eiinmado",
+    "project_url": "https://github.com/kdix-23-240/Eiinmado",
+    "resource": "open-dubbing",
+    "status": "excluded",
+    "type": "reviewed_nonuse",
+    "path": "External/TechSeeker/.venv/Lib/site-packages/faster_whisper-1.2.0.dist-info/METADATA",
+    "evidence_url": "https://github.com/kdix-23-240/Eiinmado/blob/a2f6588f70218383c337fd1a44f3e201c6f20c31/External/TechSeeker/.venv/Lib/site-packages/faster_whisper-1.2.0.dist-info/METADATA",
+    "hits": [
+      {
+        "line": 288,
+        "text": "* [Open-dubbing](https://github.com/softcatala/open-dubbing) is open dubbing is an AI dubbing system which uses machine learning models to automatically translate and synchronize audio dialogue into different languages."
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "project_name": "Eiinmado",
+    "manually_reviewed": true,
+    "review_reason": "Menció dins de les metadades de faster-whisper; no prova ús d’open-dubbing."
+  },
+  {
+    "platform": "GitHub",
+    "project": "kotet/opendubbing-docker",
+    "project_url": "https://github.com/kotet/opendubbing-docker",
+    "resource": "open-dubbing",
+    "status": "confirmed",
+    "type": "dependency",
+    "path": "pyproject.toml",
+    "evidence_url": "https://github.com/kotet/opendubbing-docker/blob/b68d986afb5c59b86cc068dd1bc36f109c916d8e/pyproject.toml",
+    "hits": [
+      {
+        "line": 8,
+        "text": "\"open-dubbing[coqui]>=0.2.3\","
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "project_name": "opendubbing-docker",
+    "manually_reviewed": true,
+    "integration_note": "entorn Docker de doblatge anglès-japonès"
+  },
+  {
+    "platform": "GitHub",
+    "project": "meherubahasin/dubbing_project",
+    "project_url": "https://github.com/meherubahasin/dubbing_project",
+    "resource": "open-dubbing",
+    "status": "confirmed",
+    "type": "dependency",
+    "path": "requirements.txt",
+    "evidence_url": "https://github.com/meherubahasin/dubbing_project/blob/fd850859f23750b22b71f763a3e3c74640c07e45/requirements.txt",
+    "hits": [
+      {
+        "line": 11,
+        "text": "open-dubbing>=0.1.0"
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "project_name": "dubbing_project",
+    "manually_reviewed": true,
+    "integration_note": "open-dubbing com a alternativa al flux propi"
+  },
+  {
+    "platform": "GitHub",
+    "project": "meherubahasin/dubbing_project",
+    "project_url": "https://github.com/meherubahasin/dubbing_project",
+    "resource": "open-dubbing",
+    "status": "confirmed",
+    "type": "installation",
+    "path": "src/dubbing/open_dubber.py",
+    "evidence_url": "https://github.com/meherubahasin/dubbing_project/blob/fd850859f23750b22b71f763a3e3c74640c07e45/src/dubbing/open_dubber.py",
+    "hits": [
+      {
+        "line": 4,
+        "text": "def run_open_dubbing(video_path: str, target_language: str, hf_token: str):"
+      },
+      {
+        "line": 6,
+        "text": "Executes the open-dubbing CLI command for fully automated dubbing."
+      },
+      {
+        "line": 18,
+        "text": "'open-dubbing',"
+      },
+      {
+        "line": 37,
+        "text": "print(\"\\nError: open-dubbing command not found. Ensure the library is installed (`pip install open-dubbing`).\")"
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "project_name": "dubbing_project",
+    "manually_reviewed": true,
+    "integration_note": "open-dubbing com a alternativa al flux propi"
+  },
+  {
+    "platform": "GitHub",
+    "project": "altlinux/specs",
+    "project_url": "https://github.com/altlinux/specs",
+    "resource": "sinonims-cat",
+    "status": "confirmed",
+    "type": "distribution",
+    "path": "m/mythes-ca/mythes-ca.spec",
+    "evidence_url": "https://github.com/altlinux/specs/blob/06e48fd9ce0732df35f7c42bd099d6bd5bdb9fdf/m/mythes-ca/mythes-ca.spec",
+    "hits": [
+      {
+        "line": 11,
+        "text": "Source: https://github.com/Softcatala/sinonims-cat/releases/latest/download/thesaurus-ca.oxt"
+      }
+    ],
+    "fork": false,
+    "stars": 47,
+    "project_name": "specs",
+    "manually_reviewed": true,
+    "integration_note": "empaqueta el tesaurus català · mythes-ca"
+  },
+  {
+    "platform": "GitHub",
+    "project": "major/fedora-rpm-specs",
+    "project_url": "https://github.com/major/fedora-rpm-specs",
+    "resource": "sinonims-cat",
+    "status": "excluded",
+    "type": "reviewed_nonuse",
+    "path": "specs/mythes-ca.spec",
+    "evidence_url": "https://github.com/major/fedora-rpm-specs/blob/d08cd369171441400c9b08cbeb012ef5bc6a5549/specs/mythes-ca.spec",
+    "hits": [
+      {
+        "line": 5,
+        "text": "Source: https://github.com/Softcatala/sinonims-cat/releases/latest/download/thesaurus-ca.oxt"
+      }
+    ],
+    "fork": false,
+    "stars": 1,
+    "project_name": "fedora-rpm-specs",
+    "manually_reviewed": true,
+    "review_reason": "Còpia de receptes de Fedora per analitzar-ne canvis; el producte és Fedora."
+  },
+  {
+    "platform": "GitHub",
+    "project": "praiskup/fedora-sources-statistics",
+    "project_url": "https://github.com/praiskup/fedora-sources-statistics",
+    "resource": "sinonims-cat",
+    "status": "excluded",
+    "type": "reviewed_nonuse",
+    "path": "rpm-specs/mythes-ca.spec",
+    "evidence_url": "https://github.com/praiskup/fedora-sources-statistics/blob/a50ff2251ad6587e8898465fe7fbed3f9d38e9a3/rpm-specs/mythes-ca.spec",
+    "hits": [
+      {
+        "line": 5,
+        "text": "Source: https://github.com/Softcatala/sinonims-cat/releases/latest/download/thesaurus-ca.oxt"
+      }
+    ],
+    "fork": false,
+    "stars": 1,
+    "project_name": "fedora-sources-statistics",
+    "manually_reviewed": true,
+    "review_reason": "Receptes de Fedora copiades per fer estadístiques; no és una integració pròpia."
+  },
+  {
+    "platform": "GitHub",
+    "project": "Polealpha/XINNIAN_PI",
+    "project_url": "https://github.com/Polealpha/XINNIAN_PI",
+    "resource": "whisper-ctranslate2",
+    "status": "excluded",
+    "type": "reviewed_nonuse",
+    "path": "app windows/vendor/python-site-packages/faster_whisper-1.2.1.dist-info/METADATA",
+    "evidence_url": "https://github.com/Polealpha/XINNIAN_PI/blob/17fffe037145a8ce15f727e3759097ca2434b025/app windows/vendor/python-site-packages/faster_whisper-1.2.1.dist-info/METADATA",
+    "hits": [
+      {
+        "line": 278,
+        "text": "* [whisper-ctranslate2](https://github.com/Softcatala/whisper-ctranslate2) is a command line client based on faster-whisper and compatible with the original client from openai/whisper."
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "project_name": "XINNIAN_PI",
+    "manually_reviewed": true,
+    "review_reason": "Menció dins del README de faster-whisper incrustat a METADATA; no és una dependència d’open-dubbing."
+  },
+  {
+    "platform": "GitHub",
+    "project": "kdix-23-240/Eiinmado",
+    "project_url": "https://github.com/kdix-23-240/Eiinmado",
+    "resource": "whisper-ctranslate2",
+    "status": "excluded",
+    "type": "reviewed_nonuse",
+    "path": "External/TechSeeker/.venv/Lib/site-packages/faster_whisper-1.2.0.dist-info/METADATA",
+    "evidence_url": "https://github.com/kdix-23-240/Eiinmado/blob/a2f6588f70218383c337fd1a44f3e201c6f20c31/External/TechSeeker/.venv/Lib/site-packages/faster_whisper-1.2.0.dist-info/METADATA",
+    "hits": [
+      {
+        "line": 278,
+        "text": "* [whisper-ctranslate2](https://github.com/Softcatala/whisper-ctranslate2) is a command line client based on faster-whisper and compatible with the original client from openai/whisper."
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "project_name": "Eiinmado",
+    "manually_reviewed": true,
+    "review_reason": "Menció dins de les metadades de faster-whisper; no prova ús d’open-dubbing."
+  },
+  {
+    "platform": "Fedora",
+    "project": "Fedora/mythes-ca",
+    "project_name": "Fedora",
+    "project_url": "https://src.fedoraproject.org/rpms/mythes-ca",
+    "resource": "sinonims-cat",
+    "status": "confirmed",
+    "type": "distribution",
+    "path": "rawhide/mythes-ca.spec",
+    "evidence_url": "https://src.fedoraproject.org/rpms/mythes-ca/raw/rawhide/f/mythes-ca.spec",
+    "hits": [
+      {
+        "line": 5,
+        "text": "Source: https://github.com/Softcatala/sinonims-cat/releases/latest/download/thesaurus-ca.oxt"
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "integration_note": "empaqueta el tesaurus català · mythes-ca 2.3.1",
+    "manually_reviewed": true
+  }
+]

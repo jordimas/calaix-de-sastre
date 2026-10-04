@@ -1,0 +1,108 @@
+[
+  {
+    "id": "firefox",
+    "name": "Firefox",
+    "organization": "Mozilla",
+    "url": "https://www.firefox.com/",
+    "kind": "application",
+    "packages": [
+      "firefox-esr-l10n-ca"
+    ],
+    "reviewed": true,
+    "allowed_targets": [
+      "hunspell-ca",
+      "aspell-ca",
+      "icatalan",
+      "wcatalan",
+      "myspell-ca"
+    ]
+  },
+  {
+    "id": "thunderbird",
+    "name": "Thunderbird",
+    "organization": "Mozilla",
+    "url": "https://www.thunderbird.net/",
+    "kind": "application",
+    "packages": [
+      "thunderbird-l10n-ca"
+    ],
+    "reviewed": true,
+    "allowed_targets": [
+      "hunspell-ca",
+      "aspell-ca",
+      "icatalan",
+      "wcatalan",
+      "myspell-ca"
+    ]
+  },
+  {
+    "id": "libreoffice",
+    "name": "LibreOffice",
+    "organization": "The Document Foundation",
+    "url": "https://www.libreoffice.org/",
+    "kind": "application",
+    "packages": [
+      "libreoffice-l10n-ca"
+    ],
+    "reviewed": true,
+    "allowed_targets": [
+      "mythes-ca"
+    ]
+  },
+  {
+    "id": "lomiri-keyboard",
+    "name": "Lomiri Keyboard",
+    "organization": "UBports",
+    "url": "https://gitlab.com/ubports/development/core/lomiri-keyboard",
+    "kind": "application",
+    "packages": [
+      "lomiri-keyboard-catalan"
+    ],
+    "reviewed": true,
+    "allowed_targets": [
+      "hunspell-ca",
+      "aspell-ca",
+      "icatalan",
+      "wcatalan",
+      "myspell-ca"
+    ]
+  },
+  {
+    "id": "privacy-browser",
+    "name": "Privacy Browser",
+    "organization": "Stoutner",
+    "url": "https://www.stoutner.com/privacy-browser-pc/",
+    "kind": "application",
+    "packages": [
+      "privacybrowser"
+    ],
+    "reviewed": true,
+    "allowed_targets": [
+      "hunspell-ca",
+      "aspell-ca",
+      "icatalan",
+      "wcatalan",
+      "myspell-ca"
+    ]
+  },
+  {
+    "id": "debian",
+    "name": "Debian · grups de paquets",
+    "organization": "Debian",
+    "url": "https://www.debian.org/",
+    "kind": "distribution",
+    "packages": [
+      "forensics-extra",
+      "task-catalan",
+      "task-catalan-desktop"
+    ],
+    "reviewed": true,
+    "allowed_targets": [
+      "hunspell-ca",
+      "aspell-ca",
+      "icatalan",
+      "wcatalan",
+      "myspell-ca"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "candidate": "Debian",
+    "resource_family": "Diccionaris de Softcatalà",
+    "aliases": ["softcatala-spell", "ispellcat", "aspell-ca", "icatalan", "wcatalan"],
+    "sources": ["https://packages.debian.org/bookworm/source/softcatala-spell", "https://salsa.debian.org/debian/softcatala-spell"],
+    "evidence_kind": "source package and generated binary packages",
+    "next_check": "Read source copyright and packaging manifests; record supported suites and version",
+    "status": "candidate_not_added_to_graph"
+  },
+  {
+    "candidate": "LibreOffice",
+    "resource_family": "Diccionaris, sinònims i partició de mots",
+    "aliases": ["catalan.oxt", "ca_ES.aff", "ca_ES.dic", "hyph_ca.dic", "th_ca_ES"],
+    "sources": ["https://www.softcatala.org/projectes/libreoffice/", "https://www.softcatala.org/projectes/corrector-ortografic/seguiment-en-tercers/"],
+    "evidence_kind": "maintainer tracking and dictionary distribution",
+    "next_check": "Verify current upstream dictionaries repository and installation conditions; distinguish bundled files from extensions",
+    "status": "candidate_not_added_to_graph"
+  },
+  {
+    "candidate": "Apache OpenOffice",
+    "resource_family": "Diccionaris, sinònims i partició de mots",
+    "aliases": ["catalan.oxt", "Catalan dictionary pack"],
+    "sources": ["https://extensions.openoffice.org/en/project/catalan-dictionary-pack-spell-checker-hyphenation-patterns-and-thesaurus.html"],
+    "evidence_kind": "official extension registry",
+    "next_check": "Check provider attribution, current package and compatibility; classify as optional extension",
+    "status": "candidate_not_added_to_graph"
+  },
+  {
+    "candidate": "openEuler",
+    "resource_family": "Diccionari ortogràfic",
+    "aliases": ["hunspell-ca", "ca_ES.aff", "ca_ES.dic"],
+    "sources": ["https://gitee.com/src-openeuler/hunspell-ca/blob/master/hunspell-ca.spec"],
+    "evidence_kind": "packaging specification with Softcatala release URL",
+    "next_check": "Pin current specification and verify shipped distribution package; add a Gitee/raw-text source adapter",
+    "status": "candidate_not_added_to_graph"
+  },
+  {
+    "candidate": "Cisco Crosswork Data Gateway",
+    "resource_family": "Diccionaris de Softcatalà",
+    "aliases": ["softcatala-spell"],
+    "sources": ["https://www.cisco.com/c/dam/en_us/about/doing_business/open_source/docs/CrossworkDataGateway-701-1732533360.pdf"],
+    "evidence_kind": "vendor notice of third-party software",
+    "next_check": "Inspect the component section and its attribution; record the exact product release and distinguish inclusion from runtime use",
+    "status": "candidate_not_added_to_graph"
+  }
+]

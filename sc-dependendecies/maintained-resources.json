@@ -1,0 +1,16 @@
+[
+  {
+    "name": "CTranslate2",
+    "terms": [
+      "ctranslate2",
+      "OpenNMT/CTranslate2"
+    ],
+    "queries": [
+      "ctranslate2"
+    ],
+    "source_platform": "GitHub",
+    "source_url": "https://github.com/OpenNMT/CTranslate2",
+    "maintenance_relationship": "manteniment de Softcatalà indicat per l’usuari",
+    "ownership_scope": "externally hosted maintained resource"
+  }
+]

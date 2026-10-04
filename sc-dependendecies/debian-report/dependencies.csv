@@ -1,0 +1,13 @@
+binary_package,source_package,version,homepage,target_package,field,relation_kind,expression
+firefox-esr-l10n-ca,firefox-esr,140.15.0esr-1~deb13u1,,hunspell-ca,Recommends,recommended,hunspell-ca
+forensics-extra,forensics-extra,2.58,,wcatalan,Depends,mandatory,wcatalan
+libreoffice-l10n-ca,libreoffice,4:25.2.3-2+deb13u6,http://www.libreoffice.org,hyphen-ca,Suggests,alternative,hyphen-ca | libreoffice-hyphenation-ca
+libreoffice-l10n-ca,libreoffice,4:25.2.3-2+deb13u6,http://www.libreoffice.org,mythes-ca,Suggests,suggested,mythes-ca
+lomiri-keyboard-catalan,lomiri-keyboard,1.0.3-1,https://gitlab.com/ubports/development/core/lomiri-keyboard,hunspell-ca,Depends,mandatory,hunspell-ca
+privacybrowser,privacybrowser,0.8-1,https://www.stoutner.com/privacy-browser-pc/,hunspell-ca,Suggests,suggested,hunspell-ca
+task-catalan,tasksel,3.81,,aspell-ca,Recommends,recommended,aspell-ca
+task-catalan,tasksel,3.81,,icatalan,Recommends,recommended,icatalan
+task-catalan,tasksel,3.81,,wcatalan,Recommends,recommended,wcatalan
+task-catalan-desktop,tasksel,3.81,,hunspell-ca,Recommends,recommended,hunspell-ca
+thunderbird-l10n-ca,thunderbird,1:140.12.0esr-1~deb13u1,https://wiki.mozilla.org/L10n:Teams:ca,hunspell-ca,Recommends,alternative,hunspell-ca | myspell-ca
+thunderbird-l10n-ca,thunderbird,1:140.12.0esr-1~deb13u1,https://wiki.mozilla.org/L10n:Teams:ca,myspell-ca,Recommends,alternative,hunspell-ca | myspell-ca

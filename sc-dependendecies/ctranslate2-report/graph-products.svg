@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="2420" viewBox="0 0 2200 2420" role="img" aria-labelledby="title description">
+<title id="title">Reutilització de Softcatalà · arbre estàtic</title>
+<desc id="description">Softcatalà al centre, recursos com a branques, organitzacions i projectes com a fulles. Només ús o integració amb evidència; sense forks.</desc>
+<defs><radialGradient id="bg"><stop stop-color="#14283b"/><stop offset="1" stop-color="#060c14"/></radialGradient><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<rect width="100%" height="100%" fill="url(#bg)"/>
+<g fill="#dce9f8" font-family="sans-serif">
+<text x="64" y="72" font-size="42" font-weight="700">Softcatalà · un ecosistema compartit</text>
+<text x="66" y="115" font-size="21" fill="#91a6bf">0 productes amb identitat revisada · 0 recursos · 0 connexions amb evidència d’ús o integració · sense forks</text>
+<text x="66" y="151" font-size="17" fill="#91a6bf">2026-10-04 16:32:38 UTC</text></g>
+<circle cx="1100.0" cy="1220.0" r="83" fill="#ffcb70" opacity="0.15" filter="url(#glow)"/>
+<circle cx="1100.0" cy="1220.0" r="78" fill="#122031" stroke="#ffd17b" stroke-width="2"/>
+<text x="1100.0" y="1228.0" text-anchor="middle" font-family="sans-serif" font-size="27" font-weight="700" fill="#ffe1a2">Softcatalà</text>
+<text x="64" y="2352" font-family="sans-serif" font-size="18" fill="#91a6bf">Centre: Softcatalà · branques: recursos · nodes intermedis: organitzacions · fulles: projectes</text>
+<text x="64" y="2384" font-family="sans-serif" font-size="16" fill="#91a6bf">Cada projecte enllaça a una evidència. Les connexions no estimen usuaris ni proven ús en producció.</text>
+</svg>

@@ -1,0 +1,522 @@
+[
+  {
+    "id": "chromium",
+    "name": "Chromium",
+    "organization": "Chromium",
+    "kind": "application",
+    "url": "https://www.chromium.org/",
+    "identity_source": "https://chromium.googlesource.com/chromium/deps/hunspell_dictionaries/+/HEAD/README_ca_ES.txt",
+    "reviewed": true,
+    "repositories": [
+      "https://chromium.googlesource.com/chromium/deps/hunspell_dictionaries"
+    ]
+  },
+  {
+    "id": "firefox",
+    "name": "Firefox",
+    "organization": "Mozilla",
+    "kind": "application",
+    "url": "https://www.firefox.com/",
+    "identity_source": "https://addons.mozilla.org/en-US/firefox/addon/general-catalan-dictionary/",
+    "reviewed": true,
+    "repositories": [
+      "https://addons.mozilla.org/en-US/firefox/addon/general-catalan-dictionary/",
+      "https://packages.debian.org/stable/firefox-esr-l10n-ca"
+    ]
+  },
+  {
+    "id": "peertube",
+    "name": "PeerTube",
+    "organization": "Framasoft",
+    "kind": "application",
+    "url": "https://joinpeertube.org/",
+    "identity_source": "https://github.com/Chocobozzz/PeerTube",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/Chocobozzz/PeerTube"
+    ]
+  },
+  {
+    "id": "languagetool",
+    "name": "LanguageTool",
+    "organization": "LanguageTool",
+    "kind": "application",
+    "url": "https://languagetool.org/",
+    "identity_source": "https://github.com/languagetool-org/languagetool",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/languagetool-org/languagetool"
+    ]
+  },
+  {
+    "id": "nixos",
+    "name": "NixOS / Nixpkgs",
+    "organization": "NixOS",
+    "kind": "distribution",
+    "url": "https://github.com/NixOS/nixpkgs",
+    "identity_source": "https://github.com/NixOS/nixpkgs",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/NixOS/nixpkgs"
+    ]
+  },
+  {
+    "id": "alpine-linux",
+    "name": "Alpine Linux",
+    "organization": "Alpine Linux",
+    "kind": "distribution",
+    "url": "https://gitlab.alpinelinux.org/alpine/aports",
+    "identity_source": "https://github.com/alpinelinux/aports",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/alpinelinux/aports",
+      "https://gitlab.alpinelinux.org/alpine/aports"
+    ]
+  },
+  {
+    "id": "azure-linux",
+    "name": "Azure Linux",
+    "organization": "Microsoft",
+    "kind": "distribution",
+    "url": "https://github.com/microsoft/azurelinux",
+    "identity_source": "https://github.com/microsoft/azurelinux",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/microsoft/azurelinux"
+    ]
+  },
+  {
+    "id": "shutter-encoder",
+    "name": "Shutter Encoder",
+    "organization": "Shutter Encoder",
+    "kind": "application",
+    "url": "https://www.shutterencoder.com",
+    "identity_source": "https://github.com/paulpacifico/shutter-encoder",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/paulpacifico/shutter-encoder"
+    ]
+  },
+  {
+    "id": "claricat",
+    "name": "ClariCat",
+    "organization": "ClariCat",
+    "kind": "application",
+    "url": "https://github.com/juliarscat/ClariCat",
+    "identity_source": "https://github.com/juliarscat/ClariCat",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/juliarscat/ClariCat"
+    ]
+  },
+  {
+    "id": "anytran",
+    "name": "anytran",
+    "organization": "otherroch",
+    "kind": "application",
+    "url": "https://github.com/otherroch/anytran",
+    "identity_source": "https://github.com/otherroch/anytran",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/otherroch/anytran"
+    ]
+  },
+  {
+    "id": "murmur",
+    "name": "Murmur",
+    "organization": "xiaopengde",
+    "kind": "application",
+    "url": "https://github.com/xiaopengde/murmur",
+    "identity_source": "https://github.com/xiaopengde/murmur",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/xiaopengde/murmur"
+    ]
+  },
+  {
+    "id": "medialibrarian",
+    "name": "MediaLibrarian",
+    "organization": "pickae",
+    "kind": "application",
+    "url": "https://github.com/pickae/medialibrarian",
+    "identity_source": "https://github.com/pickae/medialibrarian",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/pickae/medialibrarian"
+    ]
+  },
+  {
+    "id": "srt-tool",
+    "name": "srt-tool",
+    "organization": "rkdarst",
+    "kind": "application",
+    "url": "https://github.com/rkdarst/srt-tool",
+    "identity_source": "https://github.com/rkdarst/srt-tool",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/rkdarst/srt-tool"
+    ]
+  },
+  {
+    "id": "symposium",
+    "name": "Symposium",
+    "organization": "Sufficit",
+    "kind": "application",
+    "url": "https://github.com/sufficit/sufficit-vscode-symposium",
+    "identity_source": "https://github.com/sufficit/sufficit-vscode-symposium",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/sufficit/sufficit-vscode-symposium"
+    ]
+  },
+  {
+    "id": "phoasr",
+    "name": "PhoASR",
+    "organization": "Qualcomm AI Research",
+    "kind": "developer-tool",
+    "url": "https://github.com/Qualcomm-AI-research/PhoASR",
+    "identity_source": "https://github.com/Qualcomm-AI-research/PhoASR",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/Qualcomm-AI-research/PhoASR"
+    ]
+  },
+  {
+    "id": "awe-languagetool",
+    "name": "AWE LanguageTool",
+    "organization": "ETS Next Gen",
+    "kind": "library",
+    "url": "https://github.com/ETS-Next-Gen/AWE_LanguageTool",
+    "identity_source": "https://github.com/ETS-Next-Gen/AWE_LanguageTool",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/ETS-Next-Gen/AWE_LanguageTool"
+    ]
+  },
+  {
+    "id": "wooorm-dictionaries",
+    "name": "Dictionaries (wooorm)",
+    "organization": "wooorm",
+    "kind": "library",
+    "url": "https://github.com/wooorm/dictionaries",
+    "identity_source": "https://github.com/wooorm/dictionaries",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/wooorm/dictionaries"
+    ]
+  },
+  {
+    "id": "overleaf-dictionaries",
+    "name": "Diccionaris d’Overleaf",
+    "organization": "Overleaf",
+    "kind": "library",
+    "url": "https://github.com/overleaf/dictionaries",
+    "identity_source": "https://github.com/overleaf/dictionaries",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/overleaf/dictionaries"
+    ]
+  },
+  {
+    "id": "opendubbing-docker",
+    "name": "OpenDubbing Docker",
+    "organization": "kotet",
+    "kind": "developer-tool",
+    "url": "https://github.com/kotet/opendubbing-docker",
+    "identity_source": "https://github.com/kotet/opendubbing-docker",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/kotet/opendubbing-docker"
+    ]
+  },
+  {
+    "id": "thunderbird",
+    "name": "Thunderbird",
+    "organization": "Mozilla",
+    "kind": "application",
+    "url": "https://www.thunderbird.net/",
+    "identity_source": "https://packages.debian.org/stable/thunderbird-l10n-ca",
+    "reviewed": true,
+    "repositories": [
+      "https://packages.debian.org/stable/thunderbird-l10n-ca"
+    ]
+  },
+  {
+    "id": "libreoffice",
+    "name": "LibreOffice",
+    "organization": "The Document Foundation",
+    "url": "https://www.libreoffice.org/",
+    "kind": "application",
+    "reviewed": true,
+    "repositories": [
+      "https://packages.debian.org/stable/libreoffice-l10n-ca"
+    ],
+    "identity_source": "https://packages.debian.org/stable/libreoffice-l10n-ca"
+  },
+  {
+    "id": "lomiri-keyboard",
+    "name": "Lomiri Keyboard",
+    "organization": "UBports",
+    "url": "https://gitlab.com/ubports/development/core/lomiri-keyboard",
+    "kind": "application",
+    "reviewed": true,
+    "repositories": [
+      "https://packages.debian.org/stable/lomiri-keyboard-catalan"
+    ],
+    "identity_source": "https://packages.debian.org/stable/lomiri-keyboard-catalan"
+  },
+  {
+    "id": "privacy-browser",
+    "name": "Privacy Browser",
+    "organization": "Stoutner",
+    "url": "https://www.stoutner.com/privacy-browser-pc/",
+    "kind": "application",
+    "reviewed": true,
+    "repositories": [
+      "https://packages.debian.org/stable/privacybrowser"
+    ],
+    "identity_source": "https://packages.debian.org/stable/privacybrowser"
+  },
+  {
+    "id": "debian",
+    "name": "Debian · grups de paquets",
+    "organization": "Debian",
+    "url": "https://www.debian.org/",
+    "kind": "distribution",
+    "reviewed": true,
+    "repositories": [
+      "https://packages.debian.org/stable/forensics-extra",
+      "https://packages.debian.org/stable/task-catalan",
+      "https://packages.debian.org/stable/task-catalan-desktop"
+    ],
+    "identity_source": "https://packages.debian.org/stable/forensics-extra"
+  },
+  {
+    "id": "itzune",
+    "name": "Itzune",
+    "organization": "Itzune",
+    "kind": "application",
+    "url": "https://github.com/xezpeleta/itzune-models",
+    "identity_source": "https://github.com/xezpeleta/itzune-models",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/xezpeleta/itzune-models"
+    ]
+  },
+  {
+    "id": "uploader-recny-model",
+    "name": "Uploader Recny Model",
+    "organization": "fscholze",
+    "kind": "application",
+    "url": "https://github.com/fscholze/uploader-recny-model-webapp",
+    "identity_source": "https://github.com/fscholze/uploader-recny-model-server",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/fscholze/uploader-recny-model-server"
+    ]
+  },
+  {
+    "id": "dubbing-project",
+    "name": "Dubbing Project",
+    "organization": "meherubahasin",
+    "kind": "application",
+    "url": "https://github.com/meherubahasin/dubbing_project",
+    "identity_source": "https://github.com/meherubahasin/dubbing_project",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/meherubahasin/dubbing_project"
+    ]
+  },
+  {
+    "id": "alt-linux",
+    "name": "ALT Linux",
+    "organization": "ALT Linux",
+    "kind": "distribution",
+    "url": "https://www.altlinux.org/",
+    "identity_source": "https://github.com/altlinux/specs",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/altlinux/specs"
+    ]
+  },
+  {
+    "id": "fedora",
+    "name": "Fedora",
+    "organization": "Fedora Project",
+    "kind": "distribution",
+    "url": "https://fedoraproject.org/",
+    "identity_source": "https://src.fedoraproject.org/rpms/mythes-ca",
+    "reviewed": true,
+    "repositories": [
+      "https://src.fedoraproject.org/rpms/mythes-ca"
+    ]
+  },
+  {
+    "id": "lingua-miner",
+    "name": "LinguaMiner",
+    "organization": "thecopybookhare-cmd",
+    "kind": "application",
+    "url": "https://github.com/thecopybookhare-cmd/lingua-miner",
+    "identity_source": "https://github.com/thecopybookhare-cmd/lingua-miner",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/thecopybookhare-cmd/lingua-miner"
+    ]
+  },
+  {
+    "id": "whisperx",
+    "name": "WhisperX",
+    "organization": "m-bain",
+    "kind": "application",
+    "url": "https://github.com/m-bain/whisperX",
+    "identity_source": "https://github.com/m-bain/whisperX",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/m-bain/whisperX"
+    ]
+  },
+  {
+    "id": "faster-whisper",
+    "name": "faster-whisper",
+    "organization": "SYSTRAN",
+    "kind": "library",
+    "url": "https://github.com/SYSTRAN/faster-whisper",
+    "identity_source": "https://github.com/SYSTRAN/faster-whisper",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/SYSTRAN/faster-whisper"
+    ]
+  },
+  {
+    "id": "argos-translate",
+    "name": "Argos Translate",
+    "organization": "Argos Open Tech",
+    "kind": "application",
+    "url": "https://github.com/argosopentech/argos-translate",
+    "identity_source": "https://github.com/argosopentech/argos-translate",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/argosopentech/argos-translate"
+    ]
+  },
+  {
+    "id": "libretranslate",
+    "name": "LibreTranslate",
+    "organization": "LibreTranslate",
+    "kind": "service",
+    "url": "https://github.com/LibreTranslate/LibreTranslate",
+    "identity_source": "https://github.com/LibreTranslate/LibreTranslate",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/LibreTranslate/LibreTranslate"
+    ]
+  },
+  {
+    "id": "buzz",
+    "name": "Buzz",
+    "organization": "chidiwilliams",
+    "kind": "application",
+    "url": "https://github.com/chidiwilliams/buzz",
+    "identity_source": "https://github.com/chidiwilliams/buzz",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/chidiwilliams/buzz"
+    ]
+  },
+  {
+    "id": "guardian-transcription-service",
+    "name": "The Guardian Transcription Service",
+    "organization": "The Guardian",
+    "kind": "service",
+    "url": "https://github.com/guardian/transcription-service",
+    "identity_source": "https://github.com/guardian/transcription-service",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/guardian/transcription-service"
+    ]
+  },
+  {
+    "id": "linly-dubbing",
+    "name": "Linly-Dubbing",
+    "organization": "Kedreamix",
+    "kind": "application",
+    "url": "https://github.com/Kedreamix/Linly-Dubbing",
+    "identity_source": "https://github.com/Kedreamix/Linly-Dubbing",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/Kedreamix/Linly-Dubbing"
+    ]
+  },
+  {
+    "id": "gpt2-catalan",
+    "name": "GPT-2 Catalan",
+    "organization": "Marxx01",
+    "kind": "model",
+    "url": "https://github.com/Marxx01/gpt2-catalan",
+    "identity_source": "https://github.com/Marxx01/gpt2-catalan",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/Marxx01/gpt2-catalan"
+    ]
+  },
+  {
+    "id": "whisperlive",
+    "name": "WhisperLive",
+    "organization": "collabora",
+    "kind": "service",
+    "url": "https://github.com/collabora/WhisperLive",
+    "identity_source": "https://github.com/collabora/WhisperLive",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/collabora/WhisperLive"
+    ]
+  },
+  {
+    "id": "whispers2t",
+    "name": "WhisperS2T",
+    "organization": "shashikg",
+    "kind": "library",
+    "url": "https://github.com/shashikg/WhisperS2T",
+    "identity_source": "https://github.com/shashikg/WhisperS2T",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/shashikg/WhisperS2T"
+    ]
+  },
+  {
+    "id": "whisper-webui",
+    "name": "Whisper-WebUI",
+    "organization": "jhj0517",
+    "kind": "application",
+    "url": "https://github.com/jhj0517/Whisper-WebUI",
+    "identity_source": "https://github.com/jhj0517/Whisper-WebUI",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/jhj0517/Whisper-WebUI"
+    ]
+  },
+  {
+    "id": "opennmt-py",
+    "name": "OpenNMT-py",
+    "organization": "OpenNMT",
+    "kind": "library",
+    "url": "https://github.com/OpenNMT/OpenNMT-py",
+    "identity_source": "https://github.com/OpenNMT/OpenNMT-py",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/OpenNMT/OpenNMT-py"
+    ]
+  },
+  {
+    "id": "opennmt-tf",
+    "name": "OpenNMT-tf",
+    "organization": "OpenNMT",
+    "kind": "library",
+    "url": "https://github.com/OpenNMT/OpenNMT-tf",
+    "identity_source": "https://github.com/OpenNMT/OpenNMT-tf",
+    "reviewed": true,
+    "repositories": [
+      "https://github.com/OpenNMT/OpenNMT-tf"
+    ]
+  }
+]

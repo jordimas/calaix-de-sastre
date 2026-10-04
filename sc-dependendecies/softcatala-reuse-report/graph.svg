@@ -1,0 +1,1036 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="12155" viewBox="0 0 1400 12155">
+<rect width="100%" height="100%" fill="white"/>
+<text x="35" y="42" font-family="sans-serif" font-size="25">Reutilització documentada de Softcatalà</text>
+<rect x="35" y="65" width="310" height="42" rx="8" fill="#295c9c"/>
+<text x="50" y="92" fill="white" font-family="sans-serif" font-size="17">CTranslate2</text>
+<path d="M345 85 H390 V85 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/setup.py" target="_blank">
+<rect x="430" y="66" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="90" font-family="sans-serif" font-size="16">OpenNMT-py · GitHub</text></a>
+<path d="M345 85 H390 V130 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/OpenNMT/OpenNMT-tf/blob/6f3b952ebb973dec31250a806bf0f56ff730d0b5/setup.py" target="_blank">
+<rect x="430" y="111" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="135" font-family="sans-serif" font-size="16">OpenNMT-tf · GitHub</text></a>
+<path d="M345 85 H390 V175 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/SYSTRAN/faster-whisper/blob/7b99be5376b41cd481dfc52e8caa00a497c3294e/requirements.txt" target="_blank">
+<rect x="430" y="156" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="180" font-family="sans-serif" font-size="16">faster-whisper · GitHub</text></a>
+<path d="M345 85 H390 V220 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/argosopentech/argos-translate/blob/17ed1a9b055c5ba1b51d76b683bbb0c64e2a4a88/requirements.txt" target="_blank">
+<rect x="430" y="201" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="225" font-family="sans-serif" font-size="16">argos-translate · GitHub</text></a>
+<path d="M345 85 H390 V265 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/chidiwilliams/buzz/blob/100589fd8c492869f2994b525e1092eda81e4e88/pyproject.toml" target="_blank">
+<rect x="430" y="246" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="270" font-family="sans-serif" font-size="16">buzz · GitHub</text></a>
+<path d="M345 85 H390 V310 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/collabora/WhisperLive/blob/99cbc1c33b35c372b4790975f819dfde62f3e74a/whisper_live/transcriber/transcriber_faster_whisper.py" target="_blank">
+<rect x="430" y="291" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="315" font-family="sans-serif" font-size="16">WhisperLive · GitHub</text></a>
+<path d="M345 85 H390 V355 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/jhj0517/Whisper-WebUI/blob/c3bb3b18e959826b28b1192486a8d5b361b6a4e0/modules/whisper/faster_whisper_inference.py" target="_blank">
+<rect x="430" y="336" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="360" font-family="sans-serif" font-size="16">Whisper-WebUI · GitHub</text></a>
+<path d="M345 85 H390 V400 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/m-bain/whisperX/blob/771b4a14a9486f8fd5aef18ef49e35d639523dd3/whisperx/asr.py" target="_blank">
+<rect x="430" y="381" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="405" font-family="sans-serif" font-size="16">whisperX · GitHub</text></a>
+<path d="M345 85 H390 V445 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/whisper_s2t/backends/tensorrt/model.py" target="_blank">
+<rect x="430" y="426" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="450" font-family="sans-serif" font-size="16">WhisperS2T · GitHub</text></a>
+<path d="M345 85 H390 V490 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/pyproject.toml" target="_blank">
+<rect x="430" y="471" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="495" font-family="sans-serif" font-size="16">lingua-miner · GitHub</text></a>
+<rect x="35" y="580" width="310" height="42" rx="8" fill="#295c9c"/>
+<text x="50" y="607" fill="white" font-family="sans-serif" font-size="17">HF dataset: softcatala/catalan-youtube-speech</text>
+<path d="M345 600 H390 V600 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Zina-Kamel/COMP598_Project/blob/f236b4e4b89e2db0f33fd3179f192397e5993050/monolingual_lid/build_lid_data.py" target="_blank">
+<rect x="430" y="581" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="605" font-family="sans-serif" font-size="16">COMP598_Project · GitHub</text></a>
+<rect x="35" y="690" width="310" height="42" rx="8" fill="#295c9c"/>
+<text x="50" y="717" fill="white" font-family="sans-serif" font-size="17">HF model: softcatala/translate-cat-spa</text>
+<path d="M345 710 H390 V710 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/app/config.py" target="_blank">
+<rect x="430" y="691" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="715" font-family="sans-serif" font-size="16">lingua-miner · GitHub</text></a>
+<rect x="35" y="800" width="310" height="42" rx="8" fill="#295c9c"/>
+<text x="50" y="827" fill="white" font-family="sans-serif" font-size="17">HF model: softcatala/translate-eng-cat</text>
+<path d="M345 820 H390 V820 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Marxx01/gpt2-catalan/blob/ded3af226f683c0d9149ec1c94cac61ab91c1dbf/image_captioning/translate.py" target="_blank">
+<rect x="430" y="801" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="825" font-family="sans-serif" font-size="16">gpt2-catalan · GitHub</text></a>
+<rect x="35" y="910" width="310" height="42" rx="8" fill="#295c9c"/>
+<text x="50" y="937" fill="white" font-family="sans-serif" font-size="17">HF model: softcatala/wav2vec2-large-xlsr-catala</text>
+<path d="M345 930 H390 V930 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Kedreamix/Linly-Dubbing/blob/5677191ee544afae8250cee8e801c03839bcba24/submodules/whisperX/whisperx/alignment.py" target="_blank">
+<rect x="430" y="911" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="935" font-family="sans-serif" font-size="16">Linly-Dubbing · GitHub</text></a>
+<path d="M345 930 H390 V975 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/guardian/transcription-service/blob/672c19bf3318125e24af9d69d27345e9828f7d9a/model-fetch/download_whisperx_models.py" target="_blank">
+<rect x="430" y="956" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="980" font-family="sans-serif" font-size="16">transcription-service · GitHub</text></a>
+<path d="M345 930 H390 V1020 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/m-bain/whisperX/blob/771b4a14a9486f8fd5aef18ef49e35d639523dd3/whisperx/alignment.py" target="_blank">
+<rect x="430" y="1001" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1025" font-family="sans-serif" font-size="16">whisperX · GitHub</text></a>
+<rect x="35" y="1110" width="310" height="42" rx="8" fill="#295c9c"/>
+<text x="50" y="1137" fill="white" font-family="sans-serif" font-size="17">catalan-dict-tools</text>
+<path d="M345 1130 H390 V1130 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Aisha60/FYP-expressly-/blob/b4716bc7160b90a1eaa19438de7d8cc6aaaadc26/server/Python_Core/language_tool/LanguageTool-6.6/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="1111" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1135" font-family="sans-serif" font-size="16">FYP-expressly- · GitHub</text></a>
+<path d="M345 1130 H390 V1175 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/DSWallach/config/blob/05f09620a99ffa46548d08ff7d143b2762ab7a00/vim/vim/LanguageTool-4.5/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="1156" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1180" font-family="sans-serif" font-size="16">config · GitHub</text></a>
+<path d="M345 1130 H390 V1220 H430" fill="none" stroke="#295c9c"/>
+<a href="https://packages.debian.org/stable/forensics-extra" target="_blank">
+<rect x="430" y="1201" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1225" font-family="sans-serif" font-size="16">Debian · grups de paquets · Debian</text></a>
+<path d="M345 1130 H390 V1265 H430" fill="none" stroke="#295c9c"/>
+<a href="https://packages.debian.org/stable/task-catalan-desktop" target="_blank">
+<rect x="430" y="1246" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1270" font-family="sans-serif" font-size="16">Debian · grups de paquets · Debian</text></a>
+<path d="M345 1130 H390 V1310 H430" fill="none" stroke="#295c9c"/>
+<a href="https://packages.debian.org/stable/task-catalan" target="_blank">
+<rect x="430" y="1291" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1315" font-family="sans-serif" font-size="16">Debian · grups de paquets · Debian</text></a>
+<path d="M345 1130 H390 V1355 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/DvaDvaD/autoresttest-api/blob/a34c30f9b9fc4cb0a1e3c96dd9f331b6551c61c3/models_store/autoresttest/aratrl-service/jdk8_1/cs/rest/original/languagetool/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="1336" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1360" font-family="sans-serif" font-size="16">autoresttest-api · GitHub</text></a>
+<path d="M345 1130 H390 V1400 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/ETS-Next-Gen/AWE_LanguageTool/blob/35b65f3dfebd0d27fa0011e96a43306509178122/awe_languagetool/LanguageTool5_5/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="1381" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1405" font-family="sans-serif" font-size="16">AWE_LanguageTool · GitHub</text></a>
+<path d="M345 1130 H390 V1445 H430" fill="none" stroke="#295c9c"/>
+<a href="https://packages.debian.org/stable/firefox-esr-l10n-ca" target="_blank">
+<rect x="430" y="1426" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1450" font-family="sans-serif" font-size="16">Firefox · Debian</text></a>
+<path d="M345 1130 H390 V1490 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/GIST-NJU/EmRest/blob/76da45ff98953e6bf54c0f3746bea60e35550167/api-tools/ARAT-RL/service/jdk8_1/cs/rest/original/languagetool/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="1471" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1495" font-family="sans-serif" font-size="16">EmRest · GitHub</text></a>
+<path d="M345 1130 H390 V1535 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Halcyon1010/NMT_Project/blob/8ba2e780537902bf3a96f48db7d283fe5bdb3b8d/data/LTP/LanguageTool-6.8-SNAPSHOT/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="1516" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1540" font-family="sans-serif" font-size="16">NMT_Project · GitHub</text></a>
+<path d="M345 1130 H390 V1580 H430" fill="none" stroke="#295c9c"/>
+<a href="https://packages.debian.org/stable/libreoffice-l10n-ca" target="_blank">
+<rect x="430" y="1561" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1585" font-family="sans-serif" font-size="16">LibreOffice · Debian</text></a>
+<path d="M345 1130 H390 V1625 H430" fill="none" stroke="#295c9c"/>
+<a href="https://packages.debian.org/stable/lomiri-keyboard-catalan" target="_blank">
+<rect x="430" y="1606" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1630" font-family="sans-serif" font-size="16">Lomiri Keyboard · Debian</text></a>
+<path d="M345 1130 H390 V1670 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Lyam-T/Dotfiles/blob/7a60231d6728faf5de28be01829d25b86614ef52/vim/LanguageTool-5.2/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="1651" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1675" font-family="sans-serif" font-size="16">Dotfiles · GitHub</text></a>
+<path d="M345 1130 H390 V1715 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/MARKMENTAL/sparklinux-scripts/blob/24e4c672c6a05047cdc2013bc6b2b9383bd03b9a/aports/testing/hunspell-ca-es/APKBUILD" target="_blank">
+<rect x="430" y="1696" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1720" font-family="sans-serif" font-size="16">sparklinux-scripts · GitHub</text></a>
+<path d="M345 1130 H390 V1760 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/MarkWalters-dev/aur/blob/28d23e9a27ee98180254812bc52f8f59c61652a0/hunspell-ca/PKGBUILD" target="_blank">
+<rect x="430" y="1741" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1765" font-family="sans-serif" font-size="16">aur · GitHub</text></a>
+<path d="M345 1130 H390 V1805 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Melkor333/oily-pine/blob/1bf2bf9d1bb0289c156378d4637c60946fe893fb/testing/hunspell-ca-es/APKBUILD" target="_blank">
+<rect x="430" y="1786" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1810" font-family="sans-serif" font-size="16">oily-pine · GitHub</text></a>
+<path d="M345 1130 H390 V1850 H430" fill="none" stroke="#295c9c"/>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/general-catalan-dictionary/" target="_blank">
+<rect x="430" y="1831" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1855" font-family="sans-serif" font-size="16">Firefox-Catalan-dictionary · Altres</text></a>
+<path d="M345 1130 H390 V1895 H430" fill="none" stroke="#295c9c"/>
+<a href="https://packages.debian.org/stable/privacybrowser" target="_blank">
+<rect x="430" y="1876" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1900" font-family="sans-serif" font-size="16">Privacy Browser · Debian</text></a>
+<path d="M345 1130 H390 V1940 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Retropex/knots-alpine-package/blob/251206cc850b66760aefcf9c73263141df8b094a/testing/hunspell-ca-es/APKBUILD" target="_blank">
+<rect x="430" y="1921" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1945" font-family="sans-serif" font-size="16">knots-alpine-package · GitHub</text></a>
+<path d="M345 1130 H390 V1985 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/RoseBlume/aports-prs/blob/94d1aa38636f716f031f22c945d718c35c6dbb47/testing/hunspell-ca-es/APKBUILD" target="_blank">
+<rect x="430" y="1966" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="1990" font-family="sans-serif" font-size="16">aports-prs · GitHub</text></a>
+<path d="M345 1130 H390 V2030 H430" fill="none" stroke="#295c9c"/>
+<a href="https://packages.debian.org/stable/thunderbird-l10n-ca" target="_blank">
+<rect x="430" y="2011" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2035" font-family="sans-serif" font-size="16">Thunderbird · Debian</text></a>
+<path d="M345 1130 H390 V2075 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/TiagoSantos81/libregrammar/blob/4552e34f5f02085e87231594b9138a2409507dbb/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2056" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2080" font-family="sans-serif" font-size="16">libregrammar · GitHub</text></a>
+<path d="M345 1130 H390 V2120 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/WebFuzzing/Dataset/blob/915859080da033fc36feae54bab3ad4a7b04e872/jdk_8_maven/cs/rest/original/languagetool/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2101" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2125" font-family="sans-serif" font-size="16">Dataset · GitHub</text></a>
+<path d="M345 1130 H390 V2165 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/adityaghatge/nlp2rest/blob/23fc8dc5e37f7ef1681c135abfba30e6cfad2a91/services/emb/cs/rest/original/languagetool/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2146" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2170" font-family="sans-serif" font-size="16">nlp2rest · GitHub</text></a>
+<path d="M345 1130 H390 V2210 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/alpinelinux/aports/blob/b0d13268be713e3bf719126f20716aa7f34524df/testing/hunspell-ca-es/APKBUILD" target="_blank">
+<rect x="430" y="2191" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2215" font-family="sans-serif" font-size="16">Alpine Linux · GitHub</text></a>
+<path d="M345 1130 H390 V2255 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/altlinux/specs/blob/06e48fd9ce0732df35f7c42bd099d6bd5bdb9fdf/h/hunspell-ca/hunspell-ca.spec" target="_blank">
+<rect x="430" y="2236" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2260" font-family="sans-serif" font-size="16">specs · GitHub</text></a>
+<path d="M345 1130 H390 V2300 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/andreLlanes/STALGCM-LanguageTool/blob/6dfb5ad5f881cb224f9a4e93c2f2f16767493929/LanguageTool-6.6/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2281" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2305" font-family="sans-serif" font-size="16">STALGCM-LanguageTool · GitHub</text></a>
+<path d="M345 1130 H390 V2345 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/bisect-pt/aports/blob/b629501dfe895f18b293c03717fc19280e9f716c/testing/hunspell-ca-es/APKBUILD" target="_blank">
+<rect x="430" y="2326" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2350" font-family="sans-serif" font-size="16">aports · GitHub</text></a>
+<path d="M345 1130 H390 V2390 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/bsgarcia/data-science-template-ipynb/blob/84b079d1cca67940d8051f8ee6198bfff3e2bb53/src/utils/LanguageTool-6.0/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2371" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2395" font-family="sans-serif" font-size="16">data-science-template-ipynb · GitHub</text></a>
+<path d="M345 1130 H390 V2435 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/carjam120443-netizen/rebuilt-gentoo/blob/d496a18c902f2a62c09968613eb8c29d35f344f7/gentoo/app-dicts/myspell-ca/myspell-ca-3.0.9.ebuild" target="_blank">
+<rect x="430" y="2416" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2440" font-family="sans-serif" font-size="16">rebuilt-gentoo · GitHub</text></a>
+<path d="M345 1130 H390 V2480 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/casablancahotelsoftware/RESTifAI/blob/284636bb8c430d5482d2200bbc0a2ffef173d9b6/services/LanguageTool-6.7-SNAPSHOT/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2461" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2485" font-family="sans-serif" font-size="16">RESTifAI · GitHub</text></a>
+<path d="M345 1130 H390 V2525 H430" fill="none" stroke="#295c9c"/>
+<a href="https://chromium.googlesource.com/chromium/deps/hunspell_dictionaries/+/cee14e319bb7603a1157bb4d1e216be64ee82b77/README_ca_ES.txt" target="_blank">
+<rect x="430" y="2506" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2530" font-family="sans-serif" font-size="16">hunspell_dictionaries · Altres</text></a>
+<path d="M345 1130 H390 V2570 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/codingsoo/ARAT-RL/blob/e5ccb13fa0dd7e3d9cb1b10b9a3252222fc912c9/service/jdk8_1/cs/rest/original/languagetool/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2551" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2575" font-family="sans-serif" font-size="16">ARAT-RL · GitHub</text></a>
+<path d="M345 1130 H390 V2615 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/codingsoo/LlamaRestTest/blob/41ff44d2fcb78aca8c4e687ae23850579715bc45/services/emb/cs/rest/original/languagetool/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2596" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2620" font-family="sans-serif" font-size="16">LlamaRestTest · GitHub</text></a>
+<path d="M345 1130 H390 V2660 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/codingsoo/REST_Go/blob/64660d7c18587ba8c4c6c45a860730913d7382b6/services/evo_jdk8/cs/rest/original/languagetool/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2641" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2665" font-family="sans-serif" font-size="16">REST_Go · GitHub</text></a>
+<path d="M345 1130 H390 V2705 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/codingsoo/nlp2rest/blob/ae3783b7e4475947bd27511ca4dadc4a273d046c/services/emb/cs/rest/original/languagetool/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2686" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2710" font-family="sans-serif" font-size="16">nlp2rest · GitHub</text></a>
+<path d="M345 1130 H390 V2750 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/correabuscar/vardbrepos/blob/c4496c5ffd12ab02b9e9a43de02733da31d7eb29/gentoo/app-dicts/myspell-ca/myspell-ca-3.0.8.ebuild" target="_blank">
+<rect x="430" y="2731" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2755" font-family="sans-serif" font-size="16">vardbrepos · GitHub</text></a>
+<path d="M345 1130 H390 V2795 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/cuberhaus/dotfiles/blob/1ad8ce691935b7586d5f6bdddfeb9e12f7ecea47/.config/texstudio/dictionaries/LanguageTool-5.7/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2776" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2800" font-family="sans-serif" font-size="16">dotfiles · GitHub</text></a>
+<path d="M345 1130 H390 V2840 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/dimgo66/docx-correct/blob/f1f54fc8778b0fedf61b6f9dec88b4e962565d1d/LanguageTool-6.6/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2821" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2845" font-family="sans-serif" font-size="16">docx-correct · GitHub</text></a>
+<path d="M345 1130 H390 V2885 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/dimgo66/docx-typogtaph/blob/501fc8bca4c231299718db952c7fd790a85242b6/LanguageTool-6.6/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2866" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2890" font-family="sans-serif" font-size="16">docx-typogtaph · GitHub</text></a>
+<path d="M345 1130 H390 V2930 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/edcarbonellsimarro/formacioGitHub/blob/9fa283e4521212a72ec0cf18081c1a65437d6fc5/run.sh" target="_blank">
+<rect x="430" y="2911" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2935" font-family="sans-serif" font-size="16">formacioGitHub · GitHub</text></a>
+<path d="M345 1130 H390 V2975 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/emculber/dotfiles/blob/2939efb6d6f27b4b1d7c0f7d0b3d22332aa3c5aa/vim/vim.symlink/other/LanguageTool-5.8-stable/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="2956" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="2980" font-family="sans-serif" font-size="16">dotfiles · GitHub</text></a>
+<path d="M345 1130 H390 V3020 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/fpmislata-daw1-projecte/daw-pi/blob/41a60ffc8f526fd67e09797ec635b9c9b78bbdc6/run.sh" target="_blank">
+<rect x="430" y="3001" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3025" font-family="sans-serif" font-size="16">daw-pi · GitHub</text></a>
+<path d="M345 1130 H390 V3065 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/garybentley/languagetool-test/blob/ac0dec29aa2bddc17bcbaf8fdfbd4f68b7672f4a/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="3046" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3070" font-family="sans-serif" font-size="16">languagetool-test · GitHub</text></a>
+<path d="M345 1130 H390 V3110 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/gentoo/gentoo/blob/182713f69c5f2d2e071b76811d94fc819b5b7e59/app-dicts/myspell-ca/myspell-ca-3.0.9.ebuild" target="_blank">
+<rect x="430" y="3091" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3115" font-family="sans-serif" font-size="16">Gentoo · GitHub</text></a>
+<path d="M345 1130 H390 V3155 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/geraldHack/Manuskript/blob/cafd2e44d40c88932f9a7559fc8840410e5e92e8/language tool/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="3136" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3160" font-family="sans-serif" font-size="16">Manuskript · GitHub</text></a>
+<path d="M345 1130 H390 V3200 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/gregtatum/indie-web/blob/c9690ed34fa7e23c744b5bb65d3dce85e50da3b7/data/floppydisk/dictionaries/ca/readme.md" target="_blank">
+<rect x="430" y="3181" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3205" font-family="sans-serif" font-size="16">indie-web · GitHub</text></a>
+<path d="M345 1130 H390 V3245 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/gregtatum/language-coach/blob/b02790e8d939c960098038a4148459a8b2e9ebf7/data/dictionaries/ca/readme.md" target="_blank">
+<rect x="430" y="3226" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3250" font-family="sans-serif" font-size="16">language-coach · GitHub</text></a>
+<path d="M345 1130 H390 V3290 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/harshil1277/Rest_API_Testing/blob/85813710286ddab3dfae6978dd357cdec4ac0c8f/services/evo_jdk8/cs/rest/original/languagetool/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="3271" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3295" font-family="sans-serif" font-size="16">Rest_API_Testing · GitHub</text></a>
+<path d="M345 1130 H390 V3335 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/haukot/aports/blob/c8a5315caaf1a9ef512c5dd59a2ce1462127630c/testing/hunspell-ca-es/APKBUILD" target="_blank">
+<rect x="430" y="3316" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3340" font-family="sans-serif" font-size="16">aports · GitHub</text></a>
+<path d="M345 1130 H390 V3380 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/imanehib/SmartTextEval/blob/977b7594285f07648695b9aa9d2151d53339f97d/backend/LanguageTool/LanguageTool-6.5/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="3361" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3385" font-family="sans-serif" font-size="16">SmartTextEval · GitHub</text></a>
+<path d="M345 1130 H390 V3425 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/inakollunaveen/Offerletterdetector/blob/c95b524c659f35aaa81f66b3b6aa375139b3358e/LanguageTool-6.6/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="3406" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3430" font-family="sans-serif" font-size="16">Offerletterdetector · GitHub</text></a>
+<path d="M345 1130 H390 V3470 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/isa-group/RESTBench-Coverage/blob/ee17b91070a12c2ea857c3280fbbb104d01a8546/APIs/Open-source/languagetool/Code/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="3451" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3475" font-family="sans-serif" font-size="16">RESTBench-Coverage · GitHub</text></a>
+<path d="M345 1130 H390 V3515 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/jaumesaa/SoftCatal-4VSCode/blob/5becdde354cbedb659cb26f2d303aaeafc78e638/languagetool/LanguageTool-6.0/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="3496" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3520" font-family="sans-serif" font-size="16">SoftCatal-4VSCode · GitHub</text></a>
+<path d="M345 1130 H390 V3560 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/joapuiib/bd/blob/78745cc8965019ef993f52f2a60153ca865bdb16/run.sh" target="_blank">
+<rect x="430" y="3541" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3565" font-family="sans-serif" font-size="16">bd · GitHub</text></a>
+<path d="M345 1130 H390 V3605 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/joapuiib/curs-git/blob/914febc975812991231d8077cb495405e908d694/run.sh" target="_blank">
+<rect x="430" y="3586" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3610" font-family="sans-serif" font-size="16">curs-git · GitHub</text></a>
+<path d="M345 1130 H390 V3650 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/joapuiib/fp/blob/a6d1023f2d784dc1f982987a6d0a32036b6161a2/run.sh" target="_blank">
+<rect x="430" y="3631" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3655" font-family="sans-serif" font-size="16">fp · GitHub</text></a>
+<path d="M345 1130 H390 V3695 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/joapuiib/iabd-saa/blob/b4f6cfacc6ec4036a851cec0d7667c0241e98928/run.sh" target="_blank">
+<rect x="430" y="3676" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3700" font-family="sans-serif" font-size="16">iabd-saa · GitHub</text></a>
+<path d="M345 1130 H390 V3740 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/joapuiib/mkdocs-material-joapuiib/blob/f7e3f8a1fa341de3d9058c586593ec6ebfb7e8cf/run.sh" target="_blank">
+<rect x="430" y="3721" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3745" font-family="sans-serif" font-size="16">mkdocs-material-joapuiib · GitHub</text></a>
+<path d="M345 1130 H390 V3785 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/jolupa/jolupalabs/blob/91b5ed738df7f25008dadda2184905c814c20933/hunspell-ca/Pkgfile" target="_blank">
+<rect x="430" y="3766" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3790" font-family="sans-serif" font-size="16">jolupalabs · GitHub</text></a>
+<path d="M345 1130 H390 V3830 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/juliarscat/ClariCat/blob/01c5bc9c3163ffa993e91bbbfa96a5b96b144744/data/dictionaries/README.md" target="_blank">
+<rect x="430" y="3811" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3835" font-family="sans-serif" font-size="16">ClariCat · GitHub</text></a>
+<path d="M345 1130 H390 V3875 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/kazuihitoshi/alpine_samba4.19.2/blob/8cf66238639871e9405c3a769561c59532a6fccb/aports/testing/hunspell-ca-es/APKBUILD" target="_blank">
+<rect x="430" y="3856" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3880" font-family="sans-serif" font-size="16">alpine_samba4.19.2 · GitHub</text></a>
+<path d="M345 1130 H390 V3920 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/kevin-cazal/aports/blob/d26ea61e5eebbcf7a3b3176f01fc73e3d5e65254/testing/hunspell-ca-es/APKBUILD" target="_blank">
+<rect x="430" y="3901" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3925" font-family="sans-serif" font-size="16">aports · GitHub</text></a>
+<path d="M345 1130 H390 V3965 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/krismark930/Dictionaries/blob/f4006d72680f80ae705a4c92a35766215a1e7389/dictionaries/ca/readme.md" target="_blank">
+<rect x="430" y="3946" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="3970" font-family="sans-serif" font-size="16">Dictionaries · GitHub</text></a>
+<path d="M345 1130 H390 V4010 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/kyougi-kai/Mahjongrammer/blob/c8001a5c061eab753d6538badbac73fa6e701293/LanguageTool/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="3991" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4015" font-family="sans-serif" font-size="16">Mahjongrammer · GitHub</text></a>
+<path d="M345 1130 H390 V4055 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/languagetool-org/languagetool/blob/bd0b8ccdedbe426094049e2ccda5230ce36fc4c4/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="4036" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4060" font-family="sans-serif" font-size="16">LanguageTool · GitHub</text></a>
+<path d="M345 1130 H390 V4100 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/leopoldolorenzo/Speech_to_text_TFM/blob/beb86f311faf0db016354ffd3b0ee0ee1ae261cd/tools/languagetool/server/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="4081" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4105" font-family="sans-serif" font-size="16">Speech_to_text_TFM · GitHub</text></a>
+<path d="M345 1130 H390 V4145 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/lorenasanchezsanchez/template/blob/33df1a4e669f277712078ff842c8b27d24ff65f9/run.sh" target="_blank">
+<rect x="430" y="4126" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4150" font-family="sans-serif" font-size="16">template · GitHub</text></a>
+<path d="M345 1130 H390 V4190 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/man-navlakha/LanguageTool-6.6_java_seo/blob/fe8a8f0032263c90d2d560c9f83f2afc374e5112/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="4171" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4195" font-family="sans-serif" font-size="16">LanguageTool-6.6_java_seo · GitHub</text></a>
+<path d="M345 1130 H390 V4235 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/microsoft/azurelinux/blob/477129fe6f1e67bdd61a9761c4dd2489810d40ee/specs/h/hunspell-ca/hunspell-ca.spec" target="_blank">
+<rect x="430" y="4216" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4240" font-family="sans-serif" font-size="16">Azure Linux · GitHub</text></a>
+<path d="M345 1130 H390 V4280 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/ne0gl1tch20/pypad/blob/8f62179cf1bbc7600ea0cafa6543ca269c43dd9d/assets/dictionaries/ca/readme.md" target="_blank">
+<rect x="430" y="4261" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4285" font-family="sans-serif" font-size="16">pypad · GitHub</text></a>
+<path d="M345 1130 H390 V4325 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/opendocs-editor/api/blob/cb8f84366dc57855c6a0c1b52926a76f412754d5/dictionaries/ca/readme.md" target="_blank">
+<rect x="430" y="4306" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4330" font-family="sans-serif" font-size="16">api · GitHub</text></a>
+<path d="M345 1130 H390 V4370 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/overleaf/dictionaries/blob/3dfaeefeeb5f897544deb2f761577964e85a8796/dictionaries/hunspell-ca.copyright.txt" target="_blank">
+<rect x="430" y="4351" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4375" font-family="sans-serif" font-size="16">Diccionaris d’Overleaf · GitHub</text></a>
+<path d="M345 1130 H390 V4415 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/pombredanne/anongit.gentoo.org-git-repo-gentoo/blob/b37cf38b6051bd3148a7de55981ec84afd096ccb/app-dicts/myspell-ca/myspell-ca-3.0.6.ebuild" target="_blank">
+<rect x="430" y="4396" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4420" font-family="sans-serif" font-size="16">anongit.gentoo.org-git-repo-gentoo · GitHub</text></a>
+<path d="M345 1130 H390 V4460 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/restgym/restgym/blob/9a9b1e93c0b19875867669a21c02f134f54e7dc3/apis/languagetool/classes/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="4441" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4465" font-family="sans-serif" font-size="16">restgym · GitHub</text></a>
+<path d="M345 1130 H390 V4505 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/sathwik-21/Content-Creation-using-LLMs/blob/0fce0cca8d50b3f5050860dd8f79d0c9adfd57b8/language_tool/LanguageTool-6.5/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="4486" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4510" font-family="sans-serif" font-size="16">Content-Creation-using-LLMs · GitHub</text></a>
+<path d="M345 1130 H390 V4550 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/selab-gatech/autoresttest/blob/18bc429013213767fc665ed5cf83ced0626580eb/aratrl-service/jdk8_1/cs/rest/original/languagetool/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="4531" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4555" font-family="sans-serif" font-size="16">autoresttest · GitHub</text></a>
+<path d="M345 1130 H390 V4595 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/smoltuna/RestTestGen-WFC/blob/845dddd0c612c78890ce3f5792bc4cdde2d25bee/RESTgym/apis/languagetool/classes/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="4576" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4600" font-family="sans-serif" font-size="16">RestTestGen-WFC · GitHub</text></a>
+<path d="M345 1130 H390 V4640 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/tortr-rs/systemLinux/blob/9a24e90c68e0a2e626d649797bbf753d6fd464dd/rootfs/var/db/repos/gentoo/app-dicts/myspell-ca/myspell-ca-3.0.9.ebuild" target="_blank">
+<rect x="430" y="4621" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4645" font-family="sans-serif" font-size="16">systemLinux · GitHub</text></a>
+<path d="M345 1130 H390 V4685 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/wooorm/dictionaries/blob/8cfea406b505e4d7df52d5a19bce525df98c54ab/dictionaries/ca/readme.md" target="_blank">
+<rect x="430" y="4666" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4690" font-family="sans-serif" font-size="16">Dictionaries (wooorm) · GitHub</text></a>
+<path d="M345 1130 H390 V4730 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/yu-han-yang/behavior-analyze/blob/07df01fce9192507bb9114e052e086fd794a44dc/languagetool/src/ca/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="4711" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4735" font-family="sans-serif" font-size="16">behavior-analyze · GitHub</text></a>
+<path d="M345 1130 H390 V4775 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/yuming2002/REST_Go/blob/a01ebfb439394a1a100528f4e6b686dbbf783080/services/evo_jdk8/cs/rest/original/languagetool/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="4756" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4780" font-family="sans-serif" font-size="16">REST_Go · GitHub</text></a>
+<path d="M345 1130 H390 V4820 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/yuming2002/other/blob/af367e1807459c543dcbd059970c5c5f778c4027/AutoRestTest/aratrl-service/jdk8_1/cs/rest/original/languagetool/languagetool-language-modules/ca/src/main/resources/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="4801" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4825" font-family="sans-serif" font-size="16">other · GitHub</text></a>
+<path d="M345 1130 H390 V4865 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/ziyao233/mips-alpine-aports/blob/307f7bf7ba179f9ec986daa7366f28b5b674d597/testing/hunspell-ca-es/APKBUILD" target="_blank">
+<rect x="430" y="4846" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4870" font-family="sans-serif" font-size="16">mips-alpine-aports · GitHub</text></a>
+<path d="M345 1130 H390 V4910 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/zrygan/LanguageTool-Case-Study/blob/a236d5002dbf42c6fe0cd71fa92448c139908a45/org/languagetool/resource/ca/README.txt" target="_blank">
+<rect x="430" y="4891" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="4915" font-family="sans-serif" font-size="16">LanguageTool-Case-Study · GitHub</text></a>
+<rect x="35" y="5000" width="310" height="42" rx="8" fill="#295c9c"/>
+<text x="50" y="5027" fill="white" font-family="sans-serif" font-size="17">nmt-softcatala</text>
+<path d="M345 5020 H390 V5020 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/xezpeleta/itzune-models/blob/2c9f1f7db95fbaca030e169ef625a48c2bfbeafd/languages/master-language/bleu.sh" target="_blank">
+<rect x="430" y="5001" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5025" font-family="sans-serif" font-size="16">itzune-models · GitHub</text></a>
+<rect x="35" y="5110" width="310" height="42" rx="8" fill="#295c9c"/>
+<text x="50" y="5137" fill="white" font-family="sans-serif" font-size="17">open-dubbing</text>
+<path d="M345 5130 H390 V5130 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/fscholze/uploader-recny-model-server/blob/18ecbff18111d57c8085193e65a518783eb9128a/docker/Dockerfile.dubbing" target="_blank">
+<rect x="430" y="5111" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5135" font-family="sans-serif" font-size="16">uploader-recny-model-server · GitHub</text></a>
+<path d="M345 5130 H390 V5175 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/kotet/opendubbing-docker/blob/b68d986afb5c59b86cc068dd1bc36f109c916d8e/pyproject.toml" target="_blank">
+<rect x="430" y="5156" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5180" font-family="sans-serif" font-size="16">opendubbing-docker · GitHub</text></a>
+<path d="M345 5130 H390 V5220 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/meherubahasin/dubbing_project/blob/fd850859f23750b22b71f763a3e3c74640c07e45/src/dubbing/open_dubber.py" target="_blank">
+<rect x="430" y="5201" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5225" font-family="sans-serif" font-size="16">dubbing_project · GitHub</text></a>
+<rect x="35" y="5310" width="310" height="42" rx="8" fill="#295c9c"/>
+<text x="50" y="5337" fill="white" font-family="sans-serif" font-size="17">sinonims-cat</text>
+<path d="M345 5330 H390 V5330 H430" fill="none" stroke="#295c9c"/>
+<a href="https://src.fedoraproject.org/rpms/mythes-ca/raw/rawhide/f/mythes-ca.spec" target="_blank">
+<rect x="430" y="5311" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5335" font-family="sans-serif" font-size="16">Fedora · Fedora</text></a>
+<path d="M345 5330 H390 V5375 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/altlinux/specs/blob/06e48fd9ce0732df35f7c42bd099d6bd5bdb9fdf/m/mythes-ca/mythes-ca.spec" target="_blank">
+<rect x="430" y="5356" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5380" font-family="sans-serif" font-size="16">specs · GitHub</text></a>
+<rect x="35" y="5465" width="310" height="42" rx="8" fill="#295c9c"/>
+<text x="50" y="5492" fill="white" font-family="sans-serif" font-size="17">whisper-ctranslate2</text>
+<path d="M345 5485 H390 V5485 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/0x0lor1n/the-hive/blob/a9aeddb5a21284b34451f47dde1cfef2b8bd79d4/cells/workstation/packages/transcribe.nix" target="_blank">
+<rect x="430" y="5466" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5490" font-family="sans-serif" font-size="16">the-hive · GitHub</text></a>
+<path d="M345 5485 H390 V5530 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/21522009-spec/StReAm/blob/900601ed7d8232387d2e05a8ce97c38b37b74138/packages/tests/requirements.txt" target="_blank">
+<rect x="430" y="5511" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5535" font-family="sans-serif" font-size="16">StReAm · GitHub</text></a>
+<path d="M345 5485 H390 V5575 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/3lswear/scripts/blob/31686013f54f91854f71b89ffd766e78a9875c47/vid-add-subtitle.sh" target="_blank">
+<rect x="430" y="5556" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5580" font-family="sans-serif" font-size="16">scripts · GitHub</text></a>
+<path d="M345 5485 H390 V5620 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/6th-Sem-Projects/SonicSeeker/blob/0d2669e3c51a580c9cb1889db87d57982aa925b5/src/whisper/transcribe.py" target="_blank">
+<rect x="430" y="5601" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5625" font-family="sans-serif" font-size="16">SonicSeeker · GitHub</text></a>
+<path d="M345 5485 H390 V5665 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/7onez/cti-expert/blob/e05f986934cab234a952e457bcfbb72fed693bcc/scripts/install.sh" target="_blank">
+<rect x="430" y="5646" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5670" font-family="sans-serif" font-size="16">cti-expert · GitHub</text></a>
+<path d="M345 5485 H390 V5710 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/AD-Thiago/enhanced-audio-chunking-system/blob/aac1c1910e7932786565cab1ee44e5fd6f26c886/package.json" target="_blank">
+<rect x="430" y="5691" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5715" font-family="sans-serif" font-size="16">enhanced-audio-chunking-system · GitHub</text></a>
+<path d="M345 5485 H390 V5755 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Agents365-ai/365-skills/blob/bc55bf9869f366d33863655ba11d6b8e2c728fc6/plugins/yt2bb/skills/yt2bb/srt_utils.py" target="_blank">
+<rect x="430" y="5736" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5760" font-family="sans-serif" font-size="16">365-skills · GitHub</text></a>
+<path d="M345 5485 H390 V5800 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Arcanyx-org/nixpkgs-unstable/blob/e4d2da8509b3be815a7d314132c188085749954c/pkgs/tools/audio/whisper-ctranslate2/default.nix" target="_blank">
+<rect x="430" y="5781" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5805" font-family="sans-serif" font-size="16">nixpkgs-unstable · GitHub</text></a>
+<path d="M345 5485 H390 V5845 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Chocobozzz/PeerTube/blob/faa76bad2c1969a088ef1df38dc666dfe7259b5c/packages/tests/requirements.txt" target="_blank">
+<rect x="430" y="5826" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5850" font-family="sans-serif" font-size="16">PeerTube · GitHub</text></a>
+<path d="M345 5485 H390 V5890 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Curcolor/CLAUDEMAX/blob/65f19196ddcbb0c6506826696629dad9a961479e/bin/uninstall.sh" target="_blank">
+<rect x="430" y="5871" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5895" font-family="sans-serif" font-size="16">CLAUDEMAX · GitHub</text></a>
+<path d="M345 5485 H390 V5935 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/GregHilston/toolbox/blob/d55c77e5da0bcd17f1615795a2e2c2fb8861014b/nixos/hosts/macs/moria/default.nix" target="_blank">
+<rect x="430" y="5916" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5940" font-family="sans-serif" font-size="16">toolbox · GitHub</text></a>
+<path d="M345 5485 H390 V5980 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Hailst0rm1/nixos/blob/0c6275fbd8fa32733baea9e4bd94458fff97e69b/users/hailst0rm/homeManagerModules/hyprland/whisper-stt.nix" target="_blank">
+<rect x="430" y="5961" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="5985" font-family="sans-serif" font-size="16">nixos · GitHub</text></a>
+<path d="M345 5485 H390 V6025 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Haku271/WhisperDesk/blob/2d08c638f84d60f4b309c34da8a3ba1bee87f57b/setup.ps1" target="_blank">
+<rect x="430" y="6006" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6030" font-family="sans-serif" font-size="16">WhisperDesk · GitHub</text></a>
+<path d="M345 5485 H390 V6070 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/InSelfControll/nixos-channel/blob/a608d86fcb1d9cb4e606ac345054f1304f2551b3/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="6051" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6075" font-family="sans-serif" font-size="16">nixos-channel · GitHub</text></a>
+<path d="M345 5485 H390 V6115 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/IslamAbdelslam/yt-auto/blob/2c9d8c9006ea18d4836aad51f9d5c4fd743c5cbe/index.js" target="_blank">
+<rect x="430" y="6096" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6120" font-family="sans-serif" font-size="16">yt-auto · GitHub</text></a>
+<path d="M345 5485 H390 V6160 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/JavierPerezh/CornerstoneProyect/blob/9563b273926ec6ccbf458c2f8a552cef0ccccdca/backend_api/requirements.txt" target="_blank">
+<rect x="430" y="6141" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6165" font-family="sans-serif" font-size="16">CornerstoneProyect · GitHub</text></a>
+<path d="M345 5485 H390 V6205 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Kamillaova/nixpkgs-termux/blob/a7ccad0b2982b2720ce1e6a8cbbaa9bdb6221285/pkgs/tools/audio/whisper-ctranslate2/default.nix" target="_blank">
+<rect x="430" y="6186" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6210" font-family="sans-serif" font-size="16">nixpkgs-termux · GitHub</text></a>
+<path d="M345 5485 H390 V6250 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Knutsi/app-dplanner/blob/b500001287692ecc2de4e40d5ea3da21989c3825/src/dplanner/modules/dictation_whisper/dictation.py" target="_blank">
+<rect x="430" y="6231" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6255" font-family="sans-serif" font-size="16">app-dplanner · GitHub</text></a>
+<path d="M345 5485 H390 V6295 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/LingmoOS-Testing/LingmoNix/blob/51ed3e7d6bb98ed87df322ed519fdf061ffc9949/pkgs/tools/audio/whisper-ctranslate2/default.nix" target="_blank">
+<rect x="430" y="6276" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6300" font-family="sans-serif" font-size="16">LingmoNix · GitHub</text></a>
+<path d="M345 5485 H390 V6340 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/LingmoOS-Testing/nixpkgs/blob/b33a84fddaf04c082553d6f785145a88c6735eee/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="6321" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6345" font-family="sans-serif" font-size="16">nixpkgs · GitHub</text></a>
+<path d="M345 5485 H390 V6385 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Nehaa006/hydrograph_ai/blob/f58960d43b2bcc012e6a25e7ad8c5a4a07ecc5de/requirements.txt" target="_blank">
+<rect x="430" y="6366" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6390" font-family="sans-serif" font-size="16">hydrograph_ai · GitHub</text></a>
+<path d="M345 5485 H390 V6430 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/NixOS/nixpkgs/blob/2f45e44cc987ef65a0fad53b519c2052e2f97fe8/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="6411" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6435" font-family="sans-serif" font-size="16">Nixpkgs (NixOS) · GitHub</text></a>
+<path d="M345 5485 H390 V6475 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Nordln/whisper-ctranslate2-remote-api/blob/28c2a3bae01b6334be8540418b86b52e35026371/Dockerfile" target="_blank">
+<rect x="430" y="6456" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6480" font-family="sans-serif" font-size="16">whisper-ctranslate2-remote-api · GitHub</text></a>
+<path d="M345 5485 H390 V6520 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/O6lvl4/ytscribe/blob/fd096c2d4c10b614b1964936954b99398f2a5203/ytscribe/__init__.py" target="_blank">
+<rect x="430" y="6501" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6525" font-family="sans-serif" font-size="16">ytscribe · GitHub</text></a>
+<path d="M345 5485 H390 V6565 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/OwnTube-tv/peertube-runner/blob/0ce629550e1e4bcb0f3f2b0178cfa6a32b80680f/Dockerfile.v730" target="_blank">
+<rect x="430" y="6546" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6570" font-family="sans-serif" font-size="16">peertube-runner · GitHub</text></a>
+<path d="M345 5485 H390 V6610 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/PedroManse/my-nix-pkgs/blob/d12a598573e9187be6748a056c93125fe6d5d0ab/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="6591" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6615" font-family="sans-serif" font-size="16">my-nix-pkgs · GitHub</text></a>
+<path d="M345 5485 H390 V6655 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/PrimeIntellect-ai/prime-tasks/blob/4e237852707d507b9fcced4f7af63b8a488829be/datasets/tmax/task_003193_34fa2857/environment/post_install.sh" target="_blank">
+<rect x="430" y="6636" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6660" font-family="sans-serif" font-size="16">prime-tasks · GitHub</text></a>
+<path d="M345 5485 H390 V6700 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Qualcomm-AI-research/PhoASR/blob/3360a22915e0b310ffe807ac51e243fa1c87d295/requirements.txt" target="_blank">
+<rect x="430" y="6681" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6705" font-family="sans-serif" font-size="16">PhoASR · GitHub</text></a>
+<path d="M345 5485 H390 V6745 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/RagedUnicorn/docker-whisper/blob/51df6eaefcfa0f87925e86c0aaf964e5ac082d8d/Dockerfile" target="_blank">
+<rect x="430" y="6726" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6750" font-family="sans-serif" font-size="16">docker-whisper · GitHub</text></a>
+<path d="M345 5485 H390 V6790 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/SamirSaidani/meeting-transcriber/blob/89ababb12f1fc295f5a7b4cc85c664eb69a8c0fb/uninstall.sh" target="_blank">
+<rect x="430" y="6771" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6795" font-family="sans-serif" font-size="16">meeting-transcriber · GitHub</text></a>
+<path d="M345 5485 H390 V6835 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Segerberg/whisper_ui/blob/c4e00293dcaddfdc34421792e10bc024335c9c7a/requirements.txt" target="_blank">
+<rect x="430" y="6816" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6840" font-family="sans-serif" font-size="16">whisper_ui · GitHub</text></a>
+<path d="M345 5485 H390 V6880 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Sinchan777/Hackathon_22BTREI017/blob/9fff330e8608e9b45cd0fc56dbec343239f811b9/requirements.txt" target="_blank">
+<rect x="430" y="6861" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6885" font-family="sans-serif" font-size="16">Hackathon_22BTREI017 · GitHub</text></a>
+<path d="M345 5485 H390 V6925 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Thukumo/dotfiles/blob/c17f9fe70b2cef406678941935c8d60c3ac15538/common/desktop/voice-input.nix" target="_blank">
+<rect x="430" y="6906" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6930" font-family="sans-serif" font-size="16">dotfiles · GitHub</text></a>
+<path d="M345 5485 H390 V6970 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/TimePath/nixpkgs-vendored/blob/f6f11d4ec16dad6864a319126805c6b8edf9056c/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="6951" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="6975" font-family="sans-serif" font-size="16">nixpkgs-vendored · GitHub</text></a>
+<path d="M345 5485 H390 V7015 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/UoM-Podcast/docker-whisper-ctranslate2/blob/52e47f95b9d85bb80e8f69ad33461bd04a153944/Dockerfile" target="_blank">
+<rect x="430" y="6996" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7020" font-family="sans-serif" font-size="16">docker-whisper-ctranslate2 · GitHub</text></a>
+<path d="M345 5485 H390 V7060 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Vk18dh/SonicSeeker/blob/46c9934af215eb2b612cdf3201bed2da40c63d88/src/whisper/transcribe.py" target="_blank">
+<rect x="430" y="7041" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7065" font-family="sans-serif" font-size="16">SonicSeeker · GitHub</text></a>
+<path d="M345 5485 H390 V7105 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/Xoma163/petrovich/blob/11b149559dd4d7408546703dd8da522abb2536b7/pyproject.toml" target="_blank">
+<rect x="430" y="7086" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7110" font-family="sans-serif" font-size="16">petrovich · GitHub</text></a>
+<path d="M345 5485 H390 V7150 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/YukinaMochizuki/Shuvirei/blob/c12d575543451ff152b34eeea76fa8d929b9a1e4/build-files/whisper-ctranslate2.Dockerfile" target="_blank">
+<rect x="430" y="7131" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7155" font-family="sans-serif" font-size="16">Shuvirei · GitHub</text></a>
+<path d="M345 5485 H390 V7195 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/a1masssss/almas_nfac_ai_cup/blob/873b2de3f7497b02c4741c04976a15a5fabd17d2/requirements.txt" target="_blank">
+<rect x="430" y="7176" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7200" font-family="sans-serif" font-size="16">almas_nfac_ai_cup · GitHub</text></a>
+<path d="M345 5485 H390 V7240 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/ahmedahmed1223/archive-suite/blob/3d289f5a842cbf373738caaede4311463ea57a53/infra/Dockerfile.whisper-gpu-acceptance" target="_blank">
+<rect x="430" y="7221" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7245" font-family="sans-serif" font-size="16">archive-suite · GitHub</text></a>
+<path d="M345 5485 H390 V7285 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/alexpetro47/.config/blob/d68fe27b5bd09bfe075ebe557d8dfdf9994b7dcd/new-machine-setup/install-packages.sh" target="_blank">
+<rect x="430" y="7266" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7290" font-family="sans-serif" font-size="16">.config · GitHub</text></a>
+<path d="M345 5485 H390 V7330 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/alimansoori/api-core/blob/82967730018e7d3333d9f74d445bc27b55f7c30b/src/mediaserver/transcription/whisper.ts" target="_blank">
+<rect x="430" y="7311" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7335" font-family="sans-serif" font-size="16">api-core · GitHub</text></a>
+<path d="M345 5485 H390 V7375 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/anaxonda/podcast_ads/blob/c8c956df161925c03bfebd6fc9ad45dfd6686168/pyproject.toml" target="_blank">
+<rect x="430" y="7356" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7380" font-family="sans-serif" font-size="16">podcast_ads · GitHub</text></a>
+<path d="M345 5485 H390 V7420 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/arlimus/setup/blob/6d9de8e985c4487e6df0851c53311d6cd92e33cf/files/zero.tools/gensubs.sh" target="_blank">
+<rect x="430" y="7401" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7425" font-family="sans-serif" font-size="16">setup · GitHub</text></a>
+<path d="M345 5485 H390 V7465 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/automatebrisbaneai/peertube/blob/a06c2ea020a353cdf773708832d3fa7c20f47999/packages/tests/requirements.txt" target="_blank">
+<rect x="430" y="7446" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7470" font-family="sans-serif" font-size="16">peertube · GitHub</text></a>
+<path d="M345 5485 H390 V7510 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/bettercallzaal/ZAOOS/blob/086772164abf057dd43a1441200577c6ac202c98/scripts/zao-transcribe.sh" target="_blank">
+<rect x="430" y="7491" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7515" font-family="sans-serif" font-size="16">ZAOOS · GitHub</text></a>
+<path d="M345 5485 H390 V7555 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/brianbest/reel-to-recipe/blob/b394a9a17ea2fe103b2668dab7e6cbc8db68dbe1/cookbook/Dockerfile" target="_blank">
+<rect x="430" y="7536" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7560" font-family="sans-serif" font-size="16">reel-to-recipe · GitHub</text></a>
+<path d="M345 5485 H390 V7600 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/caioalcolea/openrate.talkhub.me/blob/13c00aca48230c9b4bc5af1d374063c2999d1516/apps/worker/Dockerfile" target="_blank">
+<rect x="430" y="7581" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7605" font-family="sans-serif" font-size="16">openrate.talkhub.me · GitHub</text></a>
+<path d="M345 5485 H390 V7645 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/calhounpaul/ML/blob/14b8b691db9193a1ef9cb7d5cfd587f19b426d28/permathings/scripts/est_whisper/workdir/transcribe.sh" target="_blank">
+<rect x="430" y="7626" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7650" font-family="sans-serif" font-size="16">ML · GitHub</text></a>
+<path d="M345 5485 H390 V7690 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/catalan-adobe/skills/blob/7576839462f8648842ed0e4d3e89c762c7116f7c/skills/video-digest/scripts/video-digest.sh" target="_blank">
+<rect x="430" y="7671" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7695" font-family="sans-serif" font-size="16">skills · GitHub</text></a>
+<path d="M345 5485 H390 V7735 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/cccarv82/compressvideo/blob/d6f2a49674576d62f7c065d2164f6ddc228b61be/pkg/transcriber/transcriber.go" target="_blank">
+<rect x="430" y="7716" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7740" font-family="sans-serif" font-size="16">compressvideo · GitHub</text></a>
+<path d="M345 5485 H390 V7780 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/ceonlabs/arcan-nixos-asahi/blob/3f5fbcc8a071e620b3a677e2f64a9c9c38359a88/pkgs/tools/audio/whisper-ctranslate2/default.nix" target="_blank">
+<rect x="430" y="7761" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7785" font-family="sans-serif" font-size="16">arcan-nixos-asahi · GitHub</text></a>
+<path d="M345 5485 H390 V7825 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/codehihe/gemedia/blob/ee9ce201b7a8446831aa3eb8b9ae6da83090181e/packages/tests/requirements.txt" target="_blank">
+<rect x="430" y="7806" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7830" font-family="sans-serif" font-size="16">gemedia · GitHub</text></a>
+<path d="M345 5485 H390 V7870 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/culutralineaeration/amulet/blob/b97f3371c991bc189afccb944e6f37648f97a244/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="7851" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7875" font-family="sans-serif" font-size="16">amulet · GitHub</text></a>
+<path d="M345 5485 H390 V7915 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/daemon-summoner/li-Scripts/blob/f67dc1d6b3da1fa01b6518b6be84215192f893a6/ubuntu_setup.sh" target="_blank">
+<rect x="430" y="7896" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7920" font-family="sans-serif" font-size="16">li-Scripts · GitHub</text></a>
+<path d="M345 5485 H390 V7960 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/dalexander-lbravo/KuriScribe/blob/2c505e450ae071fde6609776e94bcf8f1dad6e77/services/layer2_whisper.py" target="_blank">
+<rect x="430" y="7941" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="7965" font-family="sans-serif" font-size="16">KuriScribe · GitHub</text></a>
+<path d="M345 5485 H390 V8005 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/danny900714/peertube-runner-docker/blob/63b864ddadbabc70b49116a9e9a09e57cd8b618b/Dockerfile" target="_blank">
+<rect x="430" y="7986" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8010" font-family="sans-serif" font-size="16">peertube-runner-docker · GitHub</text></a>
+<path d="M345 5485 H390 V8050 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/dawidkurdyla/wpok-platform/blob/aebf05f67e3a76e2bb823fe8e8e87d7c10bc0d0c/examples/whisper/Dockerfile" target="_blank">
+<rect x="430" y="8031" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8055" font-family="sans-serif" font-size="16">wpok-platform · GitHub</text></a>
+<path d="M345 5485 H390 V8095 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/ddegenaro/speech-processing-project/blob/7c3380b40472d54615ae8a87045618de2a106d49/requirements.txt" target="_blank">
+<rect x="430" y="8076" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8100" font-family="sans-serif" font-size="16">speech-processing-project · GitHub</text></a>
+<path d="M345 5485 H390 V8140 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/ditsuke/nixpkgs-compat/blob/c1f3e2e0b3fceac3471a770d490ecc97018cdeb3/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="8121" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8145" font-family="sans-serif" font-size="16">nixpkgs-compat · GitHub</text></a>
+<path d="M345 5485 H390 V8185 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/dzenanramic/video-translater/blob/16bd2ccc5877d7b3fc238c36404a2ba7dfa3c42f/prevodi_mami.sh" target="_blank">
+<rect x="430" y="8166" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8190" font-family="sans-serif" font-size="16">video-translater · GitHub</text></a>
+<path d="M345 5485 H390 V8230 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/eenokr/est-asr-pipeline/blob/038dd31dcc90375cd1d6035bcbae229f76af3f69/Dockerfile.whisper-gpu" target="_blank">
+<rect x="430" y="8211" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8235" font-family="sans-serif" font-size="16">est-asr-pipeline · GitHub</text></a>
+<path d="M345 5485 H390 V8275 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/eforce67/YT-Transcriber/blob/10e344db36610701d3ecc633e40a6c3731ab8def/requirements.txt" target="_blank">
+<rect x="430" y="8256" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8280" font-family="sans-serif" font-size="16">YT-Transcriber · GitHub</text></a>
+<path d="M345 5485 H390 V8320 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/eljamm/nixos/blob/b552b9b6a1c150e57ee9f7802c9953c5d5b576ce/dev/packages.nix" target="_blank">
+<rect x="430" y="8301" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8325" font-family="sans-serif" font-size="16">nixos · GitHub</text></a>
+<path d="M345 5485 H390 V8365 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/ewaewianda/claude-skills/blob/02bf5c6337beb93aeefc17aa506b11c2318cf0c7/transcribe-anything/scripts/transcribe_local.sh" target="_blank">
+<rect x="430" y="8346" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8370" font-family="sans-serif" font-size="16">claude-skills · GitHub</text></a>
+<path d="M345 5485 H390 V8410 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/fathurwithyou/speech-recognition/blob/0e5665b6abed54433a1e904d7dd8c4654f084627/exp/pyproject.toml" target="_blank">
+<rect x="430" y="8391" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8415" font-family="sans-serif" font-size="16">speech-recognition · GitHub</text></a>
+<path d="M345 5485 H390 V8455 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/fediverse-games/peertube-runner/blob/431ce03603714caff7bb45f5c53e76b2c530ef9a/Dockerfile" target="_blank">
+<rect x="430" y="8436" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8460" font-family="sans-serif" font-size="16">peertube-runner · GitHub</text></a>
+<path d="M345 5485 H390 V8500 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/fernangcortes/gtmais/blob/1776e70002af048c8e235ce24ca9967fd1d71a3b/catalogo/scripts/legendas-whisper.ps1" target="_blank">
+<rect x="430" y="8481" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8505" font-family="sans-serif" font-size="16">gtmais · GitHub</text></a>
+<path d="M345 5485 H390 V8545 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/frbl/nix/blob/94cdeb30bdd46f7dab2f38d8e1faebe93cab5d6e/home.nix" target="_blank">
+<rect x="430" y="8526" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8550" font-family="sans-serif" font-size="16">nix · GitHub</text></a>
+<path d="M345 5485 H390 V8590 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/fscholze/uploader-recny-model-server/blob/18ecbff18111d57c8085193e65a518783eb9128a/src/scripts/create_transcript.sh" target="_blank">
+<rect x="430" y="8571" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8595" font-family="sans-serif" font-size="16">uploader-recny-model-server · GitHub</text></a>
+<path d="M345 5485 H390 V8635 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/fwastring/fwpkgs/blob/fb322b3c8c413c3bd4d5222fe4b9566ab2998c58/pkgs/tools/audio/whisper-ctranslate2/default.nix" target="_blank">
+<rect x="430" y="8616" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8640" font-family="sans-serif" font-size="16">fwpkgs · GitHub</text></a>
+<path d="M345 5485 H390 V8680 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/garnix-io/nixpkgs-test/blob/71205726d4913ad080196eee932fe5dce909262d/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="8661" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8685" font-family="sans-serif" font-size="16">nixpkgs-test · GitHub</text></a>
+<path d="M345 5485 H390 V8725 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/goodnight000/cstack/blob/82993af623404dceffde3a3ac306d35f091c4f16/skills/video-edit/scripts/preflight.py" target="_blank">
+<rect x="430" y="8706" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8730" font-family="sans-serif" font-size="16">cstack · GitHub</text></a>
+<path d="M345 5485 H390 V8770 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/gretagen/Iota-pkgs/blob/098e8e11aa428e839c65e055083de765ed2a3ff6/packages/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="8751" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8775" font-family="sans-serif" font-size="16">Iota-pkgs · GitHub</text></a>
+<path d="M345 5485 H390 V8815 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/guilhermegor/dotfiles-linux-dev/blob/5d05c055a3cda38ab679cb60fb200c7020908d5a/distro_config/install_coding_lib/ai_clients.sh" target="_blank">
+<rect x="430" y="8796" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8820" font-family="sans-serif" font-size="16">dotfiles-linux-dev · GitHub</text></a>
+<path d="M345 5485 H390 V8860 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/guimatheus92/mcp-video-analyzer/blob/9e476c02f8426f5c277ed5e7f5729c1aee75b31a/.github/workflows/ci.yml" target="_blank">
+<rect x="430" y="8841" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8865" font-family="sans-serif" font-size="16">mcp-video-analyzer · GitHub</text></a>
+<path d="M345 5485 H390 V8905 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/hackfest-dev/Hackfest25-56/blob/9fe1794ad3b5d2ddc3caf80a1ded423d8fac397f/src/whisper/transcribe.py" target="_blank">
+<rect x="430" y="8886" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8910" font-family="sans-serif" font-size="16">Hackfest25-56 · GitHub</text></a>
+<path d="M345 5485 H390 V8950 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/haruocode/video-transcriptor/blob/2b37eeec016facadf97fdd7a34bb9e1f87e72908/Dockerfile" target="_blank">
+<rect x="430" y="8931" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="8955" font-family="sans-serif" font-size="16">video-transcriptor · GitHub</text></a>
+<path d="M345 5485 H390 V8995 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/highbrow-228/rozmova-scribe/blob/bac2b9ff62b914b092df38bdbc516470425105fd/run.sh" target="_blank">
+<rect x="430" y="8976" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9000" font-family="sans-serif" font-size="16">rozmova-scribe · GitHub</text></a>
+<path d="M345 5485 H390 V9040 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/iamNoah1/whisperbatch/blob/773ee93aaa3a1887ba979161b85703e71cee5bc2/Dockerfile.release" target="_blank">
+<rect x="430" y="9021" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9045" font-family="sans-serif" font-size="16">whisperbatch · GitHub</text></a>
+<path d="M345 5485 H390 V9085 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/ixtlanets/nix-config/blob/2a0a12e859ef2cf74cd679de32a5f77fb3a60318/modules/home-manager/whisper.nix" target="_blank">
+<rect x="430" y="9066" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9090" font-family="sans-serif" font-size="16">nix-config · GitHub</text></a>
+<path d="M345 5485 H390 V9130 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/iynaix/dotfiles/blob/dfe2e6d1544f95601a87fffcc07a434b78e4fa57/modules/gui/mpv/subtitles.nix" target="_blank">
+<rect x="430" y="9111" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9135" font-family="sans-serif" font-size="16">dotfiles · GitHub</text></a>
+<path d="M345 5485 H390 V9175 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/jfisbein/whisper-ui/blob/34da99ef612e5e44895d705418d5dbbbcd63b6c7/ui/transcribe.sh" target="_blank">
+<rect x="430" y="9156" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9180" font-family="sans-serif" font-size="16">whisper-ui · GitHub</text></a>
+<path d="M345 5485 H390 V9220 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/jim80net/podcast_reader/blob/2752689b8b5cbfb3b5172f89e52d82b1544508f2/pyproject.toml" target="_blank">
+<rect x="430" y="9201" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9225" font-family="sans-serif" font-size="16">podcast_reader · GitHub</text></a>
+<path d="M345 5485 H390 V9265 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/juicie-brucie/brucenix/blob/465dc3616abba59673c6703569ef1629bc9a93f2/future/nixpkgs-openfoam/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="9246" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9270" font-family="sans-serif" font-size="16">brucenix · GitHub</text></a>
+<path d="M345 5485 H390 V9310 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/jveldboom/video-swear-jar/blob/98c373a9dffe0c935f0466a48d1ae4a2876da14d/Dockerfile" target="_blank">
+<rect x="430" y="9291" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9315" font-family="sans-serif" font-size="16">video-swear-jar · GitHub</text></a>
+<path d="M345 5485 H390 V9355 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/k1ng440/dotfiles.nix/blob/4485acfe6a0c03cd0a24635f369004d7be1b255f/modules/gui/mpv/subtitles.nix" target="_blank">
+<rect x="430" y="9336" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9360" font-family="sans-serif" font-size="16">dotfiles.nix · GitHub</text></a>
+<path d="M345 5485 H390 V9400 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/keewai704/nixos-configuration/blob/3494eca8459e6ee17608c5ad1402308f38791d5a/pkgs/whisper-ctranslate2-cuda/default.nix" target="_blank">
+<rect x="430" y="9381" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9405" font-family="sans-serif" font-size="16">nixos-configuration · GitHub</text></a>
+<path d="M345 5485 H390 V9445 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/keimaruO/Cliptogen/blob/9da71cd30ab9ba341e0fae29b82b469abb8b2d24/requirements.txt" target="_blank">
+<rect x="430" y="9426" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9450" font-family="sans-serif" font-size="16">Cliptogen · GitHub</text></a>
+<path d="M345 5485 H390 V9490 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/keimaruO/Speach2cut/blob/dc8872499a198f1e3cb5a03924e81a480542e83b/requirements.txt" target="_blank">
+<rect x="430" y="9471" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9495" font-family="sans-serif" font-size="16">Speach2cut · GitHub</text></a>
+<path d="M345 5485 H390 V9535 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/kevin-kuantso/Dev-Agent-Skills/blob/f891a8564486fe2979ad1c806043b22e6fc3de1f/audio-to-text/scripts/transcribe.sh" target="_blank">
+<rect x="430" y="9516" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9540" font-family="sans-serif" font-size="16">Dev-Agent-Skills · GitHub</text></a>
+<path d="M345 5485 H390 V9580 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/ksyasuda/dotfiles/blob/bc251a26f09908aac28b3dc1094aa14999174cbd/projects/scripts/whisper_record_transcribe.py" target="_blank">
+<rect x="430" y="9561" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9585" font-family="sans-serif" font-size="16">dotfiles · GitHub</text></a>
+<path d="M345 5485 H390 V9625 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/latticemental/content-creator/blob/dcd4819c9bf28500504d4f2c465ec9857c192f53/requirements.txt" target="_blank">
+<rect x="430" y="9606" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9630" font-family="sans-serif" font-size="16">content-creator · GitHub</text></a>
+<path d="M345 5485 H390 V9670 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/levinion/dotfiles/blob/2cfbc7571f64d0445dc5c160a72fefeb9bd38f98/common/zsh/.config/zsh/conf.d/alias.sh" target="_blank">
+<rect x="430" y="9651" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9675" font-family="sans-serif" font-size="16">dotfiles · GitHub</text></a>
+<path d="M345 5485 H390 V9715 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/liu-qingyuan/faster_whisper_gradio/blob/dc192a79c3459ee643a3011044897f8d4847be24/requirements.txt" target="_blank">
+<rect x="430" y="9696" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9720" font-family="sans-serif" font-size="16">faster_whisper_gradio · GitHub</text></a>
+<path d="M345 5485 H390 V9760 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/longlene/clx/blob/f0a272a52055df7045b49f8f8fb9d0c71d31230b/sci-ml/whisper-ctranslate2/whisper-ctranslate2-0.5.2.ebuild" target="_blank">
+<rect x="430" y="9741" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9765" font-family="sans-serif" font-size="16">clx · GitHub</text></a>
+<path d="M345 5485 H390 V9805 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/luis-caldas/nix/blob/fb7ee0b2664a22e8469a7138ecb8f171f04af254/common/manager/user/packages.nix" target="_blank">
+<rect x="430" y="9786" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9810" font-family="sans-serif" font-size="16">nix · GitHub</text></a>
+<path d="M345 5485 H390 V9850 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/lukegb/nixpkgs256/blob/6f16f72aa3ddacf661c1fc8a7f4524242653a39710f6a673ceac3db94cff5468/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="9831" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9855" font-family="sans-serif" font-size="16">nixpkgs256 · GitHub</text></a>
+<path d="M345 5485 H390 V9895 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/madEffort/content-caption-maker/blob/a430323dd6acf8bc05abef45bbd9a4af6dfb7073/requirements.txt" target="_blank">
+<rect x="430" y="9876" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9900" font-family="sans-serif" font-size="16">content-caption-maker · GitHub</text></a>
+<path d="M345 5485 H390 V9940 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/maplenote/mp4ToWhisper/blob/e0389e0b8e6057a6063344f222af5b9d50f9edca/pyproject.toml" target="_blank">
+<rect x="430" y="9921" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9945" font-family="sans-serif" font-size="16">mp4ToWhisper · GitHub</text></a>
+<path d="M345 5485 H390 V9985 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/marcosaccioly/transcritor-local/blob/c2e4c6da643e3a0c53e43b59a50b33cb4c85e712/tools/requirements.txt" target="_blank">
+<rect x="430" y="9966" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="9990" font-family="sans-serif" font-size="16">transcritor-local · GitHub</text></a>
+<path d="M345 5485 H390 V10030 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/mathusanm6/Amaze-Voice-Lab/blob/f685cc62c68b6cdd200789a38641dacb1e223111/src/main/exe/whisper/whisper.sh" target="_blank">
+<rect x="430" y="10011" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10035" font-family="sans-serif" font-size="16">Amaze-Voice-Lab · GitHub</text></a>
+<path d="M345 5485 H390 V10075 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/mauricio-gomez1/Entrevistas/blob/8d3c63eb67fdfe3e36a786f53642cc7bafba0cb3/requirements.txt" target="_blank">
+<rect x="430" y="10056" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10080" font-family="sans-serif" font-size="16">Entrevistas · GitHub</text></a>
+<path d="M345 5485 H390 V10120 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/mbrock/nixpkgs-filc/blob/5d1c2c23569181360e89b1caccb4fc2a40df9788/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="10101" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10125" font-family="sans-serif" font-size="16">nixpkgs-filc · GitHub</text></a>
+<path d="M345 5485 H390 V10165 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/mdaniels5757/unconnected-nixpkgs/blob/06cacabe239addfb472b3014dfbef7bf7e3e4e2f/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="10146" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10170" font-family="sans-serif" font-size="16">unconnected-nixpkgs · GitHub</text></a>
+<path d="M345 5485 H390 V10210 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/mkirch/dotfiles/blob/56c17e1b9aa5b3408cb3ba219b441909bfd65217/scripts/wh.sh" target="_blank">
+<rect x="430" y="10191" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10215" font-family="sans-serif" font-size="16">dotfiles · GitHub</text></a>
+<path d="M345 5485 H390 V10255 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/ohing504/claude-kit/blob/c1a8d81f187b44f3d70b8ededa2e49e3d9059ab5/plugins/claude-kit/skills/iphone-notes-digest/scripts/_env.sh" target="_blank">
+<rect x="430" y="10236" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10260" font-family="sans-serif" font-size="16">claude-kit · GitHub</text></a>
+<path d="M345 5485 H390 V10300 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/openfun/peertube-runner-dockerfile/blob/f04f563d15af4e345582c4987625218f8697a4e3/Dockerfile" target="_blank">
+<rect x="430" y="10281" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10305" font-family="sans-serif" font-size="16">peertube-runner-dockerfile · GitHub</text></a>
+<path d="M345 5485 H390 V10345 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/otherroch/anytran/blob/a1a69098f1d18a3e9c4153c8e18f53d158335c60/src/anytran/whisper_backend.py" target="_blank">
+<rect x="430" y="10326" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10350" font-family="sans-serif" font-size="16">anytran · GitHub</text></a>
+<path d="M345 5485 H390 V10390 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/owaistnt/VoxFree/blob/b99f4cf9ab1943f2ba23356f03f5d945d43a7ba9/voxfree-doctor.sh" target="_blank">
+<rect x="430" y="10371" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10395" font-family="sans-serif" font-size="16">VoxFree · GitHub</text></a>
+<path d="M345 5485 H390 V10435 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/paulocoutinhox/py-transcriptor-ai/blob/14ff91e4bbb76d57469249e7f7a62e795d676cc8/.github/workflows/build.yml" target="_blank">
+<rect x="430" y="10416" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10440" font-family="sans-serif" font-size="16">py-transcriptor-ai · GitHub</text></a>
+<path d="M345 5485 H390 V10480 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/paulpacifico/shutter-encoder/blob/ad0cae5ce81b72ca458c4d75d9dd5494fff7a6d3/src/shutterencoder/library/WHISPER.java" target="_blank">
+<rect x="430" y="10461" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10485" font-family="sans-serif" font-size="16">shutter-encoder · GitHub</text></a>
+<path d="M345 5485 H390 V10525 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/pedrolemos4/video-generator/blob/2860d6f2d6bf91eb8cb2a9de865f72a558d9385c/requirements.txt" target="_blank">
+<rect x="430" y="10506" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10530" font-family="sans-serif" font-size="16">video-generator · GitHub</text></a>
+<path d="M345 5485 H390 V10570 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/pfasante/pnp-sw5e/blob/1692d1c0bea3f498162688ea50b883c13c9433b7/pyproject.toml" target="_blank">
+<rect x="430" y="10551" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10575" font-family="sans-serif" font-size="16">pnp-sw5e · GitHub</text></a>
+<path d="M345 5485 H390 V10615 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/phanirithvij/nixpkgs-compressed/blob/94e0f173a77ffc77f56fe690f842af085007b574/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="10596" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10620" font-family="sans-serif" font-size="16">nixpkgs-compressed · GitHub</text></a>
+<path d="M345 5485 H390 V10660 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/pickae/medialibrarian/blob/66ae2437554d1e0103784cfaccceb1626d314f39/tests/lib/test_commentarytranscription.py" target="_blank">
+<rect x="430" y="10641" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10665" font-family="sans-serif" font-size="16">medialibrarian · GitHub</text></a>
+<path d="M345 5485 H390 V10705 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/potejj/coss.coss.godot/blob/738b066dc06aa6d14d3a7ac5fadeb35480380868/pkgs/tools/audio/whisper-ctranslate2/default.nix" target="_blank">
+<rect x="430" y="10686" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10710" font-family="sans-serif" font-size="16">coss.coss.godot · GitHub</text></a>
+<path d="M345 5485 H390 V10750 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/r0oto0r/transcription-proxy/blob/a56fb23a6f9e95dbd92fe7306b329d91949ab391/Dockerfile.cpu" target="_blank">
+<rect x="430" y="10731" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10755" font-family="sans-serif" font-size="16">transcription-proxy · GitHub</text></a>
+<path d="M345 5485 H390 V10795 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/r1cA18/dotfiles/blob/57dd5b44c041ba479710528e03e65e17dc762c5e/nix/home-manager/programs/zsh.nix" target="_blank">
+<rect x="430" y="10776" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10800" font-family="sans-serif" font-size="16">dotfiles · GitHub</text></a>
+<path d="M345 5485 H390 V10840 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/rafaelcgs10/nix-configs/blob/588ed59758595baf1e5376ab6ba89e7d4f864251/home-manager/home.nix" target="_blank">
+<rect x="430" y="10821" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10845" font-family="sans-serif" font-size="16">nix-configs · GitHub</text></a>
+<path d="M345 5485 H390 V10885 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/rkdarst/srt-tool/blob/24a444ec63fd395a4005e9ef5fe1f1e6fbcf8461/pyproject.toml" target="_blank">
+<rect x="430" y="10866" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10890" font-family="sans-serif" font-size="16">srt-tool · GitHub</text></a>
+<path d="M345 5485 H390 V10930 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/rundes/severo-tronador/blob/fa6243fe3078dfeb531094321296fb584c872401/.github/workflows/radio-pull.yml" target="_blank">
+<rect x="430" y="10911" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10935" font-family="sans-serif" font-size="16">severo-tronador · GitHub</text></a>
+<path d="M345 5485 H390 V10975 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/s-oravec/presentation-local-models/blob/50ec73219d09e321df65e534e1c45e6fecd63837/requirements.txt" target="_blank">
+<rect x="430" y="10956" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="10980" font-family="sans-serif" font-size="16">presentation-local-models · GitHub</text></a>
+<path d="M345 5485 H390 V11020 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/satvikpendem/dotfiles/blob/018bbf6eb46d859d8cc2b8ecc975e46685e2dd26/install.ps1" target="_blank">
+<rect x="430" y="11001" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11025" font-family="sans-serif" font-size="16">dotfiles · GitHub</text></a>
+<path d="M345 5485 H390 V11065 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/shillis13/python/blob/562b3a811542938aefcfa3615165b2de85c6ffef/requirements.txt" target="_blank">
+<rect x="430" y="11046" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11070" font-family="sans-serif" font-size="16">python · GitHub</text></a>
+<path d="M345 5485 H390 V11110 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/stephengpope/phantom-looper/blob/081c9c65785808b0ac15ac988bbeff6e5c424fc9/build/workspace/Dockerfile" target="_blank">
+<rect x="430" y="11091" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11115" font-family="sans-serif" font-size="16">phantom-looper · GitHub</text></a>
+<path d="M345 5485 H390 V11155 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/struktured-labs/dr-mario-te/blob/d730ed3162fc5d49a007ea7f4b1409bc341ce36c/experiments/eval47/film_20260809/stt_raw/run_stt.sh" target="_blank">
+<rect x="430" y="11136" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11160" font-family="sans-serif" font-size="16">dr-mario-te · GitHub</text></a>
+<path d="M345 5485 H390 V11200 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/sufficit/sufficit-vscode-symposium/blob/54e77d345bbdb58205c695686c62f84da81c1d6b/src/voice/sttEngines.ts" target="_blank">
+<rect x="430" y="11181" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11205" font-family="sans-serif" font-size="16">sufficit-vscode-symposium · GitHub</text></a>
+<path d="M345 5485 H390 V11245 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/taka-wang/docker-whisper/blob/3d131be9d905e6a2a43cd06d5086d0f7a2ec2c54/requirements.txt" target="_blank">
+<rect x="430" y="11226" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11250" font-family="sans-serif" font-size="16">docker-whisper · GitHub</text></a>
+<path d="M345 5485 H390 V11290 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/taltechnlp/est-asr-pipeline/blob/2151df14b2c796e19f12d1662c58c2036049f3a1/Dockerfile.whisper-gpu" target="_blank">
+<rect x="430" y="11271" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11295" font-family="sans-serif" font-size="16">est-asr-pipeline · GitHub</text></a>
+<path d="M345 5485 H390 V11335 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/tchanny/nook/blob/f72e9ff684a2ce0479209ef0af92a1b0efed141a/nook ai/private ai note/nook_engine/transcriber.py" target="_blank">
+<rect x="430" y="11316" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11340" font-family="sans-serif" font-size="16">nook · GitHub</text></a>
+<path d="M345 5485 H390 V11380 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/tildemark/anime-subber/blob/de678e2c9bc1394d8aa08bb43f2799cf043fd052/wrappers/ps1/encode_simple.ps1" target="_blank">
+<rect x="430" y="11361" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11385" font-family="sans-serif" font-size="16">anime-subber · GitHub</text></a>
+<path d="M345 5485 H390 V11425 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/tograf/sidebrain/blob/ae5b2b9ef8294299f989d8a3f7f51e3936143789/.claude/skills/download-video/scripts/yt-fetch.sh" target="_blank">
+<rect x="430" y="11406" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11430" font-family="sans-serif" font-size="16">sidebrain · GitHub</text></a>
+<path d="M345 5485 H390 V11470 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/torreirow/torreirow-nixos/blob/e06fb603644800d62b1e64aca27a7f723dae395a/home/module/meeting-record/default.nix" target="_blank">
+<rect x="430" y="11451" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11475" font-family="sans-serif" font-size="16">torreirow-nixos · GitHub</text></a>
+<path d="M345 5485 H390 V11515 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/unattended-backpack/petros/blob/b43831d2b2999b92ed1354403fa46edb1c6e5c41/src/nixpkgs/pkgs/by-name/wh/whisper-ctranslate2/package.nix" target="_blank">
+<rect x="430" y="11496" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11520" font-family="sans-serif" font-size="16">petros · GitHub</text></a>
+<path d="M345 5485 H390 V11560 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/verilog15/repos8/blob/0ad5615043085270c28fa4c563150d9cea3302df/1744833582-Chocobozzz-PeerTube/packages/tests/requirements.txt" target="_blank">
+<rect x="430" y="11541" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11565" font-family="sans-serif" font-size="16">repos8 · GitHub</text></a>
+<path d="M345 5485 H390 V11605 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/viniss211/Video-editing-automation/blob/57a2fd9615a6d41be9f89ab70608510b78d15747/legenda/py-transcriptor-ai-main/.github/workflows/build.yml" target="_blank">
+<rect x="430" y="11586" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11610" font-family="sans-serif" font-size="16">Video-editing-automation · GitHub</text></a>
+<path d="M345 5485 H390 V11650 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/wildananugrah/clip/blob/966abbfd3ca2bc074682e2ae72cb1c17e595fd50/worker/python/requirements.txt" target="_blank">
+<rect x="430" y="11631" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11655" font-family="sans-serif" font-size="16">clip · GitHub</text></a>
+<path d="M345 5485 H390 V11695 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/xav-ie/dots/blob/da398572871ee5af172084f067175a06493ae3ae/packages/whisper-transcribe/default.nix" target="_blank">
+<rect x="430" y="11676" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11700" font-family="sans-serif" font-size="16">dots · GitHub</text></a>
+<path d="M345 5485 H390 V11740 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/xhos/nix/blob/9633644e8788f1d42b20b6a37a36566503aa1a05/pkgs/whspr.nix" target="_blank">
+<rect x="430" y="11721" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11745" font-family="sans-serif" font-size="16">nix · GitHub</text></a>
+<path d="M345 5485 H390 V11785 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/xiaopengde/murmur/blob/eef63ab1197ff04e3a84cac2f997e6b13cf3edb3/scripts/pipeline.py" target="_blank">
+<rect x="430" y="11766" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11790" font-family="sans-serif" font-size="16">murmur · GitHub</text></a>
+<path d="M345 5485 H390 V11830 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/y0ug/nix-config/blob/a03cf9631721068cd4c5a528c2c0cf94ba0ab50d/modules/home/packages/work.nix" target="_blank">
+<rect x="430" y="11811" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11835" font-family="sans-serif" font-size="16">nix-config · GitHub</text></a>
+<path d="M345 5485 H390 V11875 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/yshestakov/lecture-processing/blob/cf67d28c6ffbfb4a01986f123fa1c4ff683127f6/requirements.txt" target="_blank">
+<rect x="430" y="11856" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11880" font-family="sans-serif" font-size="16">lecture-processing · GitHub</text></a>
+<path d="M345 5485 H390 V11920 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/zbryikt/summarize-youtube/blob/84c38c45fb59965dca991ef1cdb2731865aad4e9/requirements.txt" target="_blank">
+<rect x="430" y="11901" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11925" font-family="sans-serif" font-size="16">summarize-youtube · GitHub</text></a>
+<path d="M345 5485 H390 V11965 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/zhangj012595-cloud/youtube-watcher-pro/blob/5ac5c706663ee31a48fa51c1e9101cc6ceeac46c/scripts/speech_to_text_flexible.py" target="_blank">
+<rect x="430" y="11946" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="11970" font-family="sans-serif" font-size="16">youtube-watcher-pro · GitHub</text></a>
+<path d="M345 5485 H390 V12010 H430" fill="none" stroke="#295c9c"/>
+<a href="https://github.com/zshmeta/whispc-api/blob/3e0e76d9e73bed8a99abbb5ee552cf7ba1f248a7/Dockerfile" target="_blank">
+<rect x="430" y="11991" width="920" height="36" rx="7" fill="#eef3fa"/>
+<text x="445" y="12015" font-family="sans-serif" font-size="16">whispc-api · GitHub</text></a>
+</svg>

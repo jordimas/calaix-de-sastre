@@ -1,0 +1,282 @@
+[
+  {
+    "platform": "Debian",
+    "project": "Firefox",
+    "project_name": "Firefox",
+    "project_url": "https://packages.debian.org/stable/firefox-esr-l10n-ca",
+    "resource": "catalan-dict-tools",
+    "status": "confirmed",
+    "type": "third_party_integration",
+    "path": "firefox-esr-l10n-ca/Recommends",
+    "evidence_url": "https://packages.debian.org/stable/firefox-esr-l10n-ca",
+    "hits": [
+      {
+        "line": 0,
+        "text": "Recommends: hunspell-ca"
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "integration_note": "hunspell-ca recomanat a Debian",
+    "integration_kind": "recommended",
+    "package_version": "140.15.0esr-1~deb13u1",
+    "index_url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+    "index_sha256": "7778d3e3f303b7ddb8ce0fe7c8d57473a076c6bf2e8f241f75421d2396352498",
+    "supporting_evidence": [
+      {
+        "url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+        "description": "Dependència exacta a Packages"
+      },
+      {
+        "url": "https://www.softcatala.org/wiki/Corrector_ortogr%C3%A0fic",
+        "description": "Origen o atribució del recurs"
+      }
+    ]
+  },
+  {
+    "platform": "Debian",
+    "project": "Thunderbird",
+    "project_name": "Thunderbird",
+    "project_url": "https://packages.debian.org/stable/thunderbird-l10n-ca",
+    "resource": "catalan-dict-tools",
+    "status": "confirmed",
+    "type": "third_party_integration",
+    "path": "thunderbird-l10n-ca/Recommends",
+    "evidence_url": "https://packages.debian.org/stable/thunderbird-l10n-ca",
+    "hits": [
+      {
+        "line": 0,
+        "text": "Recommends: hunspell-ca | myspell-ca"
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "integration_note": "hunspell-ca recomanat com a alternativa a Debian",
+    "integration_kind": "alternative",
+    "package_version": "1:140.12.0esr-1~deb13u1",
+    "index_url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+    "index_sha256": "7778d3e3f303b7ddb8ce0fe7c8d57473a076c6bf2e8f241f75421d2396352498",
+    "supporting_evidence": [
+      {
+        "url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+        "description": "Dependència exacta a Packages"
+      },
+      {
+        "url": "https://www.softcatala.org/wiki/Corrector_ortogr%C3%A0fic",
+        "description": "Origen o atribució del recurs"
+      }
+    ]
+  },
+  {
+    "platform": "Debian",
+    "project": "LibreOffice",
+    "project_name": "LibreOffice",
+    "project_url": "https://packages.debian.org/stable/libreoffice-l10n-ca",
+    "resource": "catalan-dict-tools",
+    "status": "confirmed",
+    "type": "third_party_integration",
+    "path": "libreoffice-l10n-ca/Suggests",
+    "evidence_url": "https://packages.debian.org/stable/libreoffice-l10n-ca",
+    "hits": [
+      {
+        "line": 0,
+        "text": "Suggests: mythes-ca"
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "integration_note": "mythes-ca suggerit a Debian · tesaurus amb atribució Softcatalà",
+    "integration_kind": "suggested",
+    "package_version": "4:25.2.3-2+deb13u6",
+    "index_url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+    "index_sha256": "7778d3e3f303b7ddb8ce0fe7c8d57473a076c6bf2e8f241f75421d2396352498",
+    "supporting_evidence": [
+      {
+        "url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+        "description": "Dependència exacta a Packages"
+      },
+      {
+        "url": "https://metadata.ftp-master.debian.org/changelogs/main/libr/libreoffice-dictionaries/stable_copyright",
+        "description": "Origen o atribució del recurs"
+      }
+    ]
+  },
+  {
+    "platform": "Debian",
+    "project": "Lomiri Keyboard",
+    "project_name": "Lomiri Keyboard",
+    "project_url": "https://packages.debian.org/stable/lomiri-keyboard-catalan",
+    "resource": "catalan-dict-tools",
+    "status": "confirmed",
+    "type": "third_party_integration",
+    "path": "lomiri-keyboard-catalan/Depends",
+    "evidence_url": "https://packages.debian.org/stable/lomiri-keyboard-catalan",
+    "hits": [
+      {
+        "line": 0,
+        "text": "Depends: hunspell-ca"
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "integration_note": "hunspell-ca obligatori a Debian",
+    "integration_kind": "mandatory",
+    "package_version": "1.0.3-1",
+    "index_url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+    "index_sha256": "7778d3e3f303b7ddb8ce0fe7c8d57473a076c6bf2e8f241f75421d2396352498",
+    "supporting_evidence": [
+      {
+        "url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+        "description": "Dependència exacta a Packages"
+      },
+      {
+        "url": "https://www.softcatala.org/wiki/Corrector_ortogr%C3%A0fic",
+        "description": "Origen o atribució del recurs"
+      }
+    ]
+  },
+  {
+    "platform": "Debian",
+    "project": "Privacy Browser",
+    "project_name": "Privacy Browser",
+    "project_url": "https://packages.debian.org/stable/privacybrowser",
+    "resource": "catalan-dict-tools",
+    "status": "confirmed",
+    "type": "third_party_integration",
+    "path": "privacybrowser/Suggests",
+    "evidence_url": "https://packages.debian.org/stable/privacybrowser",
+    "hits": [
+      {
+        "line": 0,
+        "text": "Suggests: hunspell-ca"
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "integration_note": "hunspell-ca suggerit a Debian",
+    "integration_kind": "suggested",
+    "package_version": "0.8-1",
+    "index_url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+    "index_sha256": "7778d3e3f303b7ddb8ce0fe7c8d57473a076c6bf2e8f241f75421d2396352498",
+    "supporting_evidence": [
+      {
+        "url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+        "description": "Dependència exacta a Packages"
+      },
+      {
+        "url": "https://www.softcatala.org/wiki/Corrector_ortogr%C3%A0fic",
+        "description": "Origen o atribució del recurs"
+      }
+    ]
+  },
+  {
+    "platform": "Debian",
+    "project": "Debian · grups de paquets",
+    "project_name": "Debian · grups de paquets",
+    "project_url": "https://packages.debian.org/stable/forensics-extra",
+    "resource": "catalan-dict-tools",
+    "status": "confirmed",
+    "type": "third_party_integration",
+    "path": "forensics-extra/Depends",
+    "evidence_url": "https://packages.debian.org/stable/forensics-extra",
+    "hits": [
+      {
+        "line": 0,
+        "text": "Depends: wcatalan"
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "integration_note": "forensics-extra: wcatalan obligatori a Debian",
+    "integration_kind": "mandatory",
+    "package_version": "2.58",
+    "index_url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+    "index_sha256": "7778d3e3f303b7ddb8ce0fe7c8d57473a076c6bf2e8f241f75421d2396352498",
+    "supporting_evidence": [
+      {
+        "url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+        "description": "Dependència exacta a Packages"
+      },
+      {
+        "url": "https://www.softcatala.org/wiki/Corrector_ortogr%C3%A0fic",
+        "description": "Origen o atribució del recurs"
+      }
+    ]
+  },
+  {
+    "platform": "Debian",
+    "project": "Debian · grups de paquets",
+    "project_name": "Debian · grups de paquets",
+    "project_url": "https://packages.debian.org/stable/task-catalan",
+    "resource": "catalan-dict-tools",
+    "status": "confirmed",
+    "type": "third_party_integration",
+    "path": "task-catalan/Recommends",
+    "evidence_url": "https://packages.debian.org/stable/task-catalan",
+    "hits": [
+      {
+        "line": 0,
+        "text": "Recommends: aspell-ca"
+      },
+      {
+        "line": 0,
+        "text": "Recommends: icatalan"
+      },
+      {
+        "line": 0,
+        "text": "Recommends: wcatalan"
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "integration_note": "task-catalan: aspell-ca recomanat a Debian; task-catalan: icatalan recomanat a Debian; task-catalan: wcatalan recomanat a Debian",
+    "integration_kind": "recommended",
+    "package_version": "3.81",
+    "index_url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+    "index_sha256": "7778d3e3f303b7ddb8ce0fe7c8d57473a076c6bf2e8f241f75421d2396352498",
+    "supporting_evidence": [
+      {
+        "url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+        "description": "Dependència exacta a Packages"
+      },
+      {
+        "url": "https://www.softcatala.org/wiki/Corrector_ortogr%C3%A0fic",
+        "description": "Origen o atribució del recurs"
+      }
+    ]
+  },
+  {
+    "platform": "Debian",
+    "project": "Debian · grups de paquets",
+    "project_name": "Debian · grups de paquets",
+    "project_url": "https://packages.debian.org/stable/task-catalan-desktop",
+    "resource": "catalan-dict-tools",
+    "status": "confirmed",
+    "type": "third_party_integration",
+    "path": "task-catalan-desktop/Recommends",
+    "evidence_url": "https://packages.debian.org/stable/task-catalan-desktop",
+    "hits": [
+      {
+        "line": 0,
+        "text": "Recommends: hunspell-ca"
+      }
+    ],
+    "fork": false,
+    "stars": 0,
+    "integration_note": "task-catalan-desktop: hunspell-ca recomanat a Debian",
+    "integration_kind": "recommended",
+    "package_version": "3.81",
+    "index_url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+    "index_sha256": "7778d3e3f303b7ddb8ce0fe7c8d57473a076c6bf2e8f241f75421d2396352498",
+    "supporting_evidence": [
+      {
+        "url": "https://deb.debian.org/debian/dists/stable/main/binary-amd64/Packages.xz",
+        "description": "Dependència exacta a Packages"
+      },
+      {
+        "url": "https://www.softcatala.org/wiki/Corrector_ortogr%C3%A0fic",
+        "description": "Origen o atribució del recurs"
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="3020" viewBox="0 0 2800 3020" role="img" aria-labelledby="title description">
+<title id="title">Reutilització de Softcatalà · arbre estàtic</title>
+<desc id="description">Softcatalà al centre, recursos com a branques, organitzacions i projectes com a fulles. Només ús o integració amb evidència; sense forks.</desc>
+<defs><radialGradient id="bg"><stop stop-color="#14283b"/><stop offset="1" stop-color="#060c14"/></radialGradient><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<rect width="100%" height="100%" fill="url(#bg)"/>
+<g fill="#dce9f8" font-family="sans-serif">
+<text x="64" y="72" font-size="42" font-weight="700">Softcatalà · un ecosistema compartit</text>
+<text x="66" y="115" font-size="21" fill="#91a6bf">5 repositoris · 1 recursos · 5 connexions amb evidència d’ús o integració · sense forks</text>
+<text x="66" y="151" font-size="17" fill="#91a6bf">2026-10-04 16:32:38 UTC</text></g>
+<path d="M 1486.93 1496.71 Q 1570.41 1457.42 1662.34 1449.71" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="3.2"/>
+<path d="M 1662.34 1449.71 Q 1559.89 1241.56 1536.45 1010.76" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1.7"/>
+<path d="M 1536.45 1010.76 Q 1547.99 873.26 1606.74 748.42" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1"/>
+<path d="M 1662.34 1449.71 Q 1690.34 1288.52 1772.79 1147.21" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1.7"/>
+<path d="M 1772.79 1147.21 Q 1851.53 1033.90 1964.84 955.16" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1"/>
+<path d="M 1662.34 1449.71 Q 1779.84 1394.41 1909.24 1383.55" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1.7"/>
+<path d="M 1909.24 1383.55 Q 2034.09 1324.79 2171.58 1313.26" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1"/>
+<path d="M 1662.34 1449.71 Q 1804.40 1530.86 1909.24 1656.45" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1.7"/>
+<path d="M 1909.24 1656.45 Q 2046.74 1667.99 2171.58 1726.74" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1"/>
+<path d="M 1662.34 1449.71 Q 1757.44 1661.31 1772.79 1892.79" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1.7"/>
+<path d="M 1772.79 1892.79 Q 1886.10 1971.53 1964.84 2084.84" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1"/>
+<circle cx="1662.34" cy="1449.71" r="18.0" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1662.34" cy="1449.71" r="10" fill="#54e0b2"/>
+<text transform="translate(1662.34 1449.71) rotate(-15.00)" x="18" y="5" text-anchor="start" font-family="sans-serif" font-size="21" fill="#54e0b2" stroke="#09111c" stroke-width="4" paint-order="stroke">CTranslate2</text>
+<g><title>argosopentech · 1 projectes</title><circle cx="1536.45" cy="1010.76" r="9.0" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1536.45" cy="1010.76" r="5" fill="#54e0b2"/></g>
+<a href="https://github.com/argosopentech/argos-translate/blob/17ed1a9b055c5ba1b51d76b683bbb0c64e2a4a88/argostranslate/translate.py" target="_blank"><title>argos-translate
+(https://github.com/argosopentech/argos-translate) · argosopentech/argos-translate · GitHub · code_usage
+argostranslate/translate.py</title><circle cx="1606.74" cy="748.42" r="7.2" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1606.74" cy="748.42" r="4" fill="#54e0b2"/><text transform="translate(1606.74 748.42) rotate(-75.00)" x="12" y="5" text-anchor="start" font-family="sans-serif" font-size="16" fill="#e4eef9" stroke="#09111c" stroke-width="4" paint-order="stroke">argos-translate<tspan x="12" dy="1.3em" font-size="12.8" fill="#91a6bf">(https://github.com/argosopentech/argos-translate)</tspan></text></a>
+<g><title>chidiwilliams · 1 projectes</title><circle cx="1772.79" cy="1147.21" r="9.0" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1772.79" cy="1147.21" r="5" fill="#54e0b2"/></g>
+<a href="https://github.com/chidiwilliams/buzz/blob/100589fd8c492869f2994b525e1092eda81e4e88/pyproject.toml" target="_blank"><title>buzz
+(https://github.com/chidiwilliams/buzz) · chidiwilliams/buzz · GitHub · dependency
+pyproject.toml</title><circle cx="1964.84" cy="955.16" r="7.2" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1964.84" cy="955.16" r="4" fill="#54e0b2"/><text transform="translate(1964.84 955.16) rotate(-45.00)" x="12" y="5" text-anchor="start" font-family="sans-serif" font-size="16" fill="#e4eef9" stroke="#09111c" stroke-width="4" paint-order="stroke">buzz<tspan x="12" dy="1.3em" font-size="12.8" fill="#91a6bf">(https://github.com/chidiwilliams/buzz)</tspan></text></a>
+<g><title>m-bain · 1 projectes</title><circle cx="1909.24" cy="1383.55" r="9.0" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1909.24" cy="1383.55" r="5" fill="#54e0b2"/></g>
+<a href="https://github.com/m-bain/whisperX/blob/771b4a14a9486f8fd5aef18ef49e35d639523dd3/pyproject.toml" target="_blank"><title>whisperX
+(https://github.com/m-bain/whisperX) · m-bain/whisperX · GitHub · dependency
+pyproject.toml</title><circle cx="2171.58" cy="1313.26" r="7.2" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="2171.58" cy="1313.26" r="4" fill="#54e0b2"/><text transform="translate(2171.58 1313.26) rotate(-15.00)" x="12" y="5" text-anchor="start" font-family="sans-serif" font-size="16" fill="#e4eef9" stroke="#09111c" stroke-width="4" paint-order="stroke">whisperX<tspan x="12" dy="1.3em" font-size="12.8" fill="#91a6bf">(https://github.com/m-bain/whisperX)</tspan></text></a>
+<g><title>SYSTRAN · 1 projectes</title><circle cx="1909.24" cy="1656.45" r="9.0" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1909.24" cy="1656.45" r="5" fill="#54e0b2"/></g>
+<a href="https://github.com/SYSTRAN/faster-whisper/blob/7b99be5376b41cd481dfc52e8caa00a497c3294e/faster_whisper/transcribe.py" target="_blank"><title>faster-whisper
+(https://github.com/SYSTRAN/faster-whisper) · SYSTRAN/faster-whisper · GitHub · code_usage
+faster_whisper/transcribe.py</title><circle cx="2171.58" cy="1726.74" r="7.2" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="2171.58" cy="1726.74" r="4" fill="#54e0b2"/><text transform="translate(2171.58 1726.74) rotate(15.00)" x="12" y="5" text-anchor="start" font-family="sans-serif" font-size="16" fill="#e4eef9" stroke="#09111c" stroke-width="4" paint-order="stroke">faster-whisper<tspan x="12" dy="1.3em" font-size="12.8" fill="#91a6bf">(https://github.com/SYSTRAN/faster-whisper)</tspan></text></a>
+<g><title>thecopybookhare-cmd · 1 projectes</title><circle cx="1772.79" cy="1892.79" r="9.0" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1772.79" cy="1892.79" r="5" fill="#54e0b2"/></g>
+<a href="https://github.com/thecopybookhare-cmd/lingua-miner/blob/9a5841fc854fca335cc9d3bef8b8f162670c94af/app/translate.py" target="_blank"><title>lingua-miner
+(https://github.com/thecopybookhare-cmd/lingua-miner) · thecopybookhare-cmd/lingua-miner · GitHub · code_usage
+app/translate.py</title><circle cx="1964.84" cy="2084.84" r="7.2" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1964.84" cy="2084.84" r="4" fill="#54e0b2"/><text transform="translate(1964.84 2084.84) rotate(45.00)" x="12" y="5" text-anchor="start" font-family="sans-serif" font-size="16" fill="#e4eef9" stroke="#09111c" stroke-width="4" paint-order="stroke">lingua-miner<tspan x="12" dy="1.3em" font-size="12.8" fill="#91a6bf">(https://github.com/thecopybookhare-cmd/lingua-miner)</tspan></text></a>
+<circle cx="1400.0" cy="1520.0" r="83" fill="#ffcb70" opacity="0.15" filter="url(#glow)"/>
+<circle cx="1400.0" cy="1520.0" r="78" fill="#122031" stroke="#ffd17b" stroke-width="2"/>
+<text x="1400.0" y="1528.0" text-anchor="middle" font-family="sans-serif" font-size="27" font-weight="700" fill="#ffe1a2">Softcatalà</text>
+<text x="64" y="2952" font-family="sans-serif" font-size="18" fill="#91a6bf">Centre: Softcatalà · branques: recursos · nodes intermedis: organitzacions · fulles: projectes</text>
+<text x="64" y="2984" font-family="sans-serif" font-size="16" fill="#91a6bf">Cada projecte enllaça a una evidència. Les connexions no estimen usuaris ni proven ús en producció.</text>
+</svg>

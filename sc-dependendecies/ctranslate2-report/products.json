@@ -1,0 +1,191 @@
+{
+  "generated_at": "2026-10-04 16:32:38 UTC",
+  "resources": [
+    {
+      "name": "CTranslate2",
+      "terms": [
+        "ctranslate2",
+        "OpenNMT/CTranslate2"
+      ],
+      "queries": [
+        "ctranslate2"
+      ],
+      "source_platform": "GitHub",
+      "source_url": "https://github.com/OpenNMT/CTranslate2",
+      "maintenance_relationship": "manteniment de Softcatalà indicat per l’usuari",
+      "ownership_scope": "externally hosted maintained resource"
+    }
+  ],
+  "findings": [],
+  "warnings": [],
+  "github_searches": [
+    {
+      "files_read": 5,
+      "files_skipped": 0,
+      "query": "\"ctranslate2\" -org:Softcatala repo:SYSTRAN/faster-whisper",
+      "reported_count": 5,
+      "unique_matches": 5,
+      "requests": 1,
+      "partitions": [
+        {
+          "query": "\"ctranslate2\" -org:Softcatala repo:SYSTRAN/faster-whisper",
+          "reported_count": 5,
+          "returned_count": 5,
+          "complete": true
+        }
+      ],
+      "complete": true,
+      "state": "completed"
+    },
+    {
+      "files_read": 3,
+      "files_skipped": 0,
+      "query": "\"ctranslate2\" -org:Softcatala repo:m-bain/whisperX",
+      "reported_count": 3,
+      "unique_matches": 3,
+      "requests": 1,
+      "partitions": [
+        {
+          "query": "\"ctranslate2\" -org:Softcatala repo:m-bain/whisperX",
+          "reported_count": 3,
+          "returned_count": 3,
+          "complete": true
+        }
+      ],
+      "complete": true,
+      "state": "completed"
+    },
+    {
+      "files_read": 8,
+      "files_skipped": 0,
+      "query": "\"ctranslate2\" -org:Softcatala repo:argosopentech/argos-translate",
+      "reported_count": 8,
+      "unique_matches": 8,
+      "requests": 1,
+      "partitions": [
+        {
+          "query": "\"ctranslate2\" -org:Softcatala repo:argosopentech/argos-translate",
+          "reported_count": 8,
+          "returned_count": 8,
+          "complete": true
+        }
+      ],
+      "complete": true,
+      "state": "completed"
+    },
+    {
+      "files_read": 0,
+      "files_skipped": 0,
+      "query": "\"ctranslate2\" -org:Softcatala repo:LibreTranslate/LibreTranslate",
+      "reported_count": 0,
+      "unique_matches": 0,
+      "requests": 1,
+      "partitions": [
+        {
+          "query": "\"ctranslate2\" -org:Softcatala repo:LibreTranslate/LibreTranslate",
+          "reported_count": 0,
+          "returned_count": 0,
+          "complete": true
+        }
+      ],
+      "complete": true,
+      "state": "completed"
+    },
+    {
+      "files_read": 1,
+      "files_skipped": 0,
+      "query": "\"ctranslate2\" -org:Softcatala repo:chidiwilliams/buzz",
+      "reported_count": 1,
+      "unique_matches": 1,
+      "requests": 1,
+      "partitions": [
+        {
+          "query": "\"ctranslate2\" -org:Softcatala repo:chidiwilliams/buzz",
+          "reported_count": 1,
+          "returned_count": 1,
+          "complete": true
+        }
+      ],
+      "complete": true,
+      "state": "completed"
+    },
+    {
+      "files_read": 17,
+      "files_skipped": 0,
+      "query": "\"ctranslate2\" -org:Softcatala repo:thecopybookhare-cmd/lingua-miner",
+      "reported_count": 17,
+      "unique_matches": 17,
+      "requests": 1,
+      "partitions": [
+        {
+          "query": "\"ctranslate2\" -org:Softcatala repo:thecopybookhare-cmd/lingua-miner",
+          "reported_count": 17,
+          "returned_count": 17,
+          "complete": true
+        }
+      ],
+      "complete": true,
+      "state": "completed"
+    }
+  ],
+  "run_status": "completed",
+  "progress": {
+    "completed_steps": 6,
+    "last_step": "GitHub: \"ctranslate2\" -org:Softcatala repo:thecopybookhare-cmd/lingua-miner, page 1"
+  },
+  "scope": {
+    "github_default_branch_only": true,
+    "github_max_results_per_query": 1000,
+    "github_size_partitioning": true,
+    "github_consumer_repositories": [
+      "SYSTRAN/faster-whisper",
+      "m-bain/whisperX",
+      "argosopentech/argos-translate",
+      "LibreTranslate/LibreTranslate",
+      "chidiwilliams/buzz",
+      "thecopybookhare-cmd/lingua-miner"
+    ],
+    "gitlab_instances": [],
+    "gitlab_projects_only": false,
+    "gitlab_explicit_projects": [],
+    "gitlab_extra_search_terms": [],
+    "max_pages": 0,
+    "max_gitlab_files": 0,
+    "max_file_bytes": 393216,
+    "include_forks": false,
+    "exhaustive": false
+  },
+  "view": "products",
+  "products": [],
+  "product_kinds": [
+    "application",
+    "service",
+    "distribution",
+    "library",
+    "developer-tool",
+    "model"
+  ],
+  "unassigned_repositories": [
+    {
+      "project": "argosopentech/argos-translate",
+      "project_url": "https://github.com/argosopentech/argos-translate"
+    },
+    {
+      "project": "chidiwilliams/buzz",
+      "project_url": "https://github.com/chidiwilliams/buzz"
+    },
+    {
+      "project": "m-bain/whisperX",
+      "project_url": "https://github.com/m-bain/whisperX"
+    },
+    {
+      "project": "SYSTRAN/faster-whisper",
+      "project_url": "https://github.com/SYSTRAN/faster-whisper"
+    },
+    {
+      "project": "thecopybookhare-cmd/lingua-miner",
+      "project_url": "https://github.com/thecopybookhare-cmd/lingua-miner"
+    }
+  ],
+  "identity_policy": "Reviewed catalog identities; no inference from vendored paths or repository names"
+}

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="3020" viewBox="0 0 2800 3020" role="img" aria-labelledby="title description">
+<title id="title">Reutilització de Softcatalà · arbre estàtic</title>
+<desc id="description">Softcatalà al centre, recursos com a branques, organitzacions i projectes com a fulles. Només ús o integració amb evidència; sense forks.</desc>
+<defs><radialGradient id="bg"><stop stop-color="#14283b"/><stop offset="1" stop-color="#060c14"/></radialGradient><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<rect width="100%" height="100%" fill="url(#bg)"/>
+<g fill="#dce9f8" font-family="sans-serif">
+<text x="64" y="72" font-size="42" font-weight="700">Softcatalà · un ecosistema compartit</text>
+<text x="66" y="115" font-size="21" fill="#91a6bf">5 repositoris · 1 recursos · 5 connexions amb evidència d’ús o integració · sense forks</text>
+<text x="66" y="151" font-size="17" fill="#91a6bf">2026-10-04 16:45:56 UTC</text></g>
+<path d="M 1486.93 1496.71 Q 1581.53 1452.18 1685.72 1443.44" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="3.2"/>
+<path d="M 1685.72 1443.44 Q 1574.14 1216.74 1548.61 965.37" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1.7"/>
+<path d="M 1548.61 965.37 Q 1561.18 815.61 1625.17 679.64" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1"/>
+<path d="M 1685.72 1443.44 Q 1716.22 1267.88 1806.02 1113.98" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1.7"/>
+<path d="M 1806.02 1113.98 Q 1891.78 990.57 2015.18 904.82" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1"/>
+<path d="M 1685.72 1443.44 Q 1836.85 1455.76 1974.20 1520.00" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1.7"/>
+<path d="M 1974.20 1520.00 Q 2087.01 1383.46 2240.36 1294.83" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1"/>
+<path d="M 1974.20 1520.00 Q 2127.54 1608.63 2240.36 1745.17" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1"/>
+<path d="M 1685.72 1443.44 Q 1789.30 1673.90 1806.02 1926.02" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1.7"/>
+<path d="M 1806.02 1926.02 Q 1929.43 2011.78 2015.18 2135.18" fill="none" stroke="#54e0b2" stroke-opacity="0.5" stroke-width="1"/>
+<circle cx="1685.72" cy="1443.44" r="18.0" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1685.72" cy="1443.44" r="10" fill="#54e0b2"/>
+<text transform="translate(1685.72 1443.44) rotate(-15.00)" x="18" y="5" text-anchor="start" font-family="sans-serif" font-size="21" fill="#54e0b2" stroke="#09111c" stroke-width="4" paint-order="stroke">CTranslate2<tspan x="18" dy="1.3em" font-size="16.8" fill="#91a6bf">(https://github.com/OpenNMT/CTranslate2)</tspan><tspan x="18" dy="1.3em" font-size="16.8" fill="#91a6bf">(manteniment Softcatalà · OpenNMT)</tspan></text>
+<g><title>collabora · 1 projectes</title><circle cx="1548.61" cy="965.37" r="9.0" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1548.61" cy="965.37" r="5" fill="#54e0b2"/></g>
+<a href="https://github.com/collabora/WhisperLive/blob/99cbc1c33b35c372b4790975f819dfde62f3e74a/docker/Dockerfile.rocm" target="_blank"><title>WhisperLive
+(https://github.com/collabora/WhisperLive) · collabora/WhisperLive · GitHub · installation
+docker/Dockerfile.rocm</title><circle cx="1625.17" cy="679.64" r="7.2" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1625.17" cy="679.64" r="4" fill="#54e0b2"/><text transform="translate(1625.17 679.64) rotate(-75.00)" x="12" y="5" text-anchor="start" font-family="sans-serif" font-size="16" fill="#e4eef9" stroke="#09111c" stroke-width="4" paint-order="stroke">WhisperLive<tspan x="12" dy="1.3em" font-size="12.8" fill="#91a6bf">(https://github.com/collabora/WhisperLive)</tspan></text></a>
+<g><title>jhj0517 · 1 projectes</title><circle cx="1806.02" cy="1113.98" r="9.0" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1806.02" cy="1113.98" r="5" fill="#54e0b2"/></g>
+<a href="https://github.com/jhj0517/Whisper-WebUI/blob/c3bb3b18e959826b28b1192486a8d5b361b6a4e0/modules/whisper/base_transcription_pipeline.py" target="_blank"><title>Whisper-WebUI
+(https://github.com/jhj0517/Whisper-WebUI) · jhj0517/Whisper-WebUI · GitHub · code_usage
+modules/whisper/base_transcription_pipeline.py</title><circle cx="2015.18" cy="904.82" r="7.2" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="2015.18" cy="904.82" r="4" fill="#54e0b2"/><text transform="translate(2015.18 904.82) rotate(-45.00)" x="12" y="5" text-anchor="start" font-family="sans-serif" font-size="16" fill="#e4eef9" stroke="#09111c" stroke-width="4" paint-order="stroke">Whisper-WebUI<tspan x="12" dy="1.3em" font-size="12.8" fill="#91a6bf">(https://github.com/jhj0517/Whisper-WebUI)</tspan></text></a>
+<g><title>OpenNMT · 2 projectes</title><circle cx="1974.20" cy="1520.00" r="9.0" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1974.20" cy="1520.00" r="5" fill="#54e0b2"/></g>
+<a href="https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/onmt/bin/release_model.py" target="_blank"><title>OpenNMT-py
+(https://github.com/OpenNMT/OpenNMT-py) · OpenNMT/OpenNMT-py · GitHub · code_usage
+onmt/bin/release_model.py</title><circle cx="2240.36" cy="1294.83" r="7.2" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="2240.36" cy="1294.83" r="4" fill="#54e0b2"/><text transform="translate(2240.36 1294.83) rotate(-15.00)" x="12" y="5" text-anchor="start" font-family="sans-serif" font-size="16" fill="#e4eef9" stroke="#09111c" stroke-width="4" paint-order="stroke">OpenNMT-py<tspan x="12" dy="1.3em" font-size="12.8" fill="#91a6bf">(https://github.com/OpenNMT/OpenNMT-py)</tspan></text></a>
+<a href="https://github.com/OpenNMT/OpenNMT-tf/blob/6f3b952ebb973dec31250a806bf0f56ff730d0b5/opennmt/tests/runner_test.py" target="_blank"><title>OpenNMT-tf
+(https://github.com/OpenNMT/OpenNMT-tf) · OpenNMT/OpenNMT-tf · GitHub · code_usage
+opennmt/tests/runner_test.py</title><circle cx="2240.36" cy="1745.17" r="7.2" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="2240.36" cy="1745.17" r="4" fill="#54e0b2"/><text transform="translate(2240.36 1745.17) rotate(15.00)" x="12" y="5" text-anchor="start" font-family="sans-serif" font-size="16" fill="#e4eef9" stroke="#09111c" stroke-width="4" paint-order="stroke">OpenNMT-tf<tspan x="12" dy="1.3em" font-size="12.8" fill="#91a6bf">(https://github.com/OpenNMT/OpenNMT-tf)</tspan></text></a>
+<g><title>shashikg · 1 projectes</title><circle cx="1806.02" cy="1926.02" r="9.0" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="1806.02" cy="1926.02" r="5" fill="#54e0b2"/></g>
+<a href="https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/requirements.txt" target="_blank"><title>WhisperS2T
+(https://github.com/shashikg/WhisperS2T) · shashikg/WhisperS2T · GitHub · dependency
+requirements.txt</title><circle cx="2015.18" cy="2135.18" r="7.2" fill="#54e0b2" opacity="0.42" filter="url(#glow)"/><circle cx="2015.18" cy="2135.18" r="4" fill="#54e0b2"/><text transform="translate(2015.18 2135.18) rotate(45.00)" x="12" y="5" text-anchor="start" font-family="sans-serif" font-size="16" fill="#e4eef9" stroke="#09111c" stroke-width="4" paint-order="stroke">WhisperS2T<tspan x="12" dy="1.3em" font-size="12.8" fill="#91a6bf">(https://github.com/shashikg/WhisperS2T)</tspan></text></a>
+<circle cx="1400.0" cy="1520.0" r="83" fill="#ffcb70" opacity="0.15" filter="url(#glow)"/>
+<circle cx="1400.0" cy="1520.0" r="78" fill="#122031" stroke="#ffd17b" stroke-width="2"/>
+<text x="1400.0" y="1528.0" text-anchor="middle" font-family="sans-serif" font-size="27" font-weight="700" fill="#ffe1a2">Softcatalà</text>
+<text x="64" y="2952" font-family="sans-serif" font-size="18" fill="#91a6bf">Centre: Softcatalà · branques: recursos · nodes intermedis: organitzacions · fulles: projectes</text>
+<text x="64" y="2984" font-family="sans-serif" font-size="16" fill="#91a6bf">Cada projecte enllaça a una evidència. Les connexions no estimen usuaris ni proven ús en producció.</text>
+</svg>

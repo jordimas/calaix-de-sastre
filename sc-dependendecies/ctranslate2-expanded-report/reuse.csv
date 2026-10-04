@@ -1,0 +1,210 @@
+platform,project,project_name,resource,status,type,path,evidence_url,project_url,stars,evidence
+GitHub,OpenNMT/OpenNMT-py,OpenNMT-py,CTranslate2,needs_review,documentation_reference,CHANGELOG.md,https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/CHANGELOG.md,https://github.com/OpenNMT/OpenNMT-py,7021,"177: * Adapt release code for ctranslate2 2.0
+222: * Some CTranslate2 related updates
+279: * Support CTranslate2 models in REST server (91d5d57)
+284: * Add options to CTranslate2 release (e442f3f)
+291: * Enable CTranslate2 conversion of Transformers with relative position (db11135)
+296: * Ctranslate2 conversion handled in release script (1b50e0c)"
+GitHub,OpenNMT/OpenNMT-py,OpenNMT-py,CTranslate2,needs_review,documentation_reference,README.md,https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/README.md,https://github.com/OpenNMT/OpenNMT-py,7021,45: * Once your model is finetuned you can run inference either with OpenNMT-py or faster with CTranslate2.
+GitHub,OpenNMT/OpenNMT-py,OpenNMT-py,CTranslate2,needs_review,documentation_reference,docs/source/FAQ.md,https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/docs/source/FAQ.md,https://github.com/OpenNMT/OpenNMT-py,7021,"115: * for very fast inference convert your model to CTranslate2 format.
+895: - `ct2_translator_args` and `ct2_translate_batch_args`: (opt) [CTranslate2](https://github.com/OpenNMT/CTranslate2) parameters to use CTranslate2 inference engine. Parameters appearing simultaneously in `opt` and `ct2_(...)_args` must be identical.
+896: - `ct2_model`: (opt) CTranslate2 model path."
+GitHub,OpenNMT/OpenNMT-py,OpenNMT-py,CTranslate2,needs_review,documentation_reference,docs/source/changes.md,https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/docs/source/changes.md,https://github.com/OpenNMT/OpenNMT-py,7021,65: - for very fast inference convert your model to [CTranslate2](https://github.com/OpenNMT/CTranslate2) format.
+GitHub,OpenNMT/OpenNMT-py,OpenNMT-py,CTranslate2,needs_review,documentation_reference,docs/source/examples/replicate_vicuna/ReplicateVicuna.md,https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/docs/source/examples/replicate_vicuna/ReplicateVicuna.md,https://github.com/OpenNMT/OpenNMT-py,7021,"24: - The `chatbot.py` script (for the ctranslate2 inference with a gradio application).
+36: You must also have gradio and ctranslate2 installed in your environment:
+40: pip install ctranslate2==3.14.0
+144: To convert the concatenated checkpoint to ctranslate2 format, run the following command:
+150: --format ctranslate2 \
+156: We provide a gradio chatbot application that can be run with two different inference modes (""py"" or ctranslate2)."
+GitHub,OpenNMT/OpenNMT-py,OpenNMT-py,CTranslate2,needs_review,documentation_reference,docs/source/examples/replicate_vicuna/chatbot.py,https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/docs/source/examples/replicate_vicuna/chatbot.py,https://github.com/OpenNMT/OpenNMT-py,7021,"122: print(""Inference with ctranslate2 ..."")"
+GitHub,OpenNMT/OpenNMT-py,OpenNMT-py,CTranslate2,confirmed,code_usage,onmt/bin/release_model.py,https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/onmt/bin/release_model.py,https://github.com/OpenNMT/OpenNMT-py,7021,"14: choices=[""pytorch"", ""ctranslate2""],
+31: elif opt.format == ""ctranslate2"":
+32: import ctranslate2
+34: converter = ctranslate2.converters.OpenNMTPyConverter(opt.model)"
+GitHub,OpenNMT/OpenNMT-py,OpenNMT-py,CTranslate2,confirmed,code_usage,onmt/inference_engine.py,https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/onmt/inference_engine.py,https://github.com/OpenNMT/OpenNMT-py,7021,"215: """"""Inference engine subclass to run inference with ctranslate2.
+222: import ctranslate2
+239: self.translator = ctranslate2.Generator(
+243: self.translator = ctranslate2.Translator("
+GitHub,OpenNMT/OpenNMT-py,OpenNMT-py,CTranslate2,confirmed,code_usage,onmt/translate/translation_server.py,https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/onmt/translate/translation_server.py,https://github.com/OpenNMT/OpenNMT-py,7021,"88: class CTranslate2Translator(object):
+89: """"""This class wraps the ``ctranslate2.Translator`` object to
+101: import ctranslate2
+103: self.translator = ctranslate2.Translator(model_path, **ct2_translator_args)
+123: "" OpenNMT-py config and in CTranslate2 config""
+495: CTranslate2Translator.convert_onmt_to_ct2_opts(
+498: self.translator = CTranslate2Translator(
+598: if isinstance(self.translator, CTranslate2Translator):
+761: if type(self.translator) == CTranslate2Translator:
+771: if type(self.translator) == CTranslate2Translator:"
+GitHub,OpenNMT/OpenNMT-py,OpenNMT-py,CTranslate2,confirmed,code_usage,onmt/utils/loss.py,https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/onmt/utils/loss.py,https://github.com/OpenNMT/OpenNMT-py,7021,"16: import ctranslate2
+36: lm_generator (:obj:`ctranslate2.Generator`): LM Generator
+123: import ctranslate2
+125: lm_generator = ctranslate2.Generator(
+129: raise ImportError(""Could not import ctranslate2"")
+210: ctranslate2.StorageView.from_array(src[:, :, 0].to(torch.int32)),
+211: ctranslate2.StorageView.from_array(src_len.to(torch.int32)),"
+GitHub,OpenNMT/OpenNMT-py,OpenNMT-py,CTranslate2,confirmed,dependency,setup.py,https://github.com/OpenNMT/OpenNMT-py/blob/97111d97551c24857076a4102eabdb468b35cff4/setup.py,https://github.com/OpenNMT/OpenNMT-py,7021,"26: ""ctranslate2>=4,<5"","
+GitHub,OpenNMT/OpenNMT-tf,OpenNMT-tf,CTranslate2,needs_review,documentation_reference,CHANGELOG.md,https://github.com/OpenNMT/OpenNMT-tf/blob/6f3b952ebb973dec31250a806bf0f56ff730d0b5/CHANGELOG.md,https://github.com/OpenNMT/OpenNMT-tf,1485,"41: * The model attribute `ctranslate2_spec` has been removed as it is no longer relevant with the new CTranslate2 converter
+47: * Support CTranslate2 3.0
+109: * Integrate the new CTranslate2 converter to export more Transformer variants, including multi-features models
+129: * Enable CTranslate2 conversion for models using GELU or Swish activations
+159: * Correctly set the CTranslate2 options `alignment_layer` and `alignment_heads` when converting models using the attention reduction `AVERAGE_LAST_LAYER`
+172: * Add CTranslate2 exporter with ""int8_float16"" quantization
+178: * Enable the CTranslate2 integration when installing OpenNMT-tf on Windows
+228: * Update the minimum required CTranslate2 version to 2.0
+314: * Fix CTranslate2 export for models that enable BOS or EOS tokens on the source side (see `source_sequence_controls` data parameter)
+332: * Enable the `pyonmttok` and `ctranslate2` dependencies on macOS
+340: * Add quantized CTranslate2 exporters: `ctranslate2_int8`, `ctranslate2_int16`, `ctranslate2_float16`
+493: * Enable CTranslate2 export for `TransformerBaseRelative` and `TransformerBigRelative` models
+508: * Support exporting compatible models to CTranslate2 format (see `export_format` option)"
+GitHub,OpenNMT/OpenNMT-tf,OpenNMT-tf,CTranslate2,needs_review,documentation_reference,README.md,https://github.com/OpenNMT/OpenNMT-tf/blob/6f3b952ebb973dec31250a806bf0f56ff730d0b5/README.md,https://github.com/OpenNMT/OpenNMT-tf,1485,"62: ### Compatibility with CTranslate2
+64: [CTranslate2](https://github.com/OpenNMT/CTranslate2) is an optimized inference engine for OpenNMT models featuring fast CPU and GPU execution, model quantization, parallel translations, dynamic memory usage, interactive decoding, and more! OpenNMT-tf can [automatically export](https://opennmt.net/OpenNMT-tf/serving.html#ctranslate2) models to be used in CTranslate2."
+GitHub,OpenNMT/OpenNMT-tf,OpenNMT-tf,CTranslate2,needs_review,documentation_reference,docs/configuration.md,https://github.com/OpenNMT/OpenNMT-tf/blob/6f3b952ebb973dec31250a806bf0f56ff730d0b5/docs/configuration.md,https://github.com/OpenNMT/OpenNMT-tf,1485,"316: # ""ctranslate2"", ""ctranslate2_int8"", ""ctranslate2_int16"", ""ctranslate2_float16"","
+GitHub,OpenNMT/OpenNMT-tf,OpenNMT-tf,CTranslate2,needs_review,documentation_reference,docs/serving.md,https://github.com/OpenNMT/OpenNMT-tf/blob/6f3b952ebb973dec31250a806bf0f56ff730d0b5/docs/serving.md,https://github.com/OpenNMT/OpenNMT-tf,1485,"43: ## CTranslate2
+45: [CTranslate2](https://github.com/OpenNMT/CTranslate2) is an optimized inference engine for OpenNMT models that is typically faster, lighter, and more customizable than the TensorFlow runtime.
+47: Selected models can be exported to the CTranslate2 format directly from OpenNMT-tf by selecting the `ctranslate2` export format.
+52: onmt-main [...] export --output_dir ~/my-models/ende --format ctranslate2
+61: export_format: ctranslate2
+64: [Model quantization](https://github.com/OpenNMT/CTranslate2#quantization-and-reduced-precision) can also be enabled by replacing `ctranslate2` by one of the following export types:
+66: * `ctranslate2_int8`
+67: * `ctranslate2_int16`
+68: * `ctranslate2_float16`"
+GitHub,OpenNMT/OpenNMT-tf,OpenNMT-tf,CTranslate2,confirmed,code_usage,opennmt/tests/runner_test.py,https://github.com/OpenNMT/OpenNMT-tf/blob/6f3b952ebb973dec31250a806bf0f56ff730d0b5/opennmt/tests/runner_test.py,https://github.com/OpenNMT/OpenNMT-tf,1485,"353: (""ctranslate2"",),
+354: (""ctranslate2_int8"",),
+355: (""ctranslate2_int16"",),
+358: def testCTranslate2Export(self, variant):
+360: import ctranslate2
+362: self.skipTest(""ctranslate2 module is not available"")
+366: self.assertTrue(ctranslate2.contains_model(export_dir))
+367: translator = ctranslate2.Translator(export_dir)"
+GitHub,OpenNMT/OpenNMT-tf,OpenNMT-tf,CTranslate2,needs_review,documentation_reference,opennmt/utils/__init__.py,https://github.com/OpenNMT/OpenNMT-tf/blob/6f3b952ebb973dec31250a806bf0f56ff730d0b5/opennmt/utils/__init__.py,https://github.com/OpenNMT/OpenNMT-tf,1485,"20: CTranslate2Exporter,
+21: CTranslate2Float16Exporter,
+22: CTranslate2Int8Exporter,
+23: CTranslate2Int8Float16Exporter,
+24: CTranslate2Int16Exporter,"
+GitHub,OpenNMT/OpenNMT-tf,OpenNMT-tf,CTranslate2,confirmed,code_usage,opennmt/utils/exporters.py,https://github.com/OpenNMT/OpenNMT-tf/blob/6f3b952ebb973dec31250a806bf0f56ff730d0b5/opennmt/utils/exporters.py,https://github.com/OpenNMT/OpenNMT-tf,1485,"7: import ctranslate2
+140: @register_exporter(name=""ctranslate2"")
+141: class CTranslate2Exporter(Exporter):
+142: """"""CTranslate2 exporter.""""""
+153: ImportError: if the CTranslate2 package is missing.
+159: ""Invalid quantization '%s' for CTranslate2, accepted values are: %s""
+168: converter = ctranslate2.converters.OpenNMTTFConverter(model)
+172: @register_exporter(name=""ctranslate2_int8"")
+173: class CTranslate2Int8Exporter(CTranslate2Exporter):
+174: """"""CTranslate2 exporter with int8 quantization.""""""
+180: @register_exporter(name=""ctranslate2_int16"")
+181: class CTranslate2Int16Exporter(CTranslate2Exporter):
+182: """"""CTranslate2 exporter with int16 quantization.""""""
+188: @register_exporter(name=""ctranslate2_float16"")
+189: class CTranslate2Float16Exporter(CTranslate2Exporter):
+190: """"""CTranslate2 exporter with float16 quantization.""""""
+196: @register_exporter(name=""ctranslate2_int8_float16"")
+197: class CTranslate2Int8Float16Exporter(CTranslate2Exporter):
+198: """"""CTranslate2 exporter with int8_float16 quantization."""""""
+GitHub,OpenNMT/OpenNMT-tf,OpenNMT-tf,CTranslate2,confirmed,dependency,setup.py,https://github.com/OpenNMT/OpenNMT-tf/blob/6f3b952ebb973dec31250a806bf0f56ff730d0b5/setup.py,https://github.com/OpenNMT/OpenNMT-tf,1485,"72: ""ctranslate2>=3.0,<4"","
+GitHub,collabora/WhisperLive,WhisperLive,CTranslate2,needs_review,documentation_reference,README.md,https://github.com/collabora/WhisperLive/blob/99cbc1c33b35c372b4790975f819dfde62f3e74a/README.md,https://github.com/collabora/WhisperLive,4305,"85: # running with custom model and cache_dir to save auto-converted ctranslate2 models
+123: - Please follow [ROCm_whisper readme](https://github.com/collabora/WhisperLive/blob/main/ROCm_whisper.md) for setup of AMD ROCm GPU support with the CTranslate2 ROCm wheel.
+370: - AMD ROCm (faster-whisper on AMD GPU via CTranslate2 ROCm wheel)
+388: On macOS, especially on Intel Macs, `faster_whisper`/`ctranslate2` can conflict with OpenMP runtimes loaded by other Python packages. If the server aborts with a duplicate OpenMP runtime error, run the server with `KMP_DUPLICATE_LIB_OK=TRUE`:"
+GitHub,collabora/WhisperLive,WhisperLive,CTranslate2,needs_review,documentation_reference,ROCm_whisper.md,https://github.com/collabora/WhisperLive/blob/99cbc1c33b35c372b4790975f819dfde62f3e74a/ROCm_whisper.md,https://github.com/collabora/WhisperLive,4305,"2: Run WhisperLive's `faster_whisper` backend on AMD GPUs using the official [CTranslate2 ROCm wheel](https://github.com/OpenNMT/CTranslate2/releases). Tested on Radeon AI PRO R9700 (gfx1201/RDNA4) and Ryzen AI Max+ 395 / Radeon 8060S (gfx1151/Strix Halo).
+31: ### Install CTranslate2 ROCm wheel
+32: The default `pip install ctranslate2` installs a CUDA-only wheel. Replace it with the official ROCm wheel from the [CTranslate2 releases page](https://github.com/OpenNMT/CTranslate2/releases):
+36: curl -LO https://github.com/OpenNMT/CTranslate2/releases/download/v4.8.0/rocm-python-wheels-Linux.zip
+39: unzip -j rocm-python-wheels-Linux.zip 'temp-linux/ctranslate2-*-cp312-*manylinux*x86_64.whl'
+41: # Install (replaces any existing ctranslate2)
+42: pip install ctranslate2-*-cp312-*.whl
+50: ### Verify GPU is visible to CTranslate2
+52: python -c ""import ctranslate2; print('devices:', ctranslate2.get_cuda_device_count())""
+54: Expected output: `devices: 1` (CTranslate2 uses the name ""cuda"" even on ROCm).
+66: The server automatically uses the AMD GPU when the CTranslate2 ROCm wheel is installed. For multi-GPU systems, use `HIP_VISIBLE_DEVICES=N` to select a specific GPU."
+GitHub,collabora/WhisperLive,WhisperLive,CTranslate2,confirmed,installation,docker/Dockerfile.rocm,https://github.com/collabora/WhisperLive/blob/99cbc1c33b35c372b4790975f819dfde62f3e74a/docker/Dockerfile.rocm,https://github.com/collabora/WhisperLive,4305,"4: # Uses the official CTranslate2 ROCm wheel (ships kernels for gfx803 through
+20: ARG CT2_WHEEL_URL=https://github.com/OpenNMT/CTranslate2/releases/download/v4.8.0/rocm-python-wheels-Linux.zip
+28: # Install the CTranslate2 ROCm wheel (official release artifact).
+29: # This replaces any CUDA-only ctranslate2 and enables GPU on AMD.
+31: unzip -j /tmp/ct2-rocm.zip 'temp-linux/ctranslate2-*-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl' -d /tmp && \
+32: pip install --no-cache-dir --force-reinstall /tmp/ctranslate2-*-cp312-*.whl && \
+33: rm -f /tmp/ct2-rocm.zip /tmp/ctranslate2-*.whl"
+GitHub,collabora/WhisperLive,WhisperLive,CTranslate2,needs_review,documentation_reference,run_server.py,https://github.com/collabora/WhisperLive/blob/99cbc1c33b35c372b4790975f819dfde62f3e74a/run_server.py,https://github.com/collabora/WhisperLive,4305,54: help='Path to cache the converted ctranslate2 models.')
+GitHub,collabora/WhisperLive,WhisperLive,CTranslate2,needs_review,documentation_reference,setup.py,https://github.com/collabora/WhisperLive/blob/99cbc1c33b35c372b4790975f819dfde62f3e74a/setup.py,https://github.com/collabora/WhisperLive,4305,73: # CTranslate2 (faster-whisper's backend) is hard-linked against
+GitHub,collabora/WhisperLive,WhisperLive,CTranslate2,confirmed,code_usage,whisper_live/backend/faster_whisper_backend.py,https://github.com/collabora/WhisperLive/blob/99cbc1c33b35c372b4790975f819dfde62f3e74a/whisper_live/backend/faster_whisper_backend.py,https://github.com/collabora/WhisperLive,4305,"7: import ctranslate2
+141: then it is automatically converted to ctranslate2(faster_whisper) format.
+149: if os.path.isdir(model_ref) and ctranslate2.contains_model(model_ref):
+156: if ctranslate2.contains_model(local_snapshot):
+164: if not ctranslate2.contains_model(ct2_dir):
+165: logging.info(f""Converting '{model_ref}' to CTranslate2 @ {ct2_dir}"")
+166: ct2_converter = ctranslate2.converters.TransformersConverter("
+GitHub,collabora/WhisperLive,WhisperLive,CTranslate2,needs_review,documentation_reference,whisper_live/batch_inference.py,https://github.com/collabora/WhisperLive/blob/99cbc1c33b35c372b4790975f819dfde62f3e74a/whisper_live/batch_inference.py,https://github.com/collabora/WhisperLive,4305,"6: collects pending requests and runs them as a GPU batch via CTranslate2's
+157: CTranslate2's ``encode()`` + ``generate()`` APIs."
+GitHub,collabora/WhisperLive,WhisperLive,CTranslate2,confirmed,code_usage,whisper_live/transcriber/transcriber_faster_whisper.py,https://github.com/collabora/WhisperLive/blob/99cbc1c33b35c372b4790975f819dfde62f3e74a/whisper_live/transcriber/transcriber_faster_whisper.py,https://github.com/collabora/WhisperLive,4305,"15: import ctranslate2
+594: a path to a converted model directory, or a CTranslate2-converted Whisper model ID from
+603: See https://opennmt.net/CTranslate2/quantization.html.
+634: self.model = ctranslate2.models.Whisper(
+1055: encoder_output: Optional[ctranslate2.StorageView] = None,
+1339: def encode(self, features: np.ndarray) -> ctranslate2.StorageView:
+1346: features = get_ctranslate2_storage(features)
+1352: encoder_output: ctranslate2.StorageView,
+1356: ) -> Tuple[ctranslate2.models.WhisperGenerationResult, float, float, float]:
+1519: encoder_output: ctranslate2.StorageView,
+1650: encoder_output: ctranslate2.StorageView,
+1820: def get_ctranslate2_storage(segment: np.ndarray) -> ctranslate2.StorageView:
+1822: segment = ctranslate2.StorageView.from_array(segment)"
+GitHub,jhj0517/Whisper-WebUI,Whisper-WebUI,CTranslate2,confirmed,code_usage,modules/whisper/base_transcription_pipeline.py,https://github.com/jhj0517/Whisper-WebUI/blob/c3bb3b18e959826b28b1192486a8d5b361b6a4e0/modules/whisper/base_transcription_pipeline.py,https://github.com/jhj0517/Whisper-WebUI,2890,"3: import ctranslate2
+463: return list(ctranslate2.get_supported_compute_types(""cuda""))
+465: return list(ctranslate2.get_supported_compute_types(""cpu""))"
+GitHub,jhj0517/Whisper-WebUI,Whisper-WebUI,CTranslate2,confirmed,code_usage,modules/whisper/faster_whisper_inference.py,https://github.com/jhj0517/Whisper-WebUI/blob/c3bb3b18e959826b28b1192486a8d5b361b6a4e0/modules/whisper/faster_whisper_inference.py,https://github.com/jhj0517/Whisper-WebUI,2890,"10: import ctranslate2
+132: see more info : https://opennmt.net/CTranslate2/quantization.html"
+GitHub,jhj0517/Whisper-WebUI,Whisper-WebUI,CTranslate2,needs_review,documentation_reference,modules/whisper/insanely_fast_whisper_inference.py,https://github.com/jhj0517/Whisper-WebUI/blob/c3bb3b18e959826b28b1192486a8d5b361b6a4e0/modules/whisper/insanely_fast_whisper_inference.py,https://github.com/jhj0517/Whisper-WebUI,2890,130: see more info : https://opennmt.net/CTranslate2/quantization.html
+GitHub,jhj0517/Whisper-WebUI,Whisper-WebUI,CTranslate2,needs_review,documentation_reference,modules/whisper/whisper_Inference.py,https://github.com/jhj0517/Whisper-WebUI/blob/c3bb3b18e959826b28b1192486a8d5b361b6a4e0/modules/whisper/whisper_Inference.py,https://github.com/jhj0517/Whisper-WebUI,2890,103: see more info : https://opennmt.net/CTranslate2/quantization.html
+GitHub,shashikg/WhisperS2T,WhisperS2T,CTranslate2,needs_review,documentation_reference,README.md,https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/README.md,https://github.com/shashikg/WhisperS2T,580,"28: * [Dec 23, 2023]: Added support for word alignment for CTranslate2 backend (check [benchmark](https://github.com/shashikg/WhisperS2T/releases/tag/v1.2.0)).
+50: **NOTE:** I conducted all the benchmarks using the `without_timestamps` parameter set as `True`. Adjusting this parameter to `False` may enhance the Word Error Rate (WER) of the HuggingFace pipeline but at the expense of increased inference time. Notably, the improvements in inference speed were achieved solely through a **superior pipeline design**, without any specific optimization made to the backend inference engines (such as CTranslate2, FlashAttention2, etc.). For instance, WhisperS2T (uti
+55: - 🔄 **Multi-Backend Support:** Support for various Whisper model backends including Original OpenAI Model, HuggingFace Model with FlashAttention2, and CTranslate2 Model.
+59: - 🌐 **Batching Support with Multiple Language/Task Decoding:** Decode multiple languages or perform both transcription and translation in a single batch for improved versatility and transcription time. (Best support with CTranslate2 backend)
+60: - 🧠 **Reduction in Hallucination:** Optimized parameters and heuristics to decrease repeated text output or hallucinations. (Some heuristics works only with CTranslate2 backend)
+61: - ⏱️ **Dynamic Time Length Support (Experimental):** Process variable-length inputs in a given input batch instead of fixed 30 seconds, providing flexibility and saving computation time during transcription. (Only with CTranslate2 backend)
+146: #### CTranslate2 Backend
+151: model = whisper_s2t.load_model(model_identifier=""large-v2"", backend='CTranslate2')
+218: - [**CTranslate2 Team**](https://github.com/OpenNMT/CTranslate2/): Thanks to the CTranslate2 Team for providing a faster inference engine for Transformers architecture."
+GitHub,shashikg/WhisperS2T,WhisperS2T,CTranslate2,needs_review,documentation_reference,docs.md,https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/docs.md,https://github.com/shashikg/WhisperS2T,580,"12: Load WhisperS2T with CTranslate2 backend with default parameters:
+17: model = whisper_s2t.load_model(model_identifier=""large-v2"", backend='CTranslate2')
+27: initial_prompts=initial_prompts, # to do prompting (currently only supported for CTranslate2 backend)
+46: model = whisper_s2t.load_model(model_identifier=""large-v2"", backend='HuggingFace') # Supported backends ['CTranslate2', 'HuggingFace', 'OpenAI']
+55: model = whisper_s2t.load_model(model_identifier=""large-v2"", backend='CTranslate2', vad_model=vad_model)
+66: initial_prompts=initial_prompts, # to do prompting (currently only supported for CTranslate2 backend)
+96: from whisper_s2t.backends.ctranslate2.model import BEST_ASR_CONFIG
+99: 'compute_type': 'int8', # Note int8 is only supported for CTranslate2 backend, for others only float16 is supported for lower precision.
+103: model = whisper_s2t.load_model(model_identifier=""large-v2"", backend='CTranslate2', **model_kwargs)
+114: Only for CTranslate2 and TensorRT backend.
+129: initial_prompts=initial_prompts, # to do prompting (currently only supported for CTranslate2 backend)"
+GitHub,shashikg/WhisperS2T,WhisperS2T,CTranslate2,needs_review,documentation_reference,notebooks/WhisperS2T_CTranslate2.ipynb,https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/notebooks/WhisperS2T_CTranslate2.ipynb,https://github.com/shashikg/WhisperS2T,580,"10: ""<h1>WhisperS2T Demo CTranslate2 Backend</h1>\n"",
+11: ""<a target=\""_blank\"" href=\""https://colab.research.google.com/github/shashikg/WhisperS2T/blob/main/notebooks/WhisperS2T_CTranslate2.ipynb\"">\n"",
+139: ""Collecting ctranslate2 (from whisper-s2t==1.2.0)\n"",
+140: ""  Downloading ctranslate2-3.24.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.8 MB)\n"",
+170: ""Requirement already satisfied: setuptools in /usr/local/lib/python3.10/dist-packages (from ctranslate2->whisper-s2t==1.2.0) (67.7.2)\n"",
+226: ""Installing collected packages: sentencepiece, nvidia-ml-py, humanfriendly, dill, ctranslate2, tiktoken, multiprocess, coloredlogs, openai-whisper, accelerate, datasets, optimum, whisper-s2t\n"",
+230: ""\u001b[0mSuccessfully installed accelerate-0.26.1 coloredlogs-15.0.1 ctranslate2-3.24.0 datasets-2.16.1 dill-0.3.7 humanfriendly-10.0 multiprocess-0.70.15 nvidia-ml-py-12.535.133 openai-whisper-20231117 optimum-1.16.2 sentencepiece-0.1.99 tiktoken-0.5.2 whisper-s2t-1.2.0\n"",
+449: ""model = whisper_s2t.load_model(model_identifier=\""large-v2\"", backend='CTranslate2')"""
+GitHub,shashikg/WhisperS2T,WhisperS2T,CTranslate2,needs_review,documentation_reference,notebooks/WhisperS2T_TensorRT_LLM.ipynb,https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/notebooks/WhisperS2T_TensorRT_LLM.ipynb,https://github.com/shashikg/WhisperS2T,580,"139: ""Collecting ctranslate2 (from whisper-s2t==1.2.0)\n"",
+140: ""  Downloading ctranslate2-3.24.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.8 MB)\n"",
+170: ""Requirement already satisfied: setuptools in /usr/local/lib/python3.10/dist-packages (from ctranslate2->whisper-s2t==1.2.0) (67.7.2)\n"",
+226: ""Installing collected packages: sentencepiece, nvidia-ml-py, humanfriendly, dill, ctranslate2, tiktoken, multiprocess, coloredlogs, openai-whisper, accelerate, datasets, optimum, whisper-s2t\n"",
+230: ""\u001b[0mSuccessfully installed accelerate-0.26.1 coloredlogs-15.0.1 ctranslate2-3.24.0 datasets-2.16.1 dill-0.3.7 humanfriendly-10.0 multiprocess-0.70.15 nvidia-ml-py-12.535.133 openai-whisper-20231117 optimum-1.16.2 sentencepiece-0.1.99 tiktoken-0.5.2 whisper-s2t-1.2.0\n"","
+GitHub,shashikg/WhisperS2T,WhisperS2T,CTranslate2,confirmed,dependency,requirements.txt,https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/requirements.txt,https://github.com/shashikg/WhisperS2T,580,6: ctranslate2==4.0.0
+GitHub,shashikg/WhisperS2T,WhisperS2T,CTranslate2,needs_review,documentation_reference,run_benchmark.sh,https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/run_benchmark.sh,https://github.com/shashikg/WhisperS2T,580,"8: echo ""WhisperS2T - CTranslate2""
+9: python3 scripts/benchmark_whisper_s2t.py --repo_path=""$REPO_DIR"" --backend=""CTranslate2"" --batch_size=56 --eval_mp3=""yes"""
+GitHub,shashikg/WhisperS2T,WhisperS2T,CTranslate2,needs_review,documentation_reference,scripts/benchmark_whisper_s2t.py,https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/scripts/benchmark_whisper_s2t.py,https://github.com/shashikg/WhisperS2T,580,"6: parser.add_argument('--backend', default=""CTranslate2"", type=str)"
+GitHub,shashikg/WhisperS2T,WhisperS2T,CTranslate2,confirmed,code_usage,whisper_s2t/__init__.py,https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/whisper_s2t/__init__.py,https://github.com/shashikg/WhisperS2T,580,"13: backend='CTranslate2',
+25: if backend.lower() in [""ctranslate2"", ""ct2""]:
+26: from .backends.ctranslate2.model import WhisperModelCT2 as WhisperModel
+42: raise ValueError(f""Backend name '{backend}' is invalid. Only following options are available: ['CTranslate2', 'TensorRT-LLM', 'HuggingFace', 'OpenAI']"")"
+GitHub,shashikg/WhisperS2T,WhisperS2T,CTranslate2,needs_review,documentation_reference,whisper_s2t/backends/ctranslate2/hf_utils.py,https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/whisper_s2t/backends/ctranslate2/hf_utils.py,https://github.com/shashikg/WhisperS2T,580,"43: """"""Downloads a CTranslate2 Whisper model from the Hugging Face Hub.
+48: large), or a CTranslate2-converted model ID from the Hugging Face Hub"
+GitHub,shashikg/WhisperS2T,WhisperS2T,CTranslate2,confirmed,code_usage,whisper_s2t/backends/ctranslate2/model.py,https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/whisper_s2t/backends/ctranslate2/model.py,https://github.com/shashikg/WhisperS2T,580,"3: import ctranslate2
+80: self.model = ctranslate2.models.Whisper(self.model_path,
+97: self.aligner_model = ctranslate2.models.Whisper(self.aligner_model_path,
+139: features = ctranslate2.StorageView.from_array(features.contiguous())
+185: res = self.aligner_model.align(ctranslate2.StorageView.from_array(features[req_idx]),
+225: result = self.model.generate(ctranslate2.StorageView.from_array(features),"
+GitHub,shashikg/WhisperS2T,WhisperS2T,CTranslate2,needs_review,documentation_reference,whisper_s2t/backends/tensorrt/hf_utils.py,https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/whisper_s2t/backends/tensorrt/hf_utils.py,https://github.com/shashikg/WhisperS2T,580,"43: """"""Downloads a CTranslate2 Whisper model from the Hugging Face Hub.
+48: large), or a CTranslate2-converted model ID from the Hugging Face Hub"
+GitHub,shashikg/WhisperS2T,WhisperS2T,CTranslate2,confirmed,code_usage,whisper_s2t/backends/tensorrt/model.py,https://github.com/shashikg/WhisperS2T/blob/078cdb6a039d4e6e411c2a7f6184e51a760134d2/whisper_s2t/backends/tensorrt/model.py,https://github.com/shashikg/WhisperS2T,580,"3: import ctranslate2
+116: self.aligner_model = ctranslate2.models.Whisper(self.aligner_model_path,
+200: res = self.aligner_model.align(ctranslate2.StorageView.from_array(features[req_idx]),"

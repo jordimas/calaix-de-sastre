@@ -1,0 +1,110 @@
+[
+  {
+    "files_read": 5,
+    "files_skipped": 0,
+    "query": "\"ctranslate2\" -org:Softcatala repo:SYSTRAN/faster-whisper",
+    "reported_count": 5,
+    "unique_matches": 5,
+    "requests": 1,
+    "partitions": [
+      {
+        "query": "\"ctranslate2\" -org:Softcatala repo:SYSTRAN/faster-whisper",
+        "reported_count": 5,
+        "returned_count": 5,
+        "complete": true
+      }
+    ],
+    "complete": true,
+    "state": "completed"
+  },
+  {
+    "files_read": 3,
+    "files_skipped": 0,
+    "query": "\"ctranslate2\" -org:Softcatala repo:m-bain/whisperX",
+    "reported_count": 3,
+    "unique_matches": 3,
+    "requests": 1,
+    "partitions": [
+      {
+        "query": "\"ctranslate2\" -org:Softcatala repo:m-bain/whisperX",
+        "reported_count": 3,
+        "returned_count": 3,
+        "complete": true
+      }
+    ],
+    "complete": true,
+    "state": "completed"
+  },
+  {
+    "files_read": 8,
+    "files_skipped": 0,
+    "query": "\"ctranslate2\" -org:Softcatala repo:argosopentech/argos-translate",
+    "reported_count": 8,
+    "unique_matches": 8,
+    "requests": 1,
+    "partitions": [
+      {
+        "query": "\"ctranslate2\" -org:Softcatala repo:argosopentech/argos-translate",
+        "reported_count": 8,
+        "returned_count": 8,
+        "complete": true
+      }
+    ],
+    "complete": true,
+    "state": "completed"
+  },
+  {
+    "files_read": 0,
+    "files_skipped": 0,
+    "query": "\"ctranslate2\" -org:Softcatala repo:LibreTranslate/LibreTranslate",
+    "reported_count": 0,
+    "unique_matches": 0,
+    "requests": 1,
+    "partitions": [
+      {
+        "query": "\"ctranslate2\" -org:Softcatala repo:LibreTranslate/LibreTranslate",
+        "reported_count": 0,
+        "returned_count": 0,
+        "complete": true
+      }
+    ],
+    "complete": true,
+    "state": "completed"
+  },
+  {
+    "files_read": 1,
+    "files_skipped": 0,
+    "query": "\"ctranslate2\" -org:Softcatala repo:chidiwilliams/buzz",
+    "reported_count": 1,
+    "unique_matches": 1,
+    "requests": 1,
+    "partitions": [
+      {
+        "query": "\"ctranslate2\" -org:Softcatala repo:chidiwilliams/buzz",
+        "reported_count": 1,
+        "returned_count": 1,
+        "complete": true
+      }
+    ],
+    "complete": true,
+    "state": "completed"
+  },
+  {
+    "files_read": 17,
+    "files_skipped": 0,
+    "query": "\"ctranslate2\" -org:Softcatala repo:thecopybookhare-cmd/lingua-miner",
+    "reported_count": 17,
+    "unique_matches": 17,
+    "requests": 1,
+    "partitions": [
+      {
+        "query": "\"ctranslate2\" -org:Softcatala repo:thecopybookhare-cmd/lingua-miner",
+        "reported_count": 17,
+        "returned_count": 17,
+        "complete": true
+      }
+    ],
+    "complete": true,
+    "state": "completed"
+  }
+]
