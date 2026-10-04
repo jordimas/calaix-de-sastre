@@ -113,7 +113,11 @@ def gource_svg(report):
     cursor = 0
     for index, resource in enumerate(resources):
         color = palette[index % len(palette)]
-        rows = sorted(groups[resource].values(), key=lambda f: f['project'].casefold())
+        # Keep each organization's leaves contiguous so shared branches do not
+        # cross the leaves belonging to other organizations.
+        rows = sorted(groups[resource].values(), key=lambda f: (
+            (f.get('product_organization') or f['project'].split('/')[0]).casefold(),
+            (f.get('product_name') or f['project']).casefold()))
         positions = []
         for offset, finding in enumerate(rows):
             angle = -math.pi / 2 + 2 * math.pi * (cursor + offset + 0.5) / slots
